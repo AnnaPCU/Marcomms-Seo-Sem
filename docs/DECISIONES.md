@@ -15,7 +15,7 @@ Registro corto de por qué las cosas son como son. Se agrega arriba.
   sin duplicar tarjetas ni pisar el estado que alguien ya movió.
 - **Las recomendaciones no se escriben en la web.** Salen de los informes del proyecto de análisis y se
   cargan por script. La web es para decidir y seguir, no para redactar.
-- **Métricas como ventana móvil de 31 días** guardada bajo el mes en que termina. La API de Ads se consulta
-  por ventana y el informe se hace así; cuando haya varios meses cargados se compara ventana contra ventana.
+- **Métricas por mes calendario**, del 1 al último día con datos. Felipe pidió que la vista mensual sea el mes
+  real y no una ventana móvil; el gasto por día sale de dividir por los días con datos.
 - **RLS abierto para autenticados.** Equipo de pocas personas, todas del grupo; no hay roles por ahora.
 - **Una rama, sin staging.** `npm run verificar` antes de cada push reemplaza al entorno de prueba.

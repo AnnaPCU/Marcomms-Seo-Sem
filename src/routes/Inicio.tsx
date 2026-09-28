@@ -109,7 +109,7 @@ export default function Inicio() {
         <Tarjeta className="p-4">
           <div className="flex items-baseline justify-between">
             <h2 className="text-sm">Gasto por campaña</h2>
-            <span className="text-xs text-mc-grey">{ultimoMes ? `ventana de 31 días cerrada en ${mesCorto(ultimoMes)}` : ''}</span>
+            <span className="text-xs text-mc-grey">{ultimoMes ? `mes de ${mesCorto(ultimoMes)}` : ''}</span>
           </div>
           {met.cargando || cat.cargando ? (
             <Cargando />

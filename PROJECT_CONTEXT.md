@@ -28,8 +28,8 @@ análisis el mes siguiente. Origen de cada tipo:
   `verificada_api` se reserva para marcar automáticamente lo que la API confirme aplicado (pendiente).
 - `recomendacion_eventos`: historial de cambios de estado.
 - `extracciones`: última corrida de cada fuente y hasta qué fecha llegan los datos.
-- `metricas_mes`: gasto, clics y conversiones por campaña. Hoy se carga la ventana móvil de 31 días que
-  termina en el mes indicado (la API se consulta por ventana, no por mes calendario).
+- `metricas_mes`: gasto, clics y conversiones por campaña y mes calendario (del 1 al último día con datos
+  al momento de la extracción; se reemplaza al volver a correr el loader).
 
 ## Acceso
 

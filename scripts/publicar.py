@@ -3,7 +3,7 @@
 publicar.py — carga en Supabase lo que produce el proyecto de análisis (Optimizaciónes SEO-SEM/proyecto):
   1. campañas y grupos      ← datos/ads/api/estructura_<fecha>/{campanas,grupos}.csv (la más reciente)
   2. recomendaciones        ← informe/recomendaciones.json (lo genera scripts/exportar_recomendaciones.py)
-  3. métricas por campaña   ← informe/datos_gasto_30d.json (ventana de 31 días; se guarda bajo el mes en que termina)
+  3. métricas por campaña   ← informe/datos_gasto_actual.json (mes en curso, del 1 al último día extraído; lo genera analisis_gasto.py)
   4. extracciones           ← fechas de los archivos de Search Console y Ads
 
 Es idempotente: las recomendaciones que ya existen (misma clave) solo actualizan texto, evidencia y prioridad;
@@ -117,10 +117,10 @@ if SOLO in (None, "recomendaciones"):
     print(f"recomendaciones: {len(nuevas)} nuevas, {len(viejas)} actualizadas (sin tocar estado)")
 
 # ------------------------------------------------------------------ 3. métricas del mes (ventana de 31 días)
-gasto_path = os.path.join(PROY, "informe", "datos_gasto_30d.json")
+gasto_path = os.path.join(PROY, "informe", "datos_gasto_actual.json")
 G = json.load(open(gasto_path, encoding="utf-8")) if os.path.exists(gasto_path) else None
 if SOLO in (None, "metricas") and G:
-    hasta = G["ventana"].split("_")[1]
+    hasta = G["hasta"]
     mes = hasta[:7]
     acc = {}
     for f in G["filas"]:
@@ -138,7 +138,7 @@ if SOLO in (None, "metricas") and G:
 if SOLO in (None, "extracciones"):
     nuevas = []
     if G:
-        desde, hasta = G["ventana"].split("_")
+        desde, hasta = G["desde"], G["hasta"]
         corrida = datetime.fromtimestamp(os.path.getmtime(gasto_path), tz=timezone.utc).isoformat()
         nuevas.append(dict(fuente="google_ads", corrida_en=corrida, desde=desde, hasta=hasta, filas=len(G["filas"]),
                            detalle={"ventana": G["ventana"], "dias": G["dias"], "snapshot_estructura": os.path.basename(snap)}))
