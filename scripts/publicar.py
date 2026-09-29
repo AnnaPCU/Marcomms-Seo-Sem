@@ -56,6 +56,8 @@ CAMPANAS = []
 for _, r in camp.iterrows():
     nombre = str(r["campaign.name"])
     micros = pd.to_numeric(r.get("campaign_budget.amount_micros"), errors="coerce")
+    if str(r["marca"]).upper() not in ("CU", "PS", "PCU"):
+        continue  # campañas sueltas sin marca (p. ej. "Campaign #1") no entran al tablero
     CAMPANAS.append(dict(ads_id=str(r["campaign.id"]), nombre=nombre, marca=str(r["marca"]).upper(), unidad=unidad_de(nombre),
                          estado=str(r["campaign.status"]), presupuesto_dia=None if pd.isna(micros) else round(float(micros) / 1e6, 2)))
 NOMBRES = [c["nombre"] for c in CAMPANAS]
@@ -104,7 +106,7 @@ if diarios:
     fechas = pd.concat([pd.read_csv(p, usecols=["date"], encoding="utf-8-sig")["date"] for p in diarios])
     EXTRACCIONES.append(dict(fuente="search_console", corrida_en=datetime.fromtimestamp(max(os.path.getmtime(p) for p in diarios), tz=timezone.utc).isoformat(),
                              desde=str(fechas.min())[:10], hasta=str(fechas.max())[:10], filas=int(len(fechas)),
-                             detalle={"propiedades": len(diarios), "cortes": "queries, pages, query_page, devices, daily, queries_agg, device_total, device_date"}))
+                             detalle={"archivos": len(diarios), "cortes": "queries, pages, query_page, devices, daily, queries_agg, device_total, device_date"}))
 
 
 # ══════════════════════════════════════════════════════════════ modo SQL
@@ -121,42 +123,45 @@ def q(v):
     return "'" + str(v).replace("'", "''") + "'"
 
 
+def lote(filas, cols):
+    """Un literal jsonb con las filas y la definición de columnas para jsonb_to_recordset."""
+    lit = json.dumps(filas, ensure_ascii=False, separators=(",", ":")).replace("'", "''")
+    return f"jsonb_to_recordset('{lit}'::jsonb) as x({cols})"
+
+
 def sql_carga():
+    """Una sentencia por tabla (jsonb_to_recordset): compacto, idempotente y legible en el SQL editor."""
     out = [f"-- Carga generada por scripts/publicar.py el {datetime.now():%Y-%m-%d %H:%M}. Idempotente.", "begin;"]
     if SOLO in (None, "campanas"):
         out.append(f"-- campañas ({len(CAMPANAS)}) y grupos ({len(GRUPOS)}) · snapshot {os.path.basename(snap)}")
-        for c in CAMPANAS:
-            out.append(f"insert into {ESQ}.campanas (ads_id, nombre, marca, unidad, estado, presupuesto_dia) values "
-                       f"({q(c['ads_id'])}, {q(c['nombre'])}, {q(c['marca'])}, {q(c['unidad'])}, {q(c['estado'])}, {q(c['presupuesto_dia'])}) "
-                       f"on conflict (nombre) do update set ads_id = excluded.ads_id, marca = excluded.marca, unidad = excluded.unidad, "
-                       f"estado = excluded.estado, presupuesto_dia = excluded.presupuesto_dia;")
-        for g in GRUPOS:
-            out.append(f"insert into {ESQ}.grupos (campana_id, ads_id, nombre, estado) values "
-                       f"((select id from {ESQ}.campanas where nombre = {q(g['campana'])}), {q(g['ads_id'])}, {q(g['nombre'])}, {q(g['estado'])}) "
-                       f"on conflict (campana_id, nombre) do update set ads_id = excluded.ads_id, estado = excluded.estado;")
-    if SOLO in (None, "recomendaciones"):
+        out.append(f"insert into {ESQ}.campanas (ads_id, nombre, marca, unidad, estado, presupuesto_dia)\n"
+                   f"select x.ads_id, x.nombre, x.marca, x.unidad, x.estado, x.presupuesto_dia from {lote(CAMPANAS, 'ads_id text, nombre text, marca text, unidad text, estado text, presupuesto_dia numeric')}\n"
+                   f"on conflict (ads_id) do update set nombre = excluded.nombre, marca = excluded.marca, unidad = excluded.unidad, estado = excluded.estado, presupuesto_dia = excluded.presupuesto_dia;")
+        out.append(f"insert into {ESQ}.grupos (campana_id, ads_id, nombre, estado)\n"
+                   f"select c.id, x.ads_id, x.nombre, x.estado from {lote(GRUPOS, 'campana text, ads_id text, nombre text, estado text')} join {ESQ}.campanas c on c.nombre = x.campana\n"
+                   f"on conflict (campana_id, nombre) do update set ads_id = excluded.ads_id, estado = excluded.estado;")
+    if SOLO in (None, "recomendaciones") and RECS:
         out.append(f"-- recomendaciones ({len(RECS)}): las nuevas entran como están; las existentes conservan estado, orden y quién las movió")
-        for r in RECS:
-            cid = f"(select id from {ESQ}.campanas where nombre = {q(r['campana'])})" if r["campana"] else "null"
-            gid = (f"(select g.id from {ESQ}.grupos g join {ESQ}.campanas c on c.id = g.campana_id where c.nombre = {q(r['campana'])} and g.nombre = {q(r['grupo'])})"
-                   if r["campana"] and r.get("grupo") else "null")
-            out.append(f"insert into {ESQ}.recomendaciones (clave, marca, tipo, campana_id, grupo_id, sitio, pagina, titulo, detalle, evidencia, prioridad, estado, mes_alta, origen) values "
-                       f"({q(r['clave'])}, {q(r['marca'])}, {q(r['tipo'])}, {cid}, {gid}, {q(r.get('sitio'))}, {q(r.get('pagina'))}, {q(r['titulo'])}, {q(r['detalle'])}, "
-                       f"{q(r.get('evidencia') or {})}, {q(r.get('prioridad', 'media'))}, {q(r.get('estado', 'propuesta'))}, {q(r['mes_alta'])}, {q(r.get('origen'))}) "
+        filas = [dict(clave=r["clave"], marca=r["marca"], tipo=r["tipo"], campana=r["campana"], grupo=r.get("grupo") if r["campana"] else None, sitio=r.get("sitio"),
+                      pagina=r.get("pagina"), titulo=r["titulo"], detalle=r["detalle"], evidencia=r.get("evidencia") or {}, prioridad=r.get("prioridad", "media"),
+                      estado=r.get("estado", "propuesta"), mes_alta=r["mes_alta"], origen=r.get("origen")) for r in RECS]
+        for i in range(0, len(filas), 30):  # tandas de 30 para que cada sentencia sea manejable en el SQL editor
+            out.append(f"insert into {ESQ}.recomendaciones (clave, marca, tipo, campana_id, grupo_id, sitio, pagina, titulo, detalle, evidencia, prioridad, estado, mes_alta, origen)\n"
+                       f"select x.clave, x.marca, x.tipo, c.id, g.id, x.sitio, x.pagina, x.titulo, x.detalle, x.evidencia, x.prioridad, x.estado, x.mes_alta, x.origen\n"
+                       f"from {lote(filas[i:i + 30], 'clave text, marca text, tipo text, campana text, grupo text, sitio text, pagina text, titulo text, detalle text, evidencia jsonb, prioridad text, estado text, mes_alta text, origen text')}\n"
+                       f"left join {ESQ}.campanas c on c.nombre = x.campana left join {ESQ}.grupos g on g.campana_id = c.id and g.nombre = x.grupo\n"
                        f"on conflict (clave) do update set campana_id = excluded.campana_id, grupo_id = excluded.grupo_id, sitio = excluded.sitio, pagina = excluded.pagina, "
                        f"titulo = excluded.titulo, detalle = excluded.detalle, evidencia = excluded.evidencia, prioridad = excluded.prioridad, origen = excluded.origen;")
     if SOLO in (None, "metricas") and METRICAS:
         out.append(f"-- métricas ({len(METRICAS)} campañas) · {G['ventana']}")
-        for m in METRICAS.values():
-            out.append(f"insert into {ESQ}.metricas_mes (campana_id, mes, coste, clics, impresiones, conversiones) values "
-                       f"((select id from {ESQ}.campanas where nombre = {q(m['campana'])}), {q(m['mes'])}, {q(m['coste'])}, {q(m['clics'])}, {q(m['impresiones'])}, {q(m['conversiones'])}) "
-                       f"on conflict (campana_id, mes) do update set coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
-    if SOLO in (None, "extracciones"):
+        out.append(f"insert into {ESQ}.metricas_mes (campana_id, mes, coste, clics, impresiones, conversiones)\n"
+                   f"select c.id, x.mes, x.coste, x.clics, x.impresiones, x.conversiones from {lote(list(METRICAS.values()), 'campana text, mes text, coste numeric, clics integer, impresiones integer, conversiones numeric')} join {ESQ}.campanas c on c.nombre = x.campana\n"
+                   f"on conflict (campana_id, mes) do update set coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
+    if SOLO in (None, "extracciones") and EXTRACCIONES:
         out.append(f"-- extracciones ({len(EXTRACCIONES)})")
-        for e in EXTRACCIONES:
-            out.append(f"insert into {ESQ}.extracciones (fuente, corrida_en, desde, hasta, filas, detalle) select "
-                       f"{q(e['fuente'])}, {q(e['corrida_en'])}, {q(e['desde'])}, {q(e['hasta'])}, {q(e['filas'])}, {q(e['detalle'])} "
-                       f"where not exists (select 1 from {ESQ}.extracciones where fuente = {q(e['fuente'])} and hasta = {q(e['hasta'])});")
+        out.append(f"insert into {ESQ}.extracciones (fuente, corrida_en, desde, hasta, filas, detalle)\n"
+                   f"select x.fuente, x.corrida_en, x.desde, x.hasta, x.filas, x.detalle from {lote(EXTRACCIONES, 'fuente text, corrida_en timestamptz, desde date, hasta date, filas integer, detalle jsonb')}\n"
+                   f"where not exists (select 1 from {ESQ}.extracciones e where e.fuente = x.fuente and e.hasta = x.hasta);")
     out.append("commit;")
     return "\n".join(out) + "\n"
 
