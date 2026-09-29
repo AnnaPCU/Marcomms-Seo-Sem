@@ -1,30 +1,38 @@
 /**
  * Sesión de Supabase Auth como contexto de React.
- * Google (restringido a los dominios del grupo por trigger en la base) y enlace mágico por correo como alternativa.
+ * Acceso con una contraseña compartida del equipo: la app inicia sesión con la cuenta interna del tablero
+ * (seo-sem@onepeterson.com) y la contraseña que escribe la persona. Su nombre se guarda en el navegador
+ * para atribuir los movimientos del tablero.
  */
 import { createContext, useCallback, useContext, useEffect, useMemo, useState, type ReactNode } from 'react';
 import type { Session } from '@supabase/supabase-js';
 import { supabase } from '@/lib/supabase';
-import { DOMINIOS_PERMITIDOS } from '@/constants/estados';
+
+/** Cuenta interna del tablero. No es un secreto: lo que protege el acceso es la contraseña. */
+export const CUENTA_TABLERO = 'seo-sem@onepeterson.com';
+const CLAVE_NOMBRE = 'seo-sem.nombre';
 
 interface Auth {
   sesion: Session | null;
-  email: string | null;
+  nombre: string | null;
   cargando: boolean;
-  entrarConGoogle: () => Promise<void>;
-  entrarConEmail: (email: string) => Promise<void>;
+  entrar: (contrasena: string, nombre: string) => Promise<void>;
   salir: () => Promise<void>;
 }
 
 const Ctx = createContext<Auth | null>(null);
 
-export function dominioPermitido(email: string): boolean {
-  const dominio = email.trim().toLowerCase().split('@')[1] ?? '';
-  return DOMINIOS_PERMITIDOS.includes(dominio);
+function leerNombre(): string | null {
+  try {
+    return localStorage.getItem(CLAVE_NOMBRE);
+  } catch {
+    return null;
+  }
 }
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [sesion, setSesion] = useState<Session | null>(null);
+  const [nombre, setNombre] = useState<string | null>(leerNombre);
   const [cargando, setCargando] = useState(true);
 
   useEffect(() => {
@@ -44,28 +52,28 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     };
   }, []);
 
-  const entrarConGoogle = useCallback(async () => {
-    const { error } = await supabase.auth.signInWithOAuth({
-      provider: 'google',
-      options: { redirectTo: window.location.origin, queryParams: { prompt: 'select_account' } },
-    });
-    if (error) throw error;
-  }, []);
-
-  const entrarConEmail = useCallback(async (email: string) => {
-    if (!dominioPermitido(email)) throw new Error('Solo cuentas @onepeterson.com o @controlunion.com');
-    const { error } = await supabase.auth.signInWithOtp({ email: email.trim(), options: { emailRedirectTo: window.location.origin } });
-    if (error) throw error;
+  const entrar = useCallback(async (contrasena: string, quien: string) => {
+    const { error } = await supabase.auth.signInWithPassword({ email: CUENTA_TABLERO, password: contrasena });
+    if (error) {
+      const m = error.message;
+      throw new Error(
+        m.includes('Invalid login') ? 'Contraseña incorrecta' : m.includes('not confirmed') ? 'La cuenta del tablero todavía no está confirmada en Supabase (Authentication → Users).' : m,
+      );
+    }
+    const limpio = quien.trim() || 'MarComms';
+    try {
+      localStorage.setItem(CLAVE_NOMBRE, limpio);
+    } catch {
+      /* sin almacenamiento local: el nombre vive solo en memoria */
+    }
+    setNombre(limpio);
   }, []);
 
   const salir = useCallback(async () => {
     await supabase.auth.signOut();
   }, []);
 
-  const valor = useMemo<Auth>(
-    () => ({ sesion, email: sesion?.user.email ?? null, cargando, entrarConGoogle, entrarConEmail, salir }),
-    [sesion, cargando, entrarConGoogle, entrarConEmail, salir],
-  );
+  const valor = useMemo<Auth>(() => ({ sesion, nombre, cargando, entrar, salir }), [sesion, nombre, cargando, entrar, salir]);
   return <Ctx.Provider value={valor}>{children}</Ctx.Provider>;
 }
 

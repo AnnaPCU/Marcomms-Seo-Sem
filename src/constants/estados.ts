@@ -30,4 +30,5 @@ export const PRIORIDADES: { id: Prioridad; label: string; clase: string }[] = [
 ];
 export const PRIORIDAD_BY_ID = Object.fromEntries(PRIORIDADES.map((p) => [p.id, p])) as Record<Prioridad, (typeof PRIORIDADES)[number]>;
 
+// Dominios que aceptan las políticas RLS del esquema (seo_sem.es_del_grupo).
 export const DOMINIOS_PERMITIDOS = ['onepeterson.com', 'controlunion.com'];

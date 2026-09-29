@@ -14,10 +14,9 @@ Cada push a `main` construye y publica en Vercel. No hay entorno de staging: se 
 
 1. **Supabase**: la migración `supabase/migrations/0001_esquema.sql` ya está aplicada en el proyecto del Hub
    (crea el esquema `seo_sem`, lo expone por REST y deja RLS restringido a los dominios del grupo). Para el
-   login: en Authentication → Providers habilitar Google (Client ID y Secret de un cliente OAuth web en Google
-   Cloud, con `https://cogdfbonpvvuzhurmvlq.supabase.co/auth/v1/callback` como URI de redirección). En
-   Authentication → URL configuration agregar la URL de Vercel a Redirect URLs. El enlace por correo funciona
-   sin configurar nada, con el límite de envíos del SMTP de Supabase.
+   acceso: existe la cuenta `seo-sem@onepeterson.com` en Authentication → Users (creada el 29 sep 2026, debe
+   figurar confirmada). Cambiar la contraseña del equipo = cambiar la de esa cuenta desde el dashboard. La URL
+   de Vercel y `http://localhost:5174` están en Authentication → URL configuration → Redirect URLs.
 2. **Vercel**: importar el repo. Framework Vite, build `npm run build`, salida `dist`. Variables:
    `VITE_SUPABASE_URL`, `VITE_SUPABASE_PUBLISHABLE_KEY`, `VITE_APP_NAME`.
 3. **Datos**: `python scripts/publicar.py --sql supabase/seed/carga_AAAA-MM.sql` genera un SQL idempotente

@@ -35,7 +35,7 @@ function Columna({ estado, hijos, cantidad }: { estado: (typeof ESTADOS)[number]
 }
 
 export default function Tablero({ recomendaciones, contexto, aplicarLocal }: Props) {
-  const { email } = useAuth();
+  const { nombre } = useAuth();
   const [activa, setActiva] = useState<Recomendacion | null>(null);
   const [abierta, setAbierta] = useState<Recomendacion | null>(null);
   const [pendienteDescarte, setPendienteDescarte] = useState<Recomendacion | null>(null);
@@ -47,7 +47,7 @@ export default function Tablero({ recomendaciones, contexto, aplicarLocal }: Pro
     const antes = rec.estado;
     aplicarLocal((prev) => prev.map((r) => (r.id === rec.id ? { ...r, estado: a, motivoDescarte: a === 'descartada' ? (motivo ?? null) : null } : r)));
     try {
-      await cambiarEstado(rec, a, email, motivo);
+      await cambiarEstado(rec, a, nombre, motivo);
       setError(null);
     } catch (e) {
       aplicarLocal((prev) => prev.map((r) => (r.id === rec.id ? { ...r, estado: antes } : r)));

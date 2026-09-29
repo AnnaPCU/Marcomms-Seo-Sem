@@ -41,7 +41,7 @@ docs/             DECISIONES.md
 3. Migraciones numeradas e idempotentes en `supabase/migrations/`, siempre dentro del esquema `seo_sem`: `public`
    es del Hub y no se toca. Después de cambiar el esquema, regenerar `src/lib/database.types.ts`
    (`supabase gen types typescript --project-id cogdfbonpvvuzhurmvlq --schema seo_sem`).
-4. Ninguna clave secreta en el repo ni en Vercel: solo `VITE_SUPABASE_URL` y `VITE_SUPABASE_PUBLISHABLE_KEY`.
+4. La contraseña del equipo no se escribe en el repo ni en la documentación. Ninguna clave secreta en el repo ni en Vercel: solo `VITE_SUPABASE_URL` y `VITE_SUPABASE_PUBLISHABLE_KEY`.
    La carga de datos se hace con SQL generado (`scripts/publicar.py --sql`), sin service role key.
 5. Antes de pushear: `npm run verificar` (typecheck + tests + build) tiene que pasar.
 6. Una sola rama `main`; cada push despliega a producción en Vercel.

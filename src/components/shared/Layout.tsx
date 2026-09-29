@@ -11,7 +11,7 @@ const NAV = [
 ];
 
 export default function Layout() {
-  const { email, salir } = useAuth();
+  const { nombre, salir } = useAuth();
   return (
     <div className="flex min-h-full">
       <aside className="flex w-60 shrink-0 flex-col border-r border-mc-hair bg-white">
@@ -37,8 +37,8 @@ export default function Layout() {
           ))}
         </nav>
         <div className="border-t border-mc-hair px-4 py-3 text-xs text-mc-grey">
-          <div className="truncate" title={email ?? ''}>
-            {email}
+          <div className="truncate" title={nombre ?? ''}>
+            {nombre}
           </div>
           <button type="button" onClick={() => void salir()} className="mt-1 inline-flex items-center gap-1 text-mc-navy hover:text-mc-blue">
             <LogOut size={12} /> Salir
