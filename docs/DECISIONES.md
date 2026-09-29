@@ -14,8 +14,8 @@ Registro corto de por qué las cosas son como son. Se agrega arriba.
 - **Restricción de dominio en las políticas RLS**, no con un trigger sobre `auth.users`, para no afectar al
   Hub. Una cuenta ajena puede iniciar sesión pero no lee ni escribe nada de `seo_sem`.
 - **Contraseña compartida en vez de login por correo.** Felipe no quiere que cada persona entre con su mail:
-  una sola cuenta interna de Auth y una contraseña de equipo. El nombre que escribe cada uno al entrar se guarda
-  en el navegador y es lo que se registra en el historial de movimientos. Costo: si alguien filtra la
+  una sola cuenta interna de Auth y una contraseña de equipo, sin nombre ni usuario, como en MarComms Reports.
+  El historial registra «Equipo MarComms»; si más adelante hace falta saber quién movió qué, se agrega el nombre. Costo: si alguien filtra la
   contraseña, se cambia desde el dashboard de Supabase y listo.
 - **Carga de datos por SQL generado** (`publicar.py --sql`) en lugar de la API con service role key: no
   requiere secretos en ninguna máquina y el archivo queda versionado en `supabase/seed/`.

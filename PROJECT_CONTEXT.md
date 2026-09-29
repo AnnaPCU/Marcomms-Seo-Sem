@@ -34,8 +34,8 @@ análisis el mes siguiente. Origen de cada tipo:
 ## Acceso
 
 Contraseña compartida del equipo. La app inicia sesión en Supabase Auth con la cuenta interna del tablero
-(`seo-sem@onepeterson.com`, cuenta de Auth sin buzón) y la contraseña que escribe la persona; su nombre se guarda
-en el navegador y es lo que queda en el historial. Las políticas RLS de `seo_sem` exigen sesión con correo
+(`seo-sem@onepeterson.com`, cuenta de Auth sin buzón) y la contraseña que escribe la persona; no hay usuarios
+individuales, así que el historial registra «Equipo MarComms». Las políticas RLS de `seo_sem` exigen sesión con correo
 `@onepeterson.com` o `@controlunion.com`, que esa cuenta cumple. No se toca `auth.users` para no interferir con el Hub.
 
 ## Qué no hace todavía
