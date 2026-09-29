@@ -32,3 +32,4 @@ dist-ssr
 coverage
 scripts/__pycache__
 supabase/seed/_partes/
+.claude/
