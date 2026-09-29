@@ -118,7 +118,7 @@ export async function listarEventos(recomendacionId?: string, limite = 200): Pro
 export function suscribirRecomendaciones(cb: () => void): () => void {
   const canal = supabase
     .channel('recomendaciones-cambios')
-    .on('postgres_changes', { event: '*', schema: 'public', table: 'recomendaciones' }, cb)
+    .on('postgres_changes', { event: '*', schema: 'seo_sem', table: 'recomendaciones' }, cb)
     .subscribe();
   return () => {
     void supabase.removeChannel(canal);

@@ -1,8 +1,8 @@
 /**
- * Tipos de la base. PROVISORIOS, escritos a mano a partir de supabase/migrations/0001_esquema.sql.
+ * Tipos de la base (esquema seo_sem). PROVISORIOS, escritos a mano a partir de supabase/migrations/0001_esquema.sql.
  * Cuando el proyecto de Supabase exista, se reemplazan por los generados:
- *   supabase gen types typescript --project-id <ref> > src/lib/database.types.ts
- * Mantener la misma forma (Database.public.Tables.<tabla>.Row/Insert/Update) para que el reemplazo sea transparente.
+ *   supabase gen types typescript --project-id cogdfbonpvvuzhurmvlq --schema seo_sem > src/lib/database.types.ts
+ * Mantener la misma forma (Database.seo_sem.Tables.<tabla>.Row/Insert/Update) para que el reemplazo sea transparente.
  */
 export type Marca = 'CU' | 'PS' | 'PCU';
 export type Tipo = 'SEM' | 'SEO';
@@ -39,7 +39,7 @@ export type MetricaMesRow = {
 type Tabla<R> = { Row: R; Insert: Partial<R>; Update: Partial<R>; Relationships: never[] };
 
 export interface Database {
-  public: {
+  seo_sem: {
     Tables: {
       campanas: Tabla<CampanaRow>;
       grupos: Tabla<GrupoRow>;

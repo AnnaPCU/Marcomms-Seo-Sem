@@ -2,15 +2,19 @@
 
 Registro corto de por qué las cosas son como son. Se agrega arriba.
 
-## 2026-09-28 — Arranque
+## 2026-09-28 / 29 — Arranque
 
 - **Identidad MarComms, no la de los clientes.** El tablero es de la agencia interna. Control Union y
   Peterson aparecen como chips de texto en la paleta MarComms; nunca con sus colores ni logos, porque el
   manual del grupo no admite piezas que mezclen las dos marcas.
-- **Proyecto nuevo de Supabase** («Marcomms SEO-SEM»), separado de MarComms Hub. Se borra «MarComms Hub
-  Reports», que estaba inactivo y sin uso, para liberar el cupo del plan gratuito.
-- **Login con Google restringido por dominio en la base**, con enlace por correo como alternativa. El
-  trigger sobre `auth.users` es la única barrera real; lo del cliente es cortesía.
+- **Esquema `seo_sem` dentro del proyecto MarComms Hub, no proyecto propio.** Se quería un proyecto nuevo,
+  pero el plan gratuito de Supabase permite 2 proyectos activos por usuario sumando todas sus organizaciones
+  y la cuenta ya los tenía (uno en marcomms-hub y otro en otra organización). Un esquema aparte da el mismo
+  aislamiento de datos y RLS, comparte el login y no cuesta nada. Regla: nunca tocar `public` ni `auth.users`.
+- **Restricción de dominio en las políticas RLS**, no con un trigger sobre `auth.users`, para no afectar al
+  Hub. Una cuenta ajena puede iniciar sesión pero no lee ni escribe nada de `seo_sem`.
+- **Carga de datos por SQL generado** (`publicar.py --sql`) en lugar de la API con service role key: no
+  requiere secretos en ninguna máquina y el archivo queda versionado en `supabase/seed/`.
 - **Clave estable por recomendación** (`marca:tipo:campaña|sitio:slug`). Es lo que permite renovar cada mes
   sin duplicar tarjetas ni pisar el estado que alguien ya movió.
 - **Las recomendaciones no se escriben en la web.** Salen de los informes del proyecto de análisis y se

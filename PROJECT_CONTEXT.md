@@ -20,7 +20,7 @@ análisis el mes siguiente. Origen de cada tipo:
 | Propuestas de anuncios | SEM | cliente → campaña → grupo de anuncios |
 | Recomendaciones SEO | SEO | cliente → propiedad de Search Console |
 
-## Modelo de datos (Supabase)
+## Modelo de datos (Supabase, esquema `seo_sem` del proyecto MarComms Hub)
 
 - `campanas`, `grupos`: catálogo real de la cuenta de Ads, sincronizado desde el snapshot de estructura.
 - `recomendaciones`: las tarjetas. `estado`, `orden`, `actualizada_por`, `mes_cierre`, `motivo_descarte`
@@ -33,12 +33,13 @@ análisis el mes siguiente. Origen de cada tipo:
 
 ## Acceso
 
-Supabase Auth. Google o enlace por correo; un trigger sobre `auth.users` rechaza cualquier cuenta que no sea
-`@onepeterson.com` o `@controlunion.com`. RLS: solo usuarios autenticados, acceso completo (equipo chico).
+Supabase Auth del proyecto compartido. Google o enlace por correo; las políticas RLS de `seo_sem` solo dejan
+pasar sesiones con correo `@onepeterson.com` o `@controlunion.com` (otra cuenta puede iniciar sesión pero no ve
+nada). No se toca `auth.users` para no interferir con el Hub.
 
 ## Qué no hace todavía
 
-- No lee Google Ads ni Search Console en vivo: todo entra por `scripts/publicar.py`.
+- No lee Google Ads ni Search Console en vivo: todo entra por `scripts/publicar.py` (modo `--sql`).
 - No marca sola `verificada_api`; el análisis mensual ya detecta negativos y exactas aplicadas, falta
   conectarlo con la clave de cada tarjeta.
 - No tiene presupuestos futuros. La tabla `metricas_mes` es el lugar donde van cuando existan.

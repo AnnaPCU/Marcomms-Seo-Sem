@@ -15,7 +15,8 @@ Leé también `PROJECT_CONTEXT.md` (qué es y por qué) y `DEPLOY.md` (cómo se 
 
 ## Stack
 
-Vite 8 · React 19 · TypeScript · Tailwind 3 · Supabase (Postgres + Auth + Realtime) · react-router 7 ·
+Vite 8 · React 19 · TypeScript · Tailwind 3 · Supabase (Postgres + Auth + Realtime, esquema `seo_sem` del
+proyecto MarComms Hub) · react-router 7 ·
 @dnd-kit · lucide-react · Vitest · Vercel.
 
 ## Estructura
@@ -37,10 +38,11 @@ docs/             DECISIONES.md
 
 1. **Nada fuera de `src/services` importa `supabase.ts`.** Los componentes usan hooks; los hooks usan servicios.
 2. Componentes de menos de 500 líneas; si crece, se parte.
-3. Migraciones numeradas e idempotentes en `supabase/migrations/`. Después de cambiar el esquema, regenerar
-   `src/lib/database.types.ts` (`supabase gen types typescript --project-id <ref>`).
+3. Migraciones numeradas e idempotentes en `supabase/migrations/`, siempre dentro del esquema `seo_sem`: `public`
+   es del Hub y no se toca. Después de cambiar el esquema, regenerar `src/lib/database.types.ts`
+   (`supabase gen types typescript --project-id cogdfbonpvvuzhurmvlq --schema seo_sem`).
 4. Ninguna clave secreta en el repo ni en Vercel: solo `VITE_SUPABASE_URL` y `VITE_SUPABASE_PUBLISHABLE_KEY`.
-   El service role key vive en el entorno local de quien corre `scripts/publicar.py`.
+   La carga de datos se hace con SQL generado (`scripts/publicar.py --sql`), sin service role key.
 5. Antes de pushear: `npm run verificar` (typecheck + tests + build) tiene que pasar.
 6. Una sola rama `main`; cada push despliega a producción en Vercel.
 7. Español rioplatense en la interfaz y en los comentarios. Sin emojis.
@@ -49,5 +51,5 @@ docs/             DECISIONES.md
 
 1. En el proyecto de análisis: extracción GSC y Ads, `analisis*.py`, informes.
 2. `python scripts/exportar_recomendaciones.py AAAA-MM` allá → `informe/recomendaciones.json`.
-3. Acá: `python scripts/publicar.py` con `SUPABASE_URL` y `SUPABASE_SERVICE_KEY` en el entorno.
+3. Acá: `python scripts/publicar.py --sql supabase/seed/carga_AAAA-MM.sql` y correr ese SQL en Supabase.
    Las tarjetas nuevas entran como «propuesta»; las que ya existían conservan su estado.

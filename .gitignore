@@ -31,3 +31,4 @@ dist-ssr
 .vercel
 coverage
 scripts/__pycache__
+supabase/seed/_partes/
