@@ -2,7 +2,7 @@
 import { useCallback, useMemo } from 'react';
 import { useCatalogo, useRecomendaciones } from '@/hooks/useDatos';
 import Tablero from '@/components/tablero/Tablero';
-import Filtros, { aplicarFiltros, useFiltros } from '@/components/tablero/Filtros';
+import Filtros, { FiltroAcciones, aplicarFiltros, useFiltros } from '@/components/tablero/Filtros';
 import { ErrorBox, Intro, SeccionTitulo, Vacio } from '@/components/shared/Ui';
 import { EsqueletoTablero } from '@/components/shared/Loader';
 import { campanaCorta } from '@/utils/formato';
@@ -28,7 +28,9 @@ export default function Sem() {
     [campanaDe],
   );
   const grupos = useMemo(() => cat.grupos.map((g) => ({ id: g.id, label: g.nombre, campanaId: g.campanaId })), [cat.grupos]);
-  const visibles = useMemo(() => aplicarFiltros(recs.datos, filtros, paisDe), [recs.datos, filtros, paisDe]);
+  // sin el filtro de tipo de mejora: sirve para contar cuántas quedan en cada chip
+  const sinAccion = useMemo(() => aplicarFiltros(recs.datos, { ...filtros, accion: '' }, paisDe), [recs.datos, filtros, paisDe]);
+  const visibles = useMemo(() => aplicarFiltros(sinAccion, filtros, paisDe), [sinAccion, filtros, paisDe]);
 
   if (recs.error) return <ErrorBox mensaje={recs.error} />;
   return (
@@ -41,9 +43,10 @@ export default function Sem() {
           { valor: visibles.filter((r) => r.estado === 'hecha').length, etiqueta: 'hechas', tono: 'text-emerald-700' },
         ]}
       >
-        Arrastrá cada tarjeta a la columna que corresponda. Filtrá por cliente, país, campaña y grupo. Se renuevan cada mes con la extracción; las que la API confirma aplicadas se marcan solas.
+        Arrastrá cada tarjeta a la columna que corresponda. Filtrá por cliente, país, campaña y grupo, y por tipo de mejora: anuncio, palabras clave, negativas, estructura. Se renuevan cada mes con la extracción; las que la API confirma aplicadas se marcan solas.
       </Intro>
       <Filtros valores={filtros} onChange={setFiltro} paises={paises} campanas={campanas} grupos={grupos} meses={meses} />
+      <FiltroAcciones valor={filtros.accion} onChange={(v) => setFiltro('accion', v)} base={sinAccion} />
       {recs.cargando ? (
         <EsqueletoTablero />
       ) : recs.datos.length === 0 ? (

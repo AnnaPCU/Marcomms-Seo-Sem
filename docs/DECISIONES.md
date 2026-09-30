@@ -2,6 +2,18 @@
 
 Registro corto de por qué las cosas son como son. Se agrega arriba.
 
+## 2026-09-30 — Tipo de mejora, orgánico en el plan y tarjetas relacionadas
+
+- **Tipo de mejora** (`evidencia.acciones`): anuncio, palabras clave, negativas, grupos y campañas, pausar o
+  presupuesto, landing, revisar o decidir. Lo calcula `exportar_recomendaciones.py` con reglas sobre el texto de la
+  mejora (no del problema); una tarjeta puede tener varios. En SEM hay una fila de chips para filtrar (`?accion=`)
+  y cada tarjeta muestra sus tipos.
+- **Orgánico en las tarjetas del plan**: mismo método que las de anuncio (los temas de las keywords de la campaña →
+  búsquedas de Search Console desde el país de la campaña), con piso de 10 impresiones para no mostrar coincidencias
+  sueltas. Si no hay búsquedas, se dice que es un hueco de contenido. Las del plan sin campaña no muestran el bloque.
+- **Tarjetas relacionadas**: el detalle lista las otras tarjetas de la misma campaña, así desde una mejora del
+  plan se llega a su propuesta de anuncio y al revés.
+
 ## 2026-09-30 — Arrastre, fichas completas y claves estables
 
 - **Arrastre**: la animación de entrada dejaba un `transform` en el contenedor de la página y todo lo que usa

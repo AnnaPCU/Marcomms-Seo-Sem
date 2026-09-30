@@ -32,5 +32,26 @@ export const PRIORIDADES: { id: Prioridad; label: string; clase: string; borde: 
 ];
 export const PRIORIDAD_BY_ID = Object.fromEntries(PRIORIDADES.map((p) => [p.id, p])) as Record<Prioridad, (typeof PRIORIDADES)[number]>;
 
+/**
+ * Tipo de mejora de las tarjetas SEM (evidencia.acciones, lo calcula exportar_recomendaciones.py según lo que la mejora
+ * pide hacer). Una tarjeta puede tener varios.
+ */
+export const ACCIONES: { id: string; label: string; corto: string }[] = [
+  { id: 'anuncio', label: 'Anuncio (títulos y descripciones)', corto: 'Anuncio' },
+  { id: 'keywords', label: 'Palabras clave', corto: 'Keywords' },
+  { id: 'negativas', label: 'Negativas', corto: 'Negativas' },
+  { id: 'estructura', label: 'Grupos y campañas', corto: 'Estructura' },
+  { id: 'pausa', label: 'Pausar o presupuesto', corto: 'Pausa / CPC' },
+  { id: 'landing', label: 'Landing y páginas', corto: 'Landing' },
+  { id: 'revisar', label: 'Revisar o decidir', corto: 'Revisar' },
+];
+export const ACCION_BY_ID = Object.fromEntries(ACCIONES.map((a) => [a.id, a])) as Record<string, (typeof ACCIONES)[number]>;
+
+/** Tipos de mejora de una tarjeta, en el orden de ACCIONES. */
+export function accionesDe(evidencia: Record<string, unknown>): string[] {
+  const a = evidencia.acciones;
+  return Array.isArray(a) ? ACCIONES.map((x) => x.id).filter((id) => a.includes(id)) : [];
+}
+
 // Dominios que aceptan las políticas RLS del esquema (seo_sem.es_del_grupo).
 export const DOMINIOS_PERMITIDOS = ['onepeterson.com', 'controlunion.com'];

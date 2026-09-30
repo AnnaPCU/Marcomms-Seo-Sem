@@ -114,6 +114,8 @@ export default function Tablero({ recomendaciones, contexto, aplicarLocal }: Pro
         <DetalleRec
           rec={abiertaActual}
           ctx={contexto(abiertaActual)}
+          relacionadas={abiertaActual.campanaId ? recomendaciones.filter((r) => r.campanaId === abiertaActual.campanaId && r.id !== abiertaActual.id) : []}
+          onAbrir={setAbierta}
           onCerrar={() => setAbierta(null)}
           onMover={(a) => (a === 'descartada' ? setPendienteDescarte(abiertaActual) : void mover(abiertaActual, a))}
         />

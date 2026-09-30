@@ -3,7 +3,8 @@ import { useDraggable } from '@dnd-kit/core';
 import { CheckCircle2 } from 'lucide-react';
 import type { Recomendacion } from '@/services/recomendaciones';
 import { ChipMarca, ChipPrioridad } from '@/components/shared/Ui';
-import { PRIORIDAD_BY_ID } from '@/constants/estados';
+import { ACCION_BY_ID, PRIORIDAD_BY_ID, accionesDe } from '@/constants/estados';
+import IconoAccion from './IconoAccion';
 import { campanaCorta, mesCorto } from '@/utils/formato';
 
 export interface Contexto {
@@ -12,6 +13,7 @@ export interface Contexto {
 }
 
 export function CuerpoTarjeta({ rec, ctx, arrastrando }: { rec: Recomendacion; ctx: Contexto; arrastrando?: boolean }) {
+  const acciones = accionesDe(rec.evidencia);
   const ubicacion = rec.tipo === 'SEM' ? [ctx.campana ? campanaCorta(ctx.campana) : null, ctx.grupo].filter(Boolean).join(' › ') : [rec.sitio, rec.pagina].filter(Boolean).join(' ');
   return (
     <div className={`rounded-card border border-l-4 bg-white px-3 py-2.5 shadow-card transition ${arrastrando ? 'rotate-1 border-mc-blue shadow-elevada' : 'border-mc-hair/80 hover:-translate-y-0.5 hover:shadow-elevada'} ${PRIORIDAD_BY_ID[rec.prioridad]?.borde ?? ''}`}>
@@ -26,6 +28,16 @@ export function CuerpoTarjeta({ rec, ctx, arrastrando }: { rec: Recomendacion; c
       </div>
       <div className="text-[13px] font-semibold leading-snug text-mc-navy">{rec.titulo}</div>
       {ubicacion && <div className="mt-1 truncate text-[11px] text-mc-grey" title={ubicacion}>{ubicacion}</div>}
+      {acciones.length > 0 && (
+        <div className="mt-1.5 flex flex-wrap gap-1">
+          {acciones.map((a) => (
+            <span key={a} title={ACCION_BY_ID[a]?.label} className="inline-flex items-center gap-1 rounded bg-mc-tint px-1.5 py-0.5 text-[10.5px] font-medium text-mc-ink">
+              <IconoAccion id={a} size={11} className="text-mc-blue" />
+              {ACCION_BY_ID[a]?.corto ?? a}
+            </span>
+          ))}
+        </div>
+      )}
       <div className="mt-1.5 flex items-center justify-between text-[11px] text-mc-grey">
         <span>{mesCorto(rec.mesAlta)}</span>
         {rec.estado === 'descartada' && rec.motivoDescarte && <span className="truncate pl-2 italic" title={rec.motivoDescarte}>{rec.motivoDescarte}</span>}

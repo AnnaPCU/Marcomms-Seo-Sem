@@ -1,7 +1,7 @@
 /** Panel lateral con el detalle de una recomendación: qué hacer, la evidencia y su historial. */
 import { useEffect, useState } from 'react';
 import { createPortal } from 'react-dom';
-import { X } from 'lucide-react';
+import { ChevronRight, X } from 'lucide-react';
 import type { Estado } from '@/lib/database.types';
 import { ESTADOS, ESTADO_BY_ID, MARCA_BY_ID } from '@/constants/estados';
 import { listarEventos, type Evento, type Recomendacion } from '@/services/recomendaciones';
@@ -17,11 +17,30 @@ function valorEvidencia(v: unknown): string {
   return JSON.stringify(v);
 }
 
-export default function DetalleRec({ rec, ctx, onCerrar, onMover }: { rec: Recomendacion; ctx: Contexto; onCerrar: () => void; onMover: (a: Estado) => void }) {
+const TIPO_FICHA: Record<string, string> = { anuncio: 'Anuncio', plan: 'Plan' };
+
+export default function DetalleRec({
+  rec,
+  ctx,
+  relacionadas,
+  onCerrar,
+  onMover,
+  onAbrir,
+}: {
+  rec: Recomendacion;
+  ctx: Contexto;
+  /** Otras tarjetas de la misma campaña (el plan y las propuestas de anuncio se cruzan). */
+  relacionadas: Recomendacion[];
+  onCerrar: () => void;
+  onMover: (a: Estado) => void;
+  onAbrir: (r: Recomendacion) => void;
+}) {
   const [eventos, setEventos] = useState<Evento[]>([]);
   useEffect(() => {
     let vivo = true;
-    listarEventos(rec.id, 50).then((e) => vivo && setEventos(e)).catch(() => undefined);
+    listarEventos(rec.id, 50)
+      .then((e) => vivo && setEventos(e))
+      .catch(() => undefined);
     return () => {
       vivo = false;
     };
@@ -38,7 +57,12 @@ export default function DetalleRec({ rec, ctx, onCerrar, onMover }: { rec: Recom
   const evidencia = ficha ? [] : Object.entries(rec.evidencia);
   return createPortal(
     <div className="fixed inset-0 z-40 flex justify-end bg-mc-navy/30" onClick={onCerrar}>
-      <aside className={`h-full w-full overflow-y-auto bg-white shadow-elevada animate-fade-in ${ficha === 'anuncio' ? 'max-w-5xl' : ficha === 'plan' ? 'max-w-3xl' : 'max-w-lg'}`} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true">
+      <aside
+        className={`h-full w-full overflow-y-auto bg-white shadow-elevada animate-fade-in ${ficha === 'anuncio' ? 'max-w-5xl' : ficha === 'plan' ? 'max-w-3xl' : 'max-w-lg'}`}
+        onClick={(e) => e.stopPropagation()}
+        role="dialog"
+        aria-modal="true"
+      >
         <div className="sticky top-0 flex items-start justify-between gap-3 border-b border-mc-hair bg-white px-5 py-4">
           <div>
             <div className="mb-1.5 flex items-center gap-1.5">
@@ -75,7 +99,10 @@ export default function DetalleRec({ rec, ctx, onCerrar, onMover }: { rec: Recom
             <dt className="text-mc-grey">Estado</dt>
             <dd className="text-mc-navy">{ESTADO_BY_ID[rec.estado]?.label}</dd>
             <dt className="text-mc-grey">Propuesta en</dt>
-            <dd className="text-mc-navy">{mesCorto(rec.mesAlta)}{rec.origen ? ` · ${rec.origen}` : ''}</dd>
+            <dd className="text-mc-navy">
+              {mesCorto(rec.mesAlta)}
+              {rec.origen ? ` · ${rec.origen}` : ''}
+            </dd>
             {rec.mesCierre && (
               <>
                 <dt className="text-mc-grey">Cerrada en</dt>
@@ -93,11 +120,37 @@ export default function DetalleRec({ rec, ctx, onCerrar, onMover }: { rec: Recom
           {ficha === 'anuncio' ? (
             <FichaAnuncio d={rec.evidencia as unknown as DatosAnuncio} />
           ) : ficha === 'plan' ? (
-            <FichaPlan d={rec.evidencia as unknown as DatosPlan} />
+            <FichaPlan d={rec.evidencia as unknown as DatosPlan} conCampana={!!rec.campanaId} />
           ) : (
             <section>
               <h3 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-mc-grey">Qué hacer</h3>
               <p className="whitespace-pre-line leading-relaxed">{rec.detalle}</p>
+            </section>
+          )}
+
+          {relacionadas.length > 0 && (
+            <section>
+              <h3 className="mb-1.5 text-[11px] font-semibold uppercase tracking-[0.12em] text-mc-grey">
+                {ficha === 'plan' ? 'Propuestas de anuncio y otras tarjetas de esta campaña' : 'Otras tarjetas de esta campaña'}
+              </h3>
+              <ul className="overflow-hidden rounded-card border border-mc-hair">
+                {relacionadas.map((r) => (
+                  <li key={r.id} className="border-b border-mc-hair/70 last:border-b-0">
+                    <button
+                      type="button"
+                      onClick={() => onAbrir(r)}
+                      className="flex w-full items-center gap-2 px-3 py-2 text-left text-[13px] transition hover:bg-mc-tint"
+                    >
+                      <span className="rounded bg-mc-tint2 px-1.5 py-0.5 text-[10px] font-bold uppercase tracking-[0.1em] text-mc-grey">
+                        {TIPO_FICHA[String(r.evidencia.ficha)] ?? r.tipo}
+                      </span>
+                      <span className="min-w-0 flex-1 truncate text-mc-navy">{r.titulo}</span>
+                      <span className="shrink-0 text-[11px] text-mc-grey">{ESTADO_BY_ID[r.estado]?.label}</span>
+                      <ChevronRight size={14} className="shrink-0 text-mc-grey" />
+                    </button>
+                  </li>
+                ))}
+              </ul>
             </section>
           )}
 
@@ -145,7 +198,8 @@ export default function DetalleRec({ rec, ctx, onCerrar, onMover }: { rec: Recom
                   <li key={ev.id} className="flex flex-wrap gap-x-2 border-t border-mc-tint2 py-1">
                     <span className="font-mono text-mc-grey">{fechaHora(ev.creadoEn)}</span>
                     <span>
-                      {ev.deEstado ? ESTADO_BY_ID[ev.deEstado as Estado]?.label ?? ev.deEstado : '—'} → {ESTADO_BY_ID[ev.aEstado as Estado]?.label ?? ev.aEstado}
+                      {ev.deEstado ? (ESTADO_BY_ID[ev.deEstado as Estado]?.label ?? ev.deEstado) : '—'} →{' '}
+                      {ESTADO_BY_ID[ev.aEstado as Estado]?.label ?? ev.aEstado}
                     </span>
                     {ev.usuario && <span className="text-mc-grey">{ev.usuario}</span>}
                     {ev.motivo && <span className="w-full italic text-mc-grey">{ev.motivo}</span>}
