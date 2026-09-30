@@ -6,7 +6,8 @@ import { useCallback, useEffect, useMemo, useState } from 'react';
 import type { Tipo } from '@/lib/database.types';
 import { listarRecomendaciones, suscribirRecomendaciones, type Recomendacion } from '@/services/recomendaciones';
 import { listarCampanas, listarGrupos, type Campana, type Grupo } from '@/services/campanas';
-import { listarMetricas, ultimasExtracciones, type Extraccion, type MetricaMes } from '@/services/extracciones';
+import { ultimasExtracciones, type Extraccion } from '@/services/extracciones';
+import { listarMetricas, listarMetricasGrupo, type MetricaGrupoMes, type MetricaMes } from '@/services/metricas';
 
 interface Estado<T> {
   datos: T;
@@ -52,6 +53,7 @@ const VACIO_REC: Recomendacion[] = [];
 const VACIO_CAMP: Campana[] = [];
 const VACIO_GRU: Grupo[] = [];
 const VACIO_MET: MetricaMes[] = [];
+const VACIO_MET_G: MetricaGrupoMes[] = [];
 const VACIO_EXT: Record<'search_console' | 'google_ads', Extraccion | null> = { search_console: null, google_ads: null };
 
 export function useRecomendaciones(tipo?: Tipo) {
@@ -93,6 +95,11 @@ export function useExtracciones() {
 export function useMetricas() {
   const cargar = useCallback(() => listarMetricas(), []);
   return useCarga(VACIO_MET, cargar);
+}
+
+export function useMetricasGrupo() {
+  const cargar = useCallback(() => listarMetricasGrupo(), []);
+  return useCarga(VACIO_MET_G, cargar);
 }
 
 /** Índices por id para resolver nombres de campaña y grupo desde una tarjeta. */

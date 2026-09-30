@@ -2,6 +2,22 @@
 
 Registro corto de por qué las cosas son como son. Se agrega arriba.
 
+## 2026-09-30 — Presupuesto en el Inicio
+
+- **El Inicio es el seguimiento de presupuesto.** Réplica en vivo del informe de gasto: cliente → país → campaña →
+  grupo, por mes o por día. Pedido de Felipe: poder rotar inversión entre campañas.
+- **Semáforo por ritmo de gasto**: rojo si la campaña gasta por día más de un 5% sobre su presupuesto diario o no
+  gasta nada; verde en el medio; gris si no tiene presupuesto activo. Se mide contra el presupuesto por día porque el
+  consumo acumulado del mes todavía no terminó y engaña.
+- **Consumo 0–100 con marca de «dónde debería estar hoy»**, proyección al cierre y listas de topeadas (≥95% del
+  ritmo) y ociosas (<50%), tomado como referencia de Dashbo (control de presupuestos para agencias).
+- **Solo cuenta el presupuesto de campañas activas.** Una pausada o eliminada no lo puede gastar.
+- **Gasto por grupo en `metricas_grupo_mes`** (migración 0002) y días cubiertos en `metricas_mes`.
+- **Prioridad en rojo, ámbar y verde.** Ámbar de Tailwind, no el amarillo de Peterson (#f1e747).
+- **Filtro por país en SEM**: cliente → país → campaña → grupo. Las tarjetas sin campaña usan el país de su unidad.
+- **País por palabra clave en el nombre de la campaña**, no por prefijo: los nombres de ISO 27001 cambiaron tres
+  veces en una semana («PCU Argentina» → «PCU Tech» → «PCU - Argentina»). El catálogo se actualiza por id de Ads.
+
 ## 2026-09-28 / 29 — Arranque
 
 - **Identidad MarComms, no la de los clientes.** El tablero es de la agencia interna. Control Union y

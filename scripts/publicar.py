@@ -18,7 +18,7 @@ Dos modos:
 Uso: python scripts/publicar.py --sql supabase/seed/carga_2026-09.sql
      python scripts/publicar.py [--solo campanas|recomendaciones|metricas|extracciones]
 """
-import glob, json, os, sys
+import glob, json, os, re, sys
 from datetime import datetime, timezone
 import pandas as pd
 
@@ -30,10 +30,11 @@ ESQ = "seo_sem"
 
 
 def unidad_de(nombre):
-    for pref, u in [("CU España", "España"), ("CU Portugal", "Portugal"), ("CU Canada", "Canadá"), ("CU United States", "Estados Unidos"),
-                    ("CU Argentina", "Argentina"), ("PCU España", "España"), ("PCU Argentina", "Argentina"), ("PCU Tech", "Argentina"),
-                    ("PS Argentina", "Argentina")]:
-        if nombre.startswith(pref):
+    """País de la campaña por palabra clave, en cualquier parte del nombre: los prefijos cambian seguido
+    («PCU Argentina» → «PCU Tech» → «PCU - Argentina»). «Tech» es la unidad ISO 27001 de Argentina."""
+    for clave, u in [("España", "España"), ("Portugal", "Portugal"), ("Canada", "Canadá"), ("United States", "Estados Unidos"),
+                     ("Argentina", "Argentina"), ("PCU Tech", "Argentina")]:
+        if clave in nombre:
             return u
     return "Sin asignar"
 
@@ -67,13 +68,23 @@ c_camp, c_nom, c_id, c_est = col(gru, "campaign.name"), col(gru, "ad_group.name"
 GRUPOS = [dict(campana=str(r[c_camp]), ads_id=str(r[c_id]), nombre=str(r[c_nom]), estado=str(r[c_est])) for _, r in gru.iterrows() if str(r[c_camp]) in NOMBRES]
 
 
+def firma(nombre):
+    """Palabras de un nombre de campaña sin prefijos que cambian (PCU, Tech, Search), con «Tech» como Argentina."""
+    n = nombre.replace("PCU Tech", "PCU Argentina").lower()
+    return frozenset(t for t in re.findall(r"[a-z0-9áéíóúñ+./]+", n) if t not in ("pcu", "search"))
+
+
 def campana_nombre(prefijo):
-    """Nombre exacto de la campaña a partir de un nombre completo o un prefijo."""
+    """Nombre actual de la campaña a partir de un nombre completo, un prefijo o un nombre viejo."""
     if not prefijo:
         return None
     if prefijo in NOMBRES:
         return prefijo
-    return next((n for n in NOMBRES if n.startswith(prefijo)), None)
+    directo = next((n for n in NOMBRES if n.startswith(prefijo)), None)
+    if directo:
+        return directo
+    f = firma(prefijo)
+    return next((n for n in NOMBRES if firma(n) == f or (f and f <= firma(n) and "competidores" not in firma(n) - f)), None)
 
 
 RECS = []
@@ -84,17 +95,20 @@ if os.path.exists(ruta_recs):
 
 gasto_path = os.path.join(PROY, "informe", "datos_gasto_actual.json")
 G = json.load(open(gasto_path, encoding="utf-8")) if os.path.exists(gasto_path) else None
-METRICAS = {}
+METRICAS, METRICAS_GRUPO = {}, {}
 if G:
     mes = G["hasta"][:7]
     for f in G["filas"]:
         n = campana_nombre(f["campana"])
         if not n:
             continue
-        a = METRICAS.setdefault(n, dict(campana=n, mes=mes, coste=0.0, clics=0, impresiones=0, conversiones=0.0))
-        a["coste"] += float(f["coste"]); a["clics"] += int(f["clics"]); a["impresiones"] += int(f.get("impresiones", 0) or 0); a["conversiones"] += float(f["conv"])
-    for a in METRICAS.values():
-        a["coste"] = round(a["coste"], 2)
+        a = METRICAS.setdefault(n, dict(campana=n, mes=mes, desde=G["desde"], hasta=G["hasta"], dias=G["dias"],
+                                        coste=0.0, clics=0, impresiones=0, conversiones=0.0))
+        g = METRICAS_GRUPO.setdefault((n, f["grupo"]), dict(campana=n, grupo=f["grupo"], mes=mes, coste=0.0, clics=0, impresiones=0, conversiones=0.0))
+        for x in (a, g):
+            x["coste"] += float(f["coste"]); x["clics"] += int(f["clics"]); x["impresiones"] += int(f.get("impresiones", 0) or 0); x["conversiones"] += float(f["conv"])
+    for x in list(METRICAS.values()) + list(METRICAS_GRUPO.values()):
+        x["coste"] = round(x["coste"], 2)
 
 EXTRACCIONES = []
 if G:
@@ -154,9 +168,14 @@ def sql_carga():
                        f"titulo = excluded.titulo, detalle = excluded.detalle, evidencia = excluded.evidencia, prioridad = excluded.prioridad, origen = excluded.origen;")
     if SOLO in (None, "metricas") and METRICAS:
         out.append(f"-- métricas ({len(METRICAS)} campañas) · {G['ventana']}")
-        out.append(f"insert into {ESQ}.metricas_mes (campana_id, mes, coste, clics, impresiones, conversiones)\n"
-                   f"select c.id, x.mes, x.coste, x.clics, x.impresiones, x.conversiones from {lote(list(METRICAS.values()), 'campana text, mes text, coste numeric, clics integer, impresiones integer, conversiones numeric')} join {ESQ}.campanas c on c.nombre = x.campana\n"
-                   f"on conflict (campana_id, mes) do update set coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
+        out.append(f"insert into {ESQ}.metricas_mes (campana_id, mes, desde, hasta, dias, coste, clics, impresiones, conversiones)\n"
+                   f"select c.id, x.mes, x.desde, x.hasta, x.dias, x.coste, x.clics, x.impresiones, x.conversiones from {lote(list(METRICAS.values()), 'campana text, mes text, desde date, hasta date, dias integer, coste numeric, clics integer, impresiones integer, conversiones numeric')} join {ESQ}.campanas c on c.nombre = x.campana\n"
+                   f"on conflict (campana_id, mes) do update set desde = excluded.desde, hasta = excluded.hasta, dias = excluded.dias, coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
+        out.append(f"-- métricas por grupo de anuncios ({len(METRICAS_GRUPO)})")
+        out.append(f"insert into {ESQ}.metricas_grupo_mes (grupo_id, campana_id, mes, coste, clics, impresiones, conversiones)\n"
+                   f"select g.id, c.id, x.mes, x.coste, x.clics, x.impresiones, x.conversiones from {lote(list(METRICAS_GRUPO.values()), 'campana text, grupo text, mes text, coste numeric, clics integer, impresiones integer, conversiones numeric')}\n"
+                   f"join {ESQ}.campanas c on c.nombre = x.campana join {ESQ}.grupos g on g.campana_id = c.id and g.nombre = x.grupo\n"
+                   f"on conflict (grupo_id, mes) do update set coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
     if SOLO in (None, "extracciones") and EXTRACCIONES:
         out.append(f"-- extracciones ({len(EXTRACCIONES)})")
         out.append(f"insert into {ESQ}.extracciones (fuente, corrida_en, desde, hasta, filas, detalle)\n"
@@ -221,9 +240,12 @@ if SOLO in (None, "recomendaciones"):
     print(f"recomendaciones: {len(nuevas)} nuevas, {len(viejas)} actualizadas (sin tocar estado)")
 
 if SOLO in (None, "metricas") and METRICAS:
-    upsert("metricas_mes", [dict(campana_id=CAMP[m["campana"]], mes=m["mes"], coste=m["coste"], clics=m["clics"], impresiones=m["impresiones"], conversiones=m["conversiones"])
-                            for m in METRICAS.values()], "campana_id,mes")
-    print(f"métricas: {len(METRICAS)} campañas ({G['ventana']})")
+    upsert("metricas_mes", [dict(campana_id=CAMP[m["campana"]], mes=m["mes"], desde=m["desde"], hasta=m["hasta"], dias=m["dias"], coste=m["coste"],
+                                 clics=m["clics"], impresiones=m["impresiones"], conversiones=m["conversiones"]) for m in METRICAS.values()], "campana_id,mes")
+    filas_g = [dict(grupo_id=GRU[(CAMP[m["campana"]], m["grupo"])], campana_id=CAMP[m["campana"]], mes=m["mes"], coste=m["coste"], clics=m["clics"],
+                    impresiones=m["impresiones"], conversiones=m["conversiones"]) for m in METRICAS_GRUPO.values() if (CAMP.get(m["campana"]), m["grupo"]) in GRU]
+    upsert("metricas_grupo_mes", filas_g, "grupo_id,mes")
+    print(f"métricas: {len(METRICAS)} campañas, {len(filas_g)} grupos ({G['ventana']})")
 
 if SOLO in (None, "extracciones"):
     ya = {(e["fuente"], e["hasta"]) for e in api("GET", "extracciones", params={"select": "fuente,hasta"})}

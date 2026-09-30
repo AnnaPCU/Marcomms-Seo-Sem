@@ -23,10 +23,11 @@ export const TIPOS: { id: Tipo; label: string }[] = [
   { id: 'SEO', label: 'SEO · sitios' },
 ];
 
-export const PRIORIDADES: { id: Prioridad; label: string; clase: string }[] = [
-  { id: 'alta', label: 'Alta', clase: 'bg-mc-navy text-white' },
-  { id: 'media', label: 'Media', clase: 'bg-mc-tint2 text-mc-navy' },
-  { id: 'baja', label: 'Baja', clase: 'bg-white text-mc-grey border border-mc-hair' },
+// Semáforo de prioridad: rojo, ámbar y verde de Tailwind. El ámbar no es el amarillo de Peterson (#f1e747).
+export const PRIORIDADES: { id: Prioridad; label: string; clase: string; borde: string; punto: string }[] = [
+  { id: 'alta', label: 'Alta', clase: 'bg-red-100 text-red-800', borde: 'border-l-red-500', punto: 'bg-red-500' },
+  { id: 'media', label: 'Media', clase: 'bg-amber-100 text-amber-800', borde: 'border-l-amber-400', punto: 'bg-amber-400' },
+  { id: 'baja', label: 'Baja', clase: 'bg-emerald-100 text-emerald-800', borde: 'border-l-emerald-500', punto: 'bg-emerald-500' },
 ];
 export const PRIORIDAD_BY_ID = Object.fromEntries(PRIORIDADES.map((p) => [p.id, p])) as Record<Prioridad, (typeof PRIORIDADES)[number]>;
 

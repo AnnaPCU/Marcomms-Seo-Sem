@@ -4,6 +4,7 @@ import { CSS } from '@dnd-kit/utilities';
 import { CheckCircle2 } from 'lucide-react';
 import type { Recomendacion } from '@/services/recomendaciones';
 import { ChipMarca, ChipPrioridad } from '@/components/shared/Ui';
+import { PRIORIDAD_BY_ID } from '@/constants/estados';
 import { campanaCorta, mesCorto } from '@/utils/formato';
 
 export interface Contexto {
@@ -14,7 +15,7 @@ export interface Contexto {
 export function CuerpoTarjeta({ rec, ctx, arrastrando }: { rec: Recomendacion; ctx: Contexto; arrastrando?: boolean }) {
   const ubicacion = rec.tipo === 'SEM' ? [ctx.campana ? campanaCorta(ctx.campana) : null, ctx.grupo].filter(Boolean).join(' › ') : [rec.sitio, rec.pagina].filter(Boolean).join(' ');
   return (
-    <div className={`rounded-card border bg-white px-3 py-2.5 shadow-card ${arrastrando ? 'border-mc-blue' : 'border-mc-hair hover:border-mc-blue/60'}`}>
+    <div className={`rounded-card border border-l-4 bg-white px-3 py-2.5 shadow-card ${arrastrando ? 'border-mc-blue' : 'border-mc-hair hover:border-mc-blue/60'} ${PRIORIDAD_BY_ID[rec.prioridad]?.borde ?? ''}`}>
       <div className="mb-1.5 flex items-center gap-1.5">
         <ChipMarca marca={rec.marca} />
         <ChipPrioridad prioridad={rec.prioridad} />

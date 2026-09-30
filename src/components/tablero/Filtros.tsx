@@ -7,6 +7,7 @@ import { mesCorto } from '@/utils/formato';
 
 export interface FiltrosValores {
   marca: string;
+  pais: string;
   campana: string;
   grupo: string;
   sitio: string;
@@ -19,6 +20,7 @@ export function useFiltros(): [FiltrosValores, (k: keyof FiltrosValores, v: stri
   const [params, setParams] = useSearchParams();
   const valores: FiltrosValores = {
     marca: params.get('marca') ?? '',
+    pais: params.get('pais') ?? '',
     campana: params.get('campana') ?? '',
     grupo: params.get('grupo') ?? '',
     sitio: params.get('sitio') ?? '',
@@ -31,7 +33,8 @@ export function useFiltros(): [FiltrosValores, (k: keyof FiltrosValores, v: stri
     if (v) p.set(k, v);
     else p.delete(k);
     if (k === 'campana') p.delete('grupo');
-    if (k === 'marca') {
+    if (k === 'marca' || k === 'pais') {
+      if (k === 'marca') p.delete('pais');
       p.delete('campana');
       p.delete('grupo');
     }
@@ -40,11 +43,13 @@ export function useFiltros(): [FiltrosValores, (k: keyof FiltrosValores, v: stri
   return [valores, set];
 }
 
-export function aplicarFiltros(lista: Recomendacion[], f: FiltrosValores): Recomendacion[] {
+/** `paisDe` resuelve el país de una tarjeta (el de su campaña, o el de la unidad para las que no tienen campaña). */
+export function aplicarFiltros(lista: Recomendacion[], f: FiltrosValores, paisDe?: (r: Recomendacion) => string | null): Recomendacion[] {
   const q = f.q.trim().toLowerCase();
   return lista.filter(
     (r) =>
       (!f.marca || r.marca === f.marca) &&
+      (!f.pais || (paisDe?.(r) ?? '').includes(f.pais)) &&
       (!f.campana || r.campanaId === f.campana) &&
       (!f.grupo || r.grupoId === f.grupo) &&
       (!f.sitio || r.sitio === f.sitio) &&
@@ -57,18 +62,20 @@ export function aplicarFiltros(lista: Recomendacion[], f: FiltrosValores): Recom
 interface Props {
   valores: FiltrosValores;
   onChange: (k: keyof FiltrosValores, v: string) => void;
-  campanas?: { id: string; label: string; marca: string }[];
+  paises?: string[];
+  campanas?: { id: string; label: string; marca: string; pais: string }[];
   grupos?: { id: string; label: string; campanaId: string }[];
   sitios?: string[];
   meses: string[];
 }
 
-export default function Filtros({ valores, onChange, campanas, grupos, sitios, meses }: Props) {
-  const campanasVisibles = (campanas ?? []).filter((c) => !valores.marca || c.marca === valores.marca);
+export default function Filtros({ valores, onChange, paises, campanas, grupos, sitios, meses }: Props) {
+  const campanasVisibles = (campanas ?? []).filter((c) => (!valores.marca || c.marca === valores.marca) && (!valores.pais || c.pais === valores.pais));
   const gruposVisibles = (grupos ?? []).filter((g) => valores.campana && g.campanaId === valores.campana);
   return (
     <div className="mb-4 flex flex-wrap items-center gap-2">
       <Select ariaLabel="Cliente" valor={valores.marca} onChange={(v) => onChange('marca', v)} todo="Todos los clientes" opciones={MARCAS.map((m) => ({ id: m.id, label: m.label }))} />
+      {paises && <Select ariaLabel="País" valor={valores.pais} onChange={(v) => onChange('pais', v)} todo="Todos los países" opciones={paises.map((p) => ({ id: p, label: p }))} />}
       {campanas && (
         <Select ariaLabel="Campaña" valor={valores.campana} onChange={(v) => onChange('campana', v)} todo="Todas las campañas" opciones={campanasVisibles.map((c) => ({ id: c.id, label: c.label }))} />
       )}
@@ -77,7 +84,7 @@ export default function Filtros({ valores, onChange, campanas, grupos, sitios, m
       )}
       {sitios && <Select ariaLabel="Sitio" valor={valores.sitio} onChange={(v) => onChange('sitio', v)} todo="Todos los sitios" opciones={sitios.map((s) => ({ id: s, label: s }))} />}
       <Select ariaLabel="Mes" valor={valores.mes} onChange={(v) => onChange('mes', v)} todo="Todos los meses" opciones={meses.map((m) => ({ id: m, label: mesCorto(m) }))} />
-      <Select ariaLabel="Prioridad" valor={valores.prioridad} onChange={(v) => onChange('prioridad', v)} todo="Toda prioridad" opciones={PRIORIDADES.map((p) => ({ id: p.id, label: p.label }))} />
+      <Select ariaLabel="Prioridad" valor={valores.prioridad} onChange={(v) => onChange('prioridad', v)} todo="Prioridad" opciones={PRIORIDADES.map((p) => ({ id: p.id, label: p.label }))} />
       <input
         aria-label="Buscar"
         value={valores.q}

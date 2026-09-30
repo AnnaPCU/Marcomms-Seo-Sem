@@ -33,7 +33,10 @@ export type ExtraccionRow = {
   id: string; fuente: Fuente; corrida_en: string; desde: string | null; hasta: string | null; filas: number | null; detalle: Json; created_at: string;
 }
 export type MetricaMesRow = {
-  id: string; campana_id: string; mes: string; coste: number; clics: number; impresiones: number; conversiones: number; created_at: string; updated_at: string;
+  id: string; campana_id: string; mes: string; desde: string | null; hasta: string | null; dias: number | null; coste: number; clics: number; impresiones: number; conversiones: number; created_at: string; updated_at: string;
+}
+export type MetricaGrupoMesRow = {
+  id: string; grupo_id: string; campana_id: string; mes: string; coste: number; clics: number; impresiones: number; conversiones: number; created_at: string; updated_at: string;
 }
 
 type Tabla<R> = { Row: R; Insert: Partial<R>; Update: Partial<R>; Relationships: never[] };
@@ -47,6 +50,7 @@ export interface Database {
       recomendacion_eventos: Tabla<RecomendacionEventoRow>;
       extracciones: Tabla<ExtraccionRow>;
       metricas_mes: Tabla<MetricaMesRow>;
+      metricas_grupo_mes: Tabla<MetricaGrupoMesRow>;
     };
     Views: { [_ in never]: never };
     Functions: { [_ in never]: never };
