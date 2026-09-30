@@ -21,9 +21,10 @@ export default function Sem() {
     () => [...new Set(cat.campanas.filter((c) => !filtros.marca || c.marca === filtros.marca).map((c) => c.unidad))].filter((p) => p !== 'Sin asignar').sort(),
     [cat.campanas, filtros.marca],
   );
+  const campanaDe = cat.campana;
   const paisDe = useCallback(
-    (r: Recomendacion) => cat.campana(r.campanaId)?.unidad ?? (typeof r.evidencia.unidad === 'string' ? r.evidencia.unidad : null),
-    [cat.campana],
+    (r: Recomendacion) => campanaDe(r.campanaId)?.unidad ?? (typeof r.evidencia.unidad === 'string' ? r.evidencia.unidad : null),
+    [campanaDe],
   );
   const grupos = useMemo(() => cat.grupos.map((g) => ({ id: g.id, label: g.nombre, campanaId: g.campanaId })), [cat.grupos]);
   const visibles = useMemo(() => aplicarFiltros(recs.datos, filtros, paisDe), [recs.datos, filtros, paisDe]);
