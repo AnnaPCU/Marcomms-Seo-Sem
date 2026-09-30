@@ -1,6 +1,5 @@
 /** Una recomendación en el tablero: arrastrable entre columnas, clic para abrir el detalle. */
 import { useDraggable } from '@dnd-kit/core';
-import { CSS } from '@dnd-kit/utilities';
 import { CheckCircle2 } from 'lucide-react';
 import type { Recomendacion } from '@/services/recomendaciones';
 import { ChipMarca, ChipPrioridad } from '@/components/shared/Ui';
@@ -36,11 +35,12 @@ export function CuerpoTarjeta({ rec, ctx, arrastrando }: { rec: Recomendacion; c
 }
 
 export default function TarjetaRec({ rec, ctx, onAbrir }: { rec: Recomendacion; ctx: Contexto; onAbrir: (r: Recomendacion) => void }) {
-  const { attributes, listeners, setNodeRef, transform, isDragging } = useDraggable({ id: rec.id, data: { rec } });
+  // La tarjeta original queda en su lugar (atenuada); la que sigue al mouse es la copia del DragOverlay.
+  const { attributes, listeners, setNodeRef, isDragging } = useDraggable({ id: rec.id, data: { rec } });
   return (
     <div
       ref={setNodeRef}
-      style={{ transform: CSS.Translate.toString(transform), opacity: isDragging ? 0.35 : 1 }}
+      style={{ opacity: isDragging ? 0.3 : 1 }}
       className="cursor-grab touch-none active:cursor-grabbing"
       onClick={() => onAbrir(rec)}
       {...listeners}

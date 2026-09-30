@@ -2,7 +2,8 @@
  * Tablero Kanban: cuatro columnas (propuesta → en proceso → hecha → descartada), arrastrar y soltar con dnd-kit.
  * Mover a «descartada» pide un motivo. Cada movimiento deja un evento en la base.
  */
-import { useState } from 'react';
+import { useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { DndContext, DragOverlay, PointerSensor, useDroppable, useSensor, useSensors, type DragEndEvent, type DragStartEvent } from '@dnd-kit/core';
 import type { Estado } from '@/lib/database.types';
 import { ESTADOS } from '@/constants/estados';
@@ -47,6 +48,11 @@ function Columna({ estado, hijos, cantidad }: { estado: (typeof ESTADOS)[number]
 export default function Tablero({ recomendaciones, contexto, aplicarLocal }: Props) {
   const [activa, setActiva] = useState<Recomendacion | null>(null);
   const [abierta, setAbierta] = useState<Recomendacion | null>(null);
+  // El navegador dispara un clic al soltar: se ignora durante un instante para no abrir el detalle sin querer.
+  const finArrastre = useRef(0);
+  const abrir = (r: Recomendacion) => {
+    if (Date.now() - finArrastre.current > 300) setAbierta(r);
+  };
   const [pendienteDescarte, setPendienteDescarte] = useState<Recomendacion | null>(null);
   const [error, setError] = useState<string | null>(null);
   const sensores = useSensors(useSensor(PointerSensor, { activationConstraint: { distance: 6 } }));
@@ -65,6 +71,7 @@ export default function Tablero({ recomendaciones, contexto, aplicarLocal }: Pro
   }
 
   function alSoltar(ev: DragEndEvent) {
+    finArrastre.current = Date.now();
     setActiva(null);
     const rec = ev.active.data.current?.rec as Recomendacion | undefined;
     const destino = ev.over?.id as Estado | undefined;
@@ -81,7 +88,7 @@ export default function Tablero({ recomendaciones, contexto, aplicarLocal }: Pro
   return (
     <>
       {error && <div className="mb-3 rounded-card border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800">No se pudo guardar: {error}</div>}
-      <DndContext sensors={sensores} onDragStart={(ev: DragStartEvent) => setActiva(ev.active.data.current?.rec as Recomendacion)} onDragEnd={alSoltar} onDragCancel={() => setActiva(null)}>
+      <DndContext sensors={sensores} onDragStart={(ev: DragStartEvent) => setActiva(ev.active.data.current?.rec as Recomendacion)} onDragEnd={alSoltar} onDragCancel={() => ((finArrastre.current = Date.now()), setActiva(null))}>
         <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-4">
           {ESTADOS.map((estado) => {
             const lista = recomendaciones.filter((r) => r.estado === estado.id);
@@ -91,13 +98,16 @@ export default function Tablero({ recomendaciones, contexto, aplicarLocal }: Pro
                 estado={estado}
                 cantidad={lista.length}
                 hijos={lista.map((r) => (
-                  <TarjetaRec key={r.id} rec={r} ctx={contexto(r)} onAbrir={setAbierta} />
+                  <TarjetaRec key={r.id} rec={r} ctx={contexto(r)} onAbrir={abrir} />
                 ))}
               />
             );
           })}
         </div>
-        <DragOverlay>{activa ? <CuerpoTarjeta rec={activa} ctx={contexto(activa)} arrastrando /> : null}</DragOverlay>
+        {createPortal(
+          <DragOverlay dropAnimation={{ duration: 180, easing: 'ease-out' }}>{activa ? <CuerpoTarjeta rec={activa} ctx={contexto(activa)} arrastrando /> : null}</DragOverlay>,
+          document.body,
+        )}
       </DndContext>
 
       {abiertaActual && (

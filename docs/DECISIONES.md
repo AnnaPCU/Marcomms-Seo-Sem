@@ -2,6 +2,19 @@
 
 Registro corto de por qué las cosas son como son. Se agrega arriba.
 
+## 2026-09-30 — Arrastre, fichas completas y claves estables
+
+- **Arrastre**: la animación de entrada dejaba un `transform` en el contenedor de la página y todo lo que usa
+  `position: fixed` (la tarjeta que se arrastra, los diálogos) quedaba ubicado respecto de la página. La
+  animación ya no deja transform, y la copia arrastrada y los diálogos se montan en `<body>` con un portal.
+- **Fichas completas** en el detalle de cada tarjeta, con la misma información que los informes PDF: qué dice hoy
+  el anuncio, qué buscó la gente (con relación fuerte/parcial/nula explicada), cómo lo buscan en orgánico (con
+  impresiones y posición explicadas), diagnóstico, qué quitar y títulos/descripciones propuestos con su largo.
+  Los datos viajan en `evidencia` (campo `ficha`: `anuncio` o `plan`).
+- **Claves estables** (migración 0003): la clave de las tarjetas SEM ya no incluye el nombre de la campaña en
+  Google Ads, porque cambia seguido. Formato: `MARCA:SEM:plan:<unidad>:<pain point>` y
+  `MARCA:SEM:anuncio:<campaña del informe>:<grupo>`. Se migraron las 52 conservando estado e historial.
+
 ## 2026-09-30 — Rediseño con el lenguaje de MarComms Reports
 
 - **Barra superior blanca fija con pestañas**, en lugar de barra lateral: igual que Reports, así el equipo

@@ -159,10 +159,10 @@ def sql_carga():
         filas = [dict(clave=r["clave"], marca=r["marca"], tipo=r["tipo"], campana=r["campana"], grupo=r.get("grupo") if r["campana"] else None, sitio=r.get("sitio"),
                       pagina=r.get("pagina"), titulo=r["titulo"], detalle=r["detalle"], evidencia=r.get("evidencia") or {}, prioridad=r.get("prioridad", "media"),
                       estado=r.get("estado", "propuesta"), mes_alta=r["mes_alta"], origen=r.get("origen")) for r in RECS]
-        for i in range(0, len(filas), 30):  # tandas de 30 para que cada sentencia sea manejable en el SQL editor
+        for i in range(0, len(filas), 15):  # tandas de 15 para que cada sentencia sea manejable en el SQL editor
             out.append(f"insert into {ESQ}.recomendaciones (clave, marca, tipo, campana_id, grupo_id, sitio, pagina, titulo, detalle, evidencia, prioridad, estado, mes_alta, origen)\n"
                        f"select x.clave, x.marca, x.tipo, c.id, g.id, x.sitio, x.pagina, x.titulo, x.detalle, x.evidencia, x.prioridad, x.estado, x.mes_alta, x.origen\n"
-                       f"from {lote(filas[i:i + 30], 'clave text, marca text, tipo text, campana text, grupo text, sitio text, pagina text, titulo text, detalle text, evidencia jsonb, prioridad text, estado text, mes_alta text, origen text')}\n"
+                       f"from {lote(filas[i:i + 15], 'clave text, marca text, tipo text, campana text, grupo text, sitio text, pagina text, titulo text, detalle text, evidencia jsonb, prioridad text, estado text, mes_alta text, origen text')}\n"
                        f"left join {ESQ}.campanas c on c.nombre = x.campana left join {ESQ}.grupos g on g.campana_id = c.id and g.nombre = x.grupo\n"
                        f"on conflict (clave) do update set campana_id = excluded.campana_id, grupo_id = excluded.grupo_id, sitio = excluded.sitio, pagina = excluded.pagina, "
                        f"titulo = excluded.titulo, detalle = excluded.detalle, evidencia = excluded.evidencia, prioridad = excluded.prioridad, origen = excluded.origen;")

@@ -46,7 +46,8 @@ export default {
         orbita: { '0%': { transform: 'rotate(0deg)' }, '100%': { transform: 'rotate(360deg)' } },
       },
       animation: {
-        'fade-in': 'fade-in 0.3s ease-out both',
+        // backwards y no both: al terminar no queda transform aplicado (un transform en un ancestro rompe position: fixed)
+        'fade-in': 'fade-in 0.3s ease-out backwards',
         brillo: 'brillo 1.4s linear infinite',
         barrido: 'barrido 1.3s ease-in-out infinite',
         latido: 'latido 1.6s ease-in-out infinite',

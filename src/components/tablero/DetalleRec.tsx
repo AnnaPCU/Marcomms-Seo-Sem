@@ -1,5 +1,6 @@
 /** Panel lateral con el detalle de una recomendación: qué hacer, la evidencia y su historial. */
 import { useEffect, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { X } from 'lucide-react';
 import type { Estado } from '@/lib/database.types';
 import { ESTADOS, ESTADO_BY_ID, MARCA_BY_ID } from '@/constants/estados';
@@ -7,6 +8,7 @@ import { listarEventos, type Evento, type Recomendacion } from '@/services/recom
 import { Boton, ChipMarca, ChipPrioridad } from '@/components/shared/Ui';
 import { campanaCorta, fechaHora, mesCorto } from '@/utils/formato';
 import type { Contexto } from './TarjetaRec';
+import { FichaAnuncio, FichaPlan, type DatosAnuncio, type DatosPlan } from './Fichas';
 
 function valorEvidencia(v: unknown): string {
   if (typeof v === 'number') return v.toLocaleString('es-AR');
@@ -31,10 +33,12 @@ export default function DetalleRec({ rec, ctx, onCerrar, onMover }: { rec: Recom
     return () => window.removeEventListener('keydown', esc);
   }, [onCerrar]);
 
-  const evidencia = Object.entries(rec.evidencia);
-  return (
+  const ficha = rec.evidencia.ficha;
+  // la ficha ya muestra todo; la tabla genérica queda para las tarjetas sin ficha (SEO)
+  const evidencia = ficha ? [] : Object.entries(rec.evidencia);
+  return createPortal(
     <div className="fixed inset-0 z-40 flex justify-end bg-mc-navy/30" onClick={onCerrar}>
-      <aside className="h-full w-full max-w-lg overflow-y-auto bg-white shadow-card animate-fade-in" onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true">
+      <aside className={`h-full w-full overflow-y-auto bg-white shadow-elevada animate-fade-in ${ficha === 'anuncio' ? 'max-w-5xl' : ficha === 'plan' ? 'max-w-3xl' : 'max-w-lg'}`} onClick={(e) => e.stopPropagation()} role="dialog" aria-modal="true">
         <div className="sticky top-0 flex items-start justify-between gap-3 border-b border-mc-hair bg-white px-5 py-4">
           <div>
             <div className="mb-1.5 flex items-center gap-1.5">
@@ -50,7 +54,7 @@ export default function DetalleRec({ rec, ctx, onCerrar, onMover }: { rec: Recom
         </div>
 
         <div className="space-y-5 px-5 py-4 text-sm">
-          <dl className="grid grid-cols-[110px_1fr] gap-x-3 gap-y-1 text-[13px]">
+          <dl className="grid grid-cols-[110px_1fr] gap-x-3 gap-y-1 text-[13px] md:grid-cols-[110px_1fr_110px_1fr]">
             <dt className="text-mc-grey">Cliente</dt>
             <dd className="text-mc-navy">{MARCA_BY_ID[rec.marca]?.label ?? rec.marca}</dd>
             {rec.tipo === 'SEM' ? (
@@ -86,10 +90,16 @@ export default function DetalleRec({ rec, ctx, onCerrar, onMover }: { rec: Recom
             )}
           </dl>
 
-          <section>
-            <h3 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-mc-grey">Qué hacer</h3>
-            <p className="whitespace-pre-line leading-relaxed">{rec.detalle}</p>
-          </section>
+          {ficha === 'anuncio' ? (
+            <FichaAnuncio d={rec.evidencia as unknown as DatosAnuncio} />
+          ) : ficha === 'plan' ? (
+            <FichaPlan d={rec.evidencia as unknown as DatosPlan} />
+          ) : (
+            <section>
+              <h3 className="mb-1 text-[11px] font-semibold uppercase tracking-[0.12em] text-mc-grey">Qué hacer</h3>
+              <p className="whitespace-pre-line leading-relaxed">{rec.detalle}</p>
+            </section>
+          )}
 
           {evidencia.length > 0 && (
             <section>
@@ -146,6 +156,7 @@ export default function DetalleRec({ rec, ctx, onCerrar, onMover }: { rec: Recom
           </section>
         </div>
       </aside>
-    </div>
+    </div>,
+    document.body,
   );
 }

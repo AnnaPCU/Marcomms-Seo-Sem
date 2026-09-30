@@ -1,10 +1,11 @@
 /** Diálogo para dejar por escrito por qué se descarta una recomendación. */
 import { useState } from 'react';
+import { createPortal } from 'react-dom';
 import { Boton } from '@/components/shared/Ui';
 
 export default function MotivoDescarte({ titulo, onCancelar, onConfirmar }: { titulo: string; onCancelar: () => void; onConfirmar: (motivo: string) => void }) {
   const [motivo, setMotivo] = useState('');
-  return (
+  return createPortal(
     <div className="fixed inset-0 z-50 flex items-center justify-center bg-mc-navy/40 p-4" role="dialog" aria-modal="true">
       <form
         onSubmit={(e) => {
@@ -34,6 +35,7 @@ export default function MotivoDescarte({ titulo, onCancelar, onConfirmar }: { ti
           </Boton>
         </div>
       </form>
-    </div>
+    </div>,
+    document.body,
   );
 }
