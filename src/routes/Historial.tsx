@@ -4,7 +4,7 @@ import type { Estado } from '@/lib/database.types';
 import { ESTADO_BY_ID } from '@/constants/estados';
 import { listarEventos, type Evento } from '@/services/recomendaciones';
 import { useRecomendaciones } from '@/hooks/useDatos';
-import { Cargando, ChipMarca, ErrorBox, Tarjeta, Vacio } from '@/components/shared/Ui';
+import { Cargando, ChipMarca, ErrorBox, SeccionTitulo, Tarjeta, Vacio } from '@/components/shared/Ui';
 import { fechaHora } from '@/utils/formato';
 
 export default function Historial() {
@@ -27,10 +27,7 @@ export default function Historial() {
   if (error) return <ErrorBox mensaje={error} />;
   return (
     <div className="animate-fade-in">
-      <header className="mb-4">
-        <div className="text-[11px] font-semibold uppercase tracking-[0.14em] text-mc-blue">Historial</div>
-        <h1 className="text-xl">Movimientos del tablero</h1>
-      </header>
+      <SeccionTitulo meta="últimos 300 movimientos">Movimientos del tablero</SeccionTitulo>
       {!eventos ? (
         <Cargando />
       ) : eventos.length === 0 ? (
@@ -39,7 +36,7 @@ export default function Historial() {
         <Tarjeta>
           <table className="w-full text-[13px]">
             <thead>
-              <tr className="text-left text-[11px] uppercase tracking-[0.1em] text-mc-grey">
+              <tr className="bg-noche-mc text-left text-[11px] uppercase tracking-[0.1em] text-white">
                 <th className="px-4 py-2 font-semibold">Cuándo</th>
                 <th className="px-2 py-2 font-semibold">Recomendación</th>
                 <th className="px-2 py-2 font-semibold">Cambio</th>

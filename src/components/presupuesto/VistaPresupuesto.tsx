@@ -6,7 +6,8 @@ import { useMemo, useState } from 'react';
 import { ChevronRight } from 'lucide-react';
 import { MARCA_BY_ID, MARCAS } from '@/constants/estados';
 import { useCampanas, useGrupos, useMetricas, useMetricasGrupo } from '@/hooks/useDatos';
-import { Cargando, ErrorBox, Select, Tarjeta, Vacio } from '@/components/shared/Ui';
+import { ErrorBox, SeccionTitulo, Select, Tarjeta, Vacio } from '@/components/shared/Ui';
+import { EsqueletoPresupuesto } from '@/components/shared/Loader';
 import { ars, campanaCorta, entero, fecha, mesCorto } from '@/utils/formato';
 import { armarArbol, consumoMes, diasDelMes, resumir, ritmo, semaforo, type CampanaGasto, type GrupoGasto, type Nodo } from '@/utils/presupuesto';
 import PanelRotacion from './PanelRotacion';
@@ -23,7 +24,7 @@ function Fila({ n, modo, dias, diasMes, abiertos, alternar }: { n: Nodo; modo: M
   const gasto = modo === 'mes' ? n.coste : n.coste / Math.max(dias, 1);
   const barra = modo === 'mes' ? consumoMes(n.coste, n.presDia, diasMes) : r;
   const sangria = ['', 'pl-0', 'pl-5', 'pl-10', 'pl-[60px]'][n.nivel];
-  const fondo = n.nivel === 1 ? 'bg-mc-tint font-semibold' : n.nivel === 2 ? 'bg-white font-semibold' : 'bg-white';
+  const fondo = n.nivel === 1 ? 'border-l-4 border-l-mc-navy bg-mc-tint2 font-bold' : n.nivel === 2 ? 'border-l-4 border-l-mc-blue bg-mc-tint font-semibold' : 'border-l-4 border-l-transparent bg-white';
   const nombre = n.nivel === 1 ? (MARCA_BY_ID[n.nombre as keyof typeof MARCA_BY_ID]?.label ?? n.nombre) : n.nivel === 3 ? campanaCorta(n.nombre) : n.nombre;
   const detalle = n.nivel === 1 ? `${n.hijos.length} países` : n.nivel === 2 ? `${n.hijos.length} campañas` : n.nivel === 3 && n.hijos.length ? `${n.hijos.length} grupos` : '';
   return (
@@ -71,7 +72,7 @@ export default function VistaPresupuesto() {
     const porId = new Map(delMes.map((m) => [m.campanaId, m]));
     return camp.datos.map((c) => {
       const m = porId.get(c.id);
-      return { id: c.id, nombre: c.nombre, marca: c.marca, unidad: c.unidad, estado: c.estado, presupuestoDia: c.presupuestoDia, coste: m?.coste ?? 0, clics: m?.clics ?? 0, conv: m?.conversiones ?? 0 };
+      return { id: c.id, nombre: c.nombre, marca: c.marca, unidad: c.unidad, estado: c.estado, presupuestoDia: c.presupuestoDia, coste: m?.coste ?? 0, clics: m?.clics ?? 0, conv: m?.conversiones ?? 0, impresiones: m?.impresiones ?? 0 };
     });
   }, [camp.datos, delMes]);
 
@@ -111,30 +112,34 @@ export default function VistaPresupuesto() {
 
   const error = camp.error || met.error || metG.error;
   if (error) return <ErrorBox mensaje={error} />;
-  if (camp.cargando || met.cargando) return <Cargando />;
+  if (camp.cargando || met.cargando) return <EsqueletoPresupuesto />;
   if (!delMes.length) return <Vacio>Todavía no hay gasto cargado. Corré scripts/publicar.py después de una extracción de Ads.</Vacio>;
 
   return (
-    <div className="space-y-5">
-      <div className="flex flex-wrap items-center justify-between gap-2">
-        <p className="text-sm text-mc-grey">
-          {mesCorto(mes)} · datos del {fecha(delMes[0].desde)} al {fecha(hasta)} ({dias} de {diasMes} días) · leído por API de Google Ads
+    <div className="space-y-7 animate-fade-in">
+      <div className="flex flex-wrap items-end justify-between gap-3 rounded-card bg-white px-4 py-3 shadow-card">
+        <div className="flex flex-wrap items-end gap-3">
+          <Select etiqueta="Cliente" ariaLabel="Cliente" valor={cliente} onChange={(v) => (setCliente(v), setPais(''))} todo="Todos los clientes" opciones={MARCAS.map((m) => ({ id: m.id, label: m.label }))} />
+          <Select etiqueta="País" ariaLabel="País" valor={pais} onChange={setPais} todo="Todos los países" opciones={paises.map((p) => ({ id: p, label: p }))} />
+          {meses.length > 1 && <Select etiqueta="Período" ariaLabel="Mes" valor={mes} onChange={setMes} todo="Último mes" opciones={meses.map((m) => ({ id: m, label: mesCorto(m) }))} />}
+        </div>
+        <p className="text-xs text-mc-grey">
+          Datos del {fecha(delMes[0].desde)} al {fecha(hasta)} · {dias} de {diasMes} días · API de Google Ads
         </p>
-        {meses.length > 1 && <Select ariaLabel="Mes" valor={mes} onChange={setMes} todo="Último mes" opciones={meses.map((m) => ({ id: m, label: mesCorto(m) }))} />}
       </div>
 
-      <PanelRotacion r={resumen} dias={dias} diasMes={diasMes} hasta={hasta} />
+      <PanelRotacion r={resumen} clientes={arbol} mes={mes} dias={dias} diasMes={diasMes} />
 
-      <div className="flex flex-wrap items-center gap-2">
+      <section>
+      <SeccionTitulo meta="clic en cada fila para abrirla">Detalle por cliente, país, campaña y grupo</SeccionTitulo>
+      <div className="mb-3 flex flex-wrap items-center gap-2">
         <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-white text-sm">
           {(['mes', 'dia'] as Modo[]).map((m) => (
-            <button key={m} type="button" onClick={() => setModo(m)} className={`px-3 py-1.5 ${modo === m ? 'bg-mc-navy text-white' : 'text-mc-ink hover:bg-mc-tint'}`}>
+            <button key={m} type="button" onClick={() => setModo(m)} className={`px-3 py-1.5 font-medium transition ${modo === m ? 'bg-mc-navy text-white' : 'text-mc-ink hover:bg-mc-tint'}`}>
               {m === 'mes' ? `Mes (${mesCorto(mes)})` : 'Por día'}
             </button>
           ))}
         </div>
-        <Select ariaLabel="Cliente" valor={cliente} onChange={(v) => (setCliente(v), setPais(''))} todo="Todos los clientes" opciones={MARCAS.map((m) => ({ id: m.id, label: m.label }))} />
-        <Select ariaLabel="País" valor={pais} onChange={setPais} todo="Todos los países" opciones={paises.map((p) => ({ id: p, label: p }))} />
         <input
           aria-label="Buscar campaña o grupo"
           value={q}
@@ -147,7 +152,7 @@ export default function VistaPresupuesto() {
         </button>
       </div>
 
-      <div className="flex flex-wrap gap-4 text-xs text-mc-grey">
+      <div className="mb-3 flex flex-wrap gap-4 text-xs text-mc-grey">
         <span><b className="text-emerald-700">● Verde</b> gasta dentro de su presupuesto diario</span>
         <span><b className="text-red-700">● Rojo</b> gasta más de un 5% por encima, o no gasta nada</span>
         <span><b>● Gris</b> sin presupuesto activo (pausada o eliminada)</span>
@@ -171,10 +176,11 @@ export default function VistaPresupuesto() {
           ))}
         </div>
       </Tarjeta>
-      <p className="text-xs text-mc-grey">
+      <p className="mt-3 text-xs text-mc-grey">
         Presupuesto: el diario configurado en Google Ads, solo de campañas activas; en la vista mensual, × {diasMes} días. Consumo: gasto acumulado sobre el presupuesto del mes completo. El semáforo
         compara el gasto por día (sobre {dias} días con datos) contra el presupuesto por día. Los grupos de anuncios no tienen presupuesto propio.
       </p>
+      </section>
     </div>
   );
 }

@@ -3,7 +3,8 @@ import { useCallback, useMemo } from 'react';
 import { useCatalogo, useRecomendaciones } from '@/hooks/useDatos';
 import Tablero from '@/components/tablero/Tablero';
 import Filtros, { aplicarFiltros, useFiltros } from '@/components/tablero/Filtros';
-import { Cargando, ErrorBox, Vacio } from '@/components/shared/Ui';
+import { ErrorBox, Intro, SeccionTitulo, Vacio } from '@/components/shared/Ui';
+import { EsqueletoTablero } from '@/components/shared/Loader';
 import { campanaCorta } from '@/utils/formato';
 import type { Recomendacion } from '@/services/recomendaciones';
 
@@ -32,14 +33,19 @@ export default function Sem() {
   if (recs.error) return <ErrorBox mensaje={recs.error} />;
   return (
     <div className="animate-fade-in">
-      <header className="mb-4">
-        <div className="text-[11px] font-semibold uppercase tracking-[0.14em] text-mc-blue">SEM · campañas de búsqueda</div>
-        <h1 className="text-xl">Mejoras por campaña y grupo de anuncios</h1>
-        <p className="mt-1 text-sm text-mc-grey">Arrastrá cada tarjeta a la columna que corresponda. Se renuevan cada mes con la extracción; las que la API confirma aplicadas se marcan solas.</p>
-      </header>
+      <SeccionTitulo meta="Google Ads · Search">Mejoras por campaña y grupo de anuncios</SeccionTitulo>
+      <Intro
+        cifras={[
+          { valor: visibles.length, etiqueta: 'tarjetas' },
+          { valor: visibles.filter((r) => r.prioridad === 'alta' && r.estado !== 'hecha' && r.estado !== 'descartada').length, etiqueta: 'alta abiertas', tono: 'text-red-700' },
+          { valor: visibles.filter((r) => r.estado === 'hecha').length, etiqueta: 'hechas', tono: 'text-emerald-700' },
+        ]}
+      >
+        Arrastrá cada tarjeta a la columna que corresponda. Filtrá por cliente, país, campaña y grupo. Se renuevan cada mes con la extracción; las que la API confirma aplicadas se marcan solas.
+      </Intro>
       <Filtros valores={filtros} onChange={setFiltro} paises={paises} campanas={campanas} grupos={grupos} meses={meses} />
       {recs.cargando ? (
-        <Cargando />
+        <EsqueletoTablero />
       ) : recs.datos.length === 0 ? (
         <Vacio>No hay recomendaciones cargadas. Corré scripts/publicar.py desde el proyecto de análisis.</Vacio>
       ) : (

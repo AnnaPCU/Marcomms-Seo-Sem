@@ -15,7 +15,7 @@ export interface Contexto {
 export function CuerpoTarjeta({ rec, ctx, arrastrando }: { rec: Recomendacion; ctx: Contexto; arrastrando?: boolean }) {
   const ubicacion = rec.tipo === 'SEM' ? [ctx.campana ? campanaCorta(ctx.campana) : null, ctx.grupo].filter(Boolean).join(' › ') : [rec.sitio, rec.pagina].filter(Boolean).join(' ');
   return (
-    <div className={`rounded-card border border-l-4 bg-white px-3 py-2.5 shadow-card ${arrastrando ? 'border-mc-blue' : 'border-mc-hair hover:border-mc-blue/60'} ${PRIORIDAD_BY_ID[rec.prioridad]?.borde ?? ''}`}>
+    <div className={`rounded-card border border-l-4 bg-white px-3 py-2.5 shadow-card transition ${arrastrando ? 'rotate-1 border-mc-blue shadow-elevada' : 'border-mc-hair/80 hover:-translate-y-0.5 hover:shadow-elevada'} ${PRIORIDAD_BY_ID[rec.prioridad]?.borde ?? ''}`}>
       <div className="mb-1.5 flex items-center gap-1.5">
         <ChipMarca marca={rec.marca} />
         <ChipPrioridad prioridad={rec.prioridad} />

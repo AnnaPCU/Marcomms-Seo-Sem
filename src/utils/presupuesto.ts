@@ -24,6 +24,7 @@ export interface CampanaGasto {
   coste: number;
   clics: number;
   conv: number;
+  impresiones?: number;
 }
 
 export interface GrupoGasto {
@@ -150,18 +151,27 @@ export interface Resumen {
   topeadas: FilaRotacion[];
   ociosas: FilaRotacion[];
   sobranteDia: number;
+  impresiones: number;
+  clics: number;
+  conv: number;
 }
 
 /** Totales del mes y listas para rotar inversión (campañas topeadas vs. con presupuesto ocioso). */
 export function resumir(campanas: CampanaGasto[], dias: number, diasMes: number): Resumen {
   let presDia = 0;
   let gasto = 0;
+  let impresiones = 0;
+  let clics = 0;
+  let conv = 0;
   const sobre: FilaRotacion[] = [];
   const sinGasto: FilaRotacion[] = [];
   const topeadas: FilaRotacion[] = [];
   const ociosas: FilaRotacion[] = [];
   for (const c of campanas) {
     gasto += c.coste;
+    impresiones += c.impresiones ?? 0;
+    clics += c.clics;
+    conv += c.conv;
     const pres = presupuestoActivo(c);
     if (pres === null) continue;
     presDia += pres;
@@ -190,5 +200,8 @@ export function resumir(campanas: CampanaGasto[], dias: number, diasMes: number)
     topeadas: topeadas.sort(porRitmo),
     ociosas,
     sobranteDia: ociosas.reduce((s, f) => s + Math.max(f.margenDia, 0), 0),
+    impresiones,
+    clics,
+    conv,
   };
 }

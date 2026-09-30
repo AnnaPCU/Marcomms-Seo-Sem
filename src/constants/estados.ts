@@ -3,11 +3,12 @@
  */
 import type { Estado, Marca, Prioridad, Tipo } from '@/lib/database.types';
 
-export const ESTADOS: { id: Estado; label: string; hint: string }[] = [
-  { id: 'propuesta', label: 'Propuesta', hint: 'Lo que el análisis recomienda y todavía nadie tomó' },
-  { id: 'en_proceso', label: 'En proceso', hint: 'Alguien la está aplicando' },
-  { id: 'hecha', label: 'Hecha', hint: 'Aplicada. La API la verifica al mes siguiente' },
-  { id: 'descartada', label: 'Descartada', hint: 'Se decidió no hacerla; queda el motivo' },
+// Color de cada columna: franja superior, punto y fondo de la cabecera.
+export const ESTADOS: { id: Estado; label: string; hint: string; franja: string; punto: string; fondo: string }[] = [
+  { id: 'propuesta', label: 'Propuesta', hint: 'Lo que el análisis recomienda y todavía nadie tomó', franja: 'border-t-mc-blue', punto: 'bg-mc-blue', fondo: 'bg-sky-50' },
+  { id: 'en_proceso', label: 'En proceso', hint: 'Alguien la está aplicando', franja: 'border-t-mc-gold', punto: 'bg-mc-gold', fondo: 'bg-amber-50' },
+  { id: 'hecha', label: 'Hecha', hint: 'Aplicada. La API la verifica al mes siguiente', franja: 'border-t-mc-green', punto: 'bg-mc-green', fondo: 'bg-emerald-50' },
+  { id: 'descartada', label: 'Descartada', hint: 'Se decidió no hacerla; queda el motivo', franja: 'border-t-mc-grey', punto: 'bg-mc-grey', fondo: 'bg-mc-tint' },
 ];
 export const ESTADO_BY_ID = Object.fromEntries(ESTADOS.map((e) => [e.id, e])) as Record<Estado, (typeof ESTADOS)[number]>;
 

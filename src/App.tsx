@@ -2,7 +2,7 @@
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom';
 import { AuthProvider, useAuth } from '@/hooks/useAuth';
 import Layout from '@/components/shared/Layout';
-import { Cargando } from '@/components/shared/Ui';
+import { PantallaCarga } from '@/components/shared/Loader';
 import Login from '@/routes/Login';
 import Inicio from '@/routes/Inicio';
 import Sem from '@/routes/Sem';
@@ -11,13 +11,13 @@ import Historial from '@/routes/Historial';
 
 function Privado() {
   const { sesion, cargando } = useAuth();
-  if (cargando) return <Cargando texto="Verificando sesión…" />;
+  if (cargando) return <PantallaCarga />;
   return sesion ? <Layout /> : <Navigate to="/login" replace />;
 }
 
 function Publico() {
   const { sesion, cargando } = useAuth();
-  if (cargando) return <Cargando texto="Verificando sesión…" />;
+  if (cargando) return <PantallaCarga />;
   return sesion ? <Navigate to="/" replace /> : <Login />;
 }
 

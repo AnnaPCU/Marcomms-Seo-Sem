@@ -2,7 +2,7 @@
 import { Link } from 'react-router-dom';
 import { ESTADOS, MARCAS } from '@/constants/estados';
 import { useExtracciones, useRecomendaciones } from '@/hooks/useDatos';
-import { Cargando, Tarjeta } from '@/components/shared/Ui';
+import { Cargando, SeccionTitulo, Tarjeta } from '@/components/shared/Ui';
 import VistaPresupuesto from '@/components/presupuesto/VistaPresupuesto';
 import { diasDesde, fecha, fechaHora } from '@/utils/formato';
 
@@ -25,21 +25,10 @@ export default function Inicio() {
 
   return (
     <div className="space-y-8 animate-fade-in">
-      <header className="flex flex-wrap items-end justify-between gap-4">
-        <div>
-          <div className="text-[11px] font-semibold uppercase tracking-[0.14em] text-mc-blue">MarComms · Inicio</div>
-          <h1 className="text-xl">Presupuesto y gasto de Google Ads</h1>
-        </div>
-        <div className="flex gap-8">
-          <Frescura titulo="Google Ads" hasta={ads?.hasta} corrida={ads?.corridaEn} />
-          <Frescura titulo="Search Console" hasta={gsc?.hasta} corrida={gsc?.corridaEn} />
-        </div>
-      </header>
-
       <VistaPresupuesto />
 
       <section>
-        <h2 className="mb-3 text-base">Tablero de recomendaciones por cliente</h2>
+        <SeccionTitulo meta="clic en un cliente para ver su tablero">Tablero de recomendaciones por cliente</SeccionTitulo>
         <Tarjeta className="p-4">
           {recs.cargando ? (
             <Cargando />
@@ -73,7 +62,10 @@ export default function Inicio() {
               </tbody>
             </table>
           )}
-          <div className="mt-3 flex gap-4 text-sm">
+          <div className="mt-4 flex flex-wrap items-center gap-6 border-t border-mc-tint2 pt-3 text-sm">
+            <Frescura titulo="Google Ads" hasta={ads?.hasta} corrida={ads?.corridaEn} />
+            <Frescura titulo="Search Console" hasta={gsc?.hasta} corrida={gsc?.corridaEn} />
+            <span className="flex-1" />
             <Link to="/sem" className="font-semibold text-mc-blue hover:underline">
               Ir al tablero SEM
             </Link>

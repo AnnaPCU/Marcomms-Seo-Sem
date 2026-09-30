@@ -73,7 +73,7 @@ export default function Filtros({ valores, onChange, paises, campanas, grupos, s
   const campanasVisibles = (campanas ?? []).filter((c) => (!valores.marca || c.marca === valores.marca) && (!valores.pais || c.pais === valores.pais));
   const gruposVisibles = (grupos ?? []).filter((g) => valores.campana && g.campanaId === valores.campana);
   return (
-    <div className="mb-4 flex flex-wrap items-center gap-2">
+    <div className="mb-5 flex flex-wrap items-center gap-2 rounded-card bg-white px-3 py-2.5 shadow-card">
       <Select ariaLabel="Cliente" valor={valores.marca} onChange={(v) => onChange('marca', v)} todo="Todos los clientes" opciones={MARCAS.map((m) => ({ id: m.id, label: m.label }))} />
       {paises && <Select ariaLabel="País" valor={valores.pais} onChange={(v) => onChange('pais', v)} todo="Todos los países" opciones={paises.map((p) => ({ id: p, label: p }))} />}
       {campanas && (
@@ -89,8 +89,8 @@ export default function Filtros({ valores, onChange, paises, campanas, grupos, s
         aria-label="Buscar"
         value={valores.q}
         onChange={(e) => onChange('q', e.target.value)}
-        placeholder="Buscar…"
-        className="min-w-[180px] flex-1 rounded-lg border border-mc-hair bg-white px-2.5 py-1.5 text-sm focus:border-mc-blue focus:outline-none"
+        placeholder="Buscar en títulos y detalle…"
+        className="min-w-[180px] flex-1 rounded-lg border border-mc-hair bg-mc-tint px-2.5 py-1.5 text-sm transition focus:border-mc-blue focus:bg-white focus:outline-none focus:ring-2 focus:ring-mc-blue/15"
       />
     </div>
   );

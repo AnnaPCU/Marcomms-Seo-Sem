@@ -3,7 +3,8 @@ import { useMemo } from 'react';
 import { useRecomendaciones } from '@/hooks/useDatos';
 import Tablero from '@/components/tablero/Tablero';
 import Filtros, { aplicarFiltros, useFiltros } from '@/components/tablero/Filtros';
-import { Cargando, ErrorBox, Vacio } from '@/components/shared/Ui';
+import { ErrorBox, Intro, SeccionTitulo, Vacio } from '@/components/shared/Ui';
+import { EsqueletoTablero } from '@/components/shared/Loader';
 
 export default function Seo() {
   const recs = useRecomendaciones('SEO');
@@ -18,14 +19,19 @@ export default function Seo() {
   if (recs.error) return <ErrorBox mensaje={recs.error} />;
   return (
     <div className="animate-fade-in">
-      <header className="mb-4">
-        <div className="text-[11px] font-semibold uppercase tracking-[0.14em] text-mc-blue">SEO · sitios</div>
-        <h1 className="text-xl">Mejoras por sitio y página</h1>
-        <p className="mt-1 text-sm text-mc-grey">Salen del histórico de Search Console. Las de plantilla (hreflang, PDFs, títulos) se repiten en varios sitios y se corrigen una sola vez.</p>
-      </header>
+      <SeccionTitulo meta="Search Console · histórico">Mejoras por sitio y página</SeccionTitulo>
+      <Intro
+        cifras={[
+          { valor: visibles.length, etiqueta: 'tarjetas' },
+          { valor: sitios.length, etiqueta: 'sitios' },
+          { valor: visibles.filter((r) => r.estado === 'hecha').length, etiqueta: 'hechas', tono: 'text-emerald-700' },
+        ]}
+      >
+        Salen del histórico de Search Console. Las de plantilla (hreflang, PDFs, títulos) se repiten en varios sitios y se corrigen una sola vez.
+      </Intro>
       <Filtros valores={filtros} onChange={setFiltro} sitios={sitios} meses={meses} />
       {recs.cargando ? (
-        <Cargando />
+        <EsqueletoTablero />
       ) : recs.datos.length === 0 ? (
         <Vacio>No hay recomendaciones SEO cargadas todavía.</Vacio>
       ) : (

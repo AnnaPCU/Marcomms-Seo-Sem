@@ -2,6 +2,18 @@
 
 Registro corto de por qué las cosas son como son. Se agrega arriba.
 
+## 2026-09-30 — Rediseño con el lenguaje de MarComms Reports
+
+- **Barra superior blanca fija con pestañas**, en lugar de barra lateral: igual que Reports, así el equipo
+  navega las dos herramientas de la misma forma.
+- **Títulos de sección azules en mayúsculas con línea**, indicadores con borde de color (azul, verde, dorado,
+  rojo) y uno destacado en azul noche, franjas azul noche para los bloques de acción y embudo
+  impresión → clic → conversión con degradé azul noche → azul → verde.
+- **Paleta ampliada**: índigo, verde, dorado y rojo como acentos. Ninguno es un color de marca de los clientes.
+- **Loader**: el símbolo MC en órbita con degradé y mensajes que rotan; esqueletos con brillo dentro de cada vista.
+- **Favicon cuadrado** recortado al símbolo MC (el anterior era 128×75 y se estiraba).
+- **El informe de gasto no se manda más por chat**: todo se consulta en la web.
+
 ## 2026-09-30 — Presupuesto en el Inicio
 
 - **El Inicio es el seguimiento de presupuesto.** Réplica en vivo del informe de gasto: cliente → país → campaña →
