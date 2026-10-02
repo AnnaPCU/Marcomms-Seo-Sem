@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { armarArbol, consumoMes, diasDelMes, presupuestoActivo, resumir, ritmo, semaforo, type CampanaGasto } from './presupuesto';
+import { armarArbol, consumoMes, diaSemana, diasDelMes, estadoDia, fechasDelMes, presupuestoActivo, resumir, ritmo, semaforo, totalDia, type CampanaGasto } from './presupuesto';
 
 const c = (id: string, over: Partial<CampanaGasto>): CampanaGasto => ({
   id, nombre: id, marca: 'CU', unidad: 'España', estado: 'ENABLED', presupuestoDia: 1000, coste: 0, clics: 0, conv: 0, ...over,
@@ -55,5 +55,31 @@ describe('presupuesto', () => {
     expect(r.sinGasto.map((f) => f.campanaId)).toEqual(['cero']);
     expect(r.sobre.map((f) => f.campanaId)).toEqual([]); // 103%: topeada pero no por encima del 5%
     expect(Math.round(r.sobranteDia)).toBe(1828);
+  });
+});
+
+describe('día a día', () => {
+  it('clasifica cada día contra el presupuesto diario', () => {
+    expect(estadoDia(1050, 1000)).toBe('ok'); // justo en el 5%
+    expect(estadoDia(1051, 1000)).toBe('sobre');
+    expect(estadoDia(0, 1000)).toBe('sin');
+    expect(estadoDia(500, null)).toBe('gris');
+  });
+
+  it('arma los días del mes hasta el último con datos y ubica el 1 en la semana', () => {
+    expect(fechasDelMes('2026-10', '2026-10-01')).toEqual(['2026-10-01']);
+    expect(fechasDelMes('2026-09', '2026-10-01')).toHaveLength(30);
+    expect(diaSemana('2026-09-01')).toBe(1); // martes
+    expect(diaSemana('2026-10-04')).toBe(6); // domingo
+  });
+
+  it('suma el día de todas las campañas contra el presupuesto de las activas', () => {
+    const campanas = [c('a', {}), c('b', {}), c('p', { estado: 'PAUSED' })];
+    const gasto = new Map([['a|2026-09-02', 1500], ['p|2026-09-02', 200]]);
+    const t = totalDia('2026-09-02', campanas, gasto);
+    expect(t.coste).toBe(1700);
+    expect(t.presDia).toBe(2000);
+    expect(t.estado).toBe('ok');
+    expect([t.sobre, t.sin, t.ok]).toEqual([1, 1, 0]);
   });
 });

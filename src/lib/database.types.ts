@@ -39,6 +39,10 @@ export type MetricaGrupoMesRow = {
   id: string; grupo_id: string; campana_id: string; mes: string; coste: number; clics: number; impresiones: number; conversiones: number; created_at: string; updated_at: string;
 }
 
+export type MetricaDiaRow = {
+  id: string; campana_id: string; fecha: string; coste: number; clics: number; impresiones: number; conversiones: number; created_at: string; updated_at: string;
+}
+
 type Tabla<R> = { Row: R; Insert: Partial<R>; Update: Partial<R>; Relationships: never[] };
 
 export interface Database {
@@ -51,6 +55,7 @@ export interface Database {
       extracciones: Tabla<ExtraccionRow>;
       metricas_mes: Tabla<MetricaMesRow>;
       metricas_grupo_mes: Tabla<MetricaGrupoMesRow>;
+      metricas_dia: Tabla<MetricaDiaRow>;
     };
     Views: { [_ in never]: never };
     Functions: { [_ in never]: never };

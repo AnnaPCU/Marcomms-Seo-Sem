@@ -14,7 +14,7 @@ export const ESTADO_BY_ID = Object.fromEntries(ESTADOS.map((e) => [e.id, e])) as
 
 export const MARCAS: { id: Marca; label: string; corto: string }[] = [
   { id: 'CU', label: 'Control Union', corto: 'CU' },
-  { id: 'PCU', label: 'ISO 27001 (campañas «PCU»)', corto: 'PCU' },
+  { id: 'PCU', label: 'Peterson Control Union (ISO)', corto: 'PCU' },
   { id: 'PS', label: 'Peterson Solutions', corto: 'PS' },
 ];
 export const MARCA_BY_ID = Object.fromEntries(MARCAS.map((m) => [m.id, m])) as Record<Marca, (typeof MARCAS)[number]>;

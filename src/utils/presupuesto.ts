@@ -205,3 +205,62 @@ export function resumir(campanas: CampanaGasto[], dias: number, diasMes: number)
     conv,
   };
 }
+
+// ─────────────────────────────────────────────── día a día
+/**
+ * Estado de un día contra el presupuesto diario:
+ *  - sobre: gastó más de un 5% por encima del presupuesto del día
+ *  - sin: campaña activa que ese día no gastó nada
+ *  - ok: gastó dentro del presupuesto
+ *  - gris: sin presupuesto activo (pausada o eliminada)
+ */
+export type EstadoDia = 'sobre' | 'ok' | 'sin' | 'gris';
+
+export function estadoDia(coste: number, presDia: number | null): EstadoDia {
+  if (!presDia) return 'gris';
+  if (coste <= 0) return 'sin';
+  if (coste > presDia * UMBRAL_SOBRE) return 'sobre';
+  return 'ok';
+}
+
+/** Días del mes ('AAAA-MM-DD') desde el 1 hasta `hasta` inclusive, sin pasar del fin de mes. */
+export function fechasDelMes(mes: string, hasta: string | null): string[] {
+  const total = diasDelMes(mes);
+  const ultimo = hasta && hasta.startsWith(mes) ? Math.min(Number(hasta.slice(8, 10)), total) : total;
+  return Array.from({ length: ultimo }, (_, i) => `${mes}-${String(i + 1).padStart(2, '0')}`);
+}
+
+/** Día de la semana con lunes = 0 (para ubicar el 1 del mes en una grilla de calendario). */
+export function diaSemana(fechaIso: string): number {
+  const [a, m, d] = fechaIso.split('-').map(Number);
+  return (new Date(a, m - 1, d).getDay() + 6) % 7;
+}
+
+export interface TotalDia {
+  fecha: string;
+  coste: number;
+  presDia: number | null;
+  estado: EstadoDia;
+  sobre: number;
+  sin: number;
+  ok: number;
+}
+
+/**
+ * Total de un día para un conjunto de campañas: gasto de todas contra el presupuesto de las activas,
+ * y cuántas campañas activas superaron, no gastaron o quedaron dentro.
+ */
+export function totalDia(fecha: string, campanas: Pick<CampanaGasto, 'id' | 'estado' | 'presupuestoDia'>[], gasto: Map<string, number>): TotalDia {
+  let coste = 0;
+  let pres = 0;
+  const cuenta = { sobre: 0, sin: 0, ok: 0, gris: 0 };
+  for (const c of campanas) {
+    const g = gasto.get(`${c.id}|${fecha}`) ?? 0;
+    const p = presupuestoActivo(c);
+    coste += g;
+    if (p) pres += p;
+    cuenta[estadoDia(g, p)] += 1;
+  }
+  const presDia = pres > 0 ? pres : null;
+  return { fecha, coste, presDia, estado: estadoDia(coste, presDia), sobre: cuenta.sobre, sin: cuenta.sin, ok: cuenta.ok };
+}

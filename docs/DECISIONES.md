@@ -2,6 +2,18 @@
 
 Registro corto de por qué las cosas son como son. Se agrega arriba.
 
+## 2026-10-02 — Vista «Día a día», rotación desplegable y PCU como cliente
+
+- **Día a día** (tercera vista de Presupuesto, junto a Mes y Promedio por día): calendario del mes con el gasto de cada
+  día sobre el presupuesto diario de las campañas activas, detalle del día elegido (por defecto, el último con datos)
+  y una grilla campaña × día. Rojo: más de un 5% por encima; rojo claro: activa sin gasto; verde: dentro; gris: sin
+  presupuesto. Los datos vienen de `seo_sem.metricas_dia` (migración 0004), que carga `publicar.py` desde
+  `informe/datos_gasto_diario.json` (`ads_diario.py` del proyecto de análisis). Se cruza por `ads_id`.
+  Límite: el presupuesto de referencia es el que la campaña tiene hoy; Google puede gastar hasta el doble en un día.
+- **Rotación de inversión**: «Ver N más» despliega el resto de cada lista y «Ocultar» la vuelve a cerrar.
+- **Consumo por cliente** con divisores; PCU se muestra como «Peterson Control Union (ISO)».
+- Los scripts reconocen también el naming estándar del equipo (`CU_US_SEARCH_…`) para marca y país.
+
 ## 2026-09-30 — Tipo de mejora, orgánico en el plan y tarjetas relacionadas
 
 - **Tipo de mejora** (`evidencia.acciones`): anuncio, palabras clave, negativas, grupos y campañas, pausar o

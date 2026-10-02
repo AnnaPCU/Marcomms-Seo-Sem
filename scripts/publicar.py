@@ -4,6 +4,7 @@ publicar.py — carga en Supabase (esquema seo_sem) lo que produce el proyecto d
   1. campañas y grupos      ← datos/ads/api/estructura_<fecha>/{campanas,grupos}.csv (la más reciente)
   2. recomendaciones        ← informe/recomendaciones.json (lo genera scripts/exportar_recomendaciones.py)
   3. métricas por campaña   ← informe/datos_gasto_actual.json (mes en curso, del 1 al último día extraído; lo genera analisis_gasto.py)
+     métricas por día        ← informe/datos_gasto_diario.json (gasto de cada campaña por día; lo genera ads_diario.py)
   4. extracciones           ← fechas de los archivos de Search Console y Ads
 
 Es idempotente: las recomendaciones que ya existen (misma clave) solo actualizan texto, evidencia y prioridad;
@@ -16,7 +17,7 @@ Dos modos:
                      (service role key; nunca en el repo ni en Vercel).
   PROYECTO_DIR       opcional; por defecto ../Optimizaciónes SEO-SEM/proyecto relativo a este repo.
 Uso: python scripts/publicar.py --sql supabase/seed/carga_2026-09.sql
-     python scripts/publicar.py [--solo campanas|recomendaciones|metricas|extracciones]
+     python scripts/publicar.py [--solo campanas|recomendaciones|metricas|dia|extracciones]
 """
 import glob, json, os, re, sys
 from datetime import datetime, timezone
@@ -32,6 +33,11 @@ ESQ = "seo_sem"
 def unidad_de(nombre):
     """País de la campaña por palabra clave, en cualquier parte del nombre: los prefijos cambian seguido
     («PCU Argentina» → «PCU Tech» → «PCU - Argentina»). «Tech» es la unidad ISO 27001 de Argentina."""
+    # naming estándar del equipo (skill paid-media-pcu): MARCA_PAÍS_TIPO_NORMA_IDIOMA, p. ej. CU_US_SEARCH_GPFS-2026_EN
+    m = re.match(r"^(?:CU|PS|PCU)_([A-Z]{2})_", nombre)
+    if m:
+        return {"US": "Estados Unidos", "CA": "Canadá", "MX": "México", "AR": "Argentina", "ES": "España", "PT": "Portugal",
+                "BR": "Brasil", "CL": "Chile", "PE": "Perú"}.get(m.group(1), "Sin asignar")
     for clave, u in [("España", "España"), ("Portugal", "Portugal"), ("Canada", "Canadá"), ("United States", "Estados Unidos"),
                      ("Argentina", "Argentina"), ("PCU Tech", "Argentina")]:
         if clave in nombre:
@@ -110,6 +116,13 @@ if G:
     for x in list(METRICAS.values()) + list(METRICAS_GRUPO.values()):
         x["coste"] = round(x["coste"], 2)
 
+# gasto por campaña y por día (se cruza por ads_id: no depende del nombre de la campaña)
+diario_path = os.path.join(PROY, "informe", "datos_gasto_diario.json")
+GD = json.load(open(diario_path, encoding="utf-8")) if os.path.exists(diario_path) else None
+IDS = {c["ads_id"] for c in CAMPANAS}
+METRICAS_DIA = [dict(ads_id=f["ads_id"], fecha=f["fecha"], coste=f["coste"], clics=f["clics"], impresiones=f["impresiones"], conversiones=f["conversiones"])
+                for f in (GD["filas"] if GD else []) if f["ads_id"] in IDS]
+
 EXTRACCIONES = []
 if G:
     EXTRACCIONES.append(dict(fuente="google_ads", corrida_en=datetime.fromtimestamp(os.path.getmtime(gasto_path), tz=timezone.utc).isoformat(),
@@ -176,6 +189,14 @@ def sql_carga():
                    f"select g.id, c.id, x.mes, x.coste, x.clics, x.impresiones, x.conversiones from {lote(list(METRICAS_GRUPO.values()), 'campana text, grupo text, mes text, coste numeric, clics integer, impresiones integer, conversiones numeric')}\n"
                    f"join {ESQ}.campanas c on c.nombre = x.campana join {ESQ}.grupos g on g.campana_id = c.id and g.nombre = x.grupo\n"
                    f"on conflict (grupo_id, mes) do update set coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
+    if SOLO in (None, "metricas", "dia") and METRICAS_DIA:
+        out.append(f"-- métricas por día ({len(METRICAS_DIA)} filas) · {GD['desde']} a {GD['hasta']}")
+        for i in range(0, len(METRICAS_DIA), 400):
+            out.append(f"insert into {ESQ}.metricas_dia (campana_id, fecha, coste, clics, impresiones, conversiones)
+"
+                       f"select c.id, x.fecha, x.coste, x.clics, x.impresiones, x.conversiones from {lote(METRICAS_DIA[i:i + 400], 'ads_id text, fecha date, coste numeric, clics integer, impresiones integer, conversiones numeric')} join {ESQ}.campanas c on c.ads_id = x.ads_id
+"
+                       f"on conflict (campana_id, fecha) do update set coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
     if SOLO in (None, "extracciones") and EXTRACCIONES:
         out.append(f"-- extracciones ({len(EXTRACCIONES)})")
         out.append(f"insert into {ESQ}.extracciones (fuente, corrida_en, desde, hasta, filas, detalle)\n"
@@ -188,7 +209,7 @@ def sql_carga():
 if SQL_OUT:
     os.makedirs(os.path.dirname(os.path.abspath(SQL_OUT)), exist_ok=True)
     open(SQL_OUT, "w", encoding="utf-8").write(sql_carga())
-    print(f"-> {SQL_OUT}: {len(CAMPANAS)} campañas, {len(GRUPOS)} grupos, {len(RECS)} recomendaciones, {len(METRICAS)} métricas, {len(EXTRACCIONES)} extracciones")
+    print(f"-> {SQL_OUT}: {len(CAMPANAS)} campañas, {len(GRUPOS)} grupos, {len(RECS)} recomendaciones, {len(METRICAS)} métricas, {len(METRICAS_DIA)} días-campaña, {len(EXTRACCIONES)} extracciones")
     sys.exit(0)
 
 
@@ -246,6 +267,12 @@ if SOLO in (None, "metricas") and METRICAS:
                     impresiones=m["impresiones"], conversiones=m["conversiones"]) for m in METRICAS_GRUPO.values() if (CAMP.get(m["campana"]), m["grupo"]) in GRU]
     upsert("metricas_grupo_mes", filas_g, "grupo_id,mes")
     print(f"métricas: {len(METRICAS)} campañas, {len(filas_g)} grupos ({G['ventana']})")
+
+if SOLO in (None, "metricas", "dia") and METRICAS_DIA:
+    POR_ADS = {c["ads_id"]: c["id"] for c in api("GET", "campanas", params={"select": "id,ads_id"})}
+    upsert("metricas_dia", [dict(campana_id=POR_ADS[m["ads_id"]], fecha=m["fecha"], coste=m["coste"], clics=m["clics"], impresiones=m["impresiones"],
+                                 conversiones=m["conversiones"]) for m in METRICAS_DIA if m["ads_id"] in POR_ADS], "campana_id,fecha")
+    print(f"métricas por día: {len(METRICAS_DIA)} ({GD['desde']} a {GD['hasta']})")
 
 if SOLO in (None, "extracciones"):
     ya = {(e["fuente"], e["hasta"]) for e in api("GET", "extracciones", params={"select": "fuente,hasta"})}

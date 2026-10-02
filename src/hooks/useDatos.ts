@@ -7,7 +7,7 @@ import type { Tipo } from '@/lib/database.types';
 import { listarRecomendaciones, suscribirRecomendaciones, type Recomendacion } from '@/services/recomendaciones';
 import { listarCampanas, listarGrupos, type Campana, type Grupo } from '@/services/campanas';
 import { ultimasExtracciones, type Extraccion } from '@/services/extracciones';
-import { listarMetricas, listarMetricasGrupo, type MetricaGrupoMes, type MetricaMes } from '@/services/metricas';
+import { listarMetricas, listarMetricasDia, listarMetricasGrupo, type MetricaDia, type MetricaGrupoMes, type MetricaMes } from '@/services/metricas';
 
 interface Estado<T> {
   datos: T;
@@ -54,6 +54,7 @@ const VACIO_CAMP: Campana[] = [];
 const VACIO_GRU: Grupo[] = [];
 const VACIO_MET: MetricaMes[] = [];
 const VACIO_MET_G: MetricaGrupoMes[] = [];
+const VACIO_MET_D: MetricaDia[] = [];
 const VACIO_EXT: Record<'search_console' | 'google_ads', Extraccion | null> = { search_console: null, google_ads: null };
 
 export function useRecomendaciones(tipo?: Tipo) {
@@ -100,6 +101,16 @@ export function useMetricas() {
 export function useMetricasGrupo() {
   const cargar = useCallback(() => listarMetricasGrupo(), []);
   return useCarga(VACIO_MET_G, cargar);
+}
+
+/** Gasto por día de los últimos tres meses (alcanza para el mes en curso y los dos anteriores). */
+export function useMetricasDia() {
+  const cargar = useCallback(() => {
+    const d = new Date();
+    d.setMonth(d.getMonth() - 2, 1);
+    return listarMetricasDia(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-01`);
+  }, []);
+  return useCarga(VACIO_MET_D, cargar);
 }
 
 /** Índices por id para resolver nombres de campaña y grupo desde una tarjeta. */
