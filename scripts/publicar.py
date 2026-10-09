@@ -5,6 +5,7 @@ publicar.py — carga en Supabase (esquema seo_sem) lo que produce el proyecto d
   2. recomendaciones        ← informe/recomendaciones.json (lo genera scripts/exportar_recomendaciones.py)
   3. métricas por campaña   ← informe/datos_gasto_actual.json (mes en curso, del 1 al último día extraído; lo genera analisis_gasto.py)
      métricas por día        ← informe/datos_gasto_diario.json (gasto de cada campaña por día; lo genera ads_diario.py)
+     sitios (GA4)            ← informe/datos_ga4.json (métricas limpias por sitio y mes; lo genera ga4_export.py)
   4. extracciones           ← fechas de los archivos de Search Console y Ads
 
 Es idempotente: las recomendaciones que ya existen (misma clave) solo actualizan texto, evidencia y prioridad;
@@ -17,7 +18,7 @@ Dos modos:
                      (service role key; nunca en el repo ni en Vercel).
   PROYECTO_DIR       opcional; por defecto ../Optimizaciónes SEO-SEM/proyecto relativo a este repo.
 Uso: python scripts/publicar.py --sql supabase/seed/carga_2026-09.sql
-     python scripts/publicar.py [--solo campanas|recomendaciones|metricas|dia|extracciones]
+     python scripts/publicar.py [--solo campanas|recomendaciones|metricas|dia|ga4|extracciones]
 """
 import glob, json, os, re, sys
 from datetime import datetime, timezone
@@ -123,6 +124,10 @@ IDS = {c["ads_id"] for c in CAMPANAS}
 METRICAS_DIA = [dict(ads_id=f["ads_id"], fecha=f["fecha"], coste=f["coste"], clics=f["clics"], impresiones=f["impresiones"], conversiones=f["conversiones"])
                 for f in (GD["filas"] if GD else []) if f["ads_id"] in IDS]
 
+# Google Analytics 4: una fila por sitio y mes
+ga4_path = os.path.join(PROY, "informe", "datos_ga4.json")
+GA4 = json.load(open(ga4_path, encoding="utf-8")) if os.path.exists(ga4_path) else []
+
 EXTRACCIONES = []
 if G:
     EXTRACCIONES.append(dict(fuente="google_ads", corrida_en=datetime.fromtimestamp(os.path.getmtime(gasto_path), tz=timezone.utc).isoformat(),
@@ -192,11 +197,14 @@ def sql_carga():
     if SOLO in (None, "metricas", "dia") and METRICAS_DIA:
         out.append(f"-- métricas por día ({len(METRICAS_DIA)} filas) · {GD['desde']} a {GD['hasta']}")
         for i in range(0, len(METRICAS_DIA), 400):
-            out.append(f"insert into {ESQ}.metricas_dia (campana_id, fecha, coste, clics, impresiones, conversiones)
-"
-                       f"select c.id, x.fecha, x.coste, x.clics, x.impresiones, x.conversiones from {lote(METRICAS_DIA[i:i + 400], 'ads_id text, fecha date, coste numeric, clics integer, impresiones integer, conversiones numeric')} join {ESQ}.campanas c on c.ads_id = x.ads_id
-"
+            out.append(f"insert into {ESQ}.metricas_dia (campana_id, fecha, coste, clics, impresiones, conversiones)\n"
+                       f"select c.id, x.fecha, x.coste, x.clics, x.impresiones, x.conversiones from {lote(METRICAS_DIA[i:i + 400], 'ads_id text, fecha date, coste numeric, clics integer, impresiones integer, conversiones numeric')} join {ESQ}.campanas c on c.ads_id = x.ads_id\n"
                        f"on conflict (campana_id, fecha) do update set coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
+    if SOLO in (None, "ga4") and GA4:
+        out.append(f"-- Google Analytics 4 ({len(GA4)} sitio-mes)")
+        out.append(f"insert into {ESQ}.ga4_sitio_mes (sitio, marca, nombre, propiedad, mes, desde, hasta, dias, datos)\n"
+                   f"select x.sitio, x.marca, x.nombre, x.propiedad, x.mes, x.desde, x.hasta, x.dias, x.datos from {lote(GA4, 'sitio text, marca text, nombre text, propiedad text, mes text, desde date, hasta date, dias integer, datos jsonb')}\n"
+                   f"on conflict (sitio, mes) do update set nombre = excluded.nombre, propiedad = excluded.propiedad, desde = excluded.desde, hasta = excluded.hasta, dias = excluded.dias, datos = excluded.datos;")
     if SOLO in (None, "extracciones") and EXTRACCIONES:
         out.append(f"-- extracciones ({len(EXTRACCIONES)})")
         out.append(f"insert into {ESQ}.extracciones (fuente, corrida_en, desde, hasta, filas, detalle)\n"
@@ -209,7 +217,7 @@ def sql_carga():
 if SQL_OUT:
     os.makedirs(os.path.dirname(os.path.abspath(SQL_OUT)), exist_ok=True)
     open(SQL_OUT, "w", encoding="utf-8").write(sql_carga())
-    print(f"-> {SQL_OUT}: {len(CAMPANAS)} campañas, {len(GRUPOS)} grupos, {len(RECS)} recomendaciones, {len(METRICAS)} métricas, {len(METRICAS_DIA)} días-campaña, {len(EXTRACCIONES)} extracciones")
+    print(f"-> {SQL_OUT}: {len(CAMPANAS)} campañas, {len(GRUPOS)} grupos, {len(RECS)} recomendaciones, {len(METRICAS)} métricas, {len(METRICAS_DIA)} días-campaña, {len(GA4)} sitio-mes GA4, {len(EXTRACCIONES)} extracciones")
     sys.exit(0)
 
 
@@ -273,6 +281,10 @@ if SOLO in (None, "metricas", "dia") and METRICAS_DIA:
     upsert("metricas_dia", [dict(campana_id=POR_ADS[m["ads_id"]], fecha=m["fecha"], coste=m["coste"], clics=m["clics"], impresiones=m["impresiones"],
                                  conversiones=m["conversiones"]) for m in METRICAS_DIA if m["ads_id"] in POR_ADS], "campana_id,fecha")
     print(f"métricas por día: {len(METRICAS_DIA)} ({GD['desde']} a {GD['hasta']})")
+
+if SOLO in (None, "ga4") and GA4:
+    upsert("ga4_sitio_mes", GA4, "sitio,mes")
+    print(f"GA4: {len(GA4)} sitio-mes")
 
 if SOLO in (None, "extracciones"):
     ya = {(e["fuente"], e["hasta"]) for e in api("GET", "extracciones", params={"select": "fuente,hasta"})}

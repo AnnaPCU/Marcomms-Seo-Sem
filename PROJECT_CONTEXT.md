@@ -30,6 +30,12 @@ análisis el mes siguiente. Origen de cada tipo:
 - `extracciones`: última corrida de cada fuente y hasta qué fecha llegan los datos.
 - `metricas_mes`: gasto, clics y conversiones por campaña y mes calendario (del 1 al último día con datos
   al momento de la extracción; se reemplaza al volver a correr el loader).
+- `metricas_grupo_mes`, `metricas_dia`: lo mismo por grupo de anuncios y por campaña y día (vista «Día a día»).
+- `ga4_sitio_mes`: Google Analytics 4 por sitio y mes (pestaña «Sitios · GA4»): sesiones, visitas con interacción,
+  canales, contactos reales y páginas de entrada pagas y orgánicas. Sale de `proyecto/scripts/ga4_export.py`
+  (`informe/datos_ga4.json`) y se carga con `scripts/publicar.py --solo ga4`. Contactos reales = formularios
+  Gravity Forms (`form_id` «gform_…») + clics a email fuera de páginas de empleo, academia y reclamos; los
+  formularios de HubSpot embebidos no llegan a GA4.
 
 ## Acceso
 

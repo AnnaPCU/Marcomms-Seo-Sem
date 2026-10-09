@@ -27,7 +27,7 @@ src/constants/    estados, marcas, tipos, prioridades, dominios permitidos
 src/services/     acceso a datos: una función por operación, fromRow/toRow, sin React
 src/hooks/        useAuth (sesión) · useDatos (un hook por recurso, realtime en recomendaciones)
 src/components/   shared (Layout, Ui) · tablero (Tablero, TarjetaRec, DetalleRec, Filtros, MotivoDescarte)
-src/routes/       Login · Inicio · Sem · Seo · Historial
+src/routes/       Login · Inicio · Sem · Seo · Sitios (GA4) · Historial
 src/utils/        formato.ts (+ tests)
 supabase/         migrations/0001_esquema.sql (idempotente)
 scripts/          publicar.py (carga desde el proyecto de análisis)

@@ -43,6 +43,11 @@ export type MetricaDiaRow = {
   id: string; campana_id: string; fecha: string; coste: number; clics: number; impresiones: number; conversiones: number; created_at: string; updated_at: string;
 }
 
+export type Ga4SitioMesRow = {
+  id: string; sitio: string; marca: Marca; nombre: string; propiedad: string; mes: string; desde: string; hasta: string; dias: number;
+  datos: Json; created_at: string; updated_at: string;
+}
+
 type Tabla<R> = { Row: R; Insert: Partial<R>; Update: Partial<R>; Relationships: never[] };
 
 export interface Database {
@@ -56,6 +61,7 @@ export interface Database {
       metricas_mes: Tabla<MetricaMesRow>;
       metricas_grupo_mes: Tabla<MetricaGrupoMesRow>;
       metricas_dia: Tabla<MetricaDiaRow>;
+      ga4_sitio_mes: Tabla<Ga4SitioMesRow>;
     };
     Views: { [_ in never]: never };
     Functions: { [_ in never]: never };

@@ -7,6 +7,7 @@ import Login from '@/routes/Login';
 import Inicio from '@/routes/Inicio';
 import Sem from '@/routes/Sem';
 import Seo from '@/routes/Seo';
+import Sitios from '@/routes/Sitios';
 import Historial from '@/routes/Historial';
 
 function Privado() {
@@ -31,6 +32,7 @@ export default function App() {
             <Route index element={<Inicio />} />
             <Route path="sem" element={<Sem />} />
             <Route path="seo" element={<Seo />} />
+            <Route path="sitios" element={<Sitios />} />
             <Route path="historial" element={<Historial />} />
           </Route>
           <Route path="*" element={<Navigate to="/" replace />} />

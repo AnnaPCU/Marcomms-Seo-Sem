@@ -3,7 +3,7 @@
  * datos; pestañas con ícono debajo; contenido centrado sobre fondo gris claro.
  */
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
-import { History, LogOut, Megaphone, Search, Wallet, CircleCheck } from 'lucide-react';
+import { BarChart3, History, LogOut, Megaphone, Search, Wallet, CircleCheck } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
 import { useExtracciones } from '@/hooks/useDatos';
 import { fecha } from '@/utils/formato';
@@ -12,6 +12,7 @@ const NAV = [
   { to: '/', label: 'Presupuesto', sub: 'Presupuesto y gasto de Google Ads', icono: Wallet, fin: true },
   { to: '/sem', label: 'SEM · campañas', sub: 'Mejoras por campaña y grupo de anuncios', icono: Megaphone, fin: false },
   { to: '/seo', label: 'SEO · sitios', sub: 'Mejoras por sitio y página', icono: Search, fin: false },
+  { to: '/sitios', label: 'Sitios · GA4', sub: 'Visitas, canales y contactos de cada sitio', icono: BarChart3, fin: false },
   { to: '/historial', label: 'Historial', sub: 'Movimientos del tablero', icono: History, fin: false },
 ];
 

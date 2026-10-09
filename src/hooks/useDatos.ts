@@ -7,6 +7,7 @@ import type { Tipo } from '@/lib/database.types';
 import { listarRecomendaciones, suscribirRecomendaciones, type Recomendacion } from '@/services/recomendaciones';
 import { listarCampanas, listarGrupos, type Campana, type Grupo } from '@/services/campanas';
 import { ultimasExtracciones, type Extraccion } from '@/services/extracciones';
+import { listarGa4, type Ga4SitioMes } from '@/services/ga4';
 import { listarMetricas, listarMetricasDia, listarMetricasGrupo, type MetricaDia, type MetricaGrupoMes, type MetricaMes } from '@/services/metricas';
 
 interface Estado<T> {
@@ -55,6 +56,7 @@ const VACIO_GRU: Grupo[] = [];
 const VACIO_MET: MetricaMes[] = [];
 const VACIO_MET_G: MetricaGrupoMes[] = [];
 const VACIO_MET_D: MetricaDia[] = [];
+const VACIO_GA4: Ga4SitioMes[] = [];
 const VACIO_EXT: Record<'search_console' | 'google_ads', Extraccion | null> = { search_console: null, google_ads: null };
 
 export function useRecomendaciones(tipo?: Tipo) {
@@ -111,6 +113,12 @@ export function useMetricasDia() {
     return listarMetricasDia(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-01`);
   }, []);
   return useCarga(VACIO_MET_D, cargar);
+}
+
+/** Visitas, canales y contactos de GA4 por sitio y mes. */
+export function useGa4() {
+  const cargar = useCallback(() => listarGa4(), []);
+  return useCarga(VACIO_GA4, cargar);
 }
 
 /** Índices por id para resolver nombres de campaña y grupo desde una tarjeta. */
