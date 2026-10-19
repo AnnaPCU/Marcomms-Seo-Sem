@@ -12,7 +12,14 @@
     <title>MarComms · SEO-SEM</title>
   </head>
   <body>
-    <div id="root"></div>
+    <!-- Contenido estático hasta que carga React: la verificación de marca de Google lee la portada sin JS. -->
+    <div id="root">
+      <main style="max-width:560px;margin:64px auto;padding:0 16px;font-family:system-ui,sans-serif;color:#4f6566">
+        <h1 style="color:#1b1e42;font-size:22px">MarComms SEO-SEM</h1>
+        <p>Herramienta interna del equipo MarComms del grupo Peterson Control Union para analizar el rendimiento de los sitios web y las campañas de búsqueda del grupo.</p>
+        <p><a href="/privacidad" style="color:#0b8fd6">Política de privacidad</a></p>
+      </main>
+    </div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

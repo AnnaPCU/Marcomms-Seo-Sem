@@ -23,7 +23,7 @@ export default function Login() {
   }
 
   return (
-    <div className="flex min-h-full items-center justify-center bg-mc-bg px-4">
+    <div className="relative flex min-h-full items-center justify-center bg-mc-bg px-4">
       <form onSubmit={(e) => void enviar(e)} className="relative w-full max-w-sm overflow-hidden rounded-card bg-white px-8 py-9 shadow-elevada animate-fade-in">
         <div className="absolute inset-x-0 top-0 h-1 bg-degrade-mc" />
         <img src="/marca/marcomms-vertical-260.png" alt="MarComms" className="h-20 w-auto" />
@@ -57,6 +57,10 @@ export default function Login() {
         </button>
         {error && <p className="mt-3 text-sm text-red-700">{error}</p>}
       </form>
+      {/* Enlace público que pide la verificación de marca de Google Cloud. */}
+      <a href="/privacidad" className="absolute bottom-6 text-xs text-mc-grey hover:text-mc-blue">
+        Política de privacidad
+      </a>
     </div>
   );
 }
