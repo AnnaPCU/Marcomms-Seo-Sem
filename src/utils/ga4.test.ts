@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { Ga4Datos } from '@/services/ga4';
-import { alertas, clicsAds, tramosCanal, totales } from './ga4';
+import { alertas, clicsAds, serieSitios, tramosCanal, totales } from './ga4';
 
 const d = (over: Partial<Ga4Datos>): Ga4Datos => ({
   sesiones: 1000, interaccion: 500, usuarios: 800, vistas: 2000, duracion_media: 90, canales: {}, contactos: {}, contactos_total: 3,
@@ -58,5 +58,18 @@ describe('ga4', () => {
 
   it('totales', () => {
     expect(totales([d({ canales: { 'Organic Search': { sesiones: 10, interaccion: 5 } } }), d({})])).toEqual({ sesiones: 2000, interaccion: 1000, contactos: 6, organico: 10 });
+  });
+
+  it('serie por mes de varios sitios, con las visitas reales por canal', () => {
+    const s = serieSitios([
+      { mes: '2026-10', dias: 18, datos: d({ canales: { 'Organic Search': { sesiones: 10, interaccion: 6 } } }) },
+      { mes: '2026-09', dias: 30, datos: d({ canales: { 'Organic Search': { sesiones: 10, interaccion: 5 }, Unassigned: { sesiones: 4, interaccion: 1 } } }) },
+      { mes: '2026-09', dias: 30, datos: d({ contactos_total: 7 }) },
+    ]);
+    expect(s.map((x) => [x.mes, x.dias, x.diasMes, x.sesiones, x.contactos])).toEqual([
+      ['2026-09', 30, 30, 2000, 10],
+      ['2026-10', 18, 31, 1000, 3],
+    ]);
+    expect(s[0].canales).toEqual({ 'Organic Search': 5, otros: 1 });
   });
 });

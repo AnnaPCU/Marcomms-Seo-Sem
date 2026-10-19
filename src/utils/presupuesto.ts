@@ -25,6 +25,8 @@ export interface CampanaGasto {
   clics: number;
   conv: number;
   impresiones?: number;
+  /** 'anterior' = campaña de la cuenta vieja (en euros, pasada a pesos). */
+  cuenta?: string;
 }
 
 export interface GrupoGasto {
@@ -46,6 +48,7 @@ export interface Nodo {
   presDia: number | null;
   estado?: string;
   campanaId?: string;
+  cuenta?: string;
   hijos: Nodo[];
 }
 
@@ -104,7 +107,7 @@ export function armarArbol(campanas: CampanaGasto[], grupos: GrupoGasto[], orden
       pais = nuevoNodo(`${c.marca}|${c.unidad}`, c.unidad, 2);
       cli.hijos.push(pais);
     }
-    const camp: Nodo = { ...nuevoNodo(c.id, c.nombre, 3), estado: c.estado, campanaId: c.id };
+    const camp: Nodo = { ...nuevoNodo(c.id, c.nombre, 3), estado: c.estado, campanaId: c.id, cuenta: c.cuenta };
     sumar(camp, c, pres);
     sumar(pais, c, pres);
     sumar(cli, c, pres);

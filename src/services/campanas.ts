@@ -1,6 +1,6 @@
 /** Catálogo de campañas y grupos (lo sincroniza scripts/publicar.py desde la API de Google Ads). */
 import { supabase } from '@/lib/supabase';
-import type { CampanaRow, GrupoRow, Marca } from '@/lib/database.types';
+import type { CampanaRow, Cuenta, GrupoRow, Marca } from '@/lib/database.types';
 
 export interface Campana {
   id: string;
@@ -11,6 +11,7 @@ export interface Campana {
   estado: string;
   presupuestoDia: number | null;
   creadaEnCuenta: boolean;
+  cuenta: Cuenta;
 }
 export interface Grupo {
   id: string;
@@ -28,6 +29,7 @@ export const campanaFromRow = (r: CampanaRow): Campana => ({
   estado: r.estado,
   presupuestoDia: r.presupuesto_dia === null ? null : Number(r.presupuesto_dia),
   creadaEnCuenta: Boolean(r.creada_en_cuenta),
+  cuenta: r.cuenta ?? 'actual',
 });
 export const grupoFromRow = (r: GrupoRow): Grupo => ({ id: r.id, campanaId: r.campana_id, nombre: r.nombre, estado: r.estado });
 

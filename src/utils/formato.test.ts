@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { ars, campanaCorta, diasDesde, entero, mesActual, mesCorto, pct } from './formato';
+import { ars, campanaCorta, compacto, diasDesde, entero, mesActual, mesCorto, pct, signo } from './formato';
 
 describe('formato', () => {
   it('ars redondea y separa miles', () => {
@@ -22,5 +22,15 @@ describe('formato', () => {
   it('campanaCorta quita el sufijo Search', () => {
     expect(campanaCorta('CU España - IFS - Search')).toBe('CU España - IFS');
     expect(campanaCorta('CU Canada- Aqua / Fisheries')).toBe('CU Canada- Aqua / Fisheries');
+  });
+
+  it('compacto y signo', () => {
+    expect(compacto(2645645)).toBe('2,6 M');
+    expect(compacto(14202)).toBe('14 k');
+    expect(compacto(2317)).toBe('2,3 k');
+    expect(compacto(950)).toBe('950');
+    expect(signo(0.153)).toBe('+15%');
+    expect(signo(-0.04)).toBe('−4%');
+    expect(signo(null)).toBe('—');
   });
 });

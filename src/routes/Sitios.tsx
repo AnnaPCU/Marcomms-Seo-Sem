@@ -1,6 +1,7 @@
 /**
  * Sitios: visitas, canales y contactos reales de cada sitio según Google Analytics 4, cruzados con los clics de
  * Google Ads. Una fila por sitio; al abrirla, alertas, canales y páginas de entrada pagas y orgánicas.
+ * Vista «Histórico»: la evolución mes a mes desde dic 2025 (VistaSitiosHistorica).
  */
 import { useMemo, useState } from 'react';
 import { AlertTriangle, ChevronRight, Info } from 'lucide-react';
@@ -10,7 +11,8 @@ import { MARCAS } from '@/constants/estados';
 import { ChipMarca, ErrorBox, Intro, Pildora, SeccionTitulo, Select, Tarjeta, Vacio } from '@/components/shared/Ui';
 import { EsqueletoPresupuesto } from '@/components/shared/Loader';
 import { alertas, canal, CANALES, clicsAds, esPaginaReal, MIN_LANDING, tasa, totales, tramosCanal, UMBRAL_LANDING, UMBRAL_MEDICION, type Alerta } from '@/utils/ga4';
-import { entero, fecha, mesCorto, pct } from '@/utils/formato';
+import { entero, fecha, mesActual, mesCorto, pct } from '@/utils/formato';
+import VistaSitiosHistorica from '@/components/sitios/VistaSitiosHistorica';
 import { diasDelMes } from '@/utils/presupuesto';
 
 const COLUMNAS = 'grid grid-cols-[20px_minmax(190px,1.3fr)_80px_minmax(130px,1fr)_minmax(170px,1.4fr)_120px_90px_92px] items-center gap-3';
@@ -192,6 +194,7 @@ export default function Sitios() {
   const met = useMetricas();
   const [cliente, setCliente] = useState('');
   const [mesElegido, setMes] = useState('');
+  const [vista, setVista] = useState<'mes' | 'historico'>('mes');
   const [abiertos, setAbiertos] = useState<Set<string>>(new Set());
 
   const meses = useMemo(() => {
@@ -240,70 +243,99 @@ export default function Sitios() {
             todo="Todos los clientes"
             opciones={MARCAS.filter((m) => m.id !== 'PCU').map((m) => ({ id: m.id, label: m.label }))}
           />
-          <Select
-            etiqueta="Período"
-            ariaLabel="Mes"
-            valor={mesElegido}
-            onChange={setMes}
-            todo={`${mesCorto(porDefecto)} (último completo)`}
-            opciones={meses.filter((m) => m.mes !== porDefecto).map((m) => ({ id: m.mes, label: m.dias === diasDelMes(m.mes) ? mesCorto(m.mes) : `${mesCorto(m.mes)} (al ${fecha(m.hasta)})` }))}
-          />
+          {vista === 'mes' && (
+            <Select
+              etiqueta="Período"
+              ariaLabel="Mes"
+              valor={mesElegido}
+              onChange={setMes}
+              todo={`${mesCorto(porDefecto)} (último completo)`}
+              opciones={meses.filter((m) => m.mes !== porDefecto).map((m) => ({ id: m.mes, label: m.dias === diasDelMes(m.mes) ? mesCorto(m.mes) : `${mesCorto(m.mes)} (al ${fecha(m.hasta)})` }))}
+            />
+          )}
+          <div className="flex flex-col gap-1">
+            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-mc-grey">Vista</span>
+            <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-white text-sm">
+              {(['mes', 'historico'] as const).map((v) => (
+                <button
+                  key={v}
+                  type="button"
+                  onClick={() => setVista(v)}
+                  className={`px-3 py-1.5 font-medium transition ${vista === v ? 'bg-mc-navy text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
+                >
+                  {v === 'mes' ? 'Un mes' : 'Histórico'}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
-        {ref && (
+        {vista === 'historico' ? (
           <p className="text-xs text-mc-grey">
-            Datos del {fecha(ref.desde)} al {fecha(ref.hasta)} · {ref.dias} días · Google Analytics 4
+            {mesCorto(meses[meses.length - 1]?.mes)} a {mesCorto(meses[0]?.mes)} · {meses.length} meses · Google Analytics 4
           </p>
+        ) : (
+          ref && (
+            <p className="text-xs text-mc-grey">
+              Datos del {fecha(ref.desde)} al {fecha(ref.hasta)} · {ref.dias} días · Google Analytics 4
+            </p>
+          )
         )}
       </div>
 
-      <Intro
-        cifras={[
-          { valor: entero(t.interaccion), etiqueta: 'visitas reales' },
-          { valor: pct(t.organico, t.sesiones), etiqueta: 'orgánico' },
-          { valor: entero(t.contactos), etiqueta: 'contactos', tono: 'text-emerald-700' },
-          { valor: conAlerta, etiqueta: 'con alertas', tono: conAlerta ? 'text-red-700' : 'text-mc-navy' },
-        ]}
-      >
-        Visitas reales = sesiones con interacción ({pct(t.interaccion, t.sesiones)} de {entero(t.sesiones)}): descuenta rebotes y bots. Contactos =
-        formularios del sitio y clics a un email comercial; no cuenta el buscador, el acceso de administración ni los emails de empleo.
-      </Intro>
+      {vista === 'historico' ? (
+        <VistaSitiosHistorica datos={ga4.datos.filter((s) => !cliente || s.marca === cliente)} mesEnCurso={mesActual()} />
+      ) : (
+        <>
+          <Intro
+            cifras={[
+              { valor: entero(t.interaccion), etiqueta: 'visitas reales' },
+              { valor: pct(t.organico, t.sesiones), etiqueta: 'orgánico' },
+              { valor: entero(t.contactos), etiqueta: 'contactos', tono: 'text-emerald-700' },
+              { valor: conAlerta, etiqueta: 'con alertas', tono: conAlerta ? 'text-red-700' : 'text-mc-navy' },
+            ]}
+          >
+            Visitas reales = sesiones con interacción ({pct(t.interaccion, t.sesiones)} de {entero(t.sesiones)}): descuenta rebotes y bots. Contactos =
+            formularios del sitio y clics a un email comercial; no cuenta el buscador, el acceso de administración ni los emails de empleo.
+          </Intro>
 
-      <section>
-        <SeccionTitulo meta="clic en un sitio para ver canales, páginas y alertas">Sitios ordenados por visitas reales</SeccionTitulo>
-        <div className="mb-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-mc-grey">
-          {CANALES.map((c) => (
-            <span key={c.id} className="flex items-center gap-1.5">
-              <span className={`inline-block h-2 w-2 rounded-sm ${c.color}`} />
-              {c.label}
-            </span>
-          ))}
-          <span className="flex items-center gap-1.5">
-            <span className="inline-block h-2 w-2 rounded-sm bg-mc-hair" />
-            Otros
-          </span>
-        </div>
-        {filas.length === 0 ? (
-          <Vacio>No hay sitios de este cliente en el período.</Vacio>
-        ) : (
-          <Tarjeta className="overflow-x-auto">
-            <div className="min-w-[960px]">
-              <div className={`${COLUMNAS} px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-mc-grey`}>
-                <span />
-                <span>Sitio</span>
-                <span className="text-right">Sesiones</span>
-                <span>Con interacción</span>
-                <span>De dónde llegan</span>
-                <span>Pago: GA4 / clics Ads</span>
-                <span className="text-right">Contactos</span>
-                <span className="text-center">Alertas</span>
-              </div>
-              {filas.map(({ s, clics }) => (
-                <Fila key={s.sitio} s={s} clics={clics} abierto={abiertos.has(s.sitio)} alternar={() => alternar(s.sitio)} />
+          <section>
+            <SeccionTitulo meta="clic en un sitio para ver canales, páginas y alertas">Sitios ordenados por visitas reales</SeccionTitulo>
+            <div className="mb-3 flex flex-wrap gap-x-4 gap-y-1 text-xs text-mc-grey">
+              {CANALES.map((c) => (
+                <span key={c.id} className="flex items-center gap-1.5">
+                  <span className={`inline-block h-2 w-2 rounded-sm ${c.color}`} />
+                  {c.label}
+                </span>
               ))}
+              <span className="flex items-center gap-1.5">
+                <span className="inline-block h-2 w-2 rounded-sm bg-mc-hair" />
+                Otros
+              </span>
             </div>
-          </Tarjeta>
-        )}
-      </section>
+            {filas.length === 0 ? (
+              <Vacio>No hay sitios de este cliente en el período.</Vacio>
+            ) : (
+              <Tarjeta className="overflow-x-auto">
+                <div className="min-w-[960px]">
+                  <div className={`${COLUMNAS} px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-mc-grey`}>
+                    <span />
+                    <span>Sitio</span>
+                    <span className="text-right">Sesiones</span>
+                    <span>Con interacción</span>
+                    <span>De dónde llegan</span>
+                    <span>Pago: GA4 / clics Ads</span>
+                    <span className="text-right">Contactos</span>
+                    <span className="text-center">Alertas</span>
+                  </div>
+                  {filas.map(({ s, clics }) => (
+                    <Fila key={s.sitio} s={s} clics={clics} abierto={abiertos.has(s.sitio)} alternar={() => alternar(s.sitio)} />
+                  ))}
+                </div>
+              </Tarjeta>
+            )}
+          </section>
+        </>
+      )}
 
       <div className="flex gap-2 rounded-card border border-mc-hair/70 bg-white px-4 py-3 text-xs leading-relaxed text-mc-ink shadow-card">
         <Info size={15} className="mt-0.5 shrink-0 text-mc-blue" />

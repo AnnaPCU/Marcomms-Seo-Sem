@@ -12,6 +12,10 @@ export interface MetricaMes {
   clics: number;
   impresiones: number;
   conversiones: number;
+  /** Si la cuenta factura en otra moneda: importe original y tipo de cambio usado (el coste ya está en pesos). */
+  monedaOriginal: string | null;
+  costeOriginal: number | null;
+  tipoCambio: number | null;
 }
 
 export interface MetricaGrupoMes {
@@ -43,6 +47,9 @@ const metricaFromRow = (r: MetricaMesRow): MetricaMes => ({
   clics: r.clics,
   impresiones: r.impresiones,
   conversiones: Number(r.conversiones),
+  monedaOriginal: r.moneda_original ?? null,
+  costeOriginal: r.coste_original === null || r.coste_original === undefined ? null : Number(r.coste_original),
+  tipoCambio: r.tipo_cambio === null || r.tipo_cambio === undefined ? null : Number(r.tipo_cambio),
 });
 
 const metricaGrupoFromRow = (r: MetricaGrupoMesRow): MetricaGrupoMes => ({

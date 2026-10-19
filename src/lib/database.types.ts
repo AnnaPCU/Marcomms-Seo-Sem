@@ -9,12 +9,14 @@ export type Tipo = 'SEM' | 'SEO';
 export type Prioridad = 'alta' | 'media' | 'baja';
 export type Estado = 'propuesta' | 'en_proceso' | 'hecha' | 'descartada';
 export type Fuente = 'search_console' | 'google_ads';
+/** Cuenta de Google Ads: la actual (en pesos, desde jul 2026) o la anterior «Peterson Technologies» (en euros, feb–jul 2026). */
+export type Cuenta = 'actual' | 'anterior';
 
 type Json = string | number | boolean | null | { [key: string]: Json } | Json[];
 
 export type CampanaRow = {
   id: string; ads_id: string | null; nombre: string; marca: Marca; unidad: string; estado: string;
-  presupuesto_dia: number | null; creada_en_cuenta: boolean | null; created_at: string; updated_at: string;
+  presupuesto_dia: number | null; creada_en_cuenta: boolean | null; cuenta: Cuenta; created_at: string; updated_at: string;
 }
 export type GrupoRow = {
   id: string; campana_id: string; ads_id: string | null; nombre: string; estado: string; created_at: string; updated_at: string;
@@ -33,7 +35,8 @@ export type ExtraccionRow = {
   id: string; fuente: Fuente; corrida_en: string; desde: string | null; hasta: string | null; filas: number | null; detalle: Json; created_at: string;
 }
 export type MetricaMesRow = {
-  id: string; campana_id: string; mes: string; desde: string | null; hasta: string | null; dias: number | null; coste: number; clics: number; impresiones: number; conversiones: number; created_at: string; updated_at: string;
+  id: string; campana_id: string; mes: string; desde: string | null; hasta: string | null; dias: number | null; coste: number; clics: number; impresiones: number; conversiones: number;
+  moneda_original: string | null; coste_original: number | null; tipo_cambio: number | null; created_at: string; updated_at: string;
 }
 export type MetricaGrupoMesRow = {
   id: string; grupo_id: string; campana_id: string; mes: string; coste: number; clics: number; impresiones: number; conversiones: number; created_at: string; updated_at: string;

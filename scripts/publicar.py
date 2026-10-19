@@ -6,6 +6,8 @@ publicar.py — carga en Supabase (esquema seo_sem) lo que produce el proyecto d
   3. métricas por campaña   ← informe/datos_gasto_actual.json (mes en curso, del 1 al último día extraído; lo genera analisis_gasto.py)
      métricas por día        ← informe/datos_gasto_diario.json (gasto de cada campaña por día; lo genera ads_diario.py)
      sitios (GA4)            ← informe/datos_ga4.json (métricas limpias por sitio y mes; lo genera ga4_export.py)
+     histórico de Ads        ← informe/datos_ads_historico.json (campañas y grupos por mes de la cuenta actual y la anterior,
+                               en pesos; lo genera ads_historico.py). Suma al catálogo las campañas y grupos que ya no existen.
   4. extracciones           ← fechas de los archivos de Search Console y Ads
 
 Es idempotente: las recomendaciones que ya existen (misma clave) solo actualizan texto, evidencia y prioridad;
@@ -18,7 +20,7 @@ Dos modos:
                      (service role key; nunca en el repo ni en Vercel).
   PROYECTO_DIR       opcional; por defecto ../Optimizaciónes SEO-SEM/proyecto relativo a este repo.
 Uso: python scripts/publicar.py --sql supabase/seed/carga_2026-09.sql
-     python scripts/publicar.py [--solo campanas|recomendaciones|metricas|dia|ga4|extracciones]
+     python scripts/publicar.py [--solo campanas|recomendaciones|metricas|dia|ga4|historico|extracciones]
 """
 import glob, json, os, re, sys
 from datetime import datetime, timezone
@@ -128,6 +130,25 @@ METRICAS_DIA = [dict(ads_id=f["ads_id"], fecha=f["fecha"], coste=f["coste"], cli
 ga4_path = os.path.join(PROY, "informe", "datos_ga4.json")
 GA4 = json.load(open(ga4_path, encoding="utf-8")) if os.path.exists(ga4_path) else []
 
+# histórico de Ads por mes (dos cuentas, todo en pesos): se cruza por ads_id
+hist_path = os.path.join(PROY, "informe", "datos_ads_historico.json")
+HIST = json.load(open(hist_path, encoding="utf-8")) if os.path.exists(hist_path) else None
+HIST_CAMP, HIST_GRUPOS, HIST_MET, HIST_MET_G = [], [], [], []
+if HIST:
+    vistos = {}
+    for f in HIST["campanas"]:  # el estado más reciente de cada campaña
+        vistos[f["ads_id"]] = dict(ads_id=f["ads_id"], nombre=f["campana"], marca=f["marca"], unidad=unidad_de(f["campana"]), estado=f["estado"], cuenta=f["cuenta"])
+    HIST_CAMP = list(vistos.values())
+    gv = {}
+    for f in HIST["grupos"]:
+        gv[(f["campana_ads_id"], f["grupo"])] = dict(campana_ads_id=f["campana_ads_id"], ads_id=f["ads_id"], nombre=f["grupo"], estado=f["estado"])
+    HIST_GRUPOS = list(gv.values())
+    HIST_MET = [dict(ads_id=f["ads_id"], mes=f["mes"], desde=f["desde"], hasta=f["hasta"], dias=f["dias"], coste=f["coste"], clics=f["clics"],
+                     impresiones=f["impresiones"], conversiones=f["conversiones"], moneda_original=f.get("moneda_original"),
+                     coste_original=f.get("coste_original"), tipo_cambio=f.get("tipo_cambio")) for f in HIST["campanas"]]
+    HIST_MET_G = [dict(campana_ads_id=f["campana_ads_id"], grupo=f["grupo"], mes=f["mes"], coste=f["coste"], clics=f["clics"],
+                       impresiones=f["impresiones"], conversiones=f["conversiones"]) for f in HIST["grupos"]]
+
 EXTRACCIONES = []
 if G:
     EXTRACCIONES.append(dict(fuente="google_ads", corrida_en=datetime.fromtimestamp(os.path.getmtime(gasto_path), tz=timezone.utc).isoformat(),
@@ -170,7 +191,7 @@ def sql_carga():
                    f"select x.ads_id, x.nombre, x.marca, x.unidad, x.estado, x.presupuesto_dia from {lote(CAMPANAS, 'ads_id text, nombre text, marca text, unidad text, estado text, presupuesto_dia numeric')}\n"
                    f"on conflict (ads_id) do update set nombre = excluded.nombre, marca = excluded.marca, unidad = excluded.unidad, estado = excluded.estado, presupuesto_dia = excluded.presupuesto_dia;")
         out.append(f"insert into {ESQ}.grupos (campana_id, ads_id, nombre, estado)\n"
-                   f"select c.id, x.ads_id, x.nombre, x.estado from {lote(GRUPOS, 'campana text, ads_id text, nombre text, estado text')} join {ESQ}.campanas c on c.nombre = x.campana\n"
+                   f"select c.id, x.ads_id, x.nombre, x.estado from {lote(GRUPOS, 'campana text, ads_id text, nombre text, estado text')} join {ESQ}.campanas c on c.cuenta = 'actual' and c.nombre = x.campana\n"
                    f"on conflict (campana_id, nombre) do update set ads_id = excluded.ads_id, estado = excluded.estado;")
     if SOLO in (None, "recomendaciones") and RECS:
         out.append(f"-- recomendaciones ({len(RECS)}): las nuevas entran como están; las existentes conservan estado, orden y quién las movió")
@@ -181,18 +202,18 @@ def sql_carga():
             out.append(f"insert into {ESQ}.recomendaciones (clave, marca, tipo, campana_id, grupo_id, sitio, pagina, titulo, detalle, evidencia, prioridad, estado, mes_alta, origen)\n"
                        f"select x.clave, x.marca, x.tipo, c.id, g.id, x.sitio, x.pagina, x.titulo, x.detalle, x.evidencia, x.prioridad, x.estado, x.mes_alta, x.origen\n"
                        f"from {lote(filas[i:i + 15], 'clave text, marca text, tipo text, campana text, grupo text, sitio text, pagina text, titulo text, detalle text, evidencia jsonb, prioridad text, estado text, mes_alta text, origen text')}\n"
-                       f"left join {ESQ}.campanas c on c.nombre = x.campana left join {ESQ}.grupos g on g.campana_id = c.id and g.nombre = x.grupo\n"
+                       f"left join {ESQ}.campanas c on c.cuenta = 'actual' and c.nombre = x.campana left join {ESQ}.grupos g on g.campana_id = c.id and g.nombre = x.grupo\n"
                        f"on conflict (clave) do update set campana_id = excluded.campana_id, grupo_id = excluded.grupo_id, sitio = excluded.sitio, pagina = excluded.pagina, "
                        f"titulo = excluded.titulo, detalle = excluded.detalle, evidencia = excluded.evidencia, prioridad = excluded.prioridad, origen = excluded.origen;")
     if SOLO in (None, "metricas") and METRICAS:
         out.append(f"-- métricas ({len(METRICAS)} campañas) · {G['ventana']}")
         out.append(f"insert into {ESQ}.metricas_mes (campana_id, mes, desde, hasta, dias, coste, clics, impresiones, conversiones)\n"
-                   f"select c.id, x.mes, x.desde, x.hasta, x.dias, x.coste, x.clics, x.impresiones, x.conversiones from {lote(list(METRICAS.values()), 'campana text, mes text, desde date, hasta date, dias integer, coste numeric, clics integer, impresiones integer, conversiones numeric')} join {ESQ}.campanas c on c.nombre = x.campana\n"
+                   f"select c.id, x.mes, x.desde, x.hasta, x.dias, x.coste, x.clics, x.impresiones, x.conversiones from {lote(list(METRICAS.values()), 'campana text, mes text, desde date, hasta date, dias integer, coste numeric, clics integer, impresiones integer, conversiones numeric')} join {ESQ}.campanas c on c.cuenta = 'actual' and c.nombre = x.campana\n"
                    f"on conflict (campana_id, mes) do update set desde = excluded.desde, hasta = excluded.hasta, dias = excluded.dias, coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
         out.append(f"-- métricas por grupo de anuncios ({len(METRICAS_GRUPO)})")
         out.append(f"insert into {ESQ}.metricas_grupo_mes (grupo_id, campana_id, mes, coste, clics, impresiones, conversiones)\n"
                    f"select g.id, c.id, x.mes, x.coste, x.clics, x.impresiones, x.conversiones from {lote(list(METRICAS_GRUPO.values()), 'campana text, grupo text, mes text, coste numeric, clics integer, impresiones integer, conversiones numeric')}\n"
-                   f"join {ESQ}.campanas c on c.nombre = x.campana join {ESQ}.grupos g on g.campana_id = c.id and g.nombre = x.grupo\n"
+                   f"join {ESQ}.campanas c on c.cuenta = 'actual' and c.nombre = x.campana join {ESQ}.grupos g on g.campana_id = c.id and g.nombre = x.grupo\n"
                    f"on conflict (grupo_id, mes) do update set coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
     if SOLO in (None, "metricas", "dia") and METRICAS_DIA:
         out.append(f"-- métricas por día ({len(METRICAS_DIA)} filas) · {GD['desde']} a {GD['hasta']}")
@@ -205,6 +226,25 @@ def sql_carga():
         out.append(f"insert into {ESQ}.ga4_sitio_mes (sitio, marca, nombre, propiedad, mes, desde, hasta, dias, datos)\n"
                    f"select x.sitio, x.marca, x.nombre, x.propiedad, x.mes, x.desde, x.hasta, x.dias, x.datos from {lote(GA4, 'sitio text, marca text, nombre text, propiedad text, mes text, desde date, hasta date, dias integer, datos jsonb')}\n"
                    f"on conflict (sitio, mes) do update set nombre = excluded.nombre, propiedad = excluded.propiedad, desde = excluded.desde, hasta = excluded.hasta, dias = excluded.dias, datos = excluded.datos;")
+    if SOLO in (None, "historico") and HIST:
+        out.append(f"-- histórico de Ads ({len(HIST_CAMP)} campañas, {len(HIST_MET)} campaña-mes, {len(HIST_MET_G)} grupo-mes) · {HIST['desde']} a {HIST['hasta']}")
+        out.append(f"insert into {ESQ}.campanas (ads_id, nombre, marca, unidad, estado, cuenta)\n"
+                   f"select x.ads_id, x.nombre, x.marca, x.unidad, x.estado, x.cuenta from {lote(HIST_CAMP, 'ads_id text, nombre text, marca text, unidad text, estado text, cuenta text')}\n"
+                   f"on conflict do nothing;")
+        out.append(f"insert into {ESQ}.grupos (campana_id, ads_id, nombre, estado)\n"
+                   f"select c.id, x.ads_id, x.nombre, x.estado from {lote(HIST_GRUPOS, 'campana_ads_id text, ads_id text, nombre text, estado text')} join {ESQ}.campanas c on c.ads_id = x.campana_ads_id\n"
+                   f"on conflict do nothing;")
+        for i in range(0, len(HIST_MET), 300):
+            out.append(f"insert into {ESQ}.metricas_mes (campana_id, mes, desde, hasta, dias, coste, clics, impresiones, conversiones, moneda_original, coste_original, tipo_cambio)\n"
+                       f"select c.id, x.mes, x.desde, x.hasta, x.dias, x.coste, x.clics, x.impresiones, x.conversiones, x.moneda_original, x.coste_original, x.tipo_cambio "
+                       f"from {lote(HIST_MET[i:i + 300], 'ads_id text, mes text, desde date, hasta date, dias integer, coste numeric, clics integer, impresiones integer, conversiones numeric, moneda_original text, coste_original numeric, tipo_cambio numeric')} join {ESQ}.campanas c on c.ads_id = x.ads_id\n"
+                       f"on conflict (campana_id, mes) do update set desde = excluded.desde, hasta = excluded.hasta, dias = excluded.dias, coste = excluded.coste, clics = excluded.clics, "
+                       f"impresiones = excluded.impresiones, conversiones = excluded.conversiones, moneda_original = excluded.moneda_original, coste_original = excluded.coste_original, tipo_cambio = excluded.tipo_cambio;")
+        for i in range(0, len(HIST_MET_G), 300):
+            out.append(f"insert into {ESQ}.metricas_grupo_mes (grupo_id, campana_id, mes, coste, clics, impresiones, conversiones)\n"
+                       f"select g.id, c.id, x.mes, x.coste, x.clics, x.impresiones, x.conversiones from {lote(HIST_MET_G[i:i + 300], 'campana_ads_id text, grupo text, mes text, coste numeric, clics integer, impresiones integer, conversiones numeric')}\n"
+                       f"join {ESQ}.campanas c on c.ads_id = x.campana_ads_id join {ESQ}.grupos g on g.campana_id = c.id and g.nombre = x.grupo\n"
+                       f"on conflict (grupo_id, mes) do update set coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
     if SOLO in (None, "extracciones") and EXTRACCIONES:
         out.append(f"-- extracciones ({len(EXTRACCIONES)})")
         out.append(f"insert into {ESQ}.extracciones (fuente, corrida_en, desde, hasta, filas, detalle)\n"
@@ -217,7 +257,7 @@ def sql_carga():
 if SQL_OUT:
     os.makedirs(os.path.dirname(os.path.abspath(SQL_OUT)), exist_ok=True)
     open(SQL_OUT, "w", encoding="utf-8").write(sql_carga())
-    print(f"-> {SQL_OUT}: {len(CAMPANAS)} campañas, {len(GRUPOS)} grupos, {len(RECS)} recomendaciones, {len(METRICAS)} métricas, {len(METRICAS_DIA)} días-campaña, {len(GA4)} sitio-mes GA4, {len(EXTRACCIONES)} extracciones")
+    print(f"-> {SQL_OUT}: {len(CAMPANAS)} campañas, {len(GRUPOS)} grupos, {len(RECS)} recomendaciones, {len(METRICAS)} métricas, {len(METRICAS_DIA)} días-campaña, {len(GA4)} sitio-mes GA4, {len(HIST_MET)} campaña-mes de histórico, {len(EXTRACCIONES)} extracciones")
     sys.exit(0)
 
 
@@ -249,7 +289,7 @@ def upsert(tabla, filas, conflicto):
 if SOLO in (None, "campanas"):
     upsert("campanas", CAMPANAS, "nombre")
     print(f"campañas: {len(CAMPANAS)} (snapshot {os.path.basename(snap)})")
-CAMP = {c["nombre"]: c["id"] for c in api("GET", "campanas", params={"select": "id,nombre"})}
+CAMP = {c["nombre"]: c["id"] for c in api("GET", "campanas", params={"select": "id,nombre", "cuenta": "eq.actual"})}
 if SOLO in (None, "campanas"):
     upsert("grupos", [dict(campana_id=CAMP[g["campana"]], ads_id=g["ads_id"], nombre=g["nombre"], estado=g["estado"]) for g in GRUPOS], "campana_id,nombre")
     print(f"grupos: {len(GRUPOS)}")
@@ -285,6 +325,9 @@ if SOLO in (None, "metricas", "dia") and METRICAS_DIA:
 if SOLO in (None, "ga4") and GA4:
     upsert("ga4_sitio_mes", GA4, "sitio,mes")
     print(f"GA4: {len(GA4)} sitio-mes")
+
+if SOLO in (None, "historico") and HIST:
+    print("histórico: solo en modo --sql (cruza por ads_id y agrega campañas de la cuenta anterior); corré con --sql --solo historico")
 
 if SOLO in (None, "extracciones"):
     ya = {(e["fuente"], e["hasta"]) for e in api("GET", "extracciones", params={"select": "fuente,hasta"})}

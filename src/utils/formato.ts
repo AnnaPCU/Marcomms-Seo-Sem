@@ -55,3 +55,20 @@ export function diasDesde(iso: string | null | undefined, hoy = new Date()): num
 export function campanaCorta(nombre: string): string {
   return nombre.replace(/\s*-\s*search\s*$/i, '');
 }
+
+/** Importe corto para gráficos: 2.645.645 → '2,6 M'; 14.202 → '14 k'; 2.317 → '2,3 k'; 950 → '950'. */
+export function compacto(valor: number | null | undefined): string {
+  if (valor === null || valor === undefined || Number.isNaN(valor)) return '—';
+  const a = Math.abs(valor);
+  if (a >= 1_000_000) return (valor / 1_000_000).toLocaleString('es-AR', { maximumFractionDigits: 1 }) + ' M';
+  if (a >= 10_000) return Math.round(valor / 1_000).toLocaleString('es-AR') + ' k';
+  if (a >= 1_000) return (valor / 1_000).toLocaleString('es-AR', { maximumFractionDigits: 1 }) + ' k';
+  return Math.round(valor).toLocaleString('es-AR');
+}
+
+/** Variación como texto con signo: 0.153 → '+15%'; −0.04 → '−4%'. */
+export function signo(v: number | null): string {
+  if (v === null || Number.isNaN(v)) return '—';
+  const p = Math.round(v * 100);
+  return (p > 0 ? '+' : p < 0 ? '−' : '') + Math.abs(p) + '%';
+}

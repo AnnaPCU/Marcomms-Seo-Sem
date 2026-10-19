@@ -149,3 +149,30 @@ export function totales(lista: Ga4Datos[]) {
     { sesiones: 0, interaccion: 0, contactos: 0, organico: 0 },
   );
 }
+
+export interface MesGa4 {
+  mes: string;
+  dias: number;
+  diasMes: number;
+  sesiones: number;
+  interaccion: number;
+  contactos: number;
+  /** Visitas con interacción por canal (los mismos tramos que la barra de canales). */
+  canales: Record<string, number>;
+}
+
+/** Totales por mes de los sitios elegidos, del más viejo al más nuevo. */
+export function serieSitios(lista: { mes: string; dias: number; datos: Ga4Datos }[]): MesGa4[] {
+  const porMes = new Map<string, MesGa4>();
+  for (const s of lista) {
+    const [a, m] = s.mes.split('-').map(Number);
+    let t = porMes.get(s.mes);
+    if (!t) porMes.set(s.mes, (t = { mes: s.mes, dias: s.dias, diasMes: new Date(a, m, 0).getDate(), sesiones: 0, interaccion: 0, contactos: 0, canales: {} }));
+    t.dias = Math.max(t.dias, s.dias);
+    t.sesiones += s.datos.sesiones;
+    t.interaccion += s.datos.interaccion;
+    t.contactos += s.datos.contactos_total;
+    for (const tr of tramosCanal(s.datos)) t.canales[tr.id] = (t.canales[tr.id] ?? 0) + tr.interaccion;
+  }
+  return [...porMes.values()].sort((x, y) => x.mes.localeCompare(y.mes));
+}

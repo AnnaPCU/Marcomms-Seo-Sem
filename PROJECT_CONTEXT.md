@@ -31,6 +31,13 @@ análisis el mes siguiente. Origen de cada tipo:
 - `metricas_mes`: gasto, clics y conversiones por campaña y mes calendario (del 1 al último día con datos
   al momento de la extracción; se reemplaza al volver a correr el loader).
 - `metricas_grupo_mes`, `metricas_dia`: lo mismo por grupo de anuncios y por campaña y día (vista «Día a día»).
+- Histórico de Ads (desde feb 2026): `ads_historico.py` junta la cuenta actual («Control Union - (en ARG)», en pesos,
+  desde jul 2026) y la anterior («Peterson Technologies», en euros, feb–jul 2026; Growr y campañas sin prefijo de marca
+  no entran). Los euros se pasan a pesos con el promedio mensual del tipo de cambio oficial del BCRA; `metricas_mes`
+  guarda `moneda_original`, `coste_original` y `tipo_cambio`. `campanas.cuenta` = 'actual' | 'anterior' (las dos cuentas
+  repiten nombres: el nombre es único por cuenta). Se carga con `publicar.py --solo historico` (cruza por `ads_id`).
+  En el tablero: el período por defecto es el último mes cerrado y se pueden elegir los anteriores; la vista
+  «Histórico» muestra la evolución mes a mes (Presupuesto y Sitios). GA4 tiene datos desde dic 2025.
 - `ga4_sitio_mes`: Google Analytics 4 por sitio y mes (pestaña «Sitios · GA4»): sesiones, visitas con interacción,
   canales, contactos reales y páginas de entrada pagas y orgánicas. Sale de `proyecto/scripts/ga4_export.py`
   (`informe/datos_ga4.json`) y se carga con `scripts/publicar.py --solo ga4`. Contactos reales = formularios
