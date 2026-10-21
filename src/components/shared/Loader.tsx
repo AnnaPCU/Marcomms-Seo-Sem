@@ -19,7 +19,10 @@ function Orbita({ tamano = 112 }: { tamano?: number }) {
         }}
       />
       <div className="absolute inset-[10px] rounded-full bg-white shadow-elevada" />
-      <img src="/marca/marcomms-simbolo-160.png" alt="" className="absolute left-1/2 top-1/2 w-[46%] -translate-x-1/2 -translate-y-1/2 animate-latido" />
+      {/* centrado con flex y no con translate: la animación «latido» reescribe transform y lo descentraría */}
+      <div className="absolute inset-0 flex items-center justify-center">
+        <img src="/marca/marcomms-simbolo-160.png" alt="" className="w-[46%] animate-latido" />
+      </div>
     </div>
   );
 }
