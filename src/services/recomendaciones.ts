@@ -124,3 +124,18 @@ export function suscribirRecomendaciones(cb: () => void): () => void {
     void supabase.removeChannel(canal);
   };
 }
+
+/** Historial completo de varias tarjetas (para el Excel). Pide de a 100 ids para no pasarse del largo de la URL. */
+export async function listarEventosDe(ids: string[]): Promise<Evento[]> {
+  const out: Evento[] = [];
+  for (let i = 0; i < ids.length; i += 100) {
+    const { data, error } = await supabase
+      .from('recomendacion_eventos')
+      .select('*')
+      .in('recomendacion_id', ids.slice(i, i + 100))
+      .order('created_at', { ascending: true });
+    if (error) throw error;
+    out.push(...(data ?? []).map(eventoFromRow));
+  }
+  return out;
+}

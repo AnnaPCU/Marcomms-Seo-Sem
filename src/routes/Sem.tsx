@@ -2,7 +2,8 @@
 import { useCallback, useMemo } from 'react';
 import { useCatalogo, useRecomendaciones } from '@/hooks/useDatos';
 import Tablero from '@/components/tablero/Tablero';
-import Filtros, { FiltroAcciones, aplicarFiltros, useFiltros } from '@/components/tablero/Filtros';
+import Filtros, { FiltroAcciones, aplicarFiltros, filtrosActivos, useFiltros } from '@/components/tablero/Filtros';
+import BotonExportar from '@/components/tablero/BotonExportar';
 import { ErrorBox, Intro, SeccionTitulo, Vacio } from '@/components/shared/Ui';
 import { EsqueletoTablero } from '@/components/shared/Loader';
 import { campanaCorta } from '@/utils/formato';
@@ -45,7 +46,28 @@ export default function Sem() {
       >
         Arrastrá cada tarjeta a la columna que corresponda. Filtrá por cliente, país, campaña y grupo, y por tipo de mejora: anuncio, palabras clave, negativas, estructura. Se renuevan cada mes con la extracción; las que la API confirma aplicadas se marcan solas.
       </Intro>
-      <Filtros valores={filtros} onChange={setFiltro} paises={paises} campanas={campanas} grupos={grupos} meses={meses} />
+      <Filtros
+        valores={filtros}
+        onChange={setFiltro}
+        paises={paises}
+        campanas={campanas}
+        grupos={grupos}
+        meses={meses}
+        extra={
+          <BotonExportar
+            recomendaciones={visibles}
+            tipo="SEM"
+            partesNombre={[filtros.marca, filtros.pais, filtros.campana ? campanaCorta(cat.campana(filtros.campana)?.nombre ?? '') : '']}
+            contexto={{
+              vista: 'SEM · campañas (mejoras por campaña y grupo de anuncios de Google Ads)',
+              filtros: filtrosActivos(filtros, { campana: (id) => cat.campana(id)?.nombre, grupo: (id) => cat.grupo(id)?.nombre }),
+              campana: (r) => cat.campana(r.campanaId)?.nombre ?? null,
+              grupo: (r) => cat.grupo(r.grupoId)?.nombre ?? null,
+              pais: paisDe,
+            }}
+          />
+        }
+      />
       <FiltroAcciones valor={filtros.accion} onChange={(v) => setFiltro('accion', v)} base={sinAccion} />
       {recs.cargando ? (
         <EsqueletoTablero />
