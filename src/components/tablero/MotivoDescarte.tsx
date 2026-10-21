@@ -6,13 +6,13 @@ import { Boton } from '@/components/shared/Ui';
 export default function MotivoDescarte({ titulo, onCancelar, onConfirmar }: { titulo: string; onCancelar: () => void; onConfirmar: (motivo: string) => void }) {
   const [motivo, setMotivo] = useState('');
   return createPortal(
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-mc-navy/40 p-4" role="dialog" aria-modal="true">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-mc-fuerte/40 p-4" role="dialog" aria-modal="true">
       <form
         onSubmit={(e) => {
           e.preventDefault();
           if (motivo.trim()) onConfirmar(motivo.trim());
         }}
-        className="w-full max-w-md rounded-card bg-white p-5 shadow-card animate-fade-in"
+        className="w-full max-w-md rounded-card bg-mc-sup p-5 shadow-card animate-fade-in"
       >
         <h3 className="text-base">Descartar recomendación</h3>
         <p className="mt-1 text-sm text-mc-grey">{titulo}</p>

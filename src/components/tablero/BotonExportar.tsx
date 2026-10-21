@@ -58,7 +58,7 @@ export default function BotonExportar({
         onClick={() => void exportar()}
         disabled={ocupado || !recomendaciones.length}
         title={`Baja las ${recomendaciones.length} tarjetas de esta vista con todo su contenido y su historial`}
-        className="inline-flex items-center gap-1.5 rounded-lg border border-mc-hair bg-white px-3 py-1.5 text-sm font-semibold text-mc-navy transition hover:border-mc-blue hover:text-mc-blue disabled:cursor-not-allowed disabled:opacity-50"
+        className="inline-flex items-center gap-1.5 rounded-lg border border-mc-hair bg-mc-sup px-3 py-1.5 text-sm font-semibold text-mc-navy transition hover:border-mc-blue hover:text-mc-blue disabled:cursor-not-allowed disabled:opacity-50"
       >
         {ocupado ? <Loader2 size={15} className="animate-spin" /> : <FileSpreadsheet size={15} />}
         Exportar a Excel

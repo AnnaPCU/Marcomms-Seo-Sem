@@ -56,14 +56,14 @@ export default function DetalleRec({
   // la ficha ya muestra todo; la tabla genérica queda para las tarjetas sin ficha (SEO)
   const evidencia = ficha ? [] : Object.entries(rec.evidencia);
   return createPortal(
-    <div className="fixed inset-0 z-40 flex justify-end bg-mc-navy/30" onClick={onCerrar}>
+    <div className="fixed inset-0 z-40 flex justify-end bg-mc-fuerte/30" onClick={onCerrar}>
       <aside
-        className={`h-full w-full overflow-y-auto bg-white shadow-elevada animate-fade-in ${ficha === 'anuncio' ? 'max-w-5xl' : ficha === 'plan' ? 'max-w-3xl' : 'max-w-lg'}`}
+        className={`h-full w-full overflow-y-auto bg-mc-sup shadow-elevada animate-fade-in ${ficha === 'anuncio' ? 'max-w-5xl' : ficha === 'plan' ? 'max-w-3xl' : 'max-w-lg'}`}
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-modal="true"
       >
-        <div className="sticky top-0 flex items-start justify-between gap-3 border-b border-mc-hair bg-white px-5 py-4">
+        <div className="sticky top-0 flex items-start justify-between gap-3 border-b border-mc-hair bg-mc-sup px-5 py-4">
           <div>
             <div className="mb-1.5 flex items-center gap-1.5">
               <ChipMarca marca={rec.marca} />

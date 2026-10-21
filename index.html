@@ -11,6 +11,13 @@
     <meta name="robots" content="noindex, nofollow" />
     <meta name="google-site-verification" content="VLzINIv41OTSnI1xLk9x6jqRVfZJp3YSIBg6eJ5UnYI" />
     <title>MarComms · SEO-SEM</title>
+    <script>
+      // Tema guardado (o el del sistema) antes de pintar, para que el modo oscuro no parpadee al cargar.
+      try {
+        var t = localStorage.getItem('mc-seo-sem:tema');
+        if (t === 'oscuro' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.classList.add('dark');
+      } catch (e) {}
+    </script>
   </head>
   <body>
     <!-- Contenido estático hasta que carga React: la verificación de marca de Google lee la portada sin JS. -->

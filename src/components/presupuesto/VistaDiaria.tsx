@@ -6,6 +6,7 @@
  * Respeta los filtros de cliente, país y búsqueda de la vista de presupuesto.
  */
 import { useMemo, useState } from 'react';
+import { usePersistente } from '@/hooks/usePersistente';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { MARCA_BY_ID, MARCAS } from '@/constants/estados';
 import { Tarjeta, Vacio } from '@/components/shared/Ui';
@@ -33,13 +34,14 @@ const SEMANA = ['L', 'M', 'M', 'J', 'V', 'S', 'D'];
 
 const diaCorto = (f: string) => `${Number(f.slice(8, 10))} ${mesCorto(f.slice(0, 7)).split(' ')[0]}`;
 
-export default function VistaDiaria({ campanas, dias }: { campanas: CampanaGasto[]; dias: MetricaDia[] }) {
+export default function VistaDiaria({ campanas, dias, mesInicial }: { campanas: CampanaGasto[]; dias: MetricaDia[]; mesInicial?: string }) {
   const meses = useMemo(() => [...new Set(dias.map((d) => d.fecha.slice(0, 7)))].sort(), [dias]);
-  const [mesElegido, setMes] = useState('');
+  // arranca en el mes elegido arriba en la vista de presupuesto; las flechas permiten moverse dentro de los meses con datos diarios
+  const [mesElegido, setMes] = useState(mesInicial ?? '');
   const mes = meses.includes(mesElegido) ? mesElegido : (meses[meses.length - 1] ?? '');
   const hasta = useMemo(() => dias.filter((d) => d.fecha.startsWith(mes)).reduce((m, d) => (d.fecha > m ? d.fecha : m), ''), [dias, mes]);
   const fechas = useMemo(() => (mes ? fechasDelMes(mes, hasta || null) : []), [mes, hasta]);
-  const [elegido, setElegido] = useState('');
+  const [elegido, setElegido] = usePersistente('presupuesto:dia', '');
   const dia = fechas.includes(elegido) ? elegido : (fechas[fechas.length - 1] ?? '');
 
   const gasto = useMemo(() => new Map(dias.map((d) => [`${d.campanaId}|${d.fecha}`, d.coste])), [dias]);
@@ -116,7 +118,7 @@ export default function VistaDiaria({ campanas, dias }: { campanas: CampanaGasto
                   type="button"
                   onClick={() => setElegido(t.fecha)}
                   title={`${diaCorto(t.fecha)}: ${ars(t.coste)} de ${t.presDia ? ars(t.presDia) : '—'} · ${t.sobre} superaron, ${t.sin} sin gasto`}
-                  className={`flex h-12 flex-col items-start justify-between rounded-lg px-1.5 py-1 text-left ring-1 transition hover:-translate-y-0.5 ${CASILLERO[t.estado]} ${t.fecha === dia ? 'outline outline-2 outline-offset-1 outline-mc-navy' : ''}`}
+                  className={`flex h-12 flex-col items-start justify-between rounded-lg px-1.5 py-1 text-left ring-1 transition hover:-translate-y-0.5 ${CASILLERO[t.estado]} ${t.fecha === dia ? 'outline outline-2 outline-offset-1 outline-mc-fuerte' : ''}`}
                 >
                   <span className="flex w-full items-center justify-between text-[10px] font-semibold">
                     <span className="opacity-80">{Number(t.fecha.slice(8, 10))}</span>
@@ -161,7 +163,7 @@ export default function VistaDiaria({ campanas, dias }: { campanas: CampanaGasto
                 className="grid grid-cols-[minmax(0,1fr)_92px_minmax(110px,170px)] items-center gap-3 rounded-md px-1.5 py-1 text-[12.5px] hover:bg-mc-tint"
               >
                 <span className="truncate text-mc-navy" title={c.nombre}>
-                  <span className="mr-1.5 rounded bg-mc-navy px-1 py-0.5 text-[10px] font-semibold text-white">{c.marca}</span>
+                  <span className="mr-1.5 rounded bg-mc-fuerte px-1 py-0.5 text-[10px] font-semibold text-white">{c.marca}</span>
                   {campanaCorta(c.nombre)}
                 </span>
                 <span className="text-right font-mono text-[11.5px] text-mc-ink">
@@ -184,7 +186,7 @@ export default function VistaDiaria({ campanas, dias }: { campanas: CampanaGasto
         <table className="border-separate border-spacing-[3px] text-[11px]">
           <thead>
             <tr>
-              <th className="sticky left-0 z-10 min-w-[230px] bg-white" />
+              <th className="sticky left-0 z-10 min-w-[230px] bg-mc-sup" />
               {fechas.map((f) => (
                 <th
                   key={f}
@@ -203,7 +205,7 @@ export default function VistaDiaria({ campanas, dias }: { campanas: CampanaGasto
               return (
                 <tr key={c.id}>
                   <td
-                    className={`sticky left-0 z-10 max-w-[230px] truncate bg-white pr-2 text-mc-navy ${nuevoCliente && k ? 'border-t-2 border-mc-hair pt-1' : ''}`}
+                    className={`sticky left-0 z-10 max-w-[230px] truncate bg-mc-sup pr-2 text-mc-navy ${nuevoCliente && k ? 'border-t-2 border-mc-hair pt-1' : ''}`}
                     title={c.nombre}
                   >
                     {nuevoCliente && (
@@ -222,7 +224,7 @@ export default function VistaDiaria({ campanas, dias }: { campanas: CampanaGasto
                           type="button"
                           onClick={() => setElegido(f)}
                           title={`${campanaCorta(c.nombre)} · ${diaCorto(f)}: ${ars(g)}${p ? ` de ${ars(p)} (${Math.round((g / p) * 100)}%)` : ' · sin presupuesto activo'} · ${ETIQUETA[e]}`}
-                          className={`block h-4 w-4 rounded-[3px] ${CELDA[e]} ${f === dia ? 'ring-2 ring-mc-navy ring-offset-1' : ''}`}
+                          className={`block h-4 w-4 rounded-[3px] ${CELDA[e]} ${f === dia ? 'ring-2 ring-mc-fuerte ring-offset-1' : ''}`}
                         />
                       </td>
                     );

@@ -2,7 +2,7 @@
  * Seguimiento del presupuesto total: cuánto hay asignado en el mes, cuánto se gastó, a qué ritmo, cómo convierte,
  * y de dónde a dónde conviene rotar inversión (campañas topeadas vs. campañas con presupuesto ocioso).
  */
-import { useState } from 'react';
+import { usePersistente } from '@/hooks/usePersistente';
 import { AlertTriangle, ArrowDownRight, ArrowUpRight, ChevronDown, CircleSlash, Repeat } from 'lucide-react';
 import { MARCA_BY_ID } from '@/constants/estados';
 import { Kpi, PanelOscuro, Pildora, SeccionTitulo, Tarjeta } from '@/components/shared/Ui';
@@ -14,7 +14,7 @@ import Embudo from './Embudo';
 const VISIBLES = 8;
 
 function Lista({ filas, vacio, tipo }: { filas: FilaRotacion[]; vacio: string; tipo: 'tope' | 'ocio' }) {
-  const [abierta, setAbierta] = useState(false);
+  const [abierta, setAbierta] = usePersistente(`rotacion:${tipo}:abierta`, false);
   if (!filas.length) return <p className="text-sm text-mc-grey">{vacio}</p>;
   const resto = filas.length - VISIBLES;
   return (
@@ -27,7 +27,7 @@ function Lista({ filas, vacio, tipo }: { filas: FilaRotacion[]; vacio: string; t
             {i + 1}
           </span>
           <span className="min-w-0 flex-1 truncate text-mc-navy" title={f.nombre}>
-            <span className="mr-1.5 rounded bg-mc-navy px-1 py-0.5 text-[10px] font-semibold text-white">{f.marca}</span>
+            <span className="mr-1.5 rounded bg-mc-fuerte px-1 py-0.5 text-[10px] font-semibold text-white">{f.marca}</span>
             {campanaCorta(f.nombre)}
           </span>
           <span className="shrink-0 font-mono text-xs">

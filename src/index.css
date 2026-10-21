@@ -3,9 +3,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Base MarComms: fondo claro, tipografía DM Sans para texto y JetBrains Mono para números. */
-:root { color-scheme: light; }
+/*
+ * Base MarComms: tipografía DM Sans para texto y JetBrains Mono para números.
+ * Colores como tripletes RGB (los usa tailwind.config.js con opacidad). Tema claro en :root, oscuro en .dark
+ * (la clase la pone src/hooks/useTema.tsx; index.html la aplica antes de pintar para que no parpadee).
+ * Paleta MarComms en los dos temas: nunca los colores de Control Union ni de Peterson.
+ */
+:root {
+  color-scheme: light;
+  --mc-navy: 27 30 66;      /* #1b1e42 */
+  --mc-fuerte: 27 30 66;
+  --mc-navy2: 27 35 83;
+  --mc-indigo: 52 49 95;
+  --mc-blue: 0 156 235;     /* #009ceb */
+  --mc-blue2: 11 143 214;
+  --mc-ink: 79 101 102;     /* #4f6566 */
+  --mc-grey: 121 148 149;   /* #799495 */
+  --mc-tint: 243 246 249;
+  --mc-tint2: 230 237 243;
+  --mc-hair: 215 222 229;
+  --mc-bg: 241 244 248;
+  --mc-sup: 255 255 255;
+  --mc-green: 31 174 91;
+  --mc-gold: 201 154 46;
+  --mc-red: 214 69 69;
+  --sombra: 27 30 66;
+  /* tonos de Tailwind (los mismos valores por defecto) */
+  --red-50: 254 242 242; --red-100: 254 226 226; --red-200: 254 202 202; --red-300: 252 165 165; --red-700: 185 28 28; --red-800: 153 27 27;
+  --emerald-50: 236 253 245; --emerald-100: 209 250 229; --emerald-200: 167 243 208; --emerald-700: 4 120 87; --emerald-800: 6 95 70;
+  --amber-50: 255 251 235; --amber-100: 254 243 199; --amber-200: 253 230 138; --amber-800: 146 64 14;
+  --sky-50: 240 249 255; --sky-100: 224 242 254; --sky-200: 186 230 253;
+}
+
+.dark {
+  color-scheme: dark;
+  --mc-navy: 233 237 245;   /* texto fuerte claro */
+  --mc-fuerte: 76 84 168;   /* índigo para botones activos y chips */
+  --mc-navy2: 200 207 225;
+  --mc-indigo: 129 125 210;
+  --mc-blue: 38 170 240;
+  --mc-blue2: 92 190 245;
+  --mc-ink: 196 205 216;
+  --mc-grey: 143 160 172;
+  --mc-tint: 30 35 66;
+  --mc-tint2: 38 44 79;
+  --mc-hair: 50 57 94;
+  --mc-bg: 13 16 34;
+  --mc-sup: 22 26 51;
+  --mc-green: 52 196 112;
+  --mc-gold: 218 172 70;
+  --mc-red: 236 104 104;
+  --sombra: 0 0 0;
+  --red-50: 60 20 28; --red-100: 80 24 34; --red-200: 110 34 44; --red-300: 153 50 60; --red-700: 252 165 165; --red-800: 254 202 202;
+  --emerald-50: 10 46 36; --emerald-100: 12 60 45; --emerald-200: 18 84 62; --emerald-700: 110 231 183; --emerald-800: 167 243 208;
+  --amber-50: 51 37 10; --amber-100: 66 48 12; --amber-200: 92 68 18; --amber-800: 252 211 77;
+  --sky-50: 12 38 58; --sky-100: 14 50 76; --sky-200: 22 70 102;
+}
+
 html, body, #root { height: 100%; }
 body { @apply bg-mc-bg text-mc-ink font-sans antialiased; font-size: 14px; }
 h1, h2, h3, h4 { @apply text-mc-navy font-bold; }
 ::selection { background: rgba(0, 156, 235, 0.18); }
+/* transición suave al cambiar de tema, sin animar todo lo demás */
+.cambiando-tema, .cambiando-tema * { transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease !important; }

@@ -11,7 +11,7 @@ export function Chip({ children, className = '' }: { children: ReactNode; classN
 
 /** Marca del cliente. Siempre en la paleta MarComms: nunca se usan los colores de Control Union ni de Peterson. */
 export function ChipMarca({ marca }: { marca: Marca }) {
-  return <Chip className="bg-mc-navy text-white">{MARCA_BY_ID[marca]?.corto ?? marca}</Chip>;
+  return <Chip className="bg-mc-fuerte text-white">{MARCA_BY_ID[marca]?.corto ?? marca}</Chip>;
 }
 
 export function ChipPrioridad({ prioridad }: { prioridad: Prioridad }) {
@@ -42,11 +42,11 @@ export function ErrorBox({ mensaje }: { mensaje: string }) {
 }
 
 export function Vacio({ children }: { children: ReactNode }) {
-  return <div className="rounded-card border border-dashed border-mc-hair bg-white px-4 py-8 text-center text-sm text-mc-grey">{children}</div>;
+  return <div className="rounded-card border border-dashed border-mc-hair bg-mc-sup px-4 py-8 text-center text-sm text-mc-grey">{children}</div>;
 }
 
 export function Tarjeta({ children, className = '' }: { children: ReactNode; className?: string }) {
-  return <div className={`rounded-card border border-mc-hair/70 bg-white shadow-card ${className}`}>{children}</div>;
+  return <div className={`rounded-card border border-mc-hair/70 bg-mc-sup shadow-card ${className}`}>{children}</div>;
 }
 
 /** Título de sección: texto azul en mayúsculas, línea hasta el borde y un dato a la derecha. */
@@ -63,7 +63,7 @@ export function SeccionTitulo({ children, meta }: { children: ReactNode; meta?: 
 /** Introducción de una vista: callout blanco con borde azul a la izquierda y cifras al costado. */
 export function Intro({ children, cifras }: { children: ReactNode; cifras?: { valor: ReactNode; etiqueta: string; tono?: string }[] }) {
   return (
-    <div className="mb-5 flex flex-wrap items-center gap-4 rounded-card border border-l-4 border-mc-hair/70 border-l-mc-blue bg-white px-4 py-3 shadow-card">
+    <div className="mb-5 flex flex-wrap items-center gap-4 rounded-card border border-l-4 border-mc-hair/70 border-l-mc-blue bg-mc-sup px-4 py-3 shadow-card">
       <p className="min-w-[240px] flex-1 text-[13px] leading-relaxed text-mc-ink">{children}</p>
       {cifras && (
         <div className="flex gap-5">
@@ -82,7 +82,7 @@ export function Intro({ children, cifras }: { children: ReactNode; cifras?: { va
 /** Panel con franja azul noche arriba (bloques de acción, como «Próximos pasos» en Reports). */
 export function PanelOscuro({ titulo, icono, meta, children }: { titulo: ReactNode; icono?: ReactNode; meta?: ReactNode; children: ReactNode }) {
   return (
-    <div className="overflow-hidden rounded-card border border-mc-hair/70 bg-white shadow-card">
+    <div className="overflow-hidden rounded-card border border-mc-hair/70 bg-mc-sup shadow-card">
       <div className="flex items-center gap-2 bg-noche-mc px-4 py-2.5 text-white">
         {icono}
         <span className="text-[12px] font-bold uppercase tracking-[0.12em]">{titulo}</span>
@@ -108,7 +108,7 @@ export function Kpi({ valor, etiqueta, nota, acento = 'azul', pildora }: { valor
   return (
     <div
       className={`rounded-card px-4 py-3.5 shadow-card transition hover:-translate-y-0.5 hover:shadow-elevada ${
-        noche ? 'bg-noche-mc text-white' : `border border-l-[3px] border-mc-hair/70 bg-white ${ACENTO[acento]}`
+        noche ? 'bg-noche-mc text-white' : `border border-l-[3px] border-mc-hair/70 bg-mc-sup ${ACENTO[acento]}`
       }`}
     >
       <div className={`text-[10px] font-bold uppercase tracking-[0.14em] ${noche ? 'text-white/70' : 'text-mc-grey'}`}>{etiqueta}</div>
@@ -137,8 +137,8 @@ export function Boton({
     tipo === 'primario'
       ? 'bg-mc-blue text-white shadow-sm hover:bg-mc-blue2'
       : tipo === 'peligro'
-        ? 'border border-red-200 bg-white text-red-700 hover:bg-red-50'
-        : 'border border-mc-hair bg-white text-mc-navy hover:bg-mc-tint';
+        ? 'border border-red-200 bg-mc-sup text-red-700 hover:bg-red-50'
+        : 'border border-mc-hair bg-mc-sup text-mc-navy hover:bg-mc-tint';
   return (
     <button type={type} onClick={onClick} disabled={disabled} className={`${base} ${estilo}`}>
       {children}
@@ -167,7 +167,7 @@ export function Select({
       aria-label={ariaLabel}
       value={valor}
       onChange={(e) => onChange(e.target.value)}
-      className={`rounded-lg border bg-white px-2.5 py-1.5 text-sm text-mc-navy transition focus:border-mc-blue focus:outline-none focus:ring-2 focus:ring-mc-blue/15 ${
+      className={`rounded-lg border bg-mc-sup px-2.5 py-1.5 text-sm text-mc-navy transition focus:border-mc-blue focus:outline-none focus:ring-2 focus:ring-mc-blue/15 ${
         valor ? 'border-mc-blue/60 font-semibold' : 'border-mc-hair'
       }`}
     >

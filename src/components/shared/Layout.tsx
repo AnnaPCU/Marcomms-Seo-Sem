@@ -2,11 +2,15 @@
  * Marco de la app, como MarComms Reports: barra superior blanca fija con el logo, la sección y la frescura de los
  * datos; pestañas con ícono debajo; contenido centrado sobre fondo gris claro.
  */
+import { useEffect } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
-import { BarChart3, History, LogOut, Megaphone, Search, Wallet, CircleCheck } from 'lucide-react';
+import { BarChart3, History, LogOut, Megaphone, Moon, Search, Sun, Wallet, CircleCheck } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
 import { useExtracciones } from '@/hooks/useDatos';
+import { useTema } from '@/hooks/useTema';
+import { leerGuardado, guardar } from '@/hooks/usePersistente';
 import { fecha } from '@/utils/formato';
+import Logo from './Logo';
 
 const NAV = [
   { to: '/', label: 'Presupuesto', sub: 'Presupuesto y gasto de Google Ads', icono: Wallet, fin: true },
@@ -16,19 +20,66 @@ const NAV = [
   { to: '/historial', label: 'Historial', sub: 'Movimientos del tablero', icono: History, fin: false },
 ];
 
+/**
+ * Vuelve a la misma altura de la página al refrescar o al volver a una pestaña: guarda el scroll de cada sección y,
+ * cuando llegan los datos y la página vuelve a tener ese alto, baja hasta ahí. Si la persona scrollea antes, no la mueve.
+ */
+function useRestaurarScroll(pathname: string) {
+  useEffect(() => {
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    const clave = `scroll:${pathname}`;
+    const objetivo = leerGuardado<number>(clave, 0);
+    let activo = objetivo > 0;
+    const cortar = () => (activo = false);
+    const inicio = Date.now();
+    const intentar = () => {
+      if (!activo) return;
+      if (document.documentElement.scrollHeight >= objetivo + window.innerHeight - 2) {
+        window.scrollTo(0, objetivo);
+        activo = false;
+      } else if (Date.now() - inicio < 5000) requestAnimationFrame(intentar);
+      else {
+        window.scrollTo(0, objetivo);
+        activo = false;
+      }
+    };
+    if (activo) requestAnimationFrame(intentar);
+    else window.scrollTo(0, 0);
+    let t = 0;
+    const alScrollear = () => {
+      window.clearTimeout(t);
+      t = window.setTimeout(() => guardar(clave, Math.round(window.scrollY)), 150);
+    };
+    window.addEventListener('wheel', cortar, { passive: true });
+    window.addEventListener('touchstart', cortar, { passive: true });
+    window.addEventListener('keydown', cortar);
+    window.addEventListener('scroll', alScrollear, { passive: true });
+    return () => {
+      activo = false;
+      window.clearTimeout(t);
+      window.removeEventListener('wheel', cortar);
+      window.removeEventListener('touchstart', cortar);
+      window.removeEventListener('keydown', cortar);
+      window.removeEventListener('scroll', alScrollear);
+    };
+  }, [pathname]);
+}
+
 export default function Layout() {
   const { salir } = useAuth();
   const { pathname } = useLocation();
   const ext = useExtracciones();
   const actual = NAV.find((n) => (n.fin ? pathname === n.to : pathname.startsWith(n.to))) ?? NAV[0];
   const ads = ext.datos.google_ads;
+  const [tema, alternarTema] = useTema();
+  useRestaurarScroll(pathname);
 
   return (
     <div className="min-h-full bg-mc-bg">
-      <header className="sticky top-0 z-30 border-b border-mc-hair/80 bg-white/95 backdrop-blur">
+      <header className="sticky top-0 z-30 border-b border-mc-hair/80 bg-mc-sup/95 backdrop-blur">
         <div className="h-[3px] bg-degrade-mc" />
         <div className="mx-auto flex max-w-[1240px] items-center gap-4 px-6 py-3">
-          <img src="/marca/marcomms-horizontal-600.png" alt="MarComms" className="h-8 w-auto" />
+          <Logo className="h-8 w-auto" />
           <div className="hidden border-l border-mc-hair pl-4 sm:block">
             <div className="text-sm font-semibold text-mc-navy">{actual.label}</div>
             <div className="text-[11px] text-mc-grey">{actual.sub}</div>
@@ -39,6 +90,15 @@ export default function Layout() {
                 <CircleCheck size={13} /> Datos reales · Ads al {fecha(ads.hasta)}
               </span>
             )}
+            <button
+              type="button"
+              onClick={alternarTema}
+              title={tema === 'oscuro' ? 'Pasar a modo claro' : 'Pasar a modo oscuro'}
+              aria-label={tema === 'oscuro' ? 'Pasar a modo claro' : 'Pasar a modo oscuro'}
+              className="grid h-9 w-9 place-items-center rounded-lg border border-mc-hair text-mc-navy transition hover:border-mc-blue hover:text-mc-blue"
+            >
+              {tema === 'oscuro' ? <Sun size={16} /> : <Moon size={16} />}
+            </button>
             <button
               type="button"
               onClick={() => void salir()}

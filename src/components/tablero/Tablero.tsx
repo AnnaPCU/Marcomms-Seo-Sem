@@ -3,6 +3,8 @@
  * Mover a «descartada» pide un motivo. Cada movimiento deja un evento en la base.
  */
 import { useRef, useState } from 'react';
+import { useLocation } from 'react-router-dom';
+import { usePersistente } from '@/hooks/usePersistente';
 import { createPortal } from 'react-dom';
 import { DndContext, DragOverlay, PointerSensor, useDroppable, useSensor, useSensors, type DragEndEvent, type DragStartEvent } from '@dnd-kit/core';
 import type { Estado } from '@/lib/database.types';
@@ -24,7 +26,7 @@ function Columna({ estado, hijos, cantidad }: { estado: (typeof ESTADOS)[number]
     <div
       ref={setNodeRef}
       className={`flex min-h-[60vh] flex-col overflow-hidden rounded-card border border-t-4 shadow-card transition ${estado.franja} ${
-        isOver ? 'border-mc-blue bg-sky-50/70 ring-2 ring-mc-blue/30' : 'border-mc-hair/70 bg-white/70'
+        isOver ? 'border-mc-blue bg-sky-50/70 ring-2 ring-mc-blue/30' : 'border-mc-hair/70 bg-mc-sup/70'
       }`}
     >
       <div className={`flex items-start justify-between gap-2 px-3 py-2.5 ${estado.fondo}`}>
@@ -35,7 +37,7 @@ function Columna({ estado, hijos, cantidad }: { estado: (typeof ESTADOS)[number]
           </div>
           <div className="mt-0.5 text-[11px] leading-snug text-mc-grey">{estado.hint}</div>
         </div>
-        <span className="rounded-full bg-white px-2 py-0.5 font-mono text-xs font-semibold text-mc-navy shadow-sm">{cantidad}</span>
+        <span className="rounded-full bg-mc-sup px-2 py-0.5 font-mono text-xs font-semibold text-mc-navy shadow-sm">{cantidad}</span>
       </div>
       <div className="flex flex-1 flex-col gap-2 p-2">
         {hijos}
@@ -47,7 +49,11 @@ function Columna({ estado, hijos, cantidad }: { estado: (typeof ESTADOS)[number]
 
 export default function Tablero({ recomendaciones, contexto, aplicarLocal }: Props) {
   const [activa, setActiva] = useState<Recomendacion | null>(null);
-  const [abierta, setAbierta] = useState<Recomendacion | null>(null);
+  // la tarjeta abierta se recuerda por pestaña: al refrescar o volver, el detalle sigue abierto
+  const { pathname } = useLocation();
+  const [abiertaId, setAbiertaId] = usePersistente<string | null>(`tarjeta:${pathname}`, null);
+  const abierta = abiertaId ? (recomendaciones.find((r) => r.id === abiertaId) ?? null) : null;
+  const setAbierta = (r: Recomendacion | null) => setAbiertaId(r ? r.id : null);
   // El navegador dispara un clic al soltar: se ignora durante un instante para no abrir el detalle sin querer.
   const finArrastre = useRef(0);
   const abrir = (r: Recomendacion) => {
@@ -83,7 +89,7 @@ export default function Tablero({ recomendaciones, contexto, aplicarLocal }: Pro
     void mover(rec, destino);
   }
 
-  const abiertaActual = abierta ? (recomendaciones.find((r) => r.id === abierta.id) ?? abierta) : null;
+  const abiertaActual = abierta;
 
   return (
     <>

@@ -2,6 +2,7 @@
 import { useState, type FormEvent } from 'react';
 import { Lock } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
+import Logo from '@/components/shared/Logo';
 
 export default function Login() {
   const { entrar } = useAuth();
@@ -24,9 +25,9 @@ export default function Login() {
 
   return (
     <div className="relative flex min-h-full items-center justify-center bg-mc-bg px-4">
-      <form onSubmit={(e) => void enviar(e)} className="relative w-full max-w-sm overflow-hidden rounded-card bg-white px-8 py-9 shadow-elevada animate-fade-in">
+      <form onSubmit={(e) => void enviar(e)} className="relative w-full max-w-sm overflow-hidden rounded-card bg-mc-sup px-8 py-9 shadow-elevada animate-fade-in">
         <div className="absolute inset-x-0 top-0 h-1 bg-degrade-mc" />
-        <img src="/marca/marcomms-vertical-260.png" alt="MarComms" className="h-20 w-auto" />
+        <Logo vertical className="h-20 w-auto" />
         <h1 className="mt-6 text-xl">Tablero SEO · SEM</h1>
         <p className="mt-1 text-sm text-mc-grey">Ingresá la contraseña del equipo para continuar.</p>
 

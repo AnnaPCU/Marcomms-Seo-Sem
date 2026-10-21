@@ -3,6 +3,7 @@
  * (dentro de cada sección mientras llegan los datos).
  */
 import { useEffect, useState } from 'react';
+import Logo from './Logo';
 
 const MENSAJES = ['Conectando con la base', 'Leyendo campañas y grupos', 'Calculando presupuestos', 'Ordenando el tablero'];
 
@@ -18,6 +19,7 @@ function Orbita({ tamano = 112 }: { tamano?: number }) {
           mask: 'radial-gradient(farthest-side, transparent calc(100% - 5px), #000 calc(100% - 4px))',
         }}
       />
+      {/* el círculo queda blanco también en modo oscuro: es el fondo del símbolo, que es azul noche */}
       <div className="absolute inset-[10px] rounded-full bg-white shadow-elevada" />
       {/* centrado con flex y no con translate: la animación «latido» reescribe transform y lo descentraría */}
       <div className="absolute inset-0 flex items-center justify-center">
@@ -38,7 +40,7 @@ export function PantallaCarga() {
     <div className="flex min-h-full flex-col items-center justify-center gap-6 bg-mc-bg">
       <Orbita />
       <div className="text-center">
-        <img src="/marca/marcomms-horizontal-600.png" alt="MarComms" className="mx-auto h-6 w-auto opacity-90" />
+        <Logo className="mx-auto h-6 w-auto opacity-90" />
         <p key={i} className="mt-3 animate-fade-in text-sm text-mc-grey">
           {MENSAJES[i]}…
         </p>
@@ -65,7 +67,7 @@ export function Esqueleto({ className = '' }: { className?: string }) {
   return (
     <div
       className={`animate-brillo rounded-card ${className}`}
-      style={{ background: 'linear-gradient(90deg, #e6edf3 0%, #f3f6f9 40%, #e6edf3 80%)', backgroundSize: '800px 100%' }}
+      style={{ background: 'linear-gradient(90deg, rgb(var(--mc-tint2)) 0%, rgb(var(--mc-tint)) 40%, rgb(var(--mc-tint2)) 80%)', backgroundSize: '800px 100%' }}
     />
   );
 }
@@ -90,7 +92,7 @@ export function EsqueletoTablero() {
   return (
     <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-4">
       {[0, 1, 2, 3].map((c) => (
-        <div key={c} className="space-y-2 rounded-card bg-white/60 p-2">
+        <div key={c} className="space-y-2 rounded-card bg-mc-sup/60 p-2">
           <Esqueleto className="h-10" />
           {[0, 1, 2].map((k) => (
             <Esqueleto key={k} className="h-24" />

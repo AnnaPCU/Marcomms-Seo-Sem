@@ -4,7 +4,8 @@
  * último cerrado; también los anteriores, desde feb 2026) o la vista «Histórico» con la evolución mes a mes (VistaHistorica).
  * Réplica en vivo del informe «Gasto Google Ads por cliente» del proyecto de análisis.
  */
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
+import { usePersistente, usePersistenteSet } from '@/hooks/usePersistente';
 import { ChevronRight } from 'lucide-react';
 import { MARCA_BY_ID, MARCAS } from '@/constants/estados';
 import { useCampanas, useGrupos, useMetricas, useMetricasDia, useMetricasGrupo } from '@/hooks/useDatos';
@@ -50,7 +51,7 @@ function Fila({
       ? 'border-l-4 border-l-mc-navy bg-mc-tint2 font-bold'
       : n.nivel === 2
         ? 'border-l-4 border-l-mc-blue bg-mc-tint font-semibold'
-        : 'border-l-4 border-l-transparent bg-white';
+        : 'border-l-4 border-l-transparent bg-mc-sup';
   const nombre = n.nivel === 1 ? (MARCA_BY_ID[n.nombre as keyof typeof MARCA_BY_ID]?.label ?? n.nombre) : n.nivel === 3 ? campanaCorta(n.nombre) : n.nombre;
   const detalle =
     n.nivel === 1
@@ -93,13 +94,14 @@ export default function VistaPresupuesto() {
   const met = useMetricas();
   const metG = useMetricasGrupo();
   const metD = useMetricasDia();
-  const [vista, setVista] = useState<Vista>('mes');
-  const [modo, setModo] = useState<Modo>('mes');
-  const [mesElegido, setMes] = useState('');
-  const [cliente, setCliente] = useState('');
-  const [pais, setPais] = useState('');
-  const [q, setQ] = useState('');
-  const [abiertos, setAbiertos] = useState<Set<string>>(() => new Set(MARCAS.map((m) => m.id)));
+  // todo lo que elige la persona se recuerda al refrescar o volver a la pestaña
+  const [vista, setVista] = usePersistente<Vista>('presupuesto:vista', 'mes');
+  const [modo, setModo] = usePersistente<Modo>('presupuesto:modo', 'mes');
+  const [mesElegido, setMes] = usePersistente('presupuesto:mes', '');
+  const [cliente, setCliente] = usePersistente('presupuesto:cliente', '');
+  const [pais, setPais] = usePersistente('presupuesto:pais', '');
+  const [q, setQ] = usePersistente('presupuesto:busqueda', '');
+  const [abiertos, setAbiertos] = usePersistenteSet('presupuesto:abiertos', MARCAS.map((m) => m.id));
 
   const meses = useMemo(() => [...new Set(met.datos.map((m) => m.mes))].sort().reverse(), [met.datos]);
   const enCurso = mesActual();
@@ -196,7 +198,7 @@ export default function VistaPresupuesto() {
 
   return (
     <div className="space-y-7 animate-fade-in">
-      <div className="flex flex-wrap items-end justify-between gap-3 rounded-card bg-white px-4 py-3 shadow-card">
+      <div className="flex flex-wrap items-end justify-between gap-3 rounded-card bg-mc-sup px-4 py-3 shadow-card">
         <div className="flex flex-wrap items-end gap-3">
           <Select
             etiqueta="Cliente"
@@ -228,13 +230,13 @@ export default function VistaPresupuesto() {
           )}
           <div className="flex flex-col gap-1">
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-mc-grey">Vista</span>
-            <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-white text-sm">
+            <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm">
               {(['mes', 'historico'] as Vista[]).map((v) => (
                 <button
                   key={v}
                   type="button"
                   onClick={() => setVista(v)}
-                  className={`px-3 py-1.5 font-medium transition ${vista === v ? 'bg-mc-navy text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
+                  className={`px-3 py-1.5 font-medium transition ${vista === v ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
                 >
                   {v === 'mes' ? 'Un mes' : 'Histórico'}
                 </button>
@@ -260,7 +262,7 @@ export default function VistaPresupuesto() {
               {modoVer === 'calendario' ? 'Día a día' : 'Detalle por cliente, país, campaña y grupo'}
             </SeccionTitulo>
             <div className="mb-3 flex flex-wrap items-center gap-2">
-              <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-white text-sm">
+              <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm">
                 {MODOS.map((m) => (
                   <button
                     key={m}
@@ -268,7 +270,7 @@ export default function VistaPresupuesto() {
                     onClick={() => setModo(m)}
                     disabled={m === 'calendario' && !hayDiario}
                     title={m === 'calendario' && !hayDiario ? 'No hay gasto por día cargado para este mes' : undefined}
-                    className={`px-3 py-1.5 font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${modoVer === m ? 'bg-mc-navy text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
+                    className={`px-3 py-1.5 font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${modoVer === m ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
                   >
                     {m === 'mes' ? `Mes (${mesCorto(mes)})` : m === 'dia' ? 'Promedio por día' : 'Día a día'}
                   </button>
@@ -279,13 +281,13 @@ export default function VistaPresupuesto() {
                 value={q}
                 onChange={(e) => setQ(e.target.value)}
                 placeholder="Buscar campaña o grupo…"
-                className="min-w-[180px] flex-1 rounded-lg border border-mc-hair bg-white px-2.5 py-1.5 text-sm focus:border-mc-blue focus:outline-none"
+                className="min-w-[180px] flex-1 rounded-lg border border-mc-hair bg-mc-sup px-2.5 py-1.5 text-sm focus:border-mc-blue focus:outline-none"
               />
               {modoVer !== 'calendario' && (
                 <button
                   type="button"
                   onClick={expandirTodo}
-                  className="rounded-lg border border-mc-hair bg-white px-3 py-1.5 text-sm text-mc-navy hover:bg-mc-tint"
+                  className="rounded-lg border border-mc-hair bg-mc-sup px-3 py-1.5 text-sm text-mc-navy hover:bg-mc-tint"
                 >
                   Expandir todo
                 </button>
@@ -308,7 +310,7 @@ export default function VistaPresupuesto() {
                     <b>■ Gris</b> sin presupuesto activo
                   </span>
                 </div>
-                {metD.cargando ? <EsqueletoPresupuesto /> : <VistaDiaria campanas={visibles} dias={metD.datos} />}
+                {metD.cargando ? <EsqueletoPresupuesto /> : <VistaDiaria key={mes} mesInicial={mes} campanas={visibles} dias={metD.datos} />}
                 <p className="mt-3 text-xs text-mc-grey">
                   Presupuesto: el diario que tiene hoy cada campaña en Google Ads; si se cambió durante el mes, los días anteriores se comparan contra el valor
                   actual. Google puede gastar hasta el doble del presupuesto en un día y lo compensa en el mes, así que un día en rojo aislado es normal; varios

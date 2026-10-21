@@ -1,29 +1,41 @@
 /** @type {import('tailwindcss').Config} */
+const v = (nombre) => `rgb(var(${nombre}) / <alpha-value>)`;
+const escala = (color, tonos) => Object.fromEntries(tonos.map((t) => [t, v(`--${color}-${t}`)]));
+
 // Identidad MarComms (la agencia interna que presta servicios a Control Union y Peterson Solutions).
 // Base del logo: azul noche #1b1e42 y azul #009ceb. Acentos de apoyo tomados de MarComms Reports (índigo para
 // tarjetas destacadas, verde, dorado y rojo para estados). Nunca se usan los colores de marca de los clientes:
 // Cyan #3eb2ed, Aqua #44cbce, Yellow #f1e747.
 export default {
+  darkMode: 'class',
   content: ['./index.html', './src/**/*.{ts,tsx}'],
   theme: {
     extend: {
+      // Los colores son variables CSS (index.css): cambian solos entre el tema claro y el oscuro (clase .dark en <html>).
       colors: {
         mc: {
-          navy: '#1b1e42',
-          navy2: '#1b2353',
-          indigo: '#34315f',
-          blue: '#009ceb',
-          blue2: '#0b8fd6',
-          ink: '#4f6566',
-          grey: '#799495',
-          tint: '#f3f6f9',
-          tint2: '#e6edf3',
-          hair: '#d7dee5',
-          bg: '#f1f4f8',
-          green: '#1fae5b',
-          gold: '#c99a2e',
-          red: '#d64545',
+          navy: v('--mc-navy'), // texto fuerte y títulos
+          fuerte: v('--mc-fuerte'), // relleno oscuro (botones activos, chips): azul noche en claro, índigo en oscuro
+          navy2: v('--mc-navy2'),
+          indigo: v('--mc-indigo'),
+          blue: v('--mc-blue'),
+          blue2: v('--mc-blue2'),
+          ink: v('--mc-ink'),
+          grey: v('--mc-grey'),
+          tint: v('--mc-tint'),
+          tint2: v('--mc-tint2'),
+          hair: v('--mc-hair'),
+          bg: v('--mc-bg'),
+          sup: v('--mc-sup'), // superficie de tarjetas y paneles: blanco en claro
+          green: v('--mc-green'),
+          gold: v('--mc-gold'),
+          red: v('--mc-red'),
         },
+        // tonos de estado de Tailwind que se usan en chips y avisos: en oscuro, fondos apagados y textos claros
+        red: escala('red', [50, 100, 200, 300, 700, 800]),
+        emerald: escala('emerald', [50, 100, 200, 700, 800]),
+        amber: escala('amber', [50, 100, 200, 800]),
+        sky: escala('sky', [50, 100, 200]),
       },
       fontFamily: {
         sans: ['DM Sans', 'Inter', 'system-ui', 'sans-serif'],
@@ -31,8 +43,8 @@ export default {
       },
       borderRadius: { card: '12px' },
       boxShadow: {
-        card: '0 1px 2px rgba(27, 30, 66, 0.05), 0 4px 14px rgba(27, 30, 66, 0.05)',
-        elevada: '0 2px 4px rgba(27, 30, 66, 0.06), 0 12px 28px rgba(27, 30, 66, 0.10)',
+        card: '0 1px 2px rgb(var(--sombra) / 0.05), 0 4px 14px rgb(var(--sombra) / 0.05)',
+        elevada: '0 2px 4px rgb(var(--sombra) / 0.06), 0 12px 28px rgb(var(--sombra) / 0.10)',
       },
       backgroundImage: {
         'degrade-mc': 'linear-gradient(90deg, #1b1e42 0%, #009ceb 55%, #1fae5b 100%)',

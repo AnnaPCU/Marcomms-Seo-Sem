@@ -1,6 +1,8 @@
 /** Barra de filtros del tablero. Los valores viven en la URL para poder compartir una vista. */
 import type { ReactNode } from 'react';
-import { useSearchParams } from 'react-router-dom';
+import { useEffect } from 'react';
+import { useLocation, useSearchParams } from 'react-router-dom';
+import { guardar, leerGuardado } from '@/hooks/usePersistente';
 import { ACCIONES, MARCA_BY_ID, MARCAS, PRIORIDAD_BY_ID, PRIORIDADES, accionesDe } from '@/constants/estados';
 import { Select } from '@/components/shared/Ui';
 import type { Recomendacion } from '@/services/recomendaciones';
@@ -21,6 +23,15 @@ export interface FiltrosValores {
 
 export function useFiltros(): [FiltrosValores, (k: keyof FiltrosValores, v: string) => void] {
   const [params, setParams] = useSearchParams();
+  const { pathname } = useLocation();
+  const clave = `filtros:${pathname}`;
+  // Se recuerdan por pestaña (SEM, SEO): al volver sin filtros en la URL, o al refrescar, se recuperan los últimos.
+  useEffect(() => {
+    if ([...params.keys()].length === 0) {
+      const guardados = leerGuardado<string>(clave, '');
+      if (guardados) setParams(new URLSearchParams(guardados), { replace: true });
+    } else guardar(clave, params.toString());
+  }, [clave, params, setParams]);
   const valores: FiltrosValores = {
     marca: params.get('marca') ?? '',
     pais: params.get('pais') ?? '',
@@ -33,7 +44,9 @@ export function useFiltros(): [FiltrosValores, (k: keyof FiltrosValores, v: stri
     q: params.get('q') ?? '',
   };
   const set = (k: keyof FiltrosValores, v: string) => {
-    const p = new URLSearchParams(params);
+    // se parte de la URL actual y no de `params` del último render: dos cambios seguidos (p. ej. limpiar cliente y país)
+    // no se pisan aunque React todavía no haya vuelto a dibujar
+    const p = new URLSearchParams(window.location.search);
     if (v) p.set(k, v);
     else p.delete(k);
     if (k === 'campana') p.delete('grupo');
@@ -42,6 +55,7 @@ export function useFiltros(): [FiltrosValores, (k: keyof FiltrosValores, v: stri
       p.delete('campana');
       p.delete('grupo');
     }
+    guardar(clave, p.toString()); // vacío también: si se limpian los filtros, no vuelven al recargar
     setParams(p, { replace: true });
   };
   return [valores, set];
@@ -90,7 +104,7 @@ export function FiltroAcciones({ valor, onChange, base }: { valor: string; onCha
   const cuenta = (id: string) => base.filter((r) => accionesDe(r.evidencia).includes(id)).length;
   const chip = (activo: boolean) =>
     `inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[12.5px] font-medium ring-1 transition ${
-      activo ? 'bg-mc-navy text-white ring-mc-navy' : 'bg-white text-mc-ink ring-mc-hair hover:bg-mc-tint hover:text-mc-navy'
+      activo ? 'bg-mc-fuerte text-white ring-mc-fuerte' : 'bg-mc-sup text-mc-ink ring-mc-hair hover:bg-mc-tint hover:text-mc-navy'
     }`;
   return (
     <div className="-mt-2 mb-5 flex flex-wrap items-center gap-1.5" role="group" aria-label="Tipo de mejora">
@@ -128,7 +142,7 @@ export default function Filtros({ valores, onChange, paises, campanas, grupos, s
   const campanasVisibles = (campanas ?? []).filter((c) => (!valores.marca || c.marca === valores.marca) && (!valores.pais || c.pais === valores.pais));
   const gruposVisibles = (grupos ?? []).filter((g) => valores.campana && g.campanaId === valores.campana);
   return (
-    <div className="mb-5 flex flex-wrap items-center gap-2 rounded-card bg-white px-3 py-2.5 shadow-card">
+    <div className="mb-5 flex flex-wrap items-center gap-2 rounded-card bg-mc-sup px-3 py-2.5 shadow-card">
       <Select ariaLabel="Cliente" valor={valores.marca} onChange={(v) => onChange('marca', v)} todo="Todos los clientes" opciones={MARCAS.map((m) => ({ id: m.id, label: m.label }))} />
       {paises && <Select ariaLabel="País" valor={valores.pais} onChange={(v) => onChange('pais', v)} todo="Todos los países" opciones={paises.map((p) => ({ id: p, label: p }))} />}
       {campanas && (
@@ -145,7 +159,7 @@ export default function Filtros({ valores, onChange, paises, campanas, grupos, s
         value={valores.q}
         onChange={(e) => onChange('q', e.target.value)}
         placeholder="Buscar en títulos y detalle…"
-        className="min-w-[180px] flex-1 rounded-lg border border-mc-hair bg-mc-tint px-2.5 py-1.5 text-sm transition focus:border-mc-blue focus:bg-white focus:outline-none focus:ring-2 focus:ring-mc-blue/15"
+        className="min-w-[180px] flex-1 rounded-lg border border-mc-hair bg-mc-tint px-2.5 py-1.5 text-sm transition focus:border-mc-blue focus:bg-mc-sup focus:outline-none focus:ring-2 focus:ring-mc-blue/15"
       />
       {extra}
     </div>

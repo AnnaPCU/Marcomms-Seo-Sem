@@ -19,7 +19,7 @@ export function BarraConsumo({ valor, semaforo, marca, alto }: { valor: number |
       <div className={`relative flex-1 rounded-full bg-mc-tint2 ${alto ? 'h-3.5' : 'h-2'}`} title={`${Math.round(valor * 100)}% del presupuesto`}>
         <div className={`h-full rounded-full transition-[width] duration-700 ${COLOR_SEMAFORO[semaforo].barra}`} style={{ width: `${ancho}%` }} />
         {marca !== undefined && (
-          <div className={`absolute w-0.5 rounded bg-mc-navy ${alto ? '-top-1.5 h-6' : '-top-1 h-4'}`} style={{ left: `calc(${Math.min(marca, 1) * 100}% - 1px)` }} title="Dónde debería estar hoy" />
+          <div className={`absolute w-0.5 rounded bg-mc-fuerte ${alto ? '-top-1.5 h-6' : '-top-1 h-4'}`} style={{ left: `calc(${Math.min(marca, 1) * 100}% - 1px)` }} title="Dónde debería estar hoy" />
         )}
       </div>
       <span className={`w-11 text-right font-mono font-semibold ${alto ? 'text-sm' : 'text-xs'} ${COLOR_SEMAFORO[semaforo].texto}`}>{Math.round(valor * 100)}%</span>

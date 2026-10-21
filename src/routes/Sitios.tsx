@@ -3,7 +3,8 @@
  * Google Ads. Una fila por sitio; al abrirla, alertas, canales y páginas de entrada pagas y orgánicas.
  * Vista «Histórico»: la evolución mes a mes desde dic 2025 (VistaSitiosHistorica).
  */
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
+import { usePersistente, usePersistenteSet } from '@/hooks/usePersistente';
 import { AlertTriangle, ChevronRight, Info } from 'lucide-react';
 import { useCampanas, useGa4, useMetricas } from '@/hooks/useDatos';
 import type { Ga4Landing, Ga4SitioMes } from '@/services/ga4';
@@ -92,7 +93,7 @@ function Detalle({ s, avisos }: { s: Ga4SitioMes; avisos: Alerta[] }) {
       {avisos.length > 0 && (
         <ul className="space-y-2">
           {avisos.map((a) => (
-            <li key={a.clave} className={`rounded-lg border-l-[3px] bg-white px-3 py-2 text-xs shadow-card ${a.gravedad === 'alta' ? 'border-l-mc-red' : 'border-l-mc-gold'}`}>
+            <li key={a.clave} className={`rounded-lg border-l-[3px] bg-mc-sup px-3 py-2 text-xs shadow-card ${a.gravedad === 'alta' ? 'border-l-mc-red' : 'border-l-mc-gold'}`}>
               <div className="font-semibold text-mc-navy">{a.titulo}</div>
               <div className="mt-0.5 text-mc-ink">{a.detalle}</div>
             </li>
@@ -192,10 +193,11 @@ export default function Sitios() {
   const ga4 = useGa4();
   const camp = useCampanas();
   const met = useMetricas();
-  const [cliente, setCliente] = useState('');
-  const [mesElegido, setMes] = useState('');
-  const [vista, setVista] = useState<'mes' | 'historico'>('mes');
-  const [abiertos, setAbiertos] = useState<Set<string>>(new Set());
+  // se recuerda al refrescar o volver a la pestaña
+  const [cliente, setCliente] = usePersistente('sitios:cliente', '');
+  const [mesElegido, setMes] = usePersistente('sitios:mes', '');
+  const [vista, setVista] = usePersistente<'mes' | 'historico'>('sitios:vista', 'mes');
+  const [abiertos, setAbiertos] = usePersistenteSet('sitios:abiertos', []);
 
   const meses = useMemo(() => {
     const m = new Map<string, Ga4SitioMes>();
@@ -233,7 +235,7 @@ export default function Sitios() {
 
   return (
     <div className="space-y-5 animate-fade-in">
-      <div className="flex flex-wrap items-end justify-between gap-3 rounded-card bg-white px-4 py-3 shadow-card">
+      <div className="flex flex-wrap items-end justify-between gap-3 rounded-card bg-mc-sup px-4 py-3 shadow-card">
         <div className="flex flex-wrap items-end gap-3">
           <Select
             etiqueta="Cliente"
@@ -255,13 +257,13 @@ export default function Sitios() {
           )}
           <div className="flex flex-col gap-1">
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-mc-grey">Vista</span>
-            <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-white text-sm">
+            <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm">
               {(['mes', 'historico'] as const).map((v) => (
                 <button
                   key={v}
                   type="button"
                   onClick={() => setVista(v)}
-                  className={`px-3 py-1.5 font-medium transition ${vista === v ? 'bg-mc-navy text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
+                  className={`px-3 py-1.5 font-medium transition ${vista === v ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
                 >
                   {v === 'mes' ? 'Un mes' : 'Histórico'}
                 </button>
@@ -337,7 +339,7 @@ export default function Sitios() {
         </>
       )}
 
-      <div className="flex gap-2 rounded-card border border-mc-hair/70 bg-white px-4 py-3 text-xs leading-relaxed text-mc-ink shadow-card">
+      <div className="flex gap-2 rounded-card border border-mc-hair/70 bg-mc-sup px-4 py-3 text-xs leading-relaxed text-mc-ink shadow-card">
         <Info size={15} className="mt-0.5 shrink-0 text-mc-blue" />
         <p>
           <b className="text-mc-navy">Cómo leer estos números.</b> GA4 solo mide a quien acepta las cookies: en España y Portugal ve bastante menos visitas

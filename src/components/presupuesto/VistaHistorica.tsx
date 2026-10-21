@@ -6,7 +6,8 @@
  * Respeta los filtros de cliente y país de la vista de presupuesto. Todo en pesos: la cuenta anterior
  * (feb–jul 2026) facturaba en euros y se convirtió con el tipo de cambio oficial del BCRA, promedio de cada mes.
  */
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
+import { usePersistente, usePersistenteSet } from '@/hooks/usePersistente';
 import { ChevronRight } from 'lucide-react';
 import { MARCA_BY_ID, MARCAS } from '@/constants/estados';
 import { SeccionTitulo, Tarjeta, Vacio } from '@/components/shared/Ui';
@@ -15,7 +16,7 @@ import { ars, campanaCorta, compacto, entero, fecha, mesCorto, pct, signo } from
 import { costoConv, cpc, ctr, matriz, serieMensual, variacion, type CampanaRef, type FilaMatriz, type Totales } from '@/utils/historico';
 
 // Colores por cliente en la paleta MarComms (nunca los de Control Union ni Peterson).
-const COLOR_MARCA: Record<string, string> = { CU: 'bg-mc-navy', PCU: 'bg-mc-blue', PS: 'bg-mc-gold' };
+const COLOR_MARCA: Record<string, string> = { CU: 'bg-mc-fuerte', PCU: 'bg-mc-blue', PS: 'bg-mc-gold' };
 
 type Indicador = 'coste' | 'clics' | 'cpc' | 'conv';
 const INDICADORES: { id: Indicador; label: string }[] = [
@@ -63,7 +64,7 @@ function FilaHeat({
   const valores = meses.map((m) => valor(f.porMes.get(m), ind));
   const max = Math.max(...valores.map((v) => v ?? 0), 0);
   const nombre = f.nivel === 1 ? (MARCA_BY_ID[f.clave as keyof typeof MARCA_BY_ID]?.label ?? f.nombre) : f.nivel === 3 ? campanaCorta(f.nombre) : f.nombre;
-  const fondo = f.nivel === 1 ? 'bg-mc-tint2 font-bold' : f.nivel === 2 ? 'bg-mc-tint font-semibold' : 'bg-white';
+  const fondo = f.nivel === 1 ? 'bg-mc-tint2 font-bold' : f.nivel === 2 ? 'bg-mc-tint font-semibold' : 'bg-mc-sup';
   return (
     <>
       <tr className={`border-t border-mc-tint2 ${fondo} ${f.hijos.length ? 'cursor-pointer hover:bg-mc-tint' : ''}`} onClick={() => f.hijos.length && alternar(f.clave)}>
@@ -97,8 +98,8 @@ function FilaHeat({
 }
 
 export default function VistaHistorica({ campanas, metricas, mesEnCurso }: { campanas: CampanaRef[]; metricas: MetricaMes[]; mesEnCurso: string }) {
-  const [ind, setInd] = useState<Indicador>('coste');
-  const [abiertos, setAbiertos] = useState<Set<string>>(() => new Set(MARCAS.map((m) => m.id)));
+  const [ind, setInd] = usePersistente<Indicador>('historico:indicador', 'coste');
+  const [abiertos, setAbiertos] = usePersistenteSet('historico:abiertos', MARCAS.map((m) => m.id));
   const serie = useMemo(() => serieMensual(campanas, metricas), [campanas, metricas]);
   const filas = useMemo(
     () =>
@@ -217,13 +218,13 @@ export default function VistaHistorica({ campanas, metricas, mesEnCurso }: { cam
 
       <section>
         <SeccionTitulo meta="clic en un cliente o país para abrirlo">Por cliente, país y campaña</SeccionTitulo>
-        <div className="mb-3 inline-flex overflow-hidden rounded-lg border border-mc-hair bg-white text-sm">
+        <div className="mb-3 inline-flex overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm">
           {INDICADORES.map((x) => (
             <button
               key={x.id}
               type="button"
               onClick={() => setInd(x.id)}
-              className={`px-3 py-1.5 font-medium transition ${ind === x.id ? 'bg-mc-navy text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
+              className={`px-3 py-1.5 font-medium transition ${ind === x.id ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
             >
               {x.label}
             </button>
@@ -233,7 +234,7 @@ export default function VistaHistorica({ campanas, metricas, mesEnCurso }: { cam
           <table className="w-full min-w-[760px] text-[13px]">
             <thead>
               <tr className="text-[10px] uppercase tracking-[0.12em] text-mc-grey">
-                <th className="sticky left-0 z-10 bg-white px-3 py-2 text-left font-semibold">Nivel</th>
+                <th className="sticky left-0 z-10 bg-mc-sup px-3 py-2 text-left font-semibold">Nivel</th>
                 {meses.map((m) => (
                   <th key={m} className="px-1 py-2 text-right font-semibold">
                     {mesCorto(m).replace(' de ', ' ')}

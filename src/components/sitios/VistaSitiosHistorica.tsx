@@ -4,7 +4,8 @@
  *  - Tabla mes a mes con la variación contra el mes anterior.
  *  - Matriz sitio × mes con el indicador que se elija.
  */
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
+import { usePersistente } from '@/hooks/usePersistente';
 import type { Ga4SitioMes } from '@/services/ga4';
 import { ChipMarca, SeccionTitulo, Tarjeta, Vacio } from '@/components/shared/Ui';
 import { compacto, entero, fecha, mesCorto, pct, signo } from '@/utils/formato';
@@ -37,7 +38,7 @@ function Variacion({ v }: { v: number | null }) {
 }
 
 export default function VistaSitiosHistorica({ datos, mesEnCurso }: { datos: Ga4SitioMes[]; mesEnCurso: string }) {
-  const [ind, setInd] = useState<Indicador>('interaccion');
+  const [ind, setInd] = usePersistente<Indicador>('sitios:indicador', 'interaccion');
   const serie = useMemo(() => serieSitios(datos), [datos]);
   const meses = serie.map((s) => s.mes);
   const sitios = useMemo(() => {
@@ -136,13 +137,13 @@ export default function VistaSitiosHistorica({ datos, mesEnCurso }: { datos: Ga4
 
       <section>
         <SeccionTitulo meta="cada fila, de su mes más bajo (claro) al más alto (oscuro)">Por sitio</SeccionTitulo>
-        <div className="mb-3 inline-flex flex-wrap overflow-hidden rounded-lg border border-mc-hair bg-white text-sm">
+        <div className="mb-3 inline-flex flex-wrap overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm">
           {INDICADORES.map((x) => (
             <button
               key={x.id}
               type="button"
               onClick={() => setInd(x.id)}
-              className={`px-3 py-1.5 font-medium transition ${ind === x.id ? 'bg-mc-navy text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
+              className={`px-3 py-1.5 font-medium transition ${ind === x.id ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
             >
               {x.label}
             </button>
@@ -152,7 +153,7 @@ export default function VistaSitiosHistorica({ datos, mesEnCurso }: { datos: Ga4
           <table className="w-full min-w-[760px] text-[13px]">
             <thead>
               <tr className="text-[10px] uppercase tracking-[0.12em] text-mc-grey">
-                <th className="sticky left-0 z-10 bg-white px-3 py-2 text-left font-semibold">Sitio</th>
+                <th className="sticky left-0 z-10 bg-mc-sup px-3 py-2 text-left font-semibold">Sitio</th>
                 {meses.map((m) => (
                   <th key={m} className="px-1 py-2 text-right font-semibold">
                     {mesCorto(m)}
@@ -167,7 +168,7 @@ export default function VistaSitiosHistorica({ datos, mesEnCurso }: { datos: Ga4
                 const tope = Math.max(...valores.map((v) => v ?? 0), 0);
                 return (
                   <tr key={x.sitio} className="border-t border-mc-tint2">
-                    <td className="sticky left-0 z-10 max-w-[230px] bg-white px-3 py-1.5" title={x.sitio}>
+                    <td className="sticky left-0 z-10 max-w-[230px] bg-mc-sup px-3 py-1.5" title={x.sitio}>
                       <span className="flex items-center gap-1.5 font-semibold text-mc-navy">
                         <ChipMarca marca={x.marca} />
                         <span className="truncate">{x.nombre.replace(/^(Control Union|Peterson Solutions)\s*/, '')}</span>

@@ -162,7 +162,7 @@ export function FichaAnuncio({ d }: { d: DatosAnuncio }) {
         <b className="font-mono text-mc-navy">{ars(d.gasto_ars ?? 0)}</b> gasto en las dos ventanas ({d.ventanas ?? '—'})<span className="text-mc-hair">·</span>{' '}
         fuerza del anuncio según Google <b className="text-mc-navy">{fuerza}</b>
         <span className="text-mc-hair">·</span> {entero(d.titulos_hoy?.length ?? 0)} títulos hoy
-        {d.cambio && <span className="ml-auto rounded bg-mc-navy px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.12em] text-white">{d.cambio}</span>}
+        {d.cambio && <span className="ml-auto rounded bg-mc-fuerte px-2 py-0.5 text-[10px] font-bold uppercase tracking-[0.12em] text-white">{d.cambio}</span>}
       </div>
 
       <div className="grid grid-cols-1 gap-5 lg:grid-cols-2">
@@ -243,12 +243,12 @@ export function FichaPlan({ d, conCampana }: { d: DatosPlan; conCampana: boolean
   return (
     <div className="space-y-5">
       <div className="grid grid-cols-1 gap-3 md:grid-cols-2">
-        <div className="rounded-card border border-l-4 border-mc-hair/70 border-l-mc-red bg-white px-4 py-3">
+        <div className="rounded-card border border-l-4 border-mc-hair/70 border-l-mc-red bg-mc-sup px-4 py-3">
           <Rotulo>Pain point</Rotulo>
           <p className="text-[14px] font-semibold text-mc-navy">{d.pain}</p>
           <p className="mt-1 text-[13px] leading-relaxed text-mc-ink">{d.pain_txt}</p>
         </div>
-        <div className="rounded-card border border-l-4 border-mc-hair/70 border-l-mc-green bg-white px-4 py-3">
+        <div className="rounded-card border border-l-4 border-mc-hair/70 border-l-mc-green bg-mc-sup px-4 py-3">
           <Rotulo>Mejora</Rotulo>
           <p className="text-[14px] font-semibold text-mc-navy">{d.mejora}</p>
           <p className="mt-1 text-[13px] leading-relaxed text-mc-ink">{d.mejora_txt}</p>

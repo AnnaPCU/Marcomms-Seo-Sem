@@ -63,7 +63,7 @@ export default function Embudo({ impresiones, clics, conv, coste }: Props) {
         <Escalon ancho={56} color="linear-gradient(135deg, #17964d, #1fae5b)" etiqueta="Conversiones" valor={entero(conv)} nota={conv ? `${ars(coste / conv)} cada una` : 'sin conversiones en el período'} />
       </div>
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-1">
-        <Dato color="bg-mc-navy" etiqueta="Coste total" valor={ars(coste)} nota="Inversión ejecutada en el período" />
+        <Dato color="bg-mc-fuerte" etiqueta="Coste total" valor={ars(coste)} nota="Inversión ejecutada en el período" />
         <Dato color="bg-mc-blue" etiqueta="CPC medio" valor={ars(clics ? coste / clics : 0)} nota="Coste promedio por clic" />
         <Dato color="bg-mc-green" etiqueta="Coste por conversión" valor={conv ? ars(coste / conv) : '—'} nota={conv ? `${entero(conv)} conversiones` : 'Sin conversiones'} />
       </div>
