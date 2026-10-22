@@ -6,9 +6,10 @@ import type { Estado } from '@/lib/database.types';
 import { ESTADOS, ESTADO_BY_ID, MARCA_BY_ID } from '@/constants/estados';
 import { listarEventos, type Evento, type Recomendacion } from '@/services/recomendaciones';
 import { Boton, ChipMarca, ChipPrioridad } from '@/components/shared/Ui';
-import { campanaCorta, fechaHora, mesCorto } from '@/utils/formato';
+import { fechaHora, mesCorto } from '@/utils/formato';
 import type { Contexto } from './TarjetaRec';
 import { FichaAnuncio, FichaPlan, type DatosAnuncio, type DatosPlan } from './Fichas';
+import { FichaCampana, type DatosCampana } from './FichaCampana';
 
 function valorEvidencia(v: unknown): string {
   if (typeof v === 'number') return v.toLocaleString('es-AR');
@@ -17,7 +18,22 @@ function valorEvidencia(v: unknown): string {
   return JSON.stringify(v);
 }
 
-const TIPO_FICHA: Record<string, string> = { anuncio: 'Anuncio', plan: 'Plan' };
+/** Nombre completo de la campaña (como figura en Google Ads), o la lista si la tarjeta abarca varias. */
+function campanaDe(rec: Recomendacion, ctx: Contexto): string {
+  const varias = Array.isArray(rec.evidencia.campanas) ? (rec.evidencia.campanas as string[]) : [];
+  if (varias.length) return varias.join(' · ');
+  return ctx.campana ?? (typeof rec.evidencia.campana === 'string' ? rec.evidencia.campana : '—');
+}
+
+function grupoDe(rec: Recomendacion, ctx: Contexto): string {
+  // todos los grupos que toca la tarjeta: los de sus anuncios, keywords y negativas de grupo
+  const lista = (k: string) => (Array.isArray(rec.evidencia[k]) ? (rec.evidencia[k] as { grupo?: string }[]) : []);
+  const grupos = [...new Set([...lista('anuncios'), ...lista('keywords'), ...lista('negativas')].map((x) => x.grupo).filter((g): g is string => !!g))];
+  if (grupos.length) return grupos.join(' · ');
+  return ctx.grupo ?? 'toda la campaña';
+}
+
+const TIPO_FICHA: Record<string, string> = { anuncio: 'Anuncio', plan: 'Plan', campana: 'Campaña' };
 
 export default function DetalleRec({
   rec,
@@ -58,7 +74,7 @@ export default function DetalleRec({
   return createPortal(
     <div className="fixed inset-0 z-40 flex justify-end bg-mc-fuerte/30" onClick={onCerrar}>
       <aside
-        className={`h-full w-full overflow-y-auto bg-mc-sup shadow-elevada animate-fade-in ${ficha === 'anuncio' ? 'max-w-5xl' : ficha === 'plan' ? 'max-w-3xl' : 'max-w-lg'}`}
+        className={`h-full w-full overflow-y-auto bg-mc-sup shadow-elevada animate-fade-in ${ficha === 'anuncio' || ficha === 'campana' ? 'max-w-5xl' : ficha === 'plan' ? 'max-w-3xl' : 'max-w-lg'}`}
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-modal="true"
@@ -84,9 +100,9 @@ export default function DetalleRec({
             {rec.tipo === 'SEM' ? (
               <>
                 <dt className="text-mc-grey">Campaña</dt>
-                <dd className="text-mc-navy">{ctx.campana ? campanaCorta(ctx.campana) : '—'}</dd>
+                <dd className="text-mc-navy">{campanaDe(rec, ctx)}</dd>
                 <dt className="text-mc-grey">Grupo</dt>
-                <dd className="text-mc-navy">{ctx.grupo ?? 'toda la campaña'}</dd>
+                <dd className="text-mc-navy">{grupoDe(rec, ctx)}</dd>
               </>
             ) : (
               <>
@@ -103,6 +119,16 @@ export default function DetalleRec({
               {mesCorto(rec.mesAlta)}
               {rec.origen ? ` · ${rec.origen}` : ''}
             </dd>
+            {Array.isArray(rec.evidencia.revisiones) && rec.evidencia.revisiones.length > 0 && (
+              <>
+                <dt className="text-mc-grey">Revisada</dt>
+                <dd className="text-mc-navy">
+                  {(rec.evidencia.revisiones as { mes: string; accion?: string; datos_hasta?: string }[])
+                    .map((v) => `${mesCorto(v.mes)}${v.accion ? ` · ${v.accion}` : ''}${v.datos_hasta ? ` (datos al ${v.datos_hasta})` : ''}`)
+                    .join(' · ')}
+                </dd>
+              </>
+            )}
             {rec.mesCierre && (
               <>
                 <dt className="text-mc-grey">Cerrada en</dt>
@@ -117,7 +143,9 @@ export default function DetalleRec({
             )}
           </dl>
 
-          {ficha === 'anuncio' ? (
+          {ficha === 'campana' ? (
+            <FichaCampana d={rec.evidencia as unknown as DatosCampana} />
+          ) : ficha === 'anuncio' ? (
             <FichaAnuncio d={rec.evidencia as unknown as DatosAnuncio} />
           ) : ficha === 'plan' ? (
             <FichaPlan d={rec.evidencia as unknown as DatosPlan} conCampana={!!rec.campanaId} />

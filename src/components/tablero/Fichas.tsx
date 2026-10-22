@@ -54,11 +54,11 @@ export interface DatosPlan {
   organico_desde?: string | null;
 }
 
-function Rotulo({ children }: { children: ReactNode }) {
+export function Rotulo({ children }: { children: ReactNode }) {
   return <h4 className="mb-1.5 text-[10px] font-bold uppercase tracking-[0.16em] text-mc-grey">{children}</h4>;
 }
 
-function Ayuda({ children }: { children: ReactNode }) {
+export function Ayuda({ children }: { children: ReactNode }) {
   return (
     <div className="mt-2 flex gap-2 rounded-lg bg-sky-50 px-3 py-2 text-[11.5px] leading-relaxed text-mc-ink ring-1 ring-sky-100">
       <Info size={14} className="mt-0.5 shrink-0 text-mc-blue" />
@@ -83,7 +83,7 @@ const RELACION: Record<string, { clase: string; texto: string }> = {
   },
 };
 
-function ChipRelacion({ relacion }: { relacion: string }) {
+export function ChipRelacion({ relacion }: { relacion: string }) {
   const r = RELACION[relacion] ?? {
     clase: 'bg-mc-tint2 text-mc-grey ring-mc-hair',
     texto: relacion,
@@ -122,7 +122,7 @@ function ListaConLargo({ items, limite }: { items: string[]; limite: number }) {
 }
 
 /** Búsquedas orgánicas del tema, con la explicación de impresiones y posición. */
-function BloqueOrganico({ organico, desde, hasta }: { organico?: OrganicoFicha[]; desde?: string; hasta?: string }) {
+export function BloqueOrganico({ organico, desde, hasta }: { organico?: OrganicoFicha[]; desde?: string; hasta?: string }) {
   return (
     <section>
       <Rotulo>Cómo lo buscan en orgánico</Rotulo>

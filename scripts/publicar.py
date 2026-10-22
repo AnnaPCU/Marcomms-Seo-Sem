@@ -204,7 +204,9 @@ def sql_carga():
                        f"from {lote(filas[i:i + 15], 'clave text, marca text, tipo text, campana text, grupo text, sitio text, pagina text, titulo text, detalle text, evidencia jsonb, prioridad text, estado text, mes_alta text, origen text')}\n"
                        f"left join {ESQ}.campanas c on c.cuenta = 'actual' and c.nombre = x.campana left join {ESQ}.grupos g on g.campana_id = c.id and g.nombre = x.grupo\n"
                        f"on conflict (clave) do update set campana_id = excluded.campana_id, grupo_id = excluded.grupo_id, sitio = excluded.sitio, pagina = excluded.pagina, "
-                       f"titulo = excluded.titulo, detalle = excluded.detalle, evidencia = excluded.evidencia, prioridad = excluded.prioridad, origen = excluded.origen;")
+                       f"titulo = excluded.titulo, detalle = excluded.detalle, evidencia = excluded.evidencia, prioridad = excluded.prioridad, origen = excluded.origen\n"
+                       # las tarjetas reescritas a mano en formato «campaña» (una por campaña, con dónde y por qué) no se pisan con el informe viejo
+                       f"where {ESQ}.recomendaciones.evidencia->>'ficha' is distinct from 'campana';")
     if SOLO in (None, "metricas") and METRICAS:
         out.append(f"-- métricas ({len(METRICAS)} campañas) · {G['ventana']}")
         out.append(f"insert into {ESQ}.metricas_mes (campana_id, mes, desde, hasta, dias, coste, clics, impresiones, conversiones)\n"

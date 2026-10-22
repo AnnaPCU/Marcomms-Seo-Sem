@@ -34,6 +34,16 @@ const MAX_CELDA = 32_000;
 export const CAMPOS_EVIDENCIA: [string, string][] = [
   ['ficha', 'Tipo de ficha'],
   ['unidad', 'Unidad (país)'],
+  ['campana', 'Campaña (nombre completo)'],
+  ['campanas', 'Campañas que abarca'],
+  ['resumen', 'Resumen'],
+  ['por_que', 'Por qué'],
+  ['ya_hecho', 'Lo que ya está hecho'],
+  ['pasos', 'Qué hacer, en orden'],
+  ['keywords', 'Keywords recomendadas'],
+  ['negativas', 'Negativas recomendadas'],
+  ['negativas_decision', 'Decisión sobre negativas'],
+  ['anuncios', 'Anuncios (grupo, id, motivo, títulos y descripciones propuestos)'],
   ['estado_en_plan', 'Estado en el plan'],
   ['pain', 'Problema'],
   ['pain_txt', 'Problema · detalle'],
@@ -54,6 +64,9 @@ export const CAMPOS_EVIDENCIA: [string, string][] = [
   ['organico_desde', 'Orgánico medido desde'],
   ['organico_hasta', 'Orgánico hasta'],
   ['nota', 'Nota'],
+  ['datos_hasta', 'Datos al'],
+  ['revisiones', 'Revisiones'],
+  ['unifica', 'Tarjetas que unifica'],
 ];
 // ya van en sus propias columnas
 const OMITIR = new Set(['acciones']);
@@ -129,7 +142,7 @@ export function hojaTareas(recs: Recomendacion[], ctx: ContextoExport): Hoja {
   return {
     nombre: 'Tareas',
     encabezado: [...base.map((c) => c[0]), ...ev.map(([, l]) => l), 'Evidencia completa (JSON)'],
-    anchos: [...base.map((c) => c[1]), ...ev.map(([k]) => (['terminos', 'organico', 'titulos_propuestos', 'descripciones_propuestas', 'diagnostico', 'pain_txt', 'mejora_txt'].includes(k) ? 50 : 22)), 60],
+    anchos: [...base.map((c) => c[1]), ...ev.map(([k]) => (['terminos', 'organico', 'titulos_propuestos', 'descripciones_propuestas', 'diagnostico', 'pain_txt', 'mejora_txt', 'por_que', 'ya_hecho', 'pasos', 'keywords', 'negativas', 'anuncios'].includes(k) ? 50 : 22)), 60],
     filas: lista.map((r) => [...base.map((c) => c[2](r)), ...ev.map(([k]) => aCelda(r.evidencia[k])), recortar(JSON.stringify(r.evidencia))]),
   };
 }

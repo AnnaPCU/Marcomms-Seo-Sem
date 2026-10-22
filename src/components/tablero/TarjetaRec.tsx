@@ -12,9 +12,19 @@ export interface Contexto {
   grupo: string | null;
 }
 
+/** Dónde se hace la mejora: campaña › grupo; si abarca varias campañas, las nombra. */
+export function ubicacionSem(rec: Recomendacion, ctx: Contexto): string {
+  const ev = rec.evidencia;
+  const varias = Array.isArray(ev.campanas) ? (ev.campanas as string[]) : [];
+  if (varias.length > 1) return varias.map(campanaCorta).join(' · ');
+  const grupos = Array.isArray(ev.anuncios) ? [...new Set((ev.anuncios as { grupo: string }[]).map((a) => a.grupo))] : [];
+  const campana = ctx.campana ?? (typeof ev.campana === 'string' ? ev.campana : varias[0] ?? null);
+  return [campana ? campanaCorta(campana) : null, grupos.length > 1 ? `${grupos.length} grupos` : (grupos[0] ?? ctx.grupo)].filter(Boolean).join(' › ');
+}
+
 export function CuerpoTarjeta({ rec, ctx, arrastrando }: { rec: Recomendacion; ctx: Contexto; arrastrando?: boolean }) {
   const acciones = accionesDe(rec.evidencia);
-  const ubicacion = rec.tipo === 'SEM' ? [ctx.campana ? campanaCorta(ctx.campana) : null, ctx.grupo].filter(Boolean).join(' › ') : [rec.sitio, rec.pagina].filter(Boolean).join(' ');
+  const ubicacion = rec.tipo === 'SEM' ? ubicacionSem(rec, ctx) : [rec.sitio, rec.pagina].filter(Boolean).join(' ');
   return (
     <div className={`rounded-card border border-l-4 bg-mc-sup px-3 py-2.5 shadow-card transition ${arrastrando ? 'rotate-1 border-mc-blue shadow-elevada' : 'border-mc-hair/80 hover:-translate-y-0.5 hover:shadow-elevada'} ${PRIORIDAD_BY_ID[rec.prioridad]?.borde ?? ''}`}>
       <div className="mb-1.5 flex items-center gap-1.5">
