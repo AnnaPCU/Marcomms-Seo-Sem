@@ -1,5 +1,5 @@
 /** Ícono de cada tipo de mejora (ver ACCIONES en constants/estados). */
-import { Ban, CircleHelp, FileText, KeyRound, Megaphone, Network, PauseCircle, type LucideIcon } from 'lucide-react';
+import { Ban, CircleHelp, FileText, KeyRound, Megaphone, Network, PauseCircle, PenLine, Route, type LucideIcon } from 'lucide-react';
 
 const ICONOS: Record<string, LucideIcon> = {
   anuncio: Megaphone,
@@ -9,6 +9,8 @@ const ICONOS: Record<string, LucideIcon> = {
   pausa: PauseCircle,
   landing: FileText,
   revisar: CircleHelp,
+  contenido: PenLine,
+  tecnico: Route,
 };
 
 export default function IconoAccion({ id, size = 12, className }: { id: string; size?: number; className?: string }) {

@@ -36,6 +36,8 @@ export const CAMPOS_EVIDENCIA: [string, string][] = [
   ['unidad', 'Unidad (país)'],
   ['campana', 'Campaña (nombre completo)'],
   ['campanas', 'Campañas que abarca'],
+  ['sitio', 'Sitio'],
+  ['paginas', 'Páginas'],
   ['resumen', 'Resumen'],
   ['por_que', 'Por qué'],
   ['ya_hecho', 'Lo que ya está hecho'],

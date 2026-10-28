@@ -33,7 +33,7 @@ function grupoDe(rec: Recomendacion, ctx: Contexto): string {
   return ctx.grupo ?? 'toda la campaña';
 }
 
-const TIPO_FICHA: Record<string, string> = { anuncio: 'Anuncio', plan: 'Plan', campana: 'Campaña' };
+const TIPO_FICHA: Record<string, string> = { anuncio: 'Anuncio', plan: 'Plan', campana: 'Campaña', seo: 'SEO' };
 
 export default function DetalleRec({
   rec,
@@ -74,7 +74,7 @@ export default function DetalleRec({
   return createPortal(
     <div className="fixed inset-0 z-40 flex justify-end bg-mc-fuerte/30" onClick={onCerrar}>
       <aside
-        className={`h-full w-full overflow-y-auto bg-mc-sup shadow-elevada animate-fade-in ${ficha === 'anuncio' || ficha === 'campana' ? 'max-w-5xl' : ficha === 'plan' ? 'max-w-3xl' : 'max-w-lg'}`}
+        className={`h-full w-full overflow-y-auto bg-mc-sup shadow-elevada animate-fade-in ${ficha === 'anuncio' || ficha === 'campana' || ficha === 'seo' ? 'max-w-5xl' : ficha === 'plan' ? 'max-w-3xl' : 'max-w-lg'}`}
         onClick={(e) => e.stopPropagation()}
         role="dialog"
         aria-modal="true"
@@ -143,7 +143,7 @@ export default function DetalleRec({
             )}
           </dl>
 
-          {ficha === 'campana' ? (
+          {ficha === 'campana' || ficha === 'seo' ? (
             <FichaCampana d={rec.evidencia as unknown as DatosCampana} />
           ) : ficha === 'anuncio' ? (
             <FichaAnuncio d={rec.evidencia as unknown as DatosAnuncio} />

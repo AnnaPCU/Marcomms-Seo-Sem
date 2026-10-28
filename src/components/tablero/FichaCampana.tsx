@@ -4,8 +4,8 @@
  * con su motivo, y para cada anuncio los títulos y descripciones propuestos con su motivo, con las prioritarias
  * destacadas. Los datos vienen en `evidencia` (ficha: 'campana').
  */
-import type { ReactNode } from 'react';
-import { CheckCircle2, MapPin, Star } from 'lucide-react';
+import { useState, type ReactNode } from 'react';
+import { Check, CheckCircle2, Copy, MapPin, Star } from 'lucide-react';
 import { ACCION_BY_ID } from '@/constants/estados';
 import { ars, entero } from '@/utils/formato';
 import IconoAccion from './IconoAccion';
@@ -56,18 +56,37 @@ export interface NegativaPropuesta {
   grupo?: string;
   motivo?: string;
 }
+/** Una cosa concreta para cargar o cambiar: una negativa, una keyword, un título, una redirección… */
+export interface ItemPaso {
+  accion: string; // 'agregar' | 'pausar' | 'quitar' | 'reemplazar' | 'cambiar' | 'crear' | 'decidir' | 'redirigir' | 'editar'
+  tipo: string; // 'negativa' | 'keyword' | 'titulo' | 'descripcion' | 'grupo' | 'url' | 'title' | 'meta' | 'h1' | 'texto'
+  texto: string;
+  concordancia?: string; // 'exacta' | 'frase' | 'amplia' (negativas y keywords)
+  destino: string; // 'Toda la campaña', 'Grupo «X»', 'Anuncio id N', una URL…
+  reemplaza?: string;
+  prioritario?: boolean;
+  opcional?: boolean;
+  motivo?: string;
+}
 export interface Paso {
   accion: string; // id de ACCIONES
   titulo: string;
   donde?: string;
   detalle?: string;
+  items?: ItemPaso[];
   hecho?: boolean;
 }
+export interface PaginaSeo {
+  url: string;
+  nota?: string;
+}
 export interface DatosCampana {
-  ficha: 'campana';
+  ficha: 'campana' | 'seo';
   unidad?: string;
   campana?: string;
   campanas?: string[];
+  sitio?: string;
+  paginas?: PaginaSeo[];
   resumen?: string;
   por_que?: string;
   ya_hecho?: string;
@@ -82,7 +101,107 @@ export interface DatosCampana {
   datos_hasta?: string;
 }
 
+/** Cómo se escribe en Google Ads: [exacta], "frase", amplia. */
+export function notacion(texto: string, concordancia?: string): string {
+  return concordancia === 'exacta' ? `[${texto}]` : concordancia === 'frase' ? `"${texto}"` : texto;
+}
+
+const VERBO: Record<string, string> = {
+  agregar: 'Agregar',
+  pausar: 'Pausar',
+  quitar: 'Quitar',
+  reemplazar: 'Reemplazar',
+  cambiar: 'Cambiar',
+  crear: 'Crear',
+  decidir: 'Decidir',
+  redirigir: 'Redirigir',
+  editar: 'Editar',
+};
+const TIPO_ITEM: Record<string, string> = {
+  negativa: 'negativa',
+  keyword: 'keyword',
+  titulo: 'título',
+  descripcion: 'descripción',
+  grupo: 'grupo',
+  url: 'URL',
+  title: 'title',
+  meta: 'meta description',
+  h1: 'H1',
+  texto: '',
+};
+/** Dónde se hace cada tipo de paso. */
+const COMO: Record<string, string> = {
+  negativas:
+    'En Google Ads: la campaña › Palabras clave › Palabras clave negativas › +. Elegí «campaña» o «grupo de anuncios» según el destino de cada bloque y pegá las líneas tal cual (los corchetes y comillas marcan la concordancia).',
+  keywords: 'En Google Ads: la campaña › el grupo › Palabras clave › +. Pegá las líneas tal cual: [exacta], "frase", amplia sin signos.',
+  pausa: 'En Google Ads: la campaña › el grupo › Palabras clave › tildá la keyword › Editar › Pausar.',
+  anuncio: 'En Google Ads: la campaña › el grupo › Anuncios › el anuncio con ese id › Editar. Cambiar los recursos uno por uno.',
+  estructura: 'En Google Ads: la campaña › Grupos de anuncios › + › nombre del grupo, URL final, keywords y anuncio de este paso.',
+};
+
 const prop = (p: Propuesta | string): Propuesta => (typeof p === 'string' ? { texto: p } : p);
+
+function Copiar({ texto }: { texto: string }) {
+  const [ok, setOk] = useState(false);
+  return (
+    <button
+      type="button"
+      onClick={() => {
+        void navigator.clipboard?.writeText(texto).then(() => {
+          setOk(true);
+          window.setTimeout(() => setOk(false), 1500);
+        });
+      }}
+      className="inline-flex items-center gap-1 rounded-md px-1.5 py-0.5 text-[11px] font-semibold text-mc-blue hover:bg-mc-tint"
+    >
+      {ok ? <Check size={12} /> : <Copy size={12} />}
+      {ok ? 'Copiado' : 'Copiar'}
+    </button>
+  );
+}
+
+/** La lista exacta de lo que hay que cargar en un paso, agrupada por destino. */
+function ItemsPaso({ items }: { items: ItemPaso[] }) {
+  const destinos = [...new Set(items.map((i) => i.destino))];
+  return (
+    <div className="mt-2 space-y-2">
+      {destinos.map((dest) => {
+        const lista = items.filter((i) => i.destino === dest);
+        const pegables = lista.filter((i) => (i.tipo === 'negativa' || i.tipo === 'keyword') && i.accion === 'agregar');
+        return (
+          <div key={dest} className="rounded-lg bg-mc-tint px-3 py-2">
+            <div className="mb-1 flex items-center justify-between gap-2">
+              <span className="text-[11.5px] font-semibold text-mc-navy">{dest}</span>
+              {pegables.length > 1 && <Copiar texto={pegables.map((i) => notacion(i.texto, i.concordancia)).join('\n')} />}
+            </div>
+            <ul className="space-y-1">
+              {lista.map((i, k) => (
+                <li key={k} className={`text-[13px] leading-snug ${i.opcional ? 'opacity-75' : ''}`}>
+                  <span className="mr-1.5 inline-block min-w-[74px] text-[11px] font-semibold uppercase tracking-[0.06em] text-mc-grey">
+                    {VERBO[i.accion] ?? i.accion}
+                    {TIPO_ITEM[i.tipo] ? ` ${TIPO_ITEM[i.tipo]}` : ''}
+                  </span>
+                  {i.prioritario && <Star size={11} className="mr-1 inline -translate-y-px fill-mc-gold text-mc-gold" />}
+                  {i.reemplaza && (
+                    <>
+                      <span className="text-red-800 line-through decoration-red-300">{i.reemplaza}</span>
+                      <span className="mx-1 text-mc-grey">→</span>
+                    </>
+                  )}
+                  <span className={`font-mono text-[12.5px] ${i.tipo === 'negativa' ? 'text-red-700' : 'text-mc-navy'} ${i.prioritario ? 'font-bold' : ''}`}>
+                    {i.tipo === 'negativa' || i.tipo === 'keyword' ? notacion(i.texto, i.concordancia) : i.texto}
+                  </span>
+                  {i.opcional && <span className="ml-1.5 text-[11px] text-mc-grey">(opcional)</span>}
+                  {i.motivo && <span className="ml-2 text-[12px] text-mc-ink">{i.motivo}</span>}
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      })}
+    </div>
+  );
+}
 const qt = (q: Quitar | string): Quitar => (typeof q === 'string' ? { texto: q } : q);
 
 function Caja({ titulo, children, tono = 'neutro' }: { titulo: ReactNode; children: ReactNode; tono?: 'neutro' | 'rojo' | 'verde' }) {
@@ -236,8 +355,30 @@ export function FichaCampana({ d }: { d: DatosCampana }) {
           Dónde
         </Rotulo>
         <dl className="grid grid-cols-[90px_1fr] gap-x-3 gap-y-1 text-[13px]">
-          <dt className="text-mc-grey">{campanas.length > 1 ? 'Campañas' : 'Campaña'}</dt>
-          <dd className="font-semibold text-mc-navy">{campanas.length ? campanas.join(' · ') : '—'}</dd>
+          {d.ficha === 'seo' ? (
+            <>
+              <dt className="text-mc-grey">Sitio</dt>
+              <dd className="font-semibold text-mc-navy">{d.sitio ?? '—'}</dd>
+              {!!d.paginas?.length && (
+                <>
+                  <dt className="text-mc-grey">{d.paginas.length > 1 ? 'Páginas' : 'Página'}</dt>
+                  <dd className="space-y-0.5 text-mc-navy">
+                    {d.paginas.map((p) => (
+                      <div key={p.url}>
+                        <span className="break-all font-mono text-[12px]">{p.url}</span>
+                        {p.nota && <span className="ml-2 text-[12px] text-mc-grey">{p.nota}</span>}
+                      </div>
+                    ))}
+                  </dd>
+                </>
+              )}
+            </>
+          ) : (
+            <>
+              <dt className="text-mc-grey">{campanas.length > 1 ? 'Campañas' : 'Campaña'}</dt>
+              <dd className="font-semibold text-mc-navy">{campanas.length ? campanas.join(' · ') : '—'}</dd>
+            </>
+          )}
           {grupos.length > 0 && (
             <>
               <dt className="text-mc-grey">{grupos.length > 1 ? 'Grupos' : 'Grupo'}</dt>
@@ -293,6 +434,8 @@ export function FichaCampana({ d }: { d: DatosCampana }) {
                   </div>
                   {p.donde && <div className="text-[12px] text-mc-grey">{p.donde}</div>}
                   {p.detalle && <p className="mt-0.5 whitespace-pre-line text-[13px] leading-relaxed text-mc-ink">{p.detalle}</p>}
+                  {!!p.items?.length && <ItemsPaso items={p.items} />}
+                  {!!p.items?.length && COMO[p.accion] && <p className="mt-1.5 text-[11.5px] leading-snug text-mc-grey">{COMO[p.accion]}</p>}
                 </div>
               </li>
             ))}
@@ -317,7 +460,7 @@ export function FichaCampana({ d }: { d: DatosCampana }) {
               <tbody>
                 {d.keywords.map((k) => (
                   <tr key={`${k.texto}|${k.grupo}|${k.accion}`} className="border-t border-mc-tint2 align-top">
-                    <td className="py-1.5 pr-2 font-mono text-[12.5px] text-mc-navy">{k.concordancia === 'exacta' ? `[${k.texto}]` : k.concordancia === 'frase' ? `"${k.texto}"` : k.texto}</td>
+                    <td className="py-1.5 pr-2 font-mono text-[12.5px] text-mc-navy">{notacion(k.texto, k.concordancia)}</td>
                     <td className="py-1.5 pr-2 text-mc-ink">{k.concordancia}</td>
                     <td className="py-1.5 pr-2 text-mc-ink">{k.grupo ?? '—'}</td>
                     <td className="py-1.5 pr-2 font-semibold text-mc-navy">{k.accion ?? 'agregar'}</td>
@@ -348,7 +491,7 @@ export function FichaCampana({ d }: { d: DatosCampana }) {
                 <tbody>
                   {d.negativas.map((n) => (
                     <tr key={`${n.texto}|${n.nivel}|${n.grupo}`} className="border-t border-mc-tint2 align-top">
-                      <td className="py-1.5 pr-2 font-mono text-[12.5px] text-red-700">−{n.concordancia === 'exacta' ? `[${n.texto}]` : n.concordancia === 'frase' ? `"${n.texto}"` : n.texto}</td>
+                      <td className="py-1.5 pr-2 font-mono text-[12.5px] text-red-700">−{notacion(n.texto, n.concordancia)}</td>
                       <td className="py-1.5 pr-2 text-mc-ink">{n.concordancia}</td>
                       <td className="py-1.5 pr-2 text-mc-ink">{n.nivel === 'grupo' ? `grupo «${n.grupo}»` : 'toda la campaña'}</td>
                       <td className="py-1.5 text-mc-ink">{n.motivo}</td>

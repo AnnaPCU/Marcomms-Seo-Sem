@@ -43,6 +43,8 @@ export const ACCIONES: { id: string; label: string; corto: string }[] = [
   { id: 'estructura', label: 'Grupos y campañas', corto: 'Estructura' },
   { id: 'pausa', label: 'Pausar o presupuesto', corto: 'Pausa / CPC' },
   { id: 'landing', label: 'Landing y páginas', corto: 'Landing' },
+  { id: 'contenido', label: 'Contenido y metadatos (SEO)', corto: 'Contenido' },
+  { id: 'tecnico', label: 'Redirecciones e indexación (SEO)', corto: 'Técnico' },
   { id: 'revisar', label: 'Revisar o decidir', corto: 'Revisar' },
 ];
 export const ACCION_BY_ID = Object.fromEntries(ACCIONES.map((a) => [a.id, a])) as Record<string, (typeof ACCIONES)[number]>;
