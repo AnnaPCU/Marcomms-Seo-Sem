@@ -79,7 +79,7 @@ export default function DetalleRec({
         role="dialog"
         aria-modal="true"
       >
-        <div className="sticky top-0 flex items-start justify-between gap-3 border-b border-mc-hair bg-mc-sup px-5 py-4">
+        <div className="sticky top-0 z-10 flex items-start justify-between gap-3 border-b border-mc-hair bg-mc-sup px-5 py-4">
           <div>
             <div className="mb-1.5 flex items-center gap-1.5">
               <ChipMarca marca={rec.marca} />
