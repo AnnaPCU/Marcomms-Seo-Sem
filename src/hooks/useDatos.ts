@@ -9,6 +9,7 @@ import { listarCampanas, listarGrupos, type Campana, type Grupo } from '@/servic
 import { ultimasExtracciones, type Extraccion } from '@/services/extracciones';
 import { listarGa4, type Ga4SitioMes } from '@/services/ga4';
 import { listarMetricas, listarMetricasDia, listarMetricasGrupo, type MetricaDia, type MetricaGrupoMes, type MetricaMes } from '@/services/metricas';
+import { mensajeError } from '@/utils/errores';
 
 interface Estado<T> {
   datos: T;
@@ -37,7 +38,7 @@ function useCarga<T>(inicial: T, cargar: () => Promise<T>): Estado<T> {
         }
       })
       .catch((e: unknown) => {
-        if (vivo) setError(e instanceof Error ? e.message : String(e));
+        if (vivo) setError(mensajeError(e));
       })
       .finally(() => {
         if (vivo) setCargando(false);

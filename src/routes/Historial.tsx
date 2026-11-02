@@ -6,6 +6,7 @@ import { listarEventos, type Evento } from '@/services/recomendaciones';
 import { useRecomendaciones } from '@/hooks/useDatos';
 import { Cargando, ChipMarca, ErrorBox, SeccionTitulo, Tarjeta, Vacio } from '@/components/shared/Ui';
 import { fechaHora } from '@/utils/formato';
+import { mensajeError } from '@/utils/errores';
 
 export default function Historial() {
   const recs = useRecomendaciones();
@@ -16,7 +17,7 @@ export default function Historial() {
     let vivo = true;
     listarEventos(undefined, 300)
       .then((e) => vivo && setEventos(e))
-      .catch((e: unknown) => vivo && setError(e instanceof Error ? e.message : String(e)));
+      .catch((e: unknown) => vivo && setError(mensajeError(e)));
     return () => {
       vivo = false;
     };

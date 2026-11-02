@@ -13,6 +13,7 @@ import { cambiarEstado, type Recomendacion } from '@/services/recomendaciones';
 import TarjetaRec, { CuerpoTarjeta, type Contexto } from './TarjetaRec';
 import DetalleRec from './DetalleRec';
 import MotivoDescarte from './MotivoDescarte';
+import { mensajeError } from '@/utils/errores';
 
 interface Props {
   recomendaciones: Recomendacion[];
@@ -72,7 +73,7 @@ export default function Tablero({ recomendaciones, contexto, aplicarLocal }: Pro
       setError(null);
     } catch (e) {
       aplicarLocal((prev) => prev.map((r) => (r.id === rec.id ? { ...r, estado: antes } : r)));
-      setError(e instanceof Error ? e.message : String(e));
+      setError(mensajeError(e));
     }
   }
 

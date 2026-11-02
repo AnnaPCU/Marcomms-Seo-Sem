@@ -7,6 +7,7 @@ import { useState } from 'react';
 import { FileSpreadsheet, Loader2 } from 'lucide-react';
 import { listarEventosDe, type Recomendacion } from '@/services/recomendaciones';
 import { hojaHistorial, hojaLeeme, hojaTareas, nombreArchivo, type ContextoExport, type Hoja } from '@/utils/exportar';
+import { mensajeError } from '@/utils/errores';
 
 const ENCABEZADO = { fontWeight: 'bold' as const, textColor: '#FFFFFF', backgroundColor: '#1B1E42', alignVertical: 'center' as const, wrap: true };
 
@@ -45,7 +46,7 @@ export default function BotonExportar({
       const { default: writeXlsxFile } = await import('write-excel-file/browser');
       await writeXlsxFile(hojas.map(aHoja), { fontFamily: 'Calibri', fontSize: 11 }).toFile(nombreArchivo(tipo, partesNombre));
     } catch (e) {
-      setError(e instanceof Error ? e.message : String(e));
+      setError(mensajeError(e));
     } finally {
       setOcupado(false);
     }
