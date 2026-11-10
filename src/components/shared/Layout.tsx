@@ -4,7 +4,7 @@
  */
 import { useEffect } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
-import { BarChart3, History, LogOut, Megaphone, Moon, Search, Sun, Wallet, CircleCheck } from 'lucide-react';
+import { BarChart3, History, TrendingUp, LogOut, Megaphone, Moon, Search, Sun, Wallet, CircleCheck } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
 import { useExtracciones } from '@/hooks/useDatos';
 import { useTema } from '@/hooks/useTema';
@@ -17,6 +17,7 @@ const NAV = [
   { to: '/sem', label: 'SEM · campañas', sub: 'Mejoras por campaña y grupo de anuncios', icono: Megaphone, fin: false },
   { to: '/seo', label: 'SEO · sitios', sub: 'Mejoras por sitio y página', icono: Search, fin: false },
   { to: '/sitios', label: 'Sitios · GA4', sub: 'Visitas, canales y contactos de cada sitio', icono: BarChart3, fin: false },
+  { to: '/impacto', label: 'Impacto', sub: 'Qué se implementó y qué resultado dio', icono: TrendingUp, fin: false },
   { to: '/historial', label: 'Historial', sub: 'Movimientos del tablero', icono: History, fin: false },
 ];
 

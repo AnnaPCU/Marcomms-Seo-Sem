@@ -5,6 +5,7 @@ publicar.py — carga en Supabase (esquema seo_sem) lo que produce el proyecto d
   2. recomendaciones        ← informe/recomendaciones.json (lo genera scripts/exportar_recomendaciones.py)
   3. métricas por campaña   ← informe/datos_gasto_actual.json (mes en curso, del 1 al último día extraído; lo genera analisis_gasto.py)
      métricas por día        ← informe/datos_gasto_diario.json (gasto de cada campaña por día; lo genera ads_diario.py)
+     cambios de Ads          ← informe/datos_cambios_ads.json (historial change_event de 30 días; lo genera ads_cambios.py)
      sitios (GA4)            ← informe/datos_ga4.json (métricas limpias por sitio y mes; lo genera ga4_export.py)
      histórico de Ads        ← informe/datos_ads_historico.json (campañas y grupos por mes de la cuenta actual y la anterior,
                                en pesos; lo genera ads_historico.py). Suma al catálogo las campañas y grupos que ya no existen.
@@ -16,11 +17,11 @@ nunca el estado, el orden ni quién las movió. Las campañas y grupos se actual
 Dos modos:
   --sql salida.sql   genera un archivo SQL idempotente para correr en el SQL editor de Supabase (o por el
                      conector). No necesita ninguna clave. Es el modo recomendado.
-  (sin --sql)        carga por la API REST. Requiere SUPABASE_URL y SUPABASE_SERVICE_KEY en el entorno
-                     (service role key; nunca en el repo ni en Vercel).
+  (sin --sql)        carga por la API REST. Requiere SUPABASE_URL y SUPABASE_SERVICE_KEY en el entorno o en
+                     <proyecto>/supabase-service.json (service role key; nunca en el repo, en Vercel ni en el chat).
   PROYECTO_DIR       opcional; por defecto ../Optimizaciónes SEO-SEM/proyecto relativo a este repo.
 Uso: python scripts/publicar.py --sql supabase/seed/carga_2026-09.sql
-     python scripts/publicar.py [--solo campanas|recomendaciones|metricas|dia|ga4|historico|extracciones]
+     python scripts/publicar.py [--solo campanas|recomendaciones|metricas|dia|cambios|ga4|historico|extracciones]
 """
 import glob, json, os, re, sys
 from datetime import datetime, timezone
@@ -134,6 +135,10 @@ METRICAS_DIA = [dict(ads_id=f["ads_id"], fecha=f["fecha"], coste=f["coste"], cli
 
 # Google Analytics 4: una fila por sitio y mes
 ga4_path = os.path.join(PROY, "informe", "datos_ga4.json")
+cambios_path = os.path.join(PROY, "informe", "datos_cambios_ads.json")
+GC = json.load(open(cambios_path, encoding="utf-8")) if os.path.exists(cambios_path) else None
+CAMBIOS = [dict(evento_id=f["evento_id"], ads_id=f["ads_id"], fecha=f["fecha"], recurso=f["recurso"], operacion=f["operacion"], grupo=f.get("grupo"),
+                origen=f.get("origen"), campos=f.get("campos"), detalle=f.get("detalle") or {}, resumen=f["resumen"]) for f in (GC or {}).get("filas", [])]
 GA4 = json.load(open(ga4_path, encoding="utf-8")) if os.path.exists(ga4_path) else []
 
 # histórico de Ads por mes (dos cuentas, todo en pesos): se cruza por ads_id
@@ -247,6 +252,12 @@ def sql_carga():
             out.append(f"insert into {ESQ}.metricas_dia (campana_id, fecha, coste, clics, impresiones, conversiones)\n"
                        f"select c.id, x.fecha, x.coste, x.clics, x.impresiones, x.conversiones from {lote(METRICAS_DIA[i:i + 400], 'ads_id text, fecha date, coste numeric, clics integer, impresiones integer, conversiones numeric')} join {ESQ}.campanas c on c.ads_id = x.ads_id\n"
                        f"on conflict (campana_id, fecha) do update set coste = excluded.coste, clics = excluded.clics, impresiones = excluded.impresiones, conversiones = excluded.conversiones;")
+    if SOLO in (None, "cambios") and CAMBIOS:
+        out.append(f"-- cambios de Google Ads ({len(CAMBIOS)}) · {GC['desde']} a {GC['hasta']}")
+        for i in range(0, len(CAMBIOS), 200):
+            out.append(f"insert into {ESQ}.cambios_ads (evento_id, campana_id, fecha, recurso, operacion, grupo, origen, campos, detalle, resumen)\n"
+                       f"select x.evento_id, c.id, x.fecha, x.recurso, x.operacion, x.grupo, x.origen, x.campos, x.detalle, x.resumen from {lote(CAMBIOS[i:i + 200], 'evento_id text, ads_id text, fecha timestamp, recurso text, operacion text, grupo text, origen text, campos text, detalle jsonb, resumen text')} join {ESQ}.campanas c on c.ads_id = x.ads_id\n"
+                       f"on conflict (evento_id) do update set detalle = excluded.detalle, resumen = excluded.resumen;")
     if SOLO in (None, "ga4") and GA4:
         out.append(f"-- Google Analytics 4 ({len(GA4)} sitio-mes)")
         out.append(f"insert into {ESQ}.ga4_sitio_mes (sitio, marca, nombre, propiedad, mes, desde, hasta, dias, datos)\n"
@@ -283,7 +294,7 @@ def sql_carga():
 if SQL_OUT:
     os.makedirs(os.path.dirname(os.path.abspath(SQL_OUT)), exist_ok=True)
     open(SQL_OUT, "w", encoding="utf-8").write(sql_carga())
-    print(f"-> {SQL_OUT}: {len(CAMPANAS)} campañas, {len(GRUPOS)} grupos, {len(RECS)} recomendaciones, {len(METRICAS)} métricas, {len(METRICAS_DIA)} días-campaña, {len(GA4)} sitio-mes GA4, {len(HIST_MET)} campaña-mes de histórico, {len(EXTRACCIONES)} extracciones")
+    print(f"-> {SQL_OUT}: {len(CAMPANAS)} campañas, {len(GRUPOS)} grupos, {len(RECS)} recomendaciones, {len(METRICAS)} métricas, {len(METRICAS_DIA)} días-campaña, {len(CAMBIOS)} cambios de Ads, {len(GA4)} sitio-mes GA4, {len(HIST_MET)} campaña-mes de histórico, {len(EXTRACCIONES)} extracciones")
     sys.exit(0)
 
 
@@ -292,8 +303,15 @@ import requests  # noqa: E402
 
 URL = os.environ.get("SUPABASE_URL", "").rstrip("/")
 KEY = os.environ.get("SUPABASE_SERVICE_KEY", "")
+# Sin variables de entorno, la toma de <proyecto>/supabase-service.json ({"url": ..., "service_key": ...}), que vive solo en
+# la carpeta local del proyecto (como meta-ads.json): nunca en el repo, en Vercel ni en el chat. Así las tareas programadas
+# cargan directo por REST, sin pasar el SQL por el conector.
+_cfg = os.path.join(PROY, "supabase-service.json")
+if (not URL or not KEY) and os.path.exists(_cfg):
+    _c = json.load(open(_cfg, encoding="utf-8"))
+    URL, KEY = (URL or _c.get("url", "")).rstrip("/"), KEY or _c.get("service_key", "")
 if not URL or not KEY:
-    sys.exit("Faltan SUPABASE_URL y SUPABASE_SERVICE_KEY en el entorno (o usá --sql salida.sql).")
+    sys.exit("Faltan SUPABASE_URL y SUPABASE_SERVICE_KEY (en el entorno o en proyecto/supabase-service.json), o usá --sql salida.sql.")
 H = {"apikey": KEY, "Authorization": f"Bearer {KEY}", "Content-Type": "application/json", "Accept-Profile": ESQ, "Content-Profile": ESQ}
 
 
@@ -347,6 +365,12 @@ if SOLO in (None, "metricas", "dia") and METRICAS_DIA:
     upsert("metricas_dia", [dict(campana_id=POR_ADS[m["ads_id"]], fecha=m["fecha"], coste=m["coste"], clics=m["clics"], impresiones=m["impresiones"],
                                  conversiones=m["conversiones"]) for m in METRICAS_DIA if m["ads_id"] in POR_ADS], "campana_id,fecha")
     print(f"métricas por día: {len(METRICAS_DIA)} ({GD['desde']} a {GD['hasta']})")
+
+if SOLO in (None, "cambios") and CAMBIOS:
+    POR_ADS = {c["ads_id"]: c["id"] for c in api("GET", "campanas", params={"select": "id,ads_id"})}
+    filas_c = [dict({k: v for k, v in m.items() if k != "ads_id"}, campana_id=POR_ADS[m["ads_id"]]) for m in CAMBIOS if m["ads_id"] in POR_ADS]
+    upsert("cambios_ads", filas_c, "evento_id")
+    print(f"cambios de Ads: {len(filas_c)} ({GC['desde']} a {GC['hasta']})")
 
 if SOLO in (None, "ga4") and GA4:
     upsert("ga4_sitio_mes", GA4, "sitio,mes")

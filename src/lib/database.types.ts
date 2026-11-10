@@ -46,6 +46,12 @@ export type MetricaDiaRow = {
   id: string; campana_id: string; fecha: string; coste: number; clics: number; impresiones: number; conversiones: number; created_at: string; updated_at: string;
 }
 
+/** Historial de cambios de Google Ads (change_event), para la vista «Impacto». */
+export type CambioAdsRow = {
+  evento_id: string; campana_id: string; fecha: string; recurso: string; operacion: string; grupo: string | null; origen: string | null;
+  campos: string | null; detalle: Json; resumen: string; created_at: string;
+}
+
 export type Ga4SitioMesRow = {
   id: string; sitio: string; marca: Marca; nombre: string; propiedad: string; mes: string; desde: string; hasta: string; dias: number;
   datos: Json; created_at: string; updated_at: string;
@@ -65,6 +71,7 @@ export interface Database {
       metricas_grupo_mes: Tabla<MetricaGrupoMesRow>;
       metricas_dia: Tabla<MetricaDiaRow>;
       ga4_sitio_mes: Tabla<Ga4SitioMesRow>;
+      cambios_ads: Tabla<CambioAdsRow>;
     };
     Views: { [_ in never]: never };
     Functions: { [_ in never]: never };

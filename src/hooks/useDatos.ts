@@ -9,6 +9,7 @@ import { listarCampanas, listarGrupos, type Campana, type Grupo } from '@/servic
 import { ultimasExtracciones, type Extraccion } from '@/services/extracciones';
 import { listarGa4, type Ga4SitioMes } from '@/services/ga4';
 import { listarMetricas, listarMetricasDia, listarMetricasGrupo, type MetricaDia, type MetricaGrupoMes, type MetricaMes } from '@/services/metricas';
+import { listarCambiosAds, type CambioAds } from '@/services/cambios';
 import { mensajeError } from '@/utils/errores';
 
 interface Estado<T> {
@@ -61,6 +62,7 @@ const VACIO_MET: MetricaMes[] = [];
 const VACIO_MET_G: MetricaGrupoMes[] = [];
 const VACIO_MET_D: MetricaDia[] = [];
 const VACIO_GA4: Ga4SitioMes[] = [];
+const VACIO_CAMBIOS: CambioAds[] = [];
 const VACIO_EXT: Record<'search_console' | 'google_ads', Extraccion | null> = { search_console: null, google_ads: null };
 
 export function useRecomendaciones(tipo?: Tipo) {
@@ -122,13 +124,20 @@ export function useMetricasGrupo() {
 }
 
 /** Gasto por día de los últimos tres meses (alcanza para el mes en curso y los dos anteriores). */
-export function useMetricasDia() {
+/** Gasto por día desde el 1 de hace `mesesAtras` meses (2 por defecto: el mes en curso y los dos anteriores). */
+export function useMetricasDia(mesesAtras = 2) {
   const cargar = useCallback(() => {
     const d = new Date();
-    d.setMonth(d.getMonth() - 2, 1);
+    d.setMonth(d.getMonth() - mesesAtras, 1);
     return listarMetricasDia(`${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-01`);
-  }, []);
+  }, [mesesAtras]);
   return useCarga(VACIO_MET_D, cargar);
+}
+
+/** Historial de cambios de Google Ads (lo carga scripts/publicar.py --solo cambios). */
+export function useCambiosAds() {
+  const cargar = useCallback(() => listarCambiosAds(), []);
+  return useCarga(VACIO_CAMBIOS, cargar);
 }
 
 /** Visitas, canales y contactos de GA4 por sitio y mes. */
