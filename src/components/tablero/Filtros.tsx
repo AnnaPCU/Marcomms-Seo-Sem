@@ -1,13 +1,11 @@
 /** Barra de filtros del tablero. Los valores viven en la URL para poder compartir una vista. */
-import type { ReactNode } from 'react';
 import { useEffect } from 'react';
 import { useLocation, useSearchParams } from 'react-router-dom';
 import { guardar, leerGuardado } from '@/hooks/usePersistente';
-import { ACCIONES, MARCA_BY_ID, MARCAS, PRIORIDAD_BY_ID, PRIORIDADES, accionesDe } from '@/constants/estados';
+import { MARCAS, PRIORIDADES } from '@/constants/estados';
 import { Select } from '@/components/shared/Ui';
 import type { Recomendacion } from '@/services/recomendaciones';
 import { mesCorto } from '@/utils/formato';
-import IconoAccion from './IconoAccion';
 
 export interface FiltrosValores {
   marca: string;
@@ -17,7 +15,6 @@ export interface FiltrosValores {
   sitio: string;
   mes: string;
   prioridad: string;
-  accion: string;
   q: string;
 }
 
@@ -40,7 +37,6 @@ export function useFiltros(): [FiltrosValores, (k: keyof FiltrosValores, v: stri
     sitio: params.get('sitio') ?? '',
     mes: params.get('mes') ?? '',
     prioridad: params.get('prioridad') ?? '',
-    accion: params.get('accion') ?? '',
     q: params.get('q') ?? '',
   };
   const set = (k: keyof FiltrosValores, v: string) => {
@@ -73,58 +69,10 @@ export function aplicarFiltros(lista: Recomendacion[], f: FiltrosValores, paisDe
       (!f.sitio || r.sitio === f.sitio) &&
       (!f.mes || r.mesAlta === f.mes) &&
       (!f.prioridad || r.prioridad === f.prioridad) &&
-      (!f.accion || accionesDe(r.evidencia).includes(f.accion)) &&
       (!q || r.titulo.toLowerCase().includes(q) || r.detalle.toLowerCase().includes(q)),
   );
 }
 
-/** Filtros activos en palabras, para la hoja «Léeme» del Excel. */
-export function filtrosActivos(
-  f: FiltrosValores,
-  nombre: { campana?: (id: string) => string | undefined; grupo?: (id: string) => string | undefined } = {},
-): { etiqueta: string; valor: string }[] {
-  const out: { etiqueta: string; valor: string }[] = [];
-  if (f.marca) out.push({ etiqueta: 'Cliente', valor: MARCA_BY_ID[f.marca as keyof typeof MARCA_BY_ID]?.label ?? f.marca });
-  if (f.pais) out.push({ etiqueta: 'País', valor: f.pais });
-  if (f.campana) out.push({ etiqueta: 'Campaña', valor: nombre.campana?.(f.campana) ?? f.campana });
-  if (f.grupo) out.push({ etiqueta: 'Grupo de anuncios', valor: nombre.grupo?.(f.grupo) ?? f.grupo });
-  if (f.sitio) out.push({ etiqueta: 'Sitio', valor: f.sitio });
-  if (f.mes) out.push({ etiqueta: 'Mes de alta', valor: mesCorto(f.mes) });
-  if (f.prioridad) out.push({ etiqueta: 'Prioridad', valor: PRIORIDAD_BY_ID[f.prioridad as keyof typeof PRIORIDAD_BY_ID]?.label ?? f.prioridad });
-  if (f.accion) out.push({ etiqueta: 'Tipo de mejora', valor: ACCIONES.find((a) => a.id === f.accion)?.label ?? f.accion });
-  if (f.q.trim()) out.push({ etiqueta: 'Búsqueda', valor: f.q.trim() });
-  return out;
-}
-
-/**
- * Fila de chips para filtrar por tipo de mejora. `base` es la lista ya filtrada por todo lo demás, para que cada chip
- * muestre cuántas tarjetas quedarían.
- */
-export function FiltroAcciones({ valor, onChange, base }: { valor: string; onChange: (v: string) => void; base: Recomendacion[] }) {
-  const cuenta = (id: string) => base.filter((r) => accionesDe(r.evidencia).includes(id)).length;
-  const chip = (activo: boolean) =>
-    `inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-[12.5px] font-medium ring-1 transition ${
-      activo ? 'bg-mc-fuerte text-white ring-mc-fuerte' : 'bg-mc-sup text-mc-ink ring-mc-hair hover:bg-mc-tint hover:text-mc-navy'
-    }`;
-  return (
-    <div className="-mt-2 mb-5 flex flex-wrap items-center gap-1.5" role="group" aria-label="Tipo de mejora">
-      <span className="mr-1 text-[11px] font-bold uppercase tracking-[0.14em] text-mc-grey">Tipo de mejora</span>
-      <button type="button" className={chip(!valor)} onClick={() => onChange('')} aria-pressed={!valor}>
-        Todas <span className="font-mono text-[11px] opacity-70">{base.length}</span>
-      </button>
-      {ACCIONES.map((a) => {
-        const n = cuenta(a.id);
-        if (n === 0 && valor !== a.id) return null;
-        return (
-          <button key={a.id} type="button" className={chip(valor === a.id)} onClick={() => onChange(valor === a.id ? '' : a.id)} aria-pressed={valor === a.id} title={a.label}>
-            <IconoAccion id={a.id} size={13} />
-            {a.label} <span className="font-mono text-[11px] opacity-70">{n}</span>
-          </button>
-        );
-      })}
-    </div>
-  );
-}
 
 interface Props {
   valores: FiltrosValores;
@@ -134,11 +82,9 @@ interface Props {
   grupos?: { id: string; label: string; campanaId: string }[];
   sitios?: string[];
   meses: string[];
-  /** Algo más al final de la barra (p. ej. el botón de exportar). */
-  extra?: ReactNode;
 }
 
-export default function Filtros({ valores, onChange, paises, campanas, grupos, sitios, meses, extra }: Props) {
+export default function Filtros({ valores, onChange, paises, campanas, grupos, sitios, meses }: Props) {
   const campanasVisibles = (campanas ?? []).filter((c) => (!valores.marca || c.marca === valores.marca) && (!valores.pais || c.pais === valores.pais));
   const gruposVisibles = (grupos ?? []).filter((g) => valores.campana && g.campanaId === valores.campana);
   return (
@@ -161,7 +107,6 @@ export default function Filtros({ valores, onChange, paises, campanas, grupos, s
         placeholder="Buscar en títulos y detalle…"
         className="min-w-[180px] flex-1 rounded-lg border border-mc-hair bg-mc-tint px-2.5 py-1.5 text-sm transition focus:border-mc-blue focus:bg-mc-sup focus:outline-none focus:ring-2 focus:ring-mc-blue/15"
       />
-      {extra}
     </div>
   );
 }

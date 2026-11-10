@@ -6,7 +6,7 @@
  * el antes / después se mide desde la fecha real de esos cambios, no desde el día en que se movió la tarjeta.
  *
  * Ventanas: «antes» = los 28 días previos al primer cambio aplicado; «después» = desde el día siguiente al último cambio
- * hasta 28 días o hasta el último día con datos. Los días entre el primer y el último cambio son transición y no cuentan.
+ * hasta 28 días o hasta el último día con datos (mínimo 14 para dar un resultado). Los días entre el primer y el último cambio son transición y no cuentan.
  * Se compara por día (promedios), porque las ventanas pueden tener largos distintos. En metricas_dia un día sin fila es
  * un día sin impresiones (Google lo omite): cuenta como cero.
  *
@@ -17,7 +17,8 @@ import type { Evento, Recomendacion } from '@/services/recomendaciones';
 import type { MetricaDia } from '@/services/metricas';
 
 export const DIAS_VENTANA = 28;
-export const MIN_DIAS_DESPUES = 7;
+/** Dos semanas completas: con menos, un fin de semana o un día raro mueven todo. */
+export const MIN_DIAS_DESPUES = 14;
 /** Variación a partir de la cual un CTR o un CPC se considera un cambio y no ruido. */
 export const UMBRAL = 0.1;
 
@@ -360,6 +361,11 @@ export function impactoDeTarjeta(rec: Recomendacion, eventos: Evento[], cambios:
     otrosCambios: enVentana.filter((c) => !usados.has(c.id)),
     avisos,
   };
+}
+
+/** Día en que la tarjeta junta los días mínimos después del último cambio (para «Próximamente»). */
+export function fechaResultado(x: ImpactoTarjeta): string {
+  return sumarDias(x.ultimoCambio ?? x.fechaHecha, MIN_DIAS_DESPUES);
 }
 
 /** Todas las tarjetas SEM «hechas» con campaña, de la más reciente a la más vieja. */

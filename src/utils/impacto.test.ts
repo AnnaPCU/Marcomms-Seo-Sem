@@ -3,7 +3,7 @@ import type { CambioAds } from '@/services/cambios';
 import type { Evento, Recomendacion } from '@/services/recomendaciones';
 import type { MetricaDia } from '@/services/metricas';
 import {
-  calcularImpacto, cruzarItem, diasEntre, fechaArgentina, itemsDeTarjeta, juzgar, normalizarKeyword, normalizarTexto, sumarDias, sumarVentana,
+  calcularImpacto, cruzarItem, fechaResultado, diasEntre, fechaArgentina, itemsDeTarjeta, juzgar, normalizarKeyword, normalizarTexto, sumarDias, sumarVentana,
   type ItemTarjeta, type Ventana,
 } from './impacto';
 
@@ -92,20 +92,20 @@ describe('ventanas y veredicto', () => {
     const m = [met('2026-10-01', 100, 1, 10), met('2026-10-03', 50, 1, 10), { ...met('2026-10-02', 999, 9, 99), campanaId: 'otra' }];
     expect(sumarVentana(m, 'c1', '2026-10-01', '2026-10-03')).toMatchObject({ dias: 3, coste: 150, clics: 2, impresiones: 20 });
   });
-  it('menos de 7 días después: midiendo', () => {
+  it('menos de 14 días después: midiendo', () => {
     expect(juzgar(v({ clics: 20, impresiones: 400 }), v({ dias: 2, clics: 3, impresiones: 30 })).veredicto).toBe('midiendo');
   });
   it('CTR arriba y CPC abajo: positivo', () => {
-    const j = juzgar(v({ coste: 28000, clics: 28, impresiones: 1400 }), v({ dias: 10, coste: 8000, clics: 16, impresiones: 400 }));
+    const j = juzgar(v({ coste: 28000, clics: 28, impresiones: 1400 }), v({ dias: 20, coste: 8000, clics: 16, impresiones: 400 }));
     expect(j.veredicto).toBe('positivo');
     expect(j.razones.join(' ')).toMatch(/CTR \+/);
   });
   it('CTR abajo y CPC arriba: negativo', () => {
-    expect(juzgar(v({ coste: 28000, clics: 28, impresiones: 560 }), v({ dias: 10, coste: 20000, clics: 10, impresiones: 400 })).veredicto).toBe('negativo');
+    expect(juzgar(v({ coste: 28000, clics: 28, impresiones: 560 }), v({ dias: 20, coste: 20000, clics: 10, impresiones: 400 })).veredicto).toBe('negativo');
   });
   it('las conversiones pesan doble', () => {
     // CTR −20% pero pasa de 0 a 2 conversiones
-    expect(juzgar(v({ coste: 28000, clics: 28, impresiones: 560 }), v({ dias: 10, coste: 10000, clics: 10, impresiones: 250, conversiones: 2 })).veredicto).toBe('positivo');
+    expect(juzgar(v({ coste: 28000, clics: 28, impresiones: 560 }), v({ dias: 20, coste: 10000, clics: 10, impresiones: 250, conversiones: 2 })).veredicto).toBe('positivo');
   });
   it('señal débil con pocos clics', () => {
     expect(juzgar(v({ coste: 5000, clics: 4, impresiones: 100 }), v({ dias: 9, coste: 3000, clics: 4, impresiones: 50 })).senalDebil).toBe(true);
@@ -125,7 +125,7 @@ describe('calcularImpacto', () => {
   });
   const ev = (aEstado: string, creadoEn: string): Evento => ({ id: aEstado + creadoEn, recomendacionId: 'r1', deEstado: null, aEstado, motivo: null, usuario: null, creadoEn });
   const metricas: MetricaDia[] = [];
-  for (let d = 0; d < 40; d++) {
+  for (let d = 0; d < 50; d++) {
     const f = sumarDias('2026-10-01', d);
     metricas.push({ campanaId: 'c1', fecha: f, coste: 1000, clics: f < '2026-10-30' ? 1 : 2, impresiones: 20, conversiones: 0 });
   }
@@ -147,7 +147,8 @@ describe('calcularImpacto', () => {
   it('mide desde la fecha real del cambio, no desde el día en que se movió la tarjeta', () => {
     expect(r[0].primerCambio).toBe('2026-10-29');
     expect(r[0].antes).toMatchObject({ desde: '2026-10-01', hasta: '2026-10-28', dias: 28 });
-    expect(r[0].despues).toMatchObject({ desde: '2026-10-30', hasta: '2026-11-09', dias: 11 });
+    expect(r[0].despues).toMatchObject({ desde: '2026-10-30', hasta: '2026-11-19', dias: 21 });
+    expect(fechaResultado(r[0])).toBe('2026-11-12');
     expect(r[0].juicio.veredicto).toBe('positivo');
     expect(r[0].avisos.some((a) => a.includes('presupuesto'))).toBe(true);
   });

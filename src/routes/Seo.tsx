@@ -2,9 +2,8 @@
 import { useMemo } from 'react';
 import { useRecomendaciones } from '@/hooks/useDatos';
 import Tablero from '@/components/tablero/Tablero';
-import Filtros, { aplicarFiltros, filtrosActivos, useFiltros } from '@/components/tablero/Filtros';
-import BotonExportar from '@/components/tablero/BotonExportar';
-import { ErrorBox, Intro, SeccionTitulo, Vacio } from '@/components/shared/Ui';
+import Filtros, { aplicarFiltros, useFiltros } from '@/components/tablero/Filtros';
+import { ErrorBox, SeccionTitulo, Vacio } from '@/components/shared/Ui';
 import { EsqueletoTablero } from '@/components/shared/Loader';
 
 export default function Seo() {
@@ -21,34 +20,11 @@ export default function Seo() {
   return (
     <div className="animate-fade-in">
       <SeccionTitulo meta="Search Console · histórico">Mejoras por sitio y página</SeccionTitulo>
-      <Intro
-        cifras={[
-          { valor: visibles.length, etiqueta: 'tarjetas' },
-          { valor: sitios.length, etiqueta: 'sitios' },
-          { valor: visibles.filter((r) => r.estado === 'hecha').length, etiqueta: 'hechas', tono: 'text-emerald-700' },
-        ]}
-      >
-        Salen del histórico de Search Console. Las de plantilla (hreflang, PDFs, títulos) se repiten en varios sitios y se corrigen una sola vez.
-      </Intro>
       <Filtros
         valores={filtros}
         onChange={setFiltro}
         sitios={sitios}
         meses={meses}
-        extra={
-          <BotonExportar
-            recomendaciones={visibles}
-            tipo="SEO"
-            partesNombre={[filtros.marca, filtros.sitio.split('.')[0]]}
-            contexto={{
-              vista: 'SEO · sitios (mejoras por sitio y página, desde Search Console)',
-              filtros: filtrosActivos(filtros),
-              campana: () => null,
-              grupo: () => null,
-              pais: (r) => (typeof r.evidencia.unidad === 'string' ? r.evidencia.unidad : (r.sitio?.split('.')[0] ?? null)),
-            }}
-          />
-        }
       />
       {recs.cargando ? (
         <EsqueletoTablero />

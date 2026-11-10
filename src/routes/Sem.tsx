@@ -2,9 +2,8 @@
 import { useCallback, useMemo } from 'react';
 import { useCatalogo, useRecomendaciones } from '@/hooks/useDatos';
 import Tablero from '@/components/tablero/Tablero';
-import Filtros, { FiltroAcciones, aplicarFiltros, filtrosActivos, useFiltros } from '@/components/tablero/Filtros';
-import BotonExportar from '@/components/tablero/BotonExportar';
-import { ErrorBox, Intro, SeccionTitulo, Vacio } from '@/components/shared/Ui';
+import Filtros, { aplicarFiltros, useFiltros } from '@/components/tablero/Filtros';
+import { ErrorBox, SeccionTitulo, Vacio } from '@/components/shared/Ui';
 import { EsqueletoTablero } from '@/components/shared/Loader';
 import { campanaCorta } from '@/utils/formato';
 import type { Recomendacion } from '@/services/recomendaciones';
@@ -29,23 +28,12 @@ export default function Sem() {
     [campanaDe],
   );
   const grupos = useMemo(() => cat.grupos.map((g) => ({ id: g.id, label: g.nombre, campanaId: g.campanaId })), [cat.grupos]);
-  // sin el filtro de tipo de mejora: sirve para contar cuántas quedan en cada chip
-  const sinAccion = useMemo(() => aplicarFiltros(recs.datos, { ...filtros, accion: '' }, paisDe), [recs.datos, filtros, paisDe]);
-  const visibles = useMemo(() => aplicarFiltros(sinAccion, filtros, paisDe), [sinAccion, filtros, paisDe]);
+  const visibles = useMemo(() => aplicarFiltros(recs.datos, filtros, paisDe), [recs.datos, filtros, paisDe]);
 
   if (recs.error) return <ErrorBox mensaje={recs.error} />;
   return (
     <div className="animate-fade-in">
       <SeccionTitulo meta="Google Ads · Search">Mejoras por campaña y grupo de anuncios</SeccionTitulo>
-      <Intro
-        cifras={[
-          { valor: visibles.length, etiqueta: 'tarjetas' },
-          { valor: visibles.filter((r) => r.prioridad === 'alta' && r.estado !== 'hecha' && r.estado !== 'descartada').length, etiqueta: 'alta abiertas', tono: 'text-red-700' },
-          { valor: visibles.filter((r) => r.estado === 'hecha').length, etiqueta: 'hechas', tono: 'text-emerald-700' },
-        ]}
-      >
-        Arrastrá cada tarjeta a la columna que corresponda. Filtrá por cliente, país, campaña y grupo, y por tipo de mejora: anuncio, palabras clave, negativas, estructura. Se renuevan cada mes con la extracción; las que la API confirma aplicadas se marcan solas.
-      </Intro>
       <Filtros
         valores={filtros}
         onChange={setFiltro}
@@ -53,22 +41,7 @@ export default function Sem() {
         campanas={campanas}
         grupos={grupos}
         meses={meses}
-        extra={
-          <BotonExportar
-            recomendaciones={visibles}
-            tipo="SEM"
-            partesNombre={[filtros.marca, filtros.pais, filtros.campana ? campanaCorta(cat.campana(filtros.campana)?.nombre ?? '') : '']}
-            contexto={{
-              vista: 'SEM · campañas (mejoras por campaña y grupo de anuncios de Google Ads)',
-              filtros: filtrosActivos(filtros, { campana: (id) => cat.campana(id)?.nombre, grupo: (id) => cat.grupo(id)?.nombre }),
-              campana: (r) => cat.campana(r.campanaId)?.nombre ?? null,
-              grupo: (r) => cat.grupo(r.grupoId)?.nombre ?? null,
-              pais: paisDe,
-            }}
-          />
-        }
       />
-      <FiltroAcciones valor={filtros.accion} onChange={(v) => setFiltro('accion', v)} base={sinAccion} />
       {recs.cargando ? (
         <EsqueletoTablero />
       ) : recs.datos.length === 0 ? (
