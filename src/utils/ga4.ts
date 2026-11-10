@@ -45,7 +45,7 @@ export const SITIO_ADS: Record<string, { marcas: Marca[]; unidades: string[] }> 
   'argentina.controlunion.com': { marcas: ['CU', 'PCU'], unidades: ['Argentina'] },
   'espana.controlunion.com': { marcas: ['CU', 'PCU'], unidades: ['España'] },
   'portugal.controlunion.com': { marcas: ['CU'], unidades: ['Portugal'] },
-  'northamerica.controlunion.com': { marcas: ['CU'], unidades: ['Canadá', 'Estados Unidos'] },
+  'northamerica.controlunion.com': { marcas: ['CU'], unidades: ['Canadá', 'CUC USA'] },
   'americas.peterson-solutions.com': { marcas: ['PS'], unidades: ['Argentina'] },
 };
 

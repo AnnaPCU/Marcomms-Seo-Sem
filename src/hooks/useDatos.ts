@@ -16,6 +16,8 @@ interface Estado<T> {
   cargando: boolean;
   error: string | null;
   recargar: () => void;
+  /** Vuelve a pedir los datos por detrás: la pantalla sigue mostrando los actuales hasta que llegan los nuevos. */
+  refrescar: () => void;
 }
 
 function useCarga<T>(inicial: T, cargar: () => Promise<T>): Estado<T> {
@@ -27,6 +29,7 @@ function useCarga<T>(inicial: T, cargar: () => Promise<T>): Estado<T> {
     setCargando(true);
     setTick((t) => t + 1);
   }, []);
+  const refrescar = useCallback(() => setTick((t) => t + 1), []);
 
   useEffect(() => {
     let vivo = true;
@@ -48,7 +51,7 @@ function useCarga<T>(inicial: T, cargar: () => Promise<T>): Estado<T> {
     };
   }, [cargar, tick]);
 
-  return { datos, cargando, error, recargar };
+  return { datos, cargando, error, recargar, refrescar };
 }
 
 const VACIO_REC: Recomendacion[] = [];
@@ -63,8 +66,20 @@ const VACIO_EXT: Record<'search_console' | 'google_ads', Extraccion | null> = { 
 export function useRecomendaciones(tipo?: Tipo) {
   const cargar = useCallback(() => listarRecomendaciones(tipo), [tipo]);
   const estado = useCarga(VACIO_REC, cargar);
-  const { recargar } = estado;
-  useEffect(() => suscribirRecomendaciones(recargar), [recargar]);
+  const { refrescar } = estado;
+  // Un cambio de estado dispara varios avisos seguidos (la tarjeta y su evento de historial): se juntan en uno solo y
+  // se refresca por detrás, sin pantalla de carga. La tarjeta ya se movió al instante con la copia local.
+  useEffect(() => {
+    let espera: number | undefined;
+    const quitar = suscribirRecomendaciones(() => {
+      window.clearTimeout(espera);
+      espera = window.setTimeout(refrescar, 600);
+    });
+    return () => {
+      window.clearTimeout(espera);
+      quitar();
+    };
+  }, [refrescar]);
 
   // Actualización optimista: mover una tarjeta se ve al instante; cuando llega una lista nueva de la base
   // (realtime o recarga) la copia local se descarta sola porque quedó atada a la lista anterior.

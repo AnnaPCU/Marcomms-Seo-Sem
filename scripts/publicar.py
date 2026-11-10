@@ -37,11 +37,11 @@ def unidad_de(nombre):
     """País de la campaña por palabra clave, en cualquier parte del nombre: los prefijos cambian seguido
     («PCU Argentina» → «PCU Tech» → «PCU - Argentina»). «Tech» es la unidad ISO 27001 de Argentina."""
     # naming estándar del equipo (skill paid-media-pcu): MARCA_PAÍS_TIPO_NORMA_IDIOMA, p. ej. CU_US_SEARCH_GPFS-2026_EN
-    m = re.match(r"^(?:CU|PS|PCU)_([A-Z]{2})_", nombre)
+    m = re.match(r"^(?:CUC|CU|PS|PCU)_([A-Z]{2})_", nombre)
     if m:
-        return {"US": "Estados Unidos", "CA": "Canadá", "MX": "México", "AR": "Argentina", "ES": "España", "PT": "Portugal",
+        return {"US": "CUC USA", "CA": "Canadá", "MX": "México", "AR": "Argentina", "ES": "España", "PT": "Portugal",
                 "BR": "Brasil", "CL": "Chile", "PE": "Perú"}.get(m.group(1), "Sin asignar")
-    for clave, u in [("España", "España"), ("Portugal", "Portugal"), ("Canada", "Canadá"), ("United States", "Estados Unidos"),
+    for clave, u in [("España", "España"), ("Portugal", "Portugal"), ("Canada", "Canadá"), ("CUC USA", "CUC USA"), ("United States", "CUC USA"),
                      ("Argentina", "Argentina"), ("PCU Tech", "Argentina")]:
         if clave in nombre:
             return u

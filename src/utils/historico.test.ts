@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import type { MetricaMes } from '@/services/metricas';
-import { cpc, matriz, mesPorDefecto, rangoMeses, serieMensual, variacion } from './historico';
+import { cpc, finDeMes, matriz, mesIncompleto, mesPorDefecto, rangoMeses, serieMensual, variacion } from './historico';
 
 const m = (campanaId: string, mes: string, coste: number, clics = 0, over: Partial<MetricaMes> = {}): MetricaMes => ({
   campanaId, mes, desde: `${mes}-01`, hasta: null, dias: null, coste, clics, impresiones: clics * 10, conversiones: 0,
@@ -53,5 +53,16 @@ describe('historico', () => {
     expect(mesPorDefecto(['2026-08', '2026-10', '2026-09'], '2026-10')).toBe('2026-09');
     expect(mesPorDefecto(['2026-10'], '2026-10')).toBe('2026-10');
     expect(mesPorDefecto([], '2026-10')).toBe('');
+  });
+
+  it('un mes cerrado con datos parciales no se toma como cerrado', () => {
+    const hasta = new Map([['2026-09', '2026-09-30'], ['2026-10', '2026-10-18']]);
+    expect(mesIncompleto('2026-10', '2026-10-18', '2026-11')).toBe(true);
+    expect(mesIncompleto('2026-10', '2026-10-31', '2026-11')).toBe(false);
+    expect(mesIncompleto('2026-11', '2026-11-09', '2026-11')).toBe(false); // el mes en curso siempre es parcial
+    expect(mesPorDefecto(['2026-09', '2026-10', '2026-11'], '2026-11', hasta)).toBe('2026-09');
+    hasta.set('2026-10', '2026-10-31');
+    expect(mesPorDefecto(['2026-09', '2026-10', '2026-11'], '2026-11', hasta)).toBe('2026-10');
+    expect(finDeMes('2026-02')).toBe('2026-02-28');
   });
 });

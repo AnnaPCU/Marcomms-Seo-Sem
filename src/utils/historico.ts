@@ -140,8 +140,28 @@ export function matriz(campanas: CampanaRef[], metricas: MetricaMes[], ordenMarc
   return raiz;
 }
 
-/** Último mes cerrado con datos (el anterior al mes en curso); si no hay, el más reciente. */
-export function mesPorDefecto(meses: string[], mesEnCurso: string): string {
+/** Último día ('AAAA-MM-DD') de un mes 'AAAA-MM'. */
+export function finDeMes(mes: string): string {
+  const [a, m] = mes.split('-').map(Number);
+  return `${mes}-${String(new Date(a, m, 0).getDate()).padStart(2, '0')}`;
+}
+
+/**
+ * Un mes ya terminado cuyos datos no llegan a su último día: la extracción corrió antes del cierre y el mes se
+ * vería como cerrado con números parciales. `hasta` es el último día con datos de ese mes.
+ */
+export function mesIncompleto(mes: string, hasta: string | null | undefined, mesEnCurso: string): boolean {
+  return mes < mesEnCurso && (!hasta || hasta < finDeMes(mes));
+}
+
+/**
+ * Último mes cerrado con datos completos (anterior al mes en curso y extraído hasta su último día); si ninguno está
+ * completo, el último cerrado; si no hay cerrados, el más reciente. `hastaPorMes` da el último día con datos de cada
+ * mes; sin él, no se controla que esté completo.
+ */
+export function mesPorDefecto(meses: string[], mesEnCurso: string, hastaPorMes?: Map<string, string | null>): string {
   const orden = [...meses].sort().reverse();
-  return orden.find((m) => m < mesEnCurso) ?? orden[0] ?? '';
+  const cerrados = orden.filter((m) => m < mesEnCurso);
+  const completo = hastaPorMes ? cerrados.find((m) => !mesIncompleto(m, hastaPorMes.get(m), mesEnCurso)) : cerrados[0];
+  return completo ?? cerrados[0] ?? orden[0] ?? '';
 }

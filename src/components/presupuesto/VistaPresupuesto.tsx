@@ -12,7 +12,7 @@ import { useCampanas, useGrupos, useMetricas, useMetricasDia, useMetricasGrupo }
 import { ErrorBox, SeccionTitulo, Select, Tarjeta, Vacio } from '@/components/shared/Ui';
 import { EsqueletoPresupuesto } from '@/components/shared/Loader';
 import { ars, campanaCorta, entero, fecha, mesActual, mesCorto } from '@/utils/formato';
-import { mesPorDefecto } from '@/utils/historico';
+import { mesIncompleto, mesPorDefecto } from '@/utils/historico';
 import { armarArbol, consumoMes, diasDelMes, resumir, ritmo, semaforo, type CampanaGasto, type GrupoGasto, type Nodo } from '@/utils/presupuesto';
 import PanelRotacion from './PanelRotacion';
 import { BarraConsumo, ChipDesvio } from './Semaforo';
@@ -104,8 +104,14 @@ export default function VistaPresupuesto() {
   const [abiertos, setAbiertos] = usePersistenteSet('presupuesto:abiertos', MARCAS.map((m) => m.id));
 
   const meses = useMemo(() => [...new Set(met.datos.map((m) => m.mes))].sort().reverse(), [met.datos]);
+  // último día con datos de cada mes: un mes ya terminado que no llega a fin de mes se marca incompleto
+  const hastaPorMes = useMemo(() => {
+    const h = new Map<string, string | null>();
+    for (const m of met.datos) if (m.hasta && (!h.get(m.mes) || m.hasta > h.get(m.mes)!)) h.set(m.mes, m.hasta);
+    return h;
+  }, [met.datos]);
   const enCurso = mesActual();
-  const porDefecto = mesPorDefecto(meses, enCurso);
+  const porDefecto = mesPorDefecto(meses, enCurso, hastaPorMes);
   const mes = mesElegido || porDefecto;
   const delMes = useMemo(() => met.datos.filter((m) => m.mes === mes), [met.datos, mes]);
   const dias = Math.max(...delMes.map((m) => m.dias ?? 0), 0) || 1;
@@ -114,9 +120,13 @@ export default function VistaPresupuesto() {
 
   const campanas: CampanaGasto[] = useMemo(() => {
     const porId = new Map(delMes.map((m) => [m.campanaId, m]));
-    // Un mes cerrado muestra las campañas que tuvieron actividad; el mes en curso, además, las activas sin gasto todavía.
+    // Google no devuelve filas de una campaña sin impresiones, así que una activa que no publicó desaparecería justo
+    // cuando más hay que verla (PrimusGFS en oct 2026: ARS 15.000/día reservados y 0 impresiones). Se muestran las que
+    // tuvieron actividad y, además, las activas de la cuenta actual que ya existían ese mes (con datos en ese mes o
+    // antes); en el mes en curso, todas las activas.
+    const existia = new Set(met.datos.filter((m) => m.mes <= mes).map((m) => m.campanaId));
     return camp.datos
-      .filter((c) => porId.has(c.id) || (mes === enCurso && c.cuenta === 'actual'))
+      .filter((c) => porId.has(c.id) || (c.cuenta === 'actual' && c.estado === 'ENABLED' && (mes === enCurso || existia.has(c.id))))
       .map((c) => {
       const m = porId.get(c.id);
       return {
@@ -133,7 +143,8 @@ export default function VistaPresupuesto() {
         cuenta: c.cuenta,
       };
     });
-  }, [camp.datos, delMes, mes, enCurso]);
+  }, [camp.datos, delMes, mes, enCurso, met.datos]);
+  const incompleto = mesIncompleto(mes, hasta, enCurso);
   // la vista histórica usa todo el catálogo (incluye campañas eliminadas y de la cuenta anterior)
   const refsHistoricas = useMemo(
     () => camp.datos.filter((c) => (!cliente || c.marca === cliente) && (!pais || c.unidad === pais)),
@@ -225,7 +236,15 @@ export default function VistaPresupuesto() {
               todo={`${mesCorto(porDefecto)}${porDefecto < enCurso ? ' (último cerrado)' : ''}`}
               opciones={meses
                 .filter((m) => m !== porDefecto)
-                .map((m) => ({ id: m, label: m === enCurso ? `${mesCorto(m)} (en curso)` : mesCorto(m) }))}
+                .map((m) => ({
+                  id: m,
+                  label:
+                    m === enCurso
+                      ? `${mesCorto(m)} (en curso)`
+                      : mesIncompleto(m, hastaPorMes.get(m), enCurso)
+                        ? `${mesCorto(m)} (incompleto: hasta ${fecha(hastaPorMes.get(m) ?? null)})`
+                        : mesCorto(m),
+                }))}
             />
           )}
           <div className="flex flex-col gap-1">
@@ -244,6 +263,12 @@ export default function VistaPresupuesto() {
             </div>
           </div>
         </div>
+        {vista === 'mes' && incompleto && (
+          <p role="alert" className="w-full rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800">
+            {mesCorto(mes)} ya terminó, pero los datos llegan solo hasta el {fecha(hasta)}: falta correr la extracción de cierre de
+            mes. Los totales de este mes están incompletos.
+          </p>
+        )}
         <p className="text-xs text-mc-grey">
           {vista === 'mes'
             ? `Datos del ${fecha(delMes[0].desde)} al ${fecha(hasta)} · ${dias} de ${diasMes} días · API de Google Ads`

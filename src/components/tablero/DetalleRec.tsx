@@ -71,6 +71,8 @@ export default function DetalleRec({
   const ficha = rec.evidencia.ficha;
   // la ficha ya muestra todo; la tabla genérica queda para las tarjetas sin ficha (SEO)
   const evidencia = ficha ? [] : Object.entries(rec.evidencia);
+  // las fichas «campana» y «seo» van al grano: la ficha ya dice dónde, así que arriba solo cliente y estado
+  const alGrano = ficha === 'campana' || ficha === 'seo';
   return createPortal(
     <div className="fixed inset-0 z-40 flex justify-end bg-mc-fuerte/30" onClick={onCerrar}>
       <aside
@@ -97,7 +99,7 @@ export default function DetalleRec({
           <dl className="grid grid-cols-[110px_1fr] gap-x-3 gap-y-1 text-[13px] md:grid-cols-[110px_1fr_110px_1fr]">
             <dt className="text-mc-grey">Cliente</dt>
             <dd className="text-mc-navy">{MARCA_BY_ID[rec.marca]?.label ?? rec.marca}</dd>
-            {rec.tipo === 'SEM' ? (
+            {alGrano ? null : rec.tipo === 'SEM' ? (
               <>
                 <dt className="text-mc-grey">Campaña</dt>
                 <dd className="text-mc-navy">{campanaDe(rec, ctx)}</dd>
@@ -114,12 +116,16 @@ export default function DetalleRec({
             )}
             <dt className="text-mc-grey">Estado</dt>
             <dd className="text-mc-navy">{ESTADO_BY_ID[rec.estado]?.label}</dd>
-            <dt className="text-mc-grey">Propuesta en</dt>
-            <dd className="text-mc-navy">
-              {mesCorto(rec.mesAlta)}
-              {rec.origen ? ` · ${rec.origen}` : ''}
-            </dd>
-            {Array.isArray(rec.evidencia.revisiones) && rec.evidencia.revisiones.length > 0 && (
+            {!alGrano && (
+              <>
+                <dt className="text-mc-grey">Propuesta en</dt>
+                <dd className="text-mc-navy">
+                  {mesCorto(rec.mesAlta)}
+                  {rec.origen ? ` · ${rec.origen}` : ''}
+                </dd>
+              </>
+            )}
+            {!alGrano && Array.isArray(rec.evidencia.revisiones) && rec.evidencia.revisiones.length > 0 && (
               <>
                 <dt className="text-mc-grey">Revisada</dt>
                 <dd className="text-mc-navy">
@@ -144,7 +150,7 @@ export default function DetalleRec({
           </dl>
 
           {ficha === 'campana' || ficha === 'seo' ? (
-            <FichaCampana d={rec.evidencia as unknown as DatosCampana} />
+            <FichaCampana d={rec.evidencia as unknown as DatosCampana} problema={rec.detalle} />
           ) : ficha === 'anuncio' ? (
             <FichaAnuncio d={rec.evidencia as unknown as DatosAnuncio} />
           ) : ficha === 'plan' ? (
