@@ -75,6 +75,12 @@ NOMBRES = [c["nombre"] for c in CAMPANAS]
 gru = pd.read_csv(os.path.join(snap, "grupos.csv"), encoding="utf-8-sig")
 c_camp, c_nom, c_id, c_est = col(gru, "campaign.name"), col(gru, "ad_group.name"), col(gru, "ad_group.id"), col(gru, "ad_group.status")
 GRUPOS = [dict(campana=str(r[c_camp]), ads_id=str(r[c_id]), nombre=str(r[c_nom]), estado=str(r[c_est])) for _, r in gru.iterrows() if str(r[c_camp]) in NOMBRES]
+# Un grupo eliminado y otro nuevo pueden llamarse igual en la misma campaña (CU Portugal - Forestal: «FSC» dos veces):
+# la base guarda uno por nombre, así que queda el vigente (activo o pausado) antes que el eliminado.
+_por_nombre = {}
+for g in sorted(GRUPOS, key=lambda g: g["estado"] != "REMOVED"):
+    _por_nombre[(g["campana"], g["nombre"])] = g
+GRUPOS = list(_por_nombre.values())
 
 
 def firma(nombre):
@@ -160,6 +166,24 @@ if diarios:
     EXTRACCIONES.append(dict(fuente="search_console", corrida_en=datetime.fromtimestamp(max(os.path.getmtime(p) for p in diarios), tz=timezone.utc).isoformat(),
                              desde=str(fechas.min())[:10], hasta=str(fechas.max())[:10], filas=int(len(fechas)),
                              detalle={"archivos": len(diarios), "cortes": "queries, pages, query_page, devices, daily, queries_agg, device_total, device_date"}))
+
+
+# --desde-mes AAAA-MM: solo métricas de ese mes en adelante (histórico, grupos, días y GA4). La carga mensual manda
+# lo nuevo y no todo el histórico, que ya está en la base y no cambia.
+DESDE_MES = sys.argv[sys.argv.index("--desde-mes") + 1] if "--desde-mes" in sys.argv else None
+if DESDE_MES:
+    if HIST:
+        HIST_MET = [f for f in HIST_MET if f["mes"] >= DESDE_MES]
+        HIST_MET_G = [f for f in HIST_MET_G if f["mes"] >= DESDE_MES]
+        _con_datos = {f["ads_id"] for f in HIST_MET} | {f["campana_ads_id"] for f in HIST_MET_G}
+        HIST_CAMP = [c for c in HIST_CAMP if c["ads_id"] in _con_datos]
+        HIST_GRUPOS = [g for g in HIST_GRUPOS if (g["campana_ads_id"], g["nombre"]) in {(f["campana_ads_id"], f["grupo"]) for f in HIST_MET_G}]
+    METRICAS_DIA = [f for f in METRICAS_DIA if str(f["fecha"]) >= f"{DESDE_MES}-01"]
+    GA4 = [f for f in GA4 if f["mes"] >= DESDE_MES]
+# --desde-fecha AAAA-MM-DD: el gasto por día solo desde esa fecha (lo anterior ya está cargado).
+if "--desde-fecha" in sys.argv:
+    _f = sys.argv[sys.argv.index("--desde-fecha") + 1]
+    METRICAS_DIA = [f for f in METRICAS_DIA if str(f["fecha"]) >= _f]
 
 
 # ══════════════════════════════════════════════════════════════ modo SQL
