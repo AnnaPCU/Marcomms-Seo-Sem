@@ -5,7 +5,7 @@
  * «Histórico» con la evolución mes a mes (VistaHistorica).
  * Réplica en vivo del informe «Gasto Google Ads por cliente» del proyecto de análisis.
  */
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { usePersistente, usePersistenteSet } from '@/hooks/usePersistente';
 import { ChevronRight } from 'lucide-react';
 import { MARCA_BY_ID, MARCAS } from '@/constants/estados';
@@ -102,7 +102,8 @@ export default function VistaPresupuesto() {
   // todo lo que elige la persona se recuerda al refrescar o volver a la pestaña
   const [vista, setVista] = usePersistente<Vista>('presupuesto:vista', 'mes');
   const [modo, setModo] = usePersistente<Modo>('presupuesto:modo', 'mes');
-  const [mesElegido, setMes] = usePersistente('presupuesto:mes', '');
+  // el mes no se recuerda: cada vez que se entra se ve el mes actual
+  const [mesElegido, setMes] = useState('');
   const [cliente, setCliente] = usePersistente('presupuesto:cliente', '');
   const [pais, setPais] = usePersistente('presupuesto:pais', '');
   const [q, setQ] = usePersistente('presupuesto:busqueda', '');
@@ -132,9 +133,6 @@ export default function VistaPresupuesto() {
   const porDefecto = meses.includes(enCurso) ? enCurso : mesPorDefecto(meses, enCurso, hastaPorMes);
   const mes = mesElegido && meses.includes(mesElegido) ? mesElegido : porDefecto;
   const delMes = useMemo(() => metMes.filter((m) => m.mes === mes), [metMes, mes]);
-  // los cuatro meses más nuevos van como botones; el resto, en «Anteriores…»
-  const recientes = [...meses.slice(0, 4)].reverse();
-  const anteriores = meses.slice(4);
   const etiquetaMes = (m: string) =>
     m === enCurso
       ? `${mesCorto(m)} (en curso)`
@@ -258,37 +256,21 @@ export default function VistaPresupuesto() {
             opciones={(vista === 'historico' ? paisesTodos : paises).map((p) => ({ id: p, label: p }))}
           />
           {vista === 'mes' && meses.length > 1 && (
-            <div className="flex flex-col gap-1">
+            <label className="flex flex-col gap-1">
               <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-mc-grey">Mes</span>
-              <div className="flex items-center gap-1.5">
-                <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm" role="tablist" aria-label="Mes">
-                  {recientes.map((m) => (
-                    <button
-                      key={m}
-                      type="button"
-                      role="tab"
-                      aria-selected={m === mes}
-                      onClick={() => setMes(m === porDefecto ? '' : m)}
-                      title={etiquetaMes(m)}
-                      className={`px-3 py-1.5 font-medium transition ${m === mes ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
-                    >
-                      {mesCorto(m)}
-                      {m === enCurso && <span className="ml-1 text-[10px] opacity-70">en curso</span>}
-                      {m !== enCurso && mesIncompleto(m, hastaPorMes.get(m), enCurso) && <span className="ml-1 text-[10px] opacity-70">incompleto</span>}
-                    </button>
-                  ))}
-                </div>
-                {anteriores.length > 0 && (
-                  <Select
-                    ariaLabel="Meses anteriores"
-                    valor={anteriores.includes(mes) ? mes : ''}
-                    onChange={(v) => setMes(v)}
-                    todo="Anteriores…"
-                    opciones={anteriores.map((m) => ({ id: m, label: etiquetaMes(m) }))}
-                  />
-                )}
-              </div>
-            </div>
+              <select
+                aria-label="Mes"
+                value={mes}
+                onChange={(e) => setMes(e.target.value)}
+                className="rounded-lg border border-mc-blue/60 bg-mc-sup px-2.5 py-1.5 text-sm font-semibold text-mc-navy transition focus:border-mc-blue focus:outline-none focus:ring-2 focus:ring-mc-blue/15"
+              >
+                {meses.map((m) => (
+                  <option key={m} value={m}>
+                    {etiquetaMes(m)}
+                  </option>
+                ))}
+              </select>
+            </label>
           )}
           <div className="flex flex-col gap-1">
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-mc-grey">Vista</span>
@@ -312,11 +294,11 @@ export default function VistaPresupuesto() {
             mes. Los totales de este mes están incompletos.
           </p>
         )}
-        <p className="text-xs text-mc-grey">
-          {vista === 'mes'
-            ? `Datos del ${fecha(delMes[0].desde)} al ${fecha(hasta)} · ${dias} de ${diasMes} días · API de Google Ads`
-            : `${mesCorto(meses[meses.length - 1])} a ${mesCorto(meses[0])} · ${meses.length} meses · API de Google Ads`}
-        </p>
+        {vista === 'historico' && (
+          <p className="text-xs text-mc-grey">
+            {mesCorto(meses[meses.length - 1])} a {mesCorto(meses[0])} · {meses.length} meses · API de Google Ads
+          </p>
+        )}
       </div>
 
       {vista === 'historico' ? (
