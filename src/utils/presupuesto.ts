@@ -267,3 +267,86 @@ export function totalDia(fecha: string, campanas: Pick<CampanaGasto, 'id' | 'est
   const presDia = pres > 0 ? pres : null;
   return { fecha, coste, presDia, estado: estadoDia(coste, presDia), sobre: cuenta.sobre, sin: cuenta.sin, ok: cuenta.ok };
 }
+
+// ───────────────────────────────────────────────────────────── mes en curso y tramos de 10 días
+
+/** Lo mínimo de una fila de gasto diario (MetricaDia) que usan estas funciones. */
+export interface GastoDia {
+  campanaId: string;
+  fecha: string;
+  coste: number;
+  clics: number;
+  impresiones: number;
+  conversiones: number;
+}
+
+/** Último día con datos diarios de un mes ('AAAA-MM'), o null. */
+export function ultimoDiaConDatos(dias: Pick<GastoDia, 'fecha'>[], mes: string): string | null {
+  let h: string | null = null;
+  for (const d of dias) if (d.fecha.startsWith(mes) && (!h || d.fecha > h)) h = d.fecha;
+  return h;
+}
+
+/**
+ * Totales del mes por campaña armados desde el gasto diario, con la misma forma que metricas_mes. Sirve para el mes
+ * en curso, que todavía no tiene fila mensual: `dias` = días transcurridos hasta el último día con datos (un día sin
+ * fila es un día sin gasto).
+ */
+export function mesDesdeDiario(dias: GastoDia[], mes: string) {
+  const hasta = ultimoDiaConDatos(dias, mes);
+  if (!hasta) return [];
+  const porCampana = new Map<string, { coste: number; clics: number; impresiones: number; conversiones: number }>();
+  for (const d of dias) {
+    if (!d.fecha.startsWith(mes)) continue;
+    const t = porCampana.get(d.campanaId) ?? { coste: 0, clics: 0, impresiones: 0, conversiones: 0 };
+    t.coste += d.coste;
+    t.clics += d.clics;
+    t.impresiones += d.impresiones;
+    t.conversiones += d.conversiones;
+    porCampana.set(d.campanaId, t);
+  }
+  const transcurridos = Number(hasta.slice(8, 10));
+  return [...porCampana.entries()].map(([campanaId, t]) => ({
+    campanaId, mes, desde: `${mes}-01`, hasta, dias: transcurridos, ...t,
+    monedaOriginal: null, costeOriginal: null, tipoCambio: null,
+  }));
+}
+
+export interface Decena {
+  n: 1 | 2 | 3;
+  /** Día del mes en que empieza y termina (21 a 28, 29, 30 o 31 el último tramo). */
+  desde: number;
+  hasta: number;
+  dias: number;
+  /** Días del tramo con datos cargados (0 si todavía no empezó; menos que `dias` si está en curso). */
+  conDatos: number;
+}
+
+/** Los tres tramos del mes: 1–10, 11–20 y 21–fin. `hastaDatos` = último día con datos ('AAAA-MM-DD') o null. */
+export function decenasDelMes(mes: string, hastaDatos: string | null): Decena[] {
+  const fin = diasDelMes(mes);
+  const ultimo = hastaDatos && hastaDatos.startsWith(mes) ? Number(hastaDatos.slice(8, 10)) : hastaDatos && hastaDatos > mes ? fin : 0;
+  return ([[1, 1, 10], [2, 11, 20], [3, 21, fin]] as const).map(([n, desde, hasta]) => ({
+    n, desde, hasta, dias: hasta - desde + 1, conDatos: Math.max(0, Math.min(hasta, ultimo) - desde + 1),
+  }));
+}
+
+/** Gasto de cada campaña en cada tramo del mes: campanaId → [1–10, 11–20, 21–fin]. */
+export function gastoPorDecena(dias: Pick<GastoDia, 'campanaId' | 'fecha' | 'coste'>[], mes: string): Map<string, [number, number, number]> {
+  const out = new Map<string, [number, number, number]>();
+  for (const d of dias) {
+    if (!d.fecha.startsWith(mes)) continue;
+    const dia = Number(d.fecha.slice(8, 10));
+    const i = dia <= 10 ? 0 : dia <= 20 ? 1 : 2;
+    const t = out.get(d.campanaId) ?? [0, 0, 0];
+    t[i] += d.coste;
+    out.set(d.campanaId, t);
+  }
+  return out;
+}
+
+/** Ids de las campañas debajo de un nodo del árbol. */
+export function campanasDe(n: Nodo): string[] {
+  if (n.nivel === 3) return n.campanaId ? [n.campanaId] : [];
+  return n.hijos.flatMap(campanasDe);
+}

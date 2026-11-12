@@ -8,7 +8,7 @@ import { listarRecomendaciones, suscribirRecomendaciones, type Recomendacion } f
 import { listarCampanas, listarGrupos, type Campana, type Grupo } from '@/services/campanas';
 import { ultimasExtracciones, type Extraccion } from '@/services/extracciones';
 import { listarGa4, type Ga4SitioMes } from '@/services/ga4';
-import { listarMetricas, listarMetricasDia, listarMetricasGrupo, type MetricaDia, type MetricaGrupoMes, type MetricaMes } from '@/services/metricas';
+import { listarMetricas, listarMetricasDia, listarMetricasGrupo, ultimoDiaGasto, type MetricaDia, type MetricaGrupoMes, type MetricaMes } from '@/services/metricas';
 import { listarCambiosAds, type CambioAds } from '@/services/cambios';
 import { mensajeError } from '@/utils/errores';
 
@@ -156,4 +156,10 @@ export function useCatalogo() {
     return { campana: (id: string | null) => (id ? c.get(id) ?? null : null), grupo: (id: string | null) => (id ? g.get(id) ?? null : null) };
   }, [campanas.datos, grupos.datos]);
   return { campanas: campanas.datos, grupos: grupos.datos, cargando: campanas.cargando || grupos.cargando, ...porId };
+}
+
+/** Último día con gasto diario cargado (lo usa el encabezado junto con la última extracción de cierre). */
+export function useUltimoDiaGasto() {
+  const cargar = useCallback(() => ultimoDiaGasto(), []);
+  return useCarga<string | null>(null, cargar);
 }

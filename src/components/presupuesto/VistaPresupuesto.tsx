@@ -1,7 +1,8 @@
 /**
- * Presupuesto vs. gasto por cliente → país → campaña → grupo, por mes o por día, con semáforo y barra de consumo,
- * y la vista «Día a día»: cada día contra el presupuesto diario (VistaDiaria). Arriba se elige el mes (por defecto, el
- * último cerrado; también los anteriores, desde feb 2026) o la vista «Histórico» con la evolución mes a mes (VistaHistorica).
+ * Presupuesto vs. gasto por cliente → país → campaña → grupo, con semáforo y barra de consumo, en tres modos: el mes,
+ * «Cada 10 días» (VistaDecenas: tramos 1–10, 11–20 y 21–fin contra su presupuesto) y «Día a día» (VistaDiaria). Arriba se
+ * elige el mes (por defecto, el actual: se arma con el gasto diario mientras no tiene fila mensual) o la vista
+ * «Histórico» con la evolución mes a mes (VistaHistorica).
  * Réplica en vivo del informe «Gasto Google Ads por cliente» del proyecto de análisis.
  */
 import { useMemo } from 'react';
@@ -13,27 +14,31 @@ import { ErrorBox, SeccionTitulo, Select, Tarjeta, Vacio } from '@/components/sh
 import { EsqueletoPresupuesto } from '@/components/shared/Loader';
 import { ars, campanaCorta, entero, fecha, mesActual, mesCorto } from '@/utils/formato';
 import { mesIncompleto, mesPorDefecto } from '@/utils/historico';
-import { armarArbol, consumoMes, diasDelMes, resumir, ritmo, semaforo, type CampanaGasto, type GrupoGasto, type Nodo } from '@/utils/presupuesto';
+import type { MetricaMes } from '@/services/metricas';
+import {
+  armarArbol, consumoMes, decenasDelMes, diasDelMes, gastoPorDecena, mesDesdeDiario, resumir, ritmo, semaforo, ultimoDiaConDatos,
+  type CampanaGasto, type GrupoGasto, type Nodo,
+} from '@/utils/presupuesto';
 import PanelRotacion from './PanelRotacion';
 import { BarraConsumo, ChipDesvio } from './Semaforo';
+import VistaDecenas from './VistaDecenas';
 import VistaDiaria from './VistaDiaria';
 import VistaHistorica from './VistaHistorica';
 
 type Vista = 'mes' | 'historico';
-type Modo = 'mes' | 'dia' | 'calendario';
-const MODOS: Modo[] = ['mes', 'dia', 'calendario'];
+type Modo = 'mes' | 'decena' | 'calendario';
+const MODOS: Modo[] = ['mes', 'decena', 'calendario'];
+const ETIQUETA_MODO: Record<Modo, string> = { mes: 'Mes', decena: 'Cada 10 días', calendario: 'Día a día' };
 const COLUMNAS = 'grid grid-cols-[18px_minmax(0,1fr)_112px_112px_minmax(150px,200px)_76px_52px_40px] items-center gap-3';
 
 function Fila({
   n,
-  modo,
   dias,
   diasMes,
   abiertos,
   alternar,
 }: {
   n: Nodo;
-  modo: Modo;
   dias: number;
   diasMes: number;
   abiertos: Set<string>;
@@ -42,9 +47,9 @@ function Fila({
   const abierto = abiertos.has(n.clave);
   const r = ritmo(n.coste, n.presDia, dias);
   const sem = semaforo(n.coste, n.presDia, dias);
-  const pres = n.presDia === null ? null : modo === 'mes' ? n.presDia * diasMes : n.presDia;
-  const gasto = modo === 'mes' ? n.coste : n.coste / Math.max(dias, 1);
-  const barra = modo === 'mes' ? consumoMes(n.coste, n.presDia, diasMes) : r;
+  const pres = n.presDia === null ? null : n.presDia * diasMes;
+  const gasto = n.coste;
+  const barra = consumoMes(n.coste, n.presDia, diasMes);
   const sangria = ['', 'pl-0', 'pl-5', 'pl-10', 'pl-[60px]'][n.nivel];
   const fondo =
     n.nivel === 1
@@ -78,12 +83,12 @@ function Fila({
         </span>
         <span className="text-right font-mono text-mc-grey">{pres === null ? '' : ars(pres)}</span>
         <span className="text-right font-mono text-mc-navy">{ars(gasto)}</span>
-        <span>{n.nivel < 4 && <BarraConsumo valor={barra} semaforo={sem} marca={modo === 'mes' && n.nivel === 3 ? dias / diasMes : undefined} />}</span>
+        <span>{n.nivel < 4 && <BarraConsumo valor={barra} semaforo={sem} marca={n.nivel === 3 ? dias / diasMes : undefined} />}</span>
         <span className="text-center">{n.nivel < 4 && <ChipDesvio coste={n.coste} ritmo={r} estado={n.nivel === 3 ? n.estado : undefined} />}</span>
         <span className="text-right font-mono">{entero(n.clics)}</span>
         <span className={`text-right font-mono ${n.conv ? 'font-semibold text-mc-blue' : 'text-mc-grey'}`}>{Math.round(n.conv)}</span>
       </div>
-      {abierto && n.hijos.map((h) => <Fila key={h.clave} n={h} modo={modo} dias={dias} diasMes={diasMes} abiertos={abiertos} alternar={alternar} />)}
+      {abierto && n.hijos.map((h) => <Fila key={h.clave} n={h} dias={dias} diasMes={diasMes} abiertos={abiertos} alternar={alternar} />)}
     </>
   );
 }
@@ -103,17 +108,39 @@ export default function VistaPresupuesto() {
   const [q, setQ] = usePersistente('presupuesto:busqueda', '');
   const [abiertos, setAbiertos] = usePersistenteSet('presupuesto:abiertos', MARCAS.map((m) => m.id));
 
-  const meses = useMemo(() => [...new Set(met.datos.map((m) => m.mes))].sort().reverse(), [met.datos]);
+  const enCurso = mesActual();
+  // Meses con fila mensual y, para el mes en curso (o un mes sin fila mensual todavía), los totales armados con el
+  // gasto diario: así el mes actual se ve desde el primer día cargado, sin esperar el cierre.
+  const metMes: MetricaMes[] = useMemo(() => {
+    const conDiario = [...new Set(metD.datos.map((d) => d.fecha.slice(0, 7)))];
+    const reemplazar = conDiario.filter((m) => {
+      const mensual = met.datos.filter((x) => x.mes === m);
+      if (!mensual.length) return true;
+      const hastaMensual = mensual.reduce((h, x) => (x.hasta && x.hasta > h ? x.hasta : h), '');
+      return m === enCurso && (ultimoDiaConDatos(metD.datos, m) ?? '') > hastaMensual;
+    });
+    return [...met.datos.filter((x) => !reemplazar.includes(x.mes)), ...reemplazar.flatMap((m) => mesDesdeDiario(metD.datos, m))];
+  }, [met.datos, metD.datos, enCurso]);
+  const meses = useMemo(() => [...new Set(metMes.map((m) => m.mes))].sort().reverse(), [metMes]);
   // último día con datos de cada mes: un mes ya terminado que no llega a fin de mes se marca incompleto
   const hastaPorMes = useMemo(() => {
     const h = new Map<string, string | null>();
-    for (const m of met.datos) if (m.hasta && (!h.get(m.mes) || m.hasta > h.get(m.mes)!)) h.set(m.mes, m.hasta);
+    for (const m of metMes) if (m.hasta && (!h.get(m.mes) || m.hasta > h.get(m.mes)!)) h.set(m.mes, m.hasta);
     return h;
-  }, [met.datos]);
-  const enCurso = mesActual();
-  const porDefecto = mesPorDefecto(meses, enCurso, hastaPorMes);
-  const mes = mesElegido || porDefecto;
-  const delMes = useMemo(() => met.datos.filter((m) => m.mes === mes), [met.datos, mes]);
+  }, [metMes]);
+  // por defecto, el mes actual; si todavía no tiene datos, el último cerrado completo
+  const porDefecto = meses.includes(enCurso) ? enCurso : mesPorDefecto(meses, enCurso, hastaPorMes);
+  const mes = mesElegido && meses.includes(mesElegido) ? mesElegido : porDefecto;
+  const delMes = useMemo(() => metMes.filter((m) => m.mes === mes), [metMes, mes]);
+  // los cuatro meses más nuevos van como botones; el resto, en «Anteriores…»
+  const recientes = [...meses.slice(0, 4)].reverse();
+  const anteriores = meses.slice(4);
+  const etiquetaMes = (m: string) =>
+    m === enCurso
+      ? `${mesCorto(m)} (en curso)`
+      : mesIncompleto(m, hastaPorMes.get(m), enCurso)
+        ? `${mesCorto(m)} (incompleto: hasta ${fecha(hastaPorMes.get(m) ?? null)})`
+        : mesCorto(m);
   const dias = Math.max(...delMes.map((m) => m.dias ?? 0), 0) || 1;
   const hasta = delMes.find((m) => m.hasta)?.hasta ?? null;
   const diasMes = mes ? diasDelMes(mes) : 30;
@@ -124,7 +151,7 @@ export default function VistaPresupuesto() {
     // cuando más hay que verla (PrimusGFS en oct 2026: ARS 15.000/día reservados y 0 impresiones). Se muestran las que
     // tuvieron actividad y, además, las activas de la cuenta actual que ya existían ese mes (con datos en ese mes o
     // antes); en el mes en curso, todas las activas.
-    const existia = new Set(met.datos.filter((m) => m.mes <= mes).map((m) => m.campanaId));
+    const existia = new Set(metMes.filter((m) => m.mes <= mes).map((m) => m.campanaId));
     return camp.datos
       .filter((c) => porId.has(c.id) || (c.cuenta === 'actual' && c.estado === 'ENABLED' && (mes === enCurso || existia.has(c.id))))
       .map((c) => {
@@ -143,7 +170,7 @@ export default function VistaPresupuesto() {
         cuenta: c.cuenta,
       };
     });
-  }, [camp.datos, delMes, mes, enCurso, met.datos]);
+  }, [camp.datos, delMes, mes, enCurso, metMes]);
   const incompleto = mesIncompleto(mes, hasta, enCurso);
   // la vista histórica usa todo el catálogo (incluye campañas eliminadas y de la cuenta anterior)
   const refsHistoricas = useMemo(
@@ -155,7 +182,10 @@ export default function VistaPresupuesto() {
     [camp.datos, cliente],
   );
   const hayDiario = metD.datos.some((d) => d.fecha.startsWith(mes));
-  const modoVer: Modo = modo === 'calendario' && !hayDiario ? 'mes' : modo;
+  // 'dia' (promedio por día) ya no existe: si quedó guardado, se ve el mes
+  const modoVer: Modo = !MODOS.includes(modo) || (modo !== 'mes' && !hayDiario) ? 'mes' : modo;
+  const decenas = useMemo(() => decenasDelMes(mes, ultimoDiaConDatos(metD.datos, mes)), [mes, metD.datos]);
+  const gastoDecenas = useMemo(() => gastoPorDecena(metD.datos, mes), [metD.datos, mes]);
 
   const paises = useMemo(() => [...new Set(campanas.filter((c) => !cliente || c.marca === cliente).map((c) => c.unidad))].sort(), [campanas, cliente]);
   const texto = q.trim().toLowerCase();
@@ -228,24 +258,37 @@ export default function VistaPresupuesto() {
             opciones={(vista === 'historico' ? paisesTodos : paises).map((p) => ({ id: p, label: p }))}
           />
           {vista === 'mes' && meses.length > 1 && (
-            <Select
-              etiqueta="Período"
-              ariaLabel="Mes"
-              valor={mesElegido === porDefecto ? '' : mesElegido}
-              onChange={setMes}
-              todo={`${mesCorto(porDefecto)}${porDefecto < enCurso ? ' (último cerrado)' : ''}`}
-              opciones={meses
-                .filter((m) => m !== porDefecto)
-                .map((m) => ({
-                  id: m,
-                  label:
-                    m === enCurso
-                      ? `${mesCorto(m)} (en curso)`
-                      : mesIncompleto(m, hastaPorMes.get(m), enCurso)
-                        ? `${mesCorto(m)} (incompleto: hasta ${fecha(hastaPorMes.get(m) ?? null)})`
-                        : mesCorto(m),
-                }))}
-            />
+            <div className="flex flex-col gap-1">
+              <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-mc-grey">Mes</span>
+              <div className="flex items-center gap-1.5">
+                <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm" role="tablist" aria-label="Mes">
+                  {recientes.map((m) => (
+                    <button
+                      key={m}
+                      type="button"
+                      role="tab"
+                      aria-selected={m === mes}
+                      onClick={() => setMes(m === porDefecto ? '' : m)}
+                      title={etiquetaMes(m)}
+                      className={`px-3 py-1.5 font-medium transition ${m === mes ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
+                    >
+                      {mesCorto(m)}
+                      {m === enCurso && <span className="ml-1 text-[10px] opacity-70">en curso</span>}
+                      {m !== enCurso && mesIncompleto(m, hastaPorMes.get(m), enCurso) && <span className="ml-1 text-[10px] opacity-70">incompleto</span>}
+                    </button>
+                  ))}
+                </div>
+                {anteriores.length > 0 && (
+                  <Select
+                    ariaLabel="Meses anteriores"
+                    valor={anteriores.includes(mes) ? mes : ''}
+                    onChange={(v) => setMes(v)}
+                    todo="Anteriores…"
+                    opciones={anteriores.map((m) => ({ id: m, label: etiquetaMes(m) }))}
+                  />
+                )}
+              </div>
+            </div>
           )}
           <div className="flex flex-col gap-1">
             <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-mc-grey">Vista</span>
@@ -277,14 +320,16 @@ export default function VistaPresupuesto() {
       </div>
 
       {vista === 'historico' ? (
-        <VistaHistorica campanas={refsHistoricas} metricas={met.datos} mesEnCurso={enCurso} />
+        <VistaHistorica campanas={refsHistoricas} metricas={metMes} mesEnCurso={enCurso} />
       ) : (
         <>
           <PanelRotacion r={resumen} clientes={arbol} mes={mes} dias={dias} diasMes={diasMes} />
 
           <section>
-            <SeccionTitulo meta={modoVer === 'calendario' ? 'cada día contra el presupuesto diario' : 'clic en cada fila para abrirla'}>
-              {modoVer === 'calendario' ? 'Día a día' : 'Detalle por cliente, país, campaña y grupo'}
+            <SeccionTitulo
+              meta={modoVer === 'calendario' ? 'cada día contra el presupuesto diario' : modoVer === 'decena' ? 'cada tramo contra su presupuesto' : 'clic en cada fila para abrirla'}
+            >
+              {modoVer === 'calendario' ? 'Día a día' : `Detalle por cliente, país, campaña${modoVer === 'mes' ? ' y grupo' : ''} · ${mesCorto(mes)}`}
             </SeccionTitulo>
             <div className="mb-3 flex flex-wrap items-center gap-2">
               <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm">
@@ -293,11 +338,11 @@ export default function VistaPresupuesto() {
                     key={m}
                     type="button"
                     onClick={() => setModo(m)}
-                    disabled={m === 'calendario' && !hayDiario}
-                    title={m === 'calendario' && !hayDiario ? 'No hay gasto por día cargado para este mes' : undefined}
+                    disabled={m !== 'mes' && !hayDiario}
+                    title={m !== 'mes' && !hayDiario ? 'No hay gasto por día cargado para este mes' : undefined}
                     className={`px-3 py-1.5 font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${modoVer === m ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
                   >
-                    {m === 'mes' ? `Mes (${mesCorto(mes)})` : m === 'dia' ? 'Promedio por día' : 'Día a día'}
+                    {ETIQUETA_MODO[m]}
                   </button>
                 ))}
               </div>
@@ -319,7 +364,21 @@ export default function VistaPresupuesto() {
               )}
             </div>
 
-            {modoVer === 'calendario' ? (
+            {modoVer === 'decena' ? (
+              metD.cargando ? (
+                <EsqueletoPresupuesto />
+              ) : (
+                <VistaDecenas
+                  arbol={arbol}
+                  mes={mes}
+                  diasMes={diasMes}
+                  decenas={decenas}
+                  gasto={gastoDecenas}
+                  abiertos={abiertos}
+                  alternar={alternar}
+                />
+              )
+            ) : modoVer === 'calendario' ? (
               <>
                 <div className="mb-3 flex flex-wrap gap-4 text-xs text-mc-grey">
                   <span>
@@ -354,11 +413,9 @@ export default function VistaPresupuesto() {
                   <span>
                     <b>● Gris</b> sin presupuesto activo (pausada o eliminada)
                   </span>
-                  {modoVer === 'mes' && (
-                    <span>
-                      <b className="text-mc-navy">|</b> dónde debería estar el consumo al día {dias}
-                    </span>
-                  )}
+                  <span>
+                    <b className="text-mc-navy">|</b> dónde debería estar el consumo al día {dias}
+                  </span>
                 </div>
 
                 <Tarjeta className="overflow-x-auto">
@@ -366,15 +423,15 @@ export default function VistaPresupuesto() {
                     <div className={`${COLUMNAS} px-4 py-2 text-[10px] font-semibold uppercase tracking-[0.12em] text-mc-grey`}>
                       <span />
                       <span>Nivel</span>
-                      <span className="text-right">{modoVer === 'mes' ? `Presup. × ${diasMes} d` : 'Presup. / día'}</span>
-                      <span className="text-right">{modoVer === 'mes' ? 'Gasto del mes' : 'Gasto / día'}</span>
-                      <span>{modoVer === 'mes' ? 'Consumo del presupuesto (0–100%)' : 'Uso del presupuesto diario'}</span>
+                      <span className="text-right">{`Presup. × ${diasMes} d`}</span>
+                      <span className="text-right">Gasto del mes</span>
+                      <span>Consumo del presupuesto (0–100%)</span>
                       <span className="text-center">Desvío</span>
                       <span className="text-right">Clics</span>
                       <span className="text-right">Conv.</span>
                     </div>
                     {arbol.map((n) => (
-                      <Fila key={n.clave} n={n} modo={modoVer} dias={dias} diasMes={diasMes} abiertos={abiertos} alternar={alternar} />
+                      <Fila key={n.clave} n={n} dias={dias} diasMes={diasMes} abiertos={abiertos} alternar={alternar} />
                     ))}
                   </div>
                 </Tarjeta>

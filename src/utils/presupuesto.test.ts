@@ -1,5 +1,8 @@
 import { describe, expect, it } from 'vitest';
-import { armarArbol, consumoMes, diaSemana, diasDelMes, estadoDia, fechasDelMes, presupuestoActivo, resumir, ritmo, semaforo, totalDia, type CampanaGasto } from './presupuesto';
+import {
+  armarArbol, campanasDe, consumoMes, decenasDelMes, diaSemana, diasDelMes, estadoDia, fechasDelMes, gastoPorDecena, mesDesdeDiario, presupuestoActivo, resumir, ritmo,
+  semaforo, totalDia, type CampanaGasto,
+} from './presupuesto';
 
 const c = (id: string, over: Partial<CampanaGasto>): CampanaGasto => ({
   id, nombre: id, marca: 'CU', unidad: 'España', estado: 'ENABLED', presupuestoDia: 1000, coste: 0, clics: 0, conv: 0, ...over,
@@ -81,5 +84,35 @@ describe('día a día', () => {
     expect(t.presDia).toBe(2000);
     expect(t.estado).toBe('ok');
     expect([t.sobre, t.sin, t.ok]).toEqual([1, 1, 0]);
+  });
+});
+
+describe('mes en curso y tramos de 10 días', () => {
+  const d = (campanaId: string, fecha: string, coste: number) => ({ campanaId, fecha, coste, clics: 1, impresiones: 10, conversiones: 0 });
+  const diarias = [d('a', '2026-11-01', 100), d('a', '2026-11-08', 50), d('b', '2026-11-12', 30), d('a', '2026-10-31', 999)];
+
+  it('arma el mes desde el gasto diario, con los días transcurridos', () => {
+    const m = mesDesdeDiario(diarias, '2026-11');
+    expect(m.find((x) => x.campanaId === 'a')).toMatchObject({ coste: 150, clics: 2, dias: 12, hasta: '2026-11-12', desde: '2026-11-01' });
+    expect(m).toHaveLength(2);
+    expect(mesDesdeDiario(diarias, '2026-12')).toEqual([]);
+  });
+
+  it('tramos 1–10, 11–20, 21–fin con los días que tienen datos', () => {
+    expect(decenasDelMes('2026-11', '2026-11-12').map((x) => [x.desde, x.hasta, x.conDatos])).toEqual([[1, 10, 10], [11, 20, 2], [21, 30, 0]]);
+    expect(decenasDelMes('2026-10', '2026-10-31').map((x) => x.dias)).toEqual([10, 10, 11]);
+    expect(decenasDelMes('2026-10', '2026-11-08').map((x) => x.conDatos)).toEqual([10, 10, 11]);
+    expect(decenasDelMes('2026-12', '2026-11-08').map((x) => x.conDatos)).toEqual([0, 0, 0]);
+  });
+
+  it('reparte el gasto de cada campaña por tramo', () => {
+    const g = gastoPorDecena(diarias, '2026-11');
+    expect(g.get('a')).toEqual([150, 0, 0]);
+    expect(g.get('b')).toEqual([0, 30, 0]);
+  });
+
+  it('lista las campañas debajo de un nodo', () => {
+    const arbol = armarArbol([c('x', {}), c('y', { unidad: 'Portugal' })], []);
+    expect(campanasDe(arbol[0]).sort()).toEqual(['x', 'y']);
   });
 });

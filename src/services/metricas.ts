@@ -94,3 +94,10 @@ export async function listarMetricasDia(desde: string): Promise<MetricaDia[]> {
   }
   return filas.map(metricaDiaFromRow);
 }
+
+/** Último día con gasto diario cargado ('AAAA-MM-DD'), o null. Para la fecha de datos del encabezado. */
+export async function ultimoDiaGasto(): Promise<string | null> {
+  const { data, error } = await supabase.from('metricas_dia').select('fecha').order('fecha', { ascending: false }).limit(1);
+  if (error) throw error;
+  return data?.[0]?.fecha ?? null;
+}

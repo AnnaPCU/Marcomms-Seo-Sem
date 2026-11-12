@@ -6,7 +6,7 @@ import { useEffect } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
 import { BarChart3, TrendingUp, LogOut, Megaphone, Moon, Search, Sun, Wallet, CircleCheck } from 'lucide-react';
 import { useAuth } from '@/hooks/useAuth';
-import { useExtracciones } from '@/hooks/useDatos';
+import { useExtracciones, useUltimoDiaGasto } from '@/hooks/useDatos';
 import { useTema } from '@/hooks/useTema';
 import { leerGuardado, guardar } from '@/hooks/usePersistente';
 import { fecha } from '@/utils/formato';
@@ -71,6 +71,9 @@ export default function Layout() {
   const ext = useExtracciones();
   const actual = NAV.find((n) => (n.fin ? pathname === n.to : pathname.startsWith(n.to))) ?? NAV[0];
   const ads = ext.datos.google_ads;
+  // la fecha de datos es la más nueva entre el último cierre de mes y el último día de gasto diario cargado
+  const diario = useUltimoDiaGasto();
+  const adsHasta = [ads?.hasta ?? '', diario.datos ?? ''].sort().pop() || null;
   const [tema, alternarTema] = useTema();
   useRestaurarScroll(pathname);
 
@@ -85,9 +88,9 @@ export default function Layout() {
             <div className="text-[11px] text-mc-grey">{actual.sub}</div>
           </div>
           <div className="ml-auto flex items-center gap-2">
-            {ads?.hasta && (
+            {adsHasta && (
               <span className="hidden items-center gap-1.5 rounded-full bg-sky-50 px-3 py-1 text-[11px] font-semibold text-mc-blue2 ring-1 ring-sky-200 md:inline-flex">
-                <CircleCheck size={13} /> Datos reales · Ads al {fecha(ads.hasta)}
+                <CircleCheck size={13} /> Datos reales · Ads al {fecha(adsHasta)}
               </span>
             )}
             <button
