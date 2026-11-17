@@ -6,7 +6,8 @@ import type { Estado } from '@/lib/database.types';
 import { ESTADOS, ESTADO_BY_ID, MARCA_BY_ID } from '@/constants/estados';
 import { listarEventos, type Evento, type Recomendacion } from '@/services/recomendaciones';
 import { Boton, ChipMarca, ChipPrioridad } from '@/components/shared/Ui';
-import { fechaHora, mesCorto } from '@/utils/formato';
+import { fecha, fechaHora, mesCorto } from '@/utils/formato';
+import { actualizacionReciente } from '@/utils/revision';
 import type { Contexto } from './TarjetaRec';
 import { FichaAnuncio, FichaPlan, type DatosAnuncio, type DatosPlan } from './Fichas';
 import { FichaCampana, type DatosCampana } from './FichaCampana';
@@ -73,6 +74,7 @@ export default function DetalleRec({
   const evidencia = ficha ? [] : Object.entries(rec.evidencia);
   // las fichas «campana» y «seo» van al grano: la ficha ya dice dónde, así que arriba solo cliente y estado
   const alGrano = ficha === 'campana' || ficha === 'seo';
+  const act = rec.estado === 'propuesta' || rec.estado === 'en_proceso' ? actualizacionReciente(rec.evidencia) : null;
   return createPortal(
     <div className="fixed inset-0 z-40 flex justify-end bg-mc-fuerte/30" onClick={onCerrar}>
       <aside
@@ -96,6 +98,15 @@ export default function DetalleRec({
         </div>
 
         <div className="space-y-5 px-5 py-4 text-sm">
+          {act && (
+            <p className="rounded-lg border border-amber-200 bg-amber-50 px-3 py-2 text-[13px] text-amber-900">
+              <span className="font-semibold">
+                Actualizada en la revisión mensual{act.fecha ? ` del ${fecha(act.fecha)}` : ` de ${mesCorto(act.mes)}`}
+                {rec.estado === 'en_proceso' ? ' (ya estaba en proceso)' : ''}.
+              </span>
+              {act.motivo ? ` ${act.motivo}` : ''}
+            </p>
+          )}
           <dl className="grid grid-cols-[110px_1fr] gap-x-3 gap-y-1 text-[13px] md:grid-cols-[110px_1fr_110px_1fr]">
             <dt className="text-mc-grey">Cliente</dt>
             <dd className="text-mc-navy">{MARCA_BY_ID[rec.marca]?.label ?? rec.marca}</dd>

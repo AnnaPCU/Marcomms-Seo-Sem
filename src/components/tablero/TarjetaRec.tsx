@@ -1,10 +1,11 @@
 /** Una recomendación en el tablero: arrastrable entre columnas, clic para abrir el detalle. */
 import { useDraggable } from '@dnd-kit/core';
-import { CheckCircle2 } from 'lucide-react';
+import { CheckCircle2, RefreshCw } from 'lucide-react';
 import type { Recomendacion } from '@/services/recomendaciones';
 import { ChipMarca, ChipPrioridad } from '@/components/shared/Ui';
 import { PRIORIDAD_BY_ID } from '@/constants/estados';
-import { campanaCorta, mesCorto } from '@/utils/formato';
+import { campanaCorta, fecha, mesCorto } from '@/utils/formato';
+import { actualizacionReciente } from '@/utils/revision';
 
 export interface Contexto {
   campana: string | null;
@@ -23,11 +24,21 @@ export function ubicacionSem(rec: Recomendacion, ctx: Contexto): string {
 
 export function CuerpoTarjeta({ rec, ctx, arrastrando }: { rec: Recomendacion; ctx: Contexto; arrastrando?: boolean }) {
   const ubicacion = rec.tipo === 'SEM' ? ubicacionSem(rec, ctx) : [rec.sitio, rec.pagina].filter(Boolean).join(' ');
+  // solo en las abiertas: una hecha o descartada ya no se actualiza
+  const act = rec.estado === 'propuesta' || rec.estado === 'en_proceso' ? actualizacionReciente(rec.evidencia) : null;
   return (
     <div className={`rounded-card border border-l-4 bg-mc-sup px-3 py-2.5 shadow-card transition ${arrastrando ? 'rotate-1 border-mc-blue shadow-elevada' : 'border-mc-hair/80 hover:-translate-y-0.5 hover:shadow-elevada'} ${PRIORIDAD_BY_ID[rec.prioridad]?.borde ?? ''}`}>
       <div className="mb-1.5 flex items-center gap-1.5">
         <ChipMarca marca={rec.marca} />
         <ChipPrioridad prioridad={rec.prioridad} />
+        {act && (
+          <span
+            title={`Actualizada en la revisión mensual${act.fecha ? ` del ${fecha(act.fecha)}` : ''}${act.motivo ? `: ${act.motivo}` : ''}`}
+            className="inline-flex items-center gap-1 rounded-full bg-amber-100 px-1.5 py-0.5 text-[10px] font-semibold text-amber-800"
+          >
+            <RefreshCw size={10} /> Actualizada
+          </span>
+        )}
         {rec.verificadaApi && (
           <span title="La API confirmó que está aplicada" className="ml-auto text-mc-blue">
             <CheckCircle2 size={14} />
