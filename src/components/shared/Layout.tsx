@@ -1,6 +1,6 @@
 /**
  * Marco de la app, como MarComms Reports: barra superior blanca fija. Arriba, el logo y las pestañas; abajo, los
- * filtros de la vista (cada vista los pone con <FiltrosHeader>) y, a la derecha, la frescura de los datos.
+ * filtros de la vista (cada vista los pone con <FiltrosHeader>). La frescura de los datos va en el pie.
  */
 import { useEffect, useState } from 'react';
 import { NavLink, Outlet, useLocation } from 'react-router-dom';
@@ -125,19 +125,21 @@ export default function Layout() {
         <div className="border-t border-mc-hair/60">
           <div className="mx-auto flex max-w-[1240px] flex-wrap items-center gap-3 px-6 py-2.5">
             <div ref={setRanura} className="flex min-w-0 flex-1 flex-wrap items-center gap-2" />
-            {adsHasta && (
-              <span className="ml-auto hidden shrink-0 items-center gap-1.5 rounded-full bg-sky-50 px-3 py-1 text-[11px] font-semibold text-mc-blue2 ring-1 ring-sky-200 md:inline-flex">
-                <CircleCheck size={13} /> Datos reales · Ads al {fecha(adsHasta)}
-              </span>
-            )}
           </div>
         </div>
       </header>
       <main className="mx-auto max-w-[1240px] px-6 py-7">
         <Outlet />
       </main>
-      <footer className="mx-auto max-w-[1240px] px-6 pb-8 text-[11px] text-mc-grey">
-        MarComms · Tablero SEO · SEM · Documento interno. Control Union y Peterson Solutions se muestran por separado y sin su identidad de marca.
+      <footer className="mx-auto flex max-w-[1240px] flex-wrap items-center justify-between gap-3 px-6 pb-8 text-[11px] text-mc-grey">
+        <span>
+          MarComms · Tablero SEO · SEM · Documento interno. Control Union y Peterson Solutions se muestran por separado y sin su identidad de marca.
+        </span>
+        {adsHasta && (
+          <span className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-sky-50 px-3 py-1 font-semibold text-mc-blue2 ring-1 ring-sky-200">
+            <CircleCheck size={13} /> Datos reales · Ads al {fecha(adsHasta)}
+          </span>
+        )}
       </footer>
     </div>
     </RanuraFiltros.Provider>
