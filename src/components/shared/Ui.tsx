@@ -146,6 +146,25 @@ export function Boton({
   );
 }
 
+/** Botonera de dos o más opciones excluyentes (p. ej. «Un mes» / «Histórico»). */
+export function Alternador({ opciones, valor, onChange }: { opciones: [string, string][]; valor: string; onChange: (v: string) => void }) {
+  return (
+    <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm">
+      {opciones.map(([id, label]) => (
+        <button
+          key={id}
+          type="button"
+          aria-pressed={valor === id}
+          onClick={() => onChange(id)}
+          className={`px-3 py-1.5 font-medium transition ${valor === id ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
+        >
+          {label}
+        </button>
+      ))}
+    </div>
+  );
+}
+
 /** Selector con etiqueta chica arriba, como los filtros de la barra de Reports. */
 export function Select({
   valor,

@@ -4,11 +4,9 @@
  */
 import { usePersistente } from '@/hooks/usePersistente';
 import { AlertTriangle, ArrowDownRight, ArrowUpRight, ChevronDown, CircleSlash, Repeat } from 'lucide-react';
-import { MARCA_BY_ID } from '@/constants/estados';
 import { Kpi, PanelOscuro, Pildora, SeccionTitulo, Tarjeta } from '@/components/shared/Ui';
 import { ars, campanaCorta, mesCorto } from '@/utils/formato';
-import { consumoMes, semaforo, UMBRAL_OCIOSO, UMBRAL_TOPE, type FilaRotacion, type Nodo, type Resumen } from '@/utils/presupuesto';
-import { BarraConsumo } from './Semaforo';
+import { UMBRAL_OCIOSO, UMBRAL_TOPE, type FilaRotacion, type Resumen } from '@/utils/presupuesto';
 import Embudo from './Embudo';
 
 const VISIBLES = 8;
@@ -57,13 +55,12 @@ function Lista({ filas, vacio, tipo }: { filas: FilaRotacion[]; vacio: string; t
 
 interface Props {
   r: Resumen;
-  clientes: Nodo[];
   mes: string;
   dias: number;
   diasMes: number;
 }
 
-export default function PanelRotacion({ r, clientes, mes, dias, diasMes }: Props) {
+export default function PanelRotacion({ r, mes, dias, diasMes }: Props) {
   const ritmoTotal = r.presDia ? r.gastoDia / r.presDia : 0;
   const proyeccionRel = r.presMes > 0 ? r.proyeccion / r.presMes : 0;
   // Meses de la cuenta anterior: no hay presupuesto cargado, así que no se compara contra nada.
@@ -101,44 +98,22 @@ export default function PanelRotacion({ r, clientes, mes, dias, diasMes }: Props
             nota={sinPres ? 'Sin presupuesto para comparar' : `en ${r.ociosas.length} campañas que gastan menos de la mitad`}
           />
         </div>
-      </section>
-
-      <section>
-        <SeccionTitulo meta={`la línea marca dónde debería estar al día ${dias} (${Math.round(r.esperado * 100)}%)`}>Consumo del presupuesto</SeccionTitulo>
-        <Tarjeta className="space-y-4 p-5">
-          <div>
-            <div className="mb-1.5 flex items-baseline justify-between">
-              <span className="text-sm font-semibold text-mc-navy">Total de la cuenta</span>
-              <span className="font-mono text-xs text-mc-grey">
-                {sinPres ? ars(r.gasto) : `${ars(r.gasto)} de ${ars(r.presMes)}`}
-              </span>
-            </div>
-            <BarraConsumo valor={r.consumo} semaforo={r.consumo !== null && r.consumo > r.esperado * 1.05 ? 'rojo' : 'verde'} marca={r.esperado} alto />
-          </div>
-          <div className="grid grid-cols-1 divide-y divide-mc-hair border-t border-mc-tint2 pt-4 md:grid-cols-3 md:divide-x md:divide-y-0">
-            {clientes.map((c) => (
-              <div key={c.clave} className="py-3 first:pt-0 last:pb-0 md:px-5 md:py-0 md:first:pl-0 md:last:pr-0">
-                <div className="mb-1 flex items-baseline justify-between gap-2">
-                  <span className="truncate text-[13px] font-semibold text-mc-navy">{MARCA_BY_ID[c.clave as keyof typeof MARCA_BY_ID]?.label ?? c.nombre}</span>
-                  <span className="shrink-0 font-mono text-[11px] text-mc-grey">{ars(c.coste)}</span>
-                </div>
-                <BarraConsumo valor={consumoMes(c.coste, c.presDia, diasMes)} semaforo={semaforo(c.coste, c.presDia, dias)} marca={r.esperado} />
-              </div>
-            ))}
-          </div>
-        </Tarjeta>
-        {!sinPres && (
-            <div className="mt-3 flex flex-wrap gap-2 text-[13px]">
+        {!sinPres && (r.sobre.length > 0 || r.sinGasto.length > 0) && (
+          <div className="mt-3 flex flex-wrap gap-2 text-[13px]">
+            {r.sobre.length > 0 && (
               <span className="inline-flex items-center gap-1.5 rounded-lg bg-red-50 px-3 py-1.5 text-red-800 ring-1 ring-red-200">
                 <AlertTriangle size={14} /> <b>{r.sobre.length}</b> {r.sobre.length === 1 ? 'campaña gasta' : 'campañas gastan'} más de un 5% por encima de su
                 presupuesto
               </span>
+            )}
+            {r.sinGasto.length > 0 && (
               <span className="inline-flex items-center gap-1.5 rounded-lg bg-red-50 px-3 py-1.5 text-red-800 ring-1 ring-red-200">
                 <CircleSlash size={14} /> <b>{r.sinGasto.length}</b> {r.sinGasto.length === 1 ? 'campaña activa no gasta' : 'campañas activas no gastan'} nada
               </span>
-            </div>
-          )}
-        </section>
+            )}
+          </div>
+        )}
+      </section>
 
         <section>
           <SeccionTitulo meta="Search · Google Ads">Embudo de conversión — impresión → clic → conversión</SeccionTitulo>

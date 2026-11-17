@@ -9,7 +9,8 @@ import { AlertTriangle, ChevronRight, Info } from 'lucide-react';
 import { useCampanas, useGa4, useMetricas } from '@/hooks/useDatos';
 import type { Ga4Landing, Ga4SitioMes } from '@/services/ga4';
 import { MARCAS } from '@/constants/estados';
-import { ChipMarca, ErrorBox, Intro, Pildora, SeccionTitulo, Select, Tarjeta, Vacio } from '@/components/shared/Ui';
+import { Alternador, ChipMarca, ErrorBox, Intro, Pildora, SeccionTitulo, Select, Tarjeta, Vacio } from '@/components/shared/Ui';
+import FiltrosHeader from '@/components/shared/FiltrosHeader';
 import { EsqueletoPresupuesto } from '@/components/shared/Loader';
 import { alertas, canal, CANALES, clicsAds, esPaginaReal, MIN_LANDING, tasa, totales, tramosCanal, UMBRAL_LANDING, UMBRAL_MEDICION, type Alerta } from '@/utils/ga4';
 import { entero, fecha, mesActual, mesCorto, pct } from '@/utils/formato';
@@ -218,7 +219,6 @@ export default function Sitios() {
   );
   const t = totales(filas.map((f) => f.s.datos));
   const conAlerta = filas.filter((f) => alertas(f.s.datos, f.clics).length).length;
-  const ref = filas[0]?.s;
 
   const alternar = (k: string) =>
     setAbiertos((prev) => {
@@ -235,54 +235,25 @@ export default function Sitios() {
 
   return (
     <div className="space-y-5 animate-fade-in">
-      <div className="flex flex-wrap items-end justify-between gap-3 rounded-card bg-mc-sup px-4 py-3 shadow-card">
-        <div className="flex flex-wrap items-end gap-3">
+      <FiltrosHeader>
+        <Select
+          ariaLabel="Cliente"
+          valor={cliente}
+          onChange={setCliente}
+          todo="Todos los clientes"
+          opciones={MARCAS.filter((m) => m.id !== 'PCU').map((m) => ({ id: m.id, label: m.label }))}
+        />
+        {vista === 'mes' && (
           <Select
-            etiqueta="Cliente"
-            ariaLabel="Cliente"
-            valor={cliente}
-            onChange={setCliente}
-            todo="Todos los clientes"
-            opciones={MARCAS.filter((m) => m.id !== 'PCU').map((m) => ({ id: m.id, label: m.label }))}
+            ariaLabel="Mes"
+            valor={mesElegido}
+            onChange={setMes}
+            todo={`${mesCorto(porDefecto)} (último completo)`}
+            opciones={meses.filter((m) => m.mes !== porDefecto).map((m) => ({ id: m.mes, label: m.dias === diasDelMes(m.mes) ? mesCorto(m.mes) : `${mesCorto(m.mes)} (al ${fecha(m.hasta)})` }))}
           />
-          {vista === 'mes' && (
-            <Select
-              etiqueta="Período"
-              ariaLabel="Mes"
-              valor={mesElegido}
-              onChange={setMes}
-              todo={`${mesCorto(porDefecto)} (último completo)`}
-              opciones={meses.filter((m) => m.mes !== porDefecto).map((m) => ({ id: m.mes, label: m.dias === diasDelMes(m.mes) ? mesCorto(m.mes) : `${mesCorto(m.mes)} (al ${fecha(m.hasta)})` }))}
-            />
-          )}
-          <div className="flex flex-col gap-1">
-            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-mc-grey">Vista</span>
-            <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm">
-              {(['mes', 'historico'] as const).map((v) => (
-                <button
-                  key={v}
-                  type="button"
-                  onClick={() => setVista(v)}
-                  className={`px-3 py-1.5 font-medium transition ${vista === v ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
-                >
-                  {v === 'mes' ? 'Un mes' : 'Histórico'}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-        {vista === 'historico' ? (
-          <p className="text-xs text-mc-grey">
-            {mesCorto(meses[meses.length - 1]?.mes)} a {mesCorto(meses[0]?.mes)} · {meses.length} meses · Google Analytics 4
-          </p>
-        ) : (
-          ref && (
-            <p className="text-xs text-mc-grey">
-              Datos del {fecha(ref.desde)} al {fecha(ref.hasta)} · {ref.dias} días · Google Analytics 4
-            </p>
-          )
         )}
-      </div>
+        <Alternador opciones={[['mes', 'Un mes'], ['historico', 'Histórico']]} valor={vista} onChange={(v) => setVista(v as 'mes' | 'historico')} />
+      </FiltrosHeader>
 
       {vista === 'historico' ? (
         <VistaSitiosHistorica datos={ga4.datos.filter((s) => !cliente || s.marca === cliente)} mesEnCurso={mesActual()} />

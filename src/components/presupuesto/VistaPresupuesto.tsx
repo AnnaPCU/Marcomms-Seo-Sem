@@ -10,7 +10,7 @@ import { usePersistente, usePersistenteSet } from '@/hooks/usePersistente';
 import { ChevronRight } from 'lucide-react';
 import { MARCA_BY_ID, MARCAS } from '@/constants/estados';
 import { useCampanas, useGrupos, useMetricas, useMetricasDia, useMetricasGrupo } from '@/hooks/useDatos';
-import { ErrorBox, SeccionTitulo, Select, Tarjeta, Vacio } from '@/components/shared/Ui';
+import { Alternador, ErrorBox, SeccionTitulo, Select, Tarjeta, Vacio } from '@/components/shared/Ui';
 import { EsqueletoPresupuesto } from '@/components/shared/Loader';
 import { ars, campanaCorta, entero, fecha, mesActual, mesCorto } from '@/utils/formato';
 import { mesIncompleto, mesPorDefecto } from '@/utils/historico';
@@ -20,6 +20,7 @@ import {
   type CampanaGasto, type GrupoGasto, type Nodo,
 } from '@/utils/presupuesto';
 import PanelRotacion from './PanelRotacion';
+import FiltrosHeader from '@/components/shared/FiltrosHeader';
 import { BarraConsumo, ChipDesvio } from './Semaforo';
 import VistaDecenas from './VistaDecenas';
 import VistaDiaria from './VistaDiaria';
@@ -237,75 +238,49 @@ export default function VistaPresupuesto() {
 
   return (
     <div className="space-y-7 animate-fade-in">
-      <div className="flex flex-wrap items-end justify-between gap-3 rounded-card bg-mc-sup px-4 py-3 shadow-card">
-        <div className="flex flex-wrap items-end gap-3">
-          <Select
-            etiqueta="Cliente"
-            ariaLabel="Cliente"
-            valor={cliente}
-            onChange={(v) => (setCliente(v), setPais(''))}
-            todo="Todos los clientes"
-            opciones={MARCAS.map((m) => ({ id: m.id, label: m.label }))}
-          />
-          <Select
-            etiqueta="País"
-            ariaLabel="País"
-            valor={pais}
-            onChange={setPais}
-            todo="Todos los países"
-            opciones={(vista === 'historico' ? paisesTodos : paises).map((p) => ({ id: p, label: p }))}
-          />
-          {vista === 'mes' && meses.length > 1 && (
-            <label className="flex flex-col gap-1">
-              <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-mc-grey">Mes</span>
-              <select
-                aria-label="Mes"
-                value={mes}
-                onChange={(e) => setMes(e.target.value)}
-                className="rounded-lg border border-mc-blue/60 bg-mc-sup px-2.5 py-1.5 text-sm font-semibold text-mc-navy transition focus:border-mc-blue focus:outline-none focus:ring-2 focus:ring-mc-blue/15"
-              >
-                {meses.map((m) => (
-                  <option key={m} value={m}>
-                    {etiquetaMes(m)}
-                  </option>
-                ))}
-              </select>
-            </label>
-          )}
-          <div className="flex flex-col gap-1">
-            <span className="text-[10px] font-bold uppercase tracking-[0.14em] text-mc-grey">Vista</span>
-            <div className="inline-flex overflow-hidden rounded-lg border border-mc-hair bg-mc-sup text-sm">
-              {(['mes', 'historico'] as Vista[]).map((v) => (
-                <button
-                  key={v}
-                  type="button"
-                  onClick={() => setVista(v)}
-                  className={`px-3 py-1.5 font-medium transition ${vista === v ? 'bg-mc-fuerte text-white' : 'text-mc-ink hover:bg-mc-tint'}`}
-                >
-                  {v === 'mes' ? 'Un mes' : 'Histórico'}
-                </button>
-              ))}
-            </div>
-          </div>
-        </div>
-        {vista === 'mes' && incompleto && (
-          <p role="alert" className="w-full rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800">
-            {mesCorto(mes)} ya terminó, pero los datos llegan solo hasta el {fecha(hasta)}: falta correr la extracción de cierre de
-            mes. Los totales de este mes están incompletos.
-          </p>
+      <FiltrosHeader>
+        <Select
+          ariaLabel="Cliente"
+          valor={cliente}
+          onChange={(v) => (setCliente(v), setPais(''))}
+          todo="Todos los clientes"
+          opciones={MARCAS.map((m) => ({ id: m.id, label: m.label }))}
+        />
+        <Select
+          ariaLabel="País"
+          valor={pais}
+          onChange={setPais}
+          todo="Todos los países"
+          opciones={(vista === 'historico' ? paisesTodos : paises).map((p) => ({ id: p, label: p }))}
+        />
+        {vista === 'mes' && meses.length > 1 && (
+          <select
+            aria-label="Mes"
+            value={mes}
+            onChange={(e) => setMes(e.target.value)}
+            className="rounded-lg border border-mc-blue/60 bg-mc-sup px-2.5 py-1.5 text-sm font-semibold text-mc-navy transition focus:border-mc-blue focus:outline-none focus:ring-2 focus:ring-mc-blue/15"
+          >
+            {meses.map((m) => (
+              <option key={m} value={m}>
+                {etiquetaMes(m)}
+              </option>
+            ))}
+          </select>
         )}
-        {vista === 'historico' && (
-          <p className="text-xs text-mc-grey">
-            {mesCorto(meses[meses.length - 1])} a {mesCorto(meses[0])} · {meses.length} meses · API de Google Ads
-          </p>
-        )}
-      </div>
+        <Alternador opciones={[['mes', 'Un mes'], ['historico', 'Histórico']]} valor={vista} onChange={(v) => setVista(v as Vista)} />
+      </FiltrosHeader>
+      {vista === 'mes' && incompleto && (
+        <p role="alert" className="rounded-lg border border-red-200 bg-red-50 px-3 py-2 text-sm text-red-800">
+          {mesCorto(mes)} ya terminó, pero los datos llegan solo hasta el {fecha(hasta)}: falta correr la extracción de cierre de
+          mes. Los totales de este mes están incompletos.
+        </p>
+      )}
 
       {vista === 'historico' ? (
         <VistaHistorica campanas={refsHistoricas} metricas={metMes} mesEnCurso={enCurso} />
       ) : (
         <>
-          <PanelRotacion r={resumen} clientes={arbol} mes={mes} dias={dias} diasMes={diasMes} />
+          <PanelRotacion r={resumen} mes={mes} dias={dias} diasMes={diasMes} />
 
           <section>
             <SeccionTitulo

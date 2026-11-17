@@ -1,4 +1,4 @@
-/** Barra de filtros del tablero. Los valores viven en la URL para poder compartir una vista. */
+/** Filtros del tablero (van en el encabezado). Los valores viven en la URL para poder compartir una vista. */
 import { useEffect } from 'react';
 import { useLocation, useSearchParams } from 'react-router-dom';
 import { guardar, leerGuardado } from '@/hooks/usePersistente';
@@ -6,6 +6,7 @@ import { MARCAS, PRIORIDADES } from '@/constants/estados';
 import { Select } from '@/components/shared/Ui';
 import type { Recomendacion } from '@/services/recomendaciones';
 import { mesCorto } from '@/utils/formato';
+import FiltrosHeader from '@/components/shared/FiltrosHeader';
 
 export interface FiltrosValores {
   marca: string;
@@ -88,11 +89,13 @@ export default function Filtros({ valores, onChange, paises, campanas, grupos, s
   const campanasVisibles = (campanas ?? []).filter((c) => (!valores.marca || c.marca === valores.marca) && (!valores.pais || c.pais === valores.pais));
   const gruposVisibles = (grupos ?? []).filter((g) => valores.campana && g.campanaId === valores.campana);
   return (
-    <div className="mb-5 flex flex-wrap items-center gap-2 rounded-card bg-mc-sup px-3 py-2.5 shadow-card">
+    <FiltrosHeader>
       <Select ariaLabel="Cliente" valor={valores.marca} onChange={(v) => onChange('marca', v)} todo="Todos los clientes" opciones={MARCAS.map((m) => ({ id: m.id, label: m.label }))} />
       {paises && <Select ariaLabel="País" valor={valores.pais} onChange={(v) => onChange('pais', v)} todo="Todos los países" opciones={paises.map((p) => ({ id: p, label: p }))} />}
       {campanas && (
-        <Select ariaLabel="Campaña" valor={valores.campana} onChange={(v) => onChange('campana', v)} todo="Todas las campañas" opciones={campanasVisibles.map((c) => ({ id: c.id, label: c.label }))} />
+        <span className="max-w-[260px] [&_select]:w-full">
+          <Select ariaLabel="Campaña" valor={valores.campana} onChange={(v) => onChange('campana', v)} todo="Todas las campañas" opciones={campanasVisibles.map((c) => ({ id: c.id, label: c.label }))} />
+        </span>
       )}
       {grupos && valores.campana && (
         <Select ariaLabel="Grupo de anuncios" valor={valores.grupo} onChange={(v) => onChange('grupo', v)} todo="Todos los grupos" opciones={gruposVisibles.map((g) => ({ id: g.id, label: g.label }))} />
@@ -107,6 +110,6 @@ export default function Filtros({ valores, onChange, paises, campanas, grupos, s
         placeholder="Buscar en títulos y detalle…"
         className="min-w-[180px] flex-1 rounded-lg border border-mc-hair bg-mc-tint px-2.5 py-1.5 text-sm transition focus:border-mc-blue focus:bg-mc-sup focus:outline-none focus:ring-2 focus:ring-mc-blue/15"
       />
-    </div>
+    </FiltrosHeader>
   );
 }

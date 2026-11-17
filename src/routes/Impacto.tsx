@@ -10,6 +10,7 @@ import { listarEventosDe, type Evento } from '@/services/recomendaciones';
 import { useCambiosAds, useCampanas, useMetricasDia, useRecomendaciones } from '@/hooks/useDatos';
 import { usePersistente } from '@/hooks/usePersistente';
 import { Cargando, ChipMarca, ErrorBox, Pildora, Select, Tarjeta } from '@/components/shared/Ui';
+import FiltrosHeader from '@/components/shared/FiltrosHeader';
 import { ars, campanaCorta, fecha, signo } from '@/utils/formato';
 import { mensajeError } from '@/utils/errores';
 import { calcularImpacto, fechaResultado, indicadores, MIN_DIAS_DESPUES, variacion, type ImpactoTarjeta, type Veredicto } from '@/utils/impacto';
@@ -130,7 +131,7 @@ export default function Impacto() {
   if (!medidas.length) {
     return (
       <div className="animate-fade-in space-y-4">
-        <div className="flex">{filtroCliente}</div>
+        <FiltrosHeader>{filtroCliente}</FiltrosHeader>
         <Tarjeta className="flex flex-col items-center px-6 py-14 text-center">
           <Hourglass className="h-8 w-8 text-mc-blue" />
           <h2 className="mt-3 text-lg font-semibold text-mc-navy">Próximamente</h2>
@@ -145,7 +146,7 @@ export default function Impacto() {
 
   return (
     <div className="animate-fade-in space-y-4">
-      <div className="flex flex-wrap items-center gap-2 rounded-card bg-mc-sup px-3 py-2.5 shadow-card">
+      <FiltrosHeader>
         {filtroCliente}
         <div className="flex flex-wrap gap-1.5" role="tablist" aria-label="País">
           {paises.map((p) => {
@@ -167,8 +168,8 @@ export default function Impacto() {
             );
           })}
         </div>
-        {enMedicion.length > 0 && <span className="ml-auto text-[12px] text-mc-grey">{enMedicion.length} más en medición</span>}
-      </div>
+        {enMedicion.length > 0 && <span className="text-[12px] text-mc-grey">{enMedicion.length} más en medición</span>}
+      </FiltrosHeader>
 
       {actual && (
         <>
