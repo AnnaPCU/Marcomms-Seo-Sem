@@ -21,7 +21,7 @@ Las tareas equivalentes de la app de escritorio («revision-mensual-sem», «rec
 **Configuración que hace una persona en claude.ai** (no se puede desde una sesión):
 - Las tareas se crearon el 26 nov 2026 desde una sesión, y esta organización no deja guardarles conectores desde ahí.
   En la pantalla de tareas programadas de claude.ai, sumale el **conector de Supabase** a «Chequeo semanal»,
-  «Cierre de mes» y «Recomendaciones» (la entrega Paid no lo usa). Sin él, cargan nada: dejan los `.sql` y avisan.
+  «Cierre de mes» y «Recomendaciones» (la entrega Paid no lo usa). Sin él no cargan nada: dejan los `.sql` y avisan.
 - En el entorno «SEO-SEM» (Settings → Repositories), agregá **AnnaPCU/Marcomms-Seo-Sem**, para que cada sesión
   arranque con el repo, el hook y los permisos de `.claude/settings.json`. Mientras no esté, la tarea agrega el repo
   sola y corre el arranque a mano (lo dice el texto de cada tarea), pero sin esos permisos.
