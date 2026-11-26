@@ -1,0 +1,176 @@
+{
+  "marca": "Peterson Solutions",
+  "trimestre": "2026-Q3",
+  "desde": "2026-07-01",
+  "hasta": "2026-09-30",
+  "extraido": "2026-10-09",
+  "definicion_conversion": "formularios = vistas a páginas de gracias (todo envío Gravity Forms o HubSpot redirige ahí) con origen en otra página del mismo sitio, sin admin ni empleo/academy/reclamos (gracias_real) + emails = click_email con pagePath fuera de empleo, academy y reclamos (EMAIL_REAL); filtros de ga4_export.py",
+  "cuentas": [
+    {
+      "cuenta": "Peterson Solutions South America",
+      "search_console": "https://americas.peterson-solutions.com/",
+      "ga4": "properties/514880041",
+      "seo": {
+        "average_position": 10.06,
+        "impressions": 26163,
+        "total_clicks": 486,
+        "ctr_pct": 1.86,
+        "top_keywords": [
+          {
+            "keyword": "peterson solutions",
+            "clicks": 116,
+            "impressions": 693,
+            "position": 2.3
+          },
+          {
+            "keyword": "peterson solutions brasil",
+            "clicks": 31,
+            "impressions": 89,
+            "position": 1.1
+          },
+          {
+            "keyword": "peterson",
+            "clicks": 15,
+            "impressions": 1697,
+            "position": 9.1
+          },
+          {
+            "keyword": "peterson projects and solutions",
+            "clicks": 3,
+            "impressions": 23,
+            "position": 1.1
+          },
+          {
+            "keyword": "peterson solution",
+            "clicks": 3,
+            "impressions": 35,
+            "position": 8.1
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 1421,
+        "total_traffic_sessions": 1861,
+        "impressions_pageviews": 3414,
+        "conversions": 6,
+        "conversions_detalle": {
+          "formularios": 6,
+          "emails": 0
+        },
+        "conversions_crudas": {
+          "click_email": 0,
+          "form_submit": 27,
+          "total": 27
+        },
+        "vistas_gracias_sin_filtro": 14,
+        "embudo_vista_a_sesion_pct": 54.51,
+        "embudo_sesion_a_conversion_pct": 0.32,
+        "top_pages": [
+          {
+            "page": "https://americas.peterson-solutions.com/",
+            "views": 368
+          },
+          {
+            "page": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/",
+            "views": 301
+          },
+          {
+            "page": "https://americas.peterson-solutions.com/pt-br/",
+            "views": 246
+          },
+          {
+            "page": "https://americas.peterson-solutions.com/en/privacy-policy/",
+            "views": 194
+          },
+          {
+            "page": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+            "views": 127
+          }
+        ]
+      }
+    },
+    {
+      "cuenta": "Peterson Solutions Iberia",
+      "search_console": "https://iberia.peterson-solutions.com/",
+      "ga4": "properties/514881149",
+      "seo": {
+        "average_position": 10.53,
+        "impressions": 17478,
+        "total_clicks": 389,
+        "ctr_pct": 2.23,
+        "top_keywords": [
+          {
+            "keyword": "peterson solutions",
+            "clicks": 102,
+            "impressions": 890,
+            "position": 2.4
+          },
+          {
+            "keyword": "peterson solutions iberia",
+            "clicks": 30,
+            "impressions": 48,
+            "position": 1.0
+          },
+          {
+            "keyword": "one peterson",
+            "clicks": 4,
+            "impressions": 28,
+            "position": 5.5
+          },
+          {
+            "keyword": "peterson's solution",
+            "clicks": 3,
+            "impressions": 89,
+            "position": 1.1
+          },
+          {
+            "keyword": "ecgt",
+            "clicks": 2,
+            "impressions": 376,
+            "position": 4.3
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 476,
+        "total_traffic_sessions": 702,
+        "impressions_pageviews": 1452,
+        "conversions": 3,
+        "conversions_detalle": {
+          "formularios": 3,
+          "emails": 0
+        },
+        "conversions_crudas": {
+          "click_email": 0,
+          "form_submit": 24,
+          "total": 24
+        },
+        "vistas_gracias_sin_filtro": 17,
+        "embudo_vista_a_sesion_pct": 48.35,
+        "embudo_sesion_a_conversion_pct": 0.43,
+        "top_pages": [
+          {
+            "page": "https://iberia.peterson-solutions.com/",
+            "views": 219
+          },
+          {
+            "page": "https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/eu-green-consumer-directive-ecgt-compliance/",
+            "views": 57
+          },
+          {
+            "page": "https://iberia.peterson-solutions.com/eudr/",
+            "views": 51
+          },
+          {
+            "page": "https://iberia.peterson-solutions.com/packaging-and-packaging-waste-regulation-ppwr/",
+            "views": 51
+          },
+          {
+            "page": "https://iberia.peterson-solutions.com/vacantes/",
+            "views": 49
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,3645 @@
+{
+ "tarjetas": [
+  {
+   "clave": "CU:SEM:plan:argentina:cadena-de-custodia-y-agro-sostenible-no-publican",
+   "marca": "CU",
+   "campana": "CU Argentina - Cadena de Custodia - Search",
+   "grupo": "RSPO compra",
+   "titulo": "Cadena de Custodia ya publica (ARS 42.647): corregir la URL del anuncio RSPO, que lleva a FSC, y cortar el buscador de FSC (ARS 7.514)",
+   "detalle": "La campaña se rehízo y ya gasta: FSC compra y FSC sector, ARS 21.000 cada uno. Quedan tres arreglos: el anuncio de RSPO aterriza en la página de FSC, el 32% del gasto visible es gente que busca fsc.org o su buscador de certificados, y falta la exacta [certificacion fsc]. Agro sostenible sale en su propia tarjeta.",
+   "prioridad": "media",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Argentina",
+    "campana": "CU Argentina - Cadena de Custodia - Search",
+    "acciones": [
+     "landing",
+     "negativas",
+     "keywords"
+    ],
+    "resumen": "La campaña ya publica: falta corregir la URL del anuncio de RSPO, cortar las búsquedas de la base de datos de FSC y sumar una exacta.",
+    "por_que": "1 sep – 20 oct 2026: 35 clics y ARS 42.647, sin conversiones (en septiembre no gastaba nada). «FSC compra» ARS 21.218 y «FSC sector» ARS 21.429; «RSPO compra» 0 clics. De los ARS 23.314 visibles en términos, ARS 7.514 (5 clics) son gente que busca la web o el buscador de certificados de FSC: «www fsc org argentina» ARS 3.622 por un clic, «fsc public certificate search» ARS 2.401, «fsc certificate search» ARS 785, «fsc search» ARS 370, «info fsc org» ARS 336. El anuncio de RSPO (id 824719684541) manda a la página de FSC; la página de RSPO existe (leída el 28 oct: «RSPO – Roundtable on Sustainable Palm Oil | Control Union Argentina»).",
+    "ya_hecho": "Lo de septiembre («una keyword activa y cero gasto») ya no aplica: hoy hay 3 grupos (FSC compra con 21 keywords, FSC sector con 18, RSPO compra con 16), cada uno con su anuncio, y existe la exacta [certificacion fsc argentina]. De las tres exactas propuestas faltan [certificacion fsc] y [cadena de custodia fsc]; [fsc argentina] ya no se recomienda (ver paso 3).",
+    "pasos": [
+     {
+      "accion": "landing",
+      "titulo": "Corregir la URL final del anuncio de RSPO",
+      "donde": "CU Argentina - Cadena de Custodia - Search › grupo «RSPO compra» › anuncio id 824719684541",
+      "detalle": "Cambiar solo la URL final; títulos y descripciones quedan igual. Google Ads crea un anuncio nuevo al editarlo: es normal.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "https://argentina.controlunion.com/programa-de-certificacion/rspo-roundtable-on-sustainable-palm-oil/",
+        "reemplaza": "https://argentina.controlunion.com/programa-de-certificacion/fsc-forest-stewardship-council/",
+        "destino": "Anuncio id 824719684541 · grupo «RSPO compra» › URL final",
+        "prioritario": true,
+        "motivo": "Un anuncio que dice «Certificación RSPO» y aterriza en FSC baja la experiencia en la página de destino (RSPO: nivel de calidad 4 en «rspo certificacion»). La página de RSPO responde 200 y tiene H1 «RSPO – Roundtable on Sustainable Palm Oil»."
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 7 negativas de campaña",
+      "donde": "CU Argentina - Cadena de Custodia - Search › toda la campaña",
+      "detalle": "Cortan a quien busca el sitio, el buscador de certificados o los documentos de FSC. Las 75 negativas de campaña que ya existen (logo, sello, que es, pdf…) quedan.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "org",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«www fsc org argentina» (ARS 3.622 por un clic), «info fsc org», «fsc org info»: buscan el sitio fsc.org. 2 clics, ARS 3.958.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "search",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«fsc public certificate search» ARS 2.401, «fsc certificate search» ARS 785, «fsc search» ARS 370: buscan un certificado ajeno en la base pública de FSC. 3 clics, ARS 3.556.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "buscador",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«fsc buscador»: la misma búsqueda en castellano (2 impresiones).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "connect",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«fsc connect» (8 impresiones): plataforma de FSC para titulares de certificados.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "document center",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«fsc document center», «document center fsc» (7 impresiones): biblioteca de normas de FSC.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "std",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«fsc std 40 004 v3 1», «fsc std 20 001 v5 0» (10 impresiones): buscan el texto de la norma.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "bosques para todos",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«fsc bosques para todos para siempre» (6 impresiones): es el lema de FSC, no una compra.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "keywords",
+      "titulo": "Sumar dos exactas en «FSC compra»",
+      "donde": "CU Argentina - Cadena de Custodia - Search › grupo «FSC compra»",
+      "detalle": "No se pausa nada: las frases siguen. [fsc argentina] no se agrega: «fsc argentina» (35 impresiones, 2 clics, ARS 1.125) se confunde con la oficina nacional de FSC («www fsc org argentina»).",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificacion fsc",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC compra»",
+        "motivo": "Es la búsqueda de compra más repetida: «fsc certificacion», «certificación fsc», «certificacion fsc» sumaron 5 clics y ARS 3.844 entrando por la frase; en exacta tiene su propio nivel de calidad.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "cadena de custodia fsc",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC compra»",
+        "motivo": "4 impresiones sin clic («cadena de custodia fsc», «fsc cadena de custodia»); la frase «fsc cadena de custodia» tiene nivel de calidad 4. Es el servicio exacto del grupo.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "negativas_decision": "Sí: 7 negativas de campaña (3 prioritarias: org, search, buscador). No se negativiza «etiqueta fsc» ni «norma fsc»: puede ser quien quiere usar el sello, y el grupo «FSC sector» tiene la keyword «fsc etiquetas».",
+    "organico": [],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026",
+    "keywords": [
+     {
+      "texto": "certificacion fsc",
+      "concordancia": "exacta",
+      "grupo": "FSC compra",
+      "accion": "agregar",
+      "motivo": "Es la búsqueda de compra más repetida: «fsc certificacion», «certificación fsc», «certificacion fsc» sumaron 5 clics y ARS 3.844 entrando por la frase; en exacta tiene su propio nivel de calidad."
+     },
+     {
+      "texto": "cadena de custodia fsc",
+      "concordancia": "exacta",
+      "grupo": "FSC compra",
+      "accion": "agregar",
+      "motivo": "4 impresiones sin clic («cadena de custodia fsc», «fsc cadena de custodia»); la frase «fsc cadena de custodia» tiene nivel de calidad 4. Es el servicio exacto del grupo."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "org",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«www fsc org argentina» (ARS 3.622 por un clic), «info fsc org», «fsc org info»: buscan el sitio fsc.org. 2 clics, ARS 3.958."
+     },
+     {
+      "texto": "search",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«fsc public certificate search» ARS 2.401, «fsc certificate search» ARS 785, «fsc search» ARS 370: buscan un certificado ajeno en la base pública de FSC. 3 clics, ARS 3.556."
+     },
+     {
+      "texto": "buscador",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«fsc buscador»: la misma búsqueda en castellano (2 impresiones)."
+     },
+     {
+      "texto": "connect",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«fsc connect» (8 impresiones): plataforma de FSC para titulares de certificados."
+     },
+     {
+      "texto": "document center",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«fsc document center», «document center fsc» (7 impresiones): biblioteca de normas de FSC."
+     },
+     {
+      "texto": "std",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«fsc std 40 004 v3 1», «fsc std 20 001 v5 0» (10 impresiones): buscan el texto de la norma."
+     },
+     {
+      "texto": "bosques para todos",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«fsc bosques para todos para siempre» (6 impresiones): es el lema de FSC, no una compra."
+     }
+    ]
+   }
+  },
+  {
+   "clave": "CU:SEM:campana:cu-argentina-agro-sostentible-search@2026-10",
+   "marca": "CU",
+   "campana": "CU Argentina - Agro sostentible - Search",
+   "grupo": "FTUSA",
+   "titulo": "Agro sostenible ya separa cada esquema (ARS 19.541): sumar la negativa «2bsvs» y decidir «fairtrade» en FTUSA",
+   "detalle": "Sale de la tarjeta de septiembre «Cadena de custodia y Agro sostenible no publican», que abarcaba dos campañas. La estructura que pedía ya está: un grupo por esquema con su anuncio y su landing. Quedan tres negativas y una decisión sobre Fairtrade International.",
+   "prioridad": "baja",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Argentina",
+    "campana": "CU Argentina - Agro sostentible - Search",
+    "acciones": [
+     "negativas",
+     "revisar"
+    ],
+    "resumen": "La alineación de septiembre ya está hecha; solo faltan negativas que mandan búsquedas a otros esquemas.",
+    "por_que": "1 sep – 20 oct 2026: 18 clics y ARS 19.541, sin conversiones. RTRS producción se lleva ARS 14.125 (72%); RWS ARS 2.983; FTUSA ARS 1.840 por un único clic, que fue la búsqueda «fairtrade» (Fairtrade International, otro esquema que Fair Trade USA). «soja 2bsvs» y «soja sustentable 2bsvs» (15 impresiones) entran por «certificacion soja sustentable», cuando 2BS tiene grupo propio en «CU Argentina - Biocombustible - Search».",
+    "ya_hecho": "Hecho: el problema de septiembre («anuncia FSA con keyword RTRS») está resuelto. Hoy hay 6 grupos (FSA SAI, FTUSA, RTRS COC, RTRS producción, RWS, Regenagri), cada uno con su anuncio y su landing propia. FSA, RTRS COC y Regenagri todavía casi no tienen impresiones: no se tocan.",
+    "pasos": [
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 3 negativas de campaña",
+      "donde": "CU Argentina - Agro sostentible - Search › toda la campaña",
+      "detalle": "Las 84 negativas de campaña que ya existen quedan.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "2bsvs",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«soja 2bsvs», «soja sustentable 2bsvs» (15 impresiones) entran a RTRS producción. 2BSvs tiene su grupo «2BS compra» en «CU Argentina - Biocombustible - Search»: que lo atienda ese anuncio.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "logo",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«rtrs logo» (3 impresiones): buscan la imagen del sello. Cadena de Custodia ya la tiene como negativa.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "youtube",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«youtube rtrs» (2 impresiones): buscan un video.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "Decidir «fairtrade» (una palabra) en el grupo FTUSA",
+      "donde": "CU Argentina - Agro sostentible - Search › grupo «FTUSA»",
+      "detalle": "Confirmar con Control Union Argentina si certifican solo Fair Trade USA o también Fairtrade International (sello «Fairtrade», que certifica FLOCERT).\n· Si solo Fair Trade USA: cargar la negativa y pausar la keyword «certificacion fairtrade argentina» (frase, 0 clics), que hoy pide justo lo que no se vende.\n· Si también Fairtrade: no cargar nada.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "negativa",
+        "texto": "fairtrade",
+        "concordancia": "amplia",
+        "destino": "Grupo «FTUSA»",
+        "motivo": "«fairtrade», «fairtrade mark», «certificado fairtrade», «fairtrade sello»: 39 impresiones y el único clic del grupo (ARS 1.840). Una negativa no cubre «fair trade» en dos palabras, así que no bloquea Fair Trade USA. Confirmar con la unidad."
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "certificacion fairtrade argentina",
+        "concordancia": "frase",
+        "destino": "Grupo «FTUSA»",
+        "motivo": "Solo si se confirma que no certifican Fairtrade International: si no, la keyword choca con la negativa. 0 clics en el período.",
+        "opcional": true
+       },
+       {
+        "accion": "decidir",
+        "tipo": "negativa",
+        "texto": "ecocert",
+        "concordancia": "amplia",
+        "destino": "Grupo «FTUSA»",
+        "motivo": "«fair trade ecocert» (4 impresiones): es el programa de comercio justo de otra certificadora. Confirmar con la unidad.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "negativas_decision": "Sí: 2bsvs, logo y youtube a nivel campaña; fairtrade y ecocert en FTUSA solo si la unidad confirma que no certifican esos esquemas.",
+    "organico": [],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026",
+    "keywords": [
+     {
+      "texto": "certificacion fairtrade argentina",
+      "concordancia": "frase",
+      "grupo": "FTUSA",
+      "accion": "pausar",
+      "motivo": "Solo si se confirma que no certifican Fairtrade International: si no, la keyword choca con la negativa. 0 clics en el período."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "2bsvs",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«soja 2bsvs», «soja sustentable 2bsvs» (15 impresiones) entran a RTRS producción. 2BSvs tiene su grupo «2BS compra» en «CU Argentina - Biocombustible - Search»: que lo atienda ese anuncio."
+     },
+     {
+      "texto": "logo",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«rtrs logo» (3 impresiones): buscan la imagen del sello. Cadena de Custodia ya la tiene como negativa."
+     },
+     {
+      "texto": "youtube",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«youtube rtrs» (2 impresiones): buscan un video."
+     },
+     {
+      "texto": "fairtrade",
+      "concordancia": "amplia",
+      "nivel": "grupo",
+      "motivo": "«fairtrade», «fairtrade mark», «certificado fairtrade», «fairtrade sello»: 39 impresiones y el único clic del grupo (ARS 1.840). Una negativa no cubre «fair trade» en dos palabras, así que no bloquea Fair Trade USA. Confirmar con la unidad.",
+      "grupo": "FTUSA"
+     },
+     {
+      "texto": "ecocert",
+      "concordancia": "amplia",
+      "nivel": "grupo",
+      "motivo": "«fair trade ecocert» (4 impresiones): es el programa de comercio justo de otra certificadora. Confirmar con la unidad.",
+      "grupo": "FTUSA"
+     }
+    ]
+   }
+  },
+  {
+   "clave": "CU:SEM:plan:argentina:ghg-compra-creditos-de-carbono",
+   "marca": "CU",
+   "campana": "CU Argentina - GHG - Search",
+   "grupo": "GHG verificación",
+   "titulo": "GHG: pausar «creditos de carbono» (ARS 113.841, 78% del gasto, búsquedas de bonos) y sumar 7 negativas",
+   "detalle": "La frase «creditos de carbono» trae a quien quiere comprar o vender bonos de carbono, no a quien necesita verificar su inventario. Pausarla, sumar las negativas de bonos y corregir una descripción que dice «100 años en Argentina».",
+   "prioridad": "alta",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Argentina",
+    "campana": "CU Argentina - GHG - Search",
+    "acciones": [
+     "pausa",
+     "negativas",
+     "anuncio"
+    ],
+    "resumen": "Pausar la keyword «creditos de carbono», que se lleva el 78% del gasto en gente que quiere comprar o vender bonos.",
+    "por_que": "1 sep – 20 oct 2026: 66 clics y ARS 145.423, sin conversiones. La frase «creditos de carbono» se llevó 51 clics y ARS 113.841 (78%). En los términos visibles, «bonos»/«bono» suman 17 clics y ARS 41.167 («bonos de carbono» ARS 16.280, «bono de carbono» ARS 7.371, «venta de bonos de carbono» ARS 3.989, «bolsa argentina de carbono» ARS 5.197): mercado de bonos, no verificación. Control Union verifica inventarios y proyectos; no vende ni intermedia créditos.",
+    "ya_hecho": "Nada de lo central: «creditos de carbono» sigue activa (estructura al 21 oct). Ya están como negativas «bonos de carbono comprar», «creditos de carbono precio», «compensacion» y «compensar», que no alcanzan: la negativa amplia «bonos de carbono comprar» solo bloquea búsquedas que tengan las cuatro palabras.",
+    "pasos": [
+     {
+      "accion": "pausa",
+      "titulo": "Pausar la keyword «creditos de carbono»",
+      "donde": "CU Argentina - GHG - Search › grupo «GHG verificación» › keyword «creditos de carbono» (frase)",
+      "detalle": "Queda «verificacion creditos de carbono» (frase) para quien sí busca verificar un proyecto. Al pausar, la campaña va a gastar bastante menos que su presupuesto de ARS 2.500 por día: es lo esperado.",
+      "items": [
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "creditos de carbono",
+        "concordancia": "frase",
+        "destino": "Grupo «GHG verificación»",
+        "motivo": "51 clics y ARS 113.841, el 78% de la campaña, sin conversiones. Lo visible es mercado de bonos: «bonos de carbono», «bono de carbono», «venta de bonos de carbono», «créditos de carbono como funciona».",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 7 negativas de campaña",
+      "donde": "CU Argentina - GHG - Search › toda la campaña",
+      "detalle": "Protegen a «verificacion creditos de carbono» y a «certificacion huella de carbono» de las mismas búsquedas. Las negativas no cubren plurales ni tildes: por eso van «bonos» y «bono», «que son» y «qué son».",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "bonos",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "13 clics y ARS 30.879: «bonos de carbono» ARS 16.280, «venta de bonos de carbono» ARS 3.989, «mercado de bonos de carbono argentina» ARS 2.507.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "bono",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "4 clics y ARS 10.288: «bono de carbono» ARS 7.371, «bono carbono» ARS 2.917. El singular no lo cubre «bonos».",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "bolsa",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«bolsa argentina de carbono»: ARS 5.197 por un clic.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "como funciona",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«créditos de carbono como funciona»: ARS 3.801 por un clic. Informativa.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "como funcionan",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«bonos de carbono como funcionan», «como funcionan los bonos de carbono»: 1 clic, ARS 424, 21 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "qué son",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«qué son los créditos de carbono»: ARS 1.153 por un clic.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que son",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«que son los créditos de carbono», «que son los bonos de carbono y como funciona»: 17 impresiones. Sin tilde no lo cubre «qué son».",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Corregir una descripción del anuncio",
+      "donde": "CU Argentina - GHG - Search › grupo «GHG verificación» › anuncio id 824719684544",
+      "detalle": "El anuncio ya tiene 15 títulos y 4 descripciones: la nueva reemplaza a la que tiene el error. El resto queda igual.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Organismo de certificación con más de 100 años y auditores propios en Argentina.",
+        "destino": "Anuncio id 824719684544 · grupo «GHG verificación»",
+        "motivo": "Control Union no tiene 100 años en Argentina (los 100 años son del grupo) y «acreditados» no concuerda. Es el texto que ya usan los otros anuncios de CU Argentina. La acreditación ANAB para GEI no se pudo verificar: confirmar con la unidad antes de volver a nombrarla.",
+        "reemplaza": "Organismo de certificación acreditados por ANAB con más de 100 años en Argentina.",
+        "prioritario": true
+       }
+      ]
+     }
+    ],
+    "negativas_decision": "Sí: 7 negativas de campaña. No se negativizan «verra» ni «vcs» (2 clics, ARS 3.408) hasta que la unidad confirme si Control Union Argentina valida o verifica proyectos VCS: si lo hace, son clientes.",
+    "anuncios": [
+     {
+      "grupo": "GHG verificación",
+      "anuncio_id": "824719684544",
+      "anuncio_desc": "fuerza Promedio, único anuncio de la campaña, 66 clics y ARS 145.423 del 1 sep – 20 oct 2026",
+      "accion": "Ajustar",
+      "motivo": "Una descripción dice «acreditados por ANAB con más de 100 años en Argentina»: el plural no concuerda, los 100 años son del grupo y la acreditación ANAB no está verificada. Se reemplaza por el texto estándar de CU Argentina.",
+      "url": "https://argentina.controlunion.com/industry/huella-de-carbono/",
+      "gasto_ars": 145423,
+      "clics": 66,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Verificación huella de carbono",
+       "Verificación ISO 14064",
+       "Verificación de inventario GEI",
+       "Verificamos, no calculamos",
+       "Validación de proyectos GEI",
+       "Alcance 1, 2 y 3 verificados",
+       "Organismo verificador",
+       "Verificación independiente",
+       "Control Union Argentina",
+       "Organismo de certificación",
+       "Solicitá una cotización",
+       "Hablá con un auditor",
+       "Auditores en Argentina",
+       "100+ años certificando",
+       "80+ países, 274+ oficinas"
+      ],
+      "descripciones_hoy": [
+       "Verificamos inventarios de GEI, huella de producto y proyectos de reducción (ISO 14064).",
+       "Verificación independiente de tu huella de carbono para reportes, clientes y bancos.",
+       "Somos organismo verificador independiente: validamos el inventario que ya calculaste.",
+       "Organismo de certificación acreditados por ANAB con más de 100 años en Argentina."
+      ],
+      "quitar": [
+       {
+        "texto": "Organismo de certificación acreditados por ANAB con más de 100 años en Argentina.",
+        "motivo": "Se reemplaza por «Organismo de certificación con más de 100 años y auditores propios en Argentina.»."
+       }
+      ],
+      "titulos_propuestos": [],
+      "descripciones_propuestas": [
+       {
+        "texto": "Organismo de certificación con más de 100 años y auditores propios en Argentina.",
+        "motivo": "Control Union no tiene 100 años en Argentina (los 100 años son del grupo) y «acreditados» no concuerda. Es el texto que ya usan los otros anuncios de CU Argentina. La acreditación ANAB para GEI no se pudo verificar: confirmar con la unidad antes de volver a nombrarla.",
+        "prioritario": true,
+        "reemplaza": "Organismo de certificación acreditados por ANAB con más de 100 años en Argentina."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "ghg",
+      "impr": 54,
+      "pos": 11.3
+     }
+    ],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026",
+    "keywords": [
+     {
+      "texto": "creditos de carbono",
+      "concordancia": "frase",
+      "grupo": "GHG verificación",
+      "accion": "pausar",
+      "motivo": "51 clics y ARS 113.841, el 78% de la campaña, sin conversiones. Lo visible es mercado de bonos: «bonos de carbono», «bono de carbono», «venta de bonos de carbono», «créditos de carbono como funciona»."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "bonos",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "13 clics y ARS 30.879: «bonos de carbono» ARS 16.280, «venta de bonos de carbono» ARS 3.989, «mercado de bonos de carbono argentina» ARS 2.507."
+     },
+     {
+      "texto": "bono",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "4 clics y ARS 10.288: «bono de carbono» ARS 7.371, «bono carbono» ARS 2.917. El singular no lo cubre «bonos»."
+     },
+     {
+      "texto": "bolsa",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«bolsa argentina de carbono»: ARS 5.197 por un clic."
+     },
+     {
+      "texto": "como funciona",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«créditos de carbono como funciona»: ARS 3.801 por un clic. Informativa."
+     },
+     {
+      "texto": "como funcionan",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«bonos de carbono como funcionan», «como funcionan los bonos de carbono»: 1 clic, ARS 424, 21 impresiones."
+     },
+     {
+      "texto": "qué son",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«qué son los créditos de carbono»: ARS 1.153 por un clic."
+     },
+     {
+      "texto": "que son",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«que son los créditos de carbono», «que son los bonos de carbono y como funciona»: 17 impresiones. Sin tilde no lo cubre «qué son»."
+     }
+    ]
+   }
+  },
+  {
+   "clave": "PCU:SEM:plan:espana-y-argentina:se-llama-pcu-y-ninguna-marca-certifica-asi",
+   "marca": "PCU",
+   "campana": null,
+   "grupo": null,
+   "titulo": "Las 4 campañas «PCU» (ARS 1.279.919) ya son de Control Union: decidir la marca y renombrarlas «CU España - ISO 27001 - Search», etc.",
+   "detalle": "URL finales, anuncios y verbo ya son de Control Union; solo el nombre dice «PCU», una marca que no certifica. Decidir si son de Control Union (y renombrarlas con la convención CU) o si además hace falta una campaña de Peterson para preparación. Antes de renombrar, coordinar el export de Pilares, que junta por nombre.",
+   "prioridad": "media",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "España y Argentina",
+    "campana": "PCU - España - ISO 27001 - Search",
+    "campanas": [
+     "PCU - España - ISO 27001 - Search",
+     "PCU - Argentina - ISO 27001 - Search",
+     "PCU - España - Competidores ISO 27001 - Search",
+     "PCU - Argentina - Competidores ISO 27001 - Search"
+    ],
+    "acciones": [
+     "revisar"
+    ],
+    "resumen": "Las cuatro campañas «PCU» ya son de Control Union en todo menos el nombre: decidirlo y renombrarlas.",
+    "por_que": "1 sep – 20 oct 2026: las cuatro gastaron ARS 1.279.919 (España ISO 27001 ARS 647.844, Argentina ISO 27001 ARS 534.597, Competidores España ARS 77.024, Competidores Argentina ARS 20.454). Todo apunta a Control Union: las URL finales de sus 12 anuncios son de espana.controlunion.com y argentina.controlunion.com; los anuncios dicen «Certificamos ISO 27001» y «Transfiere tu certificado ISO 27001 a Control Union»; las landings (leídas el 28 oct) dicen que la certificación acreditada se brinda en alianza con SBCert, acreditado por SWEDAC. «PCU» no es una marca que certifique: el manual separa Control Union (certifica) de Peterson (no certifica).",
+    "ya_hecho": "Nada en Google Ads: los cuatro nombres siguen con «PCU». Decidido aparte el 22 oct: en MarComms Hub las cuatro se cargan con unidad «PCU» y las paga Control Union España.",
+    "pasos": [
+     {
+      "accion": "revisar",
+      "titulo": "Tomar dos decisiones",
+      "donde": "Las 4 campañas «PCU - …» (cuenta de Ads de Control Union)",
+      "detalle": "Primero la marca; después, si se renombra, avisar a quien mantiene el export de Pilares y el tablero.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Las cuatro campañas venden la certificación ISO 27001 de Control Union?",
+        "destino": "Las 4 campañas «PCU - …»",
+        "motivo": "Sí → renombrar como Control Union (paso 2) y dejar anuncios y landings como están, con vocabulario de certificadora. Si además se quiere que Peterson venda preparación para ISO 27001 → campaña aparte de Peterson Solutions, con landing de peterson-solutions.com y vocabulario de preparación («acompañamos», «preparamos para certificar»); confirmar con la unidad si Peterson ofrece ese servicio y en qué página."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "Si se renombra: ¿quién actualiza el export de Pilares y el mapeo del tablero?",
+        "destino": "scripts/ads_pilares_paid_media.py y tablero SEO-SEM",
+        "motivo": "El export de Pilares junta campañas por nombre y las carga con unidad «PCU» (decidido el 22 oct). Con el nombre nuevo hay que mantener esa unidad y el pagador (Control Union España), o se duplican filas."
+       }
+      ]
+     },
+     {
+      "accion": "estructura",
+      "titulo": "Renombrar las cuatro campañas (si la respuesta es Control Union)",
+      "donde": "Configuración de cada campaña › Nombre",
+      "detalle": "Se usa la convención que ya tienen las campañas de Control Union («CU <país> - <tema> - Search»). Renombrar no reinicia el aprendizaje ni borra el historial. Las dos de Competidores, solo si no se pausan (ver su tarjeta).",
+      "items": [
+       {
+        "accion": "cambiar",
+        "tipo": "texto",
+        "texto": "CU España - ISO 27001 - Search",
+        "reemplaza": "PCU - España - ISO 27001 - Search",
+        "destino": "La campaña «PCU - España - ISO 27001 - Search»",
+        "motivo": "Nombre con la marca que certifica, igual que las otras campañas de CU.",
+        "prioritario": true
+       },
+       {
+        "accion": "cambiar",
+        "tipo": "texto",
+        "texto": "CU Argentina - ISO 27001 - Search",
+        "reemplaza": "PCU - Argentina - ISO 27001 - Search",
+        "destino": "La campaña «PCU - Argentina - ISO 27001 - Search»",
+        "motivo": "Nombre con la marca que certifica, igual que las otras campañas de CU.",
+        "prioritario": true
+       },
+       {
+        "accion": "cambiar",
+        "tipo": "texto",
+        "texto": "CU España - Competidores ISO 27001 - Search",
+        "reemplaza": "PCU - España - Competidores ISO 27001 - Search",
+        "destino": "La campaña «PCU - España - Competidores ISO 27001 - Search»",
+        "motivo": "Nombre con la marca que certifica, igual que las otras campañas de CU.",
+        "opcional": true
+       },
+       {
+        "accion": "cambiar",
+        "tipo": "texto",
+        "texto": "CU Argentina - Competidores ISO 27001 - Search",
+        "reemplaza": "PCU - Argentina - Competidores ISO 27001 - Search",
+        "destino": "La campaña «PCU - Argentina - Competidores ISO 27001 - Search»",
+        "motivo": "Nombre con la marca que certifica, igual que las otras campañas de CU.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [],
+    "organico_desde": null,
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026"
+   }
+  },
+  {
+   "clave": "PCU:SEM:plan:espana-y-argentina:la-exacta-iso-27001-sigue-sin-existir",
+   "marca": "PCU",
+   "campana": "PCU - España - ISO 27001 - Search",
+   "grupo": "Compra",
+   "titulo": "ISO 27001 España (ARS 647.844): 17 negativas, exactas de la norma, tope de CPC ARS 1.500 e «ISO/IEC 27001:2022» en el anuncio",
+   "detalle": "La campaña paga búsquedas informativas y de Latinoamérica a precio de compra, y «iso 27001» a secas (28% del gasto) entra por una frase. Sumar las negativas, separar en exacta las 6 búsquedas de la norma que ya se pagan, topear el CPC en ARS 1.500 y nombrar la versión 2022 en el anuncio.",
+   "prioridad": "alta",
+   "unifica": [
+    "PCU:SEM:plan:espana-y-argentina:busquedas-informativas-a-ars-6-000-el-clic",
+    "PCU:SEM:anuncio:pcu-espana-iso-27001:compra"
+   ],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "España",
+    "campana": "PCU - España - ISO 27001 - Search",
+    "acciones": [
+     "negativas",
+     "keywords",
+     "anuncio",
+     "revisar"
+    ],
+    "resumen": "Cortar búsquedas informativas y de otros países, separar en exacta las búsquedas de la norma que ya se pagan y poner un tope de CPC.",
+    "por_que": "1 sep – 20 oct 2026: 952 clics y ARS 647.844, 1 conversión. Casi todo entra por la frase «certificacion iso 27001» (833 clics, ARS 588.629, nivel de calidad 7, experiencia en la página «por debajo de la media»). «iso 27001» a secas costó ARS 182.796 (273 clics), el 28% de la campaña. Hay búsquedas informativas a precio de compra («que dice la iso 27001» ARS 7.286, «dominios iso 27001 2022» ARS 6.021, «iso 27» ARS 6.425) y de otros países (Colombia, Chile, Perú, Ecuador: 14 clics, ARS 7.521). El CPC ya bajó solo: ARS 975 en septiembre y ARS 512 del 1 al 18 de octubre.",
+    "ya_hecho": "Parcial: las negativas «pdf» y «resumen» que pedía septiembre ya están (la campaña tiene 108 negativas de campaña). Faltan «que dice», «dominios» y «controles». No hay ninguna exacta de la norma: la única exacta es [certificacion iso 27001 acreditada enac]. El anuncio no se tocó (sigue sin «ISO/IEC» ni «2022»).",
+    "pasos": [
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 17 negativas de campaña",
+      "donde": "PCU - España - ISO 27001 - Search › toda la campaña",
+      "detalle": "Las negativas no cubren plurales ni variantes con tilde: por eso «qué es» va aparte de la «que es» que ya está.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que dice",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«que dice la iso 27001»: ARS 7.286 por un clic. También «que dice la norma iso 27001» (6 impresiones).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "dominios",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«dominios iso 27001 2022»: ARS 6.021 por un clic; más «iso 27001 dominios y controles» y otras 2 (7 impresiones).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "iso 27",
+        "concordancia": "exacta",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 27»: 2 clics, ARS 6.425 (ARS 3.212 por clic). En exacta no bloquea «iso 27001».",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "controles",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "22 búsquedas sobre los controles del Anexo A («93 controles iso 27001», «cuantos controles tiene la iso 27001»): 7 clics, ARS 3.369.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "para que sirve",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 27001 para que sirve» 8 clics, «para que sirve la iso 27001» 3 clics: 12 clics, ARS 5.395, informativas.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "qué es",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 27001 qué es»: ARS 1.810 por un clic. La negativa «que es» que ya existe no cubre la tilde.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "de que trata",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«de que trata la iso 27001», «iso 27001 de que trata», «de que trata la norma»: 36 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "para personas",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«certificación iso 27001 para personas»: 4 clics, ARS 2.162. Buscan una certificación personal, no la de su empresa.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "español",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 27001 en español» y 3 variantes: 2 clics, ARS 1.047. Buscan el texto de la norma.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "completa",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«norma iso 27001 completa»: 2 clics, ARS 1.098. Buscan el documento.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "www",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«https www iso org standard 27001 html»: 2 clics, ARS 1.077. Navegan a iso.org.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "colombia",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«costo certificación iso 27001 colombia», «certificación iso 27001 precio colombia» y otras: 4 clics, ARS 2.577.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "chile",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«certificación iso 27001 precio chile» y otras: 4 clics, ARS 2.006.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ntc",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Norma técnica colombiana («ntc iso iec 27001 2022», «ntc 27001»): 4 clics, ARS 2.240.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ntp",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Norma técnica peruana («ntp iso iec 27001»): 1 clic, ARS 472, 56 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ecuador",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«certificación iso 27001 ecuador» y otras: 1 clic, ARS 410.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "argentina",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 27001 argentina»: 1 clic, ARS 289. Argentina tiene su propia campaña.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "keywords",
+      "titulo": "Sumar 6 exactas de la norma en «Compra»",
+      "donde": "PCU - España - ISO 27001 - Search › grupo «Compra»",
+      "detalle": "No se pausa la frase «certificacion iso 27001». Con la exacta, Google prefiere la keyword idéntica, cada búsqueda muestra su propio nivel de calidad y se puede ver cuánto cuesta cada una.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso 27001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "273 clics y ARS 182.796, el 28% de la campaña, entrando por la frase «certificacion iso 27001».",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso iec 27001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "36 clics, ARS 18.446 y la única conversión de la campaña.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso27001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "26 clics, ARS 17.044.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso iec 27001 2022",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "30 clics, ARS 16.424.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "norma iso 27001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "16 clics, ARS 8.193.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso 27001 2022",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "13 clics, ARS 6.236.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "Poner tope de CPC y revisar la ubicación",
+      "donde": "PCU - España - ISO 27001 - Search › Configuración de la campaña",
+      "detalle": "La estrategia es Maximizar clics: el tope se pone en la estrategia, no por keyword.",
+      "items": [
+       {
+        "accion": "cambiar",
+        "tipo": "texto",
+        "texto": "Límite de CPC máximo: ARS 1.500",
+        "destino": "Configuración de la campaña › Ofertas › Maximizar clics › Límite de oferta de CPC máximo",
+        "prioritario": true,
+        "motivo": "El CPC medio visible es ARS 625. Solo 6 clics visibles pasaron ARS 1.500 y costaron ARS 27.194: «que dice la iso 27001» ARS 7.286, «iso 27» ARS 3.212 por clic, «dominios iso 27001 2022» ARS 6.021, «certificarse en iso 27001» ARS 5.653, «iso 27001 qué es» ARS 1.810. El tope (2,4 veces el medio) corta esos picos sin tocar el resto."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "Opciones de ubicación: «Presencia: personas que están o suelen estar en tus ubicaciones segmentadas»",
+        "destino": "Configuración de la campaña › Ubicaciones › Opciones de ubicación",
+        "motivo": "Aparecen búsquedas que nombran Colombia, Chile, Perú, Ecuador, México o sus normas nacionales (14 clics, ARS 7.521). Si la opción está en «Presencia o interés», cambiarla. El dato de ubicación no está en los archivos: mirarlo en Google Ads."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "keyword",
+        "texto": "certificacion iso 27001 acreditada enac",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "opcional": true,
+        "motivo": "La landing (leída el 28 oct) dice que la certificación acreditada se brinda con SBCert, acreditado por SWEDAC; no nombra ENAC. Confirmar con la unidad: si no hay acreditación ENAC, pausar esta keyword y la frase «iso 27001 enac» (las dos con 0 clics)."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Sumar la versión de la norma al anuncio que más gasta",
+      "donde": "PCU - España - ISO 27001 - Search › grupo «Compra» › anuncio id 823766049489",
+      "detalle": "El anuncio tiene 12 títulos: se suman 3 y se reemplaza 1 descripción. Repetir «ISO/IEC 27001:2022» en el otro anuncio del grupo (id 823766049492) si hay lugar: también tiene 12 títulos.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "ISO/IEC 27001:2022",
+        "destino": "Anuncio id 823766049489 · grupo «Compra»",
+        "motivo": "«iso iec 27001» trajo 36 clics y la única conversión de la campaña (ARS 18.446); «iso iec 27001 2022» 30 clics (ARS 16.424). La landing habla de ISO/IEC 27001:2022 y ningún título nombra la versión.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Seguridad de la información",
+        "destino": "Anuncio id 823766049489 · grupo «Compra»",
+        "motivo": "«iso 27001 seguridad de la información» 19 clics (ARS 9.870) y «iso 27001 sistemas de gestión de la seguridad de la información» 15 clics (ARS 7.558). El otro anuncio del grupo lo tiene; este no.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union España",
+        "destino": "Anuncio id 823766049489 · grupo «Compra»",
+        "motivo": "Nombra a la marca que certifica. Cargar solo si la tarjeta de decisión de marca confirma Control Union.",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos tu SGSI según ISO/IEC 27001:2022, con auditores en España.",
+        "destino": "Anuncio id 823766049489 · grupo «Compra»",
+        "motivo": "Suma la versión de la norma al texto largo; la que sale repite «seguridad de la información», que pasa a estar como título.",
+        "reemplaza": "Certificación de seguridad de la información para empresas en España.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "negativas_decision": "Sí: 17 negativas de campaña (informativas, de documento y de otros países). No se negativiza «iso 2701» ni «iso 270001» (errores de tipeo de quien busca la norma, 8 clics y ARS 3.971) ni «2013»: son la misma intención.",
+    "anuncios": [
+     {
+      "grupo": "Compra",
+      "anuncio_id": "823766049489",
+      "anuncio_desc": "fuerza Promedio, uno de los dos anuncios del grupo; 715 clics y ARS 480.266 del 1 sep – 20 oct 2026",
+      "accion": "Ajustar",
+      "motivo": "Es el anuncio que más gasta de la cuenta PCU y ningún título dice «ISO/IEC» ni «2022», que es como escribe la gente que convierte («iso iec 27001») y como lo dice la landing.",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+      "gasto_ars": 480266,
+      "clics": 715,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación ISO 27001",
+       "Entidad de certificación",
+       "Auditoría ISO 27001",
+       "Certificamos ISO 27001",
+       "Auditores en España",
+       "Solicita tu presupuesto",
+       "Habla con un auditor",
+       "Más de 100 años certificando",
+       "Presencia en más de 80 países",
+       "Más de 274 oficinas",
+       "Alcance acreditado",
+       "Certificación de tu SGSI"
+      ],
+      "descripciones_hoy": [
+       "Auditamos y certificamos ISO 27001 con alcance acreditado. Solicita presupuesto.",
+       "Entidad de certificación con más de 100 años y presencia en más de 80 países.",
+       "Cuéntanos el alcance de tu SGSI y coordinamos la auditoría con el equipo local.",
+       "Certificación de seguridad de la información para empresas en España."
+      ],
+      "quitar": [
+       {
+        "texto": "Certificación de seguridad de la información para empresas en España.",
+        "motivo": "Se reemplaza por «Certificamos tu SGSI según ISO/IEC 27001:2022, con auditores en España.»."
+       }
+      ],
+      "titulos_propuestos": [
+       {
+        "texto": "ISO/IEC 27001:2022",
+        "motivo": "«iso iec 27001» trajo 36 clics y la única conversión de la campaña (ARS 18.446); «iso iec 27001 2022» 30 clics (ARS 16.424). La landing habla de ISO/IEC 27001:2022 y ningún título nombra la versión.",
+        "prioritario": true
+       },
+       {
+        "texto": "Seguridad de la información",
+        "motivo": "«iso 27001 seguridad de la información» 19 clics (ARS 9.870) y «iso 27001 sistemas de gestión de la seguridad de la información» 15 clics (ARS 7.558). El otro anuncio del grupo lo tiene; este no.",
+        "prioritario": false
+       },
+       {
+        "texto": "Control Union España",
+        "motivo": "Nombra a la marca que certifica. Cargar solo si la tarjeta de decisión de marca confirma Control Union.",
+        "prioritario": false
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos tu SGSI según ISO/IEC 27001:2022, con auditores en España.",
+        "motivo": "Suma la versión de la norma al texto largo; la que sale repite «seguridad de la información», que pasa a estar como título.",
+        "prioritario": false,
+        "reemplaza": "Certificación de seguridad de la información para empresas en España."
+       }
+      ],
+      "terminos": [
+       {
+        "termino": "iso 27001",
+        "relacion": "fuerte",
+        "coste": 182796,
+        "clics": 273
+       },
+       {
+        "termino": "iso iec 27001",
+        "relacion": "parcial",
+        "coste": 18446,
+        "clics": 36
+       },
+       {
+        "termino": "iso27001",
+        "relacion": "fuerte",
+        "coste": 17044,
+        "clics": 26
+       },
+       {
+        "termino": "iso iec 27001 2022",
+        "relacion": "parcial",
+        "coste": 16424,
+        "clics": 30
+       },
+       {
+        "termino": "que dice la iso 27001",
+        "relacion": "nula",
+        "coste": 7286,
+        "clics": 1
+       },
+       {
+        "termino": "dominios iso 27001 2022",
+        "relacion": "nula",
+        "coste": 6021,
+        "clics": 1
+       }
+      ],
+      "nota": "«Alcance acreditado» ya está en el anuncio: la landing lo respalda con SBCert/SWEDAC. Confirmar con la unidad que ese alcance cubre España."
+     }
+    ],
+    "organico": [
+     {
+      "query": "certificación iso 27001",
+      "impr": 59,
+      "pos": 42.3
+     },
+     {
+      "query": "certificación iso 27001 para empresas",
+      "impr": 46,
+      "pos": 52.8
+     },
+     {
+      "query": "certificaciones iso 27001",
+      "impr": 36,
+      "pos": 39.1
+     },
+     {
+      "query": "certificación iso 27001 en españa",
+      "impr": 18,
+      "pos": 34.9
+     }
+    ],
+    "organico_desde": "España",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026",
+    "keywords": [
+     {
+      "texto": "iso 27001",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "273 clics y ARS 182.796, el 28% de la campaña, entrando por la frase «certificacion iso 27001»."
+     },
+     {
+      "texto": "iso iec 27001",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "36 clics, ARS 18.446 y la única conversión de la campaña."
+     },
+     {
+      "texto": "iso27001",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "26 clics, ARS 17.044."
+     },
+     {
+      "texto": "iso iec 27001 2022",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "30 clics, ARS 16.424."
+     },
+     {
+      "texto": "norma iso 27001",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "16 clics, ARS 8.193."
+     },
+     {
+      "texto": "iso 27001 2022",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "13 clics, ARS 6.236."
+     },
+     {
+      "texto": "certificacion iso 27001 acreditada enac",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "decidir",
+      "motivo": "La landing (leída el 28 oct) dice que la certificación acreditada se brinda con SBCert, acreditado por SWEDAC; no nombra ENAC. Confirmar con la unidad: si no hay acreditación ENAC, pausar esta keyword y la frase «iso 27001 enac» (las dos con 0 clics)."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "que dice",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«que dice la iso 27001»: ARS 7.286 por un clic. También «que dice la norma iso 27001» (6 impresiones)."
+     },
+     {
+      "texto": "dominios",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«dominios iso 27001 2022»: ARS 6.021 por un clic; más «iso 27001 dominios y controles» y otras 2 (7 impresiones)."
+     },
+     {
+      "texto": "iso 27",
+      "concordancia": "exacta",
+      "nivel": "campaña",
+      "motivo": "«iso 27»: 2 clics, ARS 6.425 (ARS 3.212 por clic). En exacta no bloquea «iso 27001»."
+     },
+     {
+      "texto": "controles",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "22 búsquedas sobre los controles del Anexo A («93 controles iso 27001», «cuantos controles tiene la iso 27001»): 7 clics, ARS 3.369."
+     },
+     {
+      "texto": "para que sirve",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«iso 27001 para que sirve» 8 clics, «para que sirve la iso 27001» 3 clics: 12 clics, ARS 5.395, informativas."
+     },
+     {
+      "texto": "qué es",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«iso 27001 qué es»: ARS 1.810 por un clic. La negativa «que es» que ya existe no cubre la tilde."
+     },
+     {
+      "texto": "de que trata",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«de que trata la iso 27001», «iso 27001 de que trata», «de que trata la norma»: 36 impresiones."
+     },
+     {
+      "texto": "para personas",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«certificación iso 27001 para personas»: 4 clics, ARS 2.162. Buscan una certificación personal, no la de su empresa."
+     },
+     {
+      "texto": "español",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iso 27001 en español» y 3 variantes: 2 clics, ARS 1.047. Buscan el texto de la norma."
+     },
+     {
+      "texto": "completa",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«norma iso 27001 completa»: 2 clics, ARS 1.098. Buscan el documento."
+     },
+     {
+      "texto": "www",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«https www iso org standard 27001 html»: 2 clics, ARS 1.077. Navegan a iso.org."
+     },
+     {
+      "texto": "colombia",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«costo certificación iso 27001 colombia», «certificación iso 27001 precio colombia» y otras: 4 clics, ARS 2.577."
+     },
+     {
+      "texto": "chile",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«certificación iso 27001 precio chile» y otras: 4 clics, ARS 2.006."
+     },
+     {
+      "texto": "ntc",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Norma técnica colombiana («ntc iso iec 27001 2022», «ntc 27001»): 4 clics, ARS 2.240."
+     },
+     {
+      "texto": "ntp",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Norma técnica peruana («ntp iso iec 27001»): 1 clic, ARS 472, 56 impresiones."
+     },
+     {
+      "texto": "ecuador",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«certificación iso 27001 ecuador» y otras: 1 clic, ARS 410."
+     },
+     {
+      "texto": "argentina",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iso 27001 argentina»: 1 clic, ARS 289. Argentina tiene su propia campaña."
+     }
+    ]
+   }
+  },
+  {
+   "clave": "PCU:SEM:anuncio:pcu-argentina-iso-27001:compra",
+   "marca": "PCU",
+   "campana": "PCU - Argentina - ISO 27001 - Search",
+   "grupo": "Compra",
+   "titulo": "ISO 27001 Argentina (ARS 534.597, CPC ARS 2.002): 13 negativas, exactas de la norma y «Certificación ISO 27001» en el anuncio que más gasta",
+   "detalle": "El clic cuesta tres veces más que en España y el nivel de calidad es 4. Cortar búsquedas de certificación personal y de documentos, separar en exacta las búsquedas de la norma y sumar al anuncio principal el título con la keyword y la versión 2022. El tope de CPC queda para después.",
+   "prioridad": "alta",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Argentina",
+    "campana": "PCU - Argentina - ISO 27001 - Search",
+    "acciones": [
+     "negativas",
+     "keywords",
+     "anuncio",
+     "revisar"
+    ],
+    "resumen": "Mismas tres palancas que España, con un clic tres veces más caro: negativas de certificación personal y de documento, exactas de la norma y el título que falta en el anuncio que más gasta.",
+    "por_que": "1 sep – 20 oct 2026: 267 clics y ARS 534.597, 1 conversión (vino de «iso 27001»). CPC medio ARS 2.002, contra ARS 680 en España. La frase «certificacion iso 27001» tiene nivel de calidad 4 (España: 7), con relevancia del anuncio media y experiencia en la página «por debajo de la media». «iso 27001» a secas costó ARS 169.913 (83 clics), el 32% de la campaña. Búsquedas de certificación personal y de documentos: «certificación iso 27001 para personas» ARS 5.191, «certificación auditor iso 27001» ARS 3.786, «norma iso 27001 completa» ARS 4.179, «presentacion iso 27001» ARS 3.955, «ley 27001» ARS 3.486.",
+    "ya_hecho": "Nada de lo propuesto en septiembre: el anuncio no cambió y no hay exactas de la norma (solo [certificacion iso 27001 argentina] y [cuanto sale certificar iso 27001]). La campaña ya tiene 105 negativas de campaña (pdf, resumen, curso, lead auditor…).",
+    "pasos": [
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 13 negativas de campaña",
+      "donde": "PCU - Argentina - ISO 27001 - Search › toda la campaña",
+      "detalle": "Ninguna keyword de la campaña contiene «auditor» («auditoria» es otra palabra), así que la negativa no bloquea nada propio.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "para personas",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«certificación iso 27001 para personas»: 3 clics, ARS 5.191.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "auditor",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«certificación auditor iso 27001» ARS 3.786 y «certificacion iso 27001 auditor» ARS 2.777: quieren certificarse como auditores. 2 clics, ARS 6.563.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "completa",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«norma iso 27001 completa»: 2 clics, ARS 4.179. Buscan el documento.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "presentacion",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«presentacion iso 27001»: 2 clics, ARS 3.955. Buscan diapositivas.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ley",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«ley 27001», «ley iso 27001»: 2 clics, ARS 3.486, 23 impresiones. No es una búsqueda de certificación.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "foundation",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 27001 foundation»: ARS 1.741 por un clic. Curso de certificación personal.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que dice",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«que dice la iso 27001»: ARS 1.502 por un clic.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "clasificacion de la informacion",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«clasificacion de la informacion iso 27001»: 4 impresiones. Va con la variante con tilde.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "clasificación de la información",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«clasificación de la información según iso 27001»: ARS 1.005 por un clic.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "certiprof",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«certiprof iso 27001», «iso 27001 certiprof»: 10 impresiones. Es una entidad de cursos.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "para que sirve",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 27001 para que sirve» y 2 variantes: 9 impresiones, informativas.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "qué es",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«qué es la iso 27001» y 3 variantes: 10 impresiones. La negativa «que es» que ya existe no cubre la tilde.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ultima version",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 27001 ultima version», «cual es la ultima version de la iso 27001»: 16 impresiones sumando las variantes con tilde.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "keywords",
+      "titulo": "Sumar 6 exactas de la norma en «Compra»",
+      "donde": "PCU - Argentina - ISO 27001 - Search › grupo «Compra»",
+      "detalle": "No se pausa la frase «certificacion iso 27001». La exacta deja ver el nivel de calidad de cada búsqueda que hoy entra mezclada en una frase con nivel 4.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso 27001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "83 clics, ARS 169.913 y la única conversión de la campaña.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "norma iso 27001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "12 clics, ARS 26.117.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso iec 27001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "13 clics, ARS 24.274.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso 27001 2022",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "7 clics, ARS 12.914.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso iec 27001 2022",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "7 clics, ARS 12.169.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso27001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Compra»",
+        "motivo": "5 clics, ARS 9.572.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "Tope de CPC: opcional, después de las negativas",
+      "donde": "PCU - Argentina - ISO 27001 - Search › Configuración de la campaña › Ofertas",
+      "detalle": "En Argentina el CPC alto es general, no de unos pocos términos: un tope bajo frenaría también «iso 27001». Primero negativas y anuncio; si en noviembre el CPC sigue arriba de ARS 2.000, cargar el tope.",
+      "items": [
+       {
+        "accion": "cambiar",
+        "tipo": "texto",
+        "texto": "Límite de CPC máximo: ARS 2.500",
+        "destino": "Configuración de la campaña › Ofertas › Maximizar clics › Límite de oferta de CPC máximo",
+        "opcional": true,
+        "motivo": "CPC medio visible ARS 2.000. Por encima de ARS 2.500 hubo 12 clics visibles por ARS 34.706 (10% de lo visible): «27001 iso» ARS 2.513 por clic, «certificacion 27001» ARS 3.957, «certificación auditor iso 27001» ARS 3.786, «certificacion iso 27001 argentina» ARS 3.414."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Sumar la keyword y la versión al anuncio que más gasta",
+      "donde": "PCU - Argentina - ISO 27001 - Search › grupo «Compra» › anuncio id 823766049348",
+      "detalle": "El anuncio tiene 12 títulos: se suman 3 y se reemplaza 1 descripción.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificación ISO 27001",
+        "destino": "Anuncio id 823766049348 · grupo «Compra»",
+        "motivo": "Este anuncio se lleva 203 de los 267 clics de la campaña y ningún título nombra la keyword principal («certificacion iso 27001», nivel de calidad 4). El otro anuncio del grupo sí la tiene.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Norma ISO/IEC 27001:2022",
+        "destino": "Anuncio id 823766049348 · grupo «Compra»",
+        "motivo": "«norma iso 27001» 12 clics (ARS 26.117), «iso iec 27001» 13 clics (ARS 24.274), «iso 27001 2022» y «iso iec 27001 2022» 7 clics cada una. La landing dice ISO/IEC 27001:2022.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union Argentina",
+        "destino": "Anuncio id 823766049348 · grupo «Compra»",
+        "motivo": "Nombra a la marca que certifica. Cargar solo si la tarjeta de decisión de marca confirma Control Union.",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos ISO/IEC 27001:2022 con auditores en Argentina. Pedí tu cotización.",
+        "destino": "Anuncio id 823766049348 · grupo «Compra»",
+        "motivo": "Pone la norma con su versión y el pedido de cotización en el texto largo; la que sale es respaldo genérico que ya dan el título «Red de más de 274 oficinas» y la descripción de auditores en Argentina.",
+        "reemplaza": "Más de 100 años verificando organizaciones en más de 80 países.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "negativas_decision": "Sí: 13 negativas de campaña. No se negativiza «iram»: «iram iso iec 27001» (14 impresiones, 0 clics) es la versión argentina de la norma y la busca gente que se quiere certificar.",
+    "anuncios": [
+     {
+      "grupo": "Compra",
+      "anuncio_id": "823766049348",
+      "anuncio_desc": "fuerza Promedio, uno de los dos anuncios del grupo; 203 clics y ARS 398.996 del 1 sep – 20 oct 2026",
+      "accion": "Ajustar",
+      "motivo": "Es el anuncio con más gasto de la campaña (75%) y le falta el título con la keyword principal y la versión de la norma: por eso la relevancia del anuncio sale media y el nivel de calidad 4.",
+      "url": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+      "gasto_ars": 398996,
+      "clics": 203,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "ISO 27001 en Argentina",
+       "Certificadora ISO 27001",
+       "Auditoría de certificación",
+       "Cotización de auditoría",
+       "Equipo auditor local",
+       "Red de más de 274 oficinas",
+       "Más de 200 programas",
+       "Certificamos tu SGSI",
+       "Escribinos tu consulta",
+       "Seguridad de la información",
+       "Alcance de acreditación",
+       "Certificación acreditada"
+      ],
+      "descripciones_hoy": [
+       "Auditamos tu sistema de gestión de la seguridad de la información y certificamos.",
+       "Más de 100 años verificando organizaciones en más de 80 países.",
+       "Contanos tu alcance y te enviamos una propuesta de auditoría ISO 27001.",
+       "Auditores en Argentina con el respaldo de una red de más de 274 oficinas."
+      ],
+      "quitar": [
+       {
+        "texto": "Más de 100 años verificando organizaciones en más de 80 países.",
+        "motivo": "Se reemplaza por «Certificamos ISO/IEC 27001:2022 con auditores en Argentina. Pedí tu cotización.»."
+       }
+      ],
+      "titulos_propuestos": [
+       {
+        "texto": "Certificación ISO 27001",
+        "motivo": "Este anuncio se lleva 203 de los 267 clics de la campaña y ningún título nombra la keyword principal («certificacion iso 27001», nivel de calidad 4). El otro anuncio del grupo sí la tiene.",
+        "prioritario": true
+       },
+       {
+        "texto": "Norma ISO/IEC 27001:2022",
+        "motivo": "«norma iso 27001» 12 clics (ARS 26.117), «iso iec 27001» 13 clics (ARS 24.274), «iso 27001 2022» y «iso iec 27001 2022» 7 clics cada una. La landing dice ISO/IEC 27001:2022.",
+        "prioritario": true
+       },
+       {
+        "texto": "Control Union Argentina",
+        "motivo": "Nombra a la marca que certifica. Cargar solo si la tarjeta de decisión de marca confirma Control Union.",
+        "prioritario": false
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos ISO/IEC 27001:2022 con auditores en Argentina. Pedí tu cotización.",
+        "motivo": "Pone la norma con su versión y el pedido de cotización en el texto largo; la que sale es respaldo genérico que ya dan el título «Red de más de 274 oficinas» y la descripción de auditores en Argentina.",
+        "prioritario": false,
+        "reemplaza": "Más de 100 años verificando organizaciones en más de 80 países."
+       }
+      ],
+      "terminos": [
+       {
+        "termino": "iso 27001",
+        "relacion": "fuerte",
+        "coste": 169913,
+        "clics": 83
+       },
+       {
+        "termino": "norma iso 27001",
+        "relacion": "fuerte",
+        "coste": 26117,
+        "clics": 12
+       },
+       {
+        "termino": "iso iec 27001",
+        "relacion": "parcial",
+        "coste": 24274,
+        "clics": 13
+       },
+       {
+        "termino": "iso 27001 2022",
+        "relacion": "parcial",
+        "coste": 12914,
+        "clics": 7
+       },
+       {
+        "termino": "certificación iso 27001 para personas",
+        "relacion": "nula",
+        "coste": 5191,
+        "clics": 3
+       }
+      ],
+      "nota": "«Certificación acreditada» y «Alcance de acreditación» ya están: la landing dice «acreditados en alianza con SBCert, acreditado por SWEDAC». Confirmar con la unidad que el alcance cubre Argentina."
+     }
+    ],
+    "organico": [],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026",
+    "keywords": [
+     {
+      "texto": "iso 27001",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "83 clics, ARS 169.913 y la única conversión de la campaña."
+     },
+     {
+      "texto": "norma iso 27001",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "12 clics, ARS 26.117."
+     },
+     {
+      "texto": "iso iec 27001",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "13 clics, ARS 24.274."
+     },
+     {
+      "texto": "iso 27001 2022",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "7 clics, ARS 12.914."
+     },
+     {
+      "texto": "iso iec 27001 2022",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "7 clics, ARS 12.169."
+     },
+     {
+      "texto": "iso27001",
+      "concordancia": "exacta",
+      "grupo": "Compra",
+      "accion": "agregar",
+      "motivo": "5 clics, ARS 9.572."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "para personas",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«certificación iso 27001 para personas»: 3 clics, ARS 5.191."
+     },
+     {
+      "texto": "auditor",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«certificación auditor iso 27001» ARS 3.786 y «certificacion iso 27001 auditor» ARS 2.777: quieren certificarse como auditores. 2 clics, ARS 6.563."
+     },
+     {
+      "texto": "completa",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«norma iso 27001 completa»: 2 clics, ARS 4.179. Buscan el documento."
+     },
+     {
+      "texto": "presentacion",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«presentacion iso 27001»: 2 clics, ARS 3.955. Buscan diapositivas."
+     },
+     {
+      "texto": "ley",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«ley 27001», «ley iso 27001»: 2 clics, ARS 3.486, 23 impresiones. No es una búsqueda de certificación."
+     },
+     {
+      "texto": "foundation",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iso 27001 foundation»: ARS 1.741 por un clic. Curso de certificación personal."
+     },
+     {
+      "texto": "que dice",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«que dice la iso 27001»: ARS 1.502 por un clic."
+     },
+     {
+      "texto": "clasificacion de la informacion",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«clasificacion de la informacion iso 27001»: 4 impresiones. Va con la variante con tilde."
+     },
+     {
+      "texto": "clasificación de la información",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«clasificación de la información según iso 27001»: ARS 1.005 por un clic."
+     },
+     {
+      "texto": "certiprof",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«certiprof iso 27001», «iso 27001 certiprof»: 10 impresiones. Es una entidad de cursos."
+     },
+     {
+      "texto": "para que sirve",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«iso 27001 para que sirve» y 2 variantes: 9 impresiones, informativas."
+     },
+     {
+      "texto": "qué es",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«qué es la iso 27001» y 3 variantes: 10 impresiones. La negativa «que es» que ya existe no cubre la tilde."
+     },
+     {
+      "texto": "ultima version",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«iso 27001 ultima version», «cual es la ultima version de la iso 27001»: 16 impresiones sumando las variantes con tilde."
+     }
+    ]
+   }
+  },
+  {
+   "clave": "PCU:SEM:plan:espana-y-argentina:competidores-espana-desperto-con-relevancia-baja",
+   "marca": "PCU",
+   "campana": "PCU - España - Competidores ISO 27001 - Search",
+   "grupo": "Comparación",
+   "titulo": "Pausar las dos campañas de Competidores ISO 27001: ARS 97.478 sin conversiones, CPC de ARS 3.501 en España y nivel de calidad 1",
+   "detalle": "Competidores España paga cinco veces el clic de la campaña principal con keywords que Google califica 1 de 10, y Competidores Argentina compra búsquedas genéricas de la norma que ya cubre la campaña principal. Decidir si hay una razón comercial; si no, pausar las dos.",
+   "prioridad": "alta",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "España y Argentina",
+    "campana": "PCU - España - Competidores ISO 27001 - Search",
+    "campanas": [
+     "PCU - España - Competidores ISO 27001 - Search",
+     "PCU - Argentina - Competidores ISO 27001 - Search"
+    ],
+    "acciones": [
+     "pausa",
+     "revisar"
+    ],
+    "resumen": "Pausar las dos campañas de Competidores: el clic cuesta cinco veces más que en la campaña principal y Google califica las keywords con nivel de calidad 1.",
+    "por_que": "1 sep – 20 oct 2026: Competidores España 22 clics y ARS 77.024 (CPC ARS 3.501, contra ARS 680 de la campaña principal de España), sin conversiones; «sgs», «dnv», «bureau veritas» y «tuv rheinland iso 27001» con nivel de calidad 1 y «aenor iso 27001» 4. Competidores Argentina 11 clics y ARS 20.454 sin conversiones: su keyword que gasta, «iram iso 27001» (nivel 2, ARS 16.828), trae búsquedas genéricas que ya compra la campaña principal («iso27001» ARS 3.994, «iso 27001» ARS 2.846, «iso iec 27001» ARS 1.469). La intención de cambiar de certificadora ya tiene grupo propio («Renovación») en las dos campañas principales.",
+    "ya_hecho": "Nada: las dos siguen activas (estructura al 21 oct). Competidores España bajó de ARS 46.645 en septiembre a ARS 25.401 del 1 al 18 de octubre; Argentina casi se apagó sola (ARS 2.347 en octubre).",
+    "pasos": [
+     {
+      "accion": "revisar",
+      "titulo": "Decidir si se sigue pujando por nombres de competidores",
+      "donde": "Las 2 campañas de Competidores ISO 27001",
+      "detalle": "Si no hay una razón comercial concreta (por ejemplo, una acción para captar clientes de AENOR que renuevan), pausar. Si la hay, dejar solo «aenor iso 27001» en España con un anuncio de cambio de entidad, y revisar en un mes.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Hay una razón comercial para aparecer en las búsquedas de AENOR, SGS, Bureau Veritas, TÜV, DNV e IRAM?",
+        "destino": "Las 2 campañas de Competidores ISO 27001",
+        "motivo": "No: pausar las dos (paso 2). Sí: pausar todas las keywords menos «aenor iso 27001» (12 de los 22 clics de España, nivel de calidad 4) y pausar Competidores Argentina igual."
+       }
+      ]
+     },
+     {
+      "accion": "pausa",
+      "titulo": "Pausar las dos campañas",
+      "donde": "Estado de cada campaña",
+      "detalle": "Libera ARS 4.500 por día de presupuesto (ARS 2.500 España + ARS 2.000 Argentina). No se propone pasarlo a otra campaña: las principales ya gastan por debajo de su presupuesto.",
+      "items": [
+       {
+        "accion": "pausar",
+        "tipo": "texto",
+        "texto": "PCU - España - Competidores ISO 27001 - Search",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "ARS 77.024 en 22 clics (CPC ARS 3.501), sin conversiones; 4 de sus 5 keywords con gasto tienen nivel de calidad 1."
+       },
+       {
+        "accion": "pausar",
+        "tipo": "texto",
+        "texto": "PCU - Argentina - Competidores ISO 27001 - Search",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "ARS 20.454 en 11 clics sin conversiones; lo visible son búsquedas genéricas de la norma que ya cubre «PCU - Argentina - ISO 27001 - Search»."
+       }
+      ]
+     }
+    ],
+    "organico": [],
+    "organico_desde": null,
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026"
+   }
+  },
+  {
+   "clave": "PS:SEM:plan:argentina:bioenergia-2-y-sigue-en-biogas",
+   "marca": "PS",
+   "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+   "grupo": null,
+   "titulo": "Pausar Bioenergía y CeSu: ARS 154.382 sin conversiones, en biogás, energía de biomasa y cursos de auditor interno",
+   "detalle": "Bioenergía gasta todo por «bioenergia sostenible» en búsquedas de biogás y biomasa como energía; sus grupos de ISCC y biocombustibles no tuvieron clics. CeSu gasta todo en gente que quiere hacer un curso de auditor interno. Pausar las dos; si Bioenergía se rehace sobre ISCC/2BSvs, antes definir el corte con CU Argentina.",
+   "prioridad": "alta",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Argentina",
+    "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+    "campanas": [
+     "PS Argentina - Bioenergia / Biocombustibles - Search",
+     "PS Argentina - CeSu - Preparacion para certificaciones - Search"
+    ],
+    "acciones": [
+     "pausa",
+     "revisar"
+    ],
+    "resumen": "Pausar Bioenergía y CeSu: ninguna de las dos recibe búsquedas del servicio que vende.",
+    "por_que": "1 sep – 20 oct 2026: Bioenergía 77 clics y ARS 117.088, todo por la frase «bioenergia sostenible» (nivel de calidad 3). De los ARS 76.636 visibles, «biogas»/«bio gas» y variantes suman ARS 35.820 (47%) y «energía biomasa» y variantes ARS 37.612; solo una búsqueda nombra biocombustibles (0 clics) y ninguna ISCC ni 2BSvs. Los grupos «Biocombustibles», «ISCC RED» y «Trazabilidad» no tuvieron un solo clic. CeSu 12 clics y ARS 37.294, todo por «auditoria interna certificaciones»: lo visible son cursos para ser auditor interno («auditor interno certificado» ARS 6.045, «certificación auditor interno iso 9001» ARS 4.327, «cursos auditor interno iso 9001» ARS 3.571). Entre las dos: ARS 154.382 sin conversiones, unos ARS 3.088 por día.",
+    "ya_hecho": "Nada: las dos siguen activas con presupuesto de ARS 2.268 por día cada una (estructura al 21 oct). El CLAUDE.md del proyecto deja esta pausa como decisión abierta.",
+    "pasos": [
+     {
+      "accion": "revisar",
+      "titulo": "Confirmar la pausa",
+      "donde": "Las 2 campañas",
+      "detalle": "Es la decisión que el proyecto tiene abierta; los datos de oct la respaldan.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Se pausan Bioenergía y CeSu?",
+        "destino": "Las 2 campañas",
+        "motivo": "Sí → paso 2. Si después se quiere rehacer Bioenergía sobre ISCC y 2BSvs, antes acordar el corte con Control Union Argentina: «CU Argentina - Biocombustible - Search» ya compra «iscc certificacion» y tiene el grupo «2BS compra», y las dos marcas pujarían en la misma subasta."
+       }
+      ]
+     },
+     {
+      "accion": "pausa",
+      "titulo": "Pausar las dos campañas",
+      "donde": "Estado de cada campaña",
+      "detalle": "Pausar, no eliminar: conserva el historial.",
+      "items": [
+       {
+        "accion": "pausar",
+        "tipo": "texto",
+        "texto": "PS Argentina - Bioenergia / Biocombustibles - Search",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "ARS 117.088 sin conversiones; 47% del gasto visible en biogás y casi todo el resto en «energía biomasa»: ninguna búsqueda de certificación de biocombustibles."
+       },
+       {
+        "accion": "pausar",
+        "tipo": "texto",
+        "texto": "PS Argentina - CeSu - Preparacion para certificaciones - Search",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "ARS 37.294 sin conversiones; todo lo visible son cursos de auditor interno ISO 9001, no preparación para certificar."
+       }
+      ]
+     }
+    ],
+    "organico": [],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026"
+   }
+  },
+  {
+   "clave": "PS:SEM:plan:argentina:agricultura-regenerativa-y-huella-de-carbono-sin-cambios",
+   "marca": "PS",
+   "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+   "grupo": "Regenerativa",
+   "titulo": "Agricultura regenerativa: pasar a frase las dos amplias (89% del gasto), sumar 22 negativas de marcas y directorios y reescribir el anuncio",
+   "detalle": "Las dos amplias traen búsquedas de marcas del agro y de agronomía general: 90 de los 110 clics visibles no dicen «regenerativa». Agregar las frases y pausar las amplias, cargar las negativas con gasto y pasar el anuncio a la voz de Peterson. Huella de carbono, que estaba en la misma tarjeta, sale aparte.",
+   "prioridad": "alta",
+   "unifica": [
+    "PS:SEM:anuncio:ps-argentina-suso-agricultura-regenerativa:regenerativa"
+   ],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Argentina",
+    "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+    "acciones": [
+     "keywords",
+     "negativas",
+     "anuncio"
+    ],
+    "resumen": "Pasar las dos amplias a frase (89% del gasto), cortar marcas del agro y escribir el anuncio en la voz de Peterson.",
+    "por_que": "1 sep – 20 oct 2026: 232 clics y ARS 111.845, sin conversiones. Las amplias «agricultura regenerativa argentina» (187 clics, ARS 81.084, nivel de calidad 6) y «agricultura regenerativa en argentina» (21 clics, ARS 18.283, nivel 2) se llevan ARS 99.367, el 89%. De los 110 clics visibles, 90 (ARS 45.268) son búsquedas que no dicen «regenerativa»: marcas y empresas del agro («corteva argentina» ARS 2.599, «syngenta», «argenbio», «inta»), directorios («pools de siembra en argentina» ARS 2.498, «empresas agricolas en argentina» ARS 2.353) y agronomía general.",
+    "ya_hecho": "Nada: las dos amplias siguen activas y no se agregó ninguna negativa (las 17 de campaña son las de antes: gratis, manual, libro, curso, que es…). El anuncio es el mismo de septiembre, en «usted» y sin tildes.",
+    "pasos": [
+     {
+      "accion": "keywords",
+      "titulo": "Cambiar las dos amplias por frase",
+      "donde": "PS Argentina - SuSo - Agricultura regenerativa- Search › grupo «Regenerativa»",
+      "detalle": "Google Ads no deja cambiar la concordancia: se agregan las frases y se pausan las amplias. Se agrega también la exacta de la búsqueda principal.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "agricultura regenerativa argentina",
+        "concordancia": "frase",
+        "destino": "Grupo «Regenerativa»",
+        "motivo": "Reemplaza a la amplia: la búsqueda literal costó ARS 261 por un clic; lo caro fue lo que la amplia trajo alrededor.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "agricultura regenerativa en argentina",
+        "concordancia": "frase",
+        "destino": "Grupo «Regenerativa»",
+        "motivo": "Reemplaza a la amplia de nivel de calidad 2. «agricultura regenerativa en argentina» literal: 3 clics, ARS 1.124.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "agricultura regenerativa",
+        "concordancia": "exacta",
+        "destino": "Grupo «Regenerativa»",
+        "motivo": "La búsqueda con más volumen del tema: 6 clics, ARS 2.729, 218 impresiones, hoy entrando por las amplias y por «Transicion».",
+        "opcional": true
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "agricultura regenerativa argentina",
+        "concordancia": "amplia",
+        "destino": "Grupo «Regenerativa»",
+        "motivo": "187 clics y ARS 81.084; lo visible es en su mayoría agro en general y marcas.",
+        "prioritario": true
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "agricultura regenerativa en argentina",
+        "concordancia": "amplia",
+        "destino": "Grupo «Regenerativa»",
+        "motivo": "21 clics y ARS 18.283 con nivel de calidad 2.",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 22 negativas de campaña",
+      "donde": "PS Argentina - SuSo - Agricultura regenerativa- Search › toda la campaña",
+      "detalle": "Con las frases baja mucho el ruido, pero estas búsquedas también entran por «practicas agricolas regenerativas» (frase). Las negativas no cubren plurales ni tildes.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "corteva",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«corteva argentina» ARS 2.599 por un clic; 49 impresiones con «corteva agriscience».",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "syngenta",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«syngenta», «syngenta argentina», «cropwise syngenta»: 3 clics, ARS 1.354.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "bayer",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«agro bayer», «pro carbono bayer», «bayer agricultura regenerativa»: 2 clics, ARS 1.033.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "argenbio",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«argenbio» y variantes: 5 clics, ARS 1.625.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "inta",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«inta», «inta argentina»: 4 clics, ARS 1.820, 370 impresiones.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "camelina",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«camelina», «camelina company»: 3 clics, ARS 1.897.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "unibaio",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«unibaio startup»: 2 clics, ARS 1.096.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "amaggi",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«amaggi argentina»: ARS 748 por un clic.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ruuts",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«ruuts argentina»: ARS 550 por un clic.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ovis",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«ovis 21» y variantes: 1 clic, ARS 412, 63 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "basf",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«basf argentina» y variantes: 10 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "adecoagro",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«adecoagro»: 35 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "yara",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«yara argentina» y productos de Yara: 23 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "rizobacter",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«rizobacter argentina»: 19 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "agtech",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«agtech», «agtech argentina»: 33 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "pools de siembra",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«pools de siembra en argentina»: ARS 2.498 por un clic.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "empresas agricolas",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«empresas agricolas en argentina»: ARS 2.353 por un clic. Buscan un directorio.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "empresas agropecuarias",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«empresas agropecuarias» y variantes: 6 clics, ARS 1.742.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "buenas practicas agricolas",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«buenas practicas agricolas»: 1 clic, ARS 445, 26 impresiones. Informativa.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "buenas prácticas agrícolas",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "La misma con tildes: 1 clic, ARS 473. La negativa sin tildes no la cubre.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "libros",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«libros de agricultura regenerativa» (5 impresiones). Ya está «libro», que no cubre el plural.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "qué es",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«qué es la agricultura regenerativa» ARS 362; 72 impresiones con tilde. Ya está «que es», que no cubre la tilde.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Reescribir el anuncio en la voz de Peterson",
+      "donde": "PS Argentina - SuSo - Agricultura regenerativa- Search › grupo «Regenerativa» › anuncio id 817970221346",
+      "detalle": "4 títulos y 3 descripciones reemplazan a los que están en «usted» o sin tildes, y se suma 1 título (hay 14). Los otros tres grupos (Transicion id 817970221349, Carbono campo id 817970221355, Impacto id 817970221352) tienen el mismo anuncio: copiar los mismos cambios.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Hablemos de tu campo",
+        "destino": "Anuncio id 817970221346 · grupo «Regenerativa»",
+        "motivo": "Pasa de «usted» a la voz de Peterson («nosotros», vos) que pide el manual para Argentina.",
+        "reemplaza": "Hable Con Peterson",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Te acompañamos en el campo",
+        "destino": "Anuncio id 817970221346 · grupo «Regenerativa»",
+        "motivo": "Dice el verbo de Peterson (acompañamos); «Cadena Agricola» no dice qué se ofrece y no lleva tilde.",
+        "reemplaza": "Cadena Agricola",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Preparación para regenagri",
+        "destino": "Anuncio id 817970221346 · grupo «Regenerativa»",
+        "motivo": "La landing tiene la sección «Regenagri y otros programas» y ofrece pre-evaluación. «Impacto Agricola» repite «Medicion De Impacto».",
+        "reemplaza": "Impacto Agricola",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Transición regenerativa",
+        "destino": "Anuncio id 817970221346 · grupo «Regenerativa»",
+        "motivo": "El mismo título con tildes.",
+        "reemplaza": "Transicion Regenerativa",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Co-desarrollamos tu programa",
+        "destino": "Anuncio id 817970221346 · grupo «Regenerativa»",
+        "motivo": "Ocupa el lugar libre (el anuncio tiene 14 títulos) con el otro verbo de Peterson.",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Acompañamos tu transición regenerativa con datos de suelo, carbono e impacto.",
+        "destino": "Anuncio id 817970221346 · grupo «Regenerativa»",
+        "motivo": "Mismo contenido en la voz de Peterson y con tildes.",
+        "reemplaza": "Implemente programas regenerativos con foco en suelo, datos e impacto.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Hablemos de tu campo: co-desarrollamos el plan y medimos el impacto con vos.",
+        "destino": "Anuncio id 817970221346 · grupo «Regenerativa»",
+        "motivo": "Llamado a la acción en vos y con el verbo de Peterson.",
+        "reemplaza": "Hable con Peterson para definir alcance y plan de implementacion.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Te preparamos para regenagri y otros programas de agricultura regenerativa.",
+        "destino": "Anuncio id 817970221346 · grupo «Regenerativa»",
+        "motivo": "Nombra lo que la landing ofrece (preparación para regenagri) en vez de una frase genérica.",
+        "reemplaza": "Conecte sostenibilidad, abastecimiento y productividad en campo.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "negativas_decision": "Sí: 22 negativas de campaña (7 prioritarias de marcas con gasto y 3 de directorios). No se negativiza «ganaderia regenerativa» (114 impresiones): la landing habla de pastoreo rotativo y es parte del servicio.",
+    "anuncios": [
+     {
+      "grupo": "Regenerativa",
+      "anuncio_id": "817970221346",
+      "anuncio_desc": "fuerza Promedio, único anuncio del grupo; 208 clics y ARS 99.367 del 1 sep – 20 oct 2026",
+      "accion": "Ajustar",
+      "motivo": "El anuncio está en «usted» («Hable con Peterson», «Implemente», «Conecte») y sin tildes, en un mercado que habla de vos y con una marca que habla en «nosotros». No arregla el gasto (eso lo hacen keywords y negativas), pero hoy no suena a Peterson.",
+      "url": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/",
+      "gasto_ars": 99367,
+      "clics": 208,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Agricultura Regenerativa",
+       "Transicion Regenerativa",
+       "Programas Regenerativos",
+       "Suelo Y Carbono",
+       "Monitoreo En Campo",
+       "Consultoria Peterson",
+       "Hable Con Peterson",
+       "Soporte en Regenagri",
+       "Cadena Agricola",
+       "Practicas Regenerativas",
+       "Medicion De Impacto",
+       "Carbono En Suelo",
+       "Agenda Una Reunion",
+       "Impacto Agricola"
+      ],
+      "descripciones_hoy": [
+       "Implemente programas regenerativos con foco en suelo, datos e impacto.",
+       "Acompanamos diagnostico, monitoreo y transicion en cadenas agricolas.",
+       "Conecte sostenibilidad, abastecimiento y productividad en campo.",
+       "Hable con Peterson para definir alcance y plan de implementacion."
+      ],
+      "quitar": [
+       {
+        "texto": "Hable Con Peterson",
+        "motivo": "Se reemplaza por «Hablemos de tu campo»."
+       },
+       {
+        "texto": "Cadena Agricola",
+        "motivo": "Se reemplaza por «Te acompañamos en el campo»."
+       },
+       {
+        "texto": "Impacto Agricola",
+        "motivo": "Se reemplaza por «Preparación para regenagri»."
+       },
+       {
+        "texto": "Transicion Regenerativa",
+        "motivo": "Se reemplaza por «Transición regenerativa»."
+       },
+       {
+        "texto": "Implemente programas regenerativos con foco en suelo, datos e impacto.",
+        "motivo": "Se reemplaza por «Acompañamos tu transición regenerativa con datos de suelo, carbono e impacto.»."
+       },
+       {
+        "texto": "Hable con Peterson para definir alcance y plan de implementacion.",
+        "motivo": "Se reemplaza por «Hablemos de tu campo: co-desarrollamos el plan y medimos el impacto con vos.»."
+       },
+       {
+        "texto": "Conecte sostenibilidad, abastecimiento y productividad en campo.",
+        "motivo": "Se reemplaza por «Te preparamos para regenagri y otros programas de agricultura regenerativa.»."
+       }
+      ],
+      "titulos_propuestos": [
+       {
+        "texto": "Hablemos de tu campo",
+        "motivo": "Pasa de «usted» a la voz de Peterson («nosotros», vos) que pide el manual para Argentina.",
+        "prioritario": true,
+        "reemplaza": "Hable Con Peterson"
+       },
+       {
+        "texto": "Te acompañamos en el campo",
+        "motivo": "Dice el verbo de Peterson (acompañamos); «Cadena Agricola» no dice qué se ofrece y no lleva tilde.",
+        "prioritario": true,
+        "reemplaza": "Cadena Agricola"
+       },
+       {
+        "texto": "Preparación para regenagri",
+        "motivo": "La landing tiene la sección «Regenagri y otros programas» y ofrece pre-evaluación. «Impacto Agricola» repite «Medicion De Impacto».",
+        "prioritario": false,
+        "reemplaza": "Impacto Agricola"
+       },
+       {
+        "texto": "Transición regenerativa",
+        "motivo": "El mismo título con tildes.",
+        "prioritario": false,
+        "reemplaza": "Transicion Regenerativa"
+       },
+       {
+        "texto": "Co-desarrollamos tu programa",
+        "motivo": "Ocupa el lugar libre (el anuncio tiene 14 títulos) con el otro verbo de Peterson.",
+        "prioritario": false
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Acompañamos tu transición regenerativa con datos de suelo, carbono e impacto.",
+        "motivo": "Mismo contenido en la voz de Peterson y con tildes.",
+        "prioritario": true,
+        "reemplaza": "Implemente programas regenerativos con foco en suelo, datos e impacto."
+       },
+       {
+        "texto": "Hablemos de tu campo: co-desarrollamos el plan y medimos el impacto con vos.",
+        "motivo": "Llamado a la acción en vos y con el verbo de Peterson.",
+        "prioritario": true,
+        "reemplaza": "Hable con Peterson para definir alcance y plan de implementacion."
+       },
+       {
+        "texto": "Te preparamos para regenagri y otros programas de agricultura regenerativa.",
+        "motivo": "Nombra lo que la landing ofrece (preparación para regenagri) en vez de una frase genérica.",
+        "prioritario": false,
+        "reemplaza": "Conecte sostenibilidad, abastecimiento y productividad en campo."
+       }
+      ],
+      "terminos": [
+       {
+        "termino": "corteva argentina",
+        "relacion": "nula",
+        "coste": 2599,
+        "clics": 1
+       },
+       {
+        "termino": "pools de siembra en argentina",
+        "relacion": "nula",
+        "coste": 2498,
+        "clics": 1
+       },
+       {
+        "termino": "empresas agricolas en argentina",
+        "relacion": "nula",
+        "coste": 2353,
+        "clics": 1
+       },
+       {
+        "termino": "agricultura regenerativa",
+        "relacion": "fuerte",
+        "coste": 2729,
+        "clics": 6
+       },
+       {
+        "termino": "agricultura regenerativa en argentina",
+        "relacion": "fuerte",
+        "coste": 1124,
+        "clics": 3
+       }
+      ],
+      "nota": "Primero el paso 1: ningún título compensa 90 clics de búsquedas que no son de agricultura regenerativa."
+     }
+    ],
+    "organico": [],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026",
+    "keywords": [
+     {
+      "texto": "agricultura regenerativa argentina",
+      "concordancia": "frase",
+      "grupo": "Regenerativa",
+      "accion": "agregar",
+      "motivo": "Reemplaza a la amplia: la búsqueda literal costó ARS 261 por un clic; lo caro fue lo que la amplia trajo alrededor."
+     },
+     {
+      "texto": "agricultura regenerativa en argentina",
+      "concordancia": "frase",
+      "grupo": "Regenerativa",
+      "accion": "agregar",
+      "motivo": "Reemplaza a la amplia de nivel de calidad 2. «agricultura regenerativa en argentina» literal: 3 clics, ARS 1.124."
+     },
+     {
+      "texto": "agricultura regenerativa",
+      "concordancia": "exacta",
+      "grupo": "Regenerativa",
+      "accion": "agregar",
+      "motivo": "La búsqueda con más volumen del tema: 6 clics, ARS 2.729, 218 impresiones, hoy entrando por las amplias y por «Transicion»."
+     },
+     {
+      "texto": "agricultura regenerativa argentina",
+      "concordancia": "amplia",
+      "grupo": "Regenerativa",
+      "accion": "pausar",
+      "motivo": "187 clics y ARS 81.084; lo visible es en su mayoría agro en general y marcas."
+     },
+     {
+      "texto": "agricultura regenerativa en argentina",
+      "concordancia": "amplia",
+      "grupo": "Regenerativa",
+      "accion": "pausar",
+      "motivo": "21 clics y ARS 18.283 con nivel de calidad 2."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "corteva",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«corteva argentina» ARS 2.599 por un clic; 49 impresiones con «corteva agriscience»."
+     },
+     {
+      "texto": "syngenta",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«syngenta», «syngenta argentina», «cropwise syngenta»: 3 clics, ARS 1.354."
+     },
+     {
+      "texto": "bayer",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«agro bayer», «pro carbono bayer», «bayer agricultura regenerativa»: 2 clics, ARS 1.033."
+     },
+     {
+      "texto": "argenbio",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«argenbio» y variantes: 5 clics, ARS 1.625."
+     },
+     {
+      "texto": "inta",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«inta», «inta argentina»: 4 clics, ARS 1.820, 370 impresiones."
+     },
+     {
+      "texto": "camelina",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«camelina», «camelina company»: 3 clics, ARS 1.897."
+     },
+     {
+      "texto": "unibaio",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«unibaio startup»: 2 clics, ARS 1.096."
+     },
+     {
+      "texto": "amaggi",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«amaggi argentina»: ARS 748 por un clic."
+     },
+     {
+      "texto": "ruuts",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«ruuts argentina»: ARS 550 por un clic."
+     },
+     {
+      "texto": "ovis",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«ovis 21» y variantes: 1 clic, ARS 412, 63 impresiones."
+     },
+     {
+      "texto": "basf",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«basf argentina» y variantes: 10 impresiones."
+     },
+     {
+      "texto": "adecoagro",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«adecoagro»: 35 impresiones."
+     },
+     {
+      "texto": "yara",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«yara argentina» y productos de Yara: 23 impresiones."
+     },
+     {
+      "texto": "rizobacter",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«rizobacter argentina»: 19 impresiones."
+     },
+     {
+      "texto": "agtech",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«agtech», «agtech argentina»: 33 impresiones."
+     },
+     {
+      "texto": "pools de siembra",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«pools de siembra en argentina»: ARS 2.498 por un clic."
+     },
+     {
+      "texto": "empresas agricolas",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«empresas agricolas en argentina»: ARS 2.353 por un clic. Buscan un directorio."
+     },
+     {
+      "texto": "empresas agropecuarias",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«empresas agropecuarias» y variantes: 6 clics, ARS 1.742."
+     },
+     {
+      "texto": "buenas practicas agricolas",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«buenas practicas agricolas»: 1 clic, ARS 445, 26 impresiones. Informativa."
+     },
+     {
+      "texto": "buenas prácticas agrícolas",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "La misma con tildes: 1 clic, ARS 473. La negativa sin tildes no la cubre."
+     },
+     {
+      "texto": "libros",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«libros de agricultura regenerativa» (5 impresiones). Ya está «libro», que no cubre el plural."
+     },
+     {
+      "texto": "qué es",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«qué es la agricultura regenerativa» ARS 362; 72 impresiones con tilde. Ya está «que es», que no cubre la tilde."
+     }
+    ]
+   }
+  },
+  {
+   "clave": "PS:SEM:anuncio:ps-argentina-suse-huella-de-carbono-gei:huella-carbono",
+   "marca": "PS",
+   "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+   "grupo": "Huella producto",
+   "titulo": "Huella de carbono: pasar a frase las tres amplias (ARS 103.977, 92%), cargar 21 negativas (hoy cero) y ajustar los dos anuncios",
+   "detalle": "Tres amplias traen ISO 14001, RSE y bonos de carbono; la campaña no tiene ni una negativa de campaña. Agregar las frases, pausar las amplias, cargar las negativas y sumar al anuncio la huella de producto y el inventario GEI, en la voz de Peterson.",
+   "prioridad": "alta",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Argentina",
+    "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+    "acciones": [
+     "keywords",
+     "negativas",
+     "anuncio"
+    ],
+    "resumen": "Pasar las tres amplias a frase (92% del gasto), cargar las primeras negativas de campaña y nombrar en el anuncio la huella de producto.",
+    "por_que": "1 sep – 20 oct 2026: 124 clics y ARS 113.133, sin conversiones. Tres amplias se llevan ARS 103.977 (92%): «huella de carbono producto» 68 clics y ARS 56.872 (nivel de calidad 2), «inventario gases de efecto invernadero» 35 clics y ARS 35.218, «iso 14067 huella de carbono» 13 clics y ARS 11.887 (nivel 1). La campaña no tiene negativas de campaña. De los ARS 44.299 visibles, ARS 15.516 (35%) son búsquedas de ISO 14001; además RSE, bonos y mercado de carbono, el inventario nacional del país y software de la competencia.",
+    "ya_hecho": "Nada de septiembre: las amplias siguen, cero negativas de campaña (solo de grupo: curso, pdf, empleo…), el anuncio no cambió y los cuatro grupos siguen con el mismo texto. El anuncio de «Huella carbono» sigue con fuerza «Deficiente».",
+    "pasos": [
+     {
+      "accion": "keywords",
+      "titulo": "Cambiar las tres amplias por frase",
+      "donde": "PS Argentina - SuSe - Huella de carbono / GEI - Search › grupos «Huella producto» y «Huella carbono»",
+      "detalle": "Google Ads no deja cambiar la concordancia: se agregan las frases y se pausan las amplias. Las exactas que ya existen quedan.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "huella de carbono producto",
+        "concordancia": "frase",
+        "destino": "Grupo «Huella producto»",
+        "motivo": "Reemplaza a la amplia de 68 clics y ARS 56.872 con nivel de calidad 2.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso 14067",
+        "concordancia": "frase",
+        "destino": "Grupo «Huella producto»",
+        "motivo": "Reemplaza a la amplia «iso 14067 huella de carbono» (nivel 1). «iso 14067» trajo 46 impresiones en el período.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "inventario gases de efecto invernadero",
+        "concordancia": "frase",
+        "destino": "Grupo «Huella carbono»",
+        "motivo": "Reemplaza a la amplia de 35 clics y ARS 35.218 (la frase con «de» ya existe).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "inventario gei",
+        "concordancia": "frase",
+        "destino": "Grupo «Huella carbono»",
+        "motivo": "«inventario gei argentina», «inventario gei»: 1 clic, ARS 1.191, 17 impresiones; relación fuerte con el servicio.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "consultoria ambiental",
+        "concordancia": "exacta",
+        "destino": "Grupo «Huella carbono»",
+        "motivo": "Lo pedía septiembre: «consultoria ambiental» y variantes, 1 clic, ARS 844, 37 impresiones. Peterson es consultora; la exacta evita traer estudios de impacto ambiental.",
+        "opcional": true
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "huella de carbono producto",
+        "concordancia": "amplia",
+        "destino": "Grupo «Huella producto»",
+        "motivo": "68 clics, ARS 56.872, nivel de calidad 2; trae ISO 14001, RSE y bonos.",
+        "prioritario": true
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "iso 14067 huella de carbono",
+        "concordancia": "amplia",
+        "destino": "Grupo «Huella producto»",
+        "motivo": "13 clics, ARS 11.887, nivel de calidad 1; trae «iso 14001», «iso 26000», «iso 50001».",
+        "prioritario": true
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "inventario gases de efecto invernadero",
+        "concordancia": "amplia",
+        "destino": "Grupo «Huella carbono»",
+        "motivo": "35 clics, ARS 35.218; trae «iso 14001» e «inventario nacional».",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Cargar 21 negativas de campaña (hoy no hay ninguna)",
+      "donde": "PS Argentina - SuSe - Huella de carbono / GEI - Search › toda la campaña",
+      "detalle": "Las negativas de grupo que ya existen quedan. Las negativas no cubren plurales ni tildes.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "14001",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 14001», «norma iso 14001» y 152 variantes: 18 clics, ARS 15.516, el 35% del gasto visible. Es otra norma (gestión ambiental). Si Peterson vende preparación ISO 14001, que vaya en su propia campaña: confirmar con la unidad.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "14000",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«normas iso 14000» y variantes: 3 clics, ARS 1.900.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "9001",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 9001 14001 45001»: ARS 1.224 por un clic.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "rse",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«consultora en rse» ARS 1.354, «rse» ARS 913. RSE va con «PS Argentina - SuSe - ESG / Reportes - Search».",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "responsabilidad social",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«responsabilidad social empresarial» y variantes: 189 impresiones. Mismo motivo que «rse».",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "26000",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 26000» y variantes: 73 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "50001",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 50001»: 25 impresiones. Gestión de energía.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "bonos",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«empresas que compran bonos de carbono» ARS 1.821; 89 impresiones con «bonos». Créditos de carbono para el agro van en el grupo «Carbono campo» de Agricultura regenerativa.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "bono",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«bono de carbono», «bono carbono»: 18 impresiones. El plural no lo cubre.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "mercado de carbono",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«mercado de carbono», «mercado de carbono voluntario»: 74 impresiones con el plural.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "mercados de carbono",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "El plural, que la frase en singular no cubre.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "carbono neutral",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«carbono neutral», «certificación carbono neutral»: 38 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "carbon neutral",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«carbon neutral», «certified carbon neutral»: 31 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "triple impacto",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«empresas triple impacto» y variantes: 53 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "inventario nacional",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«inventario nacional de gases de efecto invernadero» (el inventario del país): 2 clics, ARS 2.192.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "greenly",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«greenly carbon»: ARS 996 por un clic. Software de un competidor.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "carboncloud",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«carboncloud»: ARS 1.586 por un clic. Software de un competidor.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "descargar",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 14001 versión 2026 descargar» y otras: ARS 1.186 por un clic.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "calculadora",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«calculadora de huella de carbono para empresas»: ARS 554 por un clic. El grupo «Huella carbono» solo tiene «calculadora gratis».",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que es",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Hoy está solo en dos grupos; «scope 3 que es» entró por «Scope 1 2 3». 6 impresiones.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "qué es",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«qué es la iso 14001», «qué es descarbonización»: 6 impresiones. La versión sin tilde no la cubre.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Ajustar los dos anuncios que gastan",
+      "donde": "PS Argentina - SuSe - Huella de carbono / GEI - Search › grupos «Huella producto» (id 817970221193) y «Huella carbono» (id 817970221184)",
+      "detalle": "Los dos tienen el mismo texto y 13 títulos: se suman 2 títulos, se reemplazan 2 y 3 descripciones. Primero «Huella producto», que gasta más.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Huella de carbono de producto",
+        "destino": "Anuncio id 817970221193 · grupo «Huella producto»",
+        "motivo": "Es la keyword que más gasta («huella de carbono producto», 68 clics, ARS 56.872) y tiene nivel de calidad 2: ningún título la repite.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Inventario GEI en Argentina",
+        "destino": "Anuncio id 817970221193 · grupo «Huella producto»",
+        "motivo": "«inventario gei argentina»: la búsqueda de compra más clara del grupo (1 ago – 24 sep: 2 clics y ARS 2.817).",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "ISO 14064 e ISO 14067",
+        "destino": "Anuncio id 817970221193 · grupo «Huella producto»",
+        "motivo": "La landing trabaja huella de organización y de producto con ISO 14064 y 14067; reemplaza un título que no busca nadie.",
+        "reemplaza": "AFOLU Agro",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Te acompañamos a medir",
+        "destino": "Anuncio id 817970221193 · grupo «Huella producto»",
+        "motivo": "Verbo de Peterson en lugar de una etiqueta genérica.",
+        "reemplaza": "Carbono Corporativo",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Medimos con vos la huella de carbono de tu empresa, tu producto y tu cadena.",
+        "destino": "Anuncio id 817970221193 · grupo «Huella producto»",
+        "motivo": "Mismo contenido, en vos y en la voz de Peterson.",
+        "reemplaza": "Mida y gestione emisiones corporativas, producto y cadena de valor.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Hablemos de tus emisiones: definimos juntos alcance, datos y metodología.",
+        "destino": "Anuncio id 817970221193 · grupo «Huella producto»",
+        "motivo": "Llamado a la acción en vos y con tildes.",
+        "reemplaza": "Hable con Peterson para definir alcance, datos y metodologia.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Inventario GEI con ISO 14064 y GHG Protocol: alcances 1, 2 y 3.",
+        "destino": "Anuncio id 817970221193 · grupo «Huella producto»",
+        "motivo": "Nombra las normas que cita la landing; «soporte experto» no dice nada.",
+        "reemplaza": "Prepare inventarios GEI, Scope 1, 2 y 3 con soporte experto.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Huella de carbono de producto",
+        "destino": "Anuncio id 817970221184 · grupo «Huella carbono»",
+        "motivo": "Es la keyword que más gasta («huella de carbono producto», 68 clics, ARS 56.872) y tiene nivel de calidad 2: ningún título la repite.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Inventario GEI en Argentina",
+        "destino": "Anuncio id 817970221184 · grupo «Huella carbono»",
+        "motivo": "«inventario gei argentina»: la búsqueda de compra más clara del grupo (1 ago – 24 sep: 2 clics y ARS 2.817).",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "ISO 14064 e ISO 14067",
+        "destino": "Anuncio id 817970221184 · grupo «Huella carbono»",
+        "motivo": "La landing trabaja huella de organización y de producto con ISO 14064 y 14067; reemplaza un título que no busca nadie.",
+        "reemplaza": "AFOLU Agro",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Te acompañamos a medir",
+        "destino": "Anuncio id 817970221184 · grupo «Huella carbono»",
+        "motivo": "Verbo de Peterson en lugar de una etiqueta genérica.",
+        "reemplaza": "Carbono Corporativo",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Medimos con vos la huella de carbono de tu empresa, tu producto y tu cadena.",
+        "destino": "Anuncio id 817970221184 · grupo «Huella carbono»",
+        "motivo": "Mismo contenido, en vos y en la voz de Peterson.",
+        "reemplaza": "Mida y gestione emisiones corporativas, producto y cadena de valor.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Hablemos de tus emisiones: definimos juntos alcance, datos y metodología.",
+        "destino": "Anuncio id 817970221184 · grupo «Huella carbono»",
+        "motivo": "Llamado a la acción en vos y con tildes.",
+        "reemplaza": "Hable con Peterson para definir alcance, datos y metodologia.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Inventario GEI con ISO 14064 y GHG Protocol: alcances 1, 2 y 3.",
+        "destino": "Anuncio id 817970221184 · grupo «Huella carbono»",
+        "motivo": "Nombra las normas que cita la landing; «soporte experto» no dice nada.",
+        "reemplaza": "Prepare inventarios GEI, Scope 1, 2 y 3 con soporte experto.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "negativas_decision": "Sí: 21 negativas de campaña, las primeras de la campaña. No se negativiza «cbam» (31 impresiones, 0 clics) ni «ghg protocol» (2 clics, ARS 1.818): la landing nombra el GHG Protocol, y si Peterson vende CBAM hay que confirmarlo con la unidad. Tampoco [iso 14064] exacta como pedía septiembre: «iso 14064» sola trajo 1 clic en 65 impresiones, es búsqueda de la norma.",
+    "anuncios": [
+     {
+      "grupo": "Huella producto",
+      "anuncio_id": "817970221193",
+      "anuncio_desc": "fuerza Promedio, único anuncio del grupo; 83 clics y ARS 70.121 del 1 sep – 20 oct 2026",
+      "accion": "Ajustar",
+      "motivo": "Gasta ARS 70.121 sin repetir la keyword principal del grupo («huella de carbono producto», nivel 2) y está en «usted» («Mida», «Prepare», «Hable»).",
+      "url": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+      "gasto_ars": 70121,
+      "clics": 83,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Huella De Carbono",
+       "Inventario GEI",
+       "Scope 1 2 3",
+       "Emisiones Scope 3",
+       "Huella De Producto",
+       "AFOLU Agro",
+       "ISO 14064",
+       "Consultoria Peterson",
+       "Medicion De Emisiones",
+       "Gestion GEI",
+       "Reporte De Emisiones",
+       "Carbono Corporativo",
+       "Agenda Una Reunion"
+      ],
+      "descripciones_hoy": [
+       "Mida y gestione emisiones corporativas, producto y cadena de valor.",
+       "Prepare inventarios GEI, Scope 1, 2 y 3 con soporte experto.",
+       "Conecte huella de carbono con decisiones ESG y comerciales.",
+       "Hable con Peterson para definir alcance, datos y metodologia."
+      ],
+      "quitar": [
+       {
+        "texto": "AFOLU Agro",
+        "motivo": "Se reemplaza por «ISO 14064 e ISO 14067»."
+       },
+       {
+        "texto": "Carbono Corporativo",
+        "motivo": "Se reemplaza por «Te acompañamos a medir»."
+       },
+       {
+        "texto": "Mida y gestione emisiones corporativas, producto y cadena de valor.",
+        "motivo": "Se reemplaza por «Medimos con vos la huella de carbono de tu empresa, tu producto y tu cadena.»."
+       },
+       {
+        "texto": "Hable con Peterson para definir alcance, datos y metodologia.",
+        "motivo": "Se reemplaza por «Hablemos de tus emisiones: definimos juntos alcance, datos y metodología.»."
+       },
+       {
+        "texto": "Prepare inventarios GEI, Scope 1, 2 y 3 con soporte experto.",
+        "motivo": "Se reemplaza por «Inventario GEI con ISO 14064 y GHG Protocol: alcances 1, 2 y 3.»."
+       }
+      ],
+      "titulos_propuestos": [
+       {
+        "texto": "Huella de carbono de producto",
+        "motivo": "Es la keyword que más gasta («huella de carbono producto», 68 clics, ARS 56.872) y tiene nivel de calidad 2: ningún título la repite.",
+        "prioritario": true
+       },
+       {
+        "texto": "Inventario GEI en Argentina",
+        "motivo": "«inventario gei argentina»: la búsqueda de compra más clara del grupo (1 ago – 24 sep: 2 clics y ARS 2.817).",
+        "prioritario": false
+       },
+       {
+        "texto": "ISO 14064 e ISO 14067",
+        "motivo": "La landing trabaja huella de organización y de producto con ISO 14064 y 14067; reemplaza un título que no busca nadie.",
+        "prioritario": false,
+        "reemplaza": "AFOLU Agro"
+       },
+       {
+        "texto": "Te acompañamos a medir",
+        "motivo": "Verbo de Peterson en lugar de una etiqueta genérica.",
+        "prioritario": false,
+        "reemplaza": "Carbono Corporativo"
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Medimos con vos la huella de carbono de tu empresa, tu producto y tu cadena.",
+        "motivo": "Mismo contenido, en vos y en la voz de Peterson.",
+        "prioritario": true,
+        "reemplaza": "Mida y gestione emisiones corporativas, producto y cadena de valor."
+       },
+       {
+        "texto": "Hablemos de tus emisiones: definimos juntos alcance, datos y metodología.",
+        "motivo": "Llamado a la acción en vos y con tildes.",
+        "prioritario": true,
+        "reemplaza": "Hable con Peterson para definir alcance, datos y metodologia."
+       },
+       {
+        "texto": "Inventario GEI con ISO 14064 y GHG Protocol: alcances 1, 2 y 3.",
+        "motivo": "Nombra las normas que cita la landing; «soporte experto» no dice nada.",
+        "prioritario": false,
+        "reemplaza": "Prepare inventarios GEI, Scope 1, 2 y 3 con soporte experto."
+       }
+      ],
+      "terminos": [
+       {
+        "termino": "iso 14001",
+        "relacion": "nula",
+        "coste": 2912,
+        "clics": 4
+       },
+       {
+        "termino": "gestión empresarial para la sostenibilidad de pymes",
+        "relacion": "parcial",
+        "coste": 3192,
+        "clics": 3
+       },
+       {
+        "termino": "carboncloud",
+        "relacion": "nula",
+        "coste": 1586,
+        "clics": 1
+       },
+       {
+        "termino": "consultoria ambiental",
+        "relacion": "parcial",
+        "coste": 844,
+        "clics": 1
+       }
+      ]
+     },
+     {
+      "grupo": "Huella carbono",
+      "anuncio_id": "817970221184",
+      "anuncio_desc": "fuerza Deficiente, único anuncio del grupo; 41 clics y ARS 43.012 del 1 sep – 20 oct 2026",
+      "accion": "Ajustar",
+      "motivo": "Mismo texto que «Huella producto», fuerza «Deficiente»: falta la búsqueda del grupo (inventario GEI) en los títulos y está en «usted».",
+      "url": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+      "gasto_ars": 43012,
+      "clics": 41,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Huella De Carbono",
+       "Inventario GEI",
+       "Scope 1 2 3",
+       "Emisiones Scope 3",
+       "Huella De Producto",
+       "AFOLU Agro",
+       "ISO 14064",
+       "Consultoria Peterson",
+       "Medicion De Emisiones",
+       "Gestion GEI",
+       "Reporte De Emisiones",
+       "Carbono Corporativo",
+       "Agenda Una Reunion"
+      ],
+      "descripciones_hoy": [
+       "Mida y gestione emisiones corporativas, producto y cadena de valor.",
+       "Prepare inventarios GEI, Scope 1, 2 y 3 con soporte experto.",
+       "Conecte huella de carbono con decisiones ESG y comerciales.",
+       "Hable con Peterson para definir alcance, datos y metodologia."
+      ],
+      "quitar": [
+       {
+        "texto": "AFOLU Agro",
+        "motivo": "Se reemplaza por «ISO 14064 e ISO 14067»."
+       },
+       {
+        "texto": "Carbono Corporativo",
+        "motivo": "Se reemplaza por «Te acompañamos a medir»."
+       },
+       {
+        "texto": "Mida y gestione emisiones corporativas, producto y cadena de valor.",
+        "motivo": "Se reemplaza por «Medimos con vos la huella de carbono de tu empresa, tu producto y tu cadena.»."
+       },
+       {
+        "texto": "Hable con Peterson para definir alcance, datos y metodologia.",
+        "motivo": "Se reemplaza por «Hablemos de tus emisiones: definimos juntos alcance, datos y metodología.»."
+       },
+       {
+        "texto": "Prepare inventarios GEI, Scope 1, 2 y 3 con soporte experto.",
+        "motivo": "Se reemplaza por «Inventario GEI con ISO 14064 y GHG Protocol: alcances 1, 2 y 3.»."
+       }
+      ],
+      "titulos_propuestos": [
+       {
+        "texto": "Huella de carbono de producto",
+        "motivo": "Es la keyword que más gasta («huella de carbono producto», 68 clics, ARS 56.872) y tiene nivel de calidad 2: ningún título la repite.",
+        "prioritario": true
+       },
+       {
+        "texto": "Inventario GEI en Argentina",
+        "motivo": "«inventario gei argentina»: la búsqueda de compra más clara del grupo (1 ago – 24 sep: 2 clics y ARS 2.817).",
+        "prioritario": false
+       },
+       {
+        "texto": "ISO 14064 e ISO 14067",
+        "motivo": "La landing trabaja huella de organización y de producto con ISO 14064 y 14067; reemplaza un título que no busca nadie.",
+        "prioritario": false,
+        "reemplaza": "AFOLU Agro"
+       },
+       {
+        "texto": "Te acompañamos a medir",
+        "motivo": "Verbo de Peterson en lugar de una etiqueta genérica.",
+        "prioritario": false,
+        "reemplaza": "Carbono Corporativo"
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Medimos con vos la huella de carbono de tu empresa, tu producto y tu cadena.",
+        "motivo": "Mismo contenido, en vos y en la voz de Peterson.",
+        "prioritario": true,
+        "reemplaza": "Mida y gestione emisiones corporativas, producto y cadena de valor."
+       },
+       {
+        "texto": "Hablemos de tus emisiones: definimos juntos alcance, datos y metodología.",
+        "motivo": "Llamado a la acción en vos y con tildes.",
+        "prioritario": true,
+        "reemplaza": "Hable con Peterson para definir alcance, datos y metodologia."
+       },
+       {
+        "texto": "Inventario GEI con ISO 14064 y GHG Protocol: alcances 1, 2 y 3.",
+        "motivo": "Nombra las normas que cita la landing; «soporte experto» no dice nada.",
+        "prioritario": false,
+        "reemplaza": "Prepare inventarios GEI, Scope 1, 2 y 3 con soporte experto."
+       }
+      ],
+      "terminos": [
+       {
+        "termino": "iso 14001",
+        "relacion": "nula",
+        "coste": 3586,
+        "clics": 4
+       },
+       {
+        "termino": "inventario nacional de gases de efecto invernadero",
+        "relacion": "parcial",
+        "coste": 1695,
+        "clics": 1
+       },
+       {
+        "termino": "inventario gei argentina",
+        "relacion": "fuerte",
+        "coste": 1191,
+        "clics": 1
+       }
+      ],
+      "nota": "En este grupo conviene más «Inventario GEI en Argentina» que «Huella de carbono de producto»: si hay que elegir uno, priorizar ese."
+     }
+    ],
+    "organico": [],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026",
+    "keywords": [
+     {
+      "texto": "huella de carbono producto",
+      "concordancia": "frase",
+      "grupo": "Huella producto",
+      "accion": "agregar",
+      "motivo": "Reemplaza a la amplia de 68 clics y ARS 56.872 con nivel de calidad 2."
+     },
+     {
+      "texto": "iso 14067",
+      "concordancia": "frase",
+      "grupo": "Huella producto",
+      "accion": "agregar",
+      "motivo": "Reemplaza a la amplia «iso 14067 huella de carbono» (nivel 1). «iso 14067» trajo 46 impresiones en el período."
+     },
+     {
+      "texto": "inventario gases de efecto invernadero",
+      "concordancia": "frase",
+      "grupo": "Huella carbono",
+      "accion": "agregar",
+      "motivo": "Reemplaza a la amplia de 35 clics y ARS 35.218 (la frase con «de» ya existe)."
+     },
+     {
+      "texto": "inventario gei",
+      "concordancia": "frase",
+      "grupo": "Huella carbono",
+      "accion": "agregar",
+      "motivo": "«inventario gei argentina», «inventario gei»: 1 clic, ARS 1.191, 17 impresiones; relación fuerte con el servicio."
+     },
+     {
+      "texto": "consultoria ambiental",
+      "concordancia": "exacta",
+      "grupo": "Huella carbono",
+      "accion": "agregar",
+      "motivo": "Lo pedía septiembre: «consultoria ambiental» y variantes, 1 clic, ARS 844, 37 impresiones. Peterson es consultora; la exacta evita traer estudios de impacto ambiental."
+     },
+     {
+      "texto": "huella de carbono producto",
+      "concordancia": "amplia",
+      "grupo": "Huella producto",
+      "accion": "pausar",
+      "motivo": "68 clics, ARS 56.872, nivel de calidad 2; trae ISO 14001, RSE y bonos."
+     },
+     {
+      "texto": "iso 14067 huella de carbono",
+      "concordancia": "amplia",
+      "grupo": "Huella producto",
+      "accion": "pausar",
+      "motivo": "13 clics, ARS 11.887, nivel de calidad 1; trae «iso 14001», «iso 26000», «iso 50001»."
+     },
+     {
+      "texto": "inventario gases de efecto invernadero",
+      "concordancia": "amplia",
+      "grupo": "Huella carbono",
+      "accion": "pausar",
+      "motivo": "35 clics, ARS 35.218; trae «iso 14001» e «inventario nacional»."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "14001",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iso 14001», «norma iso 14001» y 152 variantes: 18 clics, ARS 15.516, el 35% del gasto visible. Es otra norma (gestión ambiental). Si Peterson vende preparación ISO 14001, que vaya en su propia campaña: confirmar con la unidad."
+     },
+     {
+      "texto": "14000",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«normas iso 14000» y variantes: 3 clics, ARS 1.900."
+     },
+     {
+      "texto": "9001",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iso 9001 14001 45001»: ARS 1.224 por un clic."
+     },
+     {
+      "texto": "rse",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«consultora en rse» ARS 1.354, «rse» ARS 913. RSE va con «PS Argentina - SuSe - ESG / Reportes - Search»."
+     },
+     {
+      "texto": "responsabilidad social",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«responsabilidad social empresarial» y variantes: 189 impresiones. Mismo motivo que «rse»."
+     },
+     {
+      "texto": "26000",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iso 26000» y variantes: 73 impresiones."
+     },
+     {
+      "texto": "50001",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iso 50001»: 25 impresiones. Gestión de energía."
+     },
+     {
+      "texto": "bonos",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«empresas que compran bonos de carbono» ARS 1.821; 89 impresiones con «bonos». Créditos de carbono para el agro van en el grupo «Carbono campo» de Agricultura regenerativa."
+     },
+     {
+      "texto": "bono",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«bono de carbono», «bono carbono»: 18 impresiones. El plural no lo cubre."
+     },
+     {
+      "texto": "mercado de carbono",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«mercado de carbono», «mercado de carbono voluntario»: 74 impresiones con el plural."
+     },
+     {
+      "texto": "mercados de carbono",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "El plural, que la frase en singular no cubre."
+     },
+     {
+      "texto": "carbono neutral",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«carbono neutral», «certificación carbono neutral»: 38 impresiones."
+     },
+     {
+      "texto": "carbon neutral",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«carbon neutral», «certified carbon neutral»: 31 impresiones."
+     },
+     {
+      "texto": "triple impacto",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«empresas triple impacto» y variantes: 53 impresiones."
+     },
+     {
+      "texto": "inventario nacional",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«inventario nacional de gases de efecto invernadero» (el inventario del país): 2 clics, ARS 2.192."
+     },
+     {
+      "texto": "greenly",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«greenly carbon»: ARS 996 por un clic. Software de un competidor."
+     },
+     {
+      "texto": "carboncloud",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«carboncloud»: ARS 1.586 por un clic. Software de un competidor."
+     },
+     {
+      "texto": "descargar",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iso 14001 versión 2026 descargar» y otras: ARS 1.186 por un clic."
+     },
+     {
+      "texto": "calculadora",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«calculadora de huella de carbono para empresas»: ARS 554 por un clic. El grupo «Huella carbono» solo tiene «calculadora gratis»."
+     },
+     {
+      "texto": "que es",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Hoy está solo en dos grupos; «scope 3 que es» entró por «Scope 1 2 3». 6 impresiones."
+     },
+     {
+      "texto": "qué es",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«qué es la iso 14001», «qué es descarbonización»: 6 impresiones. La versión sin tilde no la cubre."
+     }
+    ]
+   }
+  },
+  {
+   "clave": "PS:SEM:plan:argentina:el-sitio-sigue-sin-existir-en-argentina",
+   "marca": "PS",
+   "campana": null,
+   "grupo": null,
+   "sitio": "americas.peterson-solutions.com",
+   "titulo": "Las landings de PS Argentina ya existen en español: corregir los 7 enlaces del pie que llevan a /es/ y dan 404",
+   "detalle": "La premisa de septiembre ya no vale: las 7 URL finales de las campañas de Argentina están en español, con hreflang es y x-default. Lo que está roto es el menú del pie: 7 enlaces a servicios con «/es/» que dan 404 en todas las páginas. De paso, Huella de agua y ESG pueden aterrizar en su página específica.",
+   "prioridad": "media",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "americas.peterson-solutions.com",
+    "paginas": [
+     {
+      "url": "https://americas.peterson-solutions.com/industry/bioenergia/",
+      "nota": "Ya existe en español (lang es-ES, hreflang es y x-default). Base en inglés: https://americas.peterson-solutions.com/en/industry/bioenergy/. URL final de PS Argentina - Bioenergia / Biocombustibles - Search. 24 impresiones orgánicas del 22 mar al 14 sep 2026."
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/",
+      "nota": "Ya existe en español (lang es-ES, hreflang es y x-default). Base en inglés: https://americas.peterson-solutions.com/en/service/certifications-support/. URL final de PS Argentina - CeSu - Preparacion para certificaciones - Search. 34 impresiones orgánicas del 22 mar al 14 sep 2026."
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/",
+      "nota": "Ya existe en español (lang es-ES, hreflang es y x-default). Base en inglés: https://americas.peterson-solutions.com/en/service/sustainability-services/. URL final de PS Argentina - SuSe - ESG / Reportes - Search. 23 impresiones orgánicas del 22 mar al 14 sep 2026."
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+      "nota": "Ya existe en español (lang es-ES, hreflang es y x-default). Base en inglés: https://americas.peterson-solutions.com/en/service/sustainability-services/ghg-environmental-performance/. URL final de PS Argentina - SuSe - Huella de carbono / GEI - Search y PS Argentina - SuSe - Huella de agua - Search. 58 impresiones orgánicas del 22 mar al 14 sep 2026."
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/",
+      "nota": "Ya existe en español (lang es-ES, hreflang es y x-default). Base en inglés: https://americas.peterson-solutions.com/en/service/sustainable-sourcing/. URL final de PS Argentina - SuSo - Abastecimiento sostenible - Search. 52 impresiones orgánicas del 22 mar al 14 sep 2026."
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/",
+      "nota": "Ya existe en español (lang es-ES, hreflang es y x-default). Base en inglés: https://americas.peterson-solutions.com/en/service/sustainable-sourcing/regenerative-agriculture/. URL final de PS Argentina - SuSo - Agricultura regenerativa- Search. 81 impresiones orgánicas del 22 mar al 14 sep 2026."
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/eudrtrazabilidad-y-geolocalizacion/",
+      "nota": "Ya existe en español (lang es-ES, hreflang es y x-default). Base en inglés: https://americas.peterson-solutions.com/en/service/sustainable-sourcing/traceability-geo-mapping/. URL final de PS Argentina - SuSo - Trazabilidad / EUDR - Search. 101 impresiones orgánicas del 22 mar al 14 sep 2026."
+     }
+    ],
+    "acciones": [
+     "tecnico",
+     "landing"
+    ],
+    "resumen": "No hay páginas para crear: las 7 landings de las campañas de Argentina ya existen en español. Lo que está roto son los 7 enlaces del pie, que llevan a /es/ y dan 404.",
+    "por_que": "La tarjeta de septiembre decía que el sitio no existía en español. Leído el 28 oct: las 7 URL finales de las 8 campañas de PS Argentina responden 200, con lang es-ES, hreflang es y x-default en la versión en español, y en/pt-br como alternativas. En Search Console (22 mar – 14 sep 2026) las páginas en español sin prefijo sumaron 13.185 impresiones, contra 42.034 de /en/; Argentina fue el 8,5% de las impresiones de la propiedad (2.065). Cada landing tuvo entre 23 y 101 impresiones: el problema no es el idioma sino que casi no rankean. Y el menú del pie de todas las páginas en español enlaza 7 servicios con /es/ en la URL, que da 404.",
+    "ya_hecho": "Hecho lo de fondo: las páginas en español existen para todos los servicios que se pagan, con hreflang correcto. Nada de lo que sigue.",
+    "pasos": [
+     {
+      "accion": "tecnico",
+      "titulo": "Corregir los 7 enlaces del pie que dan 404",
+      "donde": "Menú del pie (footer__menu-wrapper), en todas las páginas en español de americas.peterson-solutions.com",
+      "detalle": "Verificado el 28 oct en la home, en Bioenergía, en GEI y en Agricultura regenerativa: el mismo menú, los mismos 7 enlaces. Pedir a quien administra el WordPress de Peterson Americas que quite «/es/» de cada URL del menú.",
+      "items": [
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Enlace «Agricultura Regenerativa»: cambiar el href a https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/",
+        "reemplaza": "https://americas.peterson-solutions.com/es/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/",
+        "destino": "Menú del pie, todas las páginas en español",
+        "motivo": "https://americas.peterson-solutions.com/es/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/ responde 404 (28 oct); la página buena es https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Enlace «EUDR: Trazabilidad y Geolocalización»: cambiar el href a https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/eudrtrazabilidad-y-geolocalizacion/",
+        "reemplaza": "https://americas.peterson-solutions.com/es/service/sostenibilidad-en-la-cadena-de-suministro/eudrtrazabilidad-y-geolocalizacion/",
+        "destino": "Menú del pie, todas las páginas en español",
+        "motivo": "https://americas.peterson-solutions.com/es/service/sostenibilidad-en-la-cadena-de-suministro/eudrtrazabilidad-y-geolocalizacion/ responde 404 (28 oct); la página buena es https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/eudrtrazabilidad-y-geolocalizacion/."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Enlace «Impacto Social»: cambiar el href a https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/impacto-social/",
+        "reemplaza": "https://americas.peterson-solutions.com/es/service/sostenibilidad-en-la-cadena-de-suministro/impacto-social/",
+        "destino": "Menú del pie, todas las páginas en español",
+        "motivo": "https://americas.peterson-solutions.com/es/service/sostenibilidad-en-la-cadena-de-suministro/impacto-social/ responde 404 (28 oct); la página buena es https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/impacto-social/."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Enlace «Programas Privados»: cambiar el href a https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/programas-privados/",
+        "reemplaza": "https://americas.peterson-solutions.com/es/service/sostenibilidad-en-la-cadena-de-suministro/programas-privados/",
+        "destino": "Menú del pie, todas las páginas en español",
+        "motivo": "https://americas.peterson-solutions.com/es/service/sostenibilidad-en-la-cadena-de-suministro/programas-privados/ responde 404 (28 oct); la página buena es https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/programas-privados/."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Enlace «GEI y servicios medioambientales»: cambiar el href a https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+        "reemplaza": "https://americas.peterson-solutions.com/es/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+        "destino": "Menú del pie, todas las páginas en español",
+        "motivo": "https://americas.peterson-solutions.com/es/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/ responde 404 (28 oct); la página buena es https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Enlace «Finanzas Sostenibles»: cambiar el href a https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/",
+        "reemplaza": "https://americas.peterson-solutions.com/es/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/",
+        "destino": "Menú del pie, todas las páginas en español",
+        "motivo": "https://americas.peterson-solutions.com/es/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/ responde 404 (28 oct); la página buena es https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Enlace «Estrategia de Sostenibilidad y Reporte»: cambiar el href a https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+        "reemplaza": "https://americas.peterson-solutions.com/es/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+        "destino": "Menú del pie, todas las páginas en español",
+        "motivo": "https://americas.peterson-solutions.com/es/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/ responde 404 (28 oct); la página buena es https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/."
+       }
+      ]
+     },
+     {
+      "accion": "landing",
+      "titulo": "Opcional: usar la página específica en dos campañas",
+      "donde": "Google Ads › URL final de los anuncios",
+      "detalle": "Dos campañas mandan a una página más general aunque existe la del servicio. Coordinar con la tarjeta de cada campaña antes de cambiarlo.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "url",
+        "texto": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gestion-eficiente-del-agua/",
+        "reemplaza": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+        "destino": "PS Argentina - SuSe - Huella de agua - Search › URL final de sus 4 anuncios",
+        "motivo": "La campaña de agua aterriza en la página de GEI (title «Huella de Carbono a campo»). «Gestión eficiente del agua» existe (200) y tuvo 73 impresiones orgánicas, más que la de GEI (58)."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "url",
+        "texto": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+        "reemplaza": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/",
+        "destino": "PS Argentina - SuSe - ESG / Reportes - Search › URL final de sus 4 anuncios",
+        "motivo": "La campaña de reportes ESG aterriza en la página general de estrategia (23 impresiones). «Estrategia de Sostenibilidad y Reporte» existe (200) y tuvo 46 impresiones y 4 clics orgánicos."
+       }
+      ]
+     }
+    ],
+    "organico": [],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026; estructura de Ads al 21 oct 2026"
+   }
+  }
+ ],
+ "descartes": []
+}

@@ -1,0 +1,1916 @@
+{
+ "tarjetas": [
+  {
+   "clave": "CU:SEO:espana-controlunion-com:titulo-y-snippet",
+   "marca": "CU",
+   "sitio": "espana.controlunion.com",
+   "titulo": "GRS y Welfair (España): title, meta y H1 nuevos y sección «¿Qué significa GRS?»: 27.200 impresiones en posición 8 con CTR de 0,27% y 0,31%",
+   "detalle": "Las páginas de GRS y de bienestar animal Welfair están en primera página (posición 8,1 y 8,3) y casi nadie hace clic; en jun–sep el CTR bajó a 0,20% y 0,15%. El title de GRS no dice «certificación» y el de Welfair está en inglés en la página en español (igual al de la versión /en/). Cambiar title, meta y H1 de las dos y sumar a GRS una sección que conteste «qué significa GRS», la búsqueda más frecuente después de «grs».",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "espana.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+      "nota": "la que se cambia (title, meta, H1 y dos secciones nuevas)"
+     },
+     {
+      "url": "https://espana.controlunion.com/programa-de-certificacion/certificacion-bienestar-animal-welfair-iaws/",
+      "nota": "la que se cambia (title y meta en español)"
+     },
+     {
+      "url": "https://espana.controlunion.com/en/certification-program/certificacion-bienestar-animal-welfair-iaws/",
+      "nota": "versión en inglés: title propio para diferenciarla (opcional)"
+     },
+     {
+      "url": "https://espana.controlunion.com/industry/textiles/",
+      "nota": "origen del enlace interno hacia GRS"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Que el resultado de GRS y de Welfair diga «certificación» en el idioma de la página y conteste lo que se busca.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026, todos los países. GRS: 15.968 impresiones, 43 clics, posición 8,1, CTR 0,27% (jun–sep: 9.832 impresiones, posición 9,3, CTR 0,20%). «grs» 9.515 impresiones en posición 9,0 (80% desde España: 7.658 de 9.530). Las búsquedas de definición («que significa grs» 988, «que es grs» 550, «grs que es» 372, «grs que significa» 281, «qué significa grs» 214, «grs significado» 161, «q significa grs» 89, «que es un grs» 85) suman 2.740 impresiones en posición 4,5–6,9 y 0 clics. Welfair en español: 11.232 impresiones, 35 clics, posición 8,3, CTR 0,31% (jun–sep: 5.208, posición 9,4, CTR 0,15%); su title está en inglés y es idéntico al de la versión /en/.",
+    "ya_hecho": "Nada de lo de septiembre: title de GRS «GRS - Global Recycled Standard - Control Union España» y de Welfair «The Welfair™ Animal Welfare certification - Control Union España» (leídos el 28 oct 2026). El hreflang es-ES/en-ES/x-default y el canonical ya están bien en las dos.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Reescribir title, meta y H1 de la página GRS",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+      "detalle": "Cambios en el gestor de la página (pedir a la unidad de España si no hay acceso).",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificación GRS (Global Recycled Standard) | Control Union",
+        "reemplaza": "GRS - Global Recycled Standard - Control Union España",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "«grs» (9.515 impresiones, posición 9,0) y «global recycled standard» (410, posición 7,5) ya traen la página; falta «certificación», que es la intención de quien compra («certificado grs»: 130 impresiones en posición 13,3, 0 clics).",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Qué es GRS y cómo se obtiene la certificación: contenido reciclado, cadena de custodia y requisitos sociales, ambientales y químicos. Pide presupuesto.",
+        "reemplaza": "El GRS es un estándar de producto internacional, voluntario, y completo que fija requisitos para la certificación por parte de terceros de contenido reciclado, cadena de custodia, prácticas sociales y medioambientales, y restricciones químicas.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "Contesta las 2.740 impresiones de búsquedas de definición y suma el pedido de presupuesto. La actual (244 caracteres) se corta y no dice cómo certificarse.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificación GRS – Global Recycled Standard",
+        "reemplaza": "GRS – Global Recycled Standard",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "El H1 actual no dice «certificación»; alinea H1 y title.",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Sumar dos secciones a la página GRS",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+      "detalle": "Secciones nuevas debajo de «Objetivo». Textos en castellano de España; los pasos del proceso, confirmarlos con la unidad.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «¿Qué significa GRS?»: GRS es el Global Recycled Standard de Textile Exchange; certifica el contenido reciclado de un producto y su cadena de custodia, con requisitos sociales, ambientales y de químicos. Dos o tres frases, con la palabra «GRS» en la primera.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "2.740 impresiones de «qué significa / qué es grs» en posición 4,5–6,9 sin un solo clic: la página no tiene un bloque que lo responda.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Cómo obtener la certificación GRS»: solicitud y presupuesto, auditoría de cada sitio del alcance, certificado de alcance (scope certificate) y certificados de transacción (TC) para cada venta de producto certificado.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "«certificado grs» (130 impresiones, posición 13,3) y «global recycled standard (grs)» (67, posición 7,2). Confirmar con la unidad los pasos y plazos de Control Union España.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Title y meta en español para Welfair",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/certificacion-bienestar-animal-welfair-iaws/",
+      "detalle": "La página en español tiene el title en inglés y una meta de 347 caracteres.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificación Welfair™ de bienestar animal | Control Union",
+        "reemplaza": "The Welfair™ Animal Welfare certification - Control Union España",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/certificacion-bienestar-animal-welfair-iaws/",
+        "motivo": "Hoy el title está en inglés y es igual al de la /en/. Suma las búsquedas en español: «certificado welfair» 582 impresiones (posición 8,0), «certificado bienestar animal» 334 (16,3), «certificación welfair» 176 (8,2).",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificamos el bienestar animal con el sello Welfair™ (IAWS), con criterios científicos de IRTA y NEIKER: alimentación, alojamiento, salud y conducta.",
+        "reemplaza": "La certificación Bienestar Animal Welfair™ (IAWS) es un estándar riguroso y basado en ciencia que evalúa el bienestar de los animales en toda la cadena de producción. Su adopción no solo mejora la calidad del producto final, sino que también fortalece la confianza del consumidor y abre oportunidades en mercados que priorizan el bienestar animal.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/certificacion-bienestar-animal-welfair-iaws/",
+        "motivo": "La actual tiene 347 caracteres y se corta. La nueva nombra el sello, quién definió los criterios (dato de la versión en inglés) y los cuatro principios que la página ya desarrolla.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Welfair™ Animal Welfare Certification | Control Union Spain",
+        "reemplaza": "The Welfair™ Animal Welfare certification - Control Union España",
+        "destino": "https://espana.controlunion.com/en/certification-program/certificacion-bienestar-animal-welfair-iaws/",
+        "motivo": "Diferencia la versión en inglés de la española. «welfair» manda 4.536 impresiones (posición 6,2) a la /en/, sobre todo desde India (906), EE. UU. (636) y Reino Unido (548).",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Anchor descriptivo desde Textiles hacia GRS",
+      "donde": "https://espana.controlunion.com/industry/textiles/",
+      "detalle": "El enlace ya existe pero dice «Más información».",
+      "items": [
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Desde https://espana.controlunion.com/industry/textiles/, en el bloque de GRS, cambiar el anchor «Más información» por «Certificación GRS», hacia https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "destino": "https://espana.controlunion.com/industry/textiles/",
+        "motivo": "Un anchor con la norma refuerza la página para «grs» y «certificado grs»; hoy el enlace es genérico.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "grs",
+      "impr": 9515,
+      "pos": 9.0
+     },
+     {
+      "query": "que significa grs",
+      "impr": 988,
+      "pos": 6.4
+     },
+     {
+      "query": "que es grs",
+      "impr": 550,
+      "pos": 6.9
+     },
+     {
+      "query": "global recycled standard",
+      "impr": 410,
+      "pos": 7.5
+     },
+     {
+      "query": "certificado grs",
+      "impr": 130,
+      "pos": 13.3
+     },
+     {
+      "query": "animal welfare",
+      "impr": 860,
+      "pos": 8.7
+     },
+     {
+      "query": "welfair (página en español)",
+      "impr": 661,
+      "pos": 8.7
+     },
+     {
+      "query": "certificado welfair",
+      "impr": 582,
+      "pos": 8.0
+     },
+     {
+      "query": "certificado bienestar animal",
+      "impr": 334,
+      "pos": 16.3
+     },
+     {
+      "query": "welfair (página /en/)",
+      "impr": 4536,
+      "pos": 6.2
+     }
+    ],
+    "organico_desde": "espana.controlunion.com, todos los países, 3 mar 2026",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:espana-controlunion-com:iso-45001",
+   "marca": "CU",
+   "sitio": "espana.controlunion.com",
+   "titulo": "ISO 45001 (España): title con «certificación», quitar «ayudando a implementar», sumar proceso y FAQ y enlazarla desde ISO 9001 e ISO 14001",
+   "detalle": "Es la página con más impresiones del sitio (79.299 en 3 mar – 14 sep 2026) pero bajó de posición 10,2 a 13,9 entre tramos y tiene CTR 0,03%. Ojo con el número: de las 62.833 impresiones de «iso 45001» solo 7.859 son de España (posición 12,6); el resto es México, Colombia y Perú. Reescribir title, meta y H1 con «certificación», sacar la frase «ayudando a su organización a implementar» (un certificador no implanta), sumar proceso y preguntas frecuentes, y enlazarla desde ISO 9001 e ISO 14001, que la nombran sin enlace.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "espana.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+      "nota": "la que se cambia"
+     },
+     {
+      "url": "https://espana.controlunion.com/programa-de-certificacion/iso-9001/",
+      "nota": "origen de enlace interno (y misma frase de «implementar» en la meta)"
+     },
+     {
+      "url": "https://espana.controlunion.com/programa-de-certificacion/iso-14001/",
+      "nota": "origen de enlace interno (y misma frase de «implementar» en la meta)"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Que la página de ISO 45001 hable de certificación (no de implantación) y conteste cómo se obtiene.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026, todos los países: 79.299 impresiones, 27 clics, posición 11,9, CTR 0,03%; mar–may 43.837 en posición 10,2, jun–sep 35.462 en posición 13,9. «iso 45001»: 62.833 impresiones, 10 clics (México 14.146, Colombia 14.015, Perú 9.394, España 7.859 en posición 12,6). Variantes con «certificación», todas sin clic: «certificado iso 45001» 1.183 (posición 13,3), «certificacion iso 45001» 989 (22,6), «certificaciones iso 45001» 496 (11,1), «certificación iso 45001» 481 (19,2), «obtener iso 45001» 230 (28,6), «empresa certificadora iso 45001» 194 (34,3), «conseguir iso 45001» 172 (52,4). OHSAS casi no se busca (1 impresión de «ohsas 45001»).",
+    "ya_hecho": "En parte: la página ya tiene «¿Qué es ISO 45001?», «Ventajas» e «Integración con otros sistemas de gestión». Falta lo demás: title «ISO 45001 - Control Union España - Certificaciones», H1 «ISO 45001», sin proceso ni preguntas frecuentes y sin ningún enlace interno en el cuerpo (leída el 28 oct 2026).",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Reescribir title, meta y H1",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+      "detalle": "Cambios en el gestor de la página.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificación ISO 45001 en España | Control Union",
+        "reemplaza": "ISO 45001 - Control Union España - Certificaciones",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "Ninguna de las variantes con «certificación» (3.149 impresiones entre «certificado», «certificacion», «certificaciones» y «certificación iso 45001») tuvo clic; el title actual no dice «certificación» ni «España».",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificamos tu sistema de gestión de seguridad y salud en el trabajo según ISO 45001: auditoría en dos fases, seguimiento anual y recertificación.",
+        "reemplaza": "En Control Union, ofrecemos la certificación conforme a la norma ISO 45001, ayudando a su organización a implementar y consolidar un Sistema de Gestión de Seguridad y Salud en el Trabajo (SST) eficaz, enfocado en la prevención, la mejora continua y el cumplimiento legal.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "La actual dice «ayudando a su organización a implementar y consolidar», que es trabajo de consultoría y choca con la imparcialidad de un certificador; tampoco nombra la auditoría.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificación ISO 45001 de seguridad y salud en el trabajo",
+        "reemplaza": "ISO 45001",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "El H1 «ISO 45001» no dice qué ofrece la página.",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Corregir textos de marca en la página",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+      "detalle": "La misma frase aparece dos veces: bajo el H1 y bajo «Seguridad y salud».",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "Control Union audita y certifica su Sistema de Gestión de Seguridad y Salud en el Trabajo (SST) conforme a la norma ISO 45001, con foco en la prevención, la mejora continua y el cumplimiento legal.",
+        "reemplaza": "En Control Union, ofrecemos la certificación conforme a la norma ISO 45001, ayudando a su organización a implementar y consolidar un Sistema de Gestión de Seguridad y Salud en el Trabajo (SST) eficaz, enfocado en la prevención, la mejora continua y el cumplimiento legal.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "Control Union certifica y audita; no ayuda a implantar (conflicto de interés).",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "Presencia en más de 80 países, con auditores especializados en diversos sectores.",
+        "reemplaza": "Presencia en más de 70 países, con auditores especializados en diversos sectores.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "La cifra oficial de la marca es 80+ países.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "Más de 100 años certificando organizaciones en su evolución hacia la excelencia operativa.",
+        "reemplaza": "Décadas acompañando a organizaciones en su evolución hacia la excelencia operativa.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "«Acompañar» es el verbo de Peterson; Control Union certifica. Cifra oficial: 100+ años.",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificamos tu sistema de gestión de la calidad según ISO 9001: auditoría en dos fases, seguimiento anual y recertificación cada tres años.",
+        "reemplaza": "En Control Union, ofrecemos la certificación conforme a la norma ISO 9001, ayudando a su organización a implementar, mantener y mejorar un Sistema de Gestión de la Calidad (SGC) eficaz, alineado con los más altos estándares internacionales.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-9001/",
+        "motivo": "Misma frase de «ayudando a su organización a implementar» en la meta de ISO 9001.",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificamos tu sistema de gestión ambiental según ISO 14001: auditoría en dos fases, seguimiento anual y recertificación cada tres años.",
+        "reemplaza": "En Control Union, ofrecemos la certificación conforme a la norma ISO 14001, ayudando a su organización a implementar y consolidar un Sistema de Gestión Ambiental eficaz, alineado con los más altos estándares internacionales.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-14001/",
+        "motivo": "Misma frase en la meta de ISO 14001.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Sumar secciones de proceso y preguntas frecuentes",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+      "detalle": "Dos secciones nuevas antes de «¿Por qué certificar con Control Union?», y dos opcionales. Plazos y precios no se publican: se remite a presupuesto.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Cómo es el proceso de certificación ISO 45001»: solicitud y presupuesto; auditoría de fase 1 (revisión documental); auditoría de fase 2 (en el centro de trabajo); decisión y emisión del certificado; auditorías de seguimiento anuales y recertificación a los tres años.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "«obtener iso 45001» (230, posición 28,6), «conseguir iso 45001» (172, 52,4), «certificarse en iso 45001» (99, 11,9) y «empresa certificadora iso 45001» (194, 34,3): nadie hace clic porque la página no explica cómo se certifica.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Preguntas frecuentes sobre la certificación ISO 45001»: ¿Es obligatoria? (no, es voluntaria); ¿Cuánto dura el certificado? (tres años, con auditorías de seguimiento anuales); ¿Cuánto cuesta? (depende de la plantilla, los centros y el alcance: pide presupuesto); ¿Se puede auditar junto con ISO 9001 e ISO 14001? (sí, en una auditoría integrada).",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "Responde las dudas de quien está por contratar y suma texto con «certificación ISO 45001». La integración ya figura en la página («optimizando auditorías»).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H3 dentro de las preguntas frecuentes: «¿Qué cambió con la enmienda de 2024 de ISO 45001?»: incorporación del cambio climático al análisis del contexto y de las partes interesadas.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "«iso 45001 actualizada»: 140 impresiones en posición 17,1. Confirmar con la unidad el texto antes de publicarlo.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «De OHSAS 18001 a ISO 45001»: OHSAS 18001 se retiró en 2021; qué cambia (contexto de la organización, liderazgo, participación de los trabajadores).",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "Lo pedía la tarjeta de septiembre, pero casi no hay demanda: 1 impresión de «ohsas 45001» en el período. Solo si sobra tiempo.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Enlaces internos entre ISO 45001, ISO 9001 e ISO 14001",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+      "detalle": "ISO 9001 e ISO 14001 ya nombran «ISO 45001 (Seguridad y Salud en el Trabajo)» en su sección «Integración con otros sistemas de gestión», pero sin enlace; e ISO 45001 nombra a las otras dos sin enlace.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://espana.controlunion.com/programa-de-certificacion/iso-9001/, sección «Integración con otros sistemas de gestión», enlazar el texto «ISO 45001 (Seguridad y Salud en el Trabajo)» hacia https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-9001/",
+        "motivo": "Hoy ISO 45001 no recibe enlaces desde el cuerpo de otras normas; ISO 9001 tiene 3.990 impresiones.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://espana.controlunion.com/programa-de-certificacion/iso-14001/, sección «Integración con otros sistemas de gestión», enlazar el texto «ISO 45001 (Seguridad y Salud en el Trabajo)» hacia https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-14001/",
+        "motivo": "Mismo motivo; ISO 14001 tiene 2.325 impresiones.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://espana.controlunion.com/programa-de-certificacion/iso-45001/, sección «Integración con otros sistemas de gestión», enlazar «ISO 9001 (Gestión de la Calidad)» hacia https://espana.controlunion.com/programa-de-certificacion/iso-9001/ e «ISO 14001 (Gestión Ambiental)» hacia https://espana.controlunion.com/programa-de-certificacion/iso-14001/",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+        "motivo": "La página de ISO 45001 no tiene ningún enlace interno en el cuerpo (solo el correo de consulta).",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "iso 45001",
+      "impr": 62833,
+      "pos": 10.7
+     },
+     {
+      "query": "iso 45001 (solo España)",
+      "impr": 7859,
+      "pos": 12.6
+     },
+     {
+      "query": "iso 45000",
+      "impr": 2865,
+      "pos": 13.9
+     },
+     {
+      "query": "certificado iso 45001",
+      "impr": 1183,
+      "pos": 13.3
+     },
+     {
+      "query": "certificacion iso 45001",
+      "impr": 989,
+      "pos": 22.6
+     },
+     {
+      "query": "certificaciones iso 45001",
+      "impr": 496,
+      "pos": 11.1
+     },
+     {
+      "query": "certificación iso 45001",
+      "impr": 481,
+      "pos": 19.2
+     },
+     {
+      "query": "obtener iso 45001",
+      "impr": 230,
+      "pos": 28.6
+     },
+     {
+      "query": "empresa certificadora iso 45001",
+      "impr": 194,
+      "pos": 34.3
+     },
+     {
+      "query": "conseguir iso 45001",
+      "impr": 172,
+      "pos": 52.4
+     },
+     {
+      "query": "iso 45001 actualizada",
+      "impr": 140,
+      "pos": 17.1
+     }
+    ],
+    "organico_desde": "espana.controlunion.com, todos los países salvo donde dice «solo España», 3 mar 2026",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:espana-controlunion-com:iscc",
+   "marca": "CU",
+   "sitio": "espana.controlunion.com",
+   "titulo": "ISCC (España): no redirigir EU a PLUS (son esquemas distintos); titles que los diferencien, corregir CORSIA y enlazar ISCC EU desde RED III",
+   "detalle": "Tres páginas aparecen para «iscc» (PLUS, EU y CORSIA) y la query cayó de 1.542 a 380 impresiones entre tramos, con ISCC PLUS pasando de posición 8,3 a 14,2. La propuesta de septiembre (unificar y redirigir una a la otra) no conviene: ISCC EU (biocarburantes bajo la Directiva de Energías Renovables) e ISCC PLUS (bioplásticos, químicos, alimentos) son certificaciones distintas y cada una tiene sus búsquedas. Lo que confunde a Google son los títulos: el de CORSIA dice «ISCC - International Sustainability Carbon certification» y su meta habla de ISCC EU, y la versión inglesa de PLUS tiene la meta de UEBT. Diferenciar title, meta y H1 de las tres, cruzar enlaces y enlazar ISCC EU desde el artículo de RED III, que es la página con más clics del sitio después de la home.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "espana.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://espana.controlunion.com/programa-de-certificacion/iscc-plus/",
+      "nota": "la que se cambia (ISCC PLUS)"
+     },
+     {
+      "url": "https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+      "nota": "la que se cambia (ISCC EU); se mantiene, no se redirige"
+     },
+     {
+      "url": "https://espana.controlunion.com/programa-de-certificacion/iscc-corsia/",
+      "nota": "la que se cambia (ISCC CORSIA): title y meta genéricos de ISCC"
+     },
+     {
+      "url": "https://espana.controlunion.com/en/certification-program/iscc-plus/",
+      "nota": "versión en inglés de ISCC PLUS con la meta de otra norma (UEBT)"
+     },
+     {
+      "url": "https://espana.controlunion.com/insight/un-repaso-a-la-directiva-de-energias-renovables-iii-red-iii-y-el-papel-de-la-certificacion-iscc-eu/",
+      "nota": "origen del enlace interno hacia ISCC EU (10.264 impresiones, 290 clics)"
+     },
+     {
+      "url": "https://espana.controlunion.com/industry/bioenergia/",
+      "nota": "origen de enlaces con anchor genérico «Más información»"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Que cada página de ISCC diga en el title qué esquema certifica, en vez de competir las tres por «iscc».",
+    "por_que": "Search Console, 3 mar – 14 sep 2026, todos los países (98% de «iscc» viene de España: 1.876 de 1.922). «iscc» pasó de 1.542 impresiones (mar–may) a 380 (jun–sep) y se reparte entre ISCC PLUS (1.094, posición 7,8), ISCC EU (779, posición 7,4) y CORSIA (114, posición 8,9). ISCC PLUS: 3.813 impresiones, 37 clics, posición 8,3 → 14,2 entre tramos. ISCC EU: 1.460 impresiones, 8 clics, posición 8,5. CORSIA: 1.166, 6 clics. La /en/ de ISCC PLUS aparece para «iscc plus» (390, posición 69,5) e «iscc eu» (184, posición 80,7). El artículo de RED III tiene 10.264 impresiones y 290 clics («directiva red iii» 728 en posición 3,0) y no enlaza a ninguna página de ISCC.",
+    "ya_hecho": "Nada. Hreflang y canonical ya están declarados en las tres páginas. No se redirigió ninguna, y esta tarjeta propone no hacerlo.",
+    "pasos": [
+     {
+      "accion": "tecnico",
+      "titulo": "Descartar la redirección propuesta en septiembre",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+      "detalle": "Es una decisión para dejar asentada antes de tocar nada.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "url",
+        "texto": "No aplicar el 301 de ISCC EU hacia ISCC PLUS (ni al revés). ¿La unidad sigue certificando los dos esquemas por separado? Si sí, se mantienen las dos URL y se aplican los pasos de esta tarjeta; si dejó de certificar uno, recién ahí redirigir su URL a la del otro.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+        "motivo": "ISCC EU tiene búsquedas propias («iscc eu» 165 impresiones en posición 8,3; «iscc system» 42) y un 301 las mandaría a una página que habla de otro mercado.",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta y H1 de ISCC PLUS",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/iscc-plus/",
+      "detalle": "Cambios en el gestor.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificación ISCC PLUS en España | Control Union",
+        "reemplaza": "ISCC PLUS - Certificaciones - Control Union España",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc-plus/",
+        "motivo": "«iscc plus» 507 impresiones (posición 7,5), «certificación iscc plus» 186 (13,5), «certificados iscc» 96 (13,4).",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificación ISCC PLUS para bioplásticos, residuos plásticos mixtos, químicos, alimentos y piensos fuera del mercado de combustibles de la UE.",
+        "reemplaza": "ISCC Plus es una base completa para la implementación voluntaria de criterios de sostenibilidad en las cadenas de suministro que son similares a EU RED. Las empresas con un certificado ISCC-EU existente pueden extenderse a ISCC PLUS durante el período de validez del certificado y beneficiarse de esta manera de las posibilidades adicionales que ofrece una certificación ISCC PLUS en aplicaciones de mercado fuera del mercado de combustible de la UE.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc-plus/",
+        "motivo": "La actual tiene 450 caracteres y arranca con «base completa para la implementación». La nueva usa los ejemplos que ya lista la página y dice en qué se distingue de ISCC EU.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificación ISCC PLUS",
+        "reemplaza": "ISCC – Plus",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc-plus/",
+        "motivo": "El H1 actual no dice «certificación».",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta, H1 y un texto de ISCC EU",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+      "detalle": "Cambios en el gestor.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificación ISCC EU para biocombustibles | Control Union",
+        "reemplaza": "ISCC EU International Sustainability and Carbon Certification - Control Union España",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+        "motivo": "El actual tiene 84 caracteres y se corta; el nuevo dice el mercado (biocombustibles) que separa a ISCC EU de ISCC PLUS.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificamos biocarburantes y biomasa según ISCC EU, esquema voluntario reconocido por la Comisión Europea para la Directiva de Energías Renovables.",
+        "reemplaza": "Control Union, es un organismo de certificación reconocido por ISCC para poder verificar la sostenibilidad de los biocarburantes y su biomasa.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+        "motivo": "La actual está bien de tono pero no dice para qué sirve el esquema; la nueva lo une con la Directiva, que es lo que busca quien llega desde «red iii».",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificación ISCC EU para biocarburantes y biomasa",
+        "reemplaza": "ISCC_EU International Sustainability and Carbon Certification",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+        "motivo": "El H1 actual repite el nombre en inglés con guion bajo.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "Control Union audita y certifica que biocarburantes, biolíquidos y biomasa cumplen los criterios de sostenibilidad de la Directiva de Energías Renovables y los objetivos de cada Estado miembro de la Unión Europea.",
+        "reemplaza": "La experiencia de la certificación que ofrece Control Union ayudara a nuestros clientes a cumplir con los criterios de sostenibilidad y los objetivos marcados por cada miembro de la Union europea.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+        "motivo": "El texto actual dice que Control Union «ayudará a nuestros clientes a cumplir»: un certificador audita y certifica, no ayuda a cumplir. También corrige «ayudara» sin tilde.",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta y H1 de ISCC CORSIA",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/iscc-corsia/",
+      "detalle": "Hoy el title es genérico de ISCC (y dice «Control Union Services») y la meta describe ISCC EU: compite con las otras dos por «iscc».",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificación ISCC CORSIA para SAF | Control Union",
+        "reemplaza": "ISCC - International Sustainability Carbon certification - Control Union Services",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc-corsia/",
+        "motivo": "«iscc corsia» 98 impresiones en posición 4,9; «certificación iscc» la manda a posición 41,1 porque el title no dice qué esquema es.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificación ISCC CORSIA para combustibles de aviación sostenibles (SAF): reducción mínima del 10 % de emisiones frente al ciclo de vida de referencia.",
+        "reemplaza": "El ISCC EU es el primer y principal sistema voluntario basado en la Directiva Europea de Energías Renovables (DER), que cubre los aspectos medioambientales y sociales de la producción de biomasa. Es compatible con otros regímenes RED. En la cadena de suministro, la trazabilidad es clave para garantizar la diligencia del sistema.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc-corsia/",
+        "motivo": "La actual describe ISCC EU, no CORSIA. La nueva usa el criterio que ya figura en la página.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificación ISCC CORSIA para combustibles de aviación",
+        "reemplaza": "ISCC – Corsia",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc-corsia/",
+        "motivo": "Alinea el H1 con el title.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Meta de la versión inglesa de ISCC PLUS",
+      "donde": "https://espana.controlunion.com/en/certification-program/iscc-plus/",
+      "detalle": "La meta actual es la de UEBT (otra norma).",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "ISCC PLUS certification for bioplastics, mixed plastic waste, chemicals, food and feed outside the EU fuel market. Audits by Control Union Spain.",
+        "reemplaza": "The Union for Ethical BioTrade (UEBT) is a non-profit association created in 2007 to promote the \"respectful sourcing\" of ingredients from native biodiversity.",
+        "destino": "https://espana.controlunion.com/en/certification-program/iscc-plus/",
+        "motivo": "Error de carga: describe la Union for Ethical BioTrade. La página aparece para «iscc plus» (390 impresiones) e «iscc eu» (184).",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Enlaces internos entre las páginas de ISCC y desde RED III",
+      "donde": "https://espana.controlunion.com/insight/un-repaso-a-la-directiva-de-energias-renovables-iii-red-iii-y-el-papel-de-la-certificacion-iscc-eu/",
+      "detalle": "Cada enlace es una edición en la página de origen.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://espana.controlunion.com/insight/un-repaso-a-la-directiva-de-energias-renovables-iii-red-iii-y-el-papel-de-la-certificacion-iscc-eu/, en el párrafo que menciona la certificación ISCC EU, enlazar «certificación ISCC EU» hacia https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+        "destino": "https://espana.controlunion.com/insight/un-repaso-a-la-directiva-de-energias-renovables-iii-red-iii-y-el-papel-de-la-certificacion-iscc-eu/",
+        "motivo": "El artículo tiene 10.264 impresiones y 290 clics («directiva red iii» 728 en posición 3,0; «red iii» 891 en 8,2) y hoy no enlaza a ninguna página de programa.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 nuevo en https://espana.controlunion.com/programa-de-certificacion/iscc-plus/ y en https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/: «¿ISCC EU o ISCC PLUS?», con dos frases (ISCC EU: biocarburantes y biomasa para el mercado regulado de la UE; ISCC PLUS: bioplásticos, químicos, alimentos y piensos) y un enlace cruzado: anchor «certificación ISCC EU» hacia https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/ y anchor «certificación ISCC PLUS» hacia https://espana.controlunion.com/programa-de-certificacion/iscc-plus/",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc-plus/",
+        "motivo": "Las dos páginas reciben «iscc» (1.094 y 779 impresiones): un bloque que las distinga ayuda a Google a elegir y al usuario a pasar a la correcta.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://espana.controlunion.com/programa-de-certificacion/iscc-corsia/, en «Acerca del estándar», enlazar «ISCC EU» hacia https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/iscc-corsia/",
+        "motivo": "La página de CORSIA nombra ISCC EU sin enlace.",
+        "opcional": true
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Desde https://espana.controlunion.com/industry/bioenergia/, cambiar los anchors «Más información» de ISCC PLUS e ISCC EU por «Certificación ISCC PLUS» y «Certificación ISCC EU»",
+        "destino": "https://espana.controlunion.com/industry/bioenergia/",
+        "motivo": "Los enlaces ya existen pero con anchor genérico.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "iscc (ISCC PLUS)",
+      "impr": 1094,
+      "pos": 7.8
+     },
+     {
+      "query": "iscc (ISCC EU)",
+      "impr": 779,
+      "pos": 7.4
+     },
+     {
+      "query": "iscc (CORSIA)",
+      "impr": 114,
+      "pos": 8.9
+     },
+     {
+      "query": "iscc plus",
+      "impr": 507,
+      "pos": 7.5
+     },
+     {
+      "query": "iscc plus (/en/)",
+      "impr": 390,
+      "pos": 69.5
+     },
+     {
+      "query": "certificación iscc plus",
+      "impr": 186,
+      "pos": 13.5
+     },
+     {
+      "query": "iscc eu",
+      "impr": 165,
+      "pos": 8.3
+     },
+     {
+      "query": "iscc eu (/en/ ISCC PLUS)",
+      "impr": 184,
+      "pos": 80.7
+     },
+     {
+      "query": "certificación iscc",
+      "impr": 152,
+      "pos": 30.4
+     },
+     {
+      "query": "iscc corsia",
+      "impr": 98,
+      "pos": 4.9
+     },
+     {
+      "query": "directiva red iii",
+      "impr": 728,
+      "pos": 3.0
+     },
+     {
+      "query": "red iii",
+      "impr": 891,
+      "pos": 8.2
+     }
+    ],
+    "organico_desde": "espana.controlunion.com, todos los países, 3 mar 2026",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:espana-controlunion-com:iso-27001",
+   "marca": "CU",
+   "sitio": "espana.controlunion.com",
+   "titulo": "ISO 27001 (España): la página ya se reescribió; falta H1 con «certificación», sacar «Implementación del ISMS» y «Gap Analysis» y enlazarla",
+   "detalle": "Lo de septiembre ya está: la página tiene title «Certificación ISO 27001:2022 en España | Control Union», proceso, costos, plazos y 11 preguntas frecuentes. Quedan tres cosas: el H1 dice solo «ISO 27001»; el proceso incluye «Gap Analysis» e «Implementación del ISMS» como etapas de Control Union, que es trabajo de consultoría y choca con la imparcialidad del certificador; y nadie la enlaza. Importa porque es la URL final de los 5 anuncios de PCU - España - ISO 27001 - Search (952 clics y ARS 647.844 entre el 1 sep y el 20 oct 2026).",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "espana.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+      "nota": "la que se cambia; también URL final de PCU - España - ISO 27001 - Search"
+     },
+     {
+      "url": "https://espana.controlunion.com/insight/ingenieria-social-el-arte-de-hackear-a-las-personas/",
+      "nota": "origen de enlace interno (artículo de ciberseguridad)"
+     },
+     {
+      "url": "https://espana.controlunion.com/insight/inteligencia-artificial-y-ciberseguridad/",
+      "nota": "origen de enlace interno (artículo de ciberseguridad)"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Terminar la página de ISO 27001: H1, proceso sin etapas de consultoría y enlaces desde los artículos de ciberseguridad.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026: la página aparece recién desde junio; 293 impresiones, 5 clics, posición 36,8. «certificación iso 27001» 59 impresiones en posición 42,3; «certificación iso 27001 para empresas» 46 en 52,8; «certificaciones iso 27001» 37 en 39,2; «certificación iso 27001 en españa» 18 en 34,9. «iso 27001» sola no aparece para esta página. En Ads (1 sep – 20 oct 2026), PCU - España - ISO 27001 - Search manda todo a esta URL: 952 clics y ARS 647.844 (unos ARS 680 por clic; el «ARS 6.019 por clic» de septiembre no se sostiene con estos datos), y el término «iso 27001» se llevó 273 clics y ARS 182.796.",
+    "ya_hecho": "Sí, la reescritura con vocabulario de búsqueda: title y meta nuevos, secciones de proceso, «¿Cuánto cuesta la certificación ISO 27001?», «¿Cuánto tiempo toma obtener la certificación ISO 27001?» y validez del certificado (leída el 28 oct 2026). Los datos de Search Console llegan al 14 sep, así que todavía no se puede medir el efecto: revisar en la extracción de noviembre.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "H1 y dos etapas del proceso",
+      "donde": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+      "detalle": "Cambios en el gestor. Los textos siguen el trato de usted que usa la página.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificación ISO 27001 en España",
+        "reemplaza": "ISO 27001",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+        "motivo": "El title ya dice «Certificación ISO 27001:2022 en España» pero el H1 es «ISO 27001»; las búsquedas que llegan son todas de «certificación iso 27001» (posición 35–53).",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "H3 «Implementación del SGSI (a cargo de la organización)» y texto «La organización implanta sus políticas y controles; Control Union no participa en esta etapa para preservar la imparcialidad de la auditoría.»",
+        "reemplaza": "H3 «Implementación del ISMS» y su texto «Desarrollar e implementar políticas, controles y procesos de gobernanza.»",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+        "motivo": "Hoy la etapa aparece dentro del proceso de Control Union como «Desarrollar e implementar políticas, controles y procesos de gobernanza»: es consultoría, incompatible con certificar el mismo sistema.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "H3 «Preauditoría (opcional)» y texto «Revisión previa del grado de cumplimiento, sin proponer soluciones.»",
+        "reemplaza": "H3 «Gap Analysis (Opcional)» y su texto «Evaluar el nivel actual de preparación e identificar oportunidades de mejora.»",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+        "motivo": "«Gap Analysis (Opcional)» con «identificar oportunidades de mejora» se lee como consultoría. Confirmar con la unidad si ofrece preauditoría; si no, quitar la etapa.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "H2 «¿Por qué certificar ISO 27001 con Control Union?»",
+        "reemplaza": "¿Por qué elegir a Control Union como su partner de certificación ISO 27001?",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+        "motivo": "«partner de certificación» suena a acompañamiento; el H2 nuevo dice el servicio.",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "Cuéntenos el alcance de su SGSI y le enviaremos una propuesta de auditoría de certificación ISO 27001 con el calendario de las fases 1 y 2.",
+        "reemplaza": "Hable con un especialista en certificación de Control Union para analizar el nivel de preparación de su organización, el alcance de auditoría y el cronograma de certificación. Nuestro equipo global responderá con una propuesta personalizada y orientación sobre los próximos pasos.",
+        "destino": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+        "motivo": "El cierre actual ofrece «analizar el nivel de preparación» y «orientación sobre los próximos pasos», otra vez lenguaje de consultoría.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Enlazar la página desde los artículos de ciberseguridad",
+      "donde": "https://espana.controlunion.com/insight/ingenieria-social-el-arte-de-hackear-a-las-personas/",
+      "detalle": "La página de ISO 27001 enlaza a cinco artículos de ciberseguridad, pero ninguno la enlaza de vuelta.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://espana.controlunion.com/insight/ingenieria-social-el-arte-de-hackear-a-las-personas/, en el párrafo final, enlazar «certificación ISO 27001» hacia https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+        "destino": "https://espana.controlunion.com/insight/ingenieria-social-el-arte-de-hackear-a-las-personas/",
+        "motivo": "Es el artículo de ciberseguridad con más impresiones (57, posición 7,5) y hoy no enlaza a la norma.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://espana.controlunion.com/insight/inteligencia-artificial-y-ciberseguridad/, en el párrafo final, enlazar «certificación ISO 27001» hacia https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+        "destino": "https://espana.controlunion.com/insight/inteligencia-artificial-y-ciberseguridad/",
+        "motivo": "Mismo motivo: el artículo no tiene enlaces internos (solo un formulario externo).",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "certificación iso 27001",
+      "impr": 59,
+      "pos": 42.3
+     },
+     {
+      "query": "certificación iso 27001 para empresas",
+      "impr": 46,
+      "pos": 52.8
+     },
+     {
+      "query": "certificaciones iso 27001",
+      "impr": 37,
+      "pos": 39.2
+     },
+     {
+      "query": "certificación iso 27001 en españa",
+      "impr": 18,
+      "pos": 34.9
+     },
+     {
+      "query": "certificacion iso 27001",
+      "impr": 10,
+      "pos": 44.5
+     },
+     {
+      "query": "certificado iso 27001",
+      "impr": 8,
+      "pos": 34.1
+     }
+    ],
+    "organico_desde": "espana.controlunion.com, todos los países, 3 mar 2026",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); Ads 1 sep – 20 oct 2026 (estructura del 21 oct); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:portugal-controlunion-com:iso-9001",
+   "marca": "CU",
+   "sitio": "portugal.controlunion.com",
+   "titulo": "ISO 9001 (Portugal): la página cayó de posición 12,2 a 41,6; title, meta y H1 en portugués y sumar proceso y preguntas frecuentes",
+   "detalle": "Es la caída más fuerte de Portugal: «iso 9001» pasó de 1.190 impresiones en posición 10,4 (mar–may) a 113 en posición 39,4 (jun–sep), con 0 clics en todo el período. La página tiene unas 150 palabras, title y H1 en inglés («Quality Management System») y una meta que habla de «ISO 9000». Pasar title, meta y H1 al portugués con «certificação», corregir la meta, sumar proceso y preguntas frecuentes y poner anchors descriptivos.",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "portugal.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+      "nota": "la que se cambia"
+     },
+     {
+      "url": "https://portugal.controlunion.com/industry/sistema-de-gestao-da-qualidade/",
+      "nota": "origen del enlace (hoy con anchor «More info»)"
+     },
+     {
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/iso-14001/",
+      "nota": "origen de enlace nuevo"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Recuperar la posición de ISO 9001 en Portugal con una página en portugués que hable de certificación.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026: 3.233 impresiones, 3 clics, posición 19,8. Por mes: mar 1.515 impresiones en posición 10,2; abr 390 en 17,3; may 490 en 14,3; jun 185 en 38,0; jul 323 en 44,3; ago 240 en 44,9; sep (hasta el 14) 90 en 30,2. «iso 9001» desde Portugal: 1.271 impresiones, 0 clics (mar–may 1.190 en posición 10,4; jun–sep 113 en 39,4). Otras sin clic: «9001» 269 (posición 5,5), «certificação iso 9001» 88 (59,9), «iso 9001:2015» 88 (7,1), «certificação iso 9001 em portugal» 73 (27,1), «norma iso 9001» 64 (22,9). El motivo de la caída no se puede probar con estos datos; la página es corta y está a medio traducir.",
+    "ya_hecho": "Nada: title «ISO 9001:2015 - Quality Management System | Control Union Portugal», H1 en inglés y meta sobre «ISO 9000» (leídos el 28 oct 2026). Hreflang pt-PT/en-PT y canonical ya están bien.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta, H1 y primer párrafo en portugués",
+      "donde": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+      "detalle": "Textos en portugués europeo.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificação ISO 9001 em Portugal | Control Union",
+        "reemplaza": "ISO 9001:2015 - Quality Management System | Control Union Portugal",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+        "motivo": "El title actual está en inglés y no dice «certificação»: «certificação iso 9001» está en posición 59,9 y «certificação iso 9001 em portugal» en 27,1.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificamos o seu sistema de gestão da qualidade segundo a ISO 9001: auditoria em duas fases, acompanhamento anual e renovação a cada três anos.",
+        "reemplaza": "A ISO 9000 preocupa-se principalmente com a gestão da qualidade, o que significa que uma organização tem que cumprir requisitos como a melhoria da qualidade e satisfação do cliente, regulamentos aplicáveis ​​​​e alcançar melhorias contínuas no seu desempenho.",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+        "motivo": "La meta actual habla de «ISO 9000» (otra norma) y no dice que Control Union certifica.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificação ISO 9001 – Sistema de Gestão da Qualidade",
+        "reemplaza": "ISO 9001:2015 – Quality Management System",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+        "motivo": "H1 en inglés en una página pt-PT.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "A ISO 9001 define os requisitos de um sistema de gestão da qualidade: foco no cliente, cumprimento dos requisitos aplicáveis e melhoria contínua do desempenho.",
+        "reemplaza": "A ISO 9000 preocupa-se principalmente com a gestão da qualidade, o que significa que uma organização tem que cumprir requisitos como a melhoria da qualidade e satisfação do cliente, regulamentos aplicáveis ​​​​e alcançar melhorias contínuas no seu desempenho.",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+        "motivo": "El párrafo de apertura repite la meta con «ISO 9000».",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Sumar tres secciones",
+      "donde": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+      "detalle": "Debajo de «Como beneficia». Plazos y precios no se publican: se remite a la propuesta.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Como funciona a certificação ISO 9001»: pedido e proposta; auditoria de fase 1 (documental); auditoria de fase 2 (nas instalações); decisão e emissão do certificado; auditorias anuais de acompanhamento; renovação ao fim de três anos.",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+        "motivo": "La página no explica el proceso; «certificação iso 9001» y sus variantes (88 + 73 + 34 + 31 impresiones) están en posición 27–62.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Perguntas frequentes sobre a certificação ISO 9001»: A ISO 9001 é obrigatória? (não, é voluntária); Quanto tempo é válido o certificado? (três anos, com auditorias anuais); Quanto custa? (depende da dimensão, dos locais e do âmbito: peça uma proposta); Pode ser auditada em conjunto com a ISO 14001? (sim, numa auditoria integrada).",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+        "motivo": "Suma texto con «certificação ISO 9001» y responde las dudas de compra; hoy la página tiene unas 150 palabras.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Integração com a ISO 14001»: uma frase sobre a estrutura comum das normas de sistemas de gestão, com o anchor «certificação ISO 14001» para https://portugal.controlunion.com/programas-de-certificacao/iso-14001/",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+        "motivo": "Da contexto y un enlace a la otra norma de sistemas de gestión del sitio (945 impresiones).",
+        "opcional": true
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Ya se publicó ISO 9001:2026 y cuál es el plazo de transición? La página de España ya habla de «ISO 9001:2026». Si está publicada, sumar H2 «Transição para a ISO 9001:2026» y sacar «2015» del H1 y del title; si no, dejar «ISO 9001:2015» en el texto. Confirmar con la unidad de Portugal.",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+        "motivo": "No se pudo verificar con estos datos; no publicar sin confirmación.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Anchors descriptivos hacia ISO 9001",
+      "donde": "https://portugal.controlunion.com/industry/sistema-de-gestao-da-qualidade/",
+      "detalle": "Cada enlace es una edición en la página de origen.",
+      "items": [
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Desde https://portugal.controlunion.com/industry/sistema-de-gestao-da-qualidade/, cambiar el anchor «More info» del bloque ISO 9001 por «Certificação ISO 9001», hacia https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+        "destino": "https://portugal.controlunion.com/industry/sistema-de-gestao-da-qualidade/",
+        "motivo": "El enlace existe pero en inglés y sin la norma.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://portugal.controlunion.com/programas-de-certificacao/iso-14001/, en «Sobre a norma», enlazar «certificação ISO 9001» hacia https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/iso-14001/",
+        "motivo": "La página de ISO 14001 no tiene enlaces internos en el cuerpo.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "iso 9001",
+      "impr": 1270,
+      "pos": 12.9
+     },
+     {
+      "query": "9001",
+      "impr": 269,
+      "pos": 5.5
+     },
+     {
+      "query": "certificação iso 9001",
+      "impr": 88,
+      "pos": 59.9
+     },
+     {
+      "query": "iso 9001:2015",
+      "impr": 88,
+      "pos": 7.1
+     },
+     {
+      "query": "certificação iso 9001 em portugal",
+      "impr": 73,
+      "pos": 27.1
+     },
+     {
+      "query": "norma iso 9001",
+      "impr": 64,
+      "pos": 22.9
+     },
+     {
+      "query": "certificado iso 9001",
+      "impr": 36,
+      "pos": 67.7
+     }
+    ],
+    "organico_desde": "portugal.controlunion.com, todos los países (98% Portugal), 3 mar 2026",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:portugal-controlunion-com:aquacultura",
+   "marca": "CU",
+   "sitio": "portugal.controlunion.com",
+   "titulo": "Aquacultura (Portugal): title y meta con «certificação ASC e MSC», anchors en portugués y sin BAP (no hay página): 4.959 impr., CTR 0,06%",
+   "detalle": "La página de industria aparece en posición 6,2 para «aquacultura» (4.451 impresiones) y casi nadie entra (3 clics). Gran parte es búsqueda de definición, así que el CTR no va a subir mucho; lo que sí se puede es que el resultado diga que se certifica ASC y MSC, para captar a quien busca eso. El title actual («Pesca e da aquacultura») está mal construido, los botones dicen «More info» y la página dice que Control Union «presta assistência». BAP no se puede enlazar: no tiene página en Portugal.",
+   "prioridad": "baja",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "portugal.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+      "nota": "la que se cambia"
+     },
+     {
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/asc-aquaculture-stewardship-council/",
+      "nota": "destino del enlace (ASC)"
+     },
+     {
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/msc-marine-stewardship-council/",
+      "nota": "destino del enlace (MSC)"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Que el resultado de la página de aquacultura ofrezca certificación ASC y MSC en portugués.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026: 4.959 impresiones, 3 clics, posición 6,2, CTR 0,06% (jun–sep: 0 clics). «aquacultura» 4.451 impresiones en posición 6,1 (Portugal 3.141, Brasil 349, Mozambique 164), 2 clics; «aquicultura» 72 en posición 1,0. Las páginas de programa tampoco reciben clics: ASC «asc» 516 impresiones en posición 9,2, MSC «certificação msc» 104 en posición 9,6. BAP: https://portugal.controlunion.com/programas-de-certificacao/bap-best-aquaculture-practice/ da 404.",
+    "ya_hecho": "En parte: la página ya enlaza a ASC y MSC, pero con el anchor «More info». BAP no se enlazó porque no existe la página en Portugal.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta, H1 y un texto",
+      "donde": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+      "detalle": "Textos en portugués europeo.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificação ASC e MSC: aquacultura e pesca | Control Union",
+        "reemplaza": "Pesca e da aquacultura - Control Union Portugal",
+        "destino": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+        "motivo": "El actual no dice «certificação» ni las normas y está mal construido.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificamos explorações de aquacultura (ASC), pescarias (MSC) e a cadeia de custódia de produtos do mar. Conheça os programas e peça uma proposta.",
+        "reemplaza": "A indústria da pesca e da aquacultura torna-se mais sustentável com programas de certificação como o MSC e o ASC e a Control Union Certifications tem uma posição globalmente crescente neste sector.",
+        "destino": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+        "motivo": "La actual habla de «Control Union Certifications» y de una «posição globalmente crescente», sin decir qué se certifica.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificação em aquacultura e pesca",
+        "reemplaza": "Aquacultura e pesca",
+        "destino": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+        "motivo": "Alinea H1 y title.",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "A Control Union audita e certifica estes programas em todo o mundo.",
+        "reemplaza": "A Control Union Certifications contribui e presta assistência a nível mundial.",
+        "destino": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+        "motivo": "«presta assistência» se lee como consultoría; Control Union audita y certifica.",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Anchors en portugués hacia ASC y MSC",
+      "donde": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+      "detalle": "Los dos botones existen; cambia solo el texto.",
+      "items": [
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Desde https://portugal.controlunion.com/industry/aquacultura-e-pesca/, cambiar el botón «More info» del bloque ASC por «Certificação ASC», hacia https://portugal.controlunion.com/programas-de-certificacao/asc-aquaculture-stewardship-council/",
+        "destino": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+        "motivo": "Anchor en inglés y sin la norma; ASC tiene 516 impresiones de «asc» en posición 9,2 sin clics.",
+        "prioritario": true
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Desde https://portugal.controlunion.com/industry/aquacultura-e-pesca/, cambiar el botón «More info» del bloque MSC por «Certificação MSC», hacia https://portugal.controlunion.com/programas-de-certificacao/msc-marine-stewardship-council/",
+        "destino": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+        "motivo": "Mismo motivo; «certificação msc» 104 impresiones en posición 9,6.",
+        "prioritario": true
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Control Union Portugal certifica BAP? Si sí, pedir a la unidad que cree la página de BAP y enlazarla desde aquí con el anchor «Certificação BAP»; si no, no mencionar BAP.",
+        "destino": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+        "motivo": "Lo pedía la tarjeta de septiembre, pero la página de BAP en Portugal da 404 (España sí la tiene). Confirmar con la unidad.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "aquacultura",
+      "impr": 4451,
+      "pos": 6.1
+     },
+     {
+      "query": "aquacultura (solo Portugal)",
+      "impr": 3141,
+      "pos": 6.3
+     },
+     {
+      "query": "aquicultura",
+      "impr": 72,
+      "pos": 1.0
+     },
+     {
+      "query": "asc (página ASC)",
+      "impr": 516,
+      "pos": 9.2
+     },
+     {
+      "query": "certificação msc (página MSC)",
+      "impr": 104,
+      "pos": 9.6
+     }
+    ],
+    "organico_desde": "portugal.controlunion.com, todos los países salvo donde dice «solo Portugal», 3 mar 2026",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:portugal-controlunion-com:ocs-y-pefc",
+   "marca": "CU",
+   "sitio": "portugal.controlunion.com",
+   "titulo": "OCS y PEFC (Portugal): meta en portugués para OCS (hoy en inglés), title de PEFC en portugués y anchors «Certificação PEFC/FSC» desde Florestal",
+   "detalle": "El hreflang que pedía septiembre ya está. El reparto de «ocs» entre la versión portuguesa (900 impresiones) y la inglesa (527) se explica porque las dos tienen el mismo title y la portuguesa tiene la meta en inglés. PEFC tiene un title de 83 caracteres en inglés y bajó de posición 9,1 a 16,1 entre tramos. Florestal ya enlaza a PEFC y FSC, pero con «More info». Corregir title y meta de las dos páginas y los anchors.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "portugal.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/ocs-blended-organic-content-standard/",
+      "nota": "la que se cambia (OCS en portugués)"
+     },
+     {
+      "url": "https://portugal.controlunion.com/en/certification-program/ocs-blended-organic-content-standard/",
+      "nota": "versión en inglés que se reparte «ocs» (title propio, opcional)"
+     },
+     {
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/pefc/",
+      "nota": "la que se cambia (PEFC)"
+     },
+     {
+      "url": "https://portugal.controlunion.com/industry/florestal/",
+      "nota": "origen de los enlaces a PEFC y FSC"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Que OCS y PEFC tengan title y meta en portugués y anchors que nombren la norma.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026. OCS: «ocs» 1.451 impresiones (Portugal 1.400), repartidas entre la página portuguesa (900, posición 5,7) y la inglesa (527, posición 6,3); páginas: 1.391 impresiones y 17 clics la portuguesa, 813 y 6 la inglesa. PEFC: 1.304 impresiones, 3 clics, posición 13,1 (mar–may 9,1, jun–sep 16,1); «pefc» 527 en posición 9,2, «certificação pefc» 137 en 13,0; la versión inglesa 887 impresiones y 0 clics.",
+    "ya_hecho": "El hreflang (pt-PT / en-PT / x-default) y el canonical ya están en OCS, PEFC y Florestal, y Florestal ya enlaza a PEFC. Falta lo demás (leído el 28 oct 2026).",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Title y meta en portugués para OCS",
+      "donde": "https://portugal.controlunion.com/programas-de-certificacao/ocs-blended-organic-content-standard/",
+      "detalle": "Textos en portugués europeo.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificação OCS para produtos não alimentares com 5 % a 100 % de material orgânico: verifica a quantidade e rastreia a matéria-prima até ao produto final.",
+        "reemplaza": "The Organic Content Standard (OCS) applies to any non-food product containing 5-100 percent organic material. It verifies the presence and amount of organic material in a final product. Further OCS tracks the flow of a raw material from its source to the final product. This process is then certified by an accredited third party.",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/ocs-blended-organic-content-standard/",
+        "motivo": "La página portuguesa tiene la meta en inglés, idéntica a la de la /en/: Google no tiene cómo diferenciarlas y reparte «ocs» (900 / 527).",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificação OCS Blended em Portugal | Control Union",
+        "reemplaza": "OCS Blended - Organic Content Standard | Control Union Portugal",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/ocs-blended-organic-content-standard/",
+        "motivo": "Hoy las dos versiones tienen el mismo title. Suma «certificação» («ocs certificação» 51 impresiones en posición 3,2; «certificado ocs» 42 en 3,5, con 3 clics).",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "OCS Blended Certification in Portugal | Control Union",
+        "reemplaza": "OCS Blended - Organic Content Standard | Control Union Portugal",
+        "destino": "https://portugal.controlunion.com/en/certification-program/ocs-blended-organic-content-standard/",
+        "motivo": "Diferencia la versión inglesa de la portuguesa.",
+        "opcional": true
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "El enlace «Saiba mais» de la página portuguesa de OCS lleva a https://peru.controlunion.com/programa-de-certificacion/textile-exchange/. ¿Hay una página equivalente en Portugal? Si sí, apuntarlo ahí; si no, cambiarlo por https://portugal.controlunion.com/industry/texteis/ con el anchor «Certificações têxteis».",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/ocs-blended-organic-content-standard/",
+        "motivo": "Saca al usuario del sitio de Portugal hacia el de Perú; Têxteis tiene 941 impresiones.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta y H1 de PEFC",
+      "donde": "https://portugal.controlunion.com/programas-de-certificacao/pefc/",
+      "detalle": "Textos en portugués europeo.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificação PEFC em Portugal | Control Union",
+        "reemplaza": "PEFC - Program for the Endorsement of Forest Certification | Control Union Portugal",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/pefc/",
+        "motivo": "El actual tiene 83 caracteres en inglés y se corta. «certificação pefc» 137 impresiones en posición 13,0; «pefc portugal» 23 + 33.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificação PEFC para produtos de origem florestal: auditorias de cadeia de custódia em Portugal. Peça uma proposta à nossa equipa.",
+        "reemplaza": "A gestão responsável e sustentável das florestas tornou-se uma questão vital nas últimas décadas. Práticas inadequadas e impróprias de gestão florestal estão a ameaçar a viabilidade a longo prazo de muitas florestas.",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/pefc/",
+        "motivo": "La actual habla de la gestión forestal en general sin decir que Control Union certifica. Confirmar con la unidad si también certifica gestão florestal PEFC; si sí, sumarlo.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificação PEFC em Portugal",
+        "reemplaza": "PEFC – Program for the Endorsement of Forest Certification",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/pefc/",
+        "motivo": "Alinea H1 y title.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Anchors desde Florestal hacia PEFC y FSC",
+      "donde": "https://portugal.controlunion.com/industry/florestal/",
+      "detalle": "Los enlaces existen; cambia solo el texto.",
+      "items": [
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Desde https://portugal.controlunion.com/industry/florestal/, cambiar el botón «More info» del bloque PEFC por «Certificação PEFC», hacia https://portugal.controlunion.com/programas-de-certificacao/pefc/",
+        "destino": "https://portugal.controlunion.com/industry/florestal/",
+        "motivo": "Es el refuerzo interno que pedía septiembre: el enlace está, pero el anchor no dice la norma.",
+        "prioritario": true
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Desde https://portugal.controlunion.com/industry/florestal/, cambiar el botón «More info» del bloque FSC por «Certificação FSC», hacia https://portugal.controlunion.com/programas-de-certificacao/fsc-forest-stewardship-council/",
+        "destino": "https://portugal.controlunion.com/industry/florestal/",
+        "motivo": "Mismo motivo; FSC tiene 2.243 impresiones y «certificação da madeira» la pone en posición 33,0.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "ocs (página portuguesa)",
+      "impr": 900,
+      "pos": 5.7
+     },
+     {
+      "query": "ocs (página /en/)",
+      "impr": 527,
+      "pos": 6.3
+     },
+     {
+      "query": "ocs certificação",
+      "impr": 51,
+      "pos": 3.2
+     },
+     {
+      "query": "certificado ocs",
+      "impr": 42,
+      "pos": 3.5
+     },
+     {
+      "query": "pefc",
+      "impr": 527,
+      "pos": 9.2
+     },
+     {
+      "query": "certificação pefc",
+      "impr": 137,
+      "pos": 13.0
+     },
+     {
+      "query": "pefc (página /en/)",
+      "impr": 95,
+      "pos": 23.1
+     },
+     {
+      "query": "pefc certification (página /en/)",
+      "impr": 93,
+      "pos": 13.4
+     }
+    ],
+    "organico_desde": "portugal.controlunion.com, todos los países, 3 mar 2026",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:portugal-controlunion-com:rainforest-alliance",
+   "marca": "CU",
+   "sitio": "portugal.controlunion.com",
+   "titulo": "Rainforest Alliance (Portugal): title y meta con «certificação» y niveles de verificación (4.829 impr., pos. 6,3, CTR 0,21%)",
+   "detalle": "La página aparece en posición 6,3 pero la búsqueda que la trae, «rainforest alliance» (3.756 impresiones, 1 clic), es sobre todo gente que busca la ONG: el CTR no va a llegar lejos. Sí conviene que el resultado diga «certificação» y para quién es la auditoría (niveles B a E), que es lo que distingue a Control Union del sitio de la ONG. También queda un H2 en inglés.",
+   "prioridad": "baja",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "portugal.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/rainforest-alliance/",
+      "nota": "la que se cambia"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Que el resultado de Rainforest Alliance diga que Control Union certifica y a quién.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026: 4.829 impresiones, 10 clics, posición 6,3, CTR 0,21% (mar–may 0,10%, jun–sep 0,37%). «rainforest alliance» 3.756 impresiones en posición 5,2 con 1 clic; las de intención de compra son pocas: «certificação rac» 167 en posición 23,5, «certificado rainforest alliance» 41 en 6,7, «certificação rainforest alliance» 17 en 6,8.",
+    "ya_hecho": "Nada: title «Rainforest Alliance | Control Union Portugal» y meta sobre los agricultores (leídos el 28 oct 2026).",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta y un H2",
+      "donde": "https://portugal.controlunion.com/programas-de-certificacao/rainforest-alliance/",
+      "detalle": "Textos en portugués europeo.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificação Rainforest Alliance em Portugal | Control Union",
+        "reemplaza": "Rainforest Alliance | Control Union Portugal",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/rainforest-alliance/",
+        "motivo": "Suma «certificação» y el país: «certificado rainforest alliance» (41) y «certificação rainforest alliance» (17) están en posición 6–7 sin clics.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Auditorias de certificação Rainforest Alliance para empresas da cadeia de abastecimento com níveis de verificação B a E. Saiba se precisa de auditoria.",
+        "reemplaza": "A Norma Rainforest Alliance (RA) permite aos agricultores proteger a sua floresta, melhorar os seus meios de subsistência e os da comunidade, promover os seus direitos humanos e ajudá-los a atenuar e a adaptar-se à crise climática.",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/rainforest-alliance/",
+        "motivo": "La actual describe la norma desde el agricultor (lo mismo que dice la ONG). La nueva usa lo que la página ya explica: los niveles B–E necesitan auditoría y el A no.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "H2 «Como beneficia»",
+        "reemplaza": "How you benefit",
+        "destino": "https://portugal.controlunion.com/programas-de-certificacao/rainforest-alliance/",
+        "motivo": "H2 en inglés en una página pt-PT; las otras páginas de Portugal usan «Como beneficia».",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "rainforest alliance",
+      "impr": 3756,
+      "pos": 5.2
+     },
+     {
+      "query": "certificação rac",
+      "impr": 167,
+      "pos": 23.5
+     },
+     {
+      "query": "rainforest alliance certified",
+      "impr": 46,
+      "pos": 25.2
+     },
+     {
+      "query": "certificado rainforest alliance",
+      "impr": 41,
+      "pos": 6.7
+     },
+     {
+      "query": "certificação rainforest alliance",
+      "impr": 17,
+      "pos": 6.8
+     }
+    ],
+    "organico_desde": "portugal.controlunion.com, todos los países, 3 mar 2026",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "PS:SEO:iberia-peterson-solutions-com:csrd-y-cbam",
+   "marca": "PS",
+   "sitio": "iberia.peterson-solutions.com",
+   "titulo": "CSRD (Iberia): el contenido en español vive en /en/csrd-es/ (2.544 impr., pos. 24,8, 0 clics); redirigirlo a /csrd/ con title y meta en español",
+   "detalle": "La página que posiciona para «csrd» es /en/csrd-es/: contenido en español bajo la carpeta inglesa, con lang en-US, title y meta en inglés y un hreflang que solo se declara a sí misma. Mientras tanto existe /csrd/, la versión española con el hreflang bien armado (es / en / pt-pt), que no aparece en Search Console. Llevar el contenido a /csrd/, redirigir /en/csrd-es/ con 301 y poner title, meta y H1 en español. CBAM no justifica una página en español todavía (casi toda su demanda es de Reino Unido); finanzas sostenibles solo necesita title y meta.",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "iberia.peterson-solutions.com",
+    "paginas": [
+     {
+      "url": "https://iberia.peterson-solutions.com/en/csrd-es/",
+      "nota": "la que se redirige (contenido en español bajo /en/)"
+     },
+     {
+      "url": "https://iberia.peterson-solutions.com/csrd/",
+      "nota": "la que queda: recibe el contenido, el 301 y el title/meta nuevos"
+     },
+     {
+      "url": "https://iberia.peterson-solutions.com/csrd-es/",
+      "nota": "hoy redirige a /en/csrd-es/: cambiar el destino"
+     },
+     {
+      "url": "https://iberia.peterson-solutions.com/pt-pt/csrd/",
+      "nota": "versión pt-PT con el contenido en inglés (opcional)"
+     },
+     {
+      "url": "https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/",
+      "nota": "title y meta"
+     },
+     {
+      "url": "https://iberia.peterson-solutions.com/en/cbam/",
+      "nota": "solo meta (en inglés)"
+     }
+    ],
+    "acciones": [
+     "contenido",
+     "tecnico"
+    ],
+    "resumen": "Una sola página de CSRD en español, en su URL española y con title y meta en español.",
+    "por_que": "Search Console, 22 mar – 14 sep 2026. /en/csrd-es/: 2.544 impresiones, 0 clics, posición 24,8 (jun–sep 1.797 en posición 21,4). «csrd» 1.456 impresiones en posición 21,5 (España 812, México 564), 0 clics; «csrd sostenibilidad» 183 (31,2), «csrd que es» 150 (34,7), «csdr» 125 (38,5), «rendición de informes csrd» 100 (39,3), «directiva csrd» 71 (26,8). /csrd/ no tiene ninguna impresión en el período. /en/cbam/: 1.117 impresiones, 6 clics, posición 21,1; «cbam services» 238 en posición 28,6, pero solo 29 desde España (Reino Unido 98). Finanzas sostenibles: «finanzas sostenibles» 269 en posición 25,4 (257 desde España), 0 clics.",
+    "ya_hecho": "Nada de lo de septiembre. Además se encontró: /csrd/ ya existe con hreflang es/en/pt-pt y canonical correctos, pero con title y meta en inglés; /csrd-es/ redirige con 301 a /en/csrd-es/; /cbam/ y /pt-pt/cbam/ redirigen a /en/cbam/ (leído el 28 oct 2026).",
+    "pasos": [
+     {
+      "accion": "tecnico",
+      "titulo": "Unificar CSRD en español en /csrd/",
+      "donde": "https://iberia.peterson-solutions.com/en/csrd-es/",
+      "detalle": "Primero pasar el contenido, después activar las redirecciones (pedir al equipo web de Peterson).",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Pasar a https://iberia.peterson-solutions.com/csrd/ las secciones de https://iberia.peterson-solutions.com/en/csrd-es/ que /csrd/ no tiene: H2 «¿Me aplica la CSRD?», H2 «¿Cómo puede ayudarte Peterson?», H2 «Doble materialidad» y H2 «Perspectiva de dentro hacia fuera y de fuera hacia dentro», con las menciones a EINF y NEIS.",
+        "destino": "https://iberia.peterson-solutions.com/csrd/",
+        "motivo": "Es el texto que ya rankea (2.544 impresiones) y usa la terminología española (EINF, NEIS); /csrd/ tiene una versión más corta.",
+        "prioritario": true
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://iberia.peterson-solutions.com/csrd/",
+        "destino": "https://iberia.peterson-solutions.com/en/csrd-es/",
+        "motivo": "La URL que rankea está en la carpeta inglesa, con lang en-US y sin alternativas: Google la trata como página en inglés para una búsqueda en español.",
+        "prioritario": true
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://iberia.peterson-solutions.com/csrd/ (hoy redirige a /en/csrd-es/)",
+        "destino": "https://iberia.peterson-solutions.com/csrd-es/",
+        "motivo": "Evita una cadena de redirecciones cuando /en/csrd-es/ pase a redirigir.",
+        "prioritario": true
+       },
+       {
+        "accion": "decidir",
+        "tipo": "url",
+        "texto": "Antes del 301, inspeccionar https://iberia.peterson-solutions.com/csrd/ en Search Console (Inspección de URLs). Si figura «no indexada» o con otra canónica elegida por Google, corregir eso primero (quitar noindex o pedir indexación); si está indexada, seguir con las redirecciones.",
+        "destino": "https://iberia.peterson-solutions.com/csrd/",
+        "motivo": "/csrd/ no tuvo ni una impresión entre el 22 mar y el 14 sep 2026 aunque la enlaza la página de Estrategia de Sostenibilidad y Reporte.",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta y H1 en español para /csrd/",
+      "donde": "https://iberia.peterson-solutions.com/csrd/",
+      "detalle": "Textos en castellano de España, voz de Peterson.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "CSRD: a quién aplica y cómo preparar tu informe | Peterson",
+        "reemplaza": "Corporate Sustainability Reporting Directive (CSRD)",
+        "destino": "https://iberia.peterson-solutions.com/csrd/",
+        "motivo": "El actual está en inglés. Cubre «csrd», «csrd que es» (150) y «directiva csrd» (71).",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Te acompañamos en la CSRD: doble materialidad, normas NEIS (ESRS) y preparación del informe de sostenibilidad. Descubre si la directiva te aplica.",
+        "reemplaza": "The CSRD, part of the European Green Deal, aims to enhance transparency in sustainability reports, pushing the EU towards climate neutrality by 2050.",
+        "destino": "https://iberia.peterson-solutions.com/csrd/",
+        "motivo": "La actual está en inglés y no dice qué hace Peterson.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "CSRD: qué es, a quién aplica y cómo preparar tu informe",
+        "reemplaza": "Guía para CSRD",
+        "destino": "https://iberia.peterson-solutions.com/csrd/",
+        "motivo": "«Guía para CSRD» no contesta «csrd que es» ni «rendición de informes csrd» (100).",
+        "prioritario": true
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Cuál es hoy el alcance de la CSRD después del paquete Ómnibus de la UE? Las dos páginas dicen «250 empleados, 25 millones de activos, 50 millones de facturación» y «a partir de 2025». Si cambió, actualizar la sección «¿Me aplica la CSRD?» con el umbral y el calendario vigentes; si no, dejarla.",
+        "destino": "https://iberia.peterson-solutions.com/csrd/",
+        "motivo": "No se pudo verificar con estos datos. Confirmar con la unidad antes de publicar.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Title y meta de Finanzas sostenibles",
+      "donde": "https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/",
+      "detalle": "Textos en castellano de España.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Finanzas sostenibles para empresas | Peterson Solutions",
+        "reemplaza": "Finanzas sostenibles  - Peterson Solutions Iberia",
+        "destino": "https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/",
+        "motivo": "«finanzas sostenibles» 269 impresiones en posición 25,4 sin clics; el title actual tiene un doble espacio y no dice para quién es.",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Te acompañamos en finanzas sostenibles: diligencia debida social y ambiental, análisis de inversiones de impacto y divulgación no financiera.",
+        "reemplaza": "Las finanzas sostenibles trascienden los límites tradicionales de la inversión. Se trata de un paradigma que integra factores medioambientales, sociales y de gobernanza (ASG) en las decisiones financieras, garantizando la rentabilidad con un propósito.",
+        "destino": "https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/",
+        "motivo": "La actual es una definición general; la nueva usa las secciones que la página ya tiene.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/, en la sección «Guía sobre divulgaciones no financieras avanzadas», enlazar «guía de la CSRD» hacia https://iberia.peterson-solutions.com/csrd/",
+        "destino": "https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/",
+        "motivo": "Une las dos páginas de reporte; /csrd/ hoy recibe un solo enlace interno en el cuerpo de las páginas revisadas.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "CBAM y la versión portuguesa de CSRD",
+      "donde": "https://iberia.peterson-solutions.com/en/cbam/",
+      "detalle": "Ajustes menores; no crear página nueva de CBAM.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "No crear página de CBAM en español por ahora: «cbam services» tiene 238 impresiones y solo 29 vienen de España (Reino Unido 98, México 39). Revisar en la extracción de enero si la demanda en español crece.",
+        "destino": "https://iberia.peterson-solutions.com/en/cbam/",
+        "motivo": "La tarjeta de septiembre proponía contenido de fondo para CBAM; los datos no lo justifican todavía.",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "We work alongside EU importers on CBAM: embedded emissions calculation, supplier data collection and reporting under the regulation.",
+        "reemplaza": "The Carbon Border Adjustment Mechanism (CBAM) is a EU regulatory, to address the carbon footprint associated with imported goods. Peterson provides support",
+        "destino": "https://iberia.peterson-solutions.com/en/cbam/",
+        "motivo": "La actual tiene un error («a EU regulatory») y se corta en «Peterson provides support».",
+        "opcional": true
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Traducir https://iberia.peterson-solutions.com/pt-pt/csrd/ al portugués europeo: hoy la página es pt-PT pero el H1 («Guidance on CSRD reporting») y todo el texto están en inglés. Pedir a la unidad de Portugal.",
+        "destino": "https://iberia.peterson-solutions.com/pt-pt/csrd/",
+        "motivo": "Completa el grupo hreflang es/en/pt-pt de CSRD con contenido en el idioma correcto.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "csrd",
+      "impr": 1456,
+      "pos": 21.5
+     },
+     {
+      "query": "csrd sostenibilidad",
+      "impr": 183,
+      "pos": 31.2
+     },
+     {
+      "query": "csrd que es",
+      "impr": 150,
+      "pos": 34.7
+     },
+     {
+      "query": "csdr",
+      "impr": 125,
+      "pos": 38.5
+     },
+     {
+      "query": "rendición de informes csrd",
+      "impr": 100,
+      "pos": 39.3
+     },
+     {
+      "query": "directiva csrd",
+      "impr": 71,
+      "pos": 26.8
+     },
+     {
+      "query": "finanzas sostenibles",
+      "impr": 269,
+      "pos": 25.4
+     },
+     {
+      "query": "cbam services",
+      "impr": 238,
+      "pos": 28.6
+     },
+     {
+      "query": "cbam compliance services",
+      "impr": 93,
+      "pos": 25.7
+     }
+    ],
+    "organico_desde": "iberia.peterson-solutions.com, todos los países, 22 mar 2026",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "PS:SEO:iberia-peterson-solutions-com:marca-e-idioma",
+   "marca": "PS",
+   "sitio": "iberia.peterson-solutions.com",
+   "titulo": "Marca (Iberia): el hreflang ya está; faltan meta descriptions en la home y «Sobre Peterson», y el title de /en/ y /pt-pt/ repite la marca",
+   "detalle": "El hreflang es / en / pt-pt y los canonicals de la home y de «Sobre Peterson» ya están bien, y el diagnóstico de septiembre no se sostiene: el bajo CTR de /en/home/about-us/ viene de «peterson solutions target industries personas» (2.726 impresiones, casi todas desde EE. UU., Reino Unido, Países Bajos y Alemania), no de usuarios en español. Lo que sí falta: ninguna de esas páginas tiene meta description y /en/ y /pt-pt/ tienen de title «Peterson Solutions Iberia - Peterson Solutions Iberia». Son cambios chicos de snippet.",
+   "prioridad": "baja",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "iberia.peterson-solutions.com",
+    "paginas": [
+     {
+      "url": "https://iberia.peterson-solutions.com/",
+      "nota": "home en español: meta description"
+     },
+     {
+      "url": "https://iberia.peterson-solutions.com/en/",
+      "nota": "home en inglés: title y meta"
+     },
+     {
+      "url": "https://iberia.peterson-solutions.com/pt-pt/",
+      "nota": "home en portugués: title y meta"
+     },
+     {
+      "url": "https://iberia.peterson-solutions.com/home/sobre-peterson/",
+      "nota": "Sobre Peterson: meta y un H2 en inglés"
+     },
+     {
+      "url": "https://iberia.peterson-solutions.com/en/home/about-us/",
+      "nota": "About us: meta (opcional)"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Completar el snippet de las páginas de marca (meta description y titles sin repetir).",
+    "por_que": "Search Console, 22 mar – 14 sep 2026. Home: 4.205 impresiones, 402 clics, posición 5,1; /en/: 3.180 impresiones, 56 clics; /pt-pt/: 602, 13 clics. «peterson solutions» 1.257 impresiones (España 277 con 157 clics, Argentina 252, Brasil 182): 722 en la home (posición 1,2, 142 clics) y 491 en /en/ (posición 1,7, 17 clics). /en/home/about-us/: 4.717 impresiones, 9 clics, CTR 0,19%, de las cuales 2.726 son «peterson solutions target industries personas» (EE. UU. 2.352, Reino Unido 354, Países Bajos 162, Alemania 130). «Sobre Peterson»: 1.626 impresiones, 8 clics.",
+    "ya_hecho": "El hreflang es / en / pt-pt / x-default y el canonical a sí misma ya están en la home y en «Sobre Peterson» en los tres idiomas (leído el 28 oct 2026). No hay meta description en ninguna de las cinco páginas.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Meta description y titles de las tres homes",
+      "donde": "https://iberia.peterson-solutions.com/",
+      "detalle": "Textos en el idioma de cada versión, voz de Peterson.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "Acompañamos a empresas de España y Portugal en sostenibilidad, cumplimiento normativo (CSRD, EUDR, CBAM) y trazabilidad, con soluciones a medida.",
+        "destino": "https://iberia.peterson-solutions.com/",
+        "motivo": "La home no tiene meta description; Google arma el fragmento solo. Es la página con más clics del sitio (402).",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Sustainability consulting in Iberia | Peterson Solutions",
+        "reemplaza": "Peterson Solutions Iberia  - Peterson Solutions Iberia",
+        "destino": "https://iberia.peterson-solutions.com/en/",
+        "motivo": "El title actual repite la marca y no dice qué hace Peterson; /en/ tiene 3.180 impresiones y CTR 1,76%.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "We work alongside companies in Spain and Portugal on sustainability, regulatory compliance (CSRD, EUDR, CBAM) and traceability, with tailored solutions.",
+        "destino": "https://iberia.peterson-solutions.com/en/",
+        "motivo": "Sin meta description.",
+        "prioritario": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Consultoria de sustentabilidade | Peterson Solutions Iberia",
+        "reemplaza": "Peterson Solutions Iberia  - Peterson Solutions Iberia",
+        "destino": "https://iberia.peterson-solutions.com/pt-pt/",
+        "motivo": "Mismo title repetido que /en/; el H1 de la página ya dice «Consultoria de sustentabilidade».",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "Acompanhamos empresas em Portugal e Espanha em sustentabilidade, conformidade regulamentar (CSRD, EUDR, CBAM) e rastreabilidade, com soluções à medida.",
+        "destino": "https://iberia.peterson-solutions.com/pt-pt/",
+        "motivo": "Sin meta description.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Meta y un H2 de «Sobre Peterson»",
+      "donde": "https://iberia.peterson-solutions.com/home/sobre-peterson/",
+      "detalle": "Cifras del manual de marca de Peterson.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "Peterson: empresa familiar desde 1920, con más de 1.000 personas en más de 35 países. Conoce quiénes somos y cómo acompañamos a nuestros clientes.",
+        "destino": "https://iberia.peterson-solutions.com/home/sobre-peterson/",
+        "motivo": "Sin meta description; 1.626 impresiones y CTR 0,49% («peterson» 281 en posición 5,4).",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "H2 «Tu aliado en lo que importa»",
+        "reemplaza": "Your partner in what matters",
+        "destino": "https://iberia.peterson-solutions.com/home/sobre-peterson/",
+        "motivo": "H2 en inglés en la página en español.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "Peterson: a family company since 1920, with more than 1,000 people in over 35 countries. Learn who we are and how we work alongside our clients.",
+        "destino": "https://iberia.peterson-solutions.com/en/home/about-us/",
+        "motivo": "Sin meta description. No va a mover el CTR de la consulta de EE. UU., pero completa el snippet.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "peterson solutions (home)",
+      "impr": 722,
+      "pos": 1.2
+     },
+     {
+      "query": "peterson solutions (/en/)",
+      "impr": 491,
+      "pos": 1.7
+     },
+     {
+      "query": "peterson (home)",
+      "impr": 1421,
+      "pos": 6.6
+     },
+     {
+      "query": "peterson solutions target industries personas (/en/home/about-us/)",
+      "impr": 2726,
+      "pos": 4.3
+     },
+     {
+      "query": "peterson (Sobre Peterson)",
+      "impr": 281,
+      "pos": 5.4
+     },
+     {
+      "query": "peterson solutions iberia (home)",
+      "impr": 84,
+      "pos": 1.8
+     }
+    ],
+    "organico_desde": "iberia.peterson-solutions.com, todos los países, 22 mar 2026",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  }
+ ],
+ "descartes": [
+  {
+   "clave": "CU:SEO:espana-controlunion-com:versiones-en",
+   "motivo": "Ya está hecho lo que pedía: GMP+, GSTC y Welfair tienen hreflang es-ES / en-ES / x-default recíprocos y canonical a sí mismas en las dos versiones (leído el 28 oct 2026). El reparto que queda no lo arregla el hreflang porque viene de otros países: «gmp+» tiene 2.881 impresiones y solo 1.136 de España (Dinamarca 336, Bélgica 134; la /en/ recibe además «gmp+ certificering» 278 y «gmpplus kursus» 80, en neerlandés y danés); «welfair» 5.196 con solo 613 de España (India 906, EE. UU. 636, Reino Unido 548); «gstc» lo gana la página en español (1.354 impresiones en posición 5,4 contra 528 en 15,3 de la /en/). Lo único útil que quedaba, el title en inglés de la página española de Welfair, pasó a CU:SEO:espana-controlunion-com:titulo-y-snippet."
+  }
+ ]
+}

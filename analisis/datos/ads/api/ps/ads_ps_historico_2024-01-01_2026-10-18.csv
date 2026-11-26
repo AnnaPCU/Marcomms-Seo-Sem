@@ -1,0 +1,57 @@
+﻿ads_id,campana,estado,mes,coste,clics,impresiones,conversiones,cuenta,moneda,tipo_cambio,coste_original
+24052475403,PS Argentina - SuSo - Abastecimiento sostenible - Search,ENABLED,2026-07,243.27,4,40,0.0,actual,ARS,1.0,243.27
+24052475403,PS Argentina - SuSo - Abastecimiento sostenible - Search,ENABLED,2026-08,5762.95,5,144,0.0,actual,ARS,1.0,5762.95
+24052475403,PS Argentina - SuSo - Abastecimiento sostenible - Search,ENABLED,2026-09,3117.36,2,183,0.0,actual,ARS,1.0,3117.36
+24052475403,PS Argentina - SuSo - Abastecimiento sostenible - Search,ENABLED,2026-10,0.0,0,123,0.0,actual,ARS,1.0,0.0
+24052475406,PS Argentina - SuSo - Trazabilidad / EUDR - Search,ENABLED,2026-07,0.0,0,7,0.0,actual,ARS,1.0,0.0
+24052475406,PS Argentina - SuSo - Trazabilidad / EUDR - Search,ENABLED,2026-08,8004.7,2,75,0.0,actual,ARS,1.0,8004.7
+24052475406,PS Argentina - SuSo - Trazabilidad / EUDR - Search,ENABLED,2026-09,8041.2,5,119,0.0,actual,ARS,1.0,8041.2
+24052475406,PS Argentina - SuSo - Trazabilidad / EUDR - Search,ENABLED,2026-10,20646.73,6,90,0.0,actual,ARS,1.0,20646.73
+24052475412,PS Argentina - SuSe - Huella de agua - Search,ENABLED,2026-07,117.86,1,6,0.0,actual,ARS,1.0,117.86
+24052475412,PS Argentina - SuSe - Huella de agua - Search,ENABLED,2026-08,32090.81,9,157,0.0,actual,ARS,1.0,32090.81
+24052475412,PS Argentina - SuSe - Huella de agua - Search,ENABLED,2026-09,62460.37,24,494,0.0,actual,ARS,1.0,62460.37
+24052475412,PS Argentina - SuSe - Huella de agua - Search,ENABLED,2026-10,32232.07,12,275,0.0,actual,ARS,1.0,32232.07
+24057321044,PS Argentina - SuSe - Huella de carbono / GEI - Search,ENABLED,2026-07,1787.28,4,40,0.0,actual,ARS,1.0,1787.28
+24057321044,PS Argentina - SuSe - Huella de carbono / GEI - Search,ENABLED,2026-08,90118.528844,69,2552,0.0,actual,ARS,1.0,90118.528844
+24057321044,PS Argentina - SuSe - Huella de carbono / GEI - Search,ENABLED,2026-09,68295.869579,65,3838,0.0,actual,ARS,1.0,68295.869579
+24057321044,PS Argentina - SuSe - Huella de carbono / GEI - Search,ENABLED,2026-10,38164.86,48,2892,0.0,actual,ARS,1.0,38164.86
+24057321050,PS Argentina - CeSu - Preparacion para certificaciones - Search,ENABLED,2026-07,0.0,0,4,0.0,actual,ARS,1.0,0.0
+24057321050,PS Argentina - CeSu - Preparacion para certificaciones - Search,ENABLED,2026-08,0.0,0,8,0.0,actual,ARS,1.0,0.0
+24057321050,PS Argentina - CeSu - Preparacion para certificaciones - Search,ENABLED,2026-09,10135.68,4,194,0.0,actual,ARS,1.0,10135.68
+24057321050,PS Argentina - CeSu - Preparacion para certificaciones - Search,ENABLED,2026-10,19181.86,6,215,0.0,actual,ARS,1.0,19181.86
+24057321053,PS Argentina - SuSo - Agricultura regenerativa- Search,ENABLED,2026-07,3288.83,22,416,0.0,actual,ARS,1.0,3288.83
+24057321053,PS Argentina - SuSo - Agricultura regenerativa- Search,ENABLED,2026-08,103366.254686,348,5561,0.0,actual,ARS,1.0,103366.254686
+24057321053,PS Argentina - SuSo - Agricultura regenerativa- Search,ENABLED,2026-09,69132.09,134,7676,0.0,actual,ARS,1.0,69132.09
+24057321053,PS Argentina - SuSo - Agricultura regenerativa- Search,ENABLED,2026-10,37149.15,81,4690,0.0,actual,ARS,1.0,37149.15
+24057321056,PS Argentina - SuSe - ESG / Reportes - Search,ENABLED,2026-07,0.0,0,97,0.0,actual,ARS,1.0,0.0
+24057321056,PS Argentina - SuSe - ESG / Reportes - Search,ENABLED,2026-08,66540.716476,41,1029,0.0,actual,ARS,1.0,66540.716476
+24057321056,PS Argentina - SuSe - ESG / Reportes - Search,ENABLED,2026-09,67518.7,45,1888,0.0,actual,ARS,1.0,67518.7
+24057321056,PS Argentina - SuSe - ESG / Reportes - Search,ENABLED,2026-10,36950.99,25,514,0.0,actual,ARS,1.0,36950.99
+24057321071,PS Argentina - Bioenergia / Biocombustibles - Search,ENABLED,2026-07,0.0,0,53,0.0,actual,ARS,1.0,0.0
+24057321071,PS Argentina - Bioenergia / Biocombustibles - Search,ENABLED,2026-08,44237.8,29,1981,0.0,actual,ARS,1.0,44237.8
+24057321071,PS Argentina - Bioenergia / Biocombustibles - Search,ENABLED,2026-09,69521.35405,45,2670,0.0,actual,ARS,1.0,69521.35405
+24057321071,PS Argentina - Bioenergia / Biocombustibles - Search,ENABLED,2026-10,41072.83,28,1457,0.0,actual,ARS,1.0,41072.83
+23843910153,PS Argentina - SuSo - Abastecimiento sostenible - Search,PAUSED,2026-05,0.0,0,5,0.0,anterior,EUR,1632.1443,0.0
+23844031386,PS Argentina - SuSo - Trazabilidad / EUDR - Search,PAUSED,2026-05,0.0,0,14,0.0,anterior,EUR,1632.1443,0.0
+23847235596,PS Argentina - SuSe - Huella de agua - Search,PAUSED,2026-05,11953.7154995319,8,125,0.0,anterior,EUR,1632.1443,7.323933
+23852277320,PS Argentina - SuSe - Huella de carbono / GEI - Search,PAUSED,2026-05,12286.496665147499,8,291,0.0,anterior,EUR,1632.1443,7.527825
+23853590112,PS Argentina - CeSu - Preparacion para certificaciones - Search,PAUSED,2026-05,0.0,0,30,0.0,anterior,EUR,1632.1443,0.0
+23856763408,PS Argentina - SuSo - Agricultura regenerativa- Search,PAUSED,2026-05,14069.206276822499,17,469,0.0,anterior,EUR,1632.1443,8.620075
+23857166371,PS Argentina - SuSe - ESG / Reportes - Search,PAUSED,2026-05,9237.936738,9,190,0.0,anterior,EUR,1632.1443,5.66
+23863492270,PS Argentina - Bioenergia / Biocombustibles - Search,PAUSED,2026-05,583.2483977492999,1,273,0.0,anterior,EUR,1632.1443,0.357351
+23843910153,PS Argentina - SuSo - Abastecimiento sostenible - Search,PAUSED,2026-06,0.0,0,6,0.0,anterior,EUR,1669.3026,0.0
+23844031386,PS Argentina - SuSo - Trazabilidad / EUDR - Search,PAUSED,2026-06,0.0,0,12,0.0,anterior,EUR,1669.3026,0.0
+23847235596,PS Argentina - SuSe - Huella de agua - Search,PAUSED,2026-06,40382.4931520136,15,119,0.0,anterior,EUR,1669.3026,24.191236
+23852277320,PS Argentina - SuSe - Huella de carbono / GEI - Search,PAUSED,2026-06,16863.845735058,9,486,0.0,anterior,EUR,1669.3026,10.10233
+23853590112,PS Argentina - CeSu - Preparacion para certificaciones - Search,PAUSED,2026-06,15871.053053247,7,162,0.0,anterior,EUR,1669.3026,9.507595
+23856763408,PS Argentina - SuSo - Agricultura regenerativa- Search,PAUSED,2026-06,49566.5236445778,34,831,0.0,anterior,EUR,1669.3026,29.692953
+23857166371,PS Argentina - SuSe - ESG / Reportes - Search,PAUSED,2026-06,62390.927514657,47,1227,0.0,anterior,EUR,1669.3026,37.375445
+23863492270,PS Argentina - Bioenergia / Biocombustibles - Search,PAUSED,2026-06,2838.6040001297997,7,1069,0.0,anterior,EUR,1669.3026,1.700473
+23843910153,PS Argentina - SuSo - Abastecimiento sostenible - Search,PAUSED,2026-07,0.0,0,4,0.0,anterior,EUR,1697.6827,0.0
+23844031386,PS Argentina - SuSo - Trazabilidad / EUDR - Search,PAUSED,2026-07,6654.916184,1,23,0.0,anterior,EUR,1697.6827,3.92
+23847235596,PS Argentina - SuSe - Huella de agua - Search,PAUSED,2026-07,77702.93717900002,24,289,0.0,anterior,EUR,1697.6827,45.77
+23852277320,PS Argentina - SuSe - Huella de carbono / GEI - Search,PAUSED,2026-07,64872.564359134005,23,668,0.0,anterior,EUR,1697.6827,38.21242
+23853590112,PS Argentina - CeSu - Preparacion para certificaciones - Search,PAUSED,2026-07,21696.384906,9,217,0.0,anterior,EUR,1697.6827,12.78
+23856763408,PS Argentina - SuSo - Agricultura regenerativa- Search,PAUSED,2026-07,66908.3694294449,44,937,0.0,anterior,EUR,1697.6827,39.411587
+23857166371,PS Argentina - SuSe - ESG / Reportes - Search,PAUSED,2026-07,72356.7730768435,37,1422,0.0,anterior,EUR,1697.6827,42.620905
+23863492270,PS Argentina - Bioenergia / Biocombustibles - Search,PAUSED,2026-07,11928.8557710504,6,531,0.0,anterior,EUR,1697.6827,7.026552

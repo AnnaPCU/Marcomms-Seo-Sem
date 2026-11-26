@@ -1,0 +1,7 @@
+﻿marca,prueba,propiedad,primera,ultima,dias,huecos,filas_base,filas_hist,solo_base,solo_hist,dif_impr,dif_clics,identico,en_ambos,cobertura_filas,cobertura_impr,cobertura_clics,hist_excede
+ps,cobertura,Américas,2026-03-22,2026-09-14,177.0,[],,,,,,,,,,,,
+ps,cobertura,Iberia,2026-03-22,2026-09-14,177.0,[],,,,,,,,,,,,
+ps,pages_12m,,,,,,284.0,284.0,0.0,0.0,0.0,0.0,True,,,,,
+ps,queries_12m,,,,,,3831.0,3831.0,,0.0,,,,3831.0,100.0,100.0,100.0,0.0
+ps,pages_ads,,,,,,226.0,226.0,0.0,0.0,0.0,0.0,True,,,,,
+ps,queries_ads,,,,,,1563.0,1563.0,,0.0,,,,1563.0,100.0,100.0,100.0,0.0

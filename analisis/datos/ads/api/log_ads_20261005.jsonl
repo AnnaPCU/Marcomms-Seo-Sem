@@ -1,0 +1,6 @@
+{"reporte": "test", "status": "error", "error": "The Google account (@gmail.com user) that generated the OAuth access tokens is not associated with any Ads accounts. Create a new account, or add the Google account to an existing Ads account.", "ts": "2026-10-05T12:48:21"}
+{"reporte": "test", "status": "error", "error": "The Google account (@gmail.com user) that generated the OAuth access tokens is not associated with any Ads accounts. Create a new account, or add the Google account to an existing Ads account.", "ts": "2026-10-05T12:48:34"}
+{"reporte": "test", "status": "error", "error": "The Google account (@gmail.com user) that generated the OAuth access tokens is not associated with any Ads accounts. Create a new account, or add the Google account to an existing Ads account.", "ts": "2026-10-05T12:50:45"}
+{"reporte": "test", "status": "error", "error": "The Google account (@gmail.com user) that generated the OAuth access tokens is not associated with any Ads accounts. Create a new account, or add the Google account to an existing Ads account.", "ts": "2026-10-05T12:50:56"}
+{"reporte": "test", "status": "ok", "filas": 1, "ts": "2026-10-05T12:55:32"}
+{"status": "ok", "filas": 1001, "reporte": "diario", "desde": "2026-09-01", "hasta": "2026-10-04", "ts": "2026-10-05T12:55:49"}

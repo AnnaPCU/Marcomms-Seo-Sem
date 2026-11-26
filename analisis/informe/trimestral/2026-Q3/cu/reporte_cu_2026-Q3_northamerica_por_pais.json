@@ -1,0 +1,266 @@
+{
+  "marca": "Control Union",
+  "trimestre": "2026-Q3",
+  "desde": "2026-07-01",
+  "hasta": "2026-09-30",
+  "extraido": "2026-10-09",
+  "definicion_conversion": "formularios = vistas a páginas de gracias (todo envío Gravity Forms o HubSpot redirige ahí) con origen en otra página del mismo sitio, sin admin ni empleo/academy/reclamos (gracias_real) + emails = click_email con pagePath fuera de empleo, academy y reclamos (EMAIL_REAL); filtros de ga4_export.py",
+  "total_sitio": {
+    "seo": {
+      "average_position": 14.63,
+      "impressions": 30970,
+      "total_clicks": 313,
+      "ctr_pct": 1.01,
+      "top_keywords": [
+        {
+          "keyword": "control union canada",
+          "clicks": 37,
+          "impressions": 120,
+          "position": 2.3
+        },
+        {
+          "keyword": "control union usa",
+          "clicks": 29,
+          "impressions": 79,
+          "position": 1.1
+        },
+        {
+          "keyword": "control union",
+          "clicks": 17,
+          "impressions": 775,
+          "position": 5.2
+        },
+        {
+          "keyword": "temo",
+          "clicks": 2,
+          "impressions": 4321,
+          "position": 7.8
+        },
+        {
+          "keyword": "control union job vacancy",
+          "clicks": 1,
+          "impressions": 11,
+          "position": 7
+        }
+      ]
+    },
+    "website": {
+      "single_traffic_users": 2475,
+      "total_traffic_sessions": 3200,
+      "impressions_pageviews": 6388,
+      "conversions": 62,
+      "conversions_detalle": {
+        "formularios": 35,
+        "emails": 27
+      },
+      "conversions_crudas": {
+        "click_email": 78,
+        "form_submit": 102,
+        "total": 180
+      },
+      "vistas_gracias_sin_filtro": 57,
+      "embudo_vista_a_sesion_pct": 50.09,
+      "embudo_sesion_a_conversion_pct": 1.94,
+      "top_pages": [
+        {
+          "page": "https://northamerica.controlunion.com/",
+          "views": 1474
+        },
+        {
+          "page": "https://northamerica.controlunion.com/certification-programs/",
+          "views": 600
+        },
+        {
+          "page": "https://northamerica.controlunion.com/vacancies/",
+          "views": 296
+        },
+        {
+          "page": "https://northamerica.controlunion.com/contact/",
+          "views": 289
+        },
+        {
+          "page": "https://northamerica.controlunion.com/service/certification/",
+          "views": 218
+        }
+      ]
+    }
+  },
+  "cuentas": [
+    {
+      "cuenta": "Control Union North America — Estados Unidos",
+      "pais": "Estados Unidos",
+      "search_console": "https://northamerica.controlunion.com/",
+      "ga4": "properties/512051793",
+      "filtro_pais": {
+        "search_console": "usa",
+        "ga4": "US"
+      },
+      "seo": {
+        "average_position": 15.95,
+        "impressions": 12043,
+        "total_clicks": 93,
+        "ctr_pct": 0.77,
+        "top_keywords": [
+          {
+            "keyword": "control union usa",
+            "clicks": 16,
+            "impressions": 39,
+            "position": 1.1
+          },
+          {
+            "keyword": "control union",
+            "clicks": 5,
+            "impressions": 468,
+            "position": 1.5
+          },
+          {
+            "keyword": "control union canada",
+            "clicks": 1,
+            "impressions": 3,
+            "position": 1
+          },
+          {
+            "keyword": "control union organic certification",
+            "clicks": 1,
+            "impressions": 17,
+            "position": 33.4
+          },
+          {
+            "keyword": "controlunion",
+            "clicks": 1,
+            "impressions": 15,
+            "position": 1.3
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 1192,
+        "total_traffic_sessions": 1480,
+        "impressions_pageviews": 2684,
+        "conversions": 47,
+        "conversions_detalle": {
+          "formularios": 25,
+          "emails": 22
+        },
+        "conversions_crudas": {
+          "click_email": 67,
+          "form_submit": 29,
+          "total": 96
+        },
+        "vistas_gracias_sin_filtro": 30,
+        "embudo_vista_a_sesion_pct": 55.14,
+        "embudo_sesion_a_conversion_pct": 3.18,
+        "top_pages": [
+          {
+            "page": "https://northamerica.controlunion.com/",
+            "views": 706
+          },
+          {
+            "page": "https://northamerica.controlunion.com/certification-programs/",
+            "views": 343
+          },
+          {
+            "page": "https://northamerica.controlunion.com/vacancies/",
+            "views": 183
+          },
+          {
+            "page": "https://northamerica.controlunion.com/service/certification/",
+            "views": 146
+          },
+          {
+            "page": "https://northamerica.controlunion.com/contact/",
+            "views": 135
+          }
+        ]
+      }
+    },
+    {
+      "cuenta": "Control Union North America — Canadá",
+      "pais": "Canadá",
+      "search_console": "https://northamerica.controlunion.com/",
+      "ga4": "properties/512051793",
+      "filtro_pais": {
+        "search_console": "can",
+        "ga4": "CA"
+      },
+      "seo": {
+        "average_position": 7.86,
+        "impressions": 1503,
+        "total_clicks": 68,
+        "ctr_pct": 4.52,
+        "top_keywords": [
+          {
+            "keyword": "control union canada",
+            "clicks": 27,
+            "impressions": 73,
+            "position": 1.4
+          },
+          {
+            "keyword": "control union",
+            "clicks": 11,
+            "impressions": 188,
+            "position": 1.3
+          },
+          {
+            "keyword": "fishers finest",
+            "clicks": 1,
+            "impressions": 3,
+            "position": 6
+          },
+          {
+            "keyword": "22716 iso",
+            "clicks": 0,
+            "impressions": 3,
+            "position": 63.3
+          },
+          {
+            "keyword": "4169777771",
+            "clicks": 0,
+            "impressions": 1,
+            "position": 4
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 224,
+        "total_traffic_sessions": 258,
+        "impressions_pageviews": 502,
+        "conversions": 6,
+        "conversions_detalle": {
+          "formularios": 3,
+          "emails": 3
+        },
+        "conversions_crudas": {
+          "click_email": 4,
+          "form_submit": 0,
+          "total": 4
+        },
+        "vistas_gracias_sin_filtro": 3,
+        "embudo_vista_a_sesion_pct": 51.39,
+        "embudo_sesion_a_conversion_pct": 2.33,
+        "top_pages": [
+          {
+            "page": "https://northamerica.controlunion.com/certification-programs/",
+            "views": 62
+          },
+          {
+            "page": "https://northamerica.controlunion.com/industry/forestry/",
+            "views": 56
+          },
+          {
+            "page": "https://northamerica.controlunion.com/",
+            "views": 48
+          },
+          {
+            "page": "https://northamerica.controlunion.com/vacancies/",
+            "views": 47
+          },
+          {
+            "page": "https://northamerica.controlunion.com/certification-program/canadagap/",
+            "views": 40
+          }
+        ]
+      }
+    }
+  ]
+}

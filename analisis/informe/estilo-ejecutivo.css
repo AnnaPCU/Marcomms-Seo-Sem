@@ -1,0 +1,100 @@
+/* ===== Extensión ejecutiva del sistema neutro interno =====
+   Misma paleta (#1b1e42 · #4f6566 · #799495 · #f3f5f6). Sin Cyan, Aqua ni Yellow.  */
+
+body{ font-size:9.1pt; }
+h2{ font-size:17.5pt; }
+h3{ font-size:11pt; }
+
+/* portada compacta */
+.cover-top h1{ font-size:28pt; max-width:165mm; margin-bottom:6mm; }
+.cover{ height:auto; min-height:0; break-after:page; }
+.cover-body{ padding-top:9mm; }
+
+/* banda de unidad */
+.unit{ break-before:page; }
+.unit-head{ background:var(--navy); color:#fff; padding:4.5mm 5.5mm 4mm; margin:0 0 4mm;
+  display:grid; grid-template-columns:1fr auto; gap:6mm; align-items:end; }
+.unit-head .brand{ font-size:6.6pt; letter-spacing:.18em; text-transform:uppercase; color:rgba(255,255,255,.62); margin:0 0 1.2mm; }
+.unit-head h2{ color:#fff; font-size:16pt; margin:0; line-height:1.1; }
+.unit-head .sub{ color:rgba(255,255,255,.72); font-size:7.8pt; margin:1.5mm 0 0; }
+.kpis{ display:flex; gap:5mm; }
+.kpi{ display:flex; flex-direction:column; align-items:flex-end; min-width:20mm; }
+.kpi .kn{ font-size:15pt; font-weight:700; color:#fff; line-height:1; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+.kpi .kl{ font-size:6.2pt; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.6); margin-top:1mm; white-space:nowrap; }
+
+/* fila pain → solución */
+.pain{ display:grid; grid-template-columns:44mm 1fr 1fr 19mm; gap:4mm; padding:2.6mm 0; border-top:.5pt solid var(--hair);
+  break-inside:avoid; font-size:8.3pt; line-height:1.42; }
+.pain:first-of-type{ border-top:none; }
+.pain .h{ font-weight:700; color:var(--navy); font-size:8.8pt; line-height:1.25; }
+.pain .h span{ display:block; font-weight:400; color:var(--grey); font-size:7pt; letter-spacing:.08em; text-transform:uppercase; margin-top:1mm; }
+.pain .lab{ font-size:6.4pt; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--grey); display:block; margin-bottom:.8mm; }
+.pain p{ margin:0; }
+.pain-head{ display:grid; grid-template-columns:44mm 1fr 1fr 19mm; gap:4mm; padding:0 0 1.5mm; border-bottom:1.2pt solid var(--navy);
+  font-size:6.4pt; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--grey); }
+
+/* chips de estado */
+.chip{ display:inline-block; font-size:6.4pt; font-weight:700; letter-spacing:.1em; text-transform:uppercase; padding:1mm 2mm;
+  border:.75pt solid var(--navy); color:var(--navy); border-radius:1pt; white-space:nowrap; }
+.chip.ok{ background:var(--navy); color:#fff; }
+.chip.prop{ background:#fff; }
+.chip.open{ border-style:dashed; color:var(--ink); border-color:var(--grey); }
+.chip.new{ background:var(--tint2); border-color:var(--tint2); color:var(--navy); }
+
+/* barras inline */
+.bar{ display:inline-block; height:3.2pt; background:var(--tint2); vertical-align:middle; margin-right:2mm; }
+.bar span{ display:block; height:3.2pt; background:var(--navy); }
+.dem{ font-size:8pt; }
+.dem .r{ display:grid; grid-template-columns:1fr 30mm 16mm 10mm; gap:2mm; align-items:center; padding:1mm 0; border-top:.5pt solid var(--hair); }
+.dem .r.head{ border-top:none; font-size:6.4pt; font-weight:700; letter-spacing:.13em; text-transform:uppercase; color:var(--grey); }
+.dem b{ color:var(--navy); font-weight:700; }
+.dem .num{ text-align:right; font-variant-numeric:tabular-nums; }
+
+/* bloques de propiedad (SEO) */
+.prop{ break-inside:avoid; margin-bottom:5mm; }
+.prop-head{ display:grid; grid-template-columns:1fr auto; align-items:end; border-bottom:1.6pt solid var(--navy); padding-bottom:1.6mm; margin-bottom:2.5mm; }
+.prop-head h3{ margin:0; font-size:12pt; }
+.prop-head .meta{ font-size:7.2pt; color:var(--grey); font-variant-numeric:tabular-nums; }
+.prop-head .meta b{ color:var(--navy); }
+.acc{ margin:0; padding:0; list-style:none; }
+.acc li{ padding:1.3mm 0 1.3mm 18mm; text-indent:-18mm; border-top:.5pt solid var(--hair); font-size:8.2pt; line-height:1.4; }
+.acc li:first-child{ border-top:none; }
+.acc .tag{ display:inline-block; width:16mm; text-indent:0; font-size:6.3pt; font-weight:700; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--navy); }
+.mini{ font-size:7.6pt; }
+.mini td{ padding:1.1mm 2mm; }
+.mini th{ padding:1.6mm 2mm; font-size:6.6pt; }
+.num-ok{ color:var(--navy); font-weight:700; }
+
+/* tarjetas de hallazgo estructural */
+.find{ border-top:2.2pt solid var(--navy); padding-top:2.2mm; break-inside:avoid; }
+.find .k{ font-size:20pt; font-weight:700; color:var(--navy); line-height:.95; letter-spacing:-.03em; margin:0 0 1.5mm; }
+.find h4{ font-size:9.6pt; margin:0 0 1.5mm; }
+.find p{ font-size:8.1pt; line-height:1.42; margin:0 0 1.5mm; }
+.find .small{ font-size:7.2pt; }
+
+/* plan */
+.plan{ display:grid; grid-template-columns:repeat(3,1fr); gap:5mm; }
+.plan .ph{ background:var(--tint); padding:3.5mm 4mm; }
+.plan .ph h4{ margin:0 0 2mm; font-size:9.6pt; }
+.plan .ph .when{ font-size:6.4pt; letter-spacing:.14em; text-transform:uppercase; color:var(--grey); font-weight:700; margin:0 0 1mm; }
+.plan .ph ul{ margin:0; padding-left:3.5mm; font-size:8pt; line-height:1.45; }
+.plan .ph li{ margin-bottom:1mm; }
+
+/* ajustes de densidad */
+.stat .n{ font-size:21pt; letter-spacing:-.03em; }
+.stat{ padding-top:2mm; }
+.stat .d{ font-size:7.5pt; }
+.pain{ padding:2.1mm 0; font-size:8pt; line-height:1.4; }
+.pain .h{ font-size:8.5pt; }
+.cover-foot{ margin-top:7mm; }
+.acc li{ padding-left:21mm; text-indent:-21mm; }
+.acc .tag{ width:19mm; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; vertical-align:top; padding-right:1mm; }
+
+.propwrap{ break-inside:avoid; }
+.prop{ break-inside:auto; }
+
+.pain, .pain-head{ grid-template-columns:44mm 1fr 1fr 22mm; }
+.chip{ white-space:normal; line-height:1.25; text-align:center; }
+
+.pain{ font-size:7.8pt; line-height:1.38; padding:2mm 0; }

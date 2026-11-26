@@ -1,0 +1,247 @@
+
+0. PANORAMA
+ marca    propiedad    primera     ultima  dias  impr_total  clics_total  impr_ads  clics_ads  queries_hist  pos_media_q con_campana
+   CU         Perú 2026-03-03 2026-09-14   196      792461        10773    112434       1721         22900          8.6          no
+   CU       España 2026-03-03 2026-09-14   196      408582         3515     80177        565         18311         15.0          si
+   CU    Argentina 2025-05-04 2026-09-14   422      294810         7968     36936        879         13798         13.7          si
+   CU       México 2025-05-04 2026-09-14   393      244056         3100     27692        358          9893         14.7          no
+   CU       Brasil 2026-03-03 2026-09-14   196      141775         3710     31492        847          5589         13.0          no
+   CU     Portugal 2026-03-03 2026-09-14   196      114794         1651     21178        272          6389         17.3          si
+   CU        Chile 2026-03-03 2026-09-14   196       77192         1195     13633        196          2676         13.5          no
+   CU Norteamérica 2026-03-03 2026-09-14   196       75107          713     15263        139          3254         16.0          si
+   PS     Américas 2026-03-22 2026-09-14   177       58359          805     13806        202          2562          9.5          si
+   PS       Iberia 2026-03-22 2026-09-14   177       25834          706      8442        162          1292         13.2          no
+
+Ads: {'terminos': 3795, 'coste_visible': 934067, 'clics_visibles': 557, 'terminos_con_clic': 316, 'desperdicio_coste': 190042, 'desperdicio_terminos': 597}
+
+1-3. TÉRMINOS RELEVANTES CON CLIC: 252 coste 744025
+                       terminos     coste   pct
+grupo                                          
+query presente               44  206103.0  27.7
+sin nada del tema           179  422509.0  56.8
+tema debil                   22   87091.0  11.7
+tema fuerte, query no         7   28322.0   3.8
+
+Canibalización 1-3: 19067 | 1-7: 87559
+Zona 8-20: 71763 en 14 términos
+                             termino propiedad pais    coste  impr_org  pos_org
+                               smeta    España  esp 14283.11     305.0     7.55
+                                iscc    España  esp 11732.97      14.0    12.07
+                       pefc portugal  Portugal  prt  7871.06       5.0     8.00
+                                pefc  Portugal  prt  7656.13     105.0     7.90
+                                iscc  Portugal  prt  7494.84      35.0    12.17
+                   iscc certificates  Portugal  prt  6612.59      22.0     9.55
+                                 cae    España  esp  3480.71      18.0    16.39
+                     auditoria smeta    España  esp  3084.93      10.0     9.00
+                            gots 8.0  Portugal  prt  2958.84       1.0    17.00
+                   certificação pefc  Portugal  prt  2649.27      26.0    14.23
+                   iscc certificação  Portugal  prt  1602.01       2.0    10.50
+gots global organic textile standard    España  esp  1439.03       3.0    11.67
+
+Huecos por campaña:
+ marca    propiedad pais                   camp_corta   coste  terminos
+   CU Norteamérica  can                     Forestry 98950.0        17
+   CU Norteamérica  can                   Canada Gap 53625.0        10
+   PS     Américas  arg     Agricultura regenerativa 46630.0        50
+   PS     Américas  arg      Huella de carbono / GEI 41810.0        31
+   PS     Américas  arg               ESG / Reportes 36183.0        21
+   CU Norteamérica  can             Aqua / Fisheries 34279.0         7
+   CU       España  esp                    ISO 27001 18842.0         3
+   CU Norteamérica  can                        Smeta 12944.0         2
+   PS     Américas  arg Bioenergia / Biocombustibles 10049.0         5
+   CU       España  esp                          IFS 10023.0         5
+   CU    Argentina  arg                    ISO 27001  8647.0         4
+   CU       España  esp                      Textile  8427.0         4
+
+Evolución mensual posición · España · cinco términos zona 8-20
+ mes                       2026-03  2026-04  2026-05  2026-06  2026-07  2026-08  2026-09
+termino                                                                                
+global recycled standard      5.9      8.3      9.8      7.2      6.2      6.5      5.5
+recyclass                     6.2      5.6      6.0      6.6      5.7      5.9      6.4
+smeta                        10.5      9.0      7.1      7.7      5.9      7.6      7.4
+iscc                          6.8      6.9      7.6      7.4      7.4     11.6     13.7
+pefc                         28.3     30.5     24.4     13.8     14.3     25.4     27.4
+
+Evolución mensual · top 5 de la zona 8-20 de esta medición
+                          2026-03  2026-04  2026-05  2026-06  2026-07  2026-08  2026-09
+smeta · esp                 10.5      9.0      7.1      7.7      5.9      7.7      7.4
+iscc · esp                   6.8      6.9      7.6      7.5      7.4     11.6     13.7
+pefc portugal · prt          NaN      8.4      9.0     13.0      7.0      8.0      NaN
+pefc · prt                   9.6      9.4      9.7      9.0      9.1      9.1      6.7
+iscc certificates · prt      5.1      7.3      4.9      6.6      8.2      9.5      NaN
+
+Referencia baseline 12m España, cinco términos del informe anterior: {'global recycled standard': {'filas_pais': 62, 'impr_total': 1292, 'media_simple': 16.2, 'ponderada': 45.1, 'impr_esp': 384, 'pos_esp': 7.3}, 'recyclass': {'filas_pais': 20, 'impr_total': 1265, 'media_simple': 15.2, 'ponderada': 8.3, 'impr_esp': 1101, 'pos_esp': 6.0}, 'smeta': {'filas_pais': 19, 'impr_total': 1789, 'media_simple': 12.6, 'ponderada': 7.9, 'impr_esp': 1745, 'pos_esp': 7.8}, 'iscc': {'filas_pais': 20, 'impr_total': 1922, 'media_simple': 13.2, 'ponderada': 7.4, 'impr_esp': 1876, 'pos_esp': 7.2}, 'pefc': {'filas_pais': 17, 'impr_total': 428, 'media_simple': 12.2, 'ponderada': 16.8, 'impr_esp': 259, 'pos_esp': 19.9}}
+
+Zona 8-20 España: abril vs agosto 2026
+         termino  pos_abr  pos_ago  impr_abr  impr_ago  delta
+          smeta     8.98     7.65       168       203   -1.3
+           iscc     6.88    11.64       605        11    4.8
+auditoria smeta    13.79     9.53        19        15   -4.3
+   une en 15343     6.43     8.25        28         4    1.8
+     fsc españa     9.05    13.50        20         2    4.4
+
+4. DEMANDA NO COMPRADA (queries 40+ impr. en todo el histórico, sin keyword ni término por tema)
+  Argentina       313 de   320 queries (97.8%)   101,887 impr   top: smeta (8,890), visec (8,803), fsa (5,082), visec carne (4,458)
+  Brasil          205 de   212 queries (96.7%)    57,111 impr   top: obp (4,647), grs (4,104), gmp (3,722), smeta (2,306)
+  Chile           107 de   113 queries (94.7%)    27,621 impr   top: bap (2,631), grs (1,891), asc (1,660), control de calidad en frutas (1,568)
+  España          394 de   635 queries (62.0%)   159,394 impr   top: iso 45001 (62,834), welfair (5,196), grasp (4,553), red española de servicios (3,426)
+  México          311 de   328 queries (94.8%)   117,418 impr   top: grs (22,617), fsa (6,624), fsc (5,433), smeta (5,202)
+  Norteamérica     43 de    55 queries (78.2%)    29,493 impr   top: temo (19,040), collateral management services (1,266), fslm (1,225), cumcs (1,107)
+  Perú            673 de   690 queries (97.5%)   246,502 impr   top: koa certification (26,177), haccp (15,416), rainforest alliance (10,896), asc (8,588)
+  Portugal        137 de   220 queries (62.3%)    33,012 impr   top: aquacultura (4,451), green key (1,424), iso 9001 (1,303), carbon neutral (1,172)
+  Américas         29 de    35 queries (82.9%)     4,205 impr   top: red iii (1,611), eu red iii (486), red iii directive (280), red iii eu (152)
+  Iberia           28 de    28 queries (100.0%)     4,363 impr   top: csrd (1,456), finanzas sostenibles (269), ecgt (239), cbam services (238)
+
+5. LANDING: keywords con URL final en el export: 78 | evaluadas: 14 | coinciden: 14
+                                  keyword propiedad                                                                                                url_final                                                                                          pagina_organica  impr  pos  coincide
+     "requisitos certificacion iso 27001"    España https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/   211 43.3      True
+"como obtener la certificacion iso 27001"    España https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/   211 43.3      True
+     "cuanto cuesta certificar iso 27001"    España https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/   211 43.3      True
+         "certificacion iso 27001 precio"    España https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/   211 43.3      True
+        "empresa certificadora iso 27001"    España https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/     2 50.0      True
+        "obtener certificacion iso 27001"    España https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/   211 43.3      True
+   "auditoria de certificacion iso 27001"    España https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/   211 43.3      True
+                   "certificar iso 27001"    España https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/   211 43.3      True
+                "certificacion iso 27001"    España https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/    10 44.5      True
+    "certificado iso 27001 para empresas" Argentina                                  https://argentina.controlunion.com/programa-de-certificacion/iso-27001/                                  https://argentina.controlunion.com/programa-de-certificacion/iso-27001/    10 15.9      True
+         "precio certificacion iso 27001" Argentina                                  https://argentina.controlunion.com/programa-de-certificacion/iso-27001/                                  https://argentina.controlunion.com/programa-de-certificacion/iso-27001/    10 15.9      True
+          "costo certificacion iso 27001" Argentina                                  https://argentina.controlunion.com/programa-de-certificacion/iso-27001/                                  https://argentina.controlunion.com/programa-de-certificacion/iso-27001/    10 15.9      True
+      [certificacion iso 27001 argentina] Argentina                                  https://argentina.controlunion.com/programa-de-certificacion/iso-27001/                                  https://argentina.controlunion.com/programa-de-certificacion/iso-27001/    10 15.9      True
+              "como certificar iso 27001" Argentina                                  https://argentina.controlunion.com/programa-de-certificacion/iso-27001/                                  https://argentina.controlunion.com/programa-de-certificacion/iso-27001/    10 15.9      True
+
+6. NEGATIVOS CON PRESENCIA ORGÁNICA (100+ impr.)
+                    ambito    propiedad              negativo  queries  impresiones  clics  pos                                                                                                                                                                                                                                                                                                                ejemplo
+        España · Forestal       España   rainforest alliance       52         3739      6  9.3                                                                                                                                                                                                                                                                                                    rainforest alliance
+Norteamérica · Canada Gap Norteamérica                 forms        7          355      2  7.5                                                                                                                                                                                                                                                                                                    higg fslm full form
+            España · CAEs       España                repsol        8          229      0  3.0 análisis detallado sobre cómo el despliegue de combustibles renovables de repsol en españa contribuye específicamente a los objetivos de la directiva (ue) 2023/2413 (red iii) y cuál es el mecanismo de certificación de ahorro de emisiones de gei utilizado para validar su impacto frente a la regulación vigente.
+                   CU · *       España             consultor        5          164      0 44.8                                                                                                                                                                                                                                                                                                          consultor fsc
+                   CU · *       México           consultoria        2          155      1  5.5                                                                                                                                                                                                                                                                                                      consultoria smeta
+                   CU · *       España           consultoria        9          148      0 56.7                                                                                                                                                                                                                                                                                          consultoria huella de carbono
+Norteamérica · Canada Gap Norteamérica organic certification       17          136      1 45.1                                                                                                                                                                                                                                                                                    control union organic certification
+
+7. RE-VERIFICACIÓN §7 (histórico completo, sin date):
+  fsc_espana: {'queries': 96, 'impresiones': 1284, 'clics': 0, 'pos': np.float64(31.1)}
+  fsc_portugal: {'queries': 88, 'impresiones': 2296, 'clics': 2, 'pos': np.float64(28.2)}
+  oeko_cu: {'Argentina': {'queries': 0, 'impresiones': 0, 'clics': 0, 'pos': None}, 'Brasil': {'queries': 0, 'impresiones': 0, 'clics': 0, 'pos': None}, 'Chile': {'queries': 0, 'impresiones': 0, 'clics': 0, 'pos': None}, 'España': {'queries': 0, 'impresiones': 0, 'clics': 0, 'pos': None}, 'México': {'queries': 0, 'impresiones': 0, 'clics': 0, 'pos': None}, 'Norteamérica': {'queries': 0, 'impresiones': 0, 'clics': 0, 'pos': None}, 'Perú': {'queries': 0, 'impresiones': 0, 'clics': 0, 'pos': None}, 'Portugal': {'queries': 0, 'impresiones': 0, 'clics': 0, 'pos': None}}
+  iso22000_es: {'queries': 147, 'impresiones': 2265, 'clics': 0, 'pos': np.float64(40.7)}
+  fssc_es: {'queries': 56, 'impresiones': 650, 'clics': 0, 'pos': np.float64(32.2)}
+  brcgs_es: {'queries': 11, 'impresiones': 37, 'clics': 0, 'pos': np.float64(27.7)}
+  gmp_es: {'queries': 86, 'impresiones': 5031, 'clics': 1, 'pos': np.float64(13.7)}
+  gmp_pt: {'queries': 51, 'impresiones': 1195, 'clics': 2, 'pos': np.float64(25.1)}
+  ifs_es: {'queries': 130, 'impresiones': 5252, 'clics': 0, 'pos': np.float64(36.4)}
+  iso45001_es: {'queries': 199, 'impresiones': 72363, 'clics': 25, 'pos': np.float64(11.6)}
+  fsc_na: {'queries': 39, 'impresiones': 251, 'clics': 0, 'pos': np.float64(25.7)}
+  fsc_na_can: {'queries': 39, 'impresiones': 251, 'clics': 0, 'pos': np.float64(25.7)}
+  fsc_na_por_pais: {'usa': 200, 'jpn': 7, 'deu': 5, 'ind': 4, 'esp': 3}
+  temo_na: {'queries': 89, 'impresiones': 20346, 'clics': 7, 'pos': np.float64(9.2)}
+  smeta_ar: {'queries': 213, 'impresiones': 17853, 'clics': 49, 'pos': np.float64(10.3)}
+  visec_ar: {'queries': 23, 'impresiones': 15409, 'clics': 147, 'pos': np.float64(6.2)}
+  queries_cu_total: 32079
+  mes_fsc_es: {'2026-03': 201, '2026-04': 101, '2026-05': 145, '2026-06': 124, '2026-07': 143, '2026-08': 351, '2026-09': 219}
+  mes_gmp_es: {'2026-03': 424, '2026-04': 411, '2026-05': 747, '2026-06': 1015, '2026-07': 1010, '2026-08': 927, '2026-09': 497}
+  mes_iso45001_es: {'2026-03': 12270, '2026-04': 13102, '2026-05': 15527, '2026-06': 9994, '2026-07': 7522, '2026-08': 10825, '2026-09': 3123}
+
+8. INTERANUAL Argentina (jun-ago 2025 vs jun-ago 2026): {'impr_2025': 51869, 'impr_2026': 75279, 'clics_2025': 1323, 'clics_2026': 1837}
+                  impr_2025  impr_2026  var_pct
+norma                                         
+SMETA / Sedex          521      10146   1847.0
+VISEC                  145       5649   3796.0
+FSA                    889       2752    210.0
+FSMA                  1328       2146     62.0
+MSC / ASC / BAP         29       1525   5159.0
+RTRS                   331       1048    217.0
+2BSvs                  450        851     89.0
+ISCC                   289        817    183.0
+EUDR                     1        548  54700.0
+CUMCS                    1        407  40600.0
+GOTS                   183        384    110.0
+GMP+                   140        331    136.0
+
+8. INTERANUAL México (jun-ago 2025 vs jun-ago 2026): {'impr_2025': 53429, 'impr_2026': 58402, 'clics_2025': 603, 'clics_2026': 729}
+                      impr_2025  impr_2026  var_pct
+norma                                             
+GRS                       9174       5652    -38.0
+SMETA / Sedex             1421       4313    204.0
+FSA                       1895       3085     63.0
+PrimusGFS                  835       2903    248.0
+USDA NOP / orgánico       1549       1535     -1.0
+MSC / ASC / BAP            667       1320     98.0
+FSC                       1850       1135    -39.0
+ISCC                       379        800    111.0
+GLOBALG.A.P.              1830        739    -60.0
+GOTS                       280        378     35.0
+RSPO                       595        300    -50.0
+FSLM / Higg                  0        183      NaN
+
+9. Argentina: tramos ('jun-ago 2025', 'jun-ago 2026') -> aparecieron 44, desaparecieron 65 (umbral 30 impr.)
+   nuevas: asc (1069), sedex (354), ocs (342), eudr (324), control calidad plásticos (216), global recycled standard (184)
+   idas:   argentina eco-tourism policies (243), que es un deposito fiscal (231), sustainable tourism in argentina (224), argentina eco-tourism stats (219), turismo sostenible argentina (191), depositos fiscales (165)
+
+9. Brasil: tramos ('2026-03-03 a 2026-05-31', '2026-06-16 a 2026-09-13') -> aparecieron 11, desaparecieron 8 (umbral 30 impr.)
+   nuevas: what is the industry of ofcinternacional.com (205), fair trade (126), certificação msc para pesca sustentável (55), certificação msc para pescarias sustentáveis (54), certificación gmp+ (50), msc pesca sustentável (49)
+   idas:   pest control solutions (1403), top in-line inspection companies in brazil (450), rfs (136), gmp fsa 2020 (63), fsc forest management (45), control union fotos (41)
+
+9. Chile: tramos ('2026-03-03 a 2026-05-31', '2026-06-16 a 2026-09-13') -> aparecieron 3, desaparecieron 0 (umbral 30 impr.)
+   nuevas: normativa distribuidor orgánicos chile (46), gerente de desarrollo de negocios (33), no conformidades (30)
+   idas:   
+
+9. España: tramos ('2026-03-03 a 2026-05-31', '2026-06-16 a 2026-09-13') -> aparecieron 69, desaparecieron 24 (umbral 30 impr.)
+   nuevas: higg (411), cumcs-g.a.p (193), control de calidad de piensos (175), verificador cae (124), eficacia del sistema de balance de masas y el rol de la union database (udb) en la prevención de la doble contabilización de certificados de reducción de emisiones en combustibles renovables. (100), certificación rsb para biomateriales sostenibles (96)
+   idas:   normas iso para hoteles mallorca (306), tierwohl (222), certificación turística sostenible mallorca (213), curso huella de carbono (148), que es certificación (128), implementacion de normas iso en hoteles baleares (105)
+
+9. México: tramos ('jun-ago 2025', 'jun-ago 2026') -> aparecieron 32, desaparecieron 42 (umbral 30 impr.)
+   nuevas: certificación (358), organico (283), jas (158), que son las certificaciones (138), certificacion (124), msc chain of custody (120)
+   idas:   what is grs in mexico (229), loading supervision (217), krav (128), organismos certificadores iso 9001 en méxico (128), usda national organic program (109), control europeo (97)
+
+9. Norteamérica: tramos ('2026-03-03 a 2026-05-31', '2026-06-16 a 2026-09-13') -> aparecieron 12, desaparecieron 2 (umbral 30 impr.)
+   nuevas: compilazione higg fslm (233), us nop certification (139), cumcs-g.a.p (89), fslm meaning (67), higg fdm (47), fsc forest management (45)
+   idas:   control union company official site (97), primus audit (48)
+
+9. Perú: tramos ('2026-03-03 a 2026-05-31', '2026-06-16 a 2026-09-13') -> aparecieron 22, desaparecieron 45 (umbral 30 impr.)
+   nuevas: vcs (622), ccb (476), sakana (289), verra (250), ifs food version 8 requirement 1.1.2 (132), control union portal login (114)
+   idas:   luis nutron alimentos email corporativo (392), global sustainable tourism council criteria philippines (390), eti full form (194), política de privacidad de datos ejemplo (165), rain forest en español (158), mauricio nutron alimentos email corporativo (138)
+
+9. Portugal: tramos ('2026-03-03 a 2026-05-31', '2026-06-16 a 2026-09-13') -> aparecieron 12, desaparecieron 10 (umbral 30 impr.)
+   nuevas: cumcs-g.a.p (95), forest certification schemes (88), portugal control (73), msc pesca sustentável (60), marthcheck (51), fair trade aps (51)
+   idas:   carbonneutral certification (chauffeur/business) lisbon (194), certificação iso 22000 em portugal (73), aquicultura (72), gmp feed certification scheme (64), world sbp (44), gmp fsa 2020 (39)
+
+9. Américas: tramos ('2026-03-22 a 2026-05-31', '2026-06-16 a 2026-09-13') -> aparecieron 7, desaparecieron 3 (umbral 30 impr.)
+   nuevas: mining sustainability solutions (186), mining esg solutions (116), ecgt (68), roberta petersen consulting inc headquarters global operations international presence (64), cibersecurity (47), peterson brasil (43)
+   idas:   eu red iii renewable energy target 2030 (90), eudr 2024 regulatory compliance (55), eudr compliance (47)
+
+9. Iberia: tramos ('2026-03-22 a 2026-05-31', '2026-06-16 a 2026-09-13') -> aparecieron 13, desaparecieron 0 (umbral 30 impr.)
+   nuevas: ecgt (239), eubr (160), csdr (107), rendición de informes csrd (100), evaluate the environmental & sustainability certification services company pefc on fsc and eudr (78), directiva empco (51)
+   idas:   
+
+10. DISPOSITIVOS (todo el histórico): {'DESKTOP': {'impr': 1541960, 'clics': 25101, 'pct_impr': np.float64(69.1), 'pct_clics': np.float64(73.5)}, 'MOBILE': {'impr': 680198, 'clics': 8913, 'pct_impr': np.float64(30.5), 'pct_clics': np.float64(26.1)}, 'TABLET': {'impr': 10812, 'clics': 122, 'pct_impr': np.float64(0.5), 'pct_clics': np.float64(0.4)}}
+  Argentina     DESKTOP: 66.7% impr / 67.3% clics / CTR 2.73% / pos 11.16  MOBILE: 32.9% impr / 32.4% clics / CTR 2.66% / pos 8.79  TABLET: 0.4% impr / 0.3% clics / CTR 2.29% / pos 9.59
+  Brasil        DESKTOP: 64.6% impr / 68.1% clics / CTR 2.76% / pos 11.94  MOBILE: 34.8% impr / 31.6% clics / CTR 2.37% / pos 7.27  TABLET: 0.6% impr / 0.3% clics / CTR 1.38% / pos 8.24
+  Chile         DESKTOP: 68.2% impr / 71.5% clics / CTR 1.62% / pos 12.29  MOBILE: 31.3% impr / 28.0% clics / CTR 1.39% / pos 7.53  TABLET: 0.5% impr / 0.5% clics / CTR 1.66% / pos 11.38
+  España        DESKTOP: 68.0% impr / 79.3% clics / CTR 1.0% / pos 13.22  MOBILE: 31.4% impr / 20.4% clics / CTR 0.56% / pos 10.24  TABLET: 0.6% impr / 0.3% clics / CTR 0.47% / pos 13.55
+  México        DESKTOP: 58.3% impr / 68.6% clics / CTR 1.5% / pos 14.88  MOBILE: 41.1% impr / 30.8% clics / CTR 0.95% / pos 8.08  TABLET: 0.6% impr / 0.5% clics / CTR 1.11% / pos 7.06
+  Norteamérica  DESKTOP: 63.8% impr / 71.7% clics / CTR 1.07% / pos 14.27  MOBILE: 35.4% impr / 27.8% clics / CTR 0.74% / pos 8.6  TABLET: 0.8% impr / 0.6% clics / CTR 0.7% / pos 9.39
+  Perú          DESKTOP: 73.7% impr / 78.3% clics / CTR 1.44% / pos 8.22  MOBILE: 25.9% impr / 21.4% clics / CTR 1.12% / pos 6.99  TABLET: 0.4% impr / 0.4% clics / CTR 1.27% / pos 7.16
+  Portugal      DESKTOP: 73.0% impr / 81.2% clics / CTR 1.6% / pos 14.97  MOBILE: 26.4% impr / 18.5% clics / CTR 1.0% / pos 9.13  TABLET: 0.6% impr / 0.4% clics / CTR 0.87% / pos 17.23
+  Américas      DESKTOP: 79.0% impr / 75.0% clics / CTR 1.31% / pos 8.92  MOBILE: 20.7% impr / 24.6% clics / CTR 1.64% / pos 8.14  TABLET: 0.3% impr / 0.4% clics / CTR 2.0% / pos 9.25
+  Iberia        DESKTOP: 74.6% impr / 79.2% clics / CTR 2.9% / pos 10.95  MOBILE: 25.0% impr / 20.8% clics / CTR 2.28% / pos 9.59  TABLET: 0.4% impr / 0.0% clics / CTR 0.0% / pos 14.98
+
+Móvil por norma (CU, top 15 por impresiones):
+                        tot  MOBILE  pct_mobile
+norma                                         
+ISO 45001            71685   27147        37.9
+GRS                  65505   48456        74.0
+SMETA / Sedex        58515   15558        26.6
+MSC / ASC / BAP      57220   24499        42.8
+GLOBALG.A.P.         29276   10517        35.9
+Rainforest Alliance  25881    6368        24.6
+USDA NOP / orgánico  24341    4975        20.4
+FSA                  22375    7020        31.4
+TEMO                 20637   15545        75.3
+ISCC                 17826    3630        20.4
+GMP+                 17720    3827        21.6
+VISEC                15409    5231        33.9
+PrimusGFS            14794    4313        29.2
+GOTS                 13378    6975        52.1
+FSC                  13086    5079        38.8
+
+-> informe/datos_informe.json

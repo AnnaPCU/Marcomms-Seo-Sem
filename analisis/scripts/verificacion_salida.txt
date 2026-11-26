@@ -1,0 +1,79 @@
+
+1. Archivo y cobertura
+  OK  filas totales del archivo                                  informe=891923  fuente=891923
+  OK  España: primer día                                         informe=2026-03-03  fuente=2026-03-03
+  OK  España: impresiones totales                                informe=408582  fuente=408582
+  OK  España: clics totales                                      informe=3515  fuente=3515
+  OK  Argentina: primer día                                      informe=2025-05-04  fuente=2025-05-04
+  OK  Argentina: impresiones totales                             informe=294810  fuente=294810
+  OK  Argentina: clics totales                                   informe=7968  fuente=7968
+  OK  México: primer día                                         informe=2025-05-04  fuente=2025-05-04
+  OK  México: impresiones totales                                informe=244056  fuente=244056
+  OK  México: clics totales                                      informe=3100  fuente=3100
+  OK  Américas: primer día                                       informe=2026-03-22  fuente=2026-03-22
+  OK  Américas: impresiones totales                              informe=58359  fuente=58359
+  OK  Américas: clics totales                                    informe=805  fuente=805
+  OK  Argentina: días de hueco                                   informe=77  fuente=77
+  OK  México: días de hueco                                      informe=106  fuente=106
+
+2. Continuidad con el baseline (pages, ventana 12m)
+  OK  pages CU 12m: filas idénticas == filas baseline            informe=2467  fuente=2467
+
+3. Ads y cruces
+  OK  Ads: coste visible total                                   informe=934067  fuente=934067
+  OK  Ads: términos con clic                                     informe=316  fuente=316
+  OK  cruce: términos relevantes                                 informe=252  fuente=252
+  OK  cruce: coste relevante                                     informe=744025  fuente=744025
+  OK  canibalización 1-3: coste                                  informe=19067  fuente=19067
+  OK  zona 8-20: coste                                           informe=71763  fuente=71763
+  OK  sin nada del tema: coste                                   informe=422509  fuente=422509
+  OK  pos. orgánica ESP ventana Ads: recyclass                   informe=6.09  fuente=6.09
+  OK  pos. orgánica ESP ventana Ads: smeta                       informe=7.55  fuente=7.55
+  OK  pos. orgánica ESP ventana Ads: iscc                        informe=12.07  fuente=12.07
+  OK  pos. orgánica ESP ventana Ads: pefc                        informe=26.02  fuente=26.02
+
+4. Cinco términos del informe anterior (baseline 12m España)
+  OK  global recycled standard: media simple (método informe anterior) informe=16.2  fuente=16.2
+  OK  global recycled standard: posición solo ESP                informe=7.3  fuente=7.3
+  OK  global recycled standard: impresiones totales 12m          informe=1292  fuente=1292
+  OK  recyclass: media simple (método informe anterior)          informe=15.2  fuente=15.2
+  OK  recyclass: posición solo ESP                               informe=6.0  fuente=6.0
+  OK  recyclass: impresiones totales 12m                         informe=1265  fuente=1265
+  OK  smeta: media simple (método informe anterior)              informe=12.6  fuente=12.6
+  OK  smeta: posición solo ESP                                   informe=7.8  fuente=7.8
+  OK  smeta: impresiones totales 12m                             informe=1789  fuente=1789
+  OK  iscc: media simple (método informe anterior)               informe=13.2  fuente=13.2
+  OK  iscc: posición solo ESP                                    informe=7.2  fuente=7.2
+  OK  iscc: impresiones totales 12m                              informe=1922  fuente=1922
+  OK  pefc: media simple (método informe anterior)               informe=12.2  fuente=12.2
+  OK  pefc: posición solo ESP                                    informe=19.9  fuente=19.9
+  OK  pefc: impresiones totales 12m                              informe=428  fuente=428
+
+5. Re-verificación §7 (queries_agg, todo el histórico)
+  OK  FSC España: impresiones                                    informe=1284  fuente=1284
+  OK  FSC Portugal: impresiones                                  informe=2296  fuente=2296
+  OK  OEKO-TEX en las 8 de CU: impresiones                       informe=0  fuente=0
+  OK  ISO 22000 España: impresiones                              informe=2265  fuente=2265
+  OK  BRCGS España: impresiones                                  informe=37  fuente=37
+  OK  GMP+ España: impresiones                                   informe=5031  fuente=5031
+  OK  ISO 45001 España: impresiones                              informe=72363  fuente=72363
+  OK  FSC/forest Norteamérica: impresiones                       informe=251  fuente=251
+  OK  TEMO Norteamérica: impresiones                             informe=20346  fuente=20346
+  OK  queries distintas CU (8 propiedades)                       informe=32079  fuente=32079
+
+6. Dispositivos
+  OK  móvil: % impresiones                                       informe=30.5  fuente=30.5
+  OK  móvil: % clics                                             informe=26.1  fuente=26.1
+  OK  España: % impresiones móvil                                informe=31.4  fuente=31.4
+  OK  Perú: % impresiones móvil                                  informe=25.9  fuente=25.9
+
+7. Demanda no comprada (total desde los CSV de análisis)
+  OK  queries sin comprar: total                                 informe=2240  fuente=2240
+  OK  queries sin comprar: impresiones                           informe=781006  fuente=781006
+  OK  iso 45001 no está en las campañas de CU España (0 = no está) informe=0  fuente=0
+
+8. Interanual Argentina
+  OK  Argentina jun-ago 2025: impresiones                        informe=51869  fuente=51869
+  OK  Argentina jun-ago 2026: impresiones                        informe=75279  fuente=75279
+
+RESULTADO: 61 de 61 coinciden

@@ -1,0 +1,3455 @@
+[
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "3823.14",
+  "impressions": "792",
+  "reach": "471",
+  "clicks": "26",
+  "inline_link_clicks": "25",
+  "ctr": "3.282828",
+  "cpc": "147.043846",
+  "cpm": "4827.19697",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "25"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "26"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "26"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "0"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "0"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "147.043846"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "3823.14"
+   },
+   {
+    "action_type": "link_click",
+    "value": "152.9256"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "147.043846"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "4854.63",
+  "impressions": "1229",
+  "reach": "690",
+  "clicks": "23",
+  "inline_link_clicks": "21",
+  "ctr": "1.87144",
+  "cpc": "211.07087",
+  "cpm": "3950.065094",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "21"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "22"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "22"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "220.665"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "4854.63"
+   },
+   {
+    "action_type": "link_click",
+    "value": "231.172857"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "220.665"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "125.58",
+  "impressions": "20",
+  "reach": "11",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "6279",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "5834.15",
+  "impressions": "699",
+  "reach": "404",
+  "clicks": "19",
+  "inline_link_clicks": "22",
+  "ctr": "2.718169",
+  "cpc": "307.060526",
+  "cpm": "8346.423462",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "22"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "23"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "23"
+   },
+   {
+    "action_type": "video_view",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "5834.15"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "253.658696"
+   },
+   {
+    "action_type": "link_click",
+    "value": "265.188636"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "253.658696"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "5714.63",
+  "impressions": "1151",
+  "reach": "647",
+  "clicks": "24",
+  "inline_link_clicks": "28",
+  "ctr": "2.085143",
+  "cpc": "238.109583",
+  "cpm": "4964.926151",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "28"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "31"
+   },
+   {
+    "action_type": "like",
+    "value": "1"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "32"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "2"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "2"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "2"
+   },
+   {
+    "action_type": "video_view",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "5714.63"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "184.342903"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "2857.315"
+   },
+   {
+    "action_type": "link_click",
+    "value": "204.093929"
+   },
+   {
+    "action_type": "like",
+    "value": "5714.63"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "178.582188"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "31.04",
+  "impressions": "13",
+  "reach": "6",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "2387.692308",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "5395.03",
+  "impressions": "544",
+  "reach": "362",
+  "clicks": "26",
+  "inline_link_clicks": "26",
+  "ctr": "4.779412",
+  "cpc": "207.501154",
+  "cpm": "9917.334559",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "26"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "27"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "27"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "199.815926"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "5395.03"
+   },
+   {
+    "action_type": "link_click",
+    "value": "207.501154"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "199.815926"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "5273.16",
+  "impressions": "848",
+  "reach": "500",
+  "clicks": "25",
+  "inline_link_clicks": "26",
+  "ctr": "2.948113",
+  "cpc": "210.9264",
+  "cpm": "6218.349057",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "26"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "27"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "27"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "195.302222"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "5273.16"
+   },
+   {
+    "action_type": "link_click",
+    "value": "202.813846"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "195.302222"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "37.08",
+  "impressions": "10",
+  "reach": "8",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "3708",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "1984.74",
+  "impressions": "367",
+  "reach": "245",
+  "clicks": "10",
+  "inline_link_clicks": "10",
+  "ctr": "2.724796",
+  "cpc": "198.474",
+  "cpm": "5408.010899",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "10"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "11"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "11"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "180.430909"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1984.74"
+   },
+   {
+    "action_type": "link_click",
+    "value": "198.474"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "180.430909"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "6360.53",
+  "impressions": "766",
+  "reach": "396",
+  "clicks": "20",
+  "inline_link_clicks": "19",
+  "ctr": "2.610966",
+  "cpc": "318.0265",
+  "cpm": "8303.563969",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "19"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "12"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "32"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "13"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "32"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "13"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "12"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "198.766563"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "489.271538"
+   },
+   {
+    "action_type": "link_click",
+    "value": "334.764737"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "198.766563"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "5.33",
+  "impressions": "2",
+  "reach": "2",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "2665",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "4017.04",
+  "impressions": "611",
+  "reach": "464",
+  "clicks": "26",
+  "inline_link_clicks": "26",
+  "ctr": "4.255319",
+  "cpc": "154.501538",
+  "cpm": "6574.533552",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "26"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "26"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "26"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "154.501538"
+   },
+   {
+    "action_type": "link_click",
+    "value": "154.501538"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "154.501538"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "5512.68",
+  "impressions": "907",
+  "reach": "453",
+  "clicks": "31",
+  "inline_link_clicks": "28",
+  "ctr": "3.417861",
+  "cpc": "177.828387",
+  "cpm": "6077.927233",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "28"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "29"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "29"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "190.092414"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "5512.68"
+   },
+   {
+    "action_type": "link_click",
+    "value": "196.881429"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "190.092414"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52600485825977",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "0.65",
+  "impressions": "2",
+  "reach": "2",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "325",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "6524.72",
+  "impressions": "1333",
+  "reach": "588",
+  "clicks": "12",
+  "inline_link_clicks": "6",
+  "ctr": "0.900225",
+  "cpc": "543.726667",
+  "cpm": "4894.763691",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "6"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "6"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "6"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1087.453333"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1087.453333"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1087.453333"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "18357.38",
+  "impressions": "3081",
+  "reach": "1366",
+  "clicks": "13",
+  "inline_link_clicks": "7",
+  "ctr": "0.421941",
+  "cpc": "1412.106154",
+  "cpm": "5958.253814",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "7"
+   },
+   {
+    "action_type": "onsite_conversion.total_messaging_connection",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_first_reply",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_conversation_started_7d",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "onsite_conversion.messaging_conversation_started_7d",
+    "value": "18357.38"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+    "value": "18357.38"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "2294.6725"
+   },
+   {
+    "action_type": "onsite_conversion.total_messaging_connection",
+    "value": "18357.38"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+    "value": "18357.38"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "18357.38"
+   },
+   {
+    "action_type": "link_click",
+    "value": "2622.482857"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2294.6725"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_first_reply",
+    "value": "18357.38"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "53.51",
+  "impressions": "19",
+  "reach": "15",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "2816.315789",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "7678.13",
+  "impressions": "1217",
+  "reach": "565",
+  "clicks": "7",
+  "inline_link_clicks": "5",
+  "ctr": "0.575185",
+  "cpc": "1096.875714",
+  "cpm": "6309.06327",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1535.626"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1535.626"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1535.626"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "15197.87",
+  "impressions": "3219",
+  "reach": "1376",
+  "clicks": "13",
+  "inline_link_clicks": "9",
+  "ctr": "0.403852",
+  "cpc": "1169.066923",
+  "cpm": "4721.301646",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "9"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.total_messaging_connection",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "10"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "10"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_first_reply",
+    "value": "2"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_conversation_started_7d",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "onsite_conversion.messaging_conversation_started_7d",
+    "value": "7598.935"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+    "value": "15197.87"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1519.787"
+   },
+   {
+    "action_type": "onsite_conversion.total_messaging_connection",
+    "value": "7598.935"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "15197.87"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1688.652222"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1519.787"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_first_reply",
+    "value": "7598.935"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "814.51",
+  "impressions": "20",
+  "reach": "14",
+  "clicks": "1",
+  "inline_link_clicks": "0",
+  "ctr": "5",
+  "cpc": "814.51",
+  "cpm": "40725.5",
+  "actions": [
+   {
+    "action_type": "onsite_conversion.total_messaging_connection",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_first_reply",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_conversation_started_7d",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "onsite_conversion.messaging_conversation_started_7d",
+    "value": "814.51"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+    "value": "814.51"
+   },
+   {
+    "action_type": "onsite_conversion.total_messaging_connection",
+    "value": "814.51"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+    "value": "814.51"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_first_reply",
+    "value": "814.51"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "9049.42",
+  "impressions": "951",
+  "reach": "512",
+  "clicks": "11",
+  "inline_link_clicks": "6",
+  "ctr": "1.156677",
+  "cpc": "822.674545",
+  "cpm": "9515.688749",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "6"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "6"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "6"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1508.236667"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1508.236667"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1508.236667"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "15445.59",
+  "impressions": "2571",
+  "reach": "1202",
+  "clicks": "14",
+  "inline_link_clicks": "9",
+  "ctr": "0.544535",
+  "cpc": "1103.256429",
+  "cpm": "6007.619603",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "9"
+   },
+   {
+    "action_type": "onsite_conversion.total_messaging_connection",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "9"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "9"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_first_reply",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_conversation_started_7d",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "onsite_conversion.messaging_conversation_started_7d",
+    "value": "15445.59"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_2_message_send",
+    "value": "15445.59"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1716.176667"
+   },
+   {
+    "action_type": "onsite_conversion.total_messaging_connection",
+    "value": "15445.59"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_user_depth_3_message_send",
+    "value": "15445.59"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1716.176667"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1716.176667"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_first_reply",
+    "value": "15445.59"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "251.53",
+  "impressions": "29",
+  "reach": "10",
+  "clicks": "1",
+  "inline_link_clicks": "1",
+  "ctr": "3.448276",
+  "cpc": "251.53",
+  "cpm": "8673.448276",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "251.53"
+   },
+   {
+    "action_type": "link_click",
+    "value": "251.53"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "251.53"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "3884.82",
+  "impressions": "701",
+  "reach": "369",
+  "clicks": "3",
+  "inline_link_clicks": "2",
+  "ctr": "0.42796",
+  "cpc": "1294.94",
+  "cpm": "5541.825963",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1942.41"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1942.41"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1942.41"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "13250.26",
+  "impressions": "1846",
+  "reach": "892",
+  "clicks": "15",
+  "inline_link_clicks": "8",
+  "ctr": "0.812568",
+  "cpc": "883.350667",
+  "cpm": "7177.822319",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "8"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "6"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "15"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "7"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "15"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "7"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "6"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "883.350667"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1892.894286"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1656.2825"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "883.350667"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "58.39",
+  "impressions": "14",
+  "reach": "7",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "4170.714286",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "5685.63",
+  "impressions": "1011",
+  "reach": "539",
+  "clicks": "9",
+  "inline_link_clicks": "5",
+  "ctr": "0.890208",
+  "cpc": "631.736667",
+  "cpm": "5623.768546",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "6"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "6"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "0"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "0"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "947.605"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "5685.63"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1137.126"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "947.605"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "9749.41",
+  "impressions": "1427",
+  "reach": "734",
+  "clicks": "16",
+  "inline_link_clicks": "7",
+  "ctr": "1.121233",
+  "cpc": "609.338125",
+  "cpm": "6832.102313",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "7"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.total_messaging_connection",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_first_reply",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_conversation_started_7d",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "onsite_conversion.messaging_conversation_started_7d",
+    "value": "9749.41"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1218.67625"
+   },
+   {
+    "action_type": "onsite_conversion.total_messaging_connection",
+    "value": "9749.41"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "9749.41"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1392.772857"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1218.67625"
+   },
+   {
+    "action_type": "onsite_conversion.messaging_first_reply",
+    "value": "9749.41"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "55.45",
+  "impressions": "3",
+  "reach": "3",
+  "clicks": "1",
+  "inline_link_clicks": "0",
+  "ctr": "33.333333",
+  "cpc": "55.45",
+  "cpm": "18483.333333",
+  "actions": [
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "55.45"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "55.45"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "55.45"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "0.68",
+  "impressions": "1",
+  "reach": "1",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "680",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "Unknown",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52601233554777",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "spend": "2.86",
+  "impressions": "2",
+  "reach": "2",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "1430",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "Unknown",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "15116.02",
+  "impressions": "665",
+  "reach": "229",
+  "clicks": "3",
+  "inline_link_clicks": "3",
+  "ctr": "0.451128",
+  "cpc": "5038.673333",
+  "cpm": "22730.857143",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "3"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "31"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "31"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   },
+   {
+    "action_type": "video_view",
+    "value": "27"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "559.852593"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "487.613548"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "15116.02"
+   },
+   {
+    "action_type": "link_click",
+    "value": "5038.673333"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "487.613548"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "18873.49",
+  "impressions": "842",
+  "reach": "296",
+  "clicks": "6",
+  "inline_link_clicks": "5",
+  "ctr": "0.712589",
+  "cpc": "3145.581667",
+  "cpm": "22415.071259",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "39"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "39"
+   },
+   {
+    "action_type": "video_view",
+    "value": "34"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "555.102647"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "483.935641"
+   },
+   {
+    "action_type": "link_click",
+    "value": "3774.698"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "483.935641"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "649.39",
+  "impressions": "37",
+  "reach": "8",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "17551.081081",
+  "actions": [
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "video_view",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "649.39"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "649.39"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "649.39"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "26912.21",
+  "impressions": "1232",
+  "reach": "407",
+  "clicks": "8",
+  "inline_link_clicks": "8",
+  "ctr": "0.649351",
+  "cpc": "3364.02625",
+  "cpm": "21844.326299",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "8"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "74"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "74"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   },
+   {
+    "action_type": "video_view",
+    "value": "65"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "414.034"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "363.678514"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "26912.21"
+   },
+   {
+    "action_type": "link_click",
+    "value": "3364.02625"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "363.678514"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "48670.04",
+  "impressions": "1626",
+  "reach": "540",
+  "clicks": "15",
+  "inline_link_clicks": "14",
+  "ctr": "0.922509",
+  "cpc": "3244.669333",
+  "cpm": "29932.373924",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "14"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "80"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "80"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "0"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "0"
+   },
+   {
+    "action_type": "video_view",
+    "value": "65"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "748.769846"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "608.3755"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "48670.04"
+   },
+   {
+    "action_type": "link_click",
+    "value": "3476.431429"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "608.3755"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "309.06",
+  "impressions": "17",
+  "reach": "5",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "18180",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "17037.31",
+  "impressions": "571",
+  "reach": "254",
+  "clicks": "3",
+  "inline_link_clicks": "3",
+  "ctr": "0.525394",
+  "cpc": "5679.103333",
+  "cpm": "29837.670753",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "3"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "38"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "38"
+   },
+   {
+    "action_type": "video_view",
+    "value": "35"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "486.780286"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "448.350263"
+   },
+   {
+    "action_type": "link_click",
+    "value": "5679.103333"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "448.350263"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "27492.82",
+  "impressions": "1100",
+  "reach": "367",
+  "clicks": "12",
+  "inline_link_clicks": "12",
+  "ctr": "1.090909",
+  "cpc": "2291.068333",
+  "cpm": "24993.472727",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "12"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "65"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "65"
+   },
+   {
+    "action_type": "video_view",
+    "value": "53"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "518.732453"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "422.966462"
+   },
+   {
+    "action_type": "link_click",
+    "value": "2291.068333"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "422.966462"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "38.24",
+  "impressions": "6",
+  "reach": "3",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "6373.333333",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "17084.64",
+  "impressions": "550",
+  "reach": "172",
+  "clicks": "4",
+  "inline_link_clicks": "4",
+  "ctr": "0.727273",
+  "cpc": "4271.16",
+  "cpm": "31062.981818",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "4"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "55"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "55"
+   },
+   {
+    "action_type": "video_view",
+    "value": "51"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "334.992941"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "310.629818"
+   },
+   {
+    "action_type": "link_click",
+    "value": "4271.16"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "310.629818"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "15832.69",
+  "impressions": "426",
+  "reach": "199",
+  "clicks": "3",
+  "inline_link_clicks": "3",
+  "ctr": "0.704225",
+  "cpc": "5277.563333",
+  "cpm": "37165.938967",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "3"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "27"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "27"
+   },
+   {
+    "action_type": "video_view",
+    "value": "24"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "659.695417"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "586.395926"
+   },
+   {
+    "action_type": "link_click",
+    "value": "5277.563333"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "586.395926"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "431.61",
+  "impressions": "14",
+  "reach": "7",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "30829.285714",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "8102.6",
+  "impressions": "248",
+  "reach": "105",
+  "clicks": "3",
+  "inline_link_clicks": "3",
+  "ctr": "1.209677",
+  "cpc": "2700.866667",
+  "cpm": "32671.774194",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "3"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "24"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "24"
+   },
+   {
+    "action_type": "video_view",
+    "value": "21"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "385.838095"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "337.608333"
+   },
+   {
+    "action_type": "link_click",
+    "value": "2700.866667"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "337.608333"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "9989.46",
+  "impressions": "438",
+  "reach": "142",
+  "clicks": "5",
+  "inline_link_clicks": "4",
+  "ctr": "1.141553",
+  "cpc": "1997.892",
+  "cpm": "22806.986301",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "4"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "27"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "27"
+   },
+   {
+    "action_type": "video_view",
+    "value": "23"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "434.324348"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "369.98"
+   },
+   {
+    "action_type": "link_click",
+    "value": "2497.365"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "369.98"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "110.75",
+  "impressions": "6",
+  "reach": "4",
+  "clicks": "1",
+  "inline_link_clicks": "1",
+  "ctr": "16.666667",
+  "cpc": "110.75",
+  "cpm": "18458.333333",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "110.75"
+   },
+   {
+    "action_type": "link_click",
+    "value": "110.75"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "110.75"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "12178.82",
+  "impressions": "324",
+  "reach": "110",
+  "clicks": "6",
+  "inline_link_clicks": "6",
+  "ctr": "1.851852",
+  "cpc": "2029.803333",
+  "cpm": "37588.950617",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "6"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "26"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "26"
+   },
+   {
+    "action_type": "video_view",
+    "value": "20"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "608.941"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "468.416154"
+   },
+   {
+    "action_type": "link_click",
+    "value": "2029.803333"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "468.416154"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "7728.69",
+  "impressions": "379",
+  "reach": "99",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "20392.3219",
+  "actions": [
+   {
+    "action_type": "post_engagement",
+    "value": "13"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "13"
+   },
+   {
+    "action_type": "video_view",
+    "value": "13"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "594.514615"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "594.514615"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "594.514615"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "157.78",
+  "impressions": "8",
+  "reach": "4",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "19722.5",
+  "actions": [
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "video_view",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "157.78"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "157.78"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "157.78"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622595294977",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "spend": "17.25",
+  "impressions": "1",
+  "reach": "1",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "17250",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "Unknown",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "3358.49",
+  "impressions": "123",
+  "reach": "71",
+  "clicks": "3",
+  "inline_link_clicks": "3",
+  "ctr": "2.439024",
+  "cpc": "1119.496667",
+  "cpm": "27304.796748",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "3"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "video_view",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "1679.245"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "671.698"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1119.496667"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "671.698"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "3330.5",
+  "impressions": "172",
+  "reach": "101",
+  "clicks": "5",
+  "inline_link_clicks": "5",
+  "ctr": "2.906977",
+  "cpc": "666.1",
+  "cpm": "19363.372093",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "11"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "11"
+   },
+   {
+    "action_type": "video_view",
+    "value": "6"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "555.083333"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "302.772727"
+   },
+   {
+    "action_type": "link_click",
+    "value": "666.1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "302.772727"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "30.84",
+  "impressions": "2",
+  "reach": "2",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "15420",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "5782.95",
+  "impressions": "374",
+  "reach": "166",
+  "clicks": "5",
+  "inline_link_clicks": "6",
+  "ctr": "1.336898",
+  "cpc": "1156.59",
+  "cpm": "15462.433155",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "6"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "18"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "18"
+   },
+   {
+    "action_type": "video_view",
+    "value": "12"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "481.9125"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "321.275"
+   },
+   {
+    "action_type": "link_click",
+    "value": "963.825"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "321.275"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "14951.18",
+  "impressions": "582",
+  "reach": "253",
+  "clicks": "4",
+  "inline_link_clicks": "4",
+  "ctr": "0.687285",
+  "cpc": "3737.795",
+  "cpm": "25689.312715",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "4"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "21"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "21"
+   },
+   {
+    "action_type": "video_view",
+    "value": "17"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "879.481176"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "711.960952"
+   },
+   {
+    "action_type": "link_click",
+    "value": "3737.795"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "711.960952"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "416.78",
+  "impressions": "20",
+  "reach": "6",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "20839",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "4420",
+  "impressions": "314",
+  "reach": "107",
+  "clicks": "1",
+  "inline_link_clicks": "1",
+  "ctr": "0.318471",
+  "cpc": "4420",
+  "cpm": "14076.433121",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "7"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "7"
+   },
+   {
+    "action_type": "video_view",
+    "value": "6"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "736.666667"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "631.428571"
+   },
+   {
+    "action_type": "link_click",
+    "value": "4420"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "631.428571"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "8731.38",
+  "impressions": "361",
+  "reach": "172",
+  "clicks": "5",
+  "inline_link_clicks": "5",
+  "ctr": "1.385042",
+  "cpc": "1746.276",
+  "cpm": "24186.648199",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "24"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "24"
+   },
+   {
+    "action_type": "video_view",
+    "value": "19"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "459.546316"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "363.8075"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1746.276"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "363.8075"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "55.3",
+  "impressions": "3",
+  "reach": "3",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "18433.333333",
+  "actions": [
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "video_view",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "55.3"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "55.3"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "55.3"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "6340.5",
+  "impressions": "161",
+  "reach": "75",
+  "clicks": "14",
+  "inline_link_clicks": "15",
+  "ctr": "8.695652",
+  "cpc": "452.892857",
+  "cpm": "39381.987578",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "15"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "28"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "28"
+   },
+   {
+    "action_type": "video_view",
+    "value": "13"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "487.730769"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "226.446429"
+   },
+   {
+    "action_type": "link_click",
+    "value": "422.7"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "226.446429"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "5363.84",
+  "impressions": "183",
+  "reach": "106",
+  "clicks": "4",
+  "inline_link_clicks": "2",
+  "ctr": "2.185792",
+  "cpc": "1340.96",
+  "cpm": "29310.601093",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "video_view",
+    "value": "6"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "893.973333"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "670.48"
+   },
+   {
+    "action_type": "link_click",
+    "value": "2681.92"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "670.48"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "19.13",
+  "impressions": "1",
+  "reach": "1",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "19130",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "2994.29",
+  "impressions": "104",
+  "reach": "52",
+  "clicks": "6",
+  "inline_link_clicks": "6",
+  "ctr": "5.769231",
+  "cpc": "499.048333",
+  "cpm": "28791.25",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "6"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "30"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "30"
+   },
+   {
+    "action_type": "video_view",
+    "value": "24"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "124.762083"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "99.809667"
+   },
+   {
+    "action_type": "link_click",
+    "value": "499.048333"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "99.809667"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "4033.82",
+  "impressions": "161",
+  "reach": "62",
+  "clicks": "7",
+  "inline_link_clicks": "7",
+  "ctr": "4.347826",
+  "cpc": "576.26",
+  "cpm": "25054.782609",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "7"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "12"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "12"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   },
+   {
+    "action_type": "video_view",
+    "value": "4"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "1008.455"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "336.151667"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "4033.82"
+   },
+   {
+    "action_type": "link_click",
+    "value": "576.26"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "336.151667"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "116.66",
+  "impressions": "6",
+  "reach": "3",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "19443.333333",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "6240.75",
+  "impressions": "158",
+  "reach": "72",
+  "clicks": "16",
+  "inline_link_clicks": "15",
+  "ctr": "10.126582",
+  "cpc": "390.046875",
+  "cpm": "39498.417722",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "15"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "32"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "32"
+   },
+   {
+    "action_type": "video_view",
+    "value": "17"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "367.102941"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "195.023438"
+   },
+   {
+    "action_type": "link_click",
+    "value": "416.05"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "195.023438"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "3843.36",
+  "impressions": "178",
+  "reach": "76",
+  "clicks": "6",
+  "inline_link_clicks": "6",
+  "ctr": "3.370787",
+  "cpc": "640.56",
+  "cpm": "21591.910112",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "6"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "17"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "17"
+   },
+   {
+    "action_type": "video_view",
+    "value": "11"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "video_view",
+    "value": "349.396364"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "226.08"
+   },
+   {
+    "action_type": "link_click",
+    "value": "640.56"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "226.08"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_id": "52622618690977",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "spend": "147.32",
+  "impressions": "5",
+  "reach": "1",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "29464",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "unknown"
+ }
+]

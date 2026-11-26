@@ -1,0 +1,251 @@
+[
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "id": "120252403796330577",
+  "name": "Público similar (3%) - vieron mas del 75% del video - TEST peterson Felo",
+  "subtype": "LOOKALIKE",
+  "description": "",
+  "approximate_count_lower_bound": -1,
+  "approximate_count_upper_bound": -1,
+  "operation_status": {
+   "code": 200,
+   "description": "Normal"
+  },
+  "delivery_status": {
+   "code": 200,
+   "description": "This audience is ready for use."
+  },
+  "retention_days": 0,
+  "lookalike_spec": {
+   "origin": [
+    {
+     "id": "120252403781400577",
+     "name": "vieron mas del 75% del video - TEST peterson Felo",
+     "type": "custom_audience"
+    }
+   ],
+   "ratio": 0.03,
+   "type": "custom_ratio"
+  },
+  "time_created": 1785442740,
+  "time_updated": 1785442740
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "id": "120252403781400577",
+  "name": "vieron mas del 75% del video - TEST peterson Felo",
+  "subtype": "ENGAGEMENT",
+  "description": "",
+  "approximate_count_lower_bound": 1000,
+  "approximate_count_upper_bound": 1000,
+  "operation_status": {
+   "code": 441,
+   "description": "We're finding people who fit your audience criteria. You can start running ads with this audience right away, but be aware that your audience size will increase as the audience is populated."
+  },
+  "delivery_status": {
+   "code": 200,
+   "description": "This audience is ready for use."
+  },
+  "retention_days": 365,
+  "rule": "[{\"event_name\":\"video_view_75_percent\",\"object_id\":\"17865532899156431\",\"context_id\":\"815972658261906\"},{\"event_name\":\"video_view_75_percent\",\"object_id\":\"17949255002964915\",\"context_id\":\"815972658261906\"},{\"event_name\":\"video_view_75_percent\",\"object_id\":\"17902327761206661\",\"context_id\":\"815972658261906\"}]",
+  "time_created": 1785442701,
+  "time_updated": 1790937626
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "id": "120235297782930577",
+  "name": "Público similar (US, 1% to 2%) - Oil Palm EUDR - 913 contactos - ingles",
+  "subtype": "LOOKALIKE",
+  "description": "",
+  "approximate_count_lower_bound": -1,
+  "approximate_count_upper_bound": -1,
+  "operation_status": {
+   "code": 433,
+   "description": "We couldn't create your lookalike audience. Please delete this audience and try creating it again."
+  },
+  "delivery_status": {
+   "code": 300,
+   "description": "Audience is too small to be used in campaign creation."
+  },
+  "retention_days": 0,
+  "lookalike_spec": {
+   "country": "US",
+   "origin": [
+    {
+     "id": "120235297740560577",
+     "name": "Oil Palm EUDR - 913 contactos - ingles",
+     "type": "custom_audience"
+    }
+   ],
+   "starting_ratio": 0.01,
+   "ratio": 0.02,
+   "type": "custom_ratio"
+  },
+  "time_created": 1759501493,
+  "time_updated": 1759501493
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "id": "120235297782920577",
+  "name": "Público similar (US, 2% to 7%) - Oil Palm EUDR - 913 contactos - ingles",
+  "subtype": "LOOKALIKE",
+  "description": "",
+  "approximate_count_lower_bound": -1,
+  "approximate_count_upper_bound": -1,
+  "operation_status": {
+   "code": 433,
+   "description": "We couldn't create your lookalike audience. Please delete this audience and try creating it again."
+  },
+  "delivery_status": {
+   "code": 300,
+   "description": "Audience is too small to be used in campaign creation."
+  },
+  "retention_days": 0,
+  "lookalike_spec": {
+   "country": "US",
+   "origin": [
+    {
+     "id": "120235297740560577",
+     "name": "Oil Palm EUDR - 913 contactos - ingles",
+     "type": "custom_audience"
+    }
+   ],
+   "starting_ratio": 0.02,
+   "ratio": 0.07,
+   "type": "custom_ratio"
+  },
+  "time_created": 1759501493,
+  "time_updated": 1759501493
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "id": "120235297781680577",
+  "name": "Público similar (US, 1%) - Oil Palm EUDR - 913 contactos - ingles",
+  "subtype": "LOOKALIKE",
+  "description": "",
+  "approximate_count_lower_bound": -1,
+  "approximate_count_upper_bound": -1,
+  "operation_status": {
+   "code": 433,
+   "description": "We couldn't create your lookalike audience. Please delete this audience and try creating it again."
+  },
+  "delivery_status": {
+   "code": 300,
+   "description": "Audience is too small to be used in campaign creation."
+  },
+  "retention_days": 0,
+  "lookalike_spec": {
+   "country": "US",
+   "origin": [
+    {
+     "id": "120235297740560577",
+     "name": "Oil Palm EUDR - 913 contactos - ingles",
+     "type": "custom_audience"
+    }
+   ],
+   "ratio": 0.01,
+   "type": "custom_ratio"
+  },
+  "time_created": 1759501492,
+  "time_updated": 1759501492
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "id": "120235297740560577",
+  "name": "Oil Palm EUDR - 913 contactos - ingles",
+  "subtype": "CUSTOM",
+  "description": "",
+  "approximate_count_lower_bound": 1000,
+  "approximate_count_upper_bound": 1000,
+  "operation_status": {
+   "code": 200,
+   "description": "Normal"
+  },
+  "delivery_status": {
+   "code": 200,
+   "description": "This audience is ready for use."
+  },
+  "retention_days": 0,
+  "time_created": 1759501326,
+  "time_updated": 1759501329
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "id": "120234791927440577",
+  "name": "Público similar (CA, ES and 8 others, 3%) - GOTS - Primer prueba",
+  "subtype": "LOOKALIKE",
+  "description": "",
+  "approximate_count_lower_bound": -1,
+  "approximate_count_upper_bound": -1,
+  "operation_status": {
+   "code": 433,
+   "description": "We couldn't create your lookalike audience. Please delete this audience and try creating it again."
+  },
+  "delivery_status": {
+   "code": 300,
+   "description": "Audience is too small to be used in campaign creation."
+  },
+  "retention_days": 0,
+  "lookalike_spec": {
+   "origin": [
+    {
+     "id": "120234791847910577",
+     "name": "GOTS - Primer prueba",
+     "type": "custom_audience"
+    }
+   ],
+   "ratio": 0.03,
+   "target_countries": [
+    "ES",
+    "PT",
+    "US",
+    "PL",
+    "IN",
+    "NL",
+    "IT",
+    "FR",
+    "GB",
+    "CA"
+   ],
+   "type": "custom_ratio"
+  },
+  "time_created": 1758744603,
+  "time_updated": 1758744603
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "id": "120234791847910577",
+  "name": "GOTS - Primer prueba",
+  "subtype": "CUSTOM",
+  "description": "",
+  "approximate_count_lower_bound": 1000,
+  "approximate_count_upper_bound": 1000,
+  "operation_status": {
+   "code": 200,
+   "description": "Normal"
+  },
+  "delivery_status": {
+   "code": 200,
+   "description": "This audience is ready for use."
+  },
+  "retention_days": 0,
+  "time_created": 1758744402,
+  "time_updated": 1758744408
+ }
+]

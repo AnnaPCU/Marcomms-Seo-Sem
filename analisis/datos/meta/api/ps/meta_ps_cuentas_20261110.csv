@@ -1,0 +1,2 @@
+﻿id,account_id,currency,disable_reason,spend_cap,account_status,name,timezone_name,amount_spent,balance,min_daily_budget,created_time,business,marca
+act_1691926654833918,1691926654833918,USD,0,0,1,Peterson - Argentina,America/Argentina/Buenos_Aires,20084,0,100,2025-09-22T16:05:27-0300,"{""id"": ""1430482418020059"", ""name"": ""Marcomms - Cuentas de META""}",ps

@@ -1,0 +1,63 @@
+
+==================================================================
+CONTROL UNION  ·  8 propiedades  ·  2025-04-01 → 2026-09-16
+==================================================================
+
+  [queries_agg] query+country
+      España           18.311 filas
+      Portugal          6.389 filas
+      Norteamérica      3.254 filas
+      Argentina        13.798 filas
+      Brasil            5.589 filas
+      México            9.893 filas
+      Chile             2.676 filas
+      Perú             22.900 filas
+      -> gsc_cu_hist_queries_agg.csv  (82.810 filas)
+
+  [device_total] device
+      España                3 filas
+      Portugal              3 filas
+      Norteamérica          3 filas
+      Argentina             3 filas
+      Brasil                3 filas
+      México                3 filas
+      Chile                 3 filas
+      Perú                  3 filas
+      -> gsc_cu_hist_device_total.csv  (24 filas)
+
+  [device_date] date+device
+      España              588 filas
+      Portugal            564 filas
+      Norteamérica        565 filas
+      Argentina         1.191 filas
+      Brasil              578 filas
+      México            1.153 filas
+      Chile               543 filas
+      Perú                588 filas
+      -> gsc_cu_hist_device_date.csv  (5.770 filas)
+
+  24 llamadas a la API para CONTROL UNION
+
+==================================================================
+PETERSON SOLUTIONS  ·  2 propiedades  ·  2025-04-01 → 2026-09-16
+==================================================================
+
+  [queries_agg] query+country
+      Américas          2.562 filas
+      Iberia            1.292 filas
+      -> gsc_ps_hist_queries_agg.csv  (3.854 filas)
+
+  [device_total] device
+      Américas              3 filas
+      Iberia                3 filas
+      -> gsc_ps_hist_device_total.csv  (6 filas)
+
+  [device_date] date+device
+      Américas            441 filas
+      Iberia              429 filas
+      -> gsc_ps_hist_device_date.csv  (870 filas)
+
+  6 llamadas a la API para PETERSON SOLUTIONS
+
+Listo en 37 s. Archivos en C:\Users\tmisrahi\OneDrive - Peterson and Control Union\Documentos\Optimizaciónes SEO-SEM\proyecto\datos\gsc-historico
+EXIT 0

@@ -1,0 +1,95 @@
+
+==================================================================
+CONTROL UNION  ·  8 propiedades  ·  2025-04-01 → 2026-09-16
+==================================================================
+
+  [queries] query+country+date  (mes a mes)
+      España          110.133 filas
+      Portugal         34.904 filas
+      Norteamérica     18.307 filas
+      Argentina        74.091 filas
+      Brasil           31.350 filas
+      México           58.111 filas
+      Chile            21.124 filas
+      Perú            113.513 filas
+      -> gsc_cu_hist_queries.csv  (461.533 filas)
+
+  [pages] page+date  (mes a mes)
+      España           32.534 filas
+      Portugal         22.327 filas
+      Norteamérica      4.859 filas
+      Argentina        43.080 filas
+      Brasil           18.960 filas
+      México           33.851 filas
+      Chile            10.425 filas
+      Perú             52.174 filas
+      -> gsc_cu_hist_pages.csv  (218.210 filas)
+
+  [query_page] query+page
+      España            7.722 filas
+      Portugal          3.698 filas
+      Norteamérica      1.216 filas
+      Argentina         7.360 filas
+      Brasil            4.011 filas
+      México            5.058 filas
+      Chile             1.925 filas
+      Perú             12.262 filas
+      -> gsc_cu_hist_query_page.csv  (43.252 filas)
+
+  [devices] query+device
+      España            8.330 filas
+      Portugal          3.830 filas
+      Norteamérica      1.265 filas
+      Argentina         5.945 filas
+      Brasil            3.916 filas
+      México            4.691 filas
+      Chile             2.065 filas
+      Perú             12.740 filas
+      -> gsc_cu_hist_devices.csv  (42.782 filas)
+
+  [daily] date
+      España              196 filas
+      Portugal            196 filas
+      Norteamérica        196 filas
+      Argentina           422 filas
+      Brasil              196 filas
+      México              393 filas
+      Chile               196 filas
+      Perú                196 filas
+      -> gsc_cu_hist_daily.csv  (1.991 filas)
+
+  312 llamadas a la API para CONTROL UNION
+
+==================================================================
+PETERSON SOLUTIONS  ·  2 propiedades  ·  2025-04-01 → 2026-09-16
+==================================================================
+
+  [queries] query+country+date  (mes a mes)
+      Américas          9.927 filas
+      Iberia            6.009 filas
+      -> gsc_ps_hist_queries.csv  (15.936 filas)
+
+  [pages] page+date  (mes a mes)
+      Américas          5.180 filas
+      Iberia            5.644 filas
+      -> gsc_ps_hist_pages.csv  (10.824 filas)
+
+  [query_page] query+page
+      Américas          1.217 filas
+      Iberia              784 filas
+      -> gsc_ps_hist_query_page.csv  (2.001 filas)
+
+  [devices] query+device
+      Américas            998 filas
+      Iberia              708 filas
+      -> gsc_ps_hist_devices.csv  (1.706 filas)
+
+  [daily] date
+      Américas            177 filas
+      Iberia              177 filas
+      -> gsc_ps_hist_daily.csv  (354 filas)
+
+  78 llamadas a la API para PETERSON SOLUTIONS
+
+Listo en 352 s. Archivos en C:\Users\tmisrahi\OneDrive - Peterson and Control Union\Documentos\Optimizaciónes SEO-SEM\proyecto\datos\gsc-historico
+EXIT 0

@@ -1,0 +1,62 @@
+﻿numero,informe,fuente,ok
+filas totales del archivo,891923,891923,True
+España: primer día,2026-03-03,2026-03-03,True
+España: impresiones totales,408582,408582,True
+España: clics totales,3515,3515,True
+Argentina: primer día,2025-05-04,2025-05-04,True
+Argentina: impresiones totales,294810,294810,True
+Argentina: clics totales,7968,7968,True
+México: primer día,2025-05-04,2025-05-04,True
+México: impresiones totales,244056,244056,True
+México: clics totales,3100,3100,True
+Américas: primer día,2026-03-22,2026-03-22,True
+Américas: impresiones totales,58359,58359,True
+Américas: clics totales,805,805,True
+Argentina: días de hueco,77,77,True
+México: días de hueco,106,106,True
+pages CU 12m: filas idénticas == filas baseline,2467,2467,True
+Ads: coste visible total,934067,934067,True
+Ads: términos con clic,316,316,True
+cruce: términos relevantes,252,252,True
+cruce: coste relevante,744025,744025,True
+canibalización 1-3: coste,19067,19067,True
+zona 8-20: coste,71763,71763,True
+sin nada del tema: coste,422509,422509,True
+pos. orgánica ESP ventana Ads: recyclass,6.09,6.09,True
+pos. orgánica ESP ventana Ads: smeta,7.55,7.55,True
+pos. orgánica ESP ventana Ads: iscc,12.07,12.07,True
+pos. orgánica ESP ventana Ads: pefc,26.02,26.02,True
+global recycled standard: media simple (método informe anterior),16.2,16.2,True
+global recycled standard: posición solo ESP,7.3,7.3,True
+global recycled standard: impresiones totales 12m,1292,1292,True
+recyclass: media simple (método informe anterior),15.2,15.2,True
+recyclass: posición solo ESP,6.0,6.0,True
+recyclass: impresiones totales 12m,1265,1265,True
+smeta: media simple (método informe anterior),12.6,12.6,True
+smeta: posición solo ESP,7.8,7.8,True
+smeta: impresiones totales 12m,1789,1789,True
+iscc: media simple (método informe anterior),13.2,13.2,True
+iscc: posición solo ESP,7.2,7.2,True
+iscc: impresiones totales 12m,1922,1922,True
+pefc: media simple (método informe anterior),12.2,12.2,True
+pefc: posición solo ESP,19.9,19.9,True
+pefc: impresiones totales 12m,428,428,True
+FSC España: impresiones,1284,1284,True
+FSC Portugal: impresiones,2296,2296,True
+OEKO-TEX en las 8 de CU: impresiones,0,0,True
+ISO 22000 España: impresiones,2265,2265,True
+BRCGS España: impresiones,37,37,True
+GMP+ España: impresiones,5031,5031,True
+ISO 45001 España: impresiones,72363,72363,True
+FSC/forest Norteamérica: impresiones,251,251,True
+TEMO Norteamérica: impresiones,20346,20346,True
+queries distintas CU (8 propiedades),32079,32079,True
+móvil: % impresiones,30.5,30.5,True
+móvil: % clics,26.1,26.1,True
+España: % impresiones móvil,31.4,31.4,True
+Perú: % impresiones móvil,25.9,25.9,True
+queries sin comprar: total,2240,2240,True
+queries sin comprar: impresiones,781006,781006,True
+iso 45001 no está en las campañas de CU España (0 = no está),0,0,True
+Argentina jun-ago 2025: impresiones,51869,51869,True
+Argentina jun-ago 2026: impresiones,75279,75279,True

@@ -1,0 +1,2 @@
+﻿id,account_id,currency,disable_reason,spend_cap,account_status,name,timezone_name,amount_spent,balance,min_daily_budget,created_time,business,marca
+act_1045510044627021,1045510044627021,ARS,0,0,1,Control union,America/Argentina/Buenos_Aires,45193953,0,154353,2026-07-30T17:01:00-0300,"{""id"": ""1430482418020059"", ""name"": ""Marcomms - Cuentas de META""}",cu

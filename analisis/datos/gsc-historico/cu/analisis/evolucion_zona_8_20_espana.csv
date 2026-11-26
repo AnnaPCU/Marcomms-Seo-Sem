@@ -1,0 +1,36 @@
+﻿termino,mes,impr,clics,pos
+global recycled standard,2026-03,56,0,5.91
+global recycled standard,2026-04,63,1,8.32
+global recycled standard,2026-05,71,0,9.75
+global recycled standard,2026-06,61,2,7.25
+global recycled standard,2026-07,63,1,6.25
+global recycled standard,2026-08,47,3,6.47
+global recycled standard,2026-09,25,0,5.48
+recyclass,2026-03,187,1,6.21
+recyclass,2026-04,213,0,5.62
+recyclass,2026-05,177,0,5.96
+recyclass,2026-06,107,1,6.55
+recyclass,2026-07,251,0,5.68
+recyclass,2026-08,105,0,5.92
+recyclass,2026-09,68,0,6.41
+smeta,2026-03,223,1,10.49
+smeta,2026-04,168,0,8.98
+smeta,2026-05,362,1,7.12
+smeta,2026-06,413,2,7.69
+smeta,2026-07,269,0,5.94
+smeta,2026-08,203,0,7.65
+smeta,2026-09,119,0,7.38
+iscc,2026-03,391,0,6.76
+iscc,2026-04,605,2,6.88
+iscc,2026-05,508,0,7.56
+iscc,2026-06,151,0,7.45
+iscc,2026-07,207,0,7.4
+iscc,2026-08,11,0,11.64
+iscc,2026-09,3,0,13.67
+pefc,2026-03,19,0,28.26
+pefc,2026-04,23,0,30.48
+pefc,2026-05,35,0,24.4
+pefc,2026-06,74,0,13.76
+pefc,2026-07,66,0,14.3
+pefc,2026-08,30,0,25.4
+pefc,2026-09,14,0,27.36

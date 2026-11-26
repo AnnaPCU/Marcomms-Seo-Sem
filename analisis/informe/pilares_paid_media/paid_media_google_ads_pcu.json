@@ -1,0 +1,534 @@
+{
+ "generado": "2026-10-22T15:26:19",
+ "marca": "PCU",
+ "fuente": "Google Ads API (solo lectura), cuentas 1606422184, 6527967282",
+ "tipo_cambio": "BCRA, promedio mensual de pesos por USD/EUR; gasto en USD convertido mes a mes",
+ "campanas": [
+  {
+   "nombre_campana": "PCU - Argentina - ISO 27001 - Search",
+   "pais": "Argentina",
+   "unidad": "PCU",
+   "marca_ads": "PCU",
+   "tema": "ISO 27001",
+   "facturar_a": "Control Union España",
+   "estado_ads": "Activa",
+   "plataformas": "google",
+   "tipo_campana": "Search",
+   "modalidad": "always_on",
+   "modalidad_inferida": "sí",
+   "objetivo": "posicionamiento",
+   "objetivo_inferido": "sí (por la estrategia de puja)",
+   "estrategia_puja": "Maximizar clics",
+   "inversion_oficina_usd": 366.44,
+   "duracion": "Sin fecha de fin · desde 2026-09-08",
+   "fecha_inicio": "2026-09-08",
+   "fecha_fin": "",
+   "primer_dia_con_impresiones": "2026-09-08",
+   "ultimo_dia_con_impresiones": "2026-10-21",
+   "dias_con_datos": 44,
+   "detalle_brief": "Google Ads Search (ISO 27001) · Puja: Maximizar clics · Presupuesto: 12.750 ARS/día · Ubicaciones: Argentina · Idiomas: English, Spanish · 3 grupos de anuncios, 31 keywords · Landing: https://argentina.controlunion.com/programa-de-certificacion/iso-27001/ · Cuentas: Control Union - (en ARG) (1606422184) id 24231149722",
+   "paso_brief_creatividades": true,
+   "paso_piezas_subidas": true,
+   "paso_campana_lanzada": true,
+   "completada": false,
+   "completed_at": "",
+   "impresiones": 4890,
+   "clics": 278,
+   "ctr_pct": 5.69,
+   "cpc_usd": 1.32,
+   "conversiones": 1.0,
+   "cpl_usd": 366.44,
+   "gasto_ars": 555603.79,
+   "gasto_eur": null,
+   "presupuesto_diario": 12750.0,
+   "moneda_presupuesto": "ARS",
+   "ubicaciones": "Argentina",
+   "ubicaciones_excluidas": "",
+   "idiomas": "English, Spanish",
+   "grupos_de_anuncios": "Compra | Proceso | Renovación",
+   "cantidad_keywords": 31,
+   "landings": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+   "ads_ids": "1606422184:24231149722",
+   "clave_externa": "gads:1606422184:24231149722",
+   "fee_marcomms": null,
+   "moneda_fee": null,
+   "responsable": null,
+   "ticket_hubspot": null,
+   "deals_hubspot": null,
+   "hub": {
+    "type": "paid",
+    "name": "PCU - Argentina - ISO 27001 - Search",
+    "country": "Argentina",
+    "business_unit": "PCU",
+    "platform_investment": 366.44,
+    "completed_steps": [
+     "brief",
+     "creativities",
+     "launch"
+    ],
+    "completed_at": null,
+    "data": {
+     "facturar_a": {
+      "unidad": "Control Union",
+      "pais": "España"
+     },
+     "platforms": [
+      "google"
+     ],
+     "paidMode": "always_on",
+     "duration": "Sin fecha de fin · desde 2026-09-08",
+     "objective": "posicionamiento",
+     "detail": "Google Ads Search (ISO 27001) · Puja: Maximizar clics · Presupuesto: 12.750 ARS/día · Ubicaciones: Argentina · Idiomas: English, Spanish · 3 grupos de anuncios, 31 keywords · Landing: https://argentina.controlunion.com/programa-de-certificacion/iso-27001/ · Cuentas: Control Union - (en ARG) (1606422184) id 24231149722",
+     "google_ads": {
+      "clave_externa": "gads:1606422184:24231149722",
+      "ids": [
+       "1606422184:24231149722"
+      ],
+      "estado": "Activa",
+      "tipo": "Search",
+      "estrategia_puja": "Maximizar clics",
+      "primer_dia": "2026-09-08",
+      "ultimo_dia": "2026-10-21",
+      "landings": [
+       "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/"
+      ],
+      "resultados": {
+       "impresiones": 4890,
+       "clics": 278,
+       "ctr_pct": 5.69,
+       "cpc_usd": 1.32,
+       "conversiones": 1.0,
+       "cpl_usd": 366.44
+      },
+      "gasto_original": {
+       "ARS": 555603.79
+      },
+      "fuente": "Google Ads API",
+      "extraido": "2026-10-22"
+     }
+    }
+   }
+  },
+  {
+   "nombre_campana": "PCU - Argentina - Competidores ISO 27001 - Search",
+   "pais": "Argentina",
+   "unidad": "PCU",
+   "marca_ads": "PCU",
+   "tema": "Competidores ISO 27001",
+   "facturar_a": "Control Union España",
+   "estado_ads": "Activa",
+   "plataformas": "google",
+   "tipo_campana": "Search",
+   "modalidad": "always_on",
+   "modalidad_inferida": "sí",
+   "objetivo": "posicionamiento",
+   "objetivo_inferido": "sí (por la estrategia de puja)",
+   "estrategia_puja": "Maximizar clics",
+   "inversion_oficina_usd": 13.5,
+   "duracion": "Sin fecha de fin · desde 2026-09-09",
+   "fecha_inicio": "2026-09-09",
+   "fecha_fin": "",
+   "primer_dia_con_impresiones": "2026-09-09",
+   "ultimo_dia_con_impresiones": "2026-10-20",
+   "dias_con_datos": 30,
+   "detalle_brief": "Google Ads Search (Competidores ISO 27001) · Puja: Maximizar clics · Presupuesto: 2.000 ARS/día · Ubicaciones: Argentina · Idiomas: English, Spanish · 1 grupos de anuncios, 8 keywords · Landing: https://argentina.controlunion.com/programa-de-certificacion/iso-27001/ · Cuentas: Control Union - (en ARG) (1606422184) id 24231149725",
+   "paso_brief_creatividades": true,
+   "paso_piezas_subidas": true,
+   "paso_campana_lanzada": true,
+   "completada": false,
+   "completed_at": "",
+   "impresiones": 331,
+   "clics": 11,
+   "ctr_pct": 3.32,
+   "cpc_usd": 1.23,
+   "conversiones": 0.0,
+   "cpl_usd": null,
+   "gasto_ars": 20453.97,
+   "gasto_eur": null,
+   "presupuesto_diario": 2000.0,
+   "moneda_presupuesto": "ARS",
+   "ubicaciones": "Argentina",
+   "ubicaciones_excluidas": "",
+   "idiomas": "English, Spanish",
+   "grupos_de_anuncios": "Comparación",
+   "cantidad_keywords": 8,
+   "landings": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+   "ads_ids": "1606422184:24231149725",
+   "clave_externa": "gads:1606422184:24231149725",
+   "fee_marcomms": null,
+   "moneda_fee": null,
+   "responsable": null,
+   "ticket_hubspot": null,
+   "deals_hubspot": null,
+   "hub": {
+    "type": "paid",
+    "name": "PCU - Argentina - Competidores ISO 27001 - Search",
+    "country": "Argentina",
+    "business_unit": "PCU",
+    "platform_investment": 13.5,
+    "completed_steps": [
+     "brief",
+     "creativities",
+     "launch"
+    ],
+    "completed_at": null,
+    "data": {
+     "facturar_a": {
+      "unidad": "Control Union",
+      "pais": "España"
+     },
+     "platforms": [
+      "google"
+     ],
+     "paidMode": "always_on",
+     "duration": "Sin fecha de fin · desde 2026-09-09",
+     "objective": "posicionamiento",
+     "detail": "Google Ads Search (Competidores ISO 27001) · Puja: Maximizar clics · Presupuesto: 2.000 ARS/día · Ubicaciones: Argentina · Idiomas: English, Spanish · 1 grupos de anuncios, 8 keywords · Landing: https://argentina.controlunion.com/programa-de-certificacion/iso-27001/ · Cuentas: Control Union - (en ARG) (1606422184) id 24231149725",
+     "google_ads": {
+      "clave_externa": "gads:1606422184:24231149725",
+      "ids": [
+       "1606422184:24231149725"
+      ],
+      "estado": "Activa",
+      "tipo": "Search",
+      "estrategia_puja": "Maximizar clics",
+      "primer_dia": "2026-09-09",
+      "ultimo_dia": "2026-10-20",
+      "landings": [
+       "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/"
+      ],
+      "resultados": {
+       "impresiones": 331,
+       "clics": 11,
+       "ctr_pct": 3.32,
+       "cpc_usd": 1.23,
+       "conversiones": 0.0,
+       "cpl_usd": null
+      },
+      "gasto_original": {
+       "ARS": 20453.97
+      },
+      "fuente": "Google Ads API",
+      "extraido": "2026-10-22"
+     }
+    }
+   }
+  },
+  {
+   "nombre_campana": "PCU - España - ISO 27001 - Search",
+   "pais": "España",
+   "unidad": "PCU",
+   "marca_ads": "PCU",
+   "tema": "ISO 27001",
+   "facturar_a": "Control Union España",
+   "estado_ads": "Activa",
+   "plataformas": "google",
+   "tipo_campana": "Search",
+   "modalidad": "always_on",
+   "modalidad_inferida": "sí",
+   "objetivo": "posicionamiento",
+   "objetivo_inferido": "sí (por la estrategia de puja)",
+   "estrategia_puja": "Maximizar clics",
+   "inversion_oficina_usd": 447.41,
+   "duracion": "Sin fecha de fin · desde 2026-09-08",
+   "fecha_inicio": "2026-09-08",
+   "fecha_fin": "",
+   "primer_dia_con_impresiones": "2026-09-08",
+   "ultimo_dia_con_impresiones": "2026-10-21",
+   "dias_con_datos": 44,
+   "detalle_brief": "Google Ads Search (ISO 27001) · Puja: Maximizar clics · Presupuesto: 15.300 ARS/día · Idiomas: English, Spanish · 3 grupos de anuncios, 31 keywords · Landing: https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ · Cuentas: Control Union - (en ARG) (1606422184) id 24231149728",
+   "paso_brief_creatividades": true,
+   "paso_piezas_subidas": true,
+   "paso_campana_lanzada": true,
+   "completada": false,
+   "completed_at": "",
+   "impresiones": 16402,
+   "clics": 1001,
+   "ctr_pct": 6.1,
+   "cpc_usd": 0.45,
+   "conversiones": 1.0,
+   "cpl_usd": 447.41,
+   "gasto_ars": 678410.88,
+   "gasto_eur": null,
+   "presupuesto_diario": 15300.0,
+   "moneda_presupuesto": "ARS",
+   "ubicaciones": "",
+   "ubicaciones_excluidas": "",
+   "idiomas": "English, Spanish",
+   "grupos_de_anuncios": "Compra | Proceso | Renovación",
+   "cantidad_keywords": 31,
+   "landings": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+   "ads_ids": "1606422184:24231149728",
+   "clave_externa": "gads:1606422184:24231149728",
+   "fee_marcomms": null,
+   "moneda_fee": null,
+   "responsable": null,
+   "ticket_hubspot": null,
+   "deals_hubspot": null,
+   "hub": {
+    "type": "paid",
+    "name": "PCU - España - ISO 27001 - Search",
+    "country": "España",
+    "business_unit": "PCU",
+    "platform_investment": 447.41,
+    "completed_steps": [
+     "brief",
+     "creativities",
+     "launch"
+    ],
+    "completed_at": null,
+    "data": {
+     "facturar_a": {
+      "unidad": "Control Union",
+      "pais": "España"
+     },
+     "platforms": [
+      "google"
+     ],
+     "paidMode": "always_on",
+     "duration": "Sin fecha de fin · desde 2026-09-08",
+     "objective": "posicionamiento",
+     "detail": "Google Ads Search (ISO 27001) · Puja: Maximizar clics · Presupuesto: 15.300 ARS/día · Idiomas: English, Spanish · 3 grupos de anuncios, 31 keywords · Landing: https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ · Cuentas: Control Union - (en ARG) (1606422184) id 24231149728",
+     "google_ads": {
+      "clave_externa": "gads:1606422184:24231149728",
+      "ids": [
+       "1606422184:24231149728"
+      ],
+      "estado": "Activa",
+      "tipo": "Search",
+      "estrategia_puja": "Maximizar clics",
+      "primer_dia": "2026-09-08",
+      "ultimo_dia": "2026-10-21",
+      "landings": [
+       "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/"
+      ],
+      "resultados": {
+       "impresiones": 16402,
+       "clics": 1001,
+       "ctr_pct": 6.1,
+       "cpc_usd": 0.45,
+       "conversiones": 1.0,
+       "cpl_usd": 447.41
+      },
+      "gasto_original": {
+       "ARS": 678410.88
+      },
+      "fuente": "Google Ads API",
+      "extraido": "2026-10-22"
+     }
+    }
+   }
+  },
+  {
+   "nombre_campana": "PCU - España - Competidores ISO 27001 - Search",
+   "pais": "España",
+   "unidad": "PCU",
+   "marca_ads": "PCU",
+   "tema": "Competidores ISO 27001",
+   "facturar_a": "Control Union España",
+   "estado_ads": "Activa",
+   "plataformas": "google",
+   "tipo_campana": "Search",
+   "modalidad": "always_on",
+   "modalidad_inferida": "sí",
+   "objetivo": "posicionamiento",
+   "objetivo_inferido": "sí (por la estrategia de puja)",
+   "estrategia_puja": "Maximizar clics",
+   "inversion_oficina_usd": 50.81,
+   "duracion": "Sin fecha de fin · desde 2026-09-09",
+   "fecha_inicio": "2026-09-09",
+   "fecha_fin": "",
+   "primer_dia_con_impresiones": "2026-09-09",
+   "ultimo_dia_con_impresiones": "2026-10-21",
+   "dias_con_datos": 42,
+   "detalle_brief": "Google Ads Search (Competidores ISO 27001) · Puja: Maximizar clics · Presupuesto: 2.500 ARS/día · Idiomas: English, Spanish · 1 grupos de anuncios, 8 keywords · Landing: https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ · Cuentas: Control Union - (en ARG) (1606422184) id 24231149731",
+   "paso_brief_creatividades": true,
+   "paso_piezas_subidas": true,
+   "paso_campana_lanzada": true,
+   "completada": false,
+   "completed_at": "",
+   "impresiones": 386,
+   "clics": 22,
+   "ctr_pct": 5.7,
+   "cpc_usd": 2.31,
+   "conversiones": 0.0,
+   "cpl_usd": null,
+   "gasto_ars": 77024.19,
+   "gasto_eur": null,
+   "presupuesto_diario": 2500.0,
+   "moneda_presupuesto": "ARS",
+   "ubicaciones": "",
+   "ubicaciones_excluidas": "",
+   "idiomas": "English, Spanish",
+   "grupos_de_anuncios": "Comparación",
+   "cantidad_keywords": 8,
+   "landings": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+   "ads_ids": "1606422184:24231149731",
+   "clave_externa": "gads:1606422184:24231149731",
+   "fee_marcomms": null,
+   "moneda_fee": null,
+   "responsable": null,
+   "ticket_hubspot": null,
+   "deals_hubspot": null,
+   "hub": {
+    "type": "paid",
+    "name": "PCU - España - Competidores ISO 27001 - Search",
+    "country": "España",
+    "business_unit": "PCU",
+    "platform_investment": 50.81,
+    "completed_steps": [
+     "brief",
+     "creativities",
+     "launch"
+    ],
+    "completed_at": null,
+    "data": {
+     "facturar_a": {
+      "unidad": "Control Union",
+      "pais": "España"
+     },
+     "platforms": [
+      "google"
+     ],
+     "paidMode": "always_on",
+     "duration": "Sin fecha de fin · desde 2026-09-09",
+     "objective": "posicionamiento",
+     "detail": "Google Ads Search (Competidores ISO 27001) · Puja: Maximizar clics · Presupuesto: 2.500 ARS/día · Idiomas: English, Spanish · 1 grupos de anuncios, 8 keywords · Landing: https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/ · Cuentas: Control Union - (en ARG) (1606422184) id 24231149731",
+     "google_ads": {
+      "clave_externa": "gads:1606422184:24231149731",
+      "ids": [
+       "1606422184:24231149731"
+      ],
+      "estado": "Activa",
+      "tipo": "Search",
+      "estrategia_puja": "Maximizar clics",
+      "primer_dia": "2026-09-09",
+      "ultimo_dia": "2026-10-21",
+      "landings": [
+       "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/"
+      ],
+      "resultados": {
+       "impresiones": 386,
+       "clics": 22,
+       "ctr_pct": 5.7,
+       "cpc_usd": 2.31,
+       "conversiones": 0.0,
+       "cpl_usd": null
+      },
+      "gasto_original": {
+       "ARS": 77024.19
+      },
+      "fuente": "Google Ads API",
+      "extraido": "2026-10-22"
+     }
+    }
+   }
+  }
+ ],
+ "mensual": [
+  {
+   "nombre_campana": "PCU - Argentina - Competidores ISO 27001 - Search",
+   "clave_externa": "gads:1606422184:24231149725",
+   "mes": "2026-09",
+   "moneda_original": "ARS",
+   "gasto_original": 16748.75,
+   "usd_por_unidad": 0.000661,
+   "gasto_usd": 11.06,
+   "impresiones": 298,
+   "clics": 9,
+   "conversiones": 0.0,
+   "incluida": "sí"
+  },
+  {
+   "nombre_campana": "PCU - Argentina - Competidores ISO 27001 - Search",
+   "clave_externa": "gads:1606422184:24231149725",
+   "mes": "2026-10",
+   "moneda_original": "ARS",
+   "gasto_original": 3705.22,
+   "usd_por_unidad": 0.000658,
+   "gasto_usd": 2.44,
+   "impresiones": 33,
+   "clics": 2,
+   "conversiones": 0.0,
+   "incluida": "sí"
+  },
+  {
+   "nombre_campana": "PCU - Argentina - ISO 27001 - Search",
+   "clave_externa": "gads:1606422184:24231149722",
+   "mes": "2026-09",
+   "moneda_original": "ARS",
+   "gasto_original": 293242.54,
+   "usd_por_unidad": 0.000661,
+   "gasto_usd": 193.72,
+   "impresiones": 2597,
+   "clics": 150,
+   "conversiones": 1.0,
+   "incluida": "sí"
+  },
+  {
+   "nombre_campana": "PCU - Argentina - ISO 27001 - Search",
+   "clave_externa": "gads:1606422184:24231149722",
+   "mes": "2026-10",
+   "moneda_original": "ARS",
+   "gasto_original": 262361.25,
+   "usd_por_unidad": 0.000658,
+   "gasto_usd": 172.72,
+   "impresiones": 2293,
+   "clics": 128,
+   "conversiones": 0.0,
+   "incluida": "sí"
+  },
+  {
+   "nombre_campana": "PCU - España - Competidores ISO 27001 - Search",
+   "clave_externa": "gads:1606422184:24231149731",
+   "mes": "2026-09",
+   "moneda_original": "ARS",
+   "gasto_original": 46645.27,
+   "usd_por_unidad": 0.000661,
+   "gasto_usd": 30.81,
+   "impresiones": 191,
+   "clics": 13,
+   "conversiones": 0.0,
+   "incluida": "sí"
+  },
+  {
+   "nombre_campana": "PCU - España - Competidores ISO 27001 - Search",
+   "clave_externa": "gads:1606422184:24231149731",
+   "mes": "2026-10",
+   "moneda_original": "ARS",
+   "gasto_original": 30378.92,
+   "usd_por_unidad": 0.000658,
+   "gasto_usd": 20.0,
+   "impresiones": 195,
+   "clics": 9,
+   "conversiones": 0.0,
+   "incluida": "sí"
+  },
+  {
+   "nombre_campana": "PCU - España - ISO 27001 - Search",
+   "clave_externa": "gads:1606422184:24231149728",
+   "mes": "2026-09",
+   "moneda_original": "ARS",
+   "gasto_original": 351010.31,
+   "usd_por_unidad": 0.000661,
+   "gasto_usd": 231.88,
+   "impresiones": 5480,
+   "clics": 360,
+   "conversiones": 1.0,
+   "incluida": "sí"
+  },
+  {
+   "nombre_campana": "PCU - España - ISO 27001 - Search",
+   "clave_externa": "gads:1606422184:24231149728",
+   "mes": "2026-10",
+   "moneda_original": "ARS",
+   "gasto_original": 327400.57,
+   "usd_por_unidad": 0.000658,
+   "gasto_usd": 215.54,
+   "impresiones": 10922,
+   "clics": 641,
+   "conversiones": 0.0,
+   "incluida": "sí"
+  }
+ ]
+}

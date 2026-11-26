@@ -1,0 +1,74 @@
+
+======================================================================
+CU  hist: pages=218,210 queries=461,533 daily=1,991
+======================================================================
+
+Cobertura por propiedad (daily):
+  Argentina     2025-05-04 -> 2026-09-14  422 días con datos  HUECOS: [(datetime.date(2025, 12, 15), datetime.date(2026, 3, 3), 77)]
+  Brasil        2026-03-03 -> 2026-09-14  196 días con datos
+  Chile         2026-03-03 -> 2026-09-14  196 días con datos
+  España        2026-03-03 -> 2026-09-14  196 días con datos
+  México        2025-05-04 -> 2026-09-14  393 días con datos  HUECOS: [(datetime.date(2025, 11, 16), datetime.date(2026, 3, 3), 106)]
+  Norteamérica  2026-03-03 -> 2026-09-14  196 días con datos
+  Perú          2026-03-03 -> 2026-09-14  196 días con datos
+  Portugal      2026-03-03 -> 2026-09-14  196 días con datos
+
+--- ventana 12m 2025-09-15..2026-09-12
+  pages   base=2,467 hist=2,467  solo_base=0 solo_hist=0 dif_impr=0 dif_clics=0  -> IDÉNTICO
+  queries base=72,428 hist=72,428  en ambos=72,428 (100.0% filas, 100.0% impr, 100.0% clics del baseline)  solo_hist=0  hist>base=0  iguales=72,428
+  totales por propiedad (pages baseline vs daily hist; difieren por agregación página/propiedad):
+              clicks_pages_base  impressions_pages_base  clicks_daily_hist  impressions_daily_hist  ratio_impr
+property                                                                                                      
+Argentina                  5936                  267208               5786                  208340       1.283
+Brasil                     3816                  188841               3680                  140656       1.343
+Chile                      1209                   82499               1190                   76586       1.077
+España                     3582                  429003               3492                  404930       1.059
+México                     2216                  180198               2152                  163441       1.103
+Norteamérica                711                   80756                705                   74536       1.083
+Perú                      11150                  856025              10728                  787450       1.087
+Portugal                   1672                  125814               1634                  114023       1.103
+
+--- ventana ads 2026-08-01..2026-09-11
+  pages   base=1,815 hist=1,815  solo_base=0 solo_hist=0 dif_impr=0 dif_clics=0  -> IDÉNTICO
+  queries base=23,300 hist=23,300  en ambos=23,300 (100.0% filas, 100.0% impr, 100.0% clics del baseline)  solo_hist=0  hist>base=0  iguales=23,300
+  totales por propiedad (pages baseline vs daily hist; difieren por agregación página/propiedad):
+              clicks_pages_base  impressions_pages_base  clicks_daily_hist  impressions_daily_hist  ratio_impr
+property                                                                                                      
+Argentina                   897                   44688                879                   36936       1.210
+Brasil                      877                   43049                847                   31492       1.367
+Chile                       199                   14639                196                   13633       1.074
+España                      582                   84245                565                   80177       1.051
+México                      369                   29975                358                   27692       1.082
+Norteamérica                140                   16430                139                   15263       1.076
+Perú                       1797                  124961               1721                  112434       1.111
+Portugal                    279                   23366                272                   21178       1.103
+
+-> C:\Users\tmisrahi\OneDrive - Peterson and Control Union\Documentos\Optimizaciónes SEO-SEM\proyecto\datos\gsc-historico\cu\validacion_continuidad.csv
+
+======================================================================
+PS  hist: pages=10,824 queries=15,936 daily=354
+======================================================================
+
+Cobertura por propiedad (daily):
+  Américas      2026-03-22 -> 2026-09-14  177 días con datos
+  Iberia        2026-03-22 -> 2026-09-14  177 días con datos
+
+--- ventana 12m 2025-09-15..2026-09-12
+  pages   base=284 hist=284  solo_base=0 solo_hist=0 dif_impr=0 dif_clics=0  -> IDÉNTICO
+  queries base=3,831 hist=3,831  en ambos=3,831 (100.0% filas, 100.0% impr, 100.0% clics del baseline)  solo_hist=0  hist>base=0  iguales=3,831
+  totales por propiedad (pages baseline vs daily hist; difieren por agregación página/propiedad):
+          clicks_pages_base  impressions_pages_base  clicks_daily_hist  impressions_daily_hist  ratio_impr
+property                                                                                                  
+Américas                813                   64530                800                   57713       1.118
+Iberia                  711                   30146                696                   25392       1.187
+
+--- ventana ads 2026-08-01..2026-09-11
+  pages   base=226 hist=226  solo_base=0 solo_hist=0 dif_impr=0 dif_clics=0  -> IDÉNTICO
+  queries base=1,563 hist=1,563  en ambos=1,563 (100.0% filas, 100.0% impr, 100.0% clics del baseline)  solo_hist=0  hist>base=0  iguales=1,563
+  totales por propiedad (pages baseline vs daily hist; difieren por agregación página/propiedad):
+          clicks_pages_base  impressions_pages_base  clicks_daily_hist  impressions_daily_hist  ratio_impr
+property                                                                                                  
+Américas                206                   15575                202                   13806       1.128
+Iberia                  162                    9697                162                    8442       1.149
+
+-> C:\Users\tmisrahi\OneDrive - Peterson and Control Union\Documentos\Optimizaciónes SEO-SEM\proyecto\datos\gsc-historico\ps\validacion_continuidad.csv

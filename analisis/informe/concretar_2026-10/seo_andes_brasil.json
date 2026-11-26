@@ -1,0 +1,1654 @@
+{
+ "tarjetas": [
+  {
+   "clave": "CU:SEO:peru-controlunion-com:haccp",
+   "marca": "CU",
+   "sitio": "peru.controlunion.com",
+   "titulo": "HACCP Perú: title y meta en castellano, definición y 7 principios arriba, y 4 enlaces internos (45.407 impr., CTR 0,28%)",
+   "detalle": "La página de HACCP es la de más impresiones del sitio de Perú (45.407 en 3 mar – 14 sep 2026) pero tiene CTR 0,28%: la mitad de la demanda es de definición («haccp que significa», «que es haccp») y la página abre con una frase técnica, la meta description está en inglés y ninguna página de inocuidad la enlaza. Se reescriben title, meta y H1, se agregan cuatro secciones nuevas (qué es, 7 principios, quién la necesita en Perú, proceso con Control Union) y preguntas frecuentes, y se suman cuatro enlaces internos.",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "peru.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+      "nota": "La que se cambia: title, meta, H1, secciones nuevas."
+     },
+     {
+      "url": "https://peru.controlunion.com/en/certification-program/haccp-hazard-analysis-and-critical-control-points/",
+      "nota": "Versión en inglés: solo se corrige la meta description (opcional)."
+     },
+     {
+      "url": "https://peru.controlunion.com/programa-de-certificacion/brcgs/",
+      "nota": "Origen de un enlace interno nuevo."
+     },
+     {
+      "url": "https://peru.controlunion.com/programa-de-certificacion/fssc-22000-food-safety-system-certification/",
+      "nota": "Origen de un enlace interno nuevo."
+     },
+     {
+      "url": "https://peru.controlunion.com/programa-de-certificacion/ifs/",
+      "nota": "Origen de un enlace interno nuevo."
+     },
+     {
+      "url": "https://peru.controlunion.com/industry/seguridad-alimentaria/",
+      "nota": "Origen de un enlace interno nuevo."
+     }
+    ],
+    "acciones": [
+     "contenido",
+     "tecnico"
+    ],
+    "resumen": "Que la página de HACCP responda primero «qué es HACCP» y después venda la certificación, con title y meta en castellano y enlaces desde las otras normas de inocuidad.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026 (todos los países): la página tuvo 45.407 impresiones, 127 clics, posición media 8,0 y CTR 0,28%. Las queries de definición pesan casi tanto como «haccp» (15.400 impr., pos. 8,0, 31 clics): «haccp que significa» 6.219 impr. en pos. 7,9 con 2 clics, «haccp que es» 1.171 (pos. 9,2), «que es haccp» 939 (pos. 9,5), «que significa haccp» 620, «haccp en alimentos» 572, «sistema haccp» 887 (pos. 9,6). Además se está cayendo: «haccp que significa» pasó de pos. 5,4 en marzo a 10,1 en septiembre, «haccp que es» de 281 impr. en marzo a 20 en agosto y la página de 7.560 impr. en junio a 5.096 en agosto. Hoy (28 oct) la meta description está en inglés («HACCP studies are focused on…»), el title arrastra «Control Union Services – Perú» y el texto tiene tres párrafos sin definición corta, sin los 7 principios y sin proceso. Ninguna de las páginas de BRCGS, FSSC 22000, IFS ni la de la industria de seguridad alimentaria enlaza a HACCP. GA4 (1 dic 2025 – 22 oct 2026): 133 vistas.",
+    "ya_hecho": "Nada. El hreflang es-PE/en-PE y el canonical ya estaban bien (verificado el 28 oct). La «sección de definición» y las preguntas frecuentes de septiembre no están.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Reescribir title, meta description y H1",
+      "donde": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+      "detalle": "En el CMS (WordPress, campos SEO de la página). El title y la meta nuevos nombran la definición y la certificación en Perú; la meta actual está en inglés.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "HACCP: qué es y certificación en Perú | Control Union",
+        "reemplaza": "HACCP - Peligros y Puntos Críticos de Control  - Control Union Services – Perú",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "motivo": "Title actual con doble espacio y sin «qué es»: la mitad de las impresiones es de definición («haccp que significa» 6.219, «haccp que es» 1.171, «que es haccp» 939)."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "HACCP es el sistema de análisis de peligros y puntos críticos de control de los alimentos. Control Union certifica HACCP en Perú.",
+        "reemplaza": "HACCP studies are focused on Hazard Analysis and Critical Control Points, in English known as Hazard Analysis and Critical Control Points, hence the acronym of its name.",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "motivo": "La meta actual está en inglés en la versión en castellano: no coincide con el idioma de quien busca y Google la reemplaza o no la muestra."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "HACCP: qué es y cómo se certifica en Perú",
+        "reemplaza": "HACCP – Peligros y Puntos Críticos de Control",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "motivo": "Une las dos intenciones que traen tráfico: definición y certificación («certificado haccp peru» 175 impr., pos. 4,6; «certificación haccp en perú» 136, pos. 3,0)."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Agregar cuatro secciones nuevas con su H2",
+      "donde": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+      "detalle": "Van en este orden, la primera justo debajo del H1 y antes de «Acerca del estándar». Redactar en castellano neutro, con «certificamos/auditamos», nunca «asesoramos». Lo marcado «confirmar con la unidad» lo valida el equipo de inocuidad de Control Union Perú antes de publicar.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «¿Qué es HACCP?»: 2 o 3 frases. HACCP es la sigla en inglés de Hazard Analysis and Critical Control Points (Análisis de Peligros y Puntos Críticos de Control): un sistema preventivo, definido por el Codex Alimentarius, que identifica los peligros de un proceso de alimentos y los controla en los puntos críticos.",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "motivo": "Responde «haccp que significa» (6.219 impr., pos. 7,9, 2 clics), «haccp que es» (1.171), «que es haccp» (939) y «que significa haccp» (620): hoy la definición está enterrada en el segundo párrafo."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Los 7 principios del sistema HACCP»: lista numerada de los 7 principios del Codex (análisis de peligros; puntos críticos de control; límites críticos; vigilancia; acciones correctivas; verificación; documentación y registros), una línea cada uno.",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "motivo": "Responde «sistema haccp» (887 impr., pos. 9,6) y «haccp en alimentos» (572, pos. 7,5). La página ya cita el Codex CAC/RCP-1 (1969), Rev. 5 (2022) en «Requisitos»."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «¿Quién necesita la certificación HACCP en Perú?»: plantas de alimentos y bebidas, exportadores y proveedores que su cliente les pide HACCP, y su relación con BRCGS, FSSC 22000 e ISO 22000 (HACCP es la base de esas normas). Aclarar la diferencia entre la validación técnica oficial del plan HACCP de DIGESA y la certificación de Control Union: confirmar con la unidad.",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "motivo": "Responde «certificado haccp peru» (175 impr., pos. 4,6), «certificación haccp en perú» (136, pos. 3,0, 3 clics) y «certificacion haccp peru» (133, pos. 3,4): son las queries que más convierten en clic."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Cómo es la certificación HACCP con Control Union»: pasos en una línea cada uno (solicitud y cotización; auditoría documental; auditoría en planta; cierre de no conformidades; decisión y emisión del certificado; auditorías de seguimiento) y botón al formulario de contacto. Vigencia del certificado y frecuencia de seguimiento: confirmar con la unidad.",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "motivo": "Responde «certificacion haccp» (837 impr., pos. 8,2), «certificación haccp» (735, pos. 12,1) y «certificado haccp» (546, pos. 9,1): hoy la página no explica qué hace Control Union ni cómo se pide."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Agregar «Preguntas frecuentes sobre HACCP» al final",
+      "donde": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+      "detalle": "Cuatro preguntas con respuesta de 2 o 3 frases. Se puede marcar con FAQPage (JSON-LD), pero desde agosto de 2023 Google muestra el resultado enriquecido de preguntas frecuentes solo en sitios de gobierno y salud: el valor es el texto, no el snippet.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Preguntas frecuentes sobre HACCP» con: ¿Qué significa HACCP? · ¿Qué es HACCP en alimentos? · ¿Qué diferencia hay entre HACCP, BRCGS, FSSC 22000 e ISO 22000? · ¿Cuánto dura el certificado HACCP? (la última, confirmar con la unidad).",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "motivo": "Cubre las variantes de definición con poco volumen que hoy no tienen respuesta («que es haccp en alimentos» 207, «que significa haccp en alimentos» 300, «que es el haccp» 307)."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Sumar 4 enlaces internos hacia HACCP",
+      "donde": "Páginas de inocuidad de peru.controlunion.com",
+      "detalle": "Ninguna de estas páginas enlaza hoy a HACCP (revisado el 28 oct). Un enlace en el texto de «Acerca del estándar» de cada una, con el anchor indicado.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://peru.controlunion.com/programa-de-certificacion/brcgs/, anchor «certificación HACCP», hacia https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/brcgs/",
+        "motivo": "BRCGS tiene 7.484 impr. en el período y se apoya en HACCP: es la página de inocuidad con más tráfico."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://peru.controlunion.com/programa-de-certificacion/fssc-22000-food-safety-system-certification/, anchor «sistema HACCP», hacia https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/fssc-22000-food-safety-system-certification/",
+        "motivo": "6.140 impr.; FSSC 22000 incorpora HACCP."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://peru.controlunion.com/programa-de-certificacion/ifs/, anchor «HACCP», hacia https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/ifs/",
+        "motivo": "4.343 impr.; IFS Food exige un plan HACCP."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://peru.controlunion.com/industry/seguridad-alimentaria/, anchor «certificación HACCP en Perú», hacia https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+        "destino": "https://peru.controlunion.com/industry/seguridad-alimentaria/",
+        "motivo": "Página de industria que hoy enlaza programas de inocuidad pero no HACCP."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Corregir la meta de la versión en inglés (opcional)",
+      "donde": "https://peru.controlunion.com/en/certification-program/haccp-hazard-analysis-and-critical-control-points/",
+      "detalle": "La meta en inglés repite el nombre dos veces. Cambio menor: 2.580 impr. y 19 clics en el período.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "HACCP (Hazard Analysis and Critical Control Points) certification in Peru: what it is, the 7 principles and how Control Union certifies it.",
+        "reemplaza": "HACCP studies are focused on Hazard Analysis and Critical Control Points, in English known as Hazard Analysis and Critical Control Points, hence the acronym of its name.",
+        "destino": "https://peru.controlunion.com/en/certification-program/haccp-hazard-analysis-and-critical-control-points/",
+        "motivo": "La meta actual dice dos veces «Hazard Analysis and Critical Control Points»; «haccp en ingles» (426 impr., pos. 7,6) cae en esta página.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "haccp",
+      "impr": 15400,
+      "pos": 8.0
+     },
+     {
+      "query": "haccp que significa",
+      "impr": 6219,
+      "pos": 7.9
+     },
+     {
+      "query": "haccp que es",
+      "impr": 1171,
+      "pos": 9.2
+     },
+     {
+      "query": "que es haccp",
+      "impr": 939,
+      "pos": 9.5
+     },
+     {
+      "query": "sistema haccp",
+      "impr": 887,
+      "pos": 9.6
+     },
+     {
+      "query": "certificacion haccp",
+      "impr": 837,
+      "pos": 8.2
+     },
+     {
+      "query": "certificación haccp",
+      "impr": 735,
+      "pos": 12.1
+     },
+     {
+      "query": "que significa haccp",
+      "impr": 620,
+      "pos": 8.3
+     },
+     {
+      "query": "haccp en alimentos",
+      "impr": 572,
+      "pos": 7.5
+     },
+     {
+      "query": "certificado haccp",
+      "impr": 546,
+      "pos": 9.1
+     },
+     {
+      "query": "certificado haccp peru",
+      "impr": 175,
+      "pos": 4.6
+     },
+     {
+      "query": "certificación haccp en perú",
+      "impr": 136,
+      "pos": 3.0
+     }
+    ],
+    "organico_desde": "Perú (peru.controlunion.com, todos los países)",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:peru-controlunion-com:pdfs",
+   "marca": "CU",
+   "sitio": "peru.controlunion.com",
+   "titulo": "PDFs Perú: 301 de 4 reglas GEI v1.4 viejas, decidir MSC y norma UNE 14046, y llevar «smeta 7.0» a la página de SMETA",
+   "detalle": "Los PDF de Perú cayeron de 12.176 impresiones por semana (mediados de julio) a 1.278 (principios de septiembre): el manual de Sedex (42.639 impr., 1.188 clics) y los requisitos generales del MSC (32.767 impr.) dejaron de aparecer el 17 de agosto aunque siguen publicados. No es un «certificado MSC», como decía septiembre: son documentos de terceros y reglas viejas propias. Se redirigen las cuatro copias de las reglas de VV v1.4, se decide qué hacer con los PDF del MSC y la norma UNE, y la página de SMETA toma la demanda de «smeta 7.0».",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "peru.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://peru.controlunion.com/wp-content/uploads/sites/5/2025/04/GEI.P12.CONTR_.A02-EN-VV-General-Rules-v.1.4.pdf",
+      "nota": "Reglas de VV v1.4 (inglés), copia de abril 2025: se redirige."
+     },
+     {
+      "url": "https://peru.controlunion.com/wp-content/uploads/sites/5/2025/06/GEI.P12.CONTR_.A02-EN-VV-General-Rules-v.1.4.pdf",
+      "nota": "Reglas de VV v1.4 (inglés), copia de junio 2025: se redirige."
+     },
+     {
+      "url": "https://peru.controlunion.com/wp-content/uploads/sites/5/2025/04/GEI.P12.CONTR_.A02-ES-Reglas-Generales-de-VV-v.1.4.pdf",
+      "nota": "Reglas de VV v1.4 (castellano), copia de abril 2025: se redirige."
+     },
+     {
+      "url": "https://peru.controlunion.com/wp-content/uploads/sites/5/2025/06/GEI.P12.CONTR_.A02-ES-Reglas-Generales-de-VV-v.1.4.pdf",
+      "nota": "Reglas de VV v1.4 (castellano), copia de junio 2025: se redirige."
+     },
+     {
+      "url": "https://peru.controlunion.com/wp-content/uploads/sites/5/2026/05/GEI.P12.CONTR_.A02-ES-Reglas-Generales-de-VV-v.1.5.pdf",
+      "nota": "Versión vigente (v1.5), la que enlazan las páginas de verificación: destino."
+     },
+     {
+      "url": "https://peru.controlunion.com/en/verification-programs/",
+      "nota": "Enlace con texto equivocado («VV General Rules V1.4» apunta a la v1.5 en castellano)."
+     },
+     {
+      "url": "https://peru.controlunion.com/wp-content/uploads/sites/5/2023/08/MSC-General-Certification-Requirements-V2.7.pdf",
+      "nota": "Documento del MSC alojado en el sitio: se decide con la unidad."
+     },
+     {
+      "url": "https://peru.controlunion.com/wp-content/uploads/sites/5/2023/08/msc_chain_of_custody_standard_cfo_version_version_2_1.pdf",
+      "nota": "Documento del MSC alojado en el sitio: se decide con la unidad."
+     },
+     {
+      "url": "https://peru.controlunion.com/wp-content/uploads/sites/5/2025/01/UNE-EN-ISO-14046_2016_organized.pdf",
+      "nota": "Norma UNE-EN ISO 14046 completa: se decide con la unidad (mismo caso que ISO 14064, ya redirigida)."
+     },
+     {
+      "url": "https://peru.controlunion.com/wp-content/uploads/sites/5/2023/08/Sedex-Supplier-Manual-SMETA-7.0.pdf",
+      "nota": "Manual de Sedex: se deja; su demanda se lleva a la página de SMETA."
+     },
+     {
+      "url": "https://peru.controlunion.com/programa-de-certificacion/smeta/",
+      "nota": "La que se cambia: title, meta, H1 y una sección sobre SMETA 7.0."
+     }
+    ],
+    "acciones": [
+     "tecnico",
+     "contenido",
+     "revisar"
+    ],
+    "resumen": "Sacar del índice las versiones viejas de documentos propios con 301, decidir con la unidad los documentos de terceros y pasar a HTML la demanda que traía el manual de SMETA.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026 (todos los países). Manual de Sedex SMETA 7.0: 42.639 impr., 1.188 clics, pos. 7,5 («smeta 7.0 standard pdf» 981 impr. en pos. 2,3 con 133 clics; «smeta 7.0» 1.038 en pos. 8,7); 11.209 impr. en junio, 2.138 en agosto y 0 desde el 17 de agosto. Requisitos generales del MSC v2.7: 32.767 impr., 32 clics, CTR 0,10%; 13.912 en junio y 0 desde el 17 de agosto. Reglas de VV (GEI) v1.4: cuatro copias del mismo documento siguen indexadas (abril y junio 2025, inglés y castellano: 4.739 + 1.193 + 1.536 + 400 impr.) y se reparten «vvgr» (331 impr. en pos. 3,7 y 301 en pos. 4,5), mientras las páginas de verificación ya enlazan la v1.5 de mayo 2026. UNE-EN ISO 14046: 3.421 impr., 139 clics, 0 desde el 11 de agosto. En total, los PDF del sitio pasaron de 12.176 impr./semana (13–19 jul) a 1.278 (31 ago – 6 sep). El 28 oct todos estos PDF responden 200, sin noindex ni X-Robots-Tag.",
+    "ya_hecho": "En parte: la norma ISO 14064-1:2018 (4.229 impr. y 396 clics hasta el 20 mar) ya redirige 301 a https://peru.controlunion.com/programas-de-certificacion/ (verificado el 28 oct). Las páginas de verificación ya enlazan la v1.5 de las reglas de VV. Lo demás de septiembre (página HTML y noindex para los PDF) no se hizo.",
+    "pasos": [
+     {
+      "accion": "tecnico",
+      "titulo": "Redirigir las 4 copias viejas de las reglas de VV v1.4",
+      "donde": "Servidor de peru.controlunion.com (plugin de redirecciones de WordPress o .htaccess): pedir al responsable web de Control Union Perú",
+      "detalle": "Antes de cargar: confirmar con la unidad de verificación (GEI) que la v1.4 ya no tiene que quedar publicada. No hay v1.5 en inglés en el sitio (la URL equivalente da 404), por eso las copias en inglés van a la página de verificación en inglés.",
+      "items": [
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://peru.controlunion.com/en/verification-programs/",
+        "destino": "https://peru.controlunion.com/wp-content/uploads/sites/5/2025/04/GEI.P12.CONTR_.A02-EN-VV-General-Rules-v.1.4.pdf",
+        "motivo": "4.739 impr. y 23 clics; sigue apareciendo en septiembre (210 impr.) con una versión de reglas reemplazada."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://peru.controlunion.com/en/verification-programs/",
+        "destino": "https://peru.controlunion.com/wp-content/uploads/sites/5/2025/06/GEI.P12.CONTR_.A02-EN-VV-General-Rules-v.1.4.pdf",
+        "motivo": "Copia duplicada del mismo documento (1.193 impr.); compite con la de abril por «vvgr»."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://peru.controlunion.com/wp-content/uploads/sites/5/2026/05/GEI.P12.CONTR_.A02-ES-Reglas-Generales-de-VV-v.1.5.pdf",
+        "destino": "https://peru.controlunion.com/wp-content/uploads/sites/5/2025/04/GEI.P12.CONTR_.A02-ES-Reglas-Generales-de-VV-v.1.4.pdf",
+        "motivo": "1.536 impr.; la vigente es la v1.5 de mayo 2026, que ya enlazan https://peru.controlunion.com/programas-de-verificacion/ y https://peru.controlunion.com/en/verification-programs/."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://peru.controlunion.com/wp-content/uploads/sites/5/2026/05/GEI.P12.CONTR_.A02-ES-Reglas-Generales-de-VV-v.1.5.pdf",
+        "destino": "https://peru.controlunion.com/wp-content/uploads/sites/5/2025/06/GEI.P12.CONTR_.A02-ES-Reglas-Generales-de-VV-v.1.4.pdf",
+        "motivo": "Copia duplicada (400 impr.) de la misma v1.4."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Corregir el texto del enlace a las reglas en la página de verificación en inglés",
+      "donde": "https://peru.controlunion.com/en/verification-programs/",
+      "detalle": "El enlace dice «VV General Rules V1.4» pero abre la v1.5 en castellano.",
+      "items": [
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Anchor «VV General Rules v1.5 (Spanish)» hacia https://peru.controlunion.com/wp-content/uploads/sites/5/2026/05/GEI.P12.CONTR_.A02-ES-Reglas-Generales-de-VV-v.1.5.pdf",
+        "reemplaza": "VV General Rules V1.4",
+        "destino": "https://peru.controlunion.com/en/verification-programs/",
+        "motivo": "El texto actual promete otra versión y otro idioma. Si la unidad tiene la v1.5 en inglés, subirla y enlazarla en su lugar."
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "Decidir con la unidad los documentos de terceros alojados en el sitio",
+      "donde": "https://peru.controlunion.com/programa-de-certificacion/msc-marine-stewardship-council-es/ (sección «Documentos») y https://peru.controlunion.com/wp-content/uploads/sites/5/2025/01/UNE-EN-ISO-14046_2016_organized.pdf",
+      "detalle": "Son documentos del MSC y una norma UNE/ISO de pago alojados como PDF propio. Pedir respuesta al responsable de MSC/ASC y al de huella de Control Union Perú.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿El programa exige que el PDF del MSC esté alojado en el sitio? Si no: reemplazar el enlace «MSC General Certification Requirements V2.7» de la página MSC por el enlace a la página oficial del documento en msc.org y redirigir el PDF 301 → https://peru.controlunion.com/programa-de-certificacion/msc-marine-stewardship-council-es/. Si sí: subir la versión vigente (confirmar con la unidad cuál es) y redirigir la v2.7 a la nueva.",
+        "destino": "https://peru.controlunion.com/wp-content/uploads/sites/5/2023/08/MSC-General-Certification-Requirements-V2.7.pdf",
+        "motivo": "32.767 impr. y 32 clics (CTR 0,10%), fuera de los resultados desde el 17 ago: ya no trae tráfico y es una versión de 2023."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "Mismo criterio para «Estándar MSC de Cadena de Custodia Organización de cara al consumidor v2.1»: enlace a msc.org y 301 → https://peru.controlunion.com/programa-de-certificacion/msc-marine-stewardship-council-es/, o versión vigente.",
+        "destino": "https://peru.controlunion.com/wp-content/uploads/sites/5/2023/08/msc_chain_of_custody_standard_cfo_version_version_2_1.pdf",
+        "motivo": "2.097 impr. y 4 clics; 0 impr. desde agosto."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Control Union tiene permiso para publicar el texto completo de la UNE-EN ISO 14046:2016? Si no: retirarlo y redirigir 301 → https://peru.controlunion.com/programas-de-certificacion/, igual que ya se hizo con ISO 14064-1:2018.",
+        "destino": "https://peru.controlunion.com/wp-content/uploads/sites/5/2025/01/UNE-EN-ISO-14046_2016_organized.pdf",
+        "motivo": "Norma de pago publicada completa; 3.421 impr. y 139 clics, 0 desde el 11 ago. El antecedente de ISO 14064 ya está resuelto con 301."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Pasar la demanda de «smeta 7.0» a la página de SMETA",
+      "donde": "https://peru.controlunion.com/programa-de-certificacion/smeta/",
+      "detalle": "El manual de Sedex no se redirige (lo usan los clientes y está enlazado en «Documentos»), pero ya no aparece en Google: la página HTML tiene que responder lo que buscaban. Hoy el title y el H1 están en inglés o sin «Perú».",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Auditoría SMETA 2 y 4 pilares en Perú | Control Union",
+        "reemplaza": "SMETA - 2 pillar and 4 pillar assessments - Control Union Services",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "Title actual en inglés y sin país; «smeta» 2.717 impr. en pos. 4,4 con 7 clics, «auditoria smeta» 436, «smeta 4 pilares» 251."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Control Union audita SMETA de 2 y 4 pilares en Perú según la metodología de Sedex. Requisitos, versión 7.0 y cómo solicitar la auditoría.",
+        "reemplaza": "Control Union ofrece auditorías SMETA (Sedex Member Ethical Trade Audit), un método desarrollado por la iniciativa de consulta de múltiples partes interesadas, Sedex. El papel de SMETA es alinear los estándares de auditoría social y las prácticas de monitoreo, facilitar la carga de auditoría para los proveedores al compartir informes y fomentar mejoras en los estándares laborales de la cadena de suministro.",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "La meta actual tiene más de 400 caracteres y Google la corta; la nueva nombra la versión 7.0."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Auditoría SMETA de 2 y 4 pilares en Perú",
+        "reemplaza": "SMETA",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "El H1 actual es solo «SMETA»."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «SMETA 7.0: qué cambia en la auditoría» después de «Acerca del estándar»: qué es la versión 7.0, qué cambia frente a la 6.1 y enlace al manual de Sedex que ya está en «Documentos». Contenido de la versión: confirmar con la unidad.",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "«smeta 7.0» 1.038 impr. (pos. 8,7), «smeta 7.0 pdf» 237, «smeta version 7» 141 y «smeta 4 pilares versión 7 pdf» 236: hoy las atendía el PDF, que salió de los resultados el 17 ago."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "smeta 7.0",
+      "impr": 1038,
+      "pos": 8.7
+     },
+     {
+      "query": "smeta 7.0 standard pdf",
+      "impr": 981,
+      "pos": 2.3
+     },
+     {
+      "query": "smeta",
+      "impr": 2717,
+      "pos": 4.4
+     },
+     {
+      "query": "msc chain of custody certification requirements",
+      "impr": 506,
+      "pos": 11.1
+     },
+     {
+      "query": "vvgr",
+      "impr": 708,
+      "pos": 3.9
+     },
+     {
+      "query": "iso 14046",
+      "impr": 622,
+      "pos": 19.3
+     }
+    ],
+    "organico_desde": "Perú (peru.controlunion.com, todos los países)",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:peru-controlunion-com:login",
+   "marca": "CU",
+   "sitio": "peru.controlunion.com",
+   "titulo": "Login Perú: 301 de /en/login/ a /en/cis-login/, títulos que nombren ICU, CIS y CUCERT y sacar el _ga de 2023 del enlace a CIS",
+   "detalle": "«control union login» se reparte entre /en/cis-login/ y /en/login/, dos páginas iguales; /en/login/ además declara un hreflang hacia /login/, que hoy redirige 302 a la home. Se unifica con un 301, se ponen title y meta que nombren las tres plataformas y se limpia el enlace a CIS. Prioridad baja: el 97% de esas impresiones viene de India, Pakistán y Bangladés, no de clientes de Perú.",
+   "prioridad": "baja",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "peru.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://peru.controlunion.com/en/login/",
+      "nota": "Duplicada de /en/cis-login/: se redirige."
+     },
+     {
+      "url": "https://peru.controlunion.com/login/",
+      "nota": "Hoy redirige 302 a la home: pasa a 301 a /cis-login/."
+     },
+     {
+      "url": "https://peru.controlunion.com/cis-login/",
+      "nota": "La URL de acceso en castellano: title, meta y H1."
+     },
+     {
+      "url": "https://peru.controlunion.com/en/cis-login/",
+      "nota": "La URL de acceso en inglés: title y meta."
+     }
+    ],
+    "acciones": [
+     "tecnico",
+     "contenido"
+    ],
+    "resumen": "Una URL de acceso por idioma (/cis-login/ y /en/cis-login/), títulos claros y enlaces a CIS sin el parámetro _ga viejo.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026: /en/cis-login/ 3.093 impr. (pos. 7,9, 23 clics), /cis-login/ 1.707 (pos. 5,3, 104 clics) y /en/login/ 1.349 (pos. 7,6, 15 clics). «control union login» tuvo 2.320 impr. en /en/cis-login/ (pos. 8,3) y 975 en /en/login/ (pos. 7,6). De las 3.826 impr. de queries con «login», «log in» o «portal», solo 116 son de Perú (India 2.206, Pakistán 573, Bangladés 461): son clientes de otras filiales que buscan el portal. Quien busca desde Perú ya llega: «cis control union» 250 impr. en pos. 1,7 con 38 clics a /cis-login/. El 28 oct: /en/login/ y /en/cis-login/ muestran los mismos tres accesos (ICU, CIS, CUCERT), /en/login/ no tiene H1 ni meta, su hreflang es-PE apunta a /login/ (302 a la home) y el enlace a CIS del header y de las páginas de acceso lleva un parámetro _ga generado el 21 ago 2023. GA4 (1 dic 2025 – 22 oct 2026): /cis-login/ 129 vistas, /en/cis-login/ 50, /en/login/ 40.",
+    "ya_hecho": "Nada. El header ya enlaza directo a ICU y CIS (eso queda como está).",
+    "pasos": [
+     {
+      "accion": "tecnico",
+      "titulo": "Unificar las URL de acceso con 301",
+      "donde": "Servidor de peru.controlunion.com (plugin de redirecciones de WordPress): pedir al responsable web de Control Union Perú",
+      "detalle": "Después del 301, quitar /en/login/ del menú y del sitemap si figura.",
+      "items": [
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://peru.controlunion.com/en/cis-login/",
+        "destino": "https://peru.controlunion.com/en/login/",
+        "motivo": "Duplicada: mismos tres accesos que /en/cis-login/; se reparten «control union login» (975 y 2.320 impr.). Su hreflang apunta a una URL que redirige a la home."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://peru.controlunion.com/cis-login/",
+        "destino": "https://peru.controlunion.com/login/",
+        "motivo": "Hoy redirige 302 a la home: quien entra por /login/ busca el acceso de clientes, no la portada."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta y H1 de las páginas de acceso",
+      "donde": "https://peru.controlunion.com/cis-login/ y https://peru.controlunion.com/en/cis-login/",
+      "detalle": "Los nombres y la descripción de cada plataforma salen del menú «Client Access» de Control Union (ICU: textiles; CIS: resto de los programas; CUCERT: programas Aqua y Bio).",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Acceso de clientes: ICU, CIS y CUCERT | Control Union Perú",
+        "reemplaza": "Sistema de información al cliente  - Control Union Services – Perú",
+        "destino": "https://peru.controlunion.com/cis-login/",
+        "motivo": "El title actual no dice «acceso» ni nombra las plataformas que la gente busca («cis control union», «icu control union» 126 impr.)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "Acceda a las plataformas de clientes de Control Union: ICU (certificación textil), CIS (resto de los programas) y CUCERT (programas Aqua y Bio).",
+        "destino": "https://peru.controlunion.com/cis-login/",
+        "motivo": "La página no tiene meta description."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Acceso de clientes de Control Union",
+        "reemplaza": "Sistema de información al cliente",
+        "destino": "https://peru.controlunion.com/cis-login/",
+        "motivo": "H1 actual genérico."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Client login: ICU, CIS and CUCERT | Control Union Peru",
+        "reemplaza": "Login Client Information System  - Control Union Services - Peru",
+        "destino": "https://peru.controlunion.com/en/cis-login/",
+        "motivo": "Title actual con doble espacio; tiene que ganar «control union login» frente a /en/login/."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "Log in to Control Union client platforms: ICU (textile certification), CIS (all other programs) and CUCERT (Aqua and Bio programs).",
+        "destino": "https://peru.controlunion.com/en/cis-login/",
+        "motivo": "La página no tiene meta description."
+       }
+      ]
+     },
+     {
+      "accion": "tecnico",
+      "titulo": "Sacar el parámetro _ga del enlace a CIS",
+      "donde": "Header de peru.controlunion.com y cuerpo de https://peru.controlunion.com/cis-login/ y https://peru.controlunion.com/en/cis-login/",
+      "detalle": "El enlace a CIS lleva un identificador de Google Analytics fijo, generado el 21 ago 2023: le asigna a todos los visitantes el mismo identificador de cliente en el destino.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "url",
+        "texto": "https://cis.controlunion.com/login",
+        "reemplaza": "https://cis.controlunion.com/login?_ga=2.217190814.927875934.1692628077-1920851355.1683108588",
+        "destino": "Enlace «Log in to CIS» / «Acceder» (header, /cis-login/ y /en/cis-login/)",
+        "motivo": "Parámetro de vinculación de GA de 2023 copiado a mano: ensucia la medición en cis.controlunion.com."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "control union login",
+      "impr": 3295,
+      "pos": 8.1
+     },
+     {
+      "query": "cis control union",
+      "impr": 250,
+      "pos": 1.7
+     },
+     {
+      "query": "icu control union",
+      "impr": 251,
+      "pos": 3.4
+     }
+    ],
+    "organico_desde": "Perú (peru.controlunion.com, todos los países)",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:peru-controlunion-com:perdidas",
+   "marca": "CU",
+   "sitio": "peru.controlunion.com",
+   "titulo": "Pérdidas Perú: BAP pasó de pos. 4,6 a 9,3 y ETI de 2,4 a 4,5; proceso BAP en castellano, title de ETI y KOA en inglés",
+   "detalle": "De las cinco caídas de septiembre, dos son de demanda peruana y siguen: «bap» (de 404 impr./mes en pos. 4,6 a 104 en pos. 8,7) y «que es eti» (de 421 en pos. 2,4 a 177 en pos. 4,9). La página de BAP en castellano no tiene el proceso de certificación que sí tiene la inglesa y deja una lista de beneficios vacía; la de ETI tiene mal el nombre en el title. KOA perdió 26.228 impresiones sin un solo clic y de fuera de Perú: solo se corrige su title en inglés. «usda organic» no es pérdida (la página creció) y las de HACCP van en su tarjeta.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "peru.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://peru.controlunion.com/programa-de-certificacion/bap-best-aquaculture-practice/",
+      "nota": "La que se cambia: title, meta, sección de proceso y lista de beneficios."
+     },
+     {
+      "url": "https://peru.controlunion.com/en/certification-program/bap-best-aquaculture-practice/",
+      "nota": "Fuente del texto del proceso (ya publicado en inglés)."
+     },
+     {
+      "url": "https://peru.controlunion.com/programa-de-certificacion/eti-ethical-trading-initiative/",
+      "nota": "La que se cambia: title, meta y H2 de definición."
+     },
+     {
+      "url": "https://peru.controlunion.com/en/certification-program/koa-korea-organic-aquaculture/",
+      "nota": "Versión inglesa con title y meta en castellano (opcional)."
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Recuperar BAP y ETI con contenido que responda la búsqueda y corregir el idioma del title de KOA.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026. «bap»: 1.070 impr. (837 desde Perú), de 404 impr. en marzo (pos. 4,6) a 104 en agosto (pos. 8,7) y 48 en 1–14 sep (pos. 9,3); la página BAP en castellano bajó de 838 impr./mes a 220–363. «que es eti»: 1.585 impr., de 421 en marzo (pos. 2,4) a 177 en agosto (pos. 4,9); «eti» de pos. 2,7 a 6,9; la página ETI bajó de 4.643 impr./mes a 2.889. KOA en inglés: 26.228 impr. y 0 clics hasta junio, 8 en julio y 0 después; «koa certification» venía de Brasil (5.623), Vietnam (2.488), Colombia (2.487), Rusia (2.379) y Ecuador (2.322), no de Perú. «usda organic» bajó (396 → 59) pero la página USDA-NOP subió de 904 impr./mes en marzo a 7.879 en julio. El 28 oct: la página BAP en castellano no tiene el proceso (la inglesa tiene 7 pasos) y su sección «Características» termina en «Algunos de los principales beneficios incluyen:» sin lista; el title de ETI dice «Ethical Trade Initiative» (el nombre es Ethical Trading Initiative); la URL inglesa de KOA tiene title y meta en castellano. GA4 (1 dic 2025 – 22 oct 2026): BAP 43 vistas, ETI 44.",
+    "ya_hecho": "Nada. El hreflang y el canonical de las tres páginas están bien (28 oct).",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "BAP en castellano: title, meta, proceso y beneficios",
+      "donde": "https://peru.controlunion.com/programa-de-certificacion/bap-best-aquaculture-practice/",
+      "detalle": "El proceso se traduce de la versión inglesa, que ya está publicada y validada. La lista de beneficios la completa la unidad de acuicultura.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificación BAP en Perú (acuicultura) | Control Union",
+        "reemplaza": "BAP - Best Aquaculture Practice  - Control Union Services – Perú",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/bap-best-aquaculture-practice/",
+        "motivo": "Title actual con doble espacio y «Practice» en singular; «certificacion bap» rinde en pos. 4,7 (3 clics de 69 impr.)."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Control Union certifica BAP (Best Aquaculture Practices) en Perú: granjas, plantas, criaderos y fábricas de alimento. Proceso y requisitos.",
+        "reemplaza": "BAP es el primer programa integral de certificación de acuicultura con presencia mundial reconocido por la Iniciativa Mundial de Productos del Mar Sostenibles (GSSI) y la Iniciativa Mundial de Seguridad Alimentaria (GFSI).",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/bap-best-aquaculture-practice/",
+        "motivo": "La meta actual describe el programa pero no dice que Control Union lo certifica en Perú."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Proceso de certificación BAP» con 7 pasos traducidos de la versión inglesa: Solicitud (formulario y autoevaluación ante BAP) · Coordinación de la auditoría (contrato con Control Union) · Planificación · Inspección en sitio y cierre de no conformidades · Certificación (revisión técnica y decisión) · Aprobación y pago (BAP emite el certificado) · Mantenimiento (recertificación anual).",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/bap-best-aquaculture-practice/",
+        "motivo": "La versión inglesa ya lo tiene; la castellana, que es la que rankea para «bap» desde Perú, no. Se perdió posición de 4,6 a 9,3."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Completar la lista que sigue a «Algunos de los principales beneficios incluyen:» con 4 o 5 beneficios (acceso a compradores que exigen BAP, reconocimiento GFSI y GSSI, inclusión en el listado de BAP, uso del logo). Confirmar con la unidad.",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/bap-best-aquaculture-practice/",
+        "motivo": "Hoy la frase queda colgada sin lista: página incompleta."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "ETI: title con el nombre correcto, meta y H2 de definición",
+      "donde": "https://peru.controlunion.com/programa-de-certificacion/eti-ethical-trading-initiative/",
+      "detalle": "La definición ya existe en «Acerca del estándar»: se cambia el H2 para que responda la pregunta.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "ETI: qué es y auditoría del Código Base | Control Union",
+        "reemplaza": "ETI - Ethical Trade Initiative - Control Union Services (Perú)",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/eti-ethical-trading-initiative/",
+        "motivo": "«que es eti» (1.585 impr.) y «eti que es» (529) son la mitad de la demanda; el title actual tiene mal el nombre."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "La ETI (Ethical Trading Initiative) es una alianza por condiciones laborales justas. Control Union audita el Código Base de la ETI en Perú.",
+        "reemplaza": "La Iniciativa de Comercio Ético (ETI) es una alianza de empresas, sindicatos y organizaciones voluntarias. La ETI trabaja en todo el mundo para mejorar las condiciones laborales de las personas que cultivan materias primas o producen bienes de consumo. Las auditorías se centran en la libertad de asociación, la ausencia de trabajo infantil y la seguridad de unas condiciones laborales saludables.",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/eti-ethical-trading-initiative/",
+        "motivo": "La meta actual pasa de 300 caracteres y Google la corta."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Cambiar el H2 «Acerca del estándar» por «¿Qué es la ETI (Ethical Trading Initiative)?»",
+        "reemplaza": "Acerca del estándar",
+        "destino": "https://peru.controlunion.com/programa-de-certificacion/eti-ethical-trading-initiative/",
+        "motivo": "La respuesta ya está debajo de ese H2; con la pregunta como encabezado, Google la toma para «que es eti» (pos. 2,4 en marzo, 4,9 en agosto)."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "KOA en inglés: title y meta en inglés (opcional)",
+      "donde": "https://peru.controlunion.com/en/certification-program/koa-korea-organic-aquaculture/",
+      "detalle": "No hay demanda peruana: es un arreglo de idioma, sin trabajo de contenido.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "KOA – Korea Organic Aquaculture | Control Union Peru",
+        "reemplaza": "Acuicultura Orgánica de Corea (KOA) - Control Union Services - Perú",
+        "destino": "https://peru.controlunion.com/en/certification-program/koa-korea-organic-aquaculture/",
+        "motivo": "La URL inglesa muestra el title en castellano; salió de los resultados en julio (26.228 impr. hasta junio, 0 clics).",
+        "opcional": true
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "KOA (Korea Organic Aquaculture) certifies organic aquaculture products for the Korean market. Control Union Korea is accredited by NFQS.",
+        "reemplaza": "El programa de certificación de Acuicultura Orgánica de Corea (KOA) es un sistema para la certificación de mariscos orgánicos obtenidos a través de la pesca respetuosa con el medio ambiente o de alimentos fabricados, procesados y distribuidos utilizando mariscos orgánicos como materias primas o entidades que manejan esos productos (solo productos de acuicultura). Control Union Corea está acreditada por el NFQS (Servicio Nacional de Gestión de Calidad de Productos de Pesca) para actividades de certificación nacional relacionadas con productos pesqueros orgánicos y alimentos procesados orgánicos (número de organismo de certificación 103).",
+        "destino": "https://peru.controlunion.com/en/certification-program/koa-korea-organic-aquaculture/",
+        "motivo": "La meta actual está en castellano y tiene más de 500 caracteres. Dato de acreditación tomado de la propia página (NFQS, organismo n.º 103).",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "bap",
+      "impr": 1070,
+      "pos": 6.5
+     },
+     {
+      "query": "certificacion bap",
+      "impr": 69,
+      "pos": 4.7
+     },
+     {
+      "query": "eti",
+      "impr": 5679,
+      "pos": 4.7
+     },
+     {
+      "query": "que es eti",
+      "impr": 1585,
+      "pos": 4.0
+     },
+     {
+      "query": "eti que es",
+      "impr": 529,
+      "pos": 5.9
+     },
+     {
+      "query": "koa certification",
+      "impr": 26177,
+      "pos": 6.8
+     }
+    ],
+    "organico_desde": "Perú (peru.controlunion.com, todos los países)",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:brasil-controlunion-com:gmp",
+   "marca": "CU",
+   "sitio": "brasil.controlunion.com",
+   "titulo": "GMP+ Brasil: title, meta y H1 propios, texto en portugués de Brasil, 4 secciones nuevas y enlace desde la industria de ración",
+   "detalle": "La página de GMP+ tiene 12.547 impresiones en posición 9,0 pero es casi vacía: un solo bloque «Sobre a norma» escrito en portugués europeo, el mismo title que la versión inglesa («GMP+ | Control Union Brasil») y ningún enlace desde la página de industria de alimentación animal. Se reescriben title, meta y H1, se pasa el texto a portugués de Brasil y se agregan secciones sobre GMP+ FSA, GMP+ FRA, quién la necesita y el proceso. No se apunta a «gmp» solo: mezcla búsquedas de BPF.",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "brasil.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+      "nota": "La que se cambia: title, meta, H1, texto y secciones nuevas."
+     },
+     {
+      "url": "https://brasil.controlunion.com/en/certification-program/gmp/",
+      "nota": "Versión inglesa: solo title propio."
+     },
+     {
+      "url": "https://brasil.controlunion.com/industry/seguranca-da-alimentacao-animal/",
+      "nota": "Origen de un enlace interno nuevo."
+     },
+     {
+      "url": "https://brasil.controlunion.com/service/certificacoes/",
+      "nota": "Origen de un enlace interno nuevo."
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Convertir la página de GMP+ en una página completa en portugués de Brasil, centrada en GMP+ FSA y FRA.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026: la página en portugués tuvo 12.547 impr., 101 clics, pos. 9,0; la inglesa 2.303 impr. en pos. 17,9. «gmp» 3.722 impr. en pos. 10,7 con 3 clics (búsqueda ambigua: incluye Boas Práticas de Fabricação); «gmp+» 1.525 en pos. 5,6 con 12 clics; «gmp fsa» se pierde en las dos versiones (765 impr. en pos. 22,5 en la inglesa y 241 en pos. 31,0 en la portuguesa); «gmp+fsa» 466 en pos. 5,8; «gmp brasil» 324 en pos. 7,3; «certificação gmp+» 151 en pos. 3,5 con 6 clics; «gmp+ o que é» 149 en pos. 5,6. El 28 oct: title idéntico en portugués e inglés, H1 «GMP+», un solo bloque de texto con formas de Portugal («Controlo», «sector», «Gerirá») y la página de industria de alimentación animal no enlaza a GMP+. GA4 (1 dic 2025 – 22 oct 2026): 151 vistas.",
+    "ya_hecho": "Nada del contenido. El hreflang pt-BR/en-BR y el canonical ya están bien (28 oct).",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta y H1 propios",
+      "donde": "https://brasil.controlunion.com/programas-de-certificacao/gmp/ y https://brasil.controlunion.com/en/certification-program/gmp/",
+      "detalle": "Hoy las dos versiones tienen el mismo title. La meta portuguesa pasa de 300 caracteres.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificação GMP+ FSA e FRA para rações | Control Union",
+        "reemplaza": "GMP+ | Control Union Brasil",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "motivo": "Nombra los dos módulos y el producto («gmp+fsa» 466, «gmp+ fsa» 161, «certificação gmp+» 151); hoy es igual al de la versión inglesa."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "A Control Union certifica GMP+ FSA (segurança de rações) e GMP+ FRA (produção responsável) no Brasil. Requisitos, etapas da auditoria e contato.",
+        "reemplaza": "A Control Union oferece a certificação dos dois módulos do esquema de certificação alimentar GMP+ 2020 (esquema GMP+ FC 2020), do módulo GMP+ Feed Safety Assurance (GMP+ FSA) para Animal Feed Safety Assurance e do módulo GMP+ Feed Responsibility Assurance (GMP+ FRA) para facilitar a produção responsável de alimentos para animais.",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "motivo": "La meta actual tiene 331 caracteres y Google la corta."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificação GMP+ FSA e GMP+ FRA",
+        "reemplaza": "GMP+",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "motivo": "H1 actual «GMP+» solo."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "GMP+ FSA and FRA certification in Brazil | Control Union",
+        "reemplaza": "GMP+ | Control Union Brasil",
+        "destino": "https://brasil.controlunion.com/en/certification-program/gmp/",
+        "motivo": "Diferencia la versión inglesa de la portuguesa; hoy comparten title."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Pasar el texto actual a portugués de Brasil",
+      "donde": "https://brasil.controlunion.com/programas-de-certificacao/gmp/ (bloque «Sobre a norma»)",
+      "detalle": "Tres cambios puntuales en el texto que ya está publicado.",
+      "items": [
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Análise de Perigos e Pontos Críticos de Controle (HACCP)",
+        "reemplaza": "Análise de Perigos e Pontos Críticos de Controlo (HACCP)",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "motivo": "Forma de Portugal en un sitio de Brasil."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "toda a cadeia do setor de alimentação animal",
+        "reemplaza": "toda a cadeia do sector da alimentação animal",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "motivo": "Forma de Portugal («sector», «ao»)."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Sua empresa vai gerenciar melhor os riscos internos",
+        "reemplaza": "Gerirá melhor os riscos internos",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "motivo": "«Gerirá» no se usa en Brasil."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Agregar 4 secciones nuevas con su H2",
+      "donde": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+      "detalle": "Debajo de «Sobre a norma». En portugués de Brasil, con «certificamos/auditamos». Lo marcado se confirma con la unidad de alimentación animal de Control Union Brasil.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «O que é GMP+ FSA»: módulo de segurança de rações do esquema GMP+ FC, baseado em ISO 22000 e HACCP, para toda a cadeia (comércio, armazenagem, transbordo, transporte, ingredientes, pré-misturas e rações compostas).",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "motivo": "«gmp fsa» suma 1.006 impr. y la página no aparece en primera página (pos. 22,5 y 31,0); «gmp+ o que é» 149 impr."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «GMP+ FRA: produção responsável de rações»: qué cubre el módulo FRA y para quién es (por ejemplo, soja responsável). Alcance de FRA en Brasil: confirmar com a unidade.",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "motivo": "Hoy FRA aparece en una sola frase; la meta y el title nuevos lo nombran."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Quem precisa da certificação GMP+»: fábricas de ração e pré-mistura, tradings e armazéns de grãos e farelos, transportadoras, exportadores para a Europa.",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "motivo": "«gmp brasil» 324 impr. (pos. 7,3), «certificação gmp» 240 (pos. 7,7), «certificado gmp» 138."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Como é a auditoria GMP+ com a Control Union»: solicitação e proposta, auditoria inicial, tratamento de não conformidades, decisão e registro no banco de dados GMP+, auditorias de manutenção. Prazos e frequência: confirmar com a unidade.",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "motivo": "La página no dice cómo se pide la certificación; «certificação gmp+» es la query que mejor convierte (6 clics de 151 en pos. 3,5)."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Sumar 2 enlaces internos hacia GMP+",
+      "donde": "Páginas de brasil.controlunion.com",
+      "detalle": "Ninguna de las dos enlaza hoy a GMP+ (revisado el 28 oct).",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://brasil.controlunion.com/industry/seguranca-da-alimentacao-animal/, anchor «certificação GMP+», hacia https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "destino": "https://brasil.controlunion.com/industry/seguranca-da-alimentacao-animal/",
+        "motivo": "Es la página de industria de alimentación animal y no enlaza al programa principal de ese sector."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://brasil.controlunion.com/service/certificacoes/, anchor «GMP+ FSA (rações)», hacia https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+        "destino": "https://brasil.controlunion.com/service/certificacoes/",
+        "motivo": "Página de servicio con 4.031 impr. y pos. 3,4: buen origen de autoridad."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "gmp",
+      "impr": 3722,
+      "pos": 10.7
+     },
+     {
+      "query": "gmp+",
+      "impr": 1525,
+      "pos": 5.6
+     },
+     {
+      "query": "gmp fsa",
+      "impr": 765,
+      "pos": 22.5
+     },
+     {
+      "query": "gmp+fsa",
+      "impr": 466,
+      "pos": 5.8
+     },
+     {
+      "query": "gmp brasil",
+      "impr": 324,
+      "pos": 7.3
+     },
+     {
+      "query": "certificação gmp",
+      "impr": 240,
+      "pos": 7.7
+     },
+     {
+      "query": "certificação gmp+",
+      "impr": 151,
+      "pos": 3.5
+     },
+     {
+      "query": "gmp+ o que é",
+      "impr": 149,
+      "pos": 5.6
+     }
+    ],
+    "organico_desde": "Brasil (brasil.controlunion.com, todos los países)",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:brasil-controlunion-com:versiones-en",
+   "marca": "CU",
+   "sitio": "brasil.controlunion.com",
+   "titulo": "PT vs EN Brasil: el hreflang ya está; faltan title y meta en portugués en PEFC y SMETA y enlazar entre sí las dos ISCC",
+   "detalle": "El hreflang pt-BR/en-BR que pedía septiembre ya está en todas las páginas revisadas. Lo que sigue mezclando idiomas es el texto: PEFC en portugués tiene la meta en inglés (idéntica a la versión inglesa) y SMETA tiene title y H1 en inglés. Además «iscc» se reparte entre dos páginas portuguesas de programas distintos (ISCC EU e ISCC PLUS) que no se enlazan entre sí.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "brasil.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://brasil.controlunion.com/programas-de-certificacao/pefc/",
+      "nota": "Title, meta y H1 en portugués."
+     },
+     {
+      "url": "https://brasil.controlunion.com/en/certification-program/pefc/",
+      "nota": "Versión inglesa (no se toca)."
+     },
+     {
+      "url": "https://brasil.controlunion.com/programas-de-certificacao/smeta/",
+      "nota": "Title, meta y H1 en portugués."
+     },
+     {
+      "url": "https://brasil.controlunion.com/programas-de-certificacao/iscc-certified-biomass-and-bioenergy/",
+      "nota": "Enlace hacia ISCC PLUS."
+     },
+     {
+      "url": "https://brasil.controlunion.com/programas-de-certificacao/iscc-plus/",
+      "nota": "Enlace hacia ISCC EU."
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Que cada página portuguesa esté en portugués de punta a punta, y que las dos ISCC se distingan y se enlacen.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026: «pefc» 385 impr. en la portuguesa (pos. 7,6) y 762 en la inglesa (pos. 48,7); la portuguesa tuvo 948 impr. y 2 clics en todo el período. «smeta» 2.282 impr. en pos. 8,0 con 4 clics en la portuguesa (5.616 impr. y 24 clics en total); la inglesa aparece en pos. 25–46 para «smeta 2-pillar audit» y «smeta 4 pillar». «iscc» 1.833 impr. repartidas entre ISCC EU (1.030, pos. 7,1) e ISCC PLUS (775, pos. 7,4). El 28 oct: PEFC en portugués tiene la meta en inglés idéntica a la inglesa («Responsible and sustainable forest management…») y el title en inglés; SMETA en portugués tiene title y H1 «2 pillar and 4 pillar assessments»; ISCC EU e ISCC PLUS solo se enlazan a sí mismas y a su versión inglesa.",
+    "ya_hecho": "El hreflang (pt-BR, en-BR y x-default) y el canonical por idioma ya están en GMP+, PEFC, SMETA, ISCC y Contato (verificado el 28 oct): lo que pedía septiembre está hecho. GMP+ se trabaja en su propia tarjeta.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "PEFC en portugués: title, meta y H1",
+      "donde": "https://brasil.controlunion.com/programas-de-certificacao/pefc/",
+      "detalle": "El texto de la página ya está en portugués; solo faltan los campos SEO y el H1. Alcance (cadeia de custódia, manejo florestal, CERFLOR): confirmar com a unidade antes de nombrarlo.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificação PEFC no Brasil | Control Union",
+        "reemplaza": "PEFC - Program for the Endorsement of Forest Certification | Control Union Brasil",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/pefc/",
+        "motivo": "Title actual en inglés; «pefc» 385 impr. en pos. 7,6 con 0 clics."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "A Control Union certifica a cadeia de custódia PEFC no Brasil: origem florestal responsável, selo PEFC e registro no banco de dados internacional.",
+        "reemplaza": "Responsible and sustainable forest management has become a vital issue during the past decades. Inadequate and improper forest management practices are threatening the long-term viability of many forests. This reduces their economic potential significantly, resulting in negative social and environmental impacts.",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/pefc/",
+        "motivo": "La meta actual está en inglés y es idéntica a la de la versión inglesa: Google no distingue las dos."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificação PEFC de cadeia de custódia",
+        "reemplaza": "PEFC – Program for the Endorsement of Forest Certification",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/pefc/",
+        "motivo": "H1 actual con el nombre en inglés."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "SMETA en portugués: title, meta y H1",
+      "donde": "https://brasil.controlunion.com/programas-de-certificacao/smeta/",
+      "detalle": "Title y H1 hoy en inglés; la meta pasa de 400 caracteres.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Auditoria SMETA 2 e 4 pilares no Brasil | Control Union",
+        "reemplaza": "SMETA - 2 pillar and 4 pillar assessments | Control Union Brasil",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/smeta/",
+        "motivo": "«smeta» 2.282 impr. en pos. 8,0; «smeta certificação» 152, «certificação smeta» 142, «smeta auditoria» 127."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "A Control Union realiza auditorias SMETA de 2 e 4 pilares no Brasil, conforme a metodologia Sedex. Requisitos, etapas e como solicitar.",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/smeta/",
+        "motivo": "La meta actual tiene 438 caracteres."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Auditoria SMETA de 2 e 4 pilares",
+        "reemplaza": "SMETA – 2 pillar and 4 pillar assessments",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/smeta/",
+        "motivo": "H1 actual en inglés."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Enlazar entre sí ISCC EU e ISCC PLUS",
+      "donde": "https://brasil.controlunion.com/programas-de-certificacao/iscc-certified-biomass-and-bioenergy/ y https://brasil.controlunion.com/programas-de-certificacao/iscc-plus/",
+      "detalle": "No se fusionan: son programas distintos. Un párrafo corto en cada una que diga para qué es la otra.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://brasil.controlunion.com/programas-de-certificacao/iscc-certified-biomass-and-bioenergy/, anchor «ISCC PLUS (mercados fora dos biocombustíveis da UE)», hacia https://brasil.controlunion.com/programas-de-certificacao/iscc-plus/",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/iscc-certified-biomass-and-bioenergy/",
+        "motivo": "«iscc» 1.833 impr. repartidas (1.030 y 775) en pos. 7: el enlace ayuda a Google y al usuario a elegir la correcta."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://brasil.controlunion.com/programas-de-certificacao/iscc-plus/, anchor «ISCC EU (biocombustíveis para a UE)», hacia https://brasil.controlunion.com/programas-de-certificacao/iscc-certified-biomass-and-bioenergy/",
+        "destino": "https://brasil.controlunion.com/programas-de-certificacao/iscc-plus/",
+        "motivo": "Mismo motivo; «iscc plus» (366 impr., pos. 4,9) ya cae bien en ISCC PLUS."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "pefc",
+      "impr": 385,
+      "pos": 7.6
+     },
+     {
+      "query": "pefc certification",
+      "impr": 774,
+      "pos": 25.2
+     },
+     {
+      "query": "smeta",
+      "impr": 2282,
+      "pos": 8.0
+     },
+     {
+      "query": "iscc",
+      "impr": 1833,
+      "pos": 7.2
+     },
+     {
+      "query": "iscc plus",
+      "impr": 366,
+      "pos": 4.9
+     }
+    ],
+    "organico_desde": "Brasil (brasil.controlunion.com, todos los países)",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:brasil-controlunion-com:contacto",
+   "marca": "CU",
+   "sitio": "brasil.controlunion.com",
+   "titulo": "Contato Brasil: H1 que falta, title con Santos y São Paulo, y un H2 por empresa (Ltda, Warrants, Certificates)",
+   "detalle": "La versión en portugués ya existe y es la que más rinde (/contato/: 11.065 impr., 203 clics). /en/contact/ suma 7.280 impresiones con CTR 0,44% por búsquedas de marca, y en 1–14 sep saltó a 3.043. Las dos páginas no tienen H1 y el title no nombra las oficinas ni las tres empresas que la gente busca («control union warrants ltda», «control union santos»). Los sitelinks no se pueden elegir: se mejora la página para que Google la muestre bien.",
+   "prioridad": "baja",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "brasil.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://brasil.controlunion.com/contato/",
+      "nota": "La que se cambia: title, meta, H1 y H2 por empresa."
+     },
+     {
+      "url": "https://brasil.controlunion.com/en/contact/",
+      "nota": "La versión inglesa: title y H1."
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Que las páginas de contacto digan en el title y en los encabezados qué empresa está en qué ciudad.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026: /contato/ 11.065 impr., 203 clics, pos. 4,0; /en/contact/ 7.280 impr., 32 clics, pos. 5,2, CTR 0,44% (616–1.191 impr./mes y 3.043 en 1–14 sep). Queries de /contato/: «control union» 3.679 (pos. 2,9, 39 clics), «controlunion» 522, «control union warrants ltda» 472 (pos. 3,3), «control union brasil» 298 (pos. 1,7), «control union santos» 154 (pos. 2,3). En /en/contact/ entran las mismas: «control union» 645, «control union warrants ltda» 261, «control union brasil» 246, «control union warrants» 160 (pos. 5,7). El 28 oct: ninguna de las dos tiene H1; el title es «Contato | Control Union Brasil»; la página lista tres empresas (Control Union Ltda en Santos y São Paulo, Control Union Warrants y Associação Control Union Certificates en São Paulo) sin encabezados. GA4 (1 dic 2025 – 22 oct 2026): /contato/ 1.132 vistas, /en/contact/ 136.",
+    "ya_hecho": "La versión en portugués que pedía septiembre ya existe (/contato/) y el hreflang pt-BR/en-BR está bien.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta y H1 de /contato/",
+      "donde": "https://brasil.controlunion.com/contato/",
+      "detalle": "Datos de direcciones tomados de la propia página.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Contato: escritórios em Santos e São Paulo | Control Union",
+        "reemplaza": "Contato | Control Union Brasil",
+        "destino": "https://brasil.controlunion.com/contato/",
+        "motivo": "«control union santos» (154 impr.) y búsquedas de dirección («av brigadeiro faria lima 1306»): el title actual no nombra las ciudades."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Fale com a Control Union no Brasil: Control Union Ltda (Santos e São Paulo), Control Union Warrants e Control Union Certificates. Telefones e e-mails.",
+        "reemplaza": "Consulte a localização dos nossos escritórios no Brasil e globalmente através do link abaixo. Estamos presentes em Santos, São Paulo e em diversas regiões ao redor do mundo.",
+        "destino": "https://brasil.controlunion.com/contato/",
+        "motivo": "La meta actual remite a «link abaixo» y no nombra las empresas que se buscan."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "h1",
+        "texto": "Contato – Control Union Brasil",
+        "destino": "https://brasil.controlunion.com/contato/",
+        "motivo": "La página no tiene H1."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Un H2 por empresa en /contato/",
+      "donde": "https://brasil.controlunion.com/contato/",
+      "detalle": "Hoy los nombres de las empresas son texto suelto. Convertirlos en H2, con la dirección y el teléfono debajo, como ya están.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Control Union Ltda – Santos e São Paulo» (Av. Afonso Pena, 437, Santos; Av. Brigadeiro Faria Lima, 1306, São Paulo)",
+        "destino": "https://brasil.controlunion.com/contato/",
+        "motivo": "«control union santos» 154 impr. y «control union ltda» 129: coinciden con este encabezado."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Control Union Warrants – São Paulo»",
+        "destino": "https://brasil.controlunion.com/contato/",
+        "motivo": "«control union warrants ltda» 472 impr. (pos. 3,3) y «control union warrants» en /en/contact/ 160 (pos. 5,7)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «Associação Control Union Certificates – São Paulo»",
+        "destino": "https://brasil.controlunion.com/contato/",
+        "motivo": "Tercera empresa de la página, hoy sin encabezado."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Title y H1 de /en/contact/",
+      "donde": "https://brasil.controlunion.com/en/contact/",
+      "detalle": "Mismo criterio en inglés.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Contact: offices in Santos and São Paulo | Control Union",
+        "reemplaza": "Contact | Control Union Brasil",
+        "destino": "https://brasil.controlunion.com/en/contact/",
+        "motivo": "7.280 impr. con CTR 0,44% para búsquedas de marca; el title actual no dice dónde están."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "h1",
+        "texto": "Contact – Control Union Brasil",
+        "destino": "https://brasil.controlunion.com/en/contact/",
+        "motivo": "La página no tiene H1."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "control union",
+      "impr": 4324,
+      "pos": 3.0
+     },
+     {
+      "query": "control union warrants ltda",
+      "impr": 733,
+      "pos": 2.8
+     },
+     {
+      "query": "control union brasil",
+      "impr": 544,
+      "pos": 1.6
+     },
+     {
+      "query": "control union santos",
+      "impr": 245,
+      "pos": 2.8
+     }
+    ],
+    "organico_desde": "Brasil (brasil.controlunion.com, todos los países)",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:chile-controlunion-com:brcgs-y-smeta",
+   "marca": "CU",
+   "sitio": "chile.controlunion.com",
+   "titulo": "BRCGS y SMETA Chile (pos. 9,5 y 8,9): title y H1 nuevos, H2 de definición y 5 enlaces internos desde IFS, GRASP y Certificaciones",
+   "detalle": "BRCGS (1.335 impr., pos. 9,5) y SMETA (814 impr., pos. 8,9) siguen al borde de la primera página. BRCGS ya sumó preguntas frecuentes, pero el title no dice «certificación» ni «Chile»; SMETA tiene el title en inglés y el H1 es solo «SMETA». Ninguna página con tráfico del sitio, salvo la industria de seguridad alimentaria, las enlaza. Se cambian title, meta y H1, se agrega la definición como H2 y cinco enlaces internos.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "chile.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://chile.controlunion.com/programa-de-certificacion/brcgs/",
+      "nota": "Title, meta, H1 y H2 de definición."
+     },
+     {
+      "url": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+      "nota": "Title, meta, H1, H2 de 2 y 4 pilares y una frase a corregir."
+     },
+     {
+      "url": "https://chile.controlunion.com/programa-de-certificacion/ifs-food/",
+      "nota": "Origen de un enlace interno."
+     },
+     {
+      "url": "https://chile.controlunion.com/service/certificaciones/",
+      "nota": "Origen de dos enlaces internos."
+     },
+     {
+      "url": "https://chile.controlunion.com/programa-de-certificacion/grasp/",
+      "nota": "Origen de un enlace interno."
+     },
+     {
+      "url": "https://chile.controlunion.com/industry/textiles/",
+      "nota": "Origen de un enlace interno."
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Subir BRCGS y SMETA a primera página con title/H1 que nombren la certificación en Chile y enlaces desde las páginas con más tráfico.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026 (todos los países): BRCGS 3.186 impr., 25 clics, pos. 9,0 («brcgs» 1.335 en pos. 9,5 con 1 clic; «certificacion brcgs» 133 en pos. 11,6; «brcgs significado» 117; «certificación brc chile» 88 en pos. 28,6; «brcgs que es» 56; «que es brcgs» 46). SMETA 3.901 impr., 27 clics, pos. 7,8 («smeta» 814 en pos. 8,9 con 0 clics; «auditoria smeta» 232; «smeta 4 pilares» 220; «sedex smeta» 164; «smeta certificacion» 138 con 3 clics; «que es smeta» 80). El 28 oct: title de BRCGS «BRCGS - Control Union Chile - Certificaciones» y meta de más de 500 caracteres; SMETA con title en inglés, H1 «SMETA» y la frase «iniciativa de consultoría de múltiples grupos de interés»; ni IFS Food (2.504 impr.), ni GRASP (2.980), ni Certificaciones (1.451), ni Textiles (600) enlazan a BRCGS o SMETA. GA4 (1 dic 2025 – 22 oct 2026): BRCGS 68 vistas, SMETA 46.",
+    "ya_hecho": "En parte: BRCGS ya tiene una sección «Preguntas frecuentes» con 5 preguntas y la página de industria https://chile.controlunion.com/industry/seguridad-alimentaria/ ya enlaza a BRCGS (verificado el 28 oct). Falta lo demás.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "BRCGS: title, meta, H1 y H2 de definición",
+      "donde": "https://chile.controlunion.com/programa-de-certificacion/brcgs/",
+      "detalle": "Los cuatro estándares acreditados salen de la meta actual de la página (RvA-C412).",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificación BRCGS en Chile | Control Union",
+        "reemplaza": "BRCGS - Control Union Chile - Certificaciones",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/brcgs/",
+        "motivo": "«certificacion brcgs» 133 impr. en pos. 11,6 y «certificación brc chile» 88 en pos. 28,6: el title actual no dice ninguna de las dos cosas."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Control Union certifica BRCGS en Chile: Food Safety, Packaging Materials, Agents and Brokers y Storage and Distribution. Proceso y preguntas.",
+        "reemplaza": "BRCGS especifica lo que se requiere de las organizaciones, así como ayuda a brindar confianza a los clientes de que los productos han sido fabricados y manejados de acuerdo con los más altos estándares internacionales reconocidos en cuanto a seguridad alimentaria y calidad. Control Union Certifications BV está acreditada solo para cuatro de los estándares: Seguridad Alimentaria, Materiales de Embalaje, Agentes y Corredores, y Almacenamiento y Distribución, por la RVA bajo el número de registro RvA-C412 Productos.",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/brcgs/",
+        "motivo": "La meta actual pasa de 500 caracteres y Google la corta antes de llegar a los estándares."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificación BRCGS en Chile",
+        "reemplaza": "BRCGS – Brand Reputation Compliance Global Standards",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/brcgs/",
+        "motivo": "El H1 actual es el nombre largo del estándar; el nombre completo pasa al primer párrafo."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Cambiar el H2 «Acerca del estándar» por «¿Qué es BRCGS?»",
+        "reemplaza": "Acerca del estándar",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/brcgs/",
+        "motivo": "«brcgs significado» 117, «brcgs que es» 56, «que es brcgs» 46 y «que es el brcgs» 13: la respuesta ya está debajo."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "SMETA: title, meta, H1, H2 de pilares y una frase",
+      "donde": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+      "detalle": "El párrafo sobre 2 y 4 pilares hoy está al final de «Mejore el rendimiento»: se sube como sección propia.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Auditoría SMETA 2 y 4 pilares en Chile | Control Union",
+        "reemplaza": "SMETA - 2 pillar and 4 pillar assessments - Control Union Chile",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "Title actual en inglés; «auditoria smeta» 232 y «smeta 4 pilares» 220 impr. en pos. 8,5–8,7."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Control Union audita SMETA de 2 y 4 pilares en Chile según la metodología de Sedex. Requisitos, diferencias entre pilares y cómo solicitarla.",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "La meta actual tiene más de 400 caracteres."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Auditoría SMETA de 2 y 4 pilares",
+        "reemplaza": "SMETA",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "H1 actual «SMETA» solo."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "H2 «SMETA 2 pilares y 4 pilares: diferencias» debajo de «Acerca del estándar», con el párrafo que hoy está al final (2 pilares: Código Base de la ETI; 4 pilares: suma medio ambiente y ética empresarial).",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "«smeta 4 pilares» 220, «auditoria smeta 4 pilares» 46, «que es smeta 4 pilares» 22, «smeta 2 pilares» 13: la respuesta existe pero está al pie."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "un método desarrollado por Sedex, iniciativa de múltiples partes interesadas",
+        "reemplaza": "un método desarrollado por la iniciativa de consultoría de múltiples grupos de interés, Sedex",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "Regla de marca: en un sitio de Control Union no va «consultoría», aunque describa a Sedex."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Sumar 5 enlaces internos",
+      "donde": "Páginas de chile.controlunion.com",
+      "detalle": "Ninguna de estas páginas enlaza hoy a BRCGS ni a SMETA (revisado el 28 oct). Un enlace en el cuerpo de cada una.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://chile.controlunion.com/programa-de-certificacion/ifs-food/, anchor «certificación BRCGS Food Safety», hacia https://chile.controlunion.com/programa-de-certificacion/brcgs/",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/ifs-food/",
+        "motivo": "IFS Food tiene 2.504 impr. y pos. 5,4: es la norma vecina de BRCGS para el mismo cliente."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://chile.controlunion.com/service/certificaciones/, anchor «certificación BRCGS», hacia https://chile.controlunion.com/programa-de-certificacion/brcgs/",
+        "destino": "https://chile.controlunion.com/service/certificaciones/",
+        "motivo": "Página de servicio con 1.451 impr.; hoy no enlaza BRCGS."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://chile.controlunion.com/service/certificaciones/, anchor «auditoría SMETA», hacia https://chile.controlunion.com/programa-de-certificacion/smeta/",
+        "destino": "https://chile.controlunion.com/service/certificaciones/",
+        "motivo": "Mismo origen; hoy no enlaza SMETA."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://chile.controlunion.com/programa-de-certificacion/grasp/, anchor «auditoría social SMETA de 4 pilares», hacia https://chile.controlunion.com/programa-de-certificacion/smeta/",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/grasp/",
+        "motivo": "GRASP es el módulo social de GLOBALG.A.P. y tiene 2.980 impr. y 57 clics: el mismo cliente agrícola pide SMETA."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://chile.controlunion.com/industry/textiles/, anchor «auditoría SMETA», hacia https://chile.controlunion.com/programa-de-certificacion/smeta/",
+        "destino": "https://chile.controlunion.com/industry/textiles/",
+        "motivo": "Industria textil (600 impr., 21 clics): hoy enlaza GOTS, GRS y RWS, no la auditoría social."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "brcgs",
+      "impr": 1335,
+      "pos": 9.5
+     },
+     {
+      "query": "certificacion brcgs",
+      "impr": 133,
+      "pos": 11.6
+     },
+     {
+      "query": "brcgs significado",
+      "impr": 117,
+      "pos": 9.3
+     },
+     {
+      "query": "certificación brc chile",
+      "impr": 88,
+      "pos": 28.6
+     },
+     {
+      "query": "smeta",
+      "impr": 814,
+      "pos": 8.9
+     },
+     {
+      "query": "auditoria smeta",
+      "impr": 232,
+      "pos": 8.5
+     },
+     {
+      "query": "smeta 4 pilares",
+      "impr": 220,
+      "pos": 8.7
+     },
+     {
+      "query": "sedex smeta",
+      "impr": 164,
+      "pos": 8.6
+     }
+    ],
+    "organico_desde": "Chile (chile.controlunion.com, todos los países)",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:chile-controlunion-com:nch-2861",
+   "marca": "CU",
+   "sitio": "chile.controlunion.com",
+   "titulo": "NCh 2861 Chile: la URL cambió sin 301 y la página desapareció de Google desde junio; redirigir las 2 viejas y corregir la inglesa",
+   "detalle": "Ya no compiten tres URL: la página de la norma cambió de dirección (de «norma-tecnica-chile-nch-2861-haccp» a «norma-chilena-nch-2861-haccp») y las viejas dan 404. Era la página con mejor CTR del sitio (60 clics, 7,5%, cerca del 5% de los clics de todo el sitio) y desde el 11 de junio no aparece; las URL nuevas no registran impresiones hasta el 14 de septiembre. Se redirigen las dos viejas con 301, se corrige la versión inglesa (title y meta en castellano) y se enlaza desde la industria de seguridad alimentaria.",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "chile.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://chile.controlunion.com/programa-de-certificacion/norma-tecnica-chile-nch-2861-haccp/",
+      "nota": "URL vieja en castellano: da 404, se redirige."
+     },
+     {
+      "url": "https://chile.controlunion.com/en/certification-program/norma-tecnica-chile-nch-2861-haccp/",
+      "nota": "URL vieja en inglés: da 404, se redirige."
+     },
+     {
+      "url": "https://chile.controlunion.com/programa-de-certificacion/norma-chilena-nch-2861-haccp/",
+      "nota": "URL nueva en castellano: destino."
+     },
+     {
+      "url": "https://chile.controlunion.com/en/certification-program/norma-chilena-nch-2861-haccp/",
+      "nota": "URL nueva en inglés: destino; title y meta en castellano."
+     },
+     {
+      "url": "https://chile.controlunion.com/industry/seguridad-alimentaria/",
+      "nota": "Origen de un enlace interno nuevo."
+     }
+    ],
+    "acciones": [
+     "tecnico",
+     "contenido"
+    ],
+    "resumen": "Recuperar la página de la NCh 2861 con 301 de las URL viejas a las nuevas.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026: la URL vieja en castellano tuvo 801 impr., 60 clics, pos. 4,6 y CTR 7,5% hasta el 11 jun (652 impr. en mayo, 82 en junio, 0 después); la inglesa 332 impr. y 9 clics hasta el 26 may. «nch 2861» 179 impr. (pos. 2,5 en la castellana), «norma chilena 2861» 65 con 8 clics, «nch2861» 40. Las URL nuevas no tienen una sola impresión hasta el 14 sep. El 28 oct: las dos URL viejas responden 404; las nuevas responden 200, están en el sitemap y el listado https://chile.controlunion.com/programas-de-certificacion/ ya enlaza la nueva; la versión inglesa nueva tiene title y meta en castellano. GA4 (1 dic 2025 – 22 oct 2026): URL vieja 82 vistas, nueva 43.",
+    "ya_hecho": "La propuesta de septiembre («una sola página en español») ya no aplica: las URL viejas se dieron de baja, pero sin redirección. El listado de programas y el sitemap ya apuntan a las nuevas.",
+    "pasos": [
+     {
+      "accion": "tecnico",
+      "titulo": "Redirigir las 2 URL viejas con 301",
+      "donde": "Servidor de chile.controlunion.com (plugin de redirecciones de WordPress): pedir al responsable web de Control Union Chile",
+      "detalle": "Después, en Search Console (propiedad chile.controlunion.com), Inspección de URL de las dos nuevas y «Solicitar indexación»: lo hace quien tenga acceso.",
+      "items": [
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://chile.controlunion.com/programa-de-certificacion/norma-chilena-nch-2861-haccp/",
+        "destino": "https://chile.controlunion.com/programa-de-certificacion/norma-tecnica-chile-nch-2861-haccp/",
+        "motivo": "Hoy da 404; tenía 60 clics y CTR 7,5% en pos. 4,6: los enlaces externos y el historial de Google apuntan acá."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://chile.controlunion.com/en/certification-program/norma-chilena-nch-2861-haccp/",
+        "destino": "https://chile.controlunion.com/en/certification-program/norma-tecnica-chile-nch-2861-haccp/",
+        "motivo": "Hoy da 404; 332 impr. y 9 clics hasta mayo."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Versión inglesa: title y meta en inglés",
+      "donde": "https://chile.controlunion.com/en/certification-program/norma-chilena-nch-2861-haccp/",
+      "detalle": "La URL inglesa nueva repite el title y la meta en castellano.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "NCh 2861 HACCP certification in Chile | Control Union",
+        "reemplaza": "Norma Técnica Chile NCh 2861 - HACCP - Control Union Chile",
+        "destino": "https://chile.controlunion.com/en/certification-program/norma-chilena-nch-2861-haccp/",
+        "motivo": "La versión vieja en inglés traía 9 clics («nch 2861» 79 impr. en pos. 6,8); con title en castellano compite con la castellana."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "NCh 2861 sets the requirements to implement a HACCP plan in Chile. Control Union certifies it: scope, prerequisite programs and process.",
+        "reemplaza": "Establece los requisitos para el desarrollo e implementación efectiva de un programa de Análisis de Peligros y Puntos Críticos de Control (HACCP).",
+        "destino": "https://chile.controlunion.com/en/certification-program/norma-chilena-nch-2861-haccp/",
+        "motivo": "Meta actual en castellano en la URL inglesa."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Enlace desde la industria de seguridad alimentaria",
+      "donde": "https://chile.controlunion.com/industry/seguridad-alimentaria/",
+      "detalle": "La página de industria enlaza BRCGS e IFS Food, no la norma chilena (revisado el 28 oct).",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Desde https://chile.controlunion.com/industry/seguridad-alimentaria/, anchor «certificación NCh 2861 (HACCP)», hacia https://chile.controlunion.com/programa-de-certificacion/norma-chilena-nch-2861-haccp/",
+        "destino": "https://chile.controlunion.com/industry/seguridad-alimentaria/",
+        "motivo": "Ayuda a que Google descubra la URL nueva y le pasa autoridad; «norma haccp chile» (15 impr.) y «haccp chile» (5) caen en esta norma."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "nch 2861",
+      "impr": 179,
+      "pos": 5.7
+     },
+     {
+      "query": "norma chilena 2861",
+      "impr": 65,
+      "pos": 4.1
+     },
+     {
+      "query": "nch2861",
+      "impr": 40,
+      "pos": 5.0
+     },
+     {
+      "query": "nch 2861:2011",
+      "impr": 26,
+      "pos": 7.4
+     }
+    ],
+    "organico_desde": "Chile (chile.controlunion.com, todos los países)",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console); páginas leídas el 28 oct 2026"
+   }
+  }
+ ],
+ "descartes": [
+  {
+   "clave": "CU:SEO:brasil-controlunion-com:pest-control",
+   "motivo": "Los datos contradicen la tarjeta: la página no desapareció. https://brasil.controlunion.com/service/servicos/inspeccoes/pest-control/ responde 200 el 28 oct y sigue en los resultados (103 impr. en agosto, 57 en 1–14 sep, última aparición el 14 sep). Lo que se fue es la query «pest control solutions»: 1.403 impr. con 0 clics, todas entre marzo (384) y abril (1.018), en inglés y con nombre de una empresa de fumigación; nunca trajo un clic. La página tuvo 3 clics en todo el período (2.196 impr.) y no hay búsquedas en portugués («praga», «dedetização», «fumigação») que la sostengan en Search Console."
+  },
+  {
+   "clave": "CU:SEO:chile-controlunion-com:login-por-marca",
+   "motivo": "Los datos contradicen la tarjeta: no son búsquedas de marca de Chile. De las 10.989 impr. de queries con «login», «log in» o «portal» en chile.controlunion.com (3 mar – 14 sep 2026), solo 13 son de Chile (0 clics): India 6.929, Pakistán 2.174, Bangladés 1.005, Portugal 435. Son clientes de otras filiales que buscan el portal (certifications.controlunion.com/icu, cis.controlunion.com) y les aparece la /en/cis-login/ de Chile; la home de Chile no les sirve, y el noindex del acceso no recupera nada para Chile. Los clientes chilenos ya llegan: «cis control union» en pos. 1,4 a /cis-login/. El arreglo técnico de la página /en/login/ duplicada es el mismo que en la tarjeta de Perú (CU:SEO:peru-controlunion-com:login): pedir que se aplique igual en Chile."
+  }
+ ]
+}

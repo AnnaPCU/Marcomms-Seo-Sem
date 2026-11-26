@@ -1,0 +1,3212 @@
+[
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "3.33",
+  "impressions": "5256",
+  "reach": "2035",
+  "clicks": "78",
+  "inline_link_clicks": "73",
+  "ctr": "1.484018",
+  "cpc": "0.042692",
+  "cpm": "0.633562",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "73"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "58"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "58"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "75"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "75"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "2"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.0444"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1.665"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.045616"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.0444"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.057414"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.057414"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "5.17",
+  "impressions": "7616",
+  "reach": "2621",
+  "clicks": "102",
+  "inline_link_clicks": "98",
+  "ctr": "1.339286",
+  "cpc": "0.050686",
+  "cpm": "0.678834",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "98"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "11"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "61"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "61"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "3"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "110"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "12"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "110"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "9"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "8"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.047"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.430833"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.052755"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.047"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.084754"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.084754"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "0.07",
+  "impressions": "60",
+  "reach": "23",
+  "clicks": "1",
+  "inline_link_clicks": "0",
+  "ctr": "1.666667",
+  "cpc": "0.07",
+  "cpm": "1.166667",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "4.47",
+  "impressions": "5976",
+  "reach": "2753",
+  "clicks": "97",
+  "inline_link_clicks": "83",
+  "ctr": "1.623159",
+  "cpc": "0.046082",
+  "cpm": "0.747992",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "83"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "4"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "64"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "64"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "88"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "88"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "5"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "4"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.050795"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.894"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.053855"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.050795"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.069844"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.069844"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "6.49",
+  "impressions": "9270",
+  "reach": "3624",
+  "clicks": "148",
+  "inline_link_clicks": "141",
+  "ctr": "1.596548",
+  "cpc": "0.043851",
+  "cpm": "0.700108",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "141"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "10"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "95"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "95"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "3"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "152"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "11"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "152"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "8"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "7"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.042697"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.59"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.046028"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.042697"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.068316"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.068316"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "0.08",
+  "impressions": "56",
+  "reach": "25",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "1.428571",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "2.83",
+  "impressions": "4055",
+  "reach": "1830",
+  "clicks": "59",
+  "inline_link_clicks": "50",
+  "ctr": "1.454994",
+  "cpc": "0.047966",
+  "cpm": "0.697904",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "50"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "8"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "38"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "38"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "3"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "58"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "8"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "58"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "5"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "5"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.048793"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.35375"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.0566"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.048793"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.074474"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.074474"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "3.55",
+  "impressions": "5785",
+  "reach": "2214",
+  "clicks": "88",
+  "inline_link_clicks": "79",
+  "ctr": "1.521175",
+  "cpc": "0.040341",
+  "cpm": "0.613656",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "79"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "3"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "57"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "57"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "82"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "3"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "82"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "2"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.043293"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1.183333"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.044937"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.043293"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.062281"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.062281"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "0.03",
+  "impressions": "54",
+  "reach": "19",
+  "clicks": "1",
+  "inline_link_clicks": "1",
+  "ctr": "1.851852",
+  "cpc": "0.03",
+  "cpm": "0.555556",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.03"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.03"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.03"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.03"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.03"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "3.25",
+  "impressions": "4560",
+  "reach": "1723",
+  "clicks": "72",
+  "inline_link_clicks": "58",
+  "ctr": "1.578947",
+  "cpc": "0.045139",
+  "cpm": "0.712719",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "58"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "40"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "40"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "60"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "60"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "2"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.054167"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1.625"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.056034"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.054167"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.08125"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.08125"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "3.8",
+  "impressions": "5788",
+  "reach": "1988",
+  "clicks": "85",
+  "inline_link_clicks": "76",
+  "ctr": "1.468556",
+  "cpc": "0.044706",
+  "cpm": "0.656531",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "76"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "5"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "50"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "50"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "82"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "6"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "82"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "5"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "4"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.046341"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.633333"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.05"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.046341"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.076"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.076"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "0.01",
+  "impressions": "20",
+  "reach": "5",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0.5",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "5.61",
+  "impressions": "6386",
+  "reach": "2059",
+  "clicks": "128",
+  "inline_link_clicks": "106",
+  "ctr": "2.004385",
+  "cpc": "0.043828",
+  "cpm": "0.878484",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "106"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "11"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "84"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "84"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "117"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "11"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "117"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "10"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "10"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.047949"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.51"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.052925"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.047949"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.066786"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.066786"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "5.61",
+  "impressions": "7465",
+  "reach": "2087",
+  "clicks": "121",
+  "inline_link_clicks": "102",
+  "ctr": "1.620898",
+  "cpc": "0.046364",
+  "cpm": "0.751507",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "102"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "9"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "75"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "75"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "111"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "9"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "111"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "9"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "9"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.050541"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.623333"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.055"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.050541"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.0748"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.0748"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "0",
+  "impressions": "5",
+  "reach": "3",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "19.47",
+  "impressions": "14061",
+  "reach": "3383",
+  "clicks": "400",
+  "inline_link_clicks": "336",
+  "ctr": "2.844748",
+  "cpc": "0.048675",
+  "cpm": "1.384681",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "336"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "22"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "263"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "263"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "359"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "23"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "359"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "22"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "21"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.054234"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.846522"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.057946"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.054234"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.07403"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.07403"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "10.96",
+  "impressions": "10289",
+  "reach": "2286",
+  "clicks": "231",
+  "inline_link_clicks": "190",
+  "ctr": "2.245116",
+  "cpc": "0.047446",
+  "cpm": "1.065215",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "190"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "21"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "134"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "134"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "212"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "22"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "212"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "22"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "21"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.051698"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.498182"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.057684"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.051698"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.081791"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.081791"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "spend": "0.08",
+  "impressions": "57",
+  "reach": "14",
+  "clicks": "1",
+  "inline_link_clicks": "0",
+  "ctr": "1.754386",
+  "cpc": "0.08",
+  "cpm": "1.403509",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "0.65",
+  "impressions": "234",
+  "reach": "123",
+  "clicks": "3",
+  "inline_link_clicks": "2",
+  "ctr": "1.282051",
+  "cpc": "0.216667",
+  "cpm": "2.777778",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.325"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.325"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.325"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "2.59",
+  "impressions": "454",
+  "reach": "229",
+  "clicks": "2",
+  "inline_link_clicks": "2",
+  "ctr": "0.440529",
+  "cpc": "1.295",
+  "cpm": "5.704846",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.295"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.295"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.295"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "0.02",
+  "impressions": "11",
+  "reach": "9",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "1.818182",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "6.24",
+  "impressions": "736",
+  "reach": "378",
+  "clicks": "6",
+  "inline_link_clicks": "6",
+  "ctr": "0.815217",
+  "cpc": "1.04",
+  "cpm": "8.478261",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "6"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "6"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "6"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.04"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.04"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.04"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "8.55",
+  "impressions": "1364",
+  "reach": "656",
+  "clicks": "7",
+  "inline_link_clicks": "7",
+  "ctr": "0.513196",
+  "cpc": "1.221429",
+  "cpm": "6.268328",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "7"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "7"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "7"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.221429"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.221429"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.221429"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "0.11",
+  "impressions": "32",
+  "reach": "15",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "3.4375",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "7.27",
+  "impressions": "617",
+  "reach": "377",
+  "clicks": "10",
+  "inline_link_clicks": "11",
+  "ctr": "1.620746",
+  "cpc": "0.727",
+  "cpm": "11.78282",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "11"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "11"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "11"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.660909"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.660909"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.660909"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "8.74",
+  "impressions": "1100",
+  "reach": "580",
+  "clicks": "8",
+  "inline_link_clicks": "7",
+  "ctr": "0.727273",
+  "cpc": "1.0925",
+  "cpm": "7.945455",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "7"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.0925"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "8.74"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.248571"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.0925"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "0.17",
+  "impressions": "21",
+  "reach": "15",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "8.095238",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "8.32",
+  "impressions": "530",
+  "reach": "337",
+  "clicks": "14",
+  "inline_link_clicks": "14",
+  "ctr": "2.641509",
+  "cpc": "0.594286",
+  "cpm": "15.698113",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "14"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "14"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "14"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.594286"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.594286"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.594286"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "18.02",
+  "impressions": "1361",
+  "reach": "743",
+  "clicks": "18",
+  "inline_link_clicks": "15",
+  "ctr": "1.322557",
+  "cpc": "1.001111",
+  "cpm": "13.240265",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "15"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "16"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "16"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "0"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "0"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.12625"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "18.02"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.201333"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.12625"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "0.26",
+  "impressions": "37",
+  "reach": "22",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "7.027027",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "3.24",
+  "impressions": "418",
+  "reach": "263",
+  "clicks": "11",
+  "inline_link_clicks": "11",
+  "ctr": "2.631579",
+  "cpc": "0.294545",
+  "cpm": "7.751196",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "11"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "11"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "11"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.294545"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.294545"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.294545"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "10.86",
+  "impressions": "909",
+  "reach": "535",
+  "clicks": "10",
+  "inline_link_clicks": "9",
+  "ctr": "1.10011",
+  "cpc": "1.086",
+  "cpm": "11.947195",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "9"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "10"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "10"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.086"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "10.86"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.206667"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.086"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "0.09",
+  "impressions": "14",
+  "reach": "4",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "6.428571",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "2.66",
+  "impressions": "277",
+  "reach": "186",
+  "clicks": "10",
+  "inline_link_clicks": "10",
+  "ctr": "3.610108",
+  "cpc": "0.266",
+  "cpm": "9.602888",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "10"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "10"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "10"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.266"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.266"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.266"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "4.96",
+  "impressions": "464",
+  "reach": "296",
+  "clicks": "5",
+  "inline_link_clicks": "7",
+  "ctr": "1.077586",
+  "cpc": "0.992",
+  "cpm": "10.689655",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "7"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.62"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "4.96"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.708571"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.62"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "spend": "0.19",
+  "impressions": "20",
+  "reach": "11",
+  "clicks": "1",
+  "inline_link_clicks": "0",
+  "ctr": "5",
+  "cpc": "0.19",
+  "cpm": "9.5",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0.08",
+  "impressions": "171",
+  "reach": "142",
+  "clicks": "1",
+  "inline_link_clicks": "1",
+  "ctr": "0.584795",
+  "cpc": "0.08",
+  "cpm": "0.467836",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.08"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.08"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.08"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0.05",
+  "impressions": "226",
+  "reach": "186",
+  "clicks": "5",
+  "inline_link_clicks": "5",
+  "ctr": "2.212389",
+  "cpc": "0.01",
+  "cpm": "0.221239",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.01"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.01"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.01"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0",
+  "impressions": "3",
+  "reach": "2",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0.04",
+  "impressions": "129",
+  "reach": "114",
+  "clicks": "1",
+  "inline_link_clicks": "1",
+  "ctr": "0.775194",
+  "cpc": "0.04",
+  "cpm": "0.310078",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.04"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.04"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.04"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.04"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.04"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0.09",
+  "impressions": "279",
+  "reach": "212",
+  "clicks": "5",
+  "inline_link_clicks": "5",
+  "ctr": "1.792115",
+  "cpc": "0.018",
+  "cpm": "0.322581",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.018"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.018"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.018"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.09"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.09"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0",
+  "impressions": "7",
+  "reach": "5",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0.12",
+  "impressions": "160",
+  "reach": "133",
+  "clicks": "4",
+  "inline_link_clicks": "4",
+  "ctr": "2.5",
+  "cpc": "0.03",
+  "cpm": "0.75",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "4"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "2"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "4"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "4"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.03"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.03"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.03"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.06"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.06"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0.05",
+  "impressions": "240",
+  "reach": "195",
+  "clicks": "3",
+  "inline_link_clicks": "3",
+  "ctr": "1.25",
+  "cpc": "0.016667",
+  "cpm": "0.208333",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "3"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "3"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "3"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.016667"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.016667"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.016667"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.05"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.05"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0",
+  "impressions": "8",
+  "reach": "7",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0.1",
+  "impressions": "116",
+  "reach": "90",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0.862069",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0.07",
+  "impressions": "168",
+  "reach": "119",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0.416667",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0",
+  "impressions": "5",
+  "reach": "4",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0.05",
+  "impressions": "48",
+  "reach": "44",
+  "clicks": "1",
+  "inline_link_clicks": "1",
+  "ctr": "2.083333",
+  "cpc": "0.05",
+  "cpm": "1.041667",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.05"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.05"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.05"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.05"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.05"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0.08",
+  "impressions": "36",
+  "reach": "36",
+  "clicks": "1",
+  "inline_link_clicks": "1",
+  "ctr": "2.777778",
+  "cpc": "0.08",
+  "cpm": "2.222222",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.08"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.08"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.08"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.08"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.08"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "spend": "0",
+  "impressions": "1",
+  "reach": "1",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "0.37",
+  "impressions": "223",
+  "reach": "33",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "1.659193",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "1.08",
+  "impressions": "329",
+  "reach": "36",
+  "clicks": "5",
+  "inline_link_clicks": "5",
+  "ctr": "1.519757",
+  "cpc": "0.216",
+  "cpm": "3.282675",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.216"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.216"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.216"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "18-24",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "3.75",
+  "impressions": "833",
+  "reach": "123",
+  "clicks": "5",
+  "inline_link_clicks": "4",
+  "ctr": "0.60024",
+  "cpc": "0.75",
+  "cpm": "4.501801",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "4"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "4"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "4"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.9375"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.9375"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.9375"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "8.24",
+  "impressions": "2333",
+  "reach": "281",
+  "clicks": "9",
+  "inline_link_clicks": "8",
+  "ctr": "0.385769",
+  "cpc": "0.915556",
+  "cpm": "3.531933",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "8"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "8"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.03"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.03"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.03"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "0.08",
+  "impressions": "29",
+  "reach": "3",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "2.758621",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "25-34",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "2.72",
+  "impressions": "431",
+  "reach": "91",
+  "clicks": "2",
+  "inline_link_clicks": "0",
+  "ctr": "0.464037",
+  "cpc": "1.36",
+  "cpm": "6.310905",
+  "actions": [
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "0"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "0"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "2.72"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "2.72"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2.72"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "12.31",
+  "impressions": "2227",
+  "reach": "305",
+  "clicks": "7",
+  "inline_link_clicks": "7",
+  "ctr": "0.314324",
+  "cpc": "1.758571",
+  "cpm": "5.527616",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "7"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.53875"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "12.31"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.758571"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.53875"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "0",
+  "impressions": "1",
+  "reach": "1",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "35-44",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "1.16",
+  "impressions": "247",
+  "reach": "60",
+  "clicks": "2",
+  "inline_link_clicks": "2",
+  "ctr": "0.809717",
+  "cpc": "0.58",
+  "cpm": "4.696356",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "3"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "3"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "0"
+   },
+   {
+    "action_type": "onsite_conversion.post_unsave",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "0"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.386667"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1.16"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.58"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.386667"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "4.49",
+  "impressions": "805",
+  "reach": "168",
+  "clicks": "3",
+  "inline_link_clicks": "1",
+  "ctr": "0.372671",
+  "cpc": "1.496667",
+  "cpm": "5.57764",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "4.49"
+   },
+   {
+    "action_type": "link_click",
+    "value": "4.49"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "4.49"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "45-54",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "1.52",
+  "impressions": "174",
+  "reach": "40",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "8.735632",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "3.85",
+  "impressions": "335",
+  "reach": "72",
+  "clicks": "2",
+  "inline_link_clicks": "2",
+  "ctr": "0.597015",
+  "cpc": "1.925",
+  "cpm": "11.492537",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.925"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.925"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.925"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "male"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "0",
+  "impressions": "2",
+  "reach": "2",
+  "clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0",
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "55-64",
+  "gender": "unknown"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "1.39",
+  "impressions": "115",
+  "reach": "22",
+  "clicks": "5",
+  "inline_link_clicks": "4",
+  "ctr": "4.347826",
+  "cpc": "0.278",
+  "cpm": "12.086957",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "4"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.278"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1.39"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.3475"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.278"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "female"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "spend": "1.4",
+  "impressions": "126",
+  "reach": "25",
+  "clicks": "4",
+  "inline_link_clicks": "4",
+  "ctr": "3.174603",
+  "cpc": "0.35",
+  "cpm": "11.111111",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "4"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "4"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "4"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.35"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.35"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.35"
+   }
+  ],
+  "date_start": "2026-01-01",
+  "date_stop": "2026-11-09",
+  "age": "65+",
+  "gender": "male"
+ }
+]

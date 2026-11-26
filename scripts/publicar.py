@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-publicar.py — carga en Supabase (esquema seo_sem) lo que produce el proyecto de análisis (Optimizaciónes SEO-SEM/proyecto):
+publicar.py — carga en Supabase (esquema seo_sem) lo que produce el proyecto de análisis (analisis/ de este repo):
   1. campañas y grupos      ← datos/ads/api/estructura_<fecha>/{campanas,grupos}.csv (la más reciente)
   2. recomendaciones        ← informe/recomendaciones.json (lo genera scripts/exportar_recomendaciones.py)
   3. métricas por campaña   ← informe/datos_gasto_actual.json (mes en curso, del 1 al último día extraído; lo genera analisis_gasto.py)
@@ -19,7 +19,7 @@ Dos modos:
                      conector). No necesita ninguna clave. Es el modo recomendado.
   (sin --sql)        carga por la API REST. Requiere SUPABASE_URL y SUPABASE_SERVICE_KEY en el entorno o en
                      <proyecto>/supabase-service.json (service role key; nunca en el repo, en Vercel ni en el chat).
-  PROYECTO_DIR       opcional; por defecto ../Optimizaciónes SEO-SEM/proyecto relativo a este repo.
+  PROYECTO_DIR       opcional; por defecto analisis/ de este repo.
 Uso: python scripts/publicar.py --sql supabase/seed/carga_2026-09.sql
      python scripts/publicar.py [--solo campanas|recomendaciones|metricas|dia|cambios|ga4|historico|extracciones]
 """
@@ -28,7 +28,7 @@ from datetime import datetime, timezone
 import pandas as pd
 
 REPO = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-PROY = os.environ.get("PROYECTO_DIR") or os.path.join(os.path.dirname(REPO), "Optimizaciónes SEO-SEM", "proyecto")
+PROY = os.environ.get("PROYECTO_DIR") or os.path.join(REPO, "analisis")
 SQL_OUT = sys.argv[sys.argv.index("--sql") + 1] if "--sql" in sys.argv else None
 SOLO = sys.argv[sys.argv.index("--solo") + 1] if "--solo" in sys.argv else None
 ESQ = "seo_sem"

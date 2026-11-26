@@ -1,0 +1,4 @@
+﻿cuenta_id,cuenta_nombre,moneda,id,name,is_unavailable,creation_time,data_use_setting,last_fired_time,marca
+act_1691926654833918,Peterson - Argentina,USD,1774189680667535,Pixel de Meta - Agosto de 2026,False,2026-07-31T14:03:59+0000,advertising_and_analytics,,ps
+act_1691926654833918,Peterson - Argentina,USD,1153674240189701,Píxel de Peterson - Argentina (FELO),False,2025-10-08T20:06:41+0000,advertising_and_analytics,2026-11-09T23:18:53+0000,ps
+act_1691926654833918,Peterson - Argentina,USD,785677634332898,Pixel Meta - PSH Felo,False,2025-10-08T20:44:03+0000,advertising_and_analytics,,ps

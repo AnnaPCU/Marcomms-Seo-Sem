@@ -1,0 +1,581 @@
+{
+ "_comentario": "Generado por scripts/gpfs_2026_campana.py. Control Union, The Global Produce & Floral Show 2026 (IFPA).",
+ "marca": "control-union",
+ "pais": "US",
+ "moneda": "ARS",
+ "utm": {
+  "activar": false
+ },
+ "campanas": [
+  {
+   "nombre": "CU United States - IFPA event - Search",
+   "tipo": "Search",
+   "estado": "Paused",
+   "presupuesto_diario": 10000,
+   "estrategia_puja": "Maximize clicks",
+   "redes": "Google Search",
+   "idiomas": [
+    "en"
+   ],
+   "ubicaciones": [
+    "United States",
+    "Mexico",
+    "Canada"
+   ],
+   "ubicaciones_excluidas": [],
+   "fecha_inicio": "",
+   "fecha_fin": "",
+   "etiquetas": [
+    "Evento IFPA 2026"
+   ],
+   "negativas_campana": [
+    "jobs",
+    "job",
+    "careers",
+    "hiring",
+    "employment",
+    "volunteer",
+    "internship",
+    "free",
+    "2025",
+    "2024",
+    "anaheim",
+    "atlanta",
+    "hotel",
+    "hotels",
+    "parking",
+    "airport",
+    "flights",
+    "shuttle",
+    "booth cost",
+    "booth price",
+    "exhibit cost",
+    "sponsorship",
+    "become an exhibitor",
+    "ifpa membership",
+    "ifpa login",
+    "wholesale",
+    "buy",
+    "consulting",
+    "consultant",
+    "advisory",
+    "training",
+    "course",
+    "registration",
+    "register",
+    "tickets",
+    "ticket",
+    "badge",
+    "pass",
+    "app",
+    "download",
+    "login",
+    "agenda",
+    "speakers",
+    "keynote",
+    "awards",
+    "education",
+    "restaurants",
+    "weather",
+    "address",
+    "2027",
+    "exhibitor manual",
+    "exhibitor kit",
+    "exhibitor services",
+    "move in",
+    "freight",
+    "booth design",
+    "booth rental",
+    "booth builder",
+    "exhibit design",
+    "displays",
+    "email list",
+    "attendee list",
+    "mailing list",
+    "contact list",
+    "leads",
+    "new york produce show",
+    "fruit logistica",
+    "fruit attraction",
+    "viva fresh",
+    "southern exposure",
+    "cpma",
+    "fpfc",
+    "west coast produce expo",
+    "world of perishables",
+    "what is",
+    "meaning",
+    "membership",
+    "salary"
+   ],
+   "sitelinks": [
+    {
+     "texto": "PrimusGFS Certification",
+     "desc1": "Food safety for fresh produce",
+     "desc2": "Audits for growers and packers",
+     "url": "https://northamerica.controlunion.com/fresh-produce-certification-expertise/"
+    },
+    {
+     "texto": "GLOBALG.A.P. Program",
+     "desc1": "Good agricultural practices",
+     "desc2": "Certification for farms",
+     "url": "https://northamerica.controlunion.com/fresh-produce-certification-expertise/"
+    },
+    {
+     "texto": "USDA NOP Organic",
+     "desc1": "Organic certification",
+     "desc2": "For growers and handlers",
+     "url": "https://northamerica.controlunion.com/fresh-produce-certification-expertise/"
+    },
+    {
+     "texto": "SMETA Audits",
+     "desc1": "Social compliance audits",
+     "desc2": "Ethical trade for suppliers",
+     "url": "https://northamerica.controlunion.com/fresh-produce-certification-expertise/"
+    },
+    {
+     "texto": "BRCGS Certification",
+     "desc1": "Food safety and packaging",
+     "desc2": "Recognized by retailers",
+     "url": "https://northamerica.controlunion.com/fresh-produce-certification-expertise/"
+    },
+    {
+     "texto": "Florverde Flowers",
+     "desc1": "Sustainable flower certification",
+     "desc2": "For flower growers",
+     "url": "https://northamerica.controlunion.com/fresh-produce-certification-expertise/"
+    },
+    {
+     "texto": "Fair Trade USA",
+     "desc1": "Fair Trade certification",
+     "desc2": "For produce and flowers",
+     "url": "https://northamerica.controlunion.com/fresh-produce-certification-expertise/"
+    },
+    {
+     "texto": "Certification Check",
+     "desc1": "Answer 10 quick questions",
+     "desc2": "See programs that fit you",
+     "url": "https://form.typeform.com/to/VisEEU2n"
+    }
+   ],
+   "grupos": [
+    {
+     "nombre": "GPFS_EVENTO",
+     "estado": "Paused",
+     "url_final": "https://northamerica.controlunion.com/fresh-produce-certification-expertise/",
+     "keywords": [
+      {
+       "texto": "global produce and floral show 2026",
+       "concordancia": "Exact"
+      },
+      {
+       "texto": "global produce and floral show",
+       "concordancia": "Exact"
+      },
+      {
+       "texto": "global produce and floral show",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "the global produce and floral show",
+       "concordancia": "Exact"
+      },
+      {
+       "texto": "ifpa global produce and floral show",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "gpfs 2026",
+       "concordancia": "Exact"
+      },
+      {
+       "texto": "ifpa 2026",
+       "concordancia": "Exact"
+      },
+      {
+       "texto": "ifpa global show",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "ifpa global produce show",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "ifpa show 2026",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "global produce show 2026",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "fresh summit 2026",
+       "concordancia": "Exact"
+      }
+     ],
+     "anuncios": [
+      {
+       "nombre": "GPFS_EVENTO_RSA1",
+       "titulares": [
+        "Control Union at Booth #851",
+        "Going to the Show? Booth #851",
+        "Booth #851, Expo Oct 15-16",
+        "Buyer Requires Certification?",
+        "Too Many Audits Every Year?",
+        "One Body for All Your Audits",
+        "Exporting Fresh Produce?",
+        "Retailer Audit Coming Up?",
+        "PrimusGFS or GLOBALG.A.P.?",
+        "Explore Our Produce Programs",
+        "See What We Certify",
+        "Plan Your Visit to Booth #851",
+        "Fresh Produce Certification",
+        "200+ Certification Programs",
+        "100+ Years of Certification"
+       ],
+       "descripciones": [
+        "Going to the produce show in Orlando? See our certification programs before you visit.",
+        "We certify and audit fresh produce: PrimusGFS, GLOBALG.A.P., USDA NOP, IFS, BRCGS.",
+        "Buyers asking for new audits? Explore the programs we certify for growers and packers.",
+        "Certification body with 100+ years of experience and a presence in 80+ countries."
+       ],
+       "path1": "Produce-Show",
+       "path2": "Booth-851"
+      },
+      {
+       "nombre": "GPFS_EVENTO_RSA2",
+       "titulares": [
+        "Control Union at Booth #851",
+        "Going to the Show? Booth #851",
+        "Booth #851, Expo Oct 15-16",
+        "Food Safety Audits for Growers",
+        "PrimusGFS Certification",
+        "GLOBALG.A.P. Certification",
+        "USDA NOP Organic Certification",
+        "SMETA and GRASP Audits",
+        "BRCGS Certification",
+        "Florverde Sustainable Flowers",
+        "Fair Trade USA Certification",
+        "Expo Floor Open Oct 15-16",
+        "Meet Control Union in Orlando",
+        "Present in 80+ Countries",
+        "Control Union Certifications"
+       ],
+       "descripciones": [
+        "Food safety, social compliance, organic, packaging and flower certification programs.",
+        "Find Control Union at Booth #851. Expo floor open Thursday 15 and Friday 16 in Orlando.",
+        "One certification body for several audits: fewer visits and one audit calendar.",
+        "Exporting to new markets? See the certifications retailers and importers ask for."
+       ],
+       "path1": "Certification",
+       "path2": "Orlando"
+      }
+     ]
+    },
+    {
+     "nombre": "GPFS_ORLANDO",
+     "estado": "Paused",
+     "url_final": "https://northamerica.controlunion.com/fresh-produce-certification-expertise/",
+     "keywords": [
+      {
+       "texto": "ifpa orlando 2026",
+       "concordancia": "Exact"
+      },
+      {
+       "texto": "ifpa orlando",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "ifpa 2026 orlando",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "produce show orlando",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "produce expo orlando",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "produce trade show orlando",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "floral trade show orlando",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "produce trade show 2026",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "fresh produce show october 2026",
+       "concordancia": "Phrase"
+      }
+     ],
+     "anuncios": [
+      {
+       "nombre": "GPFS_ORLANDO_RSA1",
+       "titulares": [
+        "At the Produce Show in Orlando",
+        "In Orlando This October?",
+        "Booth #851, Expo Oct 15-16",
+        "Buyer Requires Certification?",
+        "Too Many Audits Every Year?",
+        "One Body for All Your Audits",
+        "Exporting Fresh Produce?",
+        "Retailer Audit Coming Up?",
+        "PrimusGFS or GLOBALG.A.P.?",
+        "Explore Our Produce Programs",
+        "See What We Certify",
+        "Plan Your Visit to Booth #851",
+        "Fresh Produce Certification",
+        "200+ Certification Programs",
+        "100+ Years of Certification"
+       ],
+       "descripciones": [
+        "Going to the produce show in Orlando? See our certification programs before you visit.",
+        "We certify and audit fresh produce: PrimusGFS, GLOBALG.A.P., USDA NOP, IFS, BRCGS.",
+        "Buyers asking for new audits? Explore the programs we certify for growers and packers.",
+        "Certification body with 100+ years of experience and a presence in 80+ countries."
+       ],
+       "path1": "Produce-Show",
+       "path2": "Orlando"
+      },
+      {
+       "nombre": "GPFS_ORLANDO_RSA2",
+       "titulares": [
+        "Produce Expo in Orlando",
+        "Control Union at Booth #851",
+        "Booth #851, Expo Oct 15-16",
+        "Food Safety Audits for Growers",
+        "PrimusGFS Certification",
+        "GLOBALG.A.P. Certification",
+        "USDA NOP Organic Certification",
+        "SMETA and GRASP Audits",
+        "BRCGS Certification",
+        "Florverde Sustainable Flowers",
+        "Fair Trade USA Certification",
+        "Expo Floor Open Oct 15-16",
+        "Meet Control Union in Orlando",
+        "Present in 80+ Countries",
+        "Control Union Certifications"
+       ],
+       "descripciones": [
+        "Food safety, social compliance, organic, packaging and flower certification programs.",
+        "Find Control Union at Booth #851. Expo floor open Thursday 15 and Friday 16 in Orlando.",
+        "One certification body for several audits: fewer visits and one audit calendar.",
+        "Exporting to new markets? See the certifications retailers and importers ask for."
+       ],
+       "path1": "Certification",
+       "path2": "Orlando"
+      }
+     ]
+    },
+    {
+     "nombre": "GPFS_EXPOSITORES",
+     "estado": "Paused",
+     "url_final": "https://northamerica.controlunion.com/fresh-produce-certification-expertise/",
+     "keywords": [
+      {
+       "texto": "global produce and floral show exhibitors",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "global produce and floral show 2026 exhibitor list",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "gpfs 2026 exhibitors",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "gpfs exhibitor list",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "ifpa exhibitor list",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "ifpa 2026 exhibitors",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "global show exhibitor list",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "ifpa expo floor plan",
+       "concordancia": "Phrase"
+      }
+     ],
+     "anuncios": [
+      {
+       "nombre": "GPFS_EXPOSITORES_RSA1",
+       "titulares": [
+        "Add Booth #851 to Your Plan",
+        "Save Booth #851 in the App",
+        "Exhibitor: Control Union",
+        "Buyer Requires Certification?",
+        "Too Many Audits Every Year?",
+        "One Body for All Your Audits",
+        "Exporting Fresh Produce?",
+        "Retailer Audit Coming Up?",
+        "PrimusGFS or GLOBALG.A.P.?",
+        "Explore Our Produce Programs",
+        "See What We Certify",
+        "Plan Your Visit to Booth #851",
+        "Fresh Produce Certification",
+        "200+ Certification Programs",
+        "100+ Years of Certification"
+       ],
+       "descripciones": [
+        "Planning your expo floor visits? Add Control Union, Booth #851, to your list.",
+        "We certify and audit fresh produce: PrimusGFS, GLOBALG.A.P., USDA NOP, IFS, BRCGS.",
+        "Buyers asking for new audits? Explore the programs we certify for growers and packers.",
+        "Certification body with 100+ years of experience and a presence in 80+ countries."
+       ],
+       "path1": "Booth-851",
+       "path2": "Orlando"
+      },
+      {
+       "nombre": "GPFS_EXPOSITORES_RSA2",
+       "titulares": [
+        "Find Us on the Expo Floor",
+        "Control Union at Booth #851",
+        "Booth #851, Expo Oct 15-16",
+        "Food Safety Audits for Growers",
+        "PrimusGFS Certification",
+        "GLOBALG.A.P. Certification",
+        "USDA NOP Organic Certification",
+        "SMETA and GRASP Audits",
+        "BRCGS Certification",
+        "Florverde Sustainable Flowers",
+        "Fair Trade USA Certification",
+        "Expo Floor Open Oct 15-16",
+        "Meet Control Union in Orlando",
+        "Present in 80+ Countries",
+        "Control Union Certifications"
+       ],
+       "descripciones": [
+        "Building your show agenda? See what Control Union certifies before you visit #851.",
+        "Find Control Union at Booth #851. Expo floor open Thursday 15 and Friday 16 in Orlando.",
+        "One certification body for several audits: fewer visits and one audit calendar.",
+        "Exporting to new markets? See the certifications retailers and importers ask for."
+       ],
+       "path1": "Certification",
+       "path2": "Booth-851"
+      }
+     ]
+    },
+    {
+     "nombre": "GPFS_CHECK",
+     "estado": "Paused",
+     "url_final": "https://form.typeform.com/to/VisEEU2n",
+     "keywords": [
+      {
+       "texto": "fresh produce certifications",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "produce certification requirements",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "certifications for exporting produce",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "certification needed to export produce",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "certifications for produce growers",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "buyer certification requirements produce",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "produce supplier certification",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "fresh produce audit requirements",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "retailer requirements fresh produce",
+       "concordancia": "Phrase"
+      },
+      {
+       "texto": "flower farm certification",
+       "concordancia": "Phrase"
+      }
+     ],
+     "anuncios": [
+      {
+       "nombre": "GPFS_CHECK_RSA1",
+       "titulares": [
+        "2-Minute Certification Check",
+        "Which Certification Do I Need?",
+        "Take the Certification Check",
+        "Buyer Requires Certification?",
+        "Too Many Audits Every Year?",
+        "Exporting Fresh Produce?",
+        "Retailer Audit Coming Up?",
+        "Answer 10 Quick Questions",
+        "See Programs That Fit You",
+        "PrimusGFS or GLOBALG.A.P.?",
+        "Organic, Social, Food Safety?",
+        "Going to the Produce Show?",
+        "Control Union at Booth #851",
+        "200+ Certification Programs",
+        "100+ Years of Certification"
+       ],
+       "descripciones": [
+        "Answer a few questions and see which certification programs match your operation.",
+        "For growers, packers and exporters: food safety, organic, social and flower programs.",
+        "Buyers asking for new audits? Take the 2-minute check before the produce show.",
+        "Certification body with 100+ years of experience and a presence in 80+ countries."
+       ],
+       "path1": "Certification",
+       "path2": "Check"
+      },
+      {
+       "nombre": "GPFS_CHECK_RSA2",
+       "titulares": [
+        "2-Minute Certification Check",
+        "Which Certification Do I Need?",
+        "Take the Certification Check",
+        "Food Safety Audits for Growers",
+        "PrimusGFS Certification",
+        "GLOBALG.A.P. Certification",
+        "USDA NOP Organic Certification",
+        "SMETA and GRASP Audits",
+        "BRCGS Certification",
+        "Florverde Sustainable Flowers",
+        "Fair Trade USA Certification",
+        "Expo Floor Open Oct 15-16",
+        "Meet Control Union in Orlando",
+        "Present in 80+ Countries",
+        "Control Union Certifications"
+       ],
+       "descripciones": [
+        "Answer a few questions and see which certification programs match your operation.",
+        "For growers, packers and exporters: food safety, organic, social and flower programs.",
+        "One certification body for several audits: fewer visits and one audit calendar.",
+        "Exporting to new markets? See the certifications retailers and importers ask for."
+       ],
+       "path1": "Produce",
+       "path2": "Check"
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}

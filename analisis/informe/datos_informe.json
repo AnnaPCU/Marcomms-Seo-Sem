@@ -1,0 +1,7223 @@
+{
+ "panorama": [
+  {
+   "marca": "CU",
+   "propiedad": "Perú",
+   "primera": "2026-03-03",
+   "ultima": "2026-09-14",
+   "dias": 196,
+   "impr_total": 792461,
+   "clics_total": 10773,
+   "impr_ads": 112434,
+   "clics_ads": 1721,
+   "queries_hist": 22900,
+   "pos_media_q": 8.6,
+   "con_campana": "no"
+  },
+  {
+   "marca": "CU",
+   "propiedad": "España",
+   "primera": "2026-03-03",
+   "ultima": "2026-09-14",
+   "dias": 196,
+   "impr_total": 408582,
+   "clics_total": 3515,
+   "impr_ads": 80177,
+   "clics_ads": 565,
+   "queries_hist": 18311,
+   "pos_media_q": 15.0,
+   "con_campana": "si"
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Argentina",
+   "primera": "2025-05-04",
+   "ultima": "2026-09-14",
+   "dias": 422,
+   "impr_total": 294810,
+   "clics_total": 7968,
+   "impr_ads": 36936,
+   "clics_ads": 879,
+   "queries_hist": 13798,
+   "pos_media_q": 13.7,
+   "con_campana": "si"
+  },
+  {
+   "marca": "CU",
+   "propiedad": "México",
+   "primera": "2025-05-04",
+   "ultima": "2026-09-14",
+   "dias": 393,
+   "impr_total": 244056,
+   "clics_total": 3100,
+   "impr_ads": 27692,
+   "clics_ads": 358,
+   "queries_hist": 9893,
+   "pos_media_q": 14.7,
+   "con_campana": "no"
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Brasil",
+   "primera": "2026-03-03",
+   "ultima": "2026-09-14",
+   "dias": 196,
+   "impr_total": 141775,
+   "clics_total": 3710,
+   "impr_ads": 31492,
+   "clics_ads": 847,
+   "queries_hist": 5589,
+   "pos_media_q": 13.0,
+   "con_campana": "no"
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Portugal",
+   "primera": "2026-03-03",
+   "ultima": "2026-09-14",
+   "dias": 196,
+   "impr_total": 114794,
+   "clics_total": 1651,
+   "impr_ads": 21178,
+   "clics_ads": 272,
+   "queries_hist": 6389,
+   "pos_media_q": 17.3,
+   "con_campana": "si"
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Chile",
+   "primera": "2026-03-03",
+   "ultima": "2026-09-14",
+   "dias": 196,
+   "impr_total": 77192,
+   "clics_total": 1195,
+   "impr_ads": 13633,
+   "clics_ads": 196,
+   "queries_hist": 2676,
+   "pos_media_q": 13.5,
+   "con_campana": "no"
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Norteamérica",
+   "primera": "2026-03-03",
+   "ultima": "2026-09-14",
+   "dias": 196,
+   "impr_total": 75107,
+   "clics_total": 713,
+   "impr_ads": 15263,
+   "clics_ads": 139,
+   "queries_hist": 3254,
+   "pos_media_q": 16.0,
+   "con_campana": "si"
+  },
+  {
+   "marca": "PS",
+   "propiedad": "Américas",
+   "primera": "2026-03-22",
+   "ultima": "2026-09-14",
+   "dias": 177,
+   "impr_total": 58359,
+   "clics_total": 805,
+   "impr_ads": 13806,
+   "clics_ads": 202,
+   "queries_hist": 2562,
+   "pos_media_q": 9.5,
+   "con_campana": "si"
+  },
+  {
+   "marca": "PS",
+   "propiedad": "Iberia",
+   "primera": "2026-03-22",
+   "ultima": "2026-09-14",
+   "dias": 177,
+   "impr_total": 25834,
+   "clics_total": 706,
+   "impr_ads": 8442,
+   "clics_ads": 162,
+   "queries_hist": 1292,
+   "pos_media_q": 13.2,
+   "con_campana": "no"
+  }
+ ],
+ "ads": {
+  "terminos": 3795,
+  "coste_visible": 934067,
+  "clics_visibles": 557,
+  "terminos_con_clic": 316,
+  "desperdicio_coste": 190042,
+  "desperdicio_terminos": 597
+ },
+ "cobertura": {
+  "terminos": 252,
+  "coste": 744025,
+  "grupos": {
+   "query presente": {
+    "terminos": 44,
+    "coste": 206103,
+    "pct": 27.7
+   },
+   "sin nada del tema": {
+    "terminos": 179,
+    "coste": 422509,
+    "pct": 56.8
+   },
+   "tema debil": {
+    "terminos": 22,
+    "coste": 87091,
+    "pct": 11.7
+   },
+   "tema fuerte, query no": {
+    "terminos": 7,
+    "coste": 28322,
+    "pct": 3.8
+   }
+  }
+ },
+ "canibalizacion": {
+  "coste_1_3": 19067,
+  "terminos_1_3": 6,
+  "coste_1_7": 87559,
+  "terminos_1_7": 19,
+  "pct": 2.6,
+  "top": [
+   {
+    "termino": "recyclass",
+    "campana": "CU Portugal - Plasticos - Search",
+    "coste": 10911.3,
+    "pos_org": 3.17,
+    "clics_org": 1.0
+   },
+   {
+    "termino": "certified organic by control union",
+    "campana": "CU United States - Organic - USDA NOP - Search",
+    "coste": 3585.54,
+    "pos_org": 1.0,
+    "clics_org": 0.0
+   },
+   {
+    "termino": "control union certifications",
+    "campana": "CU España - Textile - Search",
+    "coste": 1848.48,
+    "pos_org": 3.0,
+    "clics_org": 1.0
+   },
+   {
+    "termino": "grs global recycled standard",
+    "campana": "CU España - Textile - Search",
+    "coste": 1604.8,
+    "pos_org": 3.17,
+    "clics_org": 0.0
+   },
+   {
+    "termino": "grs",
+    "campana": "CU Portugal - Textile - Search",
+    "coste": 1108.44,
+    "pos_org": 2.49,
+    "clics_org": 13.0
+   },
+   {
+    "termino": "control union españa",
+    "campana": "CU España - IFS - SEARCH",
+    "coste": 8.9,
+    "pos_org": 1.11,
+    "clics_org": 22.0
+   }
+  ]
+ },
+ "zona_todos": [
+  {
+   "termino": "scope 3 ghg protocol",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1534.42,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fsc certificate",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 4548.1,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "empresas agropecuarias en argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 543.64,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "productos para el campo",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 135.95,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gei argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1659.08,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iscc certificação",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 1602.01,
+   "impr_org": 2.0,
+   "pos_org": 10.5
+  },
+  {
+   "termino": "gri sectoriales",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2738.99,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iso 14040 44",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2008.87,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "argenbio",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 4701.45,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "ganadería regenerativa argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 109.34,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "sistemas de gestión ambiental",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1119.89,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "estandar gri para elaborar informes de sostenibilidad",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1558.93,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "sustainability company",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2840.49,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "www fsc org mix",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 3980.24,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "experiencia agro regenerativa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 134.24,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "verdesian argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 580.76,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "stoller argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1837.46,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fragaria srl",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2828.04,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "como medir la huella de carbono de una empresa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1795.04,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "informatica en la agricultura",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 344.77,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "forestry stewardship council",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 3690.26,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iso 22000 2018",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 4043.85,
+   "impr_org": 2.0,
+   "pos_org": 60.5
+  },
+  {
+   "termino": "certificado gots textil",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 579.52,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "auditoria smeta",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 3084.93,
+   "impr_org": 10.0,
+   "pos_org": 9.0
+  },
+  {
+   "termino": "gap food safety certification",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 1829.39,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "canada gap certification",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 2740.99,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "mapas parcelas",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 311.13,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificados de ahorro energetico",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 275.47,
+   "impr_org": 31.0,
+   "pos_org": 24.48
+  },
+  {
+   "termino": "precios certificado energetico",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1394.56,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificado brc que significa",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2294.35,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "recyclass certification",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 511.05,
+   "impr_org": 1.0,
+   "pos_org": 64.0
+  },
+  {
+   "termino": "grs",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 1108.44,
+   "impr_org": 261.0,
+   "pos_org": 2.49
+  },
+  {
+   "termino": "food safety test",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 3967.96,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fsc",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 14003.44,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iso 22000",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 3673.4,
+   "impr_org": 128.0,
+   "pos_org": 51.66
+  },
+  {
+   "termino": "csrd",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 3863.97,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "www agrofy com ar",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 792.07,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "electricidad biomasa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 182.53,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iso 14064 1",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1407.33,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "best aquaculture practices",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 7491.48,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "smeta",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 5746.63,
+   "impr_org": 145.0,
+   "pos_org": 5.23
+  },
+  {
+   "termino": "matriz de materialidad ejemplos",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1574.34,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "canadagap certification",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 5968.23,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "ifs food empresas certificadas",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1635.6,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "msc certified fisheries",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 3307.87,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "bioenergias",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 878.38,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "norma gots",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 1446.18,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gap certification canada",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 11556.94,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificado cae",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2451.18,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "the forest stewardship council",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 1707.38,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "grs certificate",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 1826.73,
+   "impr_org": 11.0,
+   "pos_org": 4.0
+  },
+  {
+   "termino": "pefc portugal",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 7871.06,
+   "impr_org": 5.0,
+   "pos_org": 8.0
+  },
+  {
+   "termino": "medicion de huella de carbono",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1074.55,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "argenbio org",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 136.44,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "agribio",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1319.03,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "pefc que significa",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1205.61,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gri sostenibilidad",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2121.95,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gri standards",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1905.33,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "empresas de eficiencia energetica madrid",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 472.73,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "indice gri",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1483.54,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "reportes gri",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 847.7,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "estandar gri",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2811.5,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "www global standard org",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 4390.28,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificacion iso 27001",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 3684.91,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "sedex certification",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2873.15,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "problemas y soluciones de la agricultura",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 149.9,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "inventario gei argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1626.33,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "global organic textile standard gots",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2396.75,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "27001 2022",
+   "propiedad": "Argentina",
+   "pais": "arg",
+   "coste": 2131.34,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "inta argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 886.45,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "energía biomasa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1422.94,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "14064 iso",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 647.92,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "smeta",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 14283.11,
+   "impr_org": 305.0,
+   "pos_org": 7.55
+  },
+  {
+   "termino": "pefc",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 7528.02,
+   "impr_org": 41.0,
+   "pos_org": 26.02
+  },
+  {
+   "termino": "agronegocios argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 670.18,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "propuestas para mejorar la agricultura",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1317.9,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gestión empresarial para la sostenibilidad de pymes",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 3192.36,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "how to become organic certified",
+   "propiedad": "Norteamérica",
+   "pais": "usa",
+   "coste": 7425.56,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "sedex",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 6895.49,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certified organic by control union",
+   "propiedad": "Norteamérica",
+   "pais": "usa",
+   "coste": 3585.54,
+   "impr_org": 1.0,
+   "pos_org": 1.0
+  },
+  {
+   "termino": "consultor ambiental",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1623.45,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificado gots",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 10604.17,
+   "impr_org": 9.0,
+   "pos_org": 77.89
+  },
+  {
+   "termino": "estándares gri",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 589.01,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "servicios esg",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1458.96,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "global standard ggmbh",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 782.71,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "smeta",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 7797.74,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iscc plus standard",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 4252.46,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "reportes gri de sostenibilidad",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1526.32,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "bioregeneración de suelos",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 140.29,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "msc certification",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 8300.58,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "canada gap food safety",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 1647.9,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificacion iscc",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 302.04,
+   "impr_org": 8.0,
+   "pos_org": 26.62
+  },
+  {
+   "termino": "une en 15343",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 669.42,
+   "impr_org": 19.0,
+   "pos_org": 10.37
+  },
+  {
+   "termino": "consultoria medioambiental",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1961.02,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "análisis del ciclo de vida iso 14040",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1454.68,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "auditor seguridad alimentaria",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1709.84,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "punto esg",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1191.64,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fsc in canada",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 4523.66,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "grs textile exchange",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2031.81,
+   "impr_org": 1.0,
+   "pos_org": 7.0
+  },
+  {
+   "termino": "pefc o que é",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 6111.96,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "canada gap",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 7635.68,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "corteva argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2598.93,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "cultivos en argentina por región",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 481.61,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "agricultura regenerativa hope",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1613.08,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "avances tecnologicos en la agricultura",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 377.21,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "tabla de eficiencia energetica",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 688.68,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "como se mide la huella de carbono en una empresa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 386.18,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "une en 15343 2008",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 4447.1,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "recyclass",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 17175.96,
+   "impr_org": 165.0,
+   "pos_org": 6.09
+  },
+  {
+   "termino": "estándares gri global reporting initiative",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 966.41,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "cultivo regenerativo",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 215.04,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gfsi certification",
+   "propiedad": "Norteamérica",
+   "pais": "usa",
+   "coste": 4990.53,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "higg facility environmental module fem",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1548.14,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "agro argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 840.32,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "canadagap",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 1476.97,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "global recycled standard grs version 4.0",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 2538.4,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificaciones brcgs",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2402.9,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "pefc españa",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 15694.23,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "biomasa energia",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 3065.35,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "consultoria ambiental",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 899.5,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gots",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 6877.19,
+   "impr_org": 276.0,
+   "pos_org": 4.86
+  },
+  {
+   "termino": "certificado fsc",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2201.7,
+   "impr_org": 84.0,
+   "pos_org": 55.4
+  },
+  {
+   "termino": "agricultura regenerativa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1083.2,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "herramientas tecnologicas en la agricultura",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 464.19,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "smeta audit",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 5146.57,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "como calcular la huella de carbono de un producto",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1490.15,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "agricultura 4.0 argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 526.19,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iso 14064",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1387.15,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "esg latam",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2543.68,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "ifs food",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 5990.42,
+   "impr_org": 168.0,
+   "pos_org": 46.5
+  },
+  {
+   "termino": "msc certified",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 4911.72,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "pools de siembra en argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2497.96,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "global organic textile standard",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 1303.67,
+   "impr_org": 6.0,
+   "pos_org": 7.17
+  },
+  {
+   "termino": "gri empresas",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1370.18,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "how to get fsc certification",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 7595.68,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "empresas agricolas en argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2353.29,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fsc org",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 3875.37,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificarse en iso 27001",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 5652.87,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fsc españa",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 227.74,
+   "impr_org": 2.0,
+   "pos_org": 13.5
+  },
+  {
+   "termino": "asociación para la certificación española forestal pefc españa",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2781.8,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "control union certifications",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1848.48,
+   "impr_org": 12.0,
+   "pos_org": 3.0
+  },
+  {
+   "termino": "fsc forest",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 4080.22,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "global recycled standard",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 19793.51,
+   "impr_org": 68.0,
+   "pos_org": 6.15
+  },
+  {
+   "termino": "consultoria ambiental",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2003.48,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "como mejorar la agricultura",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 104.17,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "energia biomasa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 4499.47,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "recyclass audit tool",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 2393.14,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "control union españa",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 8.9,
+   "impr_org": 44.0,
+   "pos_org": 1.11
+  },
+  {
+   "termino": "bayer agricultura regenerativa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 560.06,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "agricultura regenerativa argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 470.22,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gfsi que es",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2049.18,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "empresas agropecuarias",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1089.47,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certification fsc",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 6263.55,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gots certification",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 1265.19,
+   "impr_org": 14.0,
+   "pos_org": 7.21
+  },
+  {
+   "termino": "smeta 4p",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 598.5,
+   "impr_org": 2.0,
+   "pos_org": 3.5
+  },
+  {
+   "termino": "msc seafood certification",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 3158.57,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iscc",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 11732.97,
+   "impr_org": 14.0,
+   "pos_org": 12.07
+  },
+  {
+   "termino": "grs textile exchange",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2300.94,
+   "impr_org": 1.0,
+   "pos_org": 7.0
+  },
+  {
+   "termino": "herramientas de gestion ambiental",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 258.76,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "agricultura sostenible",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 89.94,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fsc canada",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 3534.96,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gots 8.0",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 2958.84,
+   "impr_org": 1.0,
+   "pos_org": 17.0
+  },
+  {
+   "termino": "certificación sure",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2167.29,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iso27001",
+   "propiedad": "Argentina",
+   "pais": "arg",
+   "coste": 3091.17,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "que es el certificado energetico",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 3543.81,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "como hacer un analisis de materialidad",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2718.1,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "auditoria iscc",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 1086.55,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iscc",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 7494.84,
+   "impr_org": 35.0,
+   "pos_org": 12.17
+  },
+  {
+   "termino": "fsc canada",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 9047.69,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "rizobacter",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2213.51,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "agricultura regenerativa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 351.19,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "une en 15343 2008",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 351.21,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iso 14064",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 142.39,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "herramientas de gestion ambiental",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 118.12,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "norma iso 27001",
+   "propiedad": "Argentina",
+   "pais": "arg",
+   "coste": 2004.65,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "canada gap",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 11726.94,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "control union organic certification",
+   "propiedad": "Norteamérica",
+   "pais": "usa",
+   "coste": 3121.38,
+   "impr_org": 10.0,
+   "pos_org": 24.8
+  },
+  {
+   "termino": "sistemas de produccion agricola",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 357.14,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "pefc",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 7656.13,
+   "impr_org": 105.0,
+   "pos_org": 7.9
+  },
+  {
+   "termino": "normes fsc",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 8497.63,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iso 27001",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 9504.63,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "sustainability consulting",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 331.2,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "asc certification",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 5417.18,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "national organic program",
+   "propiedad": "Norteamérica",
+   "pais": "usa",
+   "coste": 7516.04,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "consultora ambiental",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1990.4,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gots global organic textile standard",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1439.03,
+   "impr_org": 3.0,
+   "pos_org": 11.67
+  },
+  {
+   "termino": "innovacion en el agro",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 187.58,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "vendor rating formula",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1.31,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "grs global recycled standard",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1604.8,
+   "impr_org": 6.0,
+   "pos_org": 3.17
+  },
+  {
+   "termino": "certificacion 27001",
+   "propiedad": "Argentina",
+   "pais": "arg",
+   "coste": 2994.46,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "ciberseguridad iso 27001",
+   "propiedad": "Argentina",
+   "pais": "arg",
+   "coste": 1922.84,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "siembra de maiz en argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 631.16,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "registro general de certificados de eficiencia energética",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 780.49,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "productos organicos para el campo",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1210.01,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "forest certification canada",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 2135.43,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fsc wood certification",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 3865.95,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificado gots",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 2709.57,
+   "impr_org": 10.0,
+   "pos_org": 5.8
+  },
+  {
+   "termino": "iso 27001",
+   "propiedad": "Argentina",
+   "pais": "arg",
+   "coste": 15103.56,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "http www argenbio org",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 369.79,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "scope 1 2 3 emisiones",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1239.8,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "sello gots",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1909.28,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "global gap",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 7702.07,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "canadagap",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 3086.39,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "que es la eficiencia energetica",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1155.6,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fsc certified",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 8153.44,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "asc seafood certification",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 1691.17,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "agricultura sustentable en argentina",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 965.26,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "organic certified",
+   "propiedad": "Norteamérica",
+   "pais": "usa",
+   "coste": 4573.06,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "como mejorar la produccion agricola",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1024.49,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "soluciones de eficiencia energetica",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1407.77,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "energy consulting",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 916.53,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fsc certified wood",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 5533.72,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "consultora ambiental",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1881.69,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "gei",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1656.76,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iscc plus",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 3169.57,
+   "impr_org": 32.0,
+   "pos_org": 6.03
+  },
+  {
+   "termino": "auditoría y norma internacional brc",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1687.25,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificação florestal fsc",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 3069.22,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "indicadores ambientales empresa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1663.4,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "fsc certification record",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 6049.09,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "tecnologia agro",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1725.96,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "reporte global gri",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 847.83,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "sustainable agriculture innovations",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 784.89,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "empresa sustentable",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 340.07,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "recyclass",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 10911.3,
+   "impr_org": 60.0,
+   "pos_org": 3.17
+  },
+  {
+   "termino": "certificados cae",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 3647.3,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "prosaf",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 499.31,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "agricultural production systems",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 194.13,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "canadagap",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 5955.79,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "biosum srl",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 539.07,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "auditoria ambiental",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1628.13,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "certificação pefc",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 2649.27,
+   "impr_org": 26.0,
+   "pos_org": 14.23
+  },
+  {
+   "termino": "empresas de gestion energetica",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 774.76,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "equipos de eficiencia energetica",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 516.51,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "empresa de forestal",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 4276.69,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "pefc certification",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 3692.33,
+   "impr_org": 9.0,
+   "pos_org": 5.67
+  },
+  {
+   "termino": "eudr dds example",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 3515.71,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "agricultura regenerativa",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1674.81,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "consultora esg",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 1025.81,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "estandares gri",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 561.9,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "que dice la iso 27001",
+   "propiedad": "Argentina",
+   "pais": "arg",
+   "coste": 1501.54,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "estándares gri en español",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 2477.1,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "pefc certification",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "coste": 8529.53,
+   "impr_org": 1.0,
+   "pos_org": 68.0
+  },
+  {
+   "termino": "certificado pefc madera",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 1206.98,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iscc certificates",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 6612.59,
+   "impr_org": 22.0,
+   "pos_org": 9.55
+  },
+  {
+   "termino": "registro de certificados de eficiencia energética",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 2031.22,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "p e f c",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 3116.24,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "iscc eu certificate",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "coste": 4203.14,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "bioregeneracion de suelos",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 924.35,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "ifs food version 8",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 437.71,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "aapresid 2026",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 984.48,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "sustainability consulting services",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "coste": 446.96,
+   "impr_org": NaN,
+   "pos_org": NaN
+  },
+  {
+   "termino": "cae",
+   "propiedad": "España",
+   "pais": "esp",
+   "coste": 3480.71,
+   "impr_org": 18.0,
+   "pos_org": 16.39
+  }
+ ],
+ "zona_8_20": {
+  "coste": 71763,
+  "terminos": 14,
+  "top": [
+   {
+    "termino": "smeta",
+    "propiedad": "España",
+    "pais": "esp",
+    "camp_corta": "Smeta",
+    "coste": 14283.11,
+    "impr_org": 305.0,
+    "pos_org": 7.55
+   },
+   {
+    "termino": "iscc",
+    "propiedad": "España",
+    "pais": "esp",
+    "camp_corta": "Bioenergia",
+    "coste": 11732.97,
+    "impr_org": 14.0,
+    "pos_org": 12.07
+   },
+   {
+    "termino": "pefc portugal",
+    "propiedad": "Portugal",
+    "pais": "prt",
+    "camp_corta": "Forestal",
+    "coste": 7871.06,
+    "impr_org": 5.0,
+    "pos_org": 8.0
+   },
+   {
+    "termino": "pefc",
+    "propiedad": "Portugal",
+    "pais": "prt",
+    "camp_corta": "Forestal",
+    "coste": 7656.13,
+    "impr_org": 105.0,
+    "pos_org": 7.9
+   },
+   {
+    "termino": "iscc",
+    "propiedad": "Portugal",
+    "pais": "prt",
+    "camp_corta": "Bioenergia",
+    "coste": 7494.84,
+    "impr_org": 35.0,
+    "pos_org": 12.17
+   },
+   {
+    "termino": "iscc certificates",
+    "propiedad": "Portugal",
+    "pais": "prt",
+    "camp_corta": "Bioenergia",
+    "coste": 6612.59,
+    "impr_org": 22.0,
+    "pos_org": 9.55
+   },
+   {
+    "termino": "cae",
+    "propiedad": "España",
+    "pais": "esp",
+    "camp_corta": "CAEs",
+    "coste": 3480.71,
+    "impr_org": 18.0,
+    "pos_org": 16.39
+   },
+   {
+    "termino": "auditoria smeta",
+    "propiedad": "España",
+    "pais": "esp",
+    "camp_corta": "Smeta",
+    "coste": 3084.93,
+    "impr_org": 10.0,
+    "pos_org": 9.0
+   },
+   {
+    "termino": "gots 8.0",
+    "propiedad": "Portugal",
+    "pais": "prt",
+    "camp_corta": "Textile",
+    "coste": 2958.84,
+    "impr_org": 1.0,
+    "pos_org": 17.0
+   },
+   {
+    "termino": "certificação pefc",
+    "propiedad": "Portugal",
+    "pais": "prt",
+    "camp_corta": "Forestal",
+    "coste": 2649.27,
+    "impr_org": 26.0,
+    "pos_org": 14.23
+   },
+   {
+    "termino": "iscc certificação",
+    "propiedad": "Portugal",
+    "pais": "prt",
+    "camp_corta": "Bioenergia",
+    "coste": 1602.01,
+    "impr_org": 2.0,
+    "pos_org": 10.5
+   },
+   {
+    "termino": "gots global organic textile standard",
+    "propiedad": "España",
+    "pais": "esp",
+    "camp_corta": "Textile",
+    "coste": 1439.03,
+    "impr_org": 3.0,
+    "pos_org": 11.67
+   }
+  ]
+ },
+ "huecos_por_campana": [
+  {
+   "marca": "CU",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "camp_corta": "Forestry",
+   "coste": 98950.0,
+   "terminos": 17
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "camp_corta": "Canada Gap",
+   "coste": 53625.0,
+   "terminos": 10
+  },
+  {
+   "marca": "PS",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "camp_corta": "Agricultura regenerativa",
+   "coste": 46630.0,
+   "terminos": 50
+  },
+  {
+   "marca": "PS",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "camp_corta": "Huella de carbono / GEI",
+   "coste": 41810.0,
+   "terminos": 31
+  },
+  {
+   "marca": "PS",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "camp_corta": "ESG / Reportes",
+   "coste": 36183.0,
+   "terminos": 21
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "camp_corta": "Aqua / Fisheries",
+   "coste": 34279.0,
+   "terminos": 7
+  },
+  {
+   "marca": "CU",
+   "propiedad": "España",
+   "pais": "esp",
+   "camp_corta": "ISO 27001",
+   "coste": 18842.0,
+   "terminos": 3
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "camp_corta": "Smeta",
+   "coste": 12944.0,
+   "terminos": 2
+  },
+  {
+   "marca": "PS",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "camp_corta": "Bioenergia / Biocombustibles",
+   "coste": 10049.0,
+   "terminos": 5
+  },
+  {
+   "marca": "CU",
+   "propiedad": "España",
+   "pais": "esp",
+   "camp_corta": "IFS",
+   "coste": 10023.0,
+   "terminos": 5
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Argentina",
+   "pais": "arg",
+   "camp_corta": "ISO 27001",
+   "coste": 8647.0,
+   "terminos": 4
+  },
+  {
+   "marca": "CU",
+   "propiedad": "España",
+   "pais": "esp",
+   "camp_corta": "Textile",
+   "coste": 8427.0,
+   "terminos": 4
+  }
+ ],
+ "evolucion_cinco": {
+  "global recycled standard": {
+   "2026-03": 5.9,
+   "2026-04": 8.3,
+   "2026-05": 9.8,
+   "2026-06": 7.2,
+   "2026-07": 6.2,
+   "2026-08": 6.5,
+   "2026-09": 5.5
+  },
+  "recyclass": {
+   "2026-03": 6.2,
+   "2026-04": 5.6,
+   "2026-05": 6.0,
+   "2026-06": 6.5,
+   "2026-07": 5.7,
+   "2026-08": 5.9,
+   "2026-09": 6.4
+  },
+  "smeta": {
+   "2026-03": 10.5,
+   "2026-04": 9.0,
+   "2026-05": 7.1,
+   "2026-06": 7.7,
+   "2026-07": 5.9,
+   "2026-08": 7.7,
+   "2026-09": 7.4
+  },
+  "iscc": {
+   "2026-03": 6.8,
+   "2026-04": 6.9,
+   "2026-05": 7.6,
+   "2026-06": 7.5,
+   "2026-07": 7.4,
+   "2026-08": 11.6,
+   "2026-09": 13.7
+  },
+  "pefc": {
+   "2026-03": 28.3,
+   "2026-04": 30.5,
+   "2026-05": 24.4,
+   "2026-06": 13.8,
+   "2026-07": 14.3,
+   "2026-08": 25.4,
+   "2026-09": 27.4
+  }
+ },
+ "evolucion_cinco_impr": {
+  "global recycled standard": {
+   "2026-03": 56,
+   "2026-04": 63,
+   "2026-05": 71,
+   "2026-06": 61,
+   "2026-07": 63,
+   "2026-08": 47,
+   "2026-09": 25
+  },
+  "recyclass": {
+   "2026-03": 187,
+   "2026-04": 213,
+   "2026-05": 177,
+   "2026-06": 107,
+   "2026-07": 251,
+   "2026-08": 105,
+   "2026-09": 68
+  },
+  "smeta": {
+   "2026-03": 223,
+   "2026-04": 168,
+   "2026-05": 362,
+   "2026-06": 413,
+   "2026-07": 269,
+   "2026-08": 203,
+   "2026-09": 119
+  },
+  "iscc": {
+   "2026-03": 391,
+   "2026-04": 605,
+   "2026-05": 508,
+   "2026-06": 151,
+   "2026-07": 207,
+   "2026-08": 11,
+   "2026-09": 3
+  },
+  "pefc": {
+   "2026-03": 19,
+   "2026-04": 23,
+   "2026-05": 35,
+   "2026-06": 74,
+   "2026-07": 66,
+   "2026-08": 30,
+   "2026-09": 14
+  }
+ },
+ "evolucion_zona_top5": {
+  "smeta · esp": {
+   "2026-03": 10.5,
+   "2026-04": 9.0,
+   "2026-05": 7.1,
+   "2026-06": 7.7,
+   "2026-07": 5.9,
+   "2026-08": 7.7,
+   "2026-09": 7.4
+  },
+  "iscc · esp": {
+   "2026-03": 6.8,
+   "2026-04": 6.9,
+   "2026-05": 7.6,
+   "2026-06": 7.5,
+   "2026-07": 7.4,
+   "2026-08": 11.6,
+   "2026-09": 13.7
+  },
+  "pefc portugal · prt": {
+   "2026-03": null,
+   "2026-04": 8.4,
+   "2026-05": 9.0,
+   "2026-06": 13.0,
+   "2026-07": 7.0,
+   "2026-08": 8.0,
+   "2026-09": null
+  },
+  "pefc · prt": {
+   "2026-03": 9.6,
+   "2026-04": 9.4,
+   "2026-05": 9.7,
+   "2026-06": 9.0,
+   "2026-07": 9.1,
+   "2026-08": 9.1,
+   "2026-09": 6.7
+  },
+  "iscc certificates · prt": {
+   "2026-03": 5.1,
+   "2026-04": 7.3,
+   "2026-05": 4.9,
+   "2026-06": 6.6,
+   "2026-07": 8.2,
+   "2026-08": 9.5,
+   "2026-09": null
+  }
+ },
+ "cinco_referencia_12m": {
+  "global recycled standard": {
+   "filas_pais": 62,
+   "impr_total": 1292,
+   "media_simple": 16.2,
+   "ponderada": 45.1,
+   "impr_esp": 384,
+   "pos_esp": 7.3
+  },
+  "recyclass": {
+   "filas_pais": 20,
+   "impr_total": 1265,
+   "media_simple": 15.2,
+   "ponderada": 8.3,
+   "impr_esp": 1101,
+   "pos_esp": 6.0
+  },
+  "smeta": {
+   "filas_pais": 19,
+   "impr_total": 1789,
+   "media_simple": 12.6,
+   "ponderada": 7.9,
+   "impr_esp": 1745,
+   "pos_esp": 7.8
+  },
+  "iscc": {
+   "filas_pais": 20,
+   "impr_total": 1922,
+   "media_simple": 13.2,
+   "ponderada": 7.4,
+   "impr_esp": 1876,
+   "pos_esp": 7.2
+  },
+  "pefc": {
+   "filas_pais": 17,
+   "impr_total": 428,
+   "media_simple": 12.2,
+   "ponderada": 16.8,
+   "impr_esp": 259,
+   "pos_esp": 19.9
+  }
+ },
+ "zona_abr_ago": [
+  {
+   "termino": "smeta",
+   "pos_abr": 8.98,
+   "pos_ago": 7.65,
+   "impr_abr": 168,
+   "impr_ago": 203,
+   "delta": -1.3
+  },
+  {
+   "termino": "iscc",
+   "pos_abr": 6.88,
+   "pos_ago": 11.64,
+   "impr_abr": 605,
+   "impr_ago": 11,
+   "delta": 4.8
+  },
+  {
+   "termino": "auditoria smeta",
+   "pos_abr": 13.79,
+   "pos_ago": 9.53,
+   "impr_abr": 19,
+   "impr_ago": 15,
+   "delta": -4.3
+  },
+  {
+   "termino": "une en 15343",
+   "pos_abr": 6.43,
+   "pos_ago": 8.25,
+   "impr_abr": 28,
+   "impr_ago": 4,
+   "delta": 1.8
+  },
+  {
+   "termino": "fsc españa",
+   "pos_abr": 9.05,
+   "pos_ago": 13.5,
+   "impr_abr": 20,
+   "impr_ago": 2,
+   "delta": 4.4
+  }
+ ],
+ "no_comprada": {
+  "Argentina": {
+   "queries": 313,
+   "impresiones": 101887,
+   "clics": 498,
+   "con_campana": "si",
+   "top": [
+    {
+     "query": "smeta",
+     "impressions": 8890,
+     "clicks": 22,
+     "position": 10.33,
+     "norma": "SMETA / Sedex"
+    },
+    {
+     "query": "visec",
+     "impressions": 8803,
+     "clicks": 85,
+     "position": 5.5,
+     "norma": "VISEC"
+    },
+    {
+     "query": "fsa",
+     "impressions": 5082,
+     "clicks": 14,
+     "position": 4.27,
+     "norma": "FSA"
+    },
+    {
+     "query": "visec carne",
+     "impressions": 4458,
+     "clicks": 30,
+     "position": 8.43,
+     "norma": "VISEC"
+    },
+    {
+     "query": "deposito fiscal",
+     "impressions": 3430,
+     "clicks": 31,
+     "position": 8.59,
+     "norma": NaN
+    },
+    {
+     "query": "fsma",
+     "impressions": 3407,
+     "clicks": 8,
+     "position": 9.86,
+     "norma": "FSMA"
+    },
+    {
+     "query": "asc",
+     "impressions": 2567,
+     "clicks": 2,
+     "position": 5.62,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "rtrs",
+     "impressions": 2450,
+     "clicks": 6,
+     "position": 5.53,
+     "norma": "RTRS"
+    },
+    {
+     "query": "2bsvs",
+     "impressions": 2261,
+     "clicks": 14,
+     "position": 6.57,
+     "norma": "2BSvs"
+    },
+    {
+     "query": "iscc",
+     "impressions": 2012,
+     "clicks": 14,
+     "position": 7.04,
+     "norma": "ISCC"
+    }
+   ],
+   "queries_40": 320,
+   "pct_no_comprada": 97.8
+  },
+  "Brasil": {
+   "queries": 205,
+   "impresiones": 57111,
+   "clics": 145,
+   "con_campana": "no",
+   "top": [
+    {
+     "query": "obp",
+     "impressions": 4647,
+     "clicks": 1,
+     "position": 6.82,
+     "norma": NaN
+    },
+    {
+     "query": "grs",
+     "impressions": 4104,
+     "clicks": 3,
+     "position": 5.03,
+     "norma": "GRS"
+    },
+    {
+     "query": "gmp",
+     "impressions": 3722,
+     "clicks": 3,
+     "position": 10.71,
+     "norma": "GMP+"
+    },
+    {
+     "query": "smeta",
+     "impressions": 2306,
+     "clicks": 4,
+     "position": 8.35,
+     "norma": "SMETA / Sedex"
+    },
+    {
+     "query": "gmp+",
+     "impressions": 1924,
+     "clicks": 12,
+     "position": 8.63,
+     "norma": "GMP+"
+    },
+    {
+     "query": "rspo",
+     "impressions": 1870,
+     "clicks": 2,
+     "position": 6.37,
+     "norma": "RSPO"
+    },
+    {
+     "query": "iscc",
+     "impressions": 1763,
+     "clicks": 5,
+     "position": 7.57,
+     "norma": "ISCC"
+    },
+    {
+     "query": "gots",
+     "impressions": 1513,
+     "clicks": 2,
+     "position": 8.74,
+     "norma": "GOTS"
+    },
+    {
+     "query": "warrants",
+     "impressions": 1512,
+     "clicks": 2,
+     "position": 7.18,
+     "norma": NaN
+    },
+    {
+     "query": "pest control solutions",
+     "impressions": 1403,
+     "clicks": 0,
+     "position": 8.34,
+     "norma": NaN
+    }
+   ],
+   "queries_40": 212,
+   "pct_no_comprada": 96.7
+  },
+  "Chile": {
+   "queries": 107,
+   "impresiones": 27621,
+   "clics": 141,
+   "con_campana": "no",
+   "top": [
+    {
+     "query": "bap",
+     "impressions": 2631,
+     "clicks": 22,
+     "position": 6.63,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "grs",
+     "impressions": 1891,
+     "clicks": 2,
+     "position": 6.64,
+     "norma": "GRS"
+    },
+    {
+     "query": "asc",
+     "impressions": 1660,
+     "clicks": 6,
+     "position": 7.93,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "control de calidad en frutas",
+     "impressions": 1568,
+     "clicks": 2,
+     "position": 26.22,
+     "norma": NaN
+    },
+    {
+     "query": "brcgs",
+     "impressions": 1493,
+     "clicks": 1,
+     "position": 12.55,
+     "norma": "BRCGS"
+    },
+    {
+     "query": "grasp",
+     "impressions": 1377,
+     "clicks": 21,
+     "position": 6.12,
+     "norma": "GLOBALG.A.P."
+    },
+    {
+     "query": "ifs",
+     "impressions": 1364,
+     "clicks": 6,
+     "position": 4.28,
+     "norma": "IFS"
+    },
+    {
+     "query": "control de calidad de frutas",
+     "impressions": 1353,
+     "clicks": 0,
+     "position": 28.8,
+     "norma": NaN
+    },
+    {
+     "query": "tecnicas de control de calidad en frutas",
+     "impressions": 1284,
+     "clicks": 0,
+     "position": 46.11,
+     "norma": NaN
+    },
+    {
+     "query": "trabajo de control de calidad en fruta",
+     "impressions": 918,
+     "clicks": 0,
+     "position": 40.84,
+     "norma": NaN
+    }
+   ],
+   "queries_40": 113,
+   "pct_no_comprada": 94.7
+  },
+  "España": {
+   "queries": 394,
+   "impresiones": 159394,
+   "clics": 389,
+   "con_campana": "si",
+   "top": [
+    {
+     "query": "iso 45001",
+     "impressions": 62834,
+     "clicks": 10,
+     "position": 10.73,
+     "norma": "ISO 45001"
+    },
+    {
+     "query": "welfair",
+     "impressions": 5196,
+     "clicks": 5,
+     "position": 6.51,
+     "norma": "Welfair / bienestar animal"
+    },
+    {
+     "query": "grasp",
+     "impressions": 4553,
+     "clicks": 18,
+     "position": 8.35,
+     "norma": "GLOBALG.A.P."
+    },
+    {
+     "query": "red española de servicios",
+     "impressions": 3426,
+     "clicks": 20,
+     "position": 6.64,
+     "norma": NaN
+    },
+    {
+     "query": "iso 45000",
+     "impressions": 2865,
+     "clicks": 0,
+     "position": 13.85,
+     "norma": NaN
+    },
+    {
+     "query": "sbp",
+     "impressions": 2152,
+     "clicks": 0,
+     "position": 7.75,
+     "norma": "SBP"
+    },
+    {
+     "query": "gstc",
+     "impressions": 1880,
+     "clicks": 11,
+     "position": 8.16,
+     "norma": NaN
+    },
+    {
+     "query": "cumcs",
+     "impressions": 1587,
+     "clicks": 9,
+     "position": 2.91,
+     "norma": "CUMCS"
+    },
+    {
+     "query": "green globe",
+     "impressions": 1523,
+     "clicks": 5,
+     "position": 5.49,
+     "norma": NaN
+    },
+    {
+     "query": "iso 21401",
+     "impressions": 1471,
+     "clicks": 79,
+     "position": 3.69,
+     "norma": NaN
+    }
+   ],
+   "queries_40": 635,
+   "pct_no_comprada": 62.0
+  },
+  "México": {
+   "queries": 311,
+   "impresiones": 117418,
+   "clics": 267,
+   "con_campana": "no",
+   "top": [
+    {
+     "query": "grs",
+     "impressions": 22617,
+     "clicks": 24,
+     "position": 7.51,
+     "norma": "GRS"
+    },
+    {
+     "query": "fsa",
+     "impressions": 6624,
+     "clicks": 8,
+     "position": 6.39,
+     "norma": "FSA"
+    },
+    {
+     "query": "fsc",
+     "impressions": 5433,
+     "clicks": 5,
+     "position": 8.61,
+     "norma": "FSC"
+    },
+    {
+     "query": "smeta",
+     "impressions": 5202,
+     "clicks": 8,
+     "position": 9.71,
+     "norma": "SMETA / Sedex"
+    },
+    {
+     "query": "ocs",
+     "impressions": 4341,
+     "clicks": 0,
+     "position": 4.13,
+     "norma": NaN
+    },
+    {
+     "query": "fair trade",
+     "impressions": 3374,
+     "clicks": 5,
+     "position": 9.03,
+     "norma": NaN
+    },
+    {
+     "query": "grs que es",
+     "impressions": 3232,
+     "clicks": 1,
+     "position": 4.44,
+     "norma": "GRS"
+    },
+    {
+     "query": "primusgfs",
+     "impressions": 3130,
+     "clicks": 15,
+     "position": 11.75,
+     "norma": "PrimusGFS"
+    },
+    {
+     "query": "primus gfs",
+     "impressions": 2382,
+     "clicks": 12,
+     "position": 9.04,
+     "norma": "PrimusGFS"
+    },
+    {
+     "query": "que es grs",
+     "impressions": 1956,
+     "clicks": 1,
+     "position": 5.71,
+     "norma": "GRS"
+    }
+   ],
+   "queries_40": 328,
+   "pct_no_comprada": 94.8
+  },
+  "Norteamérica": {
+   "queries": 43,
+   "impresiones": 29493,
+   "clics": 18,
+   "con_campana": "si",
+   "top": [
+    {
+     "query": "temo",
+     "impressions": 19040,
+     "clicks": 6,
+     "position": 9.33,
+     "norma": "TEMO"
+    },
+    {
+     "query": "collateral management services",
+     "impressions": 1266,
+     "clicks": 0,
+     "position": 49.37,
+     "norma": NaN
+    },
+    {
+     "query": "fslm",
+     "impressions": 1225,
+     "clicks": 2,
+     "position": 8.69,
+     "norma": "FSLM / Higg"
+    },
+    {
+     "query": "cumcs",
+     "impressions": 1107,
+     "clicks": 5,
+     "position": 1.94,
+     "norma": "CUMCS"
+    },
+    {
+     "query": "collateral management solutions",
+     "impressions": 946,
+     "clicks": 0,
+     "position": 37.2,
+     "norma": NaN
+    },
+    {
+     "query": "what is temo",
+     "impressions": 596,
+     "clicks": 0,
+     "position": 6.24,
+     "norma": "TEMO"
+    },
+    {
+     "query": "higg fslm",
+     "impressions": 569,
+     "clicks": 0,
+     "position": 9.9,
+     "norma": "FSLM / Higg"
+    },
+    {
+     "query": "iso 22716",
+     "impressions": 545,
+     "clicks": 1,
+     "position": 39.19,
+     "norma": NaN
+    },
+    {
+     "query": "collateral management service",
+     "impressions": 515,
+     "clicks": 0,
+     "position": 64.54,
+     "norma": NaN
+    },
+    {
+     "query": "collateral management solution",
+     "impressions": 376,
+     "clicks": 0,
+     "position": 47.42,
+     "norma": NaN
+    }
+   ],
+   "queries_40": 55,
+   "pct_no_comprada": 78.2
+  },
+  "Perú": {
+   "queries": 673,
+   "impresiones": 246502,
+   "clics": 1352,
+   "con_campana": "no",
+   "top": [
+    {
+     "query": "koa certification",
+     "impressions": 26177,
+     "clicks": 0,
+     "position": 6.8,
+     "norma": NaN
+    },
+    {
+     "query": "haccp",
+     "impressions": 15416,
+     "clicks": 31,
+     "position": 8.06,
+     "norma": NaN
+    },
+    {
+     "query": "rainforest alliance",
+     "impressions": 10896,
+     "clicks": 32,
+     "position": 3.43,
+     "norma": "Rainforest Alliance"
+    },
+    {
+     "query": "asc",
+     "impressions": 8588,
+     "clicks": 24,
+     "position": 6.9,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "rain forest",
+     "impressions": 6624,
+     "clicks": 0,
+     "position": 1.02,
+     "norma": NaN
+    },
+    {
+     "query": "ras",
+     "impressions": 6374,
+     "clicks": 8,
+     "position": 5.94,
+     "norma": NaN
+    },
+    {
+     "query": "haccp que significa",
+     "impressions": 6219,
+     "clicks": 2,
+     "position": 7.89,
+     "norma": NaN
+    },
+    {
+     "query": "eti",
+     "impressions": 5692,
+     "clicks": 5,
+     "position": 4.73,
+     "norma": NaN
+    },
+    {
+     "query": "politica de privacidad para el tratamiento de datos personales",
+     "impressions": 5010,
+     "clicks": 29,
+     "position": 3.57,
+     "norma": NaN
+    },
+    {
+     "query": "ocs",
+     "impressions": 4873,
+     "clicks": 21,
+     "position": 3.83,
+     "norma": NaN
+    }
+   ],
+   "queries_40": 690,
+   "pct_no_comprada": 97.5
+  },
+  "Portugal": {
+   "queries": 137,
+   "impresiones": 33012,
+   "clics": 73,
+   "con_campana": "si",
+   "top": [
+    {
+     "query": "aquacultura",
+     "impressions": 4451,
+     "clicks": 2,
+     "position": 6.14,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "green key",
+     "impressions": 1424,
+     "clicks": 2,
+     "position": 7.06,
+     "norma": NaN
+    },
+    {
+     "query": "iso 9001",
+     "impressions": 1303,
+     "clicks": 0,
+     "position": 12.88,
+     "norma": "ISO 9001"
+    },
+    {
+     "query": "carbon neutral",
+     "impressions": 1172,
+     "clicks": 0,
+     "position": 4.34,
+     "norma": NaN
+    },
+    {
+     "query": "vcs",
+     "impressions": 1092,
+     "clicks": 0,
+     "position": 9.25,
+     "norma": NaN
+    },
+    {
+     "query": "sbp",
+     "impressions": 1066,
+     "clicks": 9,
+     "position": 4.72,
+     "norma": "SBP"
+    },
+    {
+     "query": "ccs",
+     "impressions": 1007,
+     "clicks": 4,
+     "position": 8.67,
+     "norma": NaN
+    },
+    {
+     "query": "gas free certification",
+     "impressions": 979,
+     "clicks": 0,
+     "position": 46.73,
+     "norma": NaN
+    },
+    {
+     "query": "2bsvs",
+     "impressions": 914,
+     "clicks": 0,
+     "position": 7.66,
+     "norma": "2BSvs"
+    },
+    {
+     "query": "draft survey",
+     "impressions": 913,
+     "clicks": 2,
+     "position": 33.33,
+     "norma": NaN
+    }
+   ],
+   "queries_40": 220,
+   "pct_no_comprada": 62.3
+  },
+  "Américas": {
+   "queries": 29,
+   "impresiones": 4205,
+   "clics": 12,
+   "con_campana": "si",
+   "top": [
+    {
+     "query": "red iii",
+     "impressions": 1611,
+     "clicks": 4,
+     "position": 11.2,
+     "norma": "RED II/III"
+    },
+    {
+     "query": "eu red iii",
+     "impressions": 486,
+     "clicks": 2,
+     "position": 8.45,
+     "norma": "RED II/III"
+    },
+    {
+     "query": "red iii directive",
+     "impressions": 280,
+     "clicks": 1,
+     "position": 11.16,
+     "norma": "RED II/III"
+    },
+    {
+     "query": "red iii eu",
+     "impressions": 152,
+     "clicks": 0,
+     "position": 8.38,
+     "norma": "RED II/III"
+    },
+    {
+     "query": "renewable energy directive iii",
+     "impressions": 146,
+     "clicks": 0,
+     "position": 13.64,
+     "norma": NaN
+    },
+    {
+     "query": "renewable energy directive (red iii)",
+     "impressions": 116,
+     "clicks": 0,
+     "position": 9.59,
+     "norma": "RED II/III"
+    },
+    {
+     "query": "rediii",
+     "impressions": 108,
+     "clicks": 0,
+     "position": 10.07,
+     "norma": NaN
+    },
+    {
+     "query": "red iii europe",
+     "impressions": 101,
+     "clicks": 1,
+     "position": 8.49,
+     "norma": "RED II/III"
+    },
+    {
+     "query": "eu red iii renewable energy target 2030",
+     "impressions": 90,
+     "clicks": 0,
+     "position": 7.09,
+     "norma": "RED II/III"
+    },
+    {
+     "query": "renewable energy directive iii (red iii)",
+     "impressions": 85,
+     "clicks": 1,
+     "position": 10.05,
+     "norma": "RED II/III"
+    }
+   ],
+   "queries_40": 35,
+   "pct_no_comprada": 82.9
+  },
+  "Iberia": {
+   "queries": 28,
+   "impresiones": 4363,
+   "clics": 4,
+   "con_campana": "no",
+   "top": [
+    {
+     "query": "csrd",
+     "impressions": 1456,
+     "clicks": 0,
+     "position": 21.49,
+     "norma": "CSRD"
+    },
+    {
+     "query": "finanzas sostenibles",
+     "impressions": 269,
+     "clicks": 0,
+     "position": 25.41,
+     "norma": NaN
+    },
+    {
+     "query": "ecgt",
+     "impressions": 239,
+     "clicks": 2,
+     "position": 3.87,
+     "norma": NaN
+    },
+    {
+     "query": "cbam services",
+     "impressions": 238,
+     "clicks": 0,
+     "position": 28.56,
+     "norma": "CBAM"
+    },
+    {
+     "query": "reportes de sostenibilidad",
+     "impressions": 219,
+     "clicks": 0,
+     "position": 23.85,
+     "norma": NaN
+    },
+    {
+     "query": "csrd sostenibilidad",
+     "impressions": 183,
+     "clicks": 0,
+     "position": 31.19,
+     "norma": "CSRD"
+    },
+    {
+     "query": "cumplimiento eudr mantenimiento",
+     "impressions": 173,
+     "clicks": 0,
+     "position": 50.91,
+     "norma": "EUDR"
+    },
+    {
+     "query": "eubr",
+     "impressions": 160,
+     "clicks": 0,
+     "position": 13.46,
+     "norma": NaN
+    },
+    {
+     "query": "csrd que es",
+     "impressions": 150,
+     "clicks": 0,
+     "position": 34.71,
+     "norma": "CSRD"
+    },
+    {
+     "query": "reporte de sostenibilidad",
+     "impressions": 133,
+     "clicks": 0,
+     "position": 25.27,
+     "norma": NaN
+    }
+   ],
+   "queries_40": 28,
+   "pct_no_comprada": 100.0
+  }
+ },
+ "landing": {
+  "keywords_con_url": 78,
+  "evaluadas": 14,
+  "coinciden": 14,
+  "detalle": [
+   {
+    "keyword": "\"requisitos certificacion iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "España",
+    "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "pagina_organica": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "impr": 211,
+    "pos": 43.3,
+    "coincide": true
+   },
+   {
+    "keyword": "\"como obtener la certificacion iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "España",
+    "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "pagina_organica": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "impr": 211,
+    "pos": 43.3,
+    "coincide": true
+   },
+   {
+    "keyword": "\"cuanto cuesta certificar iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "España",
+    "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "pagina_organica": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "impr": 211,
+    "pos": 43.3,
+    "coincide": true
+   },
+   {
+    "keyword": "\"certificacion iso 27001 precio\"",
+    "campana": "ISO 27001",
+    "propiedad": "España",
+    "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "pagina_organica": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "impr": 211,
+    "pos": 43.3,
+    "coincide": true
+   },
+   {
+    "keyword": "\"empresa certificadora iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "España",
+    "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "pagina_organica": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "impr": 2,
+    "pos": 50.0,
+    "coincide": true
+   },
+   {
+    "keyword": "\"obtener certificacion iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "España",
+    "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "pagina_organica": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "impr": 211,
+    "pos": 43.3,
+    "coincide": true
+   },
+   {
+    "keyword": "\"auditoria de certificacion iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "España",
+    "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "pagina_organica": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "impr": 211,
+    "pos": 43.3,
+    "coincide": true
+   },
+   {
+    "keyword": "\"certificar iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "España",
+    "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "pagina_organica": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "impr": 211,
+    "pos": 43.3,
+    "coincide": true
+   },
+   {
+    "keyword": "\"certificacion iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "España",
+    "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "pagina_organica": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+    "impr": 10,
+    "pos": 44.5,
+    "coincide": true
+   },
+   {
+    "keyword": "\"certificado iso 27001 para empresas\"",
+    "campana": "ISO 27001",
+    "propiedad": "Argentina",
+    "url_final": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+    "pagina_organica": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+    "impr": 10,
+    "pos": 15.9,
+    "coincide": true
+   },
+   {
+    "keyword": "\"precio certificacion iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "Argentina",
+    "url_final": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+    "pagina_organica": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+    "impr": 10,
+    "pos": 15.9,
+    "coincide": true
+   },
+   {
+    "keyword": "\"costo certificacion iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "Argentina",
+    "url_final": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+    "pagina_organica": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+    "impr": 10,
+    "pos": 15.9,
+    "coincide": true
+   },
+   {
+    "keyword": "[certificacion iso 27001 argentina]",
+    "campana": "ISO 27001",
+    "propiedad": "Argentina",
+    "url_final": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+    "pagina_organica": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+    "impr": 10,
+    "pos": 15.9,
+    "coincide": true
+   },
+   {
+    "keyword": "\"como certificar iso 27001\"",
+    "campana": "ISO 27001",
+    "propiedad": "Argentina",
+    "url_final": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+    "pagina_organica": "https://argentina.controlunion.com/programa-de-certificacion/iso-27001/",
+    "impr": 10,
+    "pos": 15.9,
+    "coincide": true
+   }
+  ],
+  "pos_es": 43.3,
+  "pos_ar": 15.9
+ },
+ "negativos": {
+  "evaluados": 145,
+  "con_presencia": 24,
+  "relevantes": [
+   {
+    "ambito": "España · Forestal",
+    "propiedad": "España",
+    "negativo": "rainforest alliance",
+    "queries": 52,
+    "impresiones": 3739,
+    "clics": 6,
+    "pos": 9.3,
+    "ejemplo": "rainforest alliance"
+   },
+   {
+    "ambito": "Norteamérica · Canada Gap",
+    "propiedad": "Norteamérica",
+    "negativo": "forms",
+    "queries": 7,
+    "impresiones": 355,
+    "clics": 2,
+    "pos": 7.5,
+    "ejemplo": "higg fslm full form"
+   },
+   {
+    "ambito": "España · CAEs",
+    "propiedad": "España",
+    "negativo": "repsol",
+    "queries": 8,
+    "impresiones": 229,
+    "clics": 0,
+    "pos": 3.0,
+    "ejemplo": "análisis detallado sobre cómo el despliegue de combustibles renovables de repsol en españa contribuye específicamente a los objetivos de la directiva (ue) 2023/2413 (red iii) y cuál es el mecanismo de certificación de ahorro de emisiones de gei utilizado para validar su impacto frente a la regulación vigente."
+   },
+   {
+    "ambito": "CU · *",
+    "propiedad": "España",
+    "negativo": "consultor",
+    "queries": 5,
+    "impresiones": 164,
+    "clics": 0,
+    "pos": 44.8,
+    "ejemplo": "consultor fsc"
+   },
+   {
+    "ambito": "CU · *",
+    "propiedad": "México",
+    "negativo": "consultoria",
+    "queries": 2,
+    "impresiones": 155,
+    "clics": 1,
+    "pos": 5.5,
+    "ejemplo": "consultoria smeta"
+   },
+   {
+    "ambito": "CU · *",
+    "propiedad": "España",
+    "negativo": "consultoria",
+    "queries": 9,
+    "impresiones": 148,
+    "clics": 0,
+    "pos": 56.7,
+    "ejemplo": "consultoria huella de carbono"
+   },
+   {
+    "ambito": "Norteamérica · Canada Gap",
+    "propiedad": "Norteamérica",
+    "negativo": "organic certification",
+    "queries": 17,
+    "impresiones": 136,
+    "clics": 1,
+    "pos": 45.1,
+    "ejemplo": "control union organic certification"
+   }
+  ]
+ },
+ "s7": {
+  "fsc_espana": {
+   "queries": 96,
+   "impresiones": 1284,
+   "clics": 0,
+   "pos": 31.1
+  },
+  "fsc_portugal": {
+   "queries": 88,
+   "impresiones": 2296,
+   "clics": 2,
+   "pos": 28.2
+  },
+  "oeko_cu": {
+   "Argentina": {
+    "queries": 0,
+    "impresiones": 0,
+    "clics": 0,
+    "pos": null
+   },
+   "Brasil": {
+    "queries": 0,
+    "impresiones": 0,
+    "clics": 0,
+    "pos": null
+   },
+   "Chile": {
+    "queries": 0,
+    "impresiones": 0,
+    "clics": 0,
+    "pos": null
+   },
+   "España": {
+    "queries": 0,
+    "impresiones": 0,
+    "clics": 0,
+    "pos": null
+   },
+   "México": {
+    "queries": 0,
+    "impresiones": 0,
+    "clics": 0,
+    "pos": null
+   },
+   "Norteamérica": {
+    "queries": 0,
+    "impresiones": 0,
+    "clics": 0,
+    "pos": null
+   },
+   "Perú": {
+    "queries": 0,
+    "impresiones": 0,
+    "clics": 0,
+    "pos": null
+   },
+   "Portugal": {
+    "queries": 0,
+    "impresiones": 0,
+    "clics": 0,
+    "pos": null
+   }
+  },
+  "iso22000_es": {
+   "queries": 147,
+   "impresiones": 2265,
+   "clics": 0,
+   "pos": 40.7
+  },
+  "fssc_es": {
+   "queries": 56,
+   "impresiones": 650,
+   "clics": 0,
+   "pos": 32.2
+  },
+  "brcgs_es": {
+   "queries": 11,
+   "impresiones": 37,
+   "clics": 0,
+   "pos": 27.7
+  },
+  "gmp_es": {
+   "queries": 86,
+   "impresiones": 5031,
+   "clics": 1,
+   "pos": 13.7
+  },
+  "gmp_pt": {
+   "queries": 51,
+   "impresiones": 1195,
+   "clics": 2,
+   "pos": 25.1
+  },
+  "ifs_es": {
+   "queries": 130,
+   "impresiones": 5252,
+   "clics": 0,
+   "pos": 36.4
+  },
+  "iso45001_es": {
+   "queries": 199,
+   "impresiones": 72363,
+   "clics": 25,
+   "pos": 11.6
+  },
+  "fsc_na": {
+   "queries": 39,
+   "impresiones": 251,
+   "clics": 0,
+   "pos": 25.7
+  },
+  "fsc_na_can": {
+   "queries": 39,
+   "impresiones": 251,
+   "clics": 0,
+   "pos": 25.7
+  },
+  "fsc_na_por_pais": {
+   "usa": 200,
+   "jpn": 7,
+   "deu": 5,
+   "ind": 4,
+   "esp": 3
+  },
+  "temo_na": {
+   "queries": 89,
+   "impresiones": 20346,
+   "clics": 7,
+   "pos": 9.2
+  },
+  "smeta_ar": {
+   "queries": 213,
+   "impresiones": 17853,
+   "clics": 49,
+   "pos": 10.3
+  },
+  "visec_ar": {
+   "queries": 23,
+   "impresiones": 15409,
+   "clics": 147,
+   "pos": 6.2
+  },
+  "queries_cu_total": 32079,
+  "mes_fsc_es": {
+   "2026-03": 201,
+   "2026-04": 101,
+   "2026-05": 145,
+   "2026-06": 124,
+   "2026-07": 143,
+   "2026-08": 351,
+   "2026-09": 219
+  },
+  "mes_gmp_es": {
+   "2026-03": 424,
+   "2026-04": 411,
+   "2026-05": 747,
+   "2026-06": 1015,
+   "2026-07": 1010,
+   "2026-08": 927,
+   "2026-09": 497
+  },
+  "mes_iso45001_es": {
+   "2026-03": 12270,
+   "2026-04": 13102,
+   "2026-05": 15527,
+   "2026-06": 9994,
+   "2026-07": 7522,
+   "2026-08": 10825,
+   "2026-09": 3123
+  }
+ },
+ "estacionalidad": {
+  "Argentina": {
+   "SMETA / Sedex": {
+    "2025-05": 128,
+    "2025-06": 17,
+    "2025-07": 152,
+    "2025-08": 352,
+    "2025-09": 358,
+    "2025-10": 536,
+    "2025-11": 543,
+    "2025-12": 415,
+    "2026-03": 1163,
+    "2026-04": 2358,
+    "2026-05": 2097,
+    "2026-06": 2167,
+    "2026-07": 3006,
+    "2026-08": 4973,
+    "2026-09": 1641
+   },
+   "VISEC": {
+    "2025-05": 0,
+    "2025-06": 0,
+    "2025-07": 0,
+    "2025-08": 145,
+    "2025-09": 334,
+    "2025-10": 288,
+    "2025-11": 1458,
+    "2025-12": 377,
+    "2026-03": 588,
+    "2026-04": 634,
+    "2026-05": 5060,
+    "2026-06": 3212,
+    "2026-07": 1027,
+    "2026-08": 1410,
+    "2026-09": 876
+   },
+   "FSMA": {
+    "2025-05": 222,
+    "2025-06": 338,
+    "2025-07": 484,
+    "2025-08": 506,
+    "2025-09": 282,
+    "2025-10": 620,
+    "2025-11": 1019,
+    "2025-12": 580,
+    "2026-03": 664,
+    "2026-04": 707,
+    "2026-05": 802,
+    "2026-06": 635,
+    "2026-07": 721,
+    "2026-08": 790,
+    "2026-09": 352
+   },
+   "FSA": {
+    "2025-05": 1094,
+    "2025-06": 518,
+    "2025-07": 238,
+    "2025-08": 133,
+    "2025-09": 76,
+    "2025-10": 61,
+    "2025-11": 181,
+    "2025-12": 306,
+    "2026-03": 840,
+    "2026-04": 855,
+    "2026-05": 826,
+    "2026-06": 782,
+    "2026-07": 1061,
+    "2026-08": 909,
+    "2026-09": 412
+   },
+   "MSC / ASC / BAP": {
+    "2025-05": 0,
+    "2025-06": 0,
+    "2025-07": 0,
+    "2025-08": 29,
+    "2025-09": 36,
+    "2025-10": 42,
+    "2025-11": 319,
+    "2025-12": 270,
+    "2026-03": 417,
+    "2026-04": 269,
+    "2026-05": 379,
+    "2026-06": 370,
+    "2026-07": 498,
+    "2026-08": 657,
+    "2026-09": 353
+   },
+   "ISCC": {
+    "2025-05": 386,
+    "2025-06": 16,
+    "2025-07": 116,
+    "2025-08": 157,
+    "2025-09": 161,
+    "2025-10": 137,
+    "2025-11": 180,
+    "2025-12": 104,
+    "2026-03": 347,
+    "2026-04": 274,
+    "2026-05": 297,
+    "2026-06": 256,
+    "2026-07": 247,
+    "2026-08": 314,
+    "2026-09": 171
+   },
+   "RTRS": {
+    "2025-05": 204,
+    "2025-06": 67,
+    "2025-07": 140,
+    "2025-08": 124,
+    "2025-09": 123,
+    "2025-10": 136,
+    "2025-11": 182,
+    "2025-12": 99,
+    "2026-03": 224,
+    "2026-04": 176,
+    "2026-05": 301,
+    "2026-06": 388,
+    "2026-07": 310,
+    "2026-08": 350,
+    "2026-09": 185
+   },
+   "2BSvs": {
+    "2025-05": 263,
+    "2025-06": 208,
+    "2025-07": 191,
+    "2025-08": 51,
+    "2025-09": 79,
+    "2025-10": 93,
+    "2025-11": 137,
+    "2025-12": 81,
+    "2026-03": 240,
+    "2026-04": 296,
+    "2026-05": 278,
+    "2026-06": 267,
+    "2026-07": 302,
+    "2026-08": 282,
+    "2026-09": 139
+   },
+   "GMP+": {
+    "2025-05": 351,
+    "2025-06": 38,
+    "2025-07": 61,
+    "2025-08": 41,
+    "2025-09": 10,
+    "2025-10": 4,
+    "2025-11": 25,
+    "2025-12": 11,
+    "2026-03": 176,
+    "2026-04": 326,
+    "2026-05": 251,
+    "2026-06": 152,
+    "2026-07": 108,
+    "2026-08": 71,
+    "2026-09": 62
+   },
+   "GOTS": {
+    "2025-05": 1,
+    "2025-06": 0,
+    "2025-07": 52,
+    "2025-08": 131,
+    "2025-09": 96,
+    "2025-10": 130,
+    "2025-11": 145,
+    "2025-12": 101,
+    "2026-03": 210,
+    "2026-04": 119,
+    "2026-05": 141,
+    "2026-06": 124,
+    "2026-07": 127,
+    "2026-08": 133,
+    "2026-09": 77
+   },
+   "CUMCS": {
+    "2025-05": 7,
+    "2025-06": 0,
+    "2025-07": 0,
+    "2025-08": 1,
+    "2025-09": 33,
+    "2025-10": 31,
+    "2025-11": 80,
+    "2025-12": 38,
+    "2026-03": 67,
+    "2026-04": 74,
+    "2026-05": 70,
+    "2026-06": 93,
+    "2026-07": 141,
+    "2026-08": 173,
+    "2026-09": 79
+   },
+   "EUDR": {
+    "2025-05": 0,
+    "2025-06": 0,
+    "2025-07": 0,
+    "2025-08": 1,
+    "2025-09": 0,
+    "2025-10": 0,
+    "2025-11": 0,
+    "2025-12": 0,
+    "2026-03": 0,
+    "2026-04": 4,
+    "2026-05": 15,
+    "2026-06": 171,
+    "2026-07": 163,
+    "2026-08": 214,
+    "2026-09": 188
+   }
+  },
+  "Brasil": {
+   "GMP+": {
+    "2026-03": 1082,
+    "2026-04": 1401,
+    "2026-05": 978,
+    "2026-06": 1137,
+    "2026-07": 1597,
+    "2026-08": 2224,
+    "2026-09": 1074
+   },
+   "GRS": {
+    "2026-03": 497,
+    "2026-04": 540,
+    "2026-05": 924,
+    "2026-06": 1974,
+    "2026-07": 1177,
+    "2026-08": 569,
+    "2026-09": 97
+   },
+   "SMETA / Sedex": {
+    "2026-03": 439,
+    "2026-04": 566,
+    "2026-05": 624,
+    "2026-06": 605,
+    "2026-07": 806,
+    "2026-08": 805,
+    "2026-09": 332
+   },
+   "ISCC": {
+    "2026-03": 559,
+    "2026-04": 439,
+    "2026-05": 569,
+    "2026-06": 558,
+    "2026-07": 713,
+    "2026-08": 583,
+    "2026-09": 132
+   },
+   "PEFC": {
+    "2026-03": 634,
+    "2026-04": 477,
+    "2026-05": 385,
+    "2026-06": 496,
+    "2026-07": 427,
+    "2026-08": 587,
+    "2026-09": 203
+   },
+   "MSC / ASC / BAP": {
+    "2026-03": 619,
+    "2026-04": 839,
+    "2026-05": 291,
+    "2026-06": 316,
+    "2026-07": 269,
+    "2026-08": 292,
+    "2026-09": 69
+   },
+   "RSPO": {
+    "2026-03": 456,
+    "2026-04": 411,
+    "2026-05": 483,
+    "2026-06": 476,
+    "2026-07": 321,
+    "2026-08": 340,
+    "2026-09": 143
+   },
+   "FSMA": {
+    "2026-03": 274,
+    "2026-04": 218,
+    "2026-05": 223,
+    "2026-06": 189,
+    "2026-07": 227,
+    "2026-08": 400,
+    "2026-09": 184
+   },
+   "GOTS": {
+    "2026-03": 292,
+    "2026-04": 200,
+    "2026-05": 199,
+    "2026-06": 223,
+    "2026-07": 273,
+    "2026-08": 365,
+    "2026-09": 162
+   },
+   "FSC": {
+    "2026-03": 424,
+    "2026-04": 331,
+    "2026-05": 147,
+    "2026-06": 171,
+    "2026-07": 247,
+    "2026-08": 258,
+    "2026-09": 86
+   },
+   "RTRS": {
+    "2026-03": 312,
+    "2026-04": 272,
+    "2026-05": 170,
+    "2026-06": 140,
+    "2026-07": 183,
+    "2026-08": 263,
+    "2026-09": 129
+   },
+   "FSSC 22000": {
+    "2026-03": 521,
+    "2026-04": 101,
+    "2026-05": 163,
+    "2026-06": 28,
+    "2026-07": 57,
+    "2026-08": 70,
+    "2026-09": 43
+   }
+  },
+  "Chile": {
+   "MSC / ASC / BAP": {
+    "2026-03": 1349,
+    "2026-04": 1250,
+    "2026-05": 1286,
+    "2026-06": 1316,
+    "2026-07": 1213,
+    "2026-08": 1170,
+    "2026-09": 434
+   },
+   "GRS": {
+    "2026-03": 435,
+    "2026-04": 410,
+    "2026-05": 350,
+    "2026-06": 353,
+    "2026-07": 380,
+    "2026-08": 498,
+    "2026-09": 257
+   },
+   "SMETA / Sedex": {
+    "2026-03": 328,
+    "2026-04": 388,
+    "2026-05": 369,
+    "2026-06": 362,
+    "2026-07": 391,
+    "2026-08": 462,
+    "2026-09": 115
+   },
+   "IFS": {
+    "2026-03": 537,
+    "2026-04": 412,
+    "2026-05": 347,
+    "2026-06": 422,
+    "2026-07": 272,
+    "2026-08": 192,
+    "2026-09": 128
+   },
+   "GLOBALG.A.P.": {
+    "2026-03": 341,
+    "2026-04": 366,
+    "2026-05": 325,
+    "2026-06": 343,
+    "2026-07": 292,
+    "2026-08": 407,
+    "2026-09": 180
+   },
+   "BRCGS": {
+    "2026-03": 613,
+    "2026-04": 359,
+    "2026-05": 506,
+    "2026-06": 185,
+    "2026-07": 303,
+    "2026-08": 191,
+    "2026-09": 71
+   },
+   "USDA NOP / orgánico": {
+    "2026-03": 291,
+    "2026-04": 218,
+    "2026-05": 201,
+    "2026-06": 203,
+    "2026-07": 128,
+    "2026-08": 174,
+    "2026-09": 77
+   },
+   "GOTS": {
+    "2026-03": 82,
+    "2026-04": 79,
+    "2026-05": 86,
+    "2026-06": 59,
+    "2026-07": 74,
+    "2026-08": 95,
+    "2026-09": 50
+   },
+   "Rainforest Alliance": {
+    "2026-03": 84,
+    "2026-04": 81,
+    "2026-05": 34,
+    "2026-06": 24,
+    "2026-07": 26,
+    "2026-08": 64,
+    "2026-09": 4
+   },
+   "TEMO": {
+    "2026-03": 48,
+    "2026-04": 6,
+    "2026-05": 1,
+    "2026-06": 23,
+    "2026-07": 1,
+    "2026-08": 25,
+    "2026-09": 22
+   },
+   "ISO 27001": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 0,
+    "2026-06": 0,
+    "2026-07": 1,
+    "2026-08": 1,
+    "2026-09": 0
+   },
+   "Welfair / bienestar animal": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 0,
+    "2026-06": 1,
+    "2026-07": 0,
+    "2026-08": 0,
+    "2026-09": 0
+   }
+  },
+  "España": {
+   "ISO 45001": {
+    "2026-03": 12215,
+    "2026-04": 13043,
+    "2026-05": 15168,
+    "2026-06": 9886,
+    "2026-07": 7471,
+    "2026-08": 10772,
+    "2026-09": 3074
+   },
+   "GRS": {
+    "2026-03": 2297,
+    "2026-04": 2074,
+    "2026-05": 1084,
+    "2026-06": 1440,
+    "2026-07": 3115,
+    "2026-08": 3506,
+    "2026-09": 1259
+   },
+   "Welfair / bienestar animal": {
+    "2026-03": 838,
+    "2026-04": 1437,
+    "2026-05": 1458,
+    "2026-06": 1479,
+    "2026-07": 1724,
+    "2026-08": 1546,
+    "2026-09": 672
+   },
+   "MSC / ASC / BAP": {
+    "2026-03": 1235,
+    "2026-04": 1242,
+    "2026-05": 1552,
+    "2026-06": 1454,
+    "2026-07": 1285,
+    "2026-08": 1828,
+    "2026-09": 538
+   },
+   "RecyClass": {
+    "2026-03": 1541,
+    "2026-04": 1326,
+    "2026-05": 1275,
+    "2026-06": 1160,
+    "2026-07": 1534,
+    "2026-08": 1267,
+    "2026-09": 696
+   },
+   "SURE": {
+    "2026-03": 179,
+    "2026-04": 593,
+    "2026-05": 1594,
+    "2026-06": 2030,
+    "2026-07": 1881,
+    "2026-08": 1286,
+    "2026-09": 1056
+   },
+   "GLOBALG.A.P.": {
+    "2026-03": 1217,
+    "2026-04": 1270,
+    "2026-05": 1195,
+    "2026-06": 1109,
+    "2026-07": 712,
+    "2026-08": 634,
+    "2026-09": 363
+   },
+   "IFS": {
+    "2026-03": 608,
+    "2026-04": 746,
+    "2026-05": 850,
+    "2026-06": 559,
+    "2026-07": 672,
+    "2026-08": 1247,
+    "2026-09": 570
+   },
+   "GMP+": {
+    "2026-03": 424,
+    "2026-04": 411,
+    "2026-05": 737,
+    "2026-06": 1008,
+    "2026-07": 982,
+    "2026-08": 869,
+    "2026-09": 479
+   },
+   "ISCC": {
+    "2026-03": 828,
+    "2026-04": 968,
+    "2026-05": 1031,
+    "2026-06": 618,
+    "2026-07": 720,
+    "2026-08": 480,
+    "2026-09": 192
+   },
+   "FSA": {
+    "2026-03": 474,
+    "2026-04": 887,
+    "2026-05": 878,
+    "2026-06": 831,
+    "2026-07": 822,
+    "2026-08": 515,
+    "2026-09": 212
+   },
+   "Rainforest Alliance": {
+    "2026-03": 1262,
+    "2026-04": 1013,
+    "2026-05": 596,
+    "2026-06": 462,
+    "2026-07": 290,
+    "2026-08": 450,
+    "2026-09": 262
+   }
+  },
+  "México": {
+   "GRS": {
+    "2025-05": 2745,
+    "2025-06": 3183,
+    "2025-07": 3926,
+    "2025-08": 2065,
+    "2025-09": 2021,
+    "2025-10": 3278,
+    "2025-11": 2097,
+    "2026-03": 2607,
+    "2026-04": 2134,
+    "2026-05": 2219,
+    "2026-06": 1609,
+    "2026-07": 2099,
+    "2026-08": 1944,
+    "2026-09": 928
+   },
+   "SMETA / Sedex": {
+    "2025-05": 216,
+    "2025-06": 239,
+    "2025-07": 770,
+    "2025-08": 412,
+    "2025-09": 183,
+    "2025-10": 233,
+    "2025-11": 85,
+    "2026-03": 385,
+    "2026-04": 1495,
+    "2026-05": 1785,
+    "2026-06": 1504,
+    "2026-07": 1434,
+    "2026-08": 1375,
+    "2026-09": 870
+   },
+   "PrimusGFS": {
+    "2025-05": 72,
+    "2025-06": 64,
+    "2025-07": 388,
+    "2025-08": 383,
+    "2025-09": 475,
+    "2025-10": 316,
+    "2025-11": 145,
+    "2026-03": 1213,
+    "2026-04": 1370,
+    "2026-05": 1341,
+    "2026-06": 981,
+    "2026-07": 971,
+    "2026-08": 951,
+    "2026-09": 455
+   },
+   "FSA": {
+    "2025-05": 1293,
+    "2025-06": 1109,
+    "2025-07": 717,
+    "2025-08": 69,
+    "2025-09": 245,
+    "2025-10": 235,
+    "2025-11": 82,
+    "2026-03": 242,
+    "2026-04": 615,
+    "2026-05": 592,
+    "2026-06": 637,
+    "2026-07": 1286,
+    "2026-08": 1162,
+    "2026-09": 511
+   },
+   "USDA NOP / orgánico": {
+    "2025-05": 571,
+    "2025-06": 520,
+    "2025-07": 751,
+    "2025-08": 278,
+    "2025-09": 600,
+    "2025-10": 977,
+    "2025-11": 126,
+    "2026-03": 553,
+    "2026-04": 488,
+    "2026-05": 587,
+    "2026-06": 490,
+    "2026-07": 476,
+    "2026-08": 569,
+    "2026-09": 215
+   },
+   "FSC": {
+    "2025-05": 240,
+    "2025-06": 992,
+    "2025-07": 482,
+    "2025-08": 376,
+    "2025-09": 1448,
+    "2025-10": 279,
+    "2025-11": 254,
+    "2026-03": 172,
+    "2026-04": 276,
+    "2026-05": 378,
+    "2026-06": 433,
+    "2026-07": 498,
+    "2026-08": 204,
+    "2026-09": 114
+   },
+   "GLOBALG.A.P.": {
+    "2025-05": 1200,
+    "2025-06": 957,
+    "2025-07": 665,
+    "2025-08": 208,
+    "2025-09": 62,
+    "2025-10": 52,
+    "2025-11": 14,
+    "2026-03": 35,
+    "2026-04": 70,
+    "2026-05": 76,
+    "2026-06": 126,
+    "2026-07": 313,
+    "2026-08": 300,
+    "2026-09": 224
+   },
+   "MSC / ASC / BAP": {
+    "2025-05": 119,
+    "2025-06": 198,
+    "2025-07": 276,
+    "2025-08": 193,
+    "2025-09": 112,
+    "2025-10": 105,
+    "2025-11": 53,
+    "2026-03": 367,
+    "2026-04": 294,
+    "2026-05": 313,
+    "2026-06": 274,
+    "2026-07": 446,
+    "2026-08": 600,
+    "2026-09": 152
+   },
+   "ISCC": {
+    "2025-05": 62,
+    "2025-06": 69,
+    "2025-07": 219,
+    "2025-08": 91,
+    "2025-09": 83,
+    "2025-10": 112,
+    "2025-11": 47,
+    "2026-03": 173,
+    "2026-04": 200,
+    "2026-05": 237,
+    "2026-06": 277,
+    "2026-07": 287,
+    "2026-08": 236,
+    "2026-09": 106
+   },
+   "RSPO": {
+    "2025-05": 191,
+    "2025-06": 162,
+    "2025-07": 157,
+    "2025-08": 276,
+    "2025-09": 128,
+    "2025-10": 97,
+    "2025-11": 54,
+    "2026-03": 131,
+    "2026-04": 127,
+    "2026-05": 17,
+    "2026-06": 76,
+    "2026-07": 90,
+    "2026-08": 134,
+    "2026-09": 81
+   },
+   "GOTS": {
+    "2025-05": 21,
+    "2025-06": 22,
+    "2025-07": 173,
+    "2025-08": 85,
+    "2025-09": 80,
+    "2025-10": 110,
+    "2025-11": 46,
+    "2026-03": 191,
+    "2026-04": 119,
+    "2026-05": 139,
+    "2026-06": 84,
+    "2026-07": 162,
+    "2026-08": 132,
+    "2026-09": 118
+   },
+   "Bioenergía / biomasa": {
+    "2025-05": 4,
+    "2025-06": 9,
+    "2025-07": 13,
+    "2025-08": 34,
+    "2025-09": 29,
+    "2025-10": 49,
+    "2025-11": 37,
+    "2026-03": 54,
+    "2026-04": 71,
+    "2026-05": 59,
+    "2026-06": 41,
+    "2026-07": 13,
+    "2026-08": 18,
+    "2026-09": 8
+   }
+  },
+  "Norteamérica": {
+   "TEMO": {
+    "2026-03": 4015,
+    "2026-04": 6819,
+    "2026-05": 3992,
+    "2026-06": 855,
+    "2026-07": 2124,
+    "2026-08": 2457,
+    "2026-09": 84
+   },
+   "PrimusGFS": {
+    "2026-03": 507,
+    "2026-04": 647,
+    "2026-05": 612,
+    "2026-06": 619,
+    "2026-07": 501,
+    "2026-08": 535,
+    "2026-09": 167
+   },
+   "FSLM / Higg": {
+    "2026-03": 1,
+    "2026-04": 2,
+    "2026-05": 427,
+    "2026-06": 585,
+    "2026-07": 613,
+    "2026-08": 907,
+    "2026-09": 340
+   },
+   "CUMCS": {
+    "2026-03": 156,
+    "2026-04": 202,
+    "2026-05": 207,
+    "2026-06": 349,
+    "2026-07": 282,
+    "2026-08": 0,
+    "2026-09": 0
+   },
+   "GMP+": {
+    "2026-03": 0,
+    "2026-04": 57,
+    "2026-05": 128,
+    "2026-06": 85,
+    "2026-07": 88,
+    "2026-08": 68,
+    "2026-09": 3
+   },
+   "USDA NOP / orgánico": {
+    "2026-03": 8,
+    "2026-04": 7,
+    "2026-05": 10,
+    "2026-06": 10,
+    "2026-07": 50,
+    "2026-08": 131,
+    "2026-09": 59
+   },
+   "ISO 27001": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 124,
+    "2026-06": 36,
+    "2026-07": 11,
+    "2026-08": 0,
+    "2026-09": 11
+   },
+   "FSC": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 0,
+    "2026-06": 0,
+    "2026-07": 19,
+    "2026-08": 90,
+    "2026-09": 63
+   },
+   "GLOBALG.A.P.": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 0,
+    "2026-06": 0,
+    "2026-07": 0,
+    "2026-08": 53,
+    "2026-09": 6
+   },
+   "PEFC": {
+    "2026-03": 7,
+    "2026-04": 0,
+    "2026-05": 0,
+    "2026-06": 1,
+    "2026-07": 2,
+    "2026-08": 17,
+    "2026-09": 10
+   },
+   "SMETA / Sedex": {
+    "2026-03": 0,
+    "2026-04": 1,
+    "2026-05": 1,
+    "2026-06": 3,
+    "2026-07": 0,
+    "2026-08": 7,
+    "2026-09": 0
+   },
+   "GRS": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 1,
+    "2026-06": 0,
+    "2026-07": 0,
+    "2026-08": 0,
+    "2026-09": 0
+   }
+  },
+  "Perú": {
+   "MSC / ASC / BAP": {
+    "2026-03": 4022,
+    "2026-04": 3156,
+    "2026-05": 2843,
+    "2026-06": 3488,
+    "2026-07": 4202,
+    "2026-08": 3923,
+    "2026-09": 1659
+   },
+   "Rainforest Alliance": {
+    "2026-03": 3376,
+    "2026-04": 3901,
+    "2026-05": 2869,
+    "2026-06": 1659,
+    "2026-07": 2045,
+    "2026-08": 1352,
+    "2026-09": 1220
+   },
+   "SMETA / Sedex": {
+    "2026-03": 2022,
+    "2026-04": 2584,
+    "2026-05": 2725,
+    "2026-06": 2964,
+    "2026-07": 3276,
+    "2026-08": 1783,
+    "2026-09": 592
+   },
+   "GLOBALG.A.P.": {
+    "2026-03": 2497,
+    "2026-04": 2877,
+    "2026-05": 2992,
+    "2026-06": 2229,
+    "2026-07": 2389,
+    "2026-08": 1981,
+    "2026-09": 872
+   },
+   "USDA NOP / orgánico": {
+    "2026-03": 1334,
+    "2026-04": 1447,
+    "2026-05": 1700,
+    "2026-06": 2957,
+    "2026-07": 2583,
+    "2026-08": 2796,
+    "2026-09": 1171
+   },
+   "GRS": {
+    "2026-03": 1665,
+    "2026-04": 1009,
+    "2026-05": 996,
+    "2026-06": 805,
+    "2026-07": 768,
+    "2026-08": 720,
+    "2026-09": 391
+   },
+   "BRCGS": {
+    "2026-03": 1090,
+    "2026-04": 861,
+    "2026-05": 683,
+    "2026-06": 614,
+    "2026-07": 629,
+    "2026-08": 627,
+    "2026-09": 291
+   },
+   "GOTS": {
+    "2026-03": 961,
+    "2026-04": 737,
+    "2026-05": 815,
+    "2026-06": 728,
+    "2026-07": 633,
+    "2026-08": 597,
+    "2026-09": 278
+   },
+   "IFS": {
+    "2026-03": 826,
+    "2026-04": 676,
+    "2026-05": 571,
+    "2026-06": 549,
+    "2026-07": 510,
+    "2026-08": 625,
+    "2026-09": 160
+   },
+   "FSSC 22000": {
+    "2026-03": 548,
+    "2026-04": 739,
+    "2026-05": 816,
+    "2026-06": 625,
+    "2026-07": 423,
+    "2026-08": 342,
+    "2026-09": 212
+   },
+   "Huella de carbono / GEI": {
+    "2026-03": 2141,
+    "2026-04": 153,
+    "2026-05": 201,
+    "2026-06": 323,
+    "2026-07": 127,
+    "2026-08": 44,
+    "2026-09": 0
+   },
+   "ISCC": {
+    "2026-03": 436,
+    "2026-04": 337,
+    "2026-05": 447,
+    "2026-06": 437,
+    "2026-07": 606,
+    "2026-08": 500,
+    "2026-09": 213
+   }
+  },
+  "Portugal": {
+   "MSC / ASC / BAP": {
+    "2026-03": 983,
+    "2026-04": 1305,
+    "2026-05": 1513,
+    "2026-06": 907,
+    "2026-07": 952,
+    "2026-08": 913,
+    "2026-09": 365
+   },
+   "Rainforest Alliance": {
+    "2026-03": 1048,
+    "2026-04": 664,
+    "2026-05": 771,
+    "2026-06": 353,
+    "2026-07": 829,
+    "2026-08": 276,
+    "2026-09": 31
+   },
+   "ISO 9001": {
+    "2026-03": 1336,
+    "2026-04": 305,
+    "2026-05": 434,
+    "2026-06": 155,
+    "2026-07": 236,
+    "2026-08": 180,
+    "2026-09": 60
+   },
+   "RecyClass": {
+    "2026-03": 327,
+    "2026-04": 320,
+    "2026-05": 421,
+    "2026-06": 447,
+    "2026-07": 432,
+    "2026-08": 391,
+    "2026-09": 169
+   },
+   "GRS": {
+    "2026-03": 407,
+    "2026-04": 415,
+    "2026-05": 412,
+    "2026-06": 384,
+    "2026-07": 354,
+    "2026-08": 302,
+    "2026-09": 178
+   },
+   "FSC": {
+    "2026-03": 382,
+    "2026-04": 230,
+    "2026-05": 396,
+    "2026-06": 367,
+    "2026-07": 367,
+    "2026-08": 379,
+    "2026-09": 175
+   },
+   "FSLM / Higg": {
+    "2026-03": 373,
+    "2026-04": 414,
+    "2026-05": 355,
+    "2026-06": 124,
+    "2026-07": 272,
+    "2026-08": 304,
+    "2026-09": 179
+   },
+   "SMETA / Sedex": {
+    "2026-03": 365,
+    "2026-04": 351,
+    "2026-05": 374,
+    "2026-06": 291,
+    "2026-07": 260,
+    "2026-08": 185,
+    "2026-09": 98
+   },
+   "GOTS": {
+    "2026-03": 289,
+    "2026-04": 239,
+    "2026-05": 247,
+    "2026-06": 209,
+    "2026-07": 349,
+    "2026-08": 234,
+    "2026-09": 151
+   },
+   "SBP": {
+    "2026-03": 313,
+    "2026-04": 201,
+    "2026-05": 209,
+    "2026-06": 173,
+    "2026-07": 161,
+    "2026-08": 157,
+    "2026-09": 78
+   },
+   "PEFC": {
+    "2026-03": 204,
+    "2026-04": 224,
+    "2026-05": 208,
+    "2026-06": 201,
+    "2026-07": 179,
+    "2026-08": 132,
+    "2026-09": 96
+   },
+   "ISO 22000": {
+    "2026-03": 96,
+    "2026-04": 15,
+    "2026-05": 45,
+    "2026-06": 314,
+    "2026-07": 361,
+    "2026-08": 277,
+    "2026-09": 126
+   }
+  },
+  "Américas": {
+   "RED II/III": {
+    "2026-03": 45,
+    "2026-04": 1376,
+    "2026-05": 923,
+    "2026-06": 520,
+    "2026-07": 321,
+    "2026-08": 470,
+    "2026-09": 315
+   },
+   "EUDR": {
+    "2026-03": 69,
+    "2026-04": 337,
+    "2026-05": 308,
+    "2026-06": 116,
+    "2026-07": 99,
+    "2026-08": 81,
+    "2026-09": 46
+   },
+   "GRI / ESG": {
+    "2026-03": 0,
+    "2026-04": 1,
+    "2026-05": 0,
+    "2026-06": 9,
+    "2026-07": 44,
+    "2026-08": 52,
+    "2026-09": 18
+   },
+   "Agricultura regenerativa": {
+    "2026-03": 0,
+    "2026-04": 3,
+    "2026-05": 2,
+    "2026-06": 0,
+    "2026-07": 6,
+    "2026-08": 4,
+    "2026-09": 0
+   },
+   "ISO 27001": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 0,
+    "2026-06": 0,
+    "2026-07": 8,
+    "2026-08": 2,
+    "2026-09": 0
+   },
+   "Bioenergía / biomasa": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 8,
+    "2026-06": 0,
+    "2026-07": 0,
+    "2026-08": 0,
+    "2026-09": 1
+   },
+   "Huella de carbono / GEI": {
+    "2026-03": 3,
+    "2026-04": 0,
+    "2026-05": 0,
+    "2026-06": 0,
+    "2026-07": 1,
+    "2026-08": 2,
+    "2026-09": 0
+   },
+   "ISCC": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 1,
+    "2026-06": 0,
+    "2026-07": 0,
+    "2026-08": 0,
+    "2026-09": 0
+   }
+  },
+  "Iberia": {
+   "CSRD": {
+    "2026-03": 124,
+    "2026-04": 265,
+    "2026-05": 297,
+    "2026-06": 214,
+    "2026-07": 382,
+    "2026-08": 680,
+    "2026-09": 288
+   },
+   "CBAM": {
+    "2026-03": 0,
+    "2026-04": 14,
+    "2026-05": 150,
+    "2026-06": 10,
+    "2026-07": 42,
+    "2026-08": 78,
+    "2026-09": 245
+   },
+   "EUDR": {
+    "2026-03": 9,
+    "2026-04": 33,
+    "2026-05": 71,
+    "2026-06": 63,
+    "2026-07": 114,
+    "2026-08": 94,
+    "2026-09": 93
+   },
+   "Bioenergía / biomasa": {
+    "2026-03": 16,
+    "2026-04": 47,
+    "2026-05": 25,
+    "2026-06": 8,
+    "2026-07": 4,
+    "2026-08": 16,
+    "2026-09": 15
+   },
+   "FSC": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 0,
+    "2026-06": 30,
+    "2026-07": 18,
+    "2026-08": 30,
+    "2026-09": 20
+   },
+   "GRI / ESG": {
+    "2026-03": 0,
+    "2026-04": 2,
+    "2026-05": 0,
+    "2026-06": 2,
+    "2026-07": 6,
+    "2026-08": 13,
+    "2026-09": 3
+   },
+   "Agricultura regenerativa": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 2,
+    "2026-06": 1,
+    "2026-07": 4,
+    "2026-08": 0,
+    "2026-09": 14
+   },
+   "Huella de carbono / GEI": {
+    "2026-03": 7,
+    "2026-04": 2,
+    "2026-05": 2,
+    "2026-06": 0,
+    "2026-07": 1,
+    "2026-08": 0,
+    "2026-09": 0
+   },
+   "PEFC": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 0,
+    "2026-06": 0,
+    "2026-07": 0,
+    "2026-08": 0,
+    "2026-09": 1
+   },
+   "RSPO": {
+    "2026-03": 0,
+    "2026-04": 0,
+    "2026-05": 1,
+    "2026-06": 0,
+    "2026-07": 0,
+    "2026-08": 0,
+    "2026-09": 0
+   }
+  }
+ },
+ "interanual": {
+  "Argentina": {
+   "total": {
+    "impr_2025": 51869,
+    "impr_2026": 75279,
+    "clics_2025": 1323,
+    "clics_2026": 1837
+   },
+   "normas": [
+    {
+     "norma": "SMETA / Sedex",
+     "impr_2025": 521,
+     "impr_2026": 10146,
+     "var_pct": 1847.0
+    },
+    {
+     "norma": "VISEC",
+     "impr_2025": 145,
+     "impr_2026": 5649,
+     "var_pct": 3796.0
+    },
+    {
+     "norma": "FSA",
+     "impr_2025": 889,
+     "impr_2026": 2752,
+     "var_pct": 210.0
+    },
+    {
+     "norma": "FSMA",
+     "impr_2025": 1328,
+     "impr_2026": 2146,
+     "var_pct": 62.0
+    },
+    {
+     "norma": "MSC / ASC / BAP",
+     "impr_2025": 29,
+     "impr_2026": 1525,
+     "var_pct": 5159.0
+    },
+    {
+     "norma": "RTRS",
+     "impr_2025": 331,
+     "impr_2026": 1048,
+     "var_pct": 217.0
+    },
+    {
+     "norma": "2BSvs",
+     "impr_2025": 450,
+     "impr_2026": 851,
+     "var_pct": 89.0
+    },
+    {
+     "norma": "ISCC",
+     "impr_2025": 289,
+     "impr_2026": 817,
+     "var_pct": 183.0
+    },
+    {
+     "norma": "EUDR",
+     "impr_2025": 1,
+     "impr_2026": 548,
+     "var_pct": 54700.0
+    },
+    {
+     "norma": "CUMCS",
+     "impr_2025": 1,
+     "impr_2026": 407,
+     "var_pct": 40600.0
+    },
+    {
+     "norma": "GOTS",
+     "impr_2025": 183,
+     "impr_2026": 384,
+     "var_pct": 110.0
+    },
+    {
+     "norma": "GMP+",
+     "impr_2025": 140,
+     "impr_2026": 331,
+     "var_pct": 136.0
+    }
+   ]
+  },
+  "México": {
+   "total": {
+    "impr_2025": 53429,
+    "impr_2026": 58402,
+    "clics_2025": 603,
+    "clics_2026": 729
+   },
+   "normas": [
+    {
+     "norma": "GRS",
+     "impr_2025": 9174,
+     "impr_2026": 5652,
+     "var_pct": -38.0
+    },
+    {
+     "norma": "SMETA / Sedex",
+     "impr_2025": 1421,
+     "impr_2026": 4313,
+     "var_pct": 204.0
+    },
+    {
+     "norma": "FSA",
+     "impr_2025": 1895,
+     "impr_2026": 3085,
+     "var_pct": 63.0
+    },
+    {
+     "norma": "PrimusGFS",
+     "impr_2025": 835,
+     "impr_2026": 2903,
+     "var_pct": 248.0
+    },
+    {
+     "norma": "USDA NOP / orgánico",
+     "impr_2025": 1549,
+     "impr_2026": 1535,
+     "var_pct": -1.0
+    },
+    {
+     "norma": "MSC / ASC / BAP",
+     "impr_2025": 667,
+     "impr_2026": 1320,
+     "var_pct": 98.0
+    },
+    {
+     "norma": "FSC",
+     "impr_2025": 1850,
+     "impr_2026": 1135,
+     "var_pct": -39.0
+    },
+    {
+     "norma": "ISCC",
+     "impr_2025": 379,
+     "impr_2026": 800,
+     "var_pct": 111.0
+    },
+    {
+     "norma": "GLOBALG.A.P.",
+     "impr_2025": 1830,
+     "impr_2026": 739,
+     "var_pct": -60.0
+    },
+    {
+     "norma": "GOTS",
+     "impr_2025": 280,
+     "impr_2026": 378,
+     "var_pct": 35.0
+    },
+    {
+     "norma": "RSPO",
+     "impr_2025": 595,
+     "impr_2026": 300,
+     "var_pct": -50.0
+    },
+    {
+     "norma": "FSLM / Higg",
+     "impr_2025": 0,
+     "impr_2026": 183,
+     "var_pct": NaN
+    }
+   ]
+  }
+ },
+ "aparecieron": {
+  "Argentina": {
+   "tramos": [
+    "jun-ago 2025",
+    "jun-ago 2026"
+   ],
+   "aparecieron": 44,
+   "desaparecieron": 65,
+   "top_ap": [
+    {
+     "query": "asc",
+     "impr": 1069,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "sedex",
+     "impr": 354,
+     "norma": "SMETA / Sedex"
+    },
+    {
+     "query": "ocs",
+     "impr": 342,
+     "norma": null
+    },
+    {
+     "query": "eudr",
+     "impr": 324,
+     "norma": "EUDR"
+    },
+    {
+     "query": "control calidad plásticos",
+     "impr": 216,
+     "norma": null
+    },
+    {
+     "query": "global recycled standard",
+     "impr": 184,
+     "norma": "GRS"
+    },
+    {
+     "query": "smeta certified",
+     "impr": 172,
+     "norma": "SMETA / Sedex"
+    },
+    {
+     "query": "visec que es",
+     "impr": 135,
+     "norma": "VISEC"
+    }
+   ],
+   "top_de": [
+    {
+     "query": "argentina eco-tourism policies",
+     "impr": 243,
+     "norma": null
+    },
+    {
+     "query": "que es un deposito fiscal",
+     "impr": 231,
+     "norma": null
+    },
+    {
+     "query": "sustainable tourism in argentina",
+     "impr": 224,
+     "norma": null
+    },
+    {
+     "query": "argentina eco-tourism stats",
+     "impr": 219,
+     "norma": null
+    },
+    {
+     "query": "turismo sostenible argentina",
+     "impr": 191,
+     "norma": null
+    },
+    {
+     "query": "depositos fiscales",
+     "impr": 165,
+     "norma": null
+    },
+    {
+     "query": "argentina green tourism",
+     "impr": 165,
+     "norma": null
+    },
+    {
+     "query": "sustainable travel argentina",
+     "impr": 161,
+     "norma": null
+    }
+   ]
+  },
+  "Brasil": {
+   "tramos": [
+    "2026-03-03 a 2026-05-31",
+    "2026-06-16 a 2026-09-13"
+   ],
+   "aparecieron": 11,
+   "desaparecieron": 8,
+   "top_ap": [
+    {
+     "query": "what is the industry of ofcinternacional.com",
+     "impr": 205,
+     "norma": null
+    },
+    {
+     "query": "fair trade",
+     "impr": 126,
+     "norma": null
+    },
+    {
+     "query": "certificação msc para pesca sustentável",
+     "impr": 55,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "certificação msc para pescarias sustentáveis",
+     "impr": 54,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "certificación gmp+",
+     "impr": 50,
+     "norma": "GMP+"
+    },
+    {
+     "query": "msc pesca sustentável",
+     "impr": 49,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "certificalia empresa coordenador brasil",
+     "impr": 45,
+     "norma": null
+    },
+    {
+     "query": "biomasa",
+     "impr": 41,
+     "norma": "Bioenergía / biomasa"
+    }
+   ],
+   "top_de": [
+    {
+     "query": "pest control solutions",
+     "impr": 1403,
+     "norma": null
+    },
+    {
+     "query": "top in-line inspection companies in brazil",
+     "impr": 450,
+     "norma": null
+    },
+    {
+     "query": "rfs",
+     "impr": 136,
+     "norma": null
+    },
+    {
+     "query": "gmp fsa 2020",
+     "impr": 63,
+     "norma": "GMP+"
+    },
+    {
+     "query": "fsc forest management",
+     "impr": 45,
+     "norma": "FSC"
+    },
+    {
+     "query": "control union fotos",
+     "impr": 41,
+     "norma": null
+    },
+    {
+     "query": "gmp fra",
+     "impr": 31,
+     "norma": "GMP+"
+    },
+    {
+     "query": "iso for quality management system",
+     "impr": 30,
+     "norma": null
+    }
+   ]
+  },
+  "Chile": {
+   "tramos": [
+    "2026-03-03 a 2026-05-31",
+    "2026-06-16 a 2026-09-13"
+   ],
+   "aparecieron": 3,
+   "desaparecieron": 0,
+   "top_ap": [
+    {
+     "query": "normativa distribuidor orgánicos chile",
+     "impr": 46,
+     "norma": "USDA NOP / orgánico"
+    },
+    {
+     "query": "gerente de desarrollo de negocios",
+     "impr": 33,
+     "norma": null
+    },
+    {
+     "query": "no conformidades",
+     "impr": 30,
+     "norma": null
+    }
+   ],
+   "top_de": []
+  },
+  "España": {
+   "tramos": [
+    "2026-03-03 a 2026-05-31",
+    "2026-06-16 a 2026-09-13"
+   ],
+   "aparecieron": 69,
+   "desaparecieron": 24,
+   "top_ap": [
+    {
+     "query": "higg",
+     "impr": 411,
+     "norma": "FSLM / Higg"
+    },
+    {
+     "query": "cumcs-g.a.p",
+     "impr": 193,
+     "norma": "CUMCS"
+    },
+    {
+     "query": "control de calidad de piensos",
+     "impr": 175,
+     "norma": null
+    },
+    {
+     "query": "verificador cae",
+     "impr": 124,
+     "norma": "CAE"
+    },
+    {
+     "query": "eficacia del sistema de balance de masas y el rol de la union database (udb) en la prevención de la doble contabilización de certificados de reducción de emisiones en combustibles renovables.",
+     "impr": 100,
+     "norma": null
+    },
+    {
+     "query": "certificación rsb para biomateriales sostenibles",
+     "impr": 96,
+     "norma": null
+    },
+    {
+     "query": "certificación bienestar animal welfair",
+     "impr": 93,
+     "norma": "Welfair / bienestar animal"
+    },
+    {
+     "query": "iso seguridad y salud",
+     "impr": 87,
+     "norma": null
+    }
+   ],
+   "top_de": [
+    {
+     "query": "normas iso para hoteles mallorca",
+     "impr": 306,
+     "norma": null
+    },
+    {
+     "query": "tierwohl",
+     "impr": 222,
+     "norma": null
+    },
+    {
+     "query": "certificación turística sostenible mallorca",
+     "impr": 213,
+     "norma": null
+    },
+    {
+     "query": "curso huella de carbono",
+     "impr": 148,
+     "norma": "Huella de carbono / GEI"
+    },
+    {
+     "query": "que es certificación",
+     "impr": 128,
+     "norma": null
+    },
+    {
+     "query": "implementacion de normas iso en hoteles baleares",
+     "impr": 105,
+     "norma": null
+    },
+    {
+     "query": "certificacion iso 22000 alimentacion mallorca",
+     "impr": 80,
+     "norma": "ISO 22000"
+    },
+    {
+     "query": "titulo plastic packaging",
+     "impr": 73,
+     "norma": null
+    }
+   ]
+  },
+  "México": {
+   "tramos": [
+    "jun-ago 2025",
+    "jun-ago 2026"
+   ],
+   "aparecieron": 32,
+   "desaparecieron": 42,
+   "top_ap": [
+    {
+     "query": "certificación",
+     "impr": 358,
+     "norma": null
+    },
+    {
+     "query": "organico",
+     "impr": 283,
+     "norma": "USDA NOP / orgánico"
+    },
+    {
+     "query": "jas",
+     "impr": 158,
+     "norma": null
+    },
+    {
+     "query": "que son las certificaciones",
+     "impr": 138,
+     "norma": null
+    },
+    {
+     "query": "certificacion",
+     "impr": 124,
+     "norma": null
+    },
+    {
+     "query": "msc chain of custody",
+     "impr": 120,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "footwear quality control mexico",
+     "impr": 94,
+     "norma": null
+    },
+    {
+     "query": "globalg.a.p. standard",
+     "impr": 82,
+     "norma": "GLOBALG.A.P."
+    }
+   ],
+   "top_de": [
+    {
+     "query": "what is grs in mexico",
+     "impr": 229,
+     "norma": "GRS"
+    },
+    {
+     "query": "loading supervision",
+     "impr": 217,
+     "norma": null
+    },
+    {
+     "query": "krav",
+     "impr": 128,
+     "norma": null
+    },
+    {
+     "query": "organismos certificadores iso 9001 en méxico",
+     "impr": 128,
+     "norma": "ISO 9001"
+    },
+    {
+     "query": "usda national organic program",
+     "impr": 109,
+     "norma": "USDA NOP / orgánico"
+    },
+    {
+     "query": "control europeo",
+     "impr": 97,
+     "norma": null
+    },
+    {
+     "query": "organismos de certificación acreditados en méxico",
+     "impr": 94,
+     "norma": null
+    },
+    {
+     "query": "due diligence empresas méxico",
+     "impr": 81,
+     "norma": null
+    }
+   ]
+  },
+  "Norteamérica": {
+   "tramos": [
+    "2026-03-03 a 2026-05-31",
+    "2026-06-16 a 2026-09-13"
+   ],
+   "aparecieron": 12,
+   "desaparecieron": 2,
+   "top_ap": [
+    {
+     "query": "compilazione higg fslm",
+     "impr": 233,
+     "norma": "FSLM / Higg"
+    },
+    {
+     "query": "us nop certification",
+     "impr": 139,
+     "norma": "USDA NOP / orgánico"
+    },
+    {
+     "query": "cumcs-g.a.p",
+     "impr": 89,
+     "norma": "CUMCS"
+    },
+    {
+     "query": "fslm meaning",
+     "impr": 67,
+     "norma": "FSLM / Higg"
+    },
+    {
+     "query": "higg fdm",
+     "impr": 47,
+     "norma": "FSLM / Higg"
+    },
+    {
+     "query": "fsc forest management",
+     "impr": 45,
+     "norma": "FSC"
+    },
+    {
+     "query": "organic content standard",
+     "impr": 43,
+     "norma": "USDA NOP / orgánico"
+    },
+    {
+     "query": "financial and collateral management",
+     "impr": 39,
+     "norma": null
+    }
+   ],
+   "top_de": [
+    {
+     "query": "control union company official site",
+     "impr": 97,
+     "norma": null
+    },
+    {
+     "query": "primus audit",
+     "impr": 48,
+     "norma": "PrimusGFS"
+    }
+   ]
+  },
+  "Perú": {
+   "tramos": [
+    "2026-03-03 a 2026-05-31",
+    "2026-06-16 a 2026-09-13"
+   ],
+   "aparecieron": 22,
+   "desaparecieron": 45,
+   "top_ap": [
+    {
+     "query": "vcs",
+     "impr": 622,
+     "norma": null
+    },
+    {
+     "query": "ccb",
+     "impr": 476,
+     "norma": null
+    },
+    {
+     "query": "sakana",
+     "impr": 289,
+     "norma": null
+    },
+    {
+     "query": "verra",
+     "impr": 250,
+     "norma": null
+    },
+    {
+     "query": "ifs food version 8 requirement 1.1.2",
+     "impr": 132,
+     "norma": "IFS"
+    },
+    {
+     "query": "control union portal login",
+     "impr": 114,
+     "norma": null
+    },
+    {
+     "query": "\"1.1.5\" \"mecanismo de quejas\" \"igualdad de género\" rainforest alliance",
+     "impr": 67,
+     "norma": "Rainforest Alliance"
+    },
+    {
+     "query": "requisitos globalgap",
+     "impr": 60,
+     "norma": "GLOBALG.A.P."
+    }
+   ],
+   "top_de": [
+    {
+     "query": "luis nutron alimentos email corporativo",
+     "impr": 392,
+     "norma": null
+    },
+    {
+     "query": "global sustainable tourism council criteria philippines",
+     "impr": 390,
+     "norma": null
+    },
+    {
+     "query": "eti full form",
+     "impr": 194,
+     "norma": null
+    },
+    {
+     "query": "política de privacidad de datos ejemplo",
+     "impr": 165,
+     "norma": null
+    },
+    {
+     "query": "rain forest en español",
+     "impr": 158,
+     "norma": null
+    },
+    {
+     "query": "mauricio nutron alimentos email corporativo",
+     "impr": 138,
+     "norma": null
+    },
+    {
+     "query": "sli control union",
+     "impr": 123,
+     "norma": null
+    },
+    {
+     "query": "primer eti",
+     "impr": 108,
+     "norma": null
+    }
+   ]
+  },
+  "Portugal": {
+   "tramos": [
+    "2026-03-03 a 2026-05-31",
+    "2026-06-16 a 2026-09-13"
+   ],
+   "aparecieron": 12,
+   "desaparecieron": 10,
+   "top_ap": [
+    {
+     "query": "cumcs-g.a.p",
+     "impr": 95,
+     "norma": "CUMCS"
+    },
+    {
+     "query": "forest certification schemes",
+     "impr": 88,
+     "norma": null
+    },
+    {
+     "query": "portugal control",
+     "impr": 73,
+     "norma": null
+    },
+    {
+     "query": "msc pesca sustentável",
+     "impr": 60,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "marthcheck",
+     "impr": 51,
+     "norma": null
+    },
+    {
+     "query": "fair trade aps",
+     "impr": 51,
+     "norma": null
+    },
+    {
+     "query": "plan vivo certification",
+     "impr": 45,
+     "norma": null
+    },
+    {
+     "query": "fair trade usa capture fisheries standard",
+     "impr": 38,
+     "norma": null
+    }
+   ],
+   "top_de": [
+    {
+     "query": "carbonneutral certification (chauffeur/business) lisbon",
+     "impr": 194,
+     "norma": null
+    },
+    {
+     "query": "certificação iso 22000 em portugal",
+     "impr": 73,
+     "norma": "ISO 22000"
+    },
+    {
+     "query": "aquicultura",
+     "impr": 72,
+     "norma": null
+    },
+    {
+     "query": "gmp feed certification scheme",
+     "impr": 64,
+     "norma": "GMP+"
+    },
+    {
+     "query": "world sbp",
+     "impr": 44,
+     "norma": "SBP"
+    },
+    {
+     "query": "gmp fsa 2020",
+     "impr": 39,
+     "norma": "GMP+"
+    },
+    {
+     "query": "earthcheck gold certified",
+     "impr": 37,
+     "norma": null
+    },
+    {
+     "query": "gmp fra",
+     "impr": 36,
+     "norma": "GMP+"
+    }
+   ]
+  },
+  "Américas": {
+   "tramos": [
+    "2026-03-22 a 2026-05-31",
+    "2026-06-16 a 2026-09-13"
+   ],
+   "aparecieron": 7,
+   "desaparecieron": 3,
+   "top_ap": [
+    {
+     "query": "mining sustainability solutions",
+     "impr": 186,
+     "norma": null
+    },
+    {
+     "query": "mining esg solutions",
+     "impr": 116,
+     "norma": "GRI / ESG"
+    },
+    {
+     "query": "ecgt",
+     "impr": 68,
+     "norma": null
+    },
+    {
+     "query": "roberta petersen consulting inc headquarters global operations international presence",
+     "impr": 64,
+     "norma": null
+    },
+    {
+     "query": "cibersecurity",
+     "impr": 47,
+     "norma": null
+    },
+    {
+     "query": "peterson brasil",
+     "impr": 43,
+     "norma": null
+    },
+    {
+     "query": "consultoria agua",
+     "impr": 42,
+     "norma": null
+    }
+   ],
+   "top_de": [
+    {
+     "query": "eu red iii renewable energy target 2030",
+     "impr": 90,
+     "norma": "RED II/III"
+    },
+    {
+     "query": "eudr 2024 regulatory compliance",
+     "impr": 55,
+     "norma": "EUDR"
+    },
+    {
+     "query": "eudr compliance",
+     "impr": 47,
+     "norma": "EUDR"
+    }
+   ]
+  },
+  "Iberia": {
+   "tramos": [
+    "2026-03-22 a 2026-05-31",
+    "2026-06-16 a 2026-09-13"
+   ],
+   "aparecieron": 13,
+   "desaparecieron": 0,
+   "top_ap": [
+    {
+     "query": "ecgt",
+     "impr": 239,
+     "norma": null
+    },
+    {
+     "query": "eubr",
+     "impr": 160,
+     "norma": null
+    },
+    {
+     "query": "csdr",
+     "impr": 107,
+     "norma": null
+    },
+    {
+     "query": "rendición de informes csrd",
+     "impr": 100,
+     "norma": "CSRD"
+    },
+    {
+     "query": "evaluate the environmental & sustainability certification services company pefc on fsc and eudr",
+     "impr": 78,
+     "norma": "FSC"
+    },
+    {
+     "query": "directiva empco",
+     "impr": 51,
+     "norma": null
+    },
+    {
+     "query": "ppwr",
+     "impr": 50,
+     "norma": null
+    },
+    {
+     "query": "eubr regulation",
+     "impr": 45,
+     "norma": null
+    }
+   ],
+   "top_de": []
+  }
+ },
+ "dispositivos": {
+  "Argentina": {
+   "DESKTOP": {
+    "impr": 196608,
+    "clics": 5359,
+    "pct_impr": 66.7,
+    "pct_clics": 67.3,
+    "ctr": 2.73,
+    "pos": 11.16
+   },
+   "MOBILE": {
+    "impr": 97110,
+    "clics": 2584,
+    "pct_impr": 32.9,
+    "pct_clics": 32.4,
+    "ctr": 2.66,
+    "pos": 8.79
+   },
+   "TABLET": {
+    "impr": 1092,
+    "clics": 25,
+    "pct_impr": 0.4,
+    "pct_clics": 0.3,
+    "ctr": 2.29,
+    "pos": 9.59
+   }
+  },
+  "Brasil": {
+   "DESKTOP": {
+    "impr": 91614,
+    "clics": 2528,
+    "pct_impr": 64.6,
+    "pct_clics": 68.1,
+    "ctr": 2.76,
+    "pos": 11.94
+   },
+   "MOBILE": {
+    "impr": 49364,
+    "clics": 1171,
+    "pct_impr": 34.8,
+    "pct_clics": 31.6,
+    "ctr": 2.37,
+    "pos": 7.27
+   },
+   "TABLET": {
+    "impr": 797,
+    "clics": 11,
+    "pct_impr": 0.6,
+    "pct_clics": 0.3,
+    "ctr": 1.38,
+    "pos": 8.24
+   }
+  },
+  "Chile": {
+   "DESKTOP": {
+    "impr": 52666,
+    "clics": 854,
+    "pct_impr": 68.2,
+    "pct_clics": 71.5,
+    "ctr": 1.62,
+    "pos": 12.29
+   },
+   "MOBILE": {
+    "impr": 24164,
+    "clics": 335,
+    "pct_impr": 31.3,
+    "pct_clics": 28.0,
+    "ctr": 1.39,
+    "pos": 7.53
+   },
+   "TABLET": {
+    "impr": 362,
+    "clics": 6,
+    "pct_impr": 0.5,
+    "pct_clics": 0.5,
+    "ctr": 1.66,
+    "pos": 11.38
+   }
+  },
+  "España": {
+   "DESKTOP": {
+    "impr": 277815,
+    "clics": 2786,
+    "pct_impr": 68.0,
+    "pct_clics": 79.3,
+    "ctr": 1.0,
+    "pos": 13.22
+   },
+   "MOBILE": {
+    "impr": 128240,
+    "clics": 717,
+    "pct_impr": 31.4,
+    "pct_clics": 20.4,
+    "ctr": 0.56,
+    "pos": 10.24
+   },
+   "TABLET": {
+    "impr": 2527,
+    "clics": 12,
+    "pct_impr": 0.6,
+    "pct_clics": 0.3,
+    "ctr": 0.47,
+    "pos": 13.55
+   }
+  },
+  "México": {
+   "DESKTOP": {
+    "impr": 142244,
+    "clics": 2128,
+    "pct_impr": 58.3,
+    "pct_clics": 68.6,
+    "ctr": 1.5,
+    "pos": 14.88
+   },
+   "MOBILE": {
+    "impr": 100277,
+    "clics": 955,
+    "pct_impr": 41.1,
+    "pct_clics": 30.8,
+    "ctr": 0.95,
+    "pos": 8.08
+   },
+   "TABLET": {
+    "impr": 1535,
+    "clics": 17,
+    "pct_impr": 0.6,
+    "pct_clics": 0.5,
+    "ctr": 1.11,
+    "pos": 7.06
+   }
+  },
+  "Norteamérica": {
+   "DESKTOP": {
+    "impr": 47951,
+    "clics": 511,
+    "pct_impr": 63.8,
+    "pct_clics": 71.7,
+    "ctr": 1.07,
+    "pos": 14.27
+   },
+   "MOBILE": {
+    "impr": 26588,
+    "clics": 198,
+    "pct_impr": 35.4,
+    "pct_clics": 27.8,
+    "ctr": 0.74,
+    "pos": 8.6
+   },
+   "TABLET": {
+    "impr": 568,
+    "clics": 4,
+    "pct_impr": 0.8,
+    "pct_clics": 0.6,
+    "ctr": 0.7,
+    "pos": 9.39
+   }
+  },
+  "Perú": {
+   "DESKTOP": {
+    "impr": 583924,
+    "clics": 8432,
+    "pct_impr": 73.7,
+    "pct_clics": 78.3,
+    "ctr": 1.44,
+    "pos": 8.22
+   },
+   "MOBILE": {
+    "impr": 205552,
+    "clics": 2303,
+    "pct_impr": 25.9,
+    "pct_clics": 21.4,
+    "ctr": 1.12,
+    "pos": 6.99
+   },
+   "TABLET": {
+    "impr": 2985,
+    "clics": 38,
+    "pct_impr": 0.4,
+    "pct_clics": 0.4,
+    "ctr": 1.27,
+    "pos": 7.16
+   }
+  },
+  "Portugal": {
+   "DESKTOP": {
+    "impr": 83745,
+    "clics": 1340,
+    "pct_impr": 73.0,
+    "pct_clics": 81.2,
+    "ctr": 1.6,
+    "pos": 14.97
+   },
+   "MOBILE": {
+    "impr": 30362,
+    "clics": 305,
+    "pct_impr": 26.4,
+    "pct_clics": 18.5,
+    "ctr": 1.0,
+    "pos": 9.13
+   },
+   "TABLET": {
+    "impr": 687,
+    "clics": 6,
+    "pct_impr": 0.6,
+    "pct_clics": 0.4,
+    "ctr": 0.87,
+    "pos": 17.23
+   }
+  },
+  "Américas": {
+   "DESKTOP": {
+    "impr": 46121,
+    "clics": 604,
+    "pct_impr": 79.0,
+    "pct_clics": 75.0,
+    "ctr": 1.31,
+    "pos": 8.92
+   },
+   "MOBILE": {
+    "impr": 12088,
+    "clics": 198,
+    "pct_impr": 20.7,
+    "pct_clics": 24.6,
+    "ctr": 1.64,
+    "pos": 8.14
+   },
+   "TABLET": {
+    "impr": 150,
+    "clics": 3,
+    "pct_impr": 0.3,
+    "pct_clics": 0.4,
+    "ctr": 2.0,
+    "pos": 9.25
+   }
+  },
+  "Iberia": {
+   "DESKTOP": {
+    "impr": 19272,
+    "clics": 559,
+    "pct_impr": 74.6,
+    "pct_clics": 79.2,
+    "ctr": 2.9,
+    "pos": 10.95
+   },
+   "MOBILE": {
+    "impr": 6453,
+    "clics": 147,
+    "pct_impr": 25.0,
+    "pct_clics": 20.8,
+    "ctr": 2.28,
+    "pos": 9.59
+   },
+   "TABLET": {
+    "impr": 109,
+    "clics": 0,
+    "pct_impr": 0.4,
+    "pct_clics": 0.0,
+    "ctr": 0.0,
+    "pos": 14.98
+   }
+  }
+ },
+ "dispositivos_total": {
+  "DESKTOP": {
+   "impr": 1541960,
+   "clics": 25101,
+   "pct_impr": 69.1,
+   "pct_clics": 73.5
+  },
+  "MOBILE": {
+   "impr": 680198,
+   "clics": 8913,
+   "pct_impr": 30.5,
+   "pct_clics": 26.1
+  },
+  "TABLET": {
+   "impr": 10812,
+   "clics": 122,
+   "pct_impr": 0.5,
+   "pct_clics": 0.4
+  }
+ },
+ "movil_norma_cu": [
+  {
+   "norma": "ISO 45001",
+   "tot": 71685,
+   "MOBILE": 27147,
+   "pct_mobile": 37.9
+  },
+  {
+   "norma": "GRS",
+   "tot": 65505,
+   "MOBILE": 48456,
+   "pct_mobile": 74.0
+  },
+  {
+   "norma": "SMETA / Sedex",
+   "tot": 58515,
+   "MOBILE": 15558,
+   "pct_mobile": 26.6
+  },
+  {
+   "norma": "MSC / ASC / BAP",
+   "tot": 57220,
+   "MOBILE": 24499,
+   "pct_mobile": 42.8
+  },
+  {
+   "norma": "GLOBALG.A.P.",
+   "tot": 29276,
+   "MOBILE": 10517,
+   "pct_mobile": 35.9
+  },
+  {
+   "norma": "Rainforest Alliance",
+   "tot": 25881,
+   "MOBILE": 6368,
+   "pct_mobile": 24.6
+  },
+  {
+   "norma": "USDA NOP / orgánico",
+   "tot": 24341,
+   "MOBILE": 4975,
+   "pct_mobile": 20.4
+  },
+  {
+   "norma": "FSA",
+   "tot": 22375,
+   "MOBILE": 7020,
+   "pct_mobile": 31.4
+  },
+  {
+   "norma": "TEMO",
+   "tot": 20637,
+   "MOBILE": 15545,
+   "pct_mobile": 75.3
+  },
+  {
+   "norma": "ISCC",
+   "tot": 17826,
+   "MOBILE": 3630,
+   "pct_mobile": 20.4
+  },
+  {
+   "norma": "GMP+",
+   "tot": 17720,
+   "MOBILE": 3827,
+   "pct_mobile": 21.6
+  },
+  {
+   "norma": "VISEC",
+   "tot": 15409,
+   "MOBILE": 5231,
+   "pct_mobile": 33.9
+  },
+  {
+   "norma": "PrimusGFS",
+   "tot": 14794,
+   "MOBILE": 4313,
+   "pct_mobile": 29.2
+  },
+  {
+   "norma": "GOTS",
+   "tot": 13378,
+   "MOBILE": 6975,
+   "pct_mobile": 52.1
+  },
+  {
+   "norma": "FSC",
+   "tot": 13086,
+   "MOBILE": 5079,
+   "pct_mobile": 38.8
+  }
+ ],
+ "archivo": {
+  "filas_total": 891923,
+  "mb_total": 114.4,
+  "llamadas": 1103,
+  "cortes": {
+   "daily · fecha": {
+    "filas": 2345,
+    "mb": 0.2
+   },
+   "device_date · fecha + dispositivo": {
+    "filas": 6640,
+    "mb": 0.7
+   },
+   "device_total · dispositivo": {
+    "filas": 30,
+    "mb": 0.0
+   },
+   "devices · query + dispositivo": {
+    "filas": 44488,
+    "mb": 4.7
+   },
+   "pages · página + fecha": {
+    "filas": 229034,
+    "mb": 38.8
+   },
+   "queries · query + país + fecha": {
+    "filas": 477469,
+    "mb": 53.0
+   },
+   "queries_agg · query + país": {
+    "filas": 86664,
+    "mb": 8.9
+   },
+   "query_page · query + página": {
+    "filas": 45253,
+    "mb": 8.0
+   }
+  }
+ },
+ "huecos": {
+  "Argentina": {
+   "desde": "2025-12-16",
+   "hasta": "2026-03-02",
+   "hueco_dias": 77
+  },
+  "México": {
+   "desde": "2025-11-17",
+   "hasta": "2026-03-02",
+   "hueco_dias": 106
+  }
+ },
+ "validacion": {
+  "filas_iguales": 105914,
+  "detalle": [
+   {
+    "marca": "cu",
+    "prueba": "cobertura",
+    "propiedad": "Argentina",
+    "primera": "2025-05-04",
+    "ultima": "2026-09-14",
+    "dias": 422.0,
+    "huecos": "[(datetime.date(2025, 12, 15), datetime.date(2026, 3, 3), 77)]",
+    "filas_base": null,
+    "filas_hist": null,
+    "solo_base": null,
+    "solo_hist": null,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "cu",
+    "prueba": "cobertura",
+    "propiedad": "Brasil",
+    "primera": "2026-03-03",
+    "ultima": "2026-09-14",
+    "dias": 196.0,
+    "huecos": "[]",
+    "filas_base": null,
+    "filas_hist": null,
+    "solo_base": null,
+    "solo_hist": null,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "cu",
+    "prueba": "cobertura",
+    "propiedad": "Chile",
+    "primera": "2026-03-03",
+    "ultima": "2026-09-14",
+    "dias": 196.0,
+    "huecos": "[]",
+    "filas_base": null,
+    "filas_hist": null,
+    "solo_base": null,
+    "solo_hist": null,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "cu",
+    "prueba": "cobertura",
+    "propiedad": "España",
+    "primera": "2026-03-03",
+    "ultima": "2026-09-14",
+    "dias": 196.0,
+    "huecos": "[]",
+    "filas_base": null,
+    "filas_hist": null,
+    "solo_base": null,
+    "solo_hist": null,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "cu",
+    "prueba": "cobertura",
+    "propiedad": "México",
+    "primera": "2025-05-04",
+    "ultima": "2026-09-14",
+    "dias": 393.0,
+    "huecos": "[(datetime.date(2025, 11, 16), datetime.date(2026, 3, 3), 106)]",
+    "filas_base": null,
+    "filas_hist": null,
+    "solo_base": null,
+    "solo_hist": null,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "cu",
+    "prueba": "cobertura",
+    "propiedad": "Norteamérica",
+    "primera": "2026-03-03",
+    "ultima": "2026-09-14",
+    "dias": 196.0,
+    "huecos": "[]",
+    "filas_base": null,
+    "filas_hist": null,
+    "solo_base": null,
+    "solo_hist": null,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "cu",
+    "prueba": "cobertura",
+    "propiedad": "Perú",
+    "primera": "2026-03-03",
+    "ultima": "2026-09-14",
+    "dias": 196.0,
+    "huecos": "[]",
+    "filas_base": null,
+    "filas_hist": null,
+    "solo_base": null,
+    "solo_hist": null,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "cu",
+    "prueba": "cobertura",
+    "propiedad": "Portugal",
+    "primera": "2026-03-03",
+    "ultima": "2026-09-14",
+    "dias": 196.0,
+    "huecos": "[]",
+    "filas_base": null,
+    "filas_hist": null,
+    "solo_base": null,
+    "solo_hist": null,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "cu",
+    "prueba": "pages_12m",
+    "propiedad": null,
+    "primera": null,
+    "ultima": null,
+    "dias": null,
+    "huecos": null,
+    "filas_base": 2467.0,
+    "filas_hist": 2467.0,
+    "solo_base": 0.0,
+    "solo_hist": 0.0,
+    "dif_impr": 0.0,
+    "dif_clics": 0.0,
+    "identico": true,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "cu",
+    "prueba": "queries_12m",
+    "propiedad": null,
+    "primera": null,
+    "ultima": null,
+    "dias": null,
+    "huecos": null,
+    "filas_base": 72428.0,
+    "filas_hist": 72428.0,
+    "solo_base": null,
+    "solo_hist": 0.0,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": 72428.0,
+    "cobertura_filas": 100.0,
+    "cobertura_impr": 100.0,
+    "cobertura_clics": 100.0,
+    "hist_excede": 0.0
+   },
+   {
+    "marca": "cu",
+    "prueba": "pages_ads",
+    "propiedad": null,
+    "primera": null,
+    "ultima": null,
+    "dias": null,
+    "huecos": null,
+    "filas_base": 1815.0,
+    "filas_hist": 1815.0,
+    "solo_base": 0.0,
+    "solo_hist": 0.0,
+    "dif_impr": 0.0,
+    "dif_clics": 0.0,
+    "identico": true,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "cu",
+    "prueba": "queries_ads",
+    "propiedad": null,
+    "primera": null,
+    "ultima": null,
+    "dias": null,
+    "huecos": null,
+    "filas_base": 23300.0,
+    "filas_hist": 23300.0,
+    "solo_base": null,
+    "solo_hist": 0.0,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": 23300.0,
+    "cobertura_filas": 100.0,
+    "cobertura_impr": 100.0,
+    "cobertura_clics": 100.0,
+    "hist_excede": 0.0
+   },
+   {
+    "marca": "ps",
+    "prueba": "cobertura",
+    "propiedad": "Américas",
+    "primera": "2026-03-22",
+    "ultima": "2026-09-14",
+    "dias": 177.0,
+    "huecos": "[]",
+    "filas_base": null,
+    "filas_hist": null,
+    "solo_base": null,
+    "solo_hist": null,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "ps",
+    "prueba": "cobertura",
+    "propiedad": "Iberia",
+    "primera": "2026-03-22",
+    "ultima": "2026-09-14",
+    "dias": 177.0,
+    "huecos": "[]",
+    "filas_base": null,
+    "filas_hist": null,
+    "solo_base": null,
+    "solo_hist": null,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "ps",
+    "prueba": "pages_12m",
+    "propiedad": null,
+    "primera": null,
+    "ultima": null,
+    "dias": null,
+    "huecos": null,
+    "filas_base": 284.0,
+    "filas_hist": 284.0,
+    "solo_base": 0.0,
+    "solo_hist": 0.0,
+    "dif_impr": 0.0,
+    "dif_clics": 0.0,
+    "identico": true,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "ps",
+    "prueba": "queries_12m",
+    "propiedad": null,
+    "primera": null,
+    "ultima": null,
+    "dias": null,
+    "huecos": null,
+    "filas_base": 3831.0,
+    "filas_hist": 3831.0,
+    "solo_base": null,
+    "solo_hist": 0.0,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": 3831.0,
+    "cobertura_filas": 100.0,
+    "cobertura_impr": 100.0,
+    "cobertura_clics": 100.0,
+    "hist_excede": 0.0
+   },
+   {
+    "marca": "ps",
+    "prueba": "pages_ads",
+    "propiedad": null,
+    "primera": null,
+    "ultima": null,
+    "dias": null,
+    "huecos": null,
+    "filas_base": 226.0,
+    "filas_hist": 226.0,
+    "solo_base": 0.0,
+    "solo_hist": 0.0,
+    "dif_impr": 0.0,
+    "dif_clics": 0.0,
+    "identico": true,
+    "en_ambos": null,
+    "cobertura_filas": null,
+    "cobertura_impr": null,
+    "cobertura_clics": null,
+    "hist_excede": null
+   },
+   {
+    "marca": "ps",
+    "prueba": "queries_ads",
+    "propiedad": null,
+    "primera": null,
+    "ultima": null,
+    "dias": null,
+    "huecos": null,
+    "filas_base": 1563.0,
+    "filas_hist": 1563.0,
+    "solo_base": null,
+    "solo_hist": 0.0,
+    "dif_impr": null,
+    "dif_clics": null,
+    "identico": null,
+    "en_ambos": 1563.0,
+    "cobertura_filas": 100.0,
+    "cobertura_impr": 100.0,
+    "cobertura_clics": 100.0,
+    "hist_excede": 0.0
+   }
+  ]
+ },
+ "movil_max": {
+  "propiedad": "México",
+  "pct": 41.1
+ },
+ "movil_min": {
+  "propiedad": "Américas",
+  "pct": 20.7
+ },
+ "limites": {
+  "pct_query_vs_prop_es": 64.7
+ },
+ "verificacion": {
+  "numeros": 61,
+  "ok": 61,
+  "resultado": "los 61 coinciden",
+  "detalle": [
+   {
+    "nombre": "filas totales del archivo",
+    "informe": 891923,
+    "fuente": 891923,
+    "ok": true
+   },
+   {
+    "nombre": "España: primer día",
+    "informe": "2026-03-03",
+    "fuente": "2026-03-03",
+    "ok": true
+   },
+   {
+    "nombre": "España: impresiones totales",
+    "informe": 408582,
+    "fuente": 408582,
+    "ok": true
+   },
+   {
+    "nombre": "España: clics totales",
+    "informe": 3515,
+    "fuente": 3515,
+    "ok": true
+   },
+   {
+    "nombre": "Argentina: primer día",
+    "informe": "2025-05-04",
+    "fuente": "2025-05-04",
+    "ok": true
+   },
+   {
+    "nombre": "Argentina: impresiones totales",
+    "informe": 294810,
+    "fuente": 294810,
+    "ok": true
+   },
+   {
+    "nombre": "Argentina: clics totales",
+    "informe": 7968,
+    "fuente": 7968,
+    "ok": true
+   },
+   {
+    "nombre": "México: primer día",
+    "informe": "2025-05-04",
+    "fuente": "2025-05-04",
+    "ok": true
+   },
+   {
+    "nombre": "México: impresiones totales",
+    "informe": 244056,
+    "fuente": 244056,
+    "ok": true
+   },
+   {
+    "nombre": "México: clics totales",
+    "informe": 3100,
+    "fuente": 3100,
+    "ok": true
+   },
+   {
+    "nombre": "Américas: primer día",
+    "informe": "2026-03-22",
+    "fuente": "2026-03-22",
+    "ok": true
+   },
+   {
+    "nombre": "Américas: impresiones totales",
+    "informe": 58359,
+    "fuente": 58359,
+    "ok": true
+   },
+   {
+    "nombre": "Américas: clics totales",
+    "informe": 805,
+    "fuente": 805,
+    "ok": true
+   },
+   {
+    "nombre": "Argentina: días de hueco",
+    "informe": 77,
+    "fuente": 77,
+    "ok": true
+   },
+   {
+    "nombre": "México: días de hueco",
+    "informe": 106,
+    "fuente": 106,
+    "ok": true
+   },
+   {
+    "nombre": "pages CU 12m: filas idénticas == filas baseline",
+    "informe": 2467,
+    "fuente": 2467,
+    "ok": true
+   },
+   {
+    "nombre": "Ads: coste visible total",
+    "informe": 934067,
+    "fuente": 934067,
+    "ok": true
+   },
+   {
+    "nombre": "Ads: términos con clic",
+    "informe": 316,
+    "fuente": 316,
+    "ok": true
+   },
+   {
+    "nombre": "cruce: términos relevantes",
+    "informe": 252,
+    "fuente": 252,
+    "ok": true
+   },
+   {
+    "nombre": "cruce: coste relevante",
+    "informe": 744025,
+    "fuente": 744025,
+    "ok": true
+   },
+   {
+    "nombre": "canibalización 1-3: coste",
+    "informe": 19067,
+    "fuente": 19067,
+    "ok": true
+   },
+   {
+    "nombre": "zona 8-20: coste",
+    "informe": 71763,
+    "fuente": 71763,
+    "ok": true
+   },
+   {
+    "nombre": "sin nada del tema: coste",
+    "informe": 422509,
+    "fuente": 422509,
+    "ok": true
+   },
+   {
+    "nombre": "pos. orgánica ESP ventana Ads: recyclass",
+    "informe": 6.09,
+    "fuente": 6.09,
+    "ok": true
+   },
+   {
+    "nombre": "pos. orgánica ESP ventana Ads: smeta",
+    "informe": 7.55,
+    "fuente": 7.55,
+    "ok": true
+   },
+   {
+    "nombre": "pos. orgánica ESP ventana Ads: iscc",
+    "informe": 12.07,
+    "fuente": 12.07,
+    "ok": true
+   },
+   {
+    "nombre": "pos. orgánica ESP ventana Ads: pefc",
+    "informe": 26.02,
+    "fuente": 26.02,
+    "ok": true
+   },
+   {
+    "nombre": "global recycled standard: media simple (método informe anterior)",
+    "informe": 16.2,
+    "fuente": 16.2,
+    "ok": true
+   },
+   {
+    "nombre": "global recycled standard: posición solo ESP",
+    "informe": 7.3,
+    "fuente": 7.3,
+    "ok": true
+   },
+   {
+    "nombre": "global recycled standard: impresiones totales 12m",
+    "informe": 1292,
+    "fuente": 1292,
+    "ok": true
+   },
+   {
+    "nombre": "recyclass: media simple (método informe anterior)",
+    "informe": 15.2,
+    "fuente": 15.2,
+    "ok": true
+   },
+   {
+    "nombre": "recyclass: posición solo ESP",
+    "informe": 6.0,
+    "fuente": 6.0,
+    "ok": true
+   },
+   {
+    "nombre": "recyclass: impresiones totales 12m",
+    "informe": 1265,
+    "fuente": 1265,
+    "ok": true
+   },
+   {
+    "nombre": "smeta: media simple (método informe anterior)",
+    "informe": 12.6,
+    "fuente": 12.6,
+    "ok": true
+   },
+   {
+    "nombre": "smeta: posición solo ESP",
+    "informe": 7.8,
+    "fuente": 7.8,
+    "ok": true
+   },
+   {
+    "nombre": "smeta: impresiones totales 12m",
+    "informe": 1789,
+    "fuente": 1789,
+    "ok": true
+   },
+   {
+    "nombre": "iscc: media simple (método informe anterior)",
+    "informe": 13.2,
+    "fuente": 13.2,
+    "ok": true
+   },
+   {
+    "nombre": "iscc: posición solo ESP",
+    "informe": 7.2,
+    "fuente": 7.2,
+    "ok": true
+   },
+   {
+    "nombre": "iscc: impresiones totales 12m",
+    "informe": 1922,
+    "fuente": 1922,
+    "ok": true
+   },
+   {
+    "nombre": "pefc: media simple (método informe anterior)",
+    "informe": 12.2,
+    "fuente": 12.2,
+    "ok": true
+   },
+   {
+    "nombre": "pefc: posición solo ESP",
+    "informe": 19.9,
+    "fuente": 19.9,
+    "ok": true
+   },
+   {
+    "nombre": "pefc: impresiones totales 12m",
+    "informe": 428,
+    "fuente": 428,
+    "ok": true
+   },
+   {
+    "nombre": "FSC España: impresiones",
+    "informe": 1284,
+    "fuente": 1284,
+    "ok": true
+   },
+   {
+    "nombre": "FSC Portugal: impresiones",
+    "informe": 2296,
+    "fuente": 2296,
+    "ok": true
+   },
+   {
+    "nombre": "OEKO-TEX en las 8 de CU: impresiones",
+    "informe": 0,
+    "fuente": 0,
+    "ok": true
+   },
+   {
+    "nombre": "ISO 22000 España: impresiones",
+    "informe": 2265,
+    "fuente": 2265,
+    "ok": true
+   },
+   {
+    "nombre": "BRCGS España: impresiones",
+    "informe": 37,
+    "fuente": 37,
+    "ok": true
+   },
+   {
+    "nombre": "GMP+ España: impresiones",
+    "informe": 5031,
+    "fuente": 5031,
+    "ok": true
+   },
+   {
+    "nombre": "ISO 45001 España: impresiones",
+    "informe": 72363,
+    "fuente": 72363,
+    "ok": true
+   },
+   {
+    "nombre": "FSC/forest Norteamérica: impresiones",
+    "informe": 251,
+    "fuente": 251,
+    "ok": true
+   },
+   {
+    "nombre": "TEMO Norteamérica: impresiones",
+    "informe": 20346,
+    "fuente": 20346,
+    "ok": true
+   },
+   {
+    "nombre": "queries distintas CU (8 propiedades)",
+    "informe": 32079,
+    "fuente": 32079,
+    "ok": true
+   },
+   {
+    "nombre": "móvil: % impresiones",
+    "informe": 30.5,
+    "fuente": 30.5,
+    "ok": true
+   },
+   {
+    "nombre": "móvil: % clics",
+    "informe": 26.1,
+    "fuente": 26.1,
+    "ok": true
+   },
+   {
+    "nombre": "España: % impresiones móvil",
+    "informe": 31.4,
+    "fuente": 31.4,
+    "ok": true
+   },
+   {
+    "nombre": "Perú: % impresiones móvil",
+    "informe": 25.9,
+    "fuente": 25.9,
+    "ok": true
+   },
+   {
+    "nombre": "queries sin comprar: total",
+    "informe": 2240,
+    "fuente": 2240,
+    "ok": true
+   },
+   {
+    "nombre": "queries sin comprar: impresiones",
+    "informe": 781006,
+    "fuente": 781006,
+    "ok": true
+   },
+   {
+    "nombre": "iso 45001 no está en las campañas de CU España (0 = no está)",
+    "informe": 0,
+    "fuente": 0,
+    "ok": true
+   },
+   {
+    "nombre": "Argentina jun-ago 2025: impresiones",
+    "informe": 51869,
+    "fuente": 51869,
+    "ok": true
+   },
+   {
+    "nombre": "Argentina jun-ago 2026: impresiones",
+    "informe": 75279,
+    "fuente": 75279,
+    "ok": true
+   }
+  ]
+ }
+}

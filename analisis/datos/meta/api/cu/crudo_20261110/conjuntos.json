@@ -1,0 +1,558 @@
+[
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "id": "52622618694377",
+  "name": "IFPA - Web",
+  "campaign_id": "52622618690977",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 25,
+   "age_range": [
+    25,
+    65
+   ],
+   "excluded_custom_audiences": [
+    {
+     "id": "52619868175777",
+     "name": "BBDD - Participantes del evento de IFPA"
+    }
+   ],
+   "geo_locations": {
+    "places": [
+     {
+      "key": "160147860837048",
+      "name": "Orlando International Drive",
+      "distance_unit": "kilometer",
+      "latitude": 28.451425771215,
+      "longitude": -81.471935398684,
+      "radius": 1,
+      "primary_city_id": 2427937,
+      "region_id": 3852,
+      "country": "US"
+     },
+     {
+      "key": "162116459265",
+      "name": "Orange County Convention Center",
+      "distance_unit": "kilometer",
+      "latitude": 28.424878238936,
+      "longitude": -81.469472944736,
+      "radius": 1,
+      "primary_city_id": 2427937,
+      "region_id": 3852,
+      "country": "US"
+     }
+    ],
+    "location_types": [
+     "frequently_in",
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1,
+    "individual_setting": {
+     "age": 1,
+     "gender": 1
+    }
+   },
+   "user_age_unknown": true
+  },
+  "promoted_object": {
+   "pixel_id": "1774189680667535",
+   "custom_event_type": "LEAD",
+   "smart_pse_enabled": false
+  },
+  "destination_type": "UNDEFINED",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 7
+   },
+   {
+    "event_type": "VIEW_THROUGH",
+    "window_days": 1
+   },
+   {
+    "event_type": "ENGAGED_VIDEO_VIEW",
+    "window_days": 1
+   }
+  ],
+  "start_time": "2026-10-13T17:45:10-0300",
+  "is_dynamic_creative": false,
+  "created_time": "2026-10-13T17:45:08-0300",
+  "updated_time": "2026-10-13T17:45:27-0300"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "id": "52622618693977",
+  "name": "IFPA - Typeform",
+  "campaign_id": "52622618690977",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 18,
+   "age_range": [
+    18,
+    65
+   ],
+   "custom_audiences": [
+    {
+     "id": "52619868175777",
+     "name": "BBDD - Participantes del evento de IFPA"
+    }
+   ],
+   "geo_locations": {
+    "places": [
+     {
+      "key": "160147860837048",
+      "name": "Orlando International Drive",
+      "distance_unit": "kilometer",
+      "latitude": 28.451425771215,
+      "longitude": -81.471935398684,
+      "radius": 1,
+      "primary_city_id": 2427937,
+      "region_id": 3852,
+      "country": "US"
+     },
+     {
+      "key": "162116459265",
+      "name": "Orange County Convention Center",
+      "distance_unit": "kilometer",
+      "latitude": 28.424878238936,
+      "longitude": -81.469472944736,
+      "radius": 1,
+      "primary_city_id": 2427937,
+      "region_id": 3852,
+      "country": "US"
+     }
+    ],
+    "location_types": [
+     "frequently_in",
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1,
+    "individual_setting": {
+     "age": 1,
+     "gender": 1
+    }
+   },
+   "user_age_unknown": true
+  },
+  "promoted_object": {
+   "pixel_id": "1774189680667535",
+   "custom_event_type": "LEAD",
+   "smart_pse_enabled": false
+  },
+  "destination_type": "UNDEFINED",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 7
+   },
+   {
+    "event_type": "VIEW_THROUGH",
+    "window_days": 1
+   },
+   {
+    "event_type": "ENGAGED_VIDEO_VIEW",
+    "window_days": 1
+   }
+  ],
+  "start_time": "2026-10-13T17:45:09-0300",
+  "is_dynamic_creative": false,
+  "created_time": "2026-10-13T17:45:08-0300",
+  "updated_time": "2026-10-13T17:45:26-0300"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "id": "52622604362977",
+  "name": "IFPA - Web",
+  "campaign_id": "52622595294977",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 18,
+   "age_range": [
+    18,
+    65
+   ],
+   "custom_audiences": [
+    {
+     "id": "52619868175777",
+     "name": "BBDD - Participantes del evento de IFPA"
+    }
+   ],
+   "geo_locations": {
+    "places": [
+     {
+      "key": "160147860837048",
+      "name": "Orlando International Drive",
+      "distance_unit": "kilometer",
+      "latitude": 28.451425771215,
+      "longitude": -81.471935398684,
+      "radius": 1,
+      "primary_city_id": 2427937,
+      "region_id": 3852,
+      "country": "US"
+     },
+     {
+      "key": "162116459265",
+      "name": "Orange County Convention Center",
+      "distance_unit": "kilometer",
+      "latitude": 28.424878238936,
+      "longitude": -81.469472944736,
+      "radius": 1,
+      "primary_city_id": 2427937,
+      "region_id": 3852,
+      "country": "US"
+     }
+    ],
+    "location_types": [
+     "frequently_in",
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1,
+    "individual_setting": {
+     "age": 1,
+     "gender": 1
+    }
+   },
+   "user_age_unknown": true
+  },
+  "promoted_object": {
+   "pixel_id": "1774189680667535",
+   "custom_event_type": "LEAD",
+   "smart_pse_enabled": false
+  },
+  "destination_type": "UNDEFINED",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 7
+   },
+   {
+    "event_type": "VIEW_THROUGH",
+    "window_days": 1
+   },
+   {
+    "event_type": "ENGAGED_VIDEO_VIEW",
+    "window_days": 1
+   }
+  ],
+  "start_time": "2026-10-13T15:51:50-0300",
+  "is_dynamic_creative": false,
+  "created_time": "2026-10-13T15:51:50-0300",
+  "updated_time": "2026-10-13T15:52:09-0300"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "id": "52622595295177",
+  "name": "IFPA - Typeform",
+  "campaign_id": "52622595294977",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 18,
+   "age_range": [
+    18,
+    65
+   ],
+   "custom_audiences": [
+    {
+     "id": "52619868175777",
+     "name": "BBDD - Participantes del evento de IFPA"
+    }
+   ],
+   "geo_locations": {
+    "places": [
+     {
+      "key": "160147860837048",
+      "name": "Orlando International Drive",
+      "distance_unit": "kilometer",
+      "latitude": 28.451425771215,
+      "longitude": -81.471935398684,
+      "radius": 1,
+      "primary_city_id": 2427937,
+      "region_id": 3852,
+      "country": "US"
+     },
+     {
+      "key": "162116459265",
+      "name": "Orange County Convention Center",
+      "distance_unit": "kilometer",
+      "latitude": 28.424878238936,
+      "longitude": -81.469472944736,
+      "radius": 1,
+      "primary_city_id": 2427937,
+      "region_id": 3852,
+      "country": "US"
+     }
+    ],
+    "location_types": [
+     "frequently_in",
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1,
+    "individual_setting": {
+     "age": 1,
+     "gender": 1
+    }
+   },
+   "user_age_unknown": true
+  },
+  "promoted_object": {
+   "pixel_id": "1774189680667535",
+   "custom_event_type": "LEAD",
+   "smart_pse_enabled": false
+  },
+  "destination_type": "UNDEFINED",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 7
+   },
+   {
+    "event_type": "VIEW_THROUGH",
+    "window_days": 1
+   },
+   {
+    "event_type": "ENGAGED_VIDEO_VIEW",
+    "window_days": 1
+   }
+  ],
+  "start_time": "2026-10-13T15:46:53-0300",
+  "is_dynamic_creative": false,
+  "created_time": "2026-10-13T15:46:53-0300",
+  "updated_time": "2026-10-13T15:51:04-0300"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "id": "52601233556777",
+  "name": "CU - Aapresid - Whatsapp",
+  "campaign_id": "52601233554777",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "CONVERSATIONS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 25,
+   "age_range": [
+    25,
+    65
+   ],
+   "flexible_spec": [
+    {
+     "interests": [
+      {
+       "id": "6002898157162",
+       "name": "Agribusiness"
+      }
+     ]
+    }
+   ],
+   "geo_locations": {
+    "places": [
+     {
+      "key": "154187077976339",
+      "name": "Metropolitano",
+      "distance_unit": "kilometer",
+      "latitude": -32.928815983576,
+      "longitude": -60.669967794286,
+      "radius": 1,
+      "primary_city_id": 89720,
+      "region_id": 117,
+      "country": "AR"
+     }
+    ],
+    "location_types": [
+     "frequently_in",
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1,
+    "individual_setting": {
+     "age": 1,
+     "gender": 1
+    }
+   },
+   "user_age_unknown": true
+  },
+  "promoted_object": {
+   "pixel_id": "1774189680667535",
+   "custom_event_type": "LEAD",
+   "page_id": "371334549393343",
+   "smart_pse_enabled": false,
+   "whats_app_business_phone_number_id": "1221561717710566",
+   "whatsapp_phone_number": "5491176091484"
+  },
+  "destination_type": "WHATSAPP",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 7
+   }
+  ],
+  "start_time": "2026-08-04T16:28:56-0300",
+  "is_dynamic_creative": false,
+  "created_time": "2026-08-04T16:28:55-0300",
+  "updated_time": "2026-08-04T16:55:41-0300"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "campaign_name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "id": "52600485825777",
+  "name": "CU - Aapresid - Typeform",
+  "campaign_id": "52600485825977",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 25,
+   "age_range": [
+    25,
+    65
+   ],
+   "flexible_spec": [
+    {
+     "interests": [
+      {
+       "id": "6002898157162",
+       "name": "Agribusiness"
+      }
+     ]
+    }
+   ],
+   "geo_locations": {
+    "places": [
+     {
+      "key": "190564367695178",
+      "name": "Salon Metropolitano",
+      "distance_unit": "kilometer",
+      "latitude": -32.9267354,
+      "longitude": -60.6708301,
+      "radius": 1,
+      "primary_city_id": 89720,
+      "region_id": 117,
+      "country": "AR"
+     }
+    ],
+    "location_types": [
+     "frequently_in",
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1,
+    "individual_setting": {
+     "age": 1,
+     "gender": 1
+    }
+   }
+  },
+  "promoted_object": {
+   "pixel_id": "1774189680667535",
+   "custom_event_type": "LEAD",
+   "smart_pse_enabled": false
+  },
+  "destination_type": "UNDEFINED",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 7
+   },
+   {
+    "event_type": "VIEW_THROUGH",
+    "window_days": 1
+   },
+   {
+    "event_type": "ENGAGED_VIDEO_VIEW",
+    "window_days": 1
+   }
+  ],
+  "start_time": "2026-08-03T14:50:54-0300",
+  "is_dynamic_creative": false,
+  "created_time": "2026-08-03T14:50:54-0300",
+  "updated_time": "2026-08-04T09:30:21-0300"
+ }
+]

@@ -32,4 +32,15 @@ dist-ssr
 coverage
 scripts/__pycache__
 supabase/seed/_partes/
-.claude/
+.claude/*
+!.claude/settings.json
+
+# Proyecto de análisis (analisis/): accesos y salidas locales. Nunca al repo.
+analisis/client_secret*.json
+analisis/token*.json
+analisis/google-ads.yaml
+analisis/meta-ads.json
+analisis/supabase-service.json
+analisis/nube/*.local
+analisis/**/__pycache__/
+analisis/_repos/

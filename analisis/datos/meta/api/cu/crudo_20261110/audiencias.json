@@ -1,0 +1,69 @@
+[
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "id": "52619868741977",
+  "name": "Visitantes de pagina de Northamerica - Julio-Agos",
+  "subtype": "WEBSITE",
+  "description": "",
+  "approximate_count_lower_bound": 1000,
+  "approximate_count_upper_bound": 1000,
+  "operation_status": {
+   "code": 200,
+   "description": "Normal"
+  },
+  "delivery_status": {
+   "code": 300,
+   "description": "Audience is too small to be used in campaign creation."
+  },
+  "retention_days": 60,
+  "rule": "{\"inclusions\":{\"operator\":\"or\",\"rules\":[{\"event_sources\":[{\"type\":\"pixel\",\"id\":1774189680667535}],\"retention_seconds\":5184000,\"filter\":{\"operator\":\"and\",\"filters\":[{\"operator\":\"or\",\"filters\":[{\"field\":\"url\",\"operator\":\"i_contains\",\"value\":\"https:\\/\\/northamerica.controlunion.com\\/\"}]},{\"field\":\"url\",\"operator\":\"i_contains\",\"value\":\"\"}]},\"template\":\"VISITORS_BY_URL\"}]}}",
+  "time_created": 1790793564,
+  "time_updated": 1790793564
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "id": "52619868175777",
+  "name": "BBDD - Participantes del evento de IFPA",
+  "subtype": "CUSTOM",
+  "description": "",
+  "approximate_count_lower_bound": 1400,
+  "approximate_count_upper_bound": 1600,
+  "operation_status": {
+   "code": 200,
+   "description": "Normal"
+  },
+  "delivery_status": {
+   "code": 200,
+   "description": "This audience is ready for use."
+  },
+  "retention_days": 0,
+  "time_created": 1790793224,
+  "time_updated": 1790793281
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "id": "52619827054577",
+  "name": "BBDD - Publico GHG (enciada por tincho)",
+  "subtype": "CUSTOM",
+  "description": "",
+  "approximate_count_lower_bound": 1000,
+  "approximate_count_upper_bound": 1000,
+  "operation_status": {
+   "code": 200,
+   "description": "Normal"
+  },
+  "delivery_status": {
+   "code": 200,
+   "description": "This audience is ready for use."
+  },
+  "retention_days": 0,
+  "time_created": 1790780977,
+  "time_updated": 1790780980
+ }
+]

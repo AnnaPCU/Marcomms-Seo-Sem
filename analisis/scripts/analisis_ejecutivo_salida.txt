@@ -1,0 +1,179 @@
+clientes ok
+Control Union España             gasto   566,753 clics  236 conv 2 | desp  55,163 huecos  48,446 canib  3,462 | org ads-win impr  28,356 clics   177 | móvil 31.4% | no comprada 394 q
+Control Union Portugal           gasto   189,185 clics   97 conv 0 | desp   3,516 huecos  11,900 canib 12,020 | org ads-win impr   6,175 clics   127 | móvil 26.4% | no comprada 137 q
+Control Union Canadá             gasto   345,924 clics   86 conv 2 | desp  32,182 huecos 207,501 canib      0 | org ads-win impr     373 clics    13 | móvil 35.4% | no comprada 43 q
+Control Union Estados Unidos     gasto   107,542 clics   17 conv 0 | desp  33,998 huecos   7,516 canib  3,586 | org ads-win impr   2,385 clics    14 | móvil 35.4% | no comprada 43 q
+Control Union Argentina          gasto    56,478 clics   23 conv 0 | desp       0 huecos   8,647 canib      0 | org ads-win impr   8,832 clics   446 | móvil 32.9% | no comprada 313 q
+Peterson Solutions Argentina     gasto   443,240 clics  588 conv 0 | desp  65,183 huecos 138,500 canib      0 | org ads-win impr     294 clics     2 | móvil 20.7% | no comprada 29 q
+
+Argentina: quick wins 10 · profundo 0 · canib interna 6 · ctr bajo 5 · perdidas 1 · ganadas 6 · páginas 630 (280 con clic)
+   QW visec carne                              impr   4369 pos 8.5 /programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/
+   QW cfr                                      impr   1345 pos 8.9 /programa-de-certificacion/cfr-clean-fuel-regulation/
+   QW sedex argentina                          impr    724 pos 8.8 /programa-de-certificacion/smeta/
+   QW warrants                                 impr    640 pos 8.6 /service/gestion-de-garantias/warrants-cma/
+   QW warrant                                  impr    586 pos 10.8 /service/gestion-de-garantias/
+   CANIB smeta                               8917 -> [('/programa-de-certificacion/smeta/', 6344), ('/en/certification-program/smeta/', 2561)]
+   CANIB visec                               8812 -> [('/programa-de-certificacion/visec-platafo', 6598), ('/en/certification-program/visec-traceabi', 2214)]
+   CANIB 2bsvs                               2263 -> [('/en/certification-program/2bsvs/', 975), ('/programa-de-certificacion/2bsvs/', 711), ('/en/international-standards/2bsvs-biomas', 511)]
+   LOWCTR /programa-de-certificacion/smeta/                            impr 22535 pos 8.6 ctr 0.51
+   LOWCTR /servicios-inspecciones/                                     impr 11472 pos 4.0 ctr 0.5
+   LOWCTR /en/contact/                                                 impr 3967 pos 9.1 ctr 0.45
+   PERD deposito fiscal                          801 -> 1  /service/deposito-fiscal/
+   DEM smeta                          8890 pos 10.3 pág=True /programa-de-certificacion/smeta/
+   DEM visec                          8803 pos 5.5 pág=True /programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/
+   DEM fsa                            5082 pos 4.3 pág=True /programa-de-certificacion/fsa-farm-sustainability-assessment/
+   DEM visec carne                    4458 pos 8.4 pág=True /programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/
+
+Brasil: quick wins 10 · profundo 0 · canib interna 6 · ctr bajo 6 · perdidas 4 · ganadas 0 · páginas 227 (111 con clic)
+   QW gmp                                      impr   3712 pos 10.7 /programas-de-certificacao/gmp/
+   QW smeta                                    impr   2257 pos 7.6 /programas-de-certificacao/smeta/
+   QW pest control solutions                   impr   1403 pos 8.3 /service/servicos/inspeccoes/pest-control/
+   QW fsma                                     impr   1324 pos 8.3 /certification-service/fsma-readiness/
+   QW bonsucro                                 impr    912 pos 8.4 /programas-de-certificacao/bonsucro/
+   CANIB gmp+                                1925 -> [('/programas-de-certificacao/gmp/', 1525), ('/en/certification-program/gmp/', 399)]
+   CANIB iscc                                1833 -> [('/programas-de-certificacao/iscc-certifie', 1030), ('/programas-de-certificacao/iscc-plus/', 775)]
+   CANIB pefc                                1147 -> [('/en/certification-program/pefc/', 762), ('/programas-de-certificacao/pefc/', 385)]
+   LOWCTR /programas-de-certificacao/grs-global-recycled-standard/     impr 9940 pos 5.2 ctr 0.33
+   LOWCTR /en/contact/                                                 impr 7280 pos 5.2 ctr 0.44
+   LOWCTR /programas-de-certificacao/smeta/                            impr 5616 pos 8.7 ctr 0.43
+   PERD pest control solutions                   1403 -> 0  /service/servicos/inspeccoes/pest-control/
+   PERD fssc 22000                               561 -> 73  /programas-de-certificacao/fssc-22000-food-safety-system-certification/
+   PERD rainforest alliance                      442 -> 40  /programas-de-certificacao/rainforest-alliance/
+   DEM obp                            4647 pos 6.8 pág=True /programas-de-certificacao/obp-ocean-bound-plastic-certification/
+   DEM grs                            4104 pos 5.0 pág=True /programas-de-certificacao/grs-global-recycled-standard/
+   DEM gmp                            3722 pos 10.7 pág=True /programas-de-certificacao/gmp/
+   DEM smeta                          2306 pos 8.3 pág=True /programas-de-certificacao/smeta/
+
+Chile: quick wins 10 · profundo 0 · canib interna 3 · ctr bajo 5 · perdidas 0 · ganadas 0 · páginas 168 (71 con clic)
+   QW brcgs                                    impr    994 pos 8.2 /programa-de-certificacion/brcgs/
+   QW smeta                                    impr    800 pos 7.9 /programa-de-certificacion/smeta/
+   QW auditoria smeta                          impr    231 pos 8.5 /programa-de-certificacion/smeta/
+   QW smeta 4 pilares                          impr    211 pos 7.6 /programa-de-certificacion/smeta/
+   QW bap certification                        impr    207 pos 7.9 /en/certification-program/bap-best-aquaculture-practice/
+   CANIB nch 2861                            179 -> [('/en/certification-program/norma-tecnica-', 79), ('/programa-de-certificacion/norma-tecnica', 55), ('/programas-de-certificacion/', 45)]
+   CANIB aquaculture stewardship council     147 -> [('/programa-de-certificacion/asc-aquacultu', 86), ('/en/certification-program/asc-aquacultur', 61)]
+   CANIB ifs food                            112 -> [('/programa-de-certificacion/ifs-food/', 60), ('/en/certification-program/ifs-food/', 52)]
+   LOWCTR /en/cis-login/                                               impr 12005 pos 7.9 ctr 0.14
+   LOWCTR /programa-de-certificacion/grs-global-recycled-standard/     impr 3386 pos 6.4 ctr 0.21
+   LOWCTR /programa-de-certificacion/fair-trade-usa/                   impr 1191 pos 6.7 ctr 0.34
+   DEM bap                            2631 pos 6.6 pág=True /programa-de-certificacion/bap-best-aquaculture-practice/
+   DEM grs                            1891 pos 6.6 pág=True /programa-de-certificacion/grs-global-recycled-standard/
+   DEM asc                            1660 pos 7.9 pág=True /programa-de-certificacion/asc-aquaculture-stewardship-council/
+   DEM control de calidad en frutas   1568 pos 26.2 pág=True /control-de-calidad/
+
+España: quick wins 10 · profundo 8 · canib interna 6 · ctr bajo 6 · perdidas 5 · ganadas 1 · páginas 416 (210 con clic)
+   QW iso 45001                                impr   7859 pos 12.6 /programa-de-certificacion/iso-45001/
+   QW grs                                      impr   7658 pos 9.4 /programa-de-certificacion/grs-global-recycled-standard/
+   QW sure                                     impr   5716 pos 8.9 /programa-de-certificacion/sure/
+   QW grasp                                    impr   3846 pos 8.7 /programa-de-certificacion/grasp-globalg-a-p-risk-assessment-on-practice/
+   QW smeta                                    impr   1757 pos 7.8 /programa-de-certificacion/smeta/
+   CANIB gmp+                                2882 -> [('/programa-de-certificacion/gmp/', 1454), ('/en/certification-program/gmp/', 1425)]
+   CANIB iscc                                1990 -> [('/programa-de-certificacion/iscc-plus/', 1094), ('/programa-de-certificacion/iscc_eu-inter', 779)]
+   CANIB gstc                                1882 -> [('/programa-de-certificacion/gstc-global-s', 1354), ('/en/certification-program/gstc-global-su', 528)]
+   LOWCTR /programa-de-certificacion/grs-global-recycled-standard/     impr 15968 pos 8.1 ctr 0.27
+   LOWCTR /programa-de-certificacion/certificacion-bienestar-animal-we impr 11232 pos 8.3 ctr 0.31
+   LOWCTR /en/certification-program/certificacion-bienestar-animal-wel impr 8877 pos 6.6 ctr 0.46
+   PERD iscc                                     1504 -> 253  /programa-de-certificacion/iscc-plus/
+   PERD iso 20121                                560 -> 132  /programa-de-certificacion/iso-20121/
+   PERD certificación                            463 -> 39  /how-certifications-works/
+   DEM iso 45001                      62834 pos 10.7 pág=True /programa-de-certificacion/iso-45001/
+   DEM welfair                        5196 pos 6.5 pág=True /en/certification-program/certificacion-bienestar-animal-welfair-iaws/
+   DEM grasp                          4553 pos 8.3 pág=True /programa-de-certificacion/grasp-globalg-a-p-risk-assessment-on-practice/
+   DEM red española de servicios      3426 pos 6.6 pág=True /wp-content/uploads/sites/18/2024/08/RED-ESPANOLA-DE-SERVICIOS-S.A.U.-RESSA.pdf
+
+México: quick wins 10 · profundo 4 · canib interna 6 · ctr bajo 6 · perdidas 2 · ganadas 6 · páginas 415 (154 con clic)
+   QW grs                                      impr  21761 pos 7.6 /programa-de-certificacion/grs-global-recycled-standard/
+   QW fsc                                      impr   5276 pos 8.5 /programa-de-certificacion/fsc-forest-stewardship-council/
+   QW smeta                                    impr   5051 pos 9.3 /programa-de-certificacion/smeta/
+   QW fair trade                               impr   3301 pos 8.9 /programa-de-certificacion/fair-trade-usa/
+   QW smeta certificacion                      impr   1182 pos 7.9 /programa-de-certificacion/smeta/
+   CANIB fsa                                 6663 -> [('/programa-de-certificacion/fsa-farm-sust', 4153), ('/es/normas-internacionales/fsa-farm-sust', 2497)]
+   CANIB obp                                 1898 -> [('/programa-de-certificacion/obp-ocean-bou', 1414), ('/en/certification-program/obp-ocean-boun', 424)]
+   CANIB global gap                          1251 -> [('/en/international-standards/global-gap', 566), ('/programa-de-certificacion/globalg-a-p/', 524)]
+   LOWCTR /programa-de-certificacion/grs-global-recycled-standard/     impr 38407 pos 6.6 ctr 0.27
+   LOWCTR /programa-de-certificacion/smeta/                            impr 15880 pos 9.7 ctr 0.5
+   LOWCTR /programa-de-certificacion/fair-trade-usa/                   impr 7438 pos 8.7 ctr 0.46
+   PERD fair trade                               1025 -> 62  /programa-de-certificacion/fair-trade-usa/
+   PERD obp                                      637 -> 0  /programa-de-certificacion/obp-ocean-bound-plastic-certification/
+   DEM grs                            22617 pos 7.5 pág=True /programa-de-certificacion/grs-global-recycled-standard/
+   DEM fsa                            6624 pos 6.4 pág=True /programa-de-certificacion/fsa-farm-sustainability-assessment/
+   DEM fsc                            5433 pos 8.6 pág=True /programa-de-certificacion/fsc-forest-stewardship-council/
+   DEM smeta                          5202 pos 9.7 pág=True /programa-de-certificacion/smeta/
+
+Norteamérica: quick wins 3 · profundo 3 · canib interna 6 · ctr bajo 5 · perdidas 1 · ganadas 1 · páginas 95 (38 con clic)
+   QW temo                                     impr   3425 pos 15.1 /service/commodity-inspections/temo-temperature-monitoring/
+   QW what is temo                             impr    384 pos 7.5 /service/commodity-inspections/temo-temperature-monitoring/
+   QW fslm                                     impr    164 pos 9.2 /certification-program/higg-fslm-facility-social-labor-module/
+   CANIB control union canada                803 -> [('/', 252), ('/contact/', 237)]
+   CANIB control union usa                   776 -> [('/', 197), ('/contact/', 196)]
+   CANIB primusgfs certification             772 -> [('/certification-program/primusgfs/', 484), ('/certification-program/primusgfs-certifi', 288)]
+   LOWCTR /service/commodity-inspections/temo-temperature-monitoring/  impr 22485 pos 8.9 ctr 0.06
+   LOWCTR /certification-program/higg-fslm-facility-social-labor-modul impr 7132 pos 8.2 ctr 0.46
+   LOWCTR /certification-programs/                                     impr 4061 pos 8.0 ctr 0.52
+   PERD temo                                     3165 -> 249  /service/commodity-inspections/temo-temperature-monitoring/
+   DEM temo                           19040 pos 9.3 pág=True /service/commodity-inspections/temo-temperature-monitoring/
+   DEM collateral management services 1266 pos 49.4 pág=True /service/collateral-management/
+   DEM fslm                           1225 pos 8.7 pág=True /certification-program/higg-fslm-facility-social-labor-module/
+   DEM cumcs                          1107 pos 1.9 pág=False /certification-program/control-union-medical-cannabis-standard/
+
+Perú: quick wins 10 · profundo 0 · canib interna 6 · ctr bajo 6 · perdidas 6 · ganadas 6 · páginas 600 (376 con clic)
+   QW haccp                                    impr  15252 pos 7.9 /programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/
+   QW haccp que significa                      impr   6154 pos 7.9 /programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/
+   QW leaf                                     impr   3157 pos 8.4 /programa-de-certificacion/leaf-marque/
+   QW haccp que es                             impr   1158 pos 9.2 /programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/
+   QW rms                                      impr   1008 pos 8.0 /programa-de-certificacion/rms-responsible-mohair-standard/
+   CANIB control union login                 3460 -> [('/en/cis-login/', 2320), ('/en/login/', 975)]
+   CANIB uebt                                873 -> [('/programa-de-certificacion/uebt-union-fo', 563), ('/en/certification-program/uebt-union-for', 310)]
+   CANIB vvgr                                714 -> [('/wp-content/uploads/sites/5/2025/06/GEI.', 331), ('/wp-content/uploads/sites/5/2025/04/GEI.', 301)]
+   LOWCTR /programa-de-certificacion/haccp-peligros-y-puntos-criticos- impr 45407 pos 8.0 ctr 0.28
+   LOWCTR /wp-content/uploads/sites/5/2023/08/MSC-General-Certificatio impr 32767 pos 8.3 ctr 0.1
+   LOWCTR /programa-de-certificacion/rainforest-alliance/              impr 27282 pos 3.6 ctr 0.38
+   PERD koa certification                        1151 -> 128  /en/certification-program/koa-korea-organic-aquaculture/
+   PERD haccp que es                             797 -> 213  /programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/
+   PERD bap                                      699 -> 127  /programa-de-certificacion/bap-best-aquaculture-practice/
+   DEM koa certification              26177 pos 6.8 pág=True /en/certification-program/koa-korea-organic-aquaculture/
+   DEM haccp                          15416 pos 8.1 pág=True /programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/
+   DEM rainforest alliance            10896 pos 3.4 pág=True /programa-de-certificacion/rainforest-alliance/
+   DEM asc                            8588 pos 6.9 pág=True /programa-de-certificacion/asc-aquaculture-stewardship-council/
+
+Portugal: quick wins 10 · profundo 0 · canib interna 6 · ctr bajo 5 · perdidas 2 · ganadas 1 · páginas 266 (136 con clic)
+   QW iso 9001                                 impr   1271 pos 12.3 /programas-de-certificacao/iso-9001/
+   QW ccs                                      impr    967 pos 7.6 /programas-de-certificacao/ccs-content-claim-standard/
+   QW iso 22000                                impr    760 pos 8.8 /programas-de-certificacao/iso-22000-food-safety-management-system/
+   QW asc                                      impr    527 pos 9.1 /programas-de-certificacao/asc-aquaculture-stewardship-council/
+   QW pefc                                     impr    525 pos 9.0 /programas-de-certificacao/pefc/
+   CANIB ocs                                 1678 -> [('/programas-de-certificacao/ocs-blended-o', 900), ('/en/certification-program/ocs-blended-or', 527)]
+   CANIB plástico reciclado certificado      368 -> [('/programas-de-certificacao/recyclass-rec', 229), ('/programas-de-certificacao/plastic-waste', 135)]
+   CANIB certificação da madeira             366 -> [('/programas-de-certificacao/fsc-forest-st', 196), ('/industry/florestal/', 149)]
+   LOWCTR /industry/aquacultura-e-pesca/                               impr 4959 pos 6.2 ctr 0.06
+   LOWCTR /programas-de-certificacao/rainforest-alliance/              impr 4829 pos 6.3 ctr 0.21
+   LOWCTR /programas-de-certificacao/verified-carbon-standard/         impr 4101 pos 8.7 ctr 0.44
+   PERD iso 9001                                 1174 -> 85  /programas-de-certificacao/iso-9001/
+   PERD earthcheck                               307 -> 73  /en/certification-program/earth-check/
+   DEM aquacultura                    4451 pos 6.1 pág=True /industry/aquacultura-e-pesca/
+   DEM green key                      1424 pos 7.1 pág=True /programas-de-certificacao/green-key/
+   DEM iso 9001                       1303 pos 12.9 pág=True /programas-de-certificacao/iso-9001/
+   DEM carbon neutral                 1172 pos 4.3 pág=True /programas-de-certificacao/pas-2060-carbon-neutral/
+
+Américas: quick wins 0 · profundo 0 · canib interna 2 · ctr bajo 3 · perdidas 0 · ganadas 0 · páginas 140 (54 con clic)
+   CANIB peterson                            4942 -> [('/', 2733), ('/contact/', 1642)]
+   CANIB peterson solutions brasil           351 -> [('/pt-br/', 84), ('/pt-br/vacancies/', 72), ('/pt-br/home/sobre-peterson/', 71)]
+   LOWCTR /en/insight/red-iii-transforming-europes-renewable-energy-la impr 20511 pos 8.4 ctr 0.22
+   LOWCTR /en/                                                         impr 13242 pos 6.8 ctr 0.39
+   LOWCTR /en/people-stories/                                          impr 1208 pos 4.6 ctr 0.0
+   DEM red iii                        1611 pos 11.2 pág=True /en/insight/red-iii-transforming-europes-renewable-energy-landscape/
+   DEM eu red iii                     486 pos 8.4 pág=True /en/insight/red-iii-transforming-europes-renewable-energy-landscape/
+   DEM red iii directive              280 pos 11.2 pág=True /en/insight/red-iii-transforming-europes-renewable-energy-landscape/
+   DEM red iii eu                     152 pos 8.4 pág=True /en/insight/red-iii-transforming-europes-renewable-energy-landscape/
+
+Iberia: quick wins 0 · profundo 1 · canib interna 2 · ctr bajo 2 · perdidas 0 · ganadas 0 · páginas 144 (54 con clic)
+   CANIB peterson solutions                  2451 -> [('/', 722), ('/en/', 491)]
+   CANIB ecgt                                239 -> [('/service/estrategia-y-gestion-de-sosteni', 189), ('/pt-pt/service/servicos-de-sustentabilid', 49)]
+   LOWCTR /en/home/about-us/                                           impr 4717 pos 7.0 ctr 0.19
+   LOWCTR /home/sobre-peterson/                                        impr 1626 pos 5.3 ctr 0.49
+   DEM csrd                           1456 pos 21.5 pág=True /en/csrd-es/
+   DEM finanzas sostenibles           269 pos 25.4 pág=True /service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/
+   DEM ecgt                           239 pos 3.9 pág=True /service/estrategia-y-gestion-de-sostenibilidad/eu-green-consumer-directive-ecgt-compliance/
+   DEM cbam services                  238 pos 28.6 pág=True /en/cbam/
+
+seo ok

@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es"><head><meta charset="utf-8">
+<title>Search Console · histórico, fecha y dispositivo · documento interno</title>
+<link rel="stylesheet" href="style.css">
+<style>
+ ul.act li{ text-indent:-26mm; padding-left:26mm; }
+ ul.act .tag{ width:23mm; }
+ table.tight td{ padding:1.3mm 2.5mm; }
+ .panel{ padding:3.2mm 4mm; }
+ .cover-top h1{ font-size:30pt; max-width:160mm; }
+ .cover{ height:auto; min-height:250mm; }
+ td{ font-size:8pt; }
+</style>
+</head><body>
+
+<section class="cover">
+ <div class="cover-top">
+  <p class="kick">Documento interno · Peterson Control Union World Group</p>
+  <h1>Search Console: lo que de verdad guarda, y lo que cambia cuando se mira con fecha y dispositivo</h1>
+  <div class="cover-meta">
+   <div class="c3"><p class="lbl">Complementa a</p><p class="val">Search Console × Google Ads<br>(sep 2026)</p></div>
+   <div class="c3"><p class="lbl">Archivo construido</p><p class="val">891.923 filas · 114 MB<br>10 propiedades, por marca</p></div>
+   <div class="c3"><p class="lbl">Cobertura real</p><p class="val">4 may 2025 – 14 sep 2026<br>8 propiedades desde marzo 2026</p></div>
+   <div class="c3"><p class="lbl">Dimensiones nuevas</p><p class="val">date · device<br>+ query+country sin fecha</p></div>
+  </div>
+ </div>
+ <div class="cover-body">
+  <p class="kick kick-n">El hallazgo</p>
+  <p class="lede">No hay dieciséis meses. Ocho de las diez propiedades tienen datos desde el 3 de marzo de 2026
+  (Peterson desde el 22): seis meses y medio. Solo Argentina y México llegan a mayo de 2025, con un hueco de
+  77 y 106 días en el medio. Todo lo que el
+  informe anterior llamó «anual» o «doce meses» eran seis meses, y las posiciones de la «zona 8–20» estaban
+  mal calculadas: cuatro de los cinco términos ya están en primera página en España.</p>
+  <div class="hair"></div>
+  <div class="g">
+   <div class="c3"><div class="stat"><p class="n">30%</p><p class="t">Móvil</p><p class="d">de las impresiones orgánicas del grupo llegan desde un teléfono. Nunca se había medido. En clics es el 26%.</p></div></div>
+   <div class="c3"><div class="stat"><p class="n">57%</p><p class="t">Sin respaldo</p><p class="d">del gasto relevante con clic va a temas sobre los que el sitio no dice nada: ARS 422.509. En la base era 41%.</p></div></div>
+   <div class="c3"><div class="stat"><p class="n">2,6%</p><p class="t">Canibalización</p><p class="d">del gasto se superpone con posición 1–3: ARS 19.067. En la base era ARS 3.594. Sube por un solo término: recyclass en Portugal.</p></div></div>
+   <div class="c3"><div class="stat"><p class="n">2.240</p><p class="t">Queries sin comprar</p><p class="d">con 40+ impresiones en el histórico y sin keyword ni término por tema. 781.006 impresiones.</p></div></div>
+  </div>
+  <div class="hair"></div>
+  <div class="g">
+   <div class="c6">
+    <p class="kick">Qué se hizo</p>
+    <p>Se descargó todo lo que la API devuelve para las diez propiedades, en cinco cortes más tres complementarios,
+    con fecha y dispositivo, y se archivó por marca en <code>datos/gsc-historico/</code>. Google borra estos datos a los
+    16 meses: el archivo local es lo único que va a quedar. La extracción anterior de 12 meses coincide fila por fila
+    con el tramo que se solapa (105.914 filas idénticas, cero diferencias).</p>
+   </div>
+   <div class="c6">
+    <p class="kick">Dos correcciones al informe anterior</p>
+    <p><strong>Períodos.</strong> Las cifras «anuales» de FSC, OEKO-TEX, BRCGS, GMP+ y Canadá cubren del 3 de marzo al
+    12 de septiembre de 2026. Ninguna conclusión se da vuelta, pero el rótulo estaba mal.</p>
+    <p><strong>Posiciones.</strong> La «zona 8–20» se calculó con la media simple entre filas-país. Ponderando por
+    impresiones y mirando el país que compra, recyclass está en 6,0, smeta en
+    7,8 e iscc en 7,2 en España. El indicador de 30 días
+    del informe anterior partía de una base equivocada.</p>
+   </div>
+  </div>
+ </div>
+ <div class="cover-foot">
+  <p class="small">Pieza de circulación interna. No lleva identidad de marca: cubre propiedades de Control Union y de
+  Peterson Solutions, y el manual del grupo no admite piezas que combinen ambas marcas. Paleta limitada a los colores
+  comunes a los dos manuales. Generado el 16 sep 2026.</p>
+ </div>
+</section>
+
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick">Sección 01</p><h2>Qué guarda Google de verdad</h2></div>
+ <div class="g">
+  <div class="c7">
+   <p>La API se sondeó desde el 1 de abril de 2025, antes del límite nominal de 16 meses, para las diez propiedades.
+   Ocho devolvieron su primer día de datos el <strong>3 de marzo de 2026</strong> (Control Union) o el
+   <strong>22 de marzo</strong> (Peterson). Argentina y México arrancan el <strong>4 de mayo de 2025</strong>, el mismo
+   día las dos, que es exactamente el borde de retención: no es la fecha de alta de las propiedades, es hasta donde Google
+   deja mirar. Cada día que pasa se pierde un día de mayo de 2025 en esas dos.</p>
+   <p>Las dos tienen además un hueco sin datos que termina el 2 de marzo de 2026, el día anterior a que arranquen las otras
+   seis de Control Union: Argentina 77 días desde el 16 dic 2025,
+   México 106 días desde el 17 nov 2025. La coincidencia sugiere un
+   evento único sobre las propiedades (migración, baja y re-alta, cambio de verificación). Desde los datos no se sabe cuál.</p>
+   <p><strong>Consecuencia directa:</strong> la extracción de «12 meses» del informe anterior pidió desde el 15 de septiembre de 2025,
+   pero para ocho propiedades Google solo tenía datos desde marzo. Sus cifras «anuales» son de seis meses y diez días. La sección 04
+   las re-verifica una por una.</p>
+  </div>
+  <div class="c5">
+   <p class="kick">Archivo construido, por marca</p>
+   <table class="tight"><thead><tr><th class="">Corte</th><th class="num">Filas</th><th class="num">MB</th></tr></thead><tbody><tr><td class="">daily · fecha</td><td class="num">2.345</td><td class="num">0,2</td></tr><tr><td class="">device_date · fecha + dispositivo</td><td class="num">6.640</td><td class="num">0,7</td></tr><tr><td class="">device_total · dispositivo</td><td class="num">30</td><td class="num">0,0</td></tr><tr><td class="">devices · query + dispositivo</td><td class="num">44.488</td><td class="num">4,7</td></tr><tr><td class="">pages · página + fecha</td><td class="num">229.034</td><td class="num">38,8</td></tr><tr><td class="">queries · query + país + fecha</td><td class="num">477.469</td><td class="num">53,0</td></tr><tr><td class="">queries_agg · query + país</td><td class="num">86.664</td><td class="num">8,9</td></tr><tr><td class="">query_page · query + página</td><td class="num">45.253</td><td class="num">8,0</td></tr><tr class="total"><td class="">Total, 10 propiedades</td><td class="num">891.923</td><td class="num">114,4</td></tr></tbody></table>
+   <p class="small" style="margin-top:2mm">Cinco cortes de CLAUDE.md §5 más tres complementarios. type=web, dataState=final,
+   25.000 filas por página. 1.103 llamadas, cero errores, log por llamada en cada carpeta de marca.</p>
+  </div>
+ </div>
+ <div class="hair"></div>
+ <p class="kick">Cobertura real por propiedad · todo el histórico disponible</p>
+ <table class="tight"><thead><tr><th class="">Propiedad</th><th class="">Primer día</th><th class="">Último día final</th><th class="num">Días</th><th class="num">Hueco</th><th class="num">Impr.</th><th class="num">Clics</th><th class="num">Queries</th><th class="">Camp.</th></tr></thead><tbody><tr><td class="">Perú</td><td class="">3 mar 2026</td><td class="">14 sep 2026</td><td class="num">196</td><td class="num">—</td><td class="num">792.461</td><td class="num">10.773</td><td class="num">22.900</td><td class="">—</td></tr><tr><td class="">España</td><td class="">3 mar 2026</td><td class="">14 sep 2026</td><td class="num">196</td><td class="num">—</td><td class="num">408.582</td><td class="num">3.515</td><td class="num">18.311</td><td class="">sí</td></tr><tr><td class="">Argentina</td><td class="">4 may 2025</td><td class="">14 sep 2026</td><td class="num">422</td><td class="num">77 d</td><td class="num">294.810</td><td class="num">7.968</td><td class="num">13.798</td><td class="">sí</td></tr><tr><td class="">México</td><td class="">4 may 2025</td><td class="">14 sep 2026</td><td class="num">393</td><td class="num">106 d</td><td class="num">244.056</td><td class="num">3.100</td><td class="num">9.893</td><td class="">—</td></tr><tr><td class="">Brasil</td><td class="">3 mar 2026</td><td class="">14 sep 2026</td><td class="num">196</td><td class="num">—</td><td class="num">141.775</td><td class="num">3.710</td><td class="num">5.589</td><td class="">—</td></tr><tr><td class="">Portugal</td><td class="">3 mar 2026</td><td class="">14 sep 2026</td><td class="num">196</td><td class="num">—</td><td class="num">114.794</td><td class="num">1.651</td><td class="num">6.389</td><td class="">sí</td></tr><tr><td class="">Chile</td><td class="">3 mar 2026</td><td class="">14 sep 2026</td><td class="num">196</td><td class="num">—</td><td class="num">77.192</td><td class="num">1.195</td><td class="num">2.676</td><td class="">—</td></tr><tr><td class="">Norteamérica</td><td class="">3 mar 2026</td><td class="">14 sep 2026</td><td class="num">196</td><td class="num">—</td><td class="num">75.107</td><td class="num">713</td><td class="num">3.254</td><td class="">sí</td></tr><tr><td class="">PS Américas</td><td class="">22 mar 2026</td><td class="">14 sep 2026</td><td class="num">177</td><td class="num">—</td><td class="num">58.359</td><td class="num">805</td><td class="num">2.562</td><td class="">sí</td></tr><tr><td class="">PS Iberia</td><td class="">22 mar 2026</td><td class="">14 sep 2026</td><td class="num">177</td><td class="num">—</td><td class="num">25.834</td><td class="num">706</td><td class="num">1.292</td><td class="">—</td></tr></tbody></table>
+ <p class="small" style="margin-top:2mm">Impresiones y clics agregados por propiedad (una impresión por búsqueda); agregar por página da
+ entre 5% y 37% más. Queries distintas visibles tras el umbral de anonimización.</p>
+ <div class="hair"></div>
+ <div class="g">
+  <div class="c4 panel">
+   <p class="kick kick-n">Continuidad verificada</p>
+   <p>El histórico nuevo, sumado sobre las ventanas del informe anterior, reproduce la extracción de 12 meses fila por fila:
+   105.914 filas comparadas, cero diferencias. Sumar la dimensión fecha no pierde queries.</p>
+  </div>
+  <div class="c4 panel">
+   <p class="kick kick-n">Lo que ya no se puede medir</p>
+   <p>Con seis meses no hay estacionalidad. Solo Argentina y México permiten comparar junio–agosto de 2025 contra 2026,
+   con el hueco en el medio. La evolución mensual tiene siete puntos para las otras ocho.</p>
+  </div>
+  <div class="c4 panel">
+   <p class="kick kick-n">Lo que sí se puede ahora</p>
+   <p>Tendencia mes a mes de cada query, posición por país de compra, reparto móvil/escritorio, y qué búsquedas
+   aparecieron o desaparecieron entre el primer tramo y el último. Sección 03.</p>
+  </div>
+ </div>
+</section>
+
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick">Sección 02</p><h2>Los seis cruces, rehechos</h2></div>
+ <p>Mismas definiciones que el informe anterior, con tres cambios de método que se declaran: cada campaña se compara contra las
+ queries del <strong>país donde compra</strong> (España contra ESP, Canadá contra CAN, Estados Unidos contra USA), la posición
+ se pondera por impresiones, y el desperdicio se descuenta con el Anexo A tal como quedó corregido (FSC ya no es negativo).
+ Universo: 252 términos de búsqueda con clic y fuera del Anexo A, ARS 744.025 de gasto.</p>
+ <div class="g">
+  <div class="c3"><div class="stat"><p class="n">57%</p><p class="t">Sin nada del tema</p><p class="d">ARS 422.509 · 179 términos. El sitio no tiene contenido sobre eso en el país que compra.</p></div></div>
+  <div class="c3"><div class="stat"><p class="n">28%</p><p class="t">Query ya presente</p><p class="d">ARS 206.103 · 44 términos. El sitio ya aparece en esa búsqueda exacta.</p></div></div>
+  <div class="c3"><div class="stat"><p class="n">12%</p><p class="t">Tema débil</p><p class="d">ARS 87.091 · 22 términos. Hay algo, poco: menos de 200 impresiones del tema.</p></div></div>
+  <div class="c3"><div class="stat"><p class="n">4%</p><p class="t">Tema fuerte, query no</p><p class="d">ARS 28.322 · 7 términos. Manda en el tema pero no en esa formulación.</p></div></div>
+ </div>
+ <div class="hair"></div>
+ <div class="g">
+  <div class="c6">
+   <h3>1 · Canibalización: sigue sin ser un problema</h3>
+   <p>ARS 19.067 del gasto con clic cae en posición 1–3 orgánica (2,6%), 6 términos.
+   Ampliando a 1–7 son ARS 87.559 en 19 términos. La cifra base era ARS 3.594. Sube por un
+   solo término que la base no veía: <strong>recyclass</strong> en CU Portugal,
+   posición orgánica 3,2 en el país que compra y ARS 10.911 pagados. El resto es marca propia,
+   como en la base.</p>
+   <table class="tight"><thead><tr><th class="">Término</th><th class="">Campaña</th><th class="num">Coste ARS</th><th class="num">Pos. org.</th></tr></thead><tbody><tr><td class="">recyclass</td><td class="">CU Portugal - Plasticos</td><td class="num">10.911</td><td class="num">3,2</td></tr><tr><td class="">certified organic by control union</td><td class="">CU United States - Organic - USDA NOP</td><td class="num">3.586</td><td class="num">1,0</td></tr><tr><td class="">control union certifications</td><td class="">CU España - Textile</td><td class="num">1.848</td><td class="num">3,0</td></tr><tr><td class="">grs global recycled standard</td><td class="">CU España - Textile</td><td class="num">1.605</td><td class="num">3,2</td></tr><tr><td class="">grs</td><td class="">CU Portugal - Textile</td><td class="num">1.108</td><td class="num">2,5</td></tr></tbody></table>
+  </div>
+  <div class="c6">
+   <h3>3 · Huecos de contenido: 57%, y concentrados</h3>
+   <p>El informe anterior medía 41% de gasto sin respaldo. Acá sube a 57% por dos razones que se declaran: se mide contra el
+   país que compra (búsquedas que parecían cubiertas lo estaban por impresiones desde otros países) y el desperdicio descontado es una
+   reconstrucción del Anexo A (ARS 190.042), no los ARS 243.023 de la auditoría. Canadá sigue concentrando el problema.</p>
+   <table class="tight"><thead><tr><th class="">Campaña</th><th class="">Mercado</th><th class="num">Coste ARS</th><th class="num">Términos</th></tr></thead><tbody><tr><td class="">Forestry</td><td class="">CAN</td><td class="num">98.950</td><td class="num">17</td></tr><tr><td class="">Canada Gap</td><td class="">CAN</td><td class="num">53.625</td><td class="num">10</td></tr><tr><td class="">Agricultura regenerativa</td><td class="">Américas</td><td class="num">46.630</td><td class="num">50</td></tr><tr><td class="">Huella de carbono / GEI</td><td class="">Américas</td><td class="num">41.810</td><td class="num">31</td></tr><tr><td class="">ESG / Reportes</td><td class="">Américas</td><td class="num">36.183</td><td class="num">21</td></tr><tr><td class="">Aqua / Fisheries</td><td class="">CAN</td><td class="num">34.279</td><td class="num">7</td></tr><tr><td class="">ISO 27001</td><td class="">España</td><td class="num">18.842</td><td class="num">3</td></tr><tr><td class="">Smeta</td><td class="">CAN</td><td class="num">12.944</td><td class="num">2</td></tr></tbody></table>
+  </div>
+ </div>
+</section>
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick">Sección 02 · continuación</p><h2>La zona 8–20, recalculada</h2></div>
+ <p>ARS 71.763 en 14 términos donde el sitio es relevante pero invisible, contra ARS 106.531 en la base. Baja porque
+ el informe anterior calculó la posición como <strong>media simple entre las filas-país</strong> de cada query: una fila de India con 3 impresiones en
+ posición 60 pesaba igual que la de España con 600. Ponderando por impresiones y mirando solo el país que compra, cuatro de los cinco términos que dio como
+ «prioridades de SEO en posición 12–16» ya estaban en primera página.</p>
+ <div class="g">
+  <div class="c6">
+   <p class="kick">Los cinco del informe anterior · España</p>
+   <table class="tight"><thead><tr><th class="">Término</th><th class="num">Informe ant.</th><th class="num">Solo ESP</th><th class="num">Impr. ESP</th><th class="num">abr 26</th><th class="num">ago 26</th></tr></thead><tbody><tr><td class="">global recycled standard</td><td class="num">16,2</td><td class="num">7,3</td><td class="num">384</td><td class="num">8,3</td><td class="num">6,5</td></tr><tr><td class="">recyclass</td><td class="num">15,2</td><td class="num">6,0</td><td class="num">1.101</td><td class="num">5,6</td><td class="num">5,9</td></tr><tr><td class="">smeta</td><td class="num">12,6</td><td class="num">7,8</td><td class="num">1.745</td><td class="num">9,0</td><td class="num">7,7</td></tr><tr><td class="">iscc</td><td class="num">13,2</td><td class="num">7,2</td><td class="num">1.876</td><td class="num">6,9</td><td class="num">11,6</td></tr><tr><td class="">pefc</td><td class="num">12,2</td><td class="num">19,9</td><td class="num">259</td><td class="num">30,5</td><td class="num">25,4</td></tr></tbody></table>
+   <p class="small" style="margin-top:1.5mm">Ventana «12 meses» del informe anterior (en la práctica marzo–septiembre 2026). «Informe ant.»: media simple
+   entre países, reproducida. «Solo ESP»: posición e impresiones para búsquedas desde España. Últimas dos columnas: evolución mensual, país ESP.</p>
+  </div>
+  <div class="c6">
+   <p class="kick">La zona 8–20 real, por país de compra</p>
+   <table class="tight"><thead><tr><th class="">Término</th><th class="">Mercado</th><th class="num">Coste ARS</th><th class="num">Impr. org.</th><th class="num">Pos.</th></tr></thead><tbody><tr><td class="">smeta</td><td class="">España</td><td class="num">14.283</td><td class="num">305</td><td class="num">7,5</td></tr><tr><td class="">iscc</td><td class="">España</td><td class="num">11.733</td><td class="num">14</td><td class="num">12,1</td></tr><tr><td class="">pefc portugal</td><td class="">Portugal</td><td class="num">7.871</td><td class="num">5</td><td class="num">8,0</td></tr><tr><td class="">pefc</td><td class="">Portugal</td><td class="num">7.656</td><td class="num">105</td><td class="num">7,9</td></tr><tr><td class="">iscc</td><td class="">Portugal</td><td class="num">7.495</td><td class="num">35</td><td class="num">12,2</td></tr><tr><td class="">iscc certificates</td><td class="">Portugal</td><td class="num">6.613</td><td class="num">22</td><td class="num">9,6</td></tr><tr><td class="">cae</td><td class="">España</td><td class="num">3.481</td><td class="num">18</td><td class="num">16,4</td></tr><tr><td class="">auditoria smeta</td><td class="">España</td><td class="num">3.085</td><td class="num">10</td><td class="num">9,0</td></tr></tbody></table>
+   <p class="small" style="margin-top:1.5mm">Ventana de Ads (1 ago – 11 sep 2026). Posición orgánica de la query exacta en el país de la campaña.
+   pefc en España queda fuera de la ventana de Ads con posición 26,0; en 12 meses está en 19,9.</p>
+  </div>
+ </div>
+ <p><strong>El indicador de 30 días del informe anterior no servía:</strong> pedía que los cinco bajaran de posición cuando cuatro ya estaban donde había
+ que llegar. Se reemplaza en la sección 06.</p>
+</section>
+
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick">Sección 02 · continuación</p><h2>Demanda sin comprar, landings y negativos</h2></div>
+ <h3>4 · Demanda no comprada: 2.240 queries, 781.006 impresiones</h3>
+ <p>Queries con 40 o más impresiones en todo el histórico que no existen en la cuenta de Ads ni como keyword ni como término,
+ por coincidencia de tema. Se excluyen las búsquedas de marca propia y navegacionales. Las propiedades sin campaña se listan
+ igual: es demanda probada en mercados donde no se invierte.</p>
+ <div class="flow"><div class="card"><h4>Perú · 673 queries sin comprar</h4>
+    <p class="met">246.502 impresiones · 98% de las 690 queries con 40+ ·
+    sin campaña</p><p><strong>koa certification</strong> 26.177 en pos. 6,8 · <strong>haccp</strong> 15.416 en pos. 8,1 · <strong>rainforest alliance</strong> 10.896 en pos. 3,4 · <strong>asc</strong> 8.588 en pos. 6,9 · <strong>rain forest</strong> 6.624 en pos. 1,0 · <strong>ras</strong> 6.374 en pos. 5,9</p></div><div class="card key"><h4>España · 394 queries sin comprar</h4>
+    <p class="met">159.394 impresiones · 62% de las 635 queries con 40+ ·
+    con campaña</p><p><strong>iso 45001</strong> 62.834 en pos. 10,7 · <strong>welfair</strong> 5.196 en pos. 6,5 · <strong>grasp</strong> 4.553 en pos. 8,3 · <strong>red española de servicios</strong> 3.426 en pos. 6,6 · <strong>iso 45000</strong> 2.865 en pos. 13,8 · <strong>sbp</strong> 2.152 en pos. 7,8</p></div><div class="card"><h4>México · 311 queries sin comprar</h4>
+    <p class="met">117.418 impresiones · 95% de las 328 queries con 40+ ·
+    sin campaña</p><p><strong>grs</strong> 22.617 en pos. 7,5 · <strong>fsa</strong> 6.624 en pos. 6,4 · <strong>fsc</strong> 5.433 en pos. 8,6 · <strong>smeta</strong> 5.202 en pos. 9,7 · <strong>ocs</strong> 4.341 en pos. 4,1 · <strong>fair trade</strong> 3.374 en pos. 9,0</p></div><div class="card key"><h4>Argentina · 313 queries sin comprar</h4>
+    <p class="met">101.887 impresiones · 98% de las 320 queries con 40+ ·
+    con campaña</p><p><strong>smeta</strong> 8.890 en pos. 10,3 · <strong>visec</strong> 8.803 en pos. 5,5 · <strong>fsa</strong> 5.082 en pos. 4,3 · <strong>visec carne</strong> 4.458 en pos. 8,4 · <strong>deposito fiscal</strong> 3.430 en pos. 8,6 · <strong>fsma</strong> 3.407 en pos. 9,9</p></div><div class="card"><h4>Brasil · 205 queries sin comprar</h4>
+    <p class="met">57.111 impresiones · 97% de las 212 queries con 40+ ·
+    sin campaña</p><p><strong>obp</strong> 4.647 en pos. 6,8 · <strong>grs</strong> 4.104 en pos. 5,0 · <strong>gmp</strong> 3.722 en pos. 10,7 · <strong>smeta</strong> 2.306 en pos. 8,3 · <strong>gmp+</strong> 1.924 en pos. 8,6 · <strong>rspo</strong> 1.870 en pos. 6,4</p></div><div class="card key"><h4>Portugal · 137 queries sin comprar</h4>
+    <p class="met">33.012 impresiones · 62% de las 220 queries con 40+ ·
+    con campaña</p><p><strong>aquacultura</strong> 4.451 en pos. 6,1 · <strong>green key</strong> 1.424 en pos. 7,1 · <strong>iso 9001</strong> 1.303 en pos. 12,9 · <strong>carbon neutral</strong> 1.172 en pos. 4,3 · <strong>vcs</strong> 1.092 en pos. 9,2 · <strong>sbp</strong> 1.066 en pos. 4,7</p></div></div>
+ <div class="hair"></div>
+ <div class="g">
+  <div class="c6">
+   <h3>5 · Landing desalineada: no medible en 64 de 78 keywords</h3>
+   <p>El export de keywords solo trae URL final para las dos campañas de ISO 27001 (España y Argentina); el resto usa la URL
+   del anuncio, que no está en el archivo. De las 78 keywords con URL, 14 tienen
+   una query orgánica comparable y en las 14 la página que rankea es la misma que la URL final. Donde se
+   puede medir, no hay desalineación. El dato incómodo es otro: la página de ISO 27001 de España rankea en posición
+   43,3 para sus propias queries; la de Argentina en 15,9.</p>
+  </div>
+  <div class="c6">
+   <h3>6 · Validación de negativos: 24 con presencia orgánica</h3>
+   <p>De los 145 negativos del Anexo A, 24 tienen alguna query orgánica en la propiedad
+   que corresponde. Con más de 100 impresiones hay 7. El único que merece revisión de alcance es
+   <strong>rainforest alliance</strong> en España: 3.739 impresiones
+   en posición 9,3, con el negativo puesto en Forestal. El resto son
+   coincidencias de token (consultor fsc en posición 45, higg fslm full form) que no cambian la decisión.</p>
+  </div>
+ </div>
+ <table class="tight"><thead><tr><th class="">Ámbito</th><th class="">Propiedad</th><th class="">Negativo</th><th class="num">Impr.</th><th class="num">Clics</th><th class="num">Pos.</th><th class="">Ejemplo</th></tr></thead><tbody><tr><td class="">España · Forestal</td><td class="">España</td><td class="">rainforest alliance</td><td class="num">3.739</td><td class="num">6</td><td class="num">9,3</td><td class="">rainforest alliance</td></tr><tr><td class="">Norteamérica · Canada Gap</td><td class="">Norteamérica</td><td class="">forms</td><td class="num">355</td><td class="num">2</td><td class="num">7,5</td><td class="">higg fslm full form</td></tr><tr><td class="">España · CAEs</td><td class="">España</td><td class="">repsol</td><td class="num">229</td><td class="num">0</td><td class="num">3,0</td><td class="">análisis detallado sobre cómo el despliegue de combustibles </td></tr><tr><td class="">CU · *</td><td class="">España</td><td class="">consultor</td><td class="num">164</td><td class="num">0</td><td class="num">44,8</td><td class="">consultor fsc</td></tr><tr><td class="">CU · *</td><td class="">México</td><td class="">consultoria</td><td class="num">155</td><td class="num">1</td><td class="num">5,5</td><td class="">consultoria smeta</td></tr><tr><td class="">CU · *</td><td class="">España</td><td class="">consultoria</td><td class="num">148</td><td class="num">0</td><td class="num">56,7</td><td class="">consultoria huella de carbono</td></tr><tr><td class="">Norteamérica · Canada Gap</td><td class="">Norteamérica</td><td class="">organic certification</td><td class="num">136</td><td class="num">1</td><td class="num">45,1</td><td class="">control union organic certification</td></tr></tbody></table>
+</section>
+
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick">Sección 03</p><h2>Lo que la ventana de 12 meses no dejaba ver</h2></div>
+ <div class="g">
+  <div class="c7">
+   <h3>Evolución mensual de la zona 8–20 real</h3>
+   <p>Posición ponderada por impresiones, mes a mes, para búsquedas desde el país de la campaña. Siete puntos: es una
+   tendencia corta, no una serie. Se lee como banda.</p>
+   <table class="tight"><thead><tr><th class="">Zona 8–20 real · término · país</th><th class="num">mar 26</th><th class="num">abr 26</th><th class="num">may 26</th><th class="num">jun 26</th><th class="num">jul 26</th><th class="num">ago 26</th><th class="num">sep 26</th></tr></thead><tbody><tr><td class="">smeta · esp</td><td class="num">10,5</td><td class="num">9,0</td><td class="num">7,1</td><td class="num">7,7</td><td class="num">5,9</td><td class="num">7,7</td><td class="num">7,4</td></tr><tr><td class="">iscc · esp</td><td class="num">6,8</td><td class="num">6,9</td><td class="num">7,6</td><td class="num">7,5</td><td class="num">7,4</td><td class="num">11,6</td><td class="num">13,7</td></tr><tr><td class="">pefc portugal · prt</td><td class="num">—</td><td class="num">8,4</td><td class="num">9,0</td><td class="num">13,0</td><td class="num">7,0</td><td class="num">8,0</td><td class="num">—</td></tr><tr><td class="">pefc · prt</td><td class="num">9,6</td><td class="num">9,4</td><td class="num">9,7</td><td class="num">9,0</td><td class="num">9,1</td><td class="num">9,1</td><td class="num">6,7</td></tr><tr><td class="">iscc certificates · prt</td><td class="num">5,1</td><td class="num">7,3</td><td class="num">4,9</td><td class="num">6,6</td><td class="num">8,2</td><td class="num">9,5</td><td class="num">—</td></tr></tbody></table>
+   <p class="small" style="margin-top:1.5mm">Los meses de borde (marzo y septiembre) están incompletos. Un mes sin dato es un mes sin
+   impresiones desde ese país para esa query exacta.</p>
+   <p><strong>iscc en España es la señal a mirar:</strong> pasó de posición 6,9 con 605 impresiones en abril a posición 11,6 con 11 en agosto, desde España. No bajó de posición: casi dejó de aparecer. Con la campaña de Bioenergía comprando iscc, conviene revisar la página antes del próximo corte.</p>
+  </div>
+  <div class="c5">
+   <h3>Interanual, donde hay dos años</h3>
+   <p>Argentina y México son las únicas con el mismo trimestre en 2025 y 2026. Se comparan junio, julio y agosto, los tres meses
+   completos que existen en los dos años.</p>
+   <table class="tight"><thead><tr><th class="">Jun–ago, impresiones</th><th class="num">2025</th><th class="num">2026</th><th class="num">Var.</th></tr></thead><tbody><tr><td class=""><strong>Argentina · total</strong></td><td class="num">51.869</td><td class="num">75.279</td><td class="num">45%</td></tr><tr><td class="">&nbsp;&nbsp;SMETA / Sedex</td><td class="num">521</td><td class="num">10.146</td><td class="num">1.847%</td></tr><tr><td class="">&nbsp;&nbsp;VISEC</td><td class="num">145</td><td class="num">5.649</td><td class="num">3.796%</td></tr><tr><td class="">&nbsp;&nbsp;FSA</td><td class="num">889</td><td class="num">2.752</td><td class="num">210%</td></tr><tr><td class="">&nbsp;&nbsp;FSMA</td><td class="num">1.328</td><td class="num">2.146</td><td class="num">62%</td></tr><tr><td class="">&nbsp;&nbsp;MSC / ASC / BAP</td><td class="num">29</td><td class="num">1.525</td><td class="num">5.159%</td></tr><tr><td class=""><strong>México · total</strong></td><td class="num">53.429</td><td class="num">58.402</td><td class="num">9%</td></tr><tr><td class="">&nbsp;&nbsp;GRS</td><td class="num">9.174</td><td class="num">5.652</td><td class="num">-38%</td></tr><tr><td class="">&nbsp;&nbsp;SMETA / Sedex</td><td class="num">1.421</td><td class="num">4.313</td><td class="num">204%</td></tr><tr><td class="">&nbsp;&nbsp;FSA</td><td class="num">1.895</td><td class="num">3.085</td><td class="num">63%</td></tr><tr><td class="">&nbsp;&nbsp;PrimusGFS</td><td class="num">835</td><td class="num">2.903</td><td class="num">248%</td></tr><tr><td class="">&nbsp;&nbsp;USDA NOP / orgánico</td><td class="num">1.549</td><td class="num">1.535</td><td class="num">-1%</td></tr></tbody></table>
+   <p class="small" style="margin-top:1.5mm">Impresiones por propiedad (total) y por norma (corte de queries, anonimizado). Argentina pasó de 1.323 a 1.837 clics en el mismo trimestre; México de 603 a 729. SMETA / Sedex en Argentina multiplicó por 19 sus impresiones; VISEC en Argentina multiplicó por 39 sus impresiones; MSC / ASC / BAP en Argentina multiplicó por 53 sus impresiones.</p>
+  </div>
+ </div>
+ <div class="hair"></div>
+ <h3>Queries que aparecieron y desaparecieron</h3>
+ <p>Propiedades con seis meses: primer tramo (hasta el 31 de mayo) contra el último (desde el 16 de junio). Argentina y México:
+ junio–agosto de un año contra el otro. «Apareció» = 30+ impresiones en el tramo final y ninguna en el inicial; «desapareció», al revés.</p>
+ <table class="tight"><thead><tr><th class="">Propiedad · tramos</th><th class="">Aparecieron · las tres mayores</th><th class="">Desaparecieron · las tres mayores</th></tr></thead><tbody><tr><td class=""><strong>España</strong><br><span class='small'>2026-03-03 a 2026-05-31 → 2026-06-16 a 2026-09-13</span></td><td class=""><strong>69</strong><br>higg (411) · cumcs-g.a.p (193) · control de calidad de piensos (175)</td><td class=""><strong>24</strong><br>normas iso para hoteles mallorca (306) · tierwohl (222) · certificación turística sostenible ma... (213)</td></tr><tr><td class=""><strong>Perú</strong><br><span class='small'>2026-03-03 a 2026-05-31 → 2026-06-16 a 2026-09-13</span></td><td class=""><strong>22</strong><br>vcs (622) · ccb (476) · sakana (289)</td><td class=""><strong>45</strong><br>luis nutron alimentos email corporativo (392) · global sustainable tourism council cr... (390) · eti full form (194)</td></tr><tr><td class=""><strong>Argentina</strong><br><span class='small'>jun-ago 2025 → jun-ago 2026</span></td><td class=""><strong>44</strong><br>asc (1.069) · sedex (354) · ocs (342)</td><td class=""><strong>65</strong><br>argentina eco-tourism policies (243) · que es un deposito fiscal (231) · sustainable tourism in argentina (224)</td></tr><tr><td class=""><strong>México</strong><br><span class='small'>jun-ago 2025 → jun-ago 2026</span></td><td class=""><strong>32</strong><br>certificación (358) · organico (283) · jas (158)</td><td class=""><strong>42</strong><br>what is grs in mexico (229) · loading supervision (217) · krav (128)</td></tr></tbody></table>
+</section>
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick">Sección 03 · continuación</p><h2>Móvil contra escritorio, medido por primera vez</h2></div>
+ <div class="g">
+  <div class="c4"><div class="stat"><p class="n">30%</p><p class="t">Impresiones desde móvil</p><p class="d">680.198 de 2.232.970 en todo el histórico, las diez propiedades.</p></div></div>
+  <div class="c4"><div class="stat"><p class="n">26%</p><p class="t">Clics desde móvil</p><p class="d">8.913 clics. El móvil aporta menos clics que impresiones: el CTR móvil es más bajo en todas las propiedades.</p></div></div>
+  <div class="c4"><div class="stat"><p class="n">41%</p><p class="t">México</p><p class="d">es la propiedad más móvil. La menos móvil es Américas con 21%.</p></div></div>
+ </div>
+ <div class="hair"></div>
+ <div class="g">
+  <div class="c7">
+   <table class="tight"><thead><tr><th class="">Propiedad</th><th class="num">Móvil · impr.</th><th class="num">Móvil · clics</th><th class="num">CTR móvil</th><th class="num">CTR escrit.</th></tr></thead><tbody><tr><td class="">Perú</td><td class="num">25,9%</td><td class="num">21,4%</td><td class="num">1,12%</td><td class="num">1,44%</td></tr><tr><td class="">España</td><td class="num">31,4%</td><td class="num">20,4%</td><td class="num">0,56%</td><td class="num">1,00%</td></tr><tr><td class="">Argentina</td><td class="num">32,9%</td><td class="num">32,4%</td><td class="num">2,66%</td><td class="num">2,73%</td></tr><tr><td class="">México</td><td class="num">41,1%</td><td class="num">30,8%</td><td class="num">0,95%</td><td class="num">1,50%</td></tr><tr><td class="">Brasil</td><td class="num">34,8%</td><td class="num">31,6%</td><td class="num">2,37%</td><td class="num">2,76%</td></tr><tr><td class="">Portugal</td><td class="num">26,4%</td><td class="num">18,5%</td><td class="num">1,00%</td><td class="num">1,60%</td></tr><tr><td class="">Chile</td><td class="num">31,3%</td><td class="num">28,0%</td><td class="num">1,39%</td><td class="num">1,62%</td></tr><tr><td class="">Norteamérica</td><td class="num">35,4%</td><td class="num">27,8%</td><td class="num">0,74%</td><td class="num">1,07%</td></tr><tr><td class="">PS Américas</td><td class="num">20,7%</td><td class="num">24,6%</td><td class="num">1,64%</td><td class="num">1,31%</td></tr><tr><td class="">PS Iberia</td><td class="num">25,0%</td><td class="num">20,8%</td><td class="num">2,28%</td><td class="num">2,90%</td></tr></tbody></table>
+   <p class="small" style="margin-top:1.5mm">Reparto sobre impresiones agregadas por propiedad, todo el histórico disponible. Tablet queda fuera
+   de la tabla (menos del 2% en todas).</p>
+  </div>
+  <div class="c5">
+   <p class="kick">Móvil por norma · Control Union</p>
+   <table class="tight"><thead><tr><th class="">Norma · Control Union</th><th class="num">Impr.</th><th class="num">Móvil</th></tr></thead><tbody><tr><td class="">ISO 45001</td><td class="num">71.685</td><td class="num">37,9%</td></tr><tr><td class="">GRS</td><td class="num">65.505</td><td class="num">74,0%</td></tr><tr><td class="">SMETA / Sedex</td><td class="num">58.515</td><td class="num">26,6%</td></tr><tr><td class="">MSC / ASC / BAP</td><td class="num">57.220</td><td class="num">42,8%</td></tr><tr><td class="">GLOBALG.A.P.</td><td class="num">29.276</td><td class="num">35,9%</td></tr><tr><td class="">Rainforest Alliance</td><td class="num">25.881</td><td class="num">24,6%</td></tr><tr><td class="">USDA NOP / orgánico</td><td class="num">24.341</td><td class="num">20,4%</td></tr><tr><td class="">FSA</td><td class="num">22.375</td><td class="num">31,4%</td></tr><tr><td class="">TEMO</td><td class="num">20.637</td><td class="num">75,3%</td></tr><tr><td class="">ISCC</td><td class="num">17.826</td><td class="num">20,4%</td></tr><tr><td class="">GMP+</td><td class="num">17.720</td><td class="num">21,6%</td></tr><tr><td class="">VISEC</td><td class="num">15.409</td><td class="num">33,9%</td></tr></tbody></table>
+   <p class="small" style="margin-top:1.5mm">Sobre el corte query+device, que Google anonimiza igual que queries: los totales son menores
+   que los de la tabla de la izquierda, el reparto es comparable.</p>
+  </div>
+ </div>
+ <div class="hair"></div>
+ <div class="g">
+  <div class="c6 panel-line">
+   <p class="kick kick-n">Qué cambia con este dato</p>
+   <p>La búsqueda de normas es mayoritariamente de escritorio en los mercados con campaña (España, Portugal, Norteamérica):
+   es una búsqueda de trabajo. En Perú, Brasil y México el reparto se invierte hacia el teléfono. Las campañas de Search de
+   Control Union no tienen ajuste de puja por dispositivo documentado; con este reparto, un ajuste negativo en móvil para las
+   campañas de norma en España y Portugal es defendible con datos propios.</p>
+  </div>
+  <div class="c6 panel-line">
+   <p class="kick kick-n">Lo que no dice</p>
+   <p>Search Console no informa conversiones ni dispositivo del clic pago. El reparto orgánico es un proxy de cómo busca el
+   mercado, no de cómo convierte. Con 4 conversiones en seis semanas en Ads, no hay forma de cerrar ese círculo todavía.</p>
+  </div>
+ </div>
+</section>
+
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick">Sección 04</p><h2>Las decisiones cerradas, re-verificadas</h2></div>
+ <p>CLAUDE.md §7 pide no volver a litigar lo resuelto salvo que los datos nuevos lo contradigan, y decirlo explícitamente si lo hacen.
+ Se recorrió cada afirmación contra el histórico completo, sin fecha (corte query+país) y con fecha (corte mensual).</p>
+ <table class=""><thead><tr><th class="">Decisión de CLAUDE.md §7</th><th class="">Qué decía</th><th class="">Qué dice el histórico completo</th><th class="">Resultado</th></tr></thead><tbody><tr><td class="">FSC en España y Portugal</td><td class="">4.149 impr. «anuales»; abrir grupo</td><td class="">3.580 impr. en 184 queries, 3 mar – 13 sep 2026, posiciones 31,1 y 28,2. Página de programa propia en las dos.</td><td class="">Se sostiene · período corregido</td></tr><tr><td class="">OEKO-TEX en Textile España</td><td class="">Cero en 20.561 queries «de doce meses»</td><td class="">0 apariciones en 32.079 queries de las ocho propiedades de Control Union, todo el histórico.</td><td class="">Se sostiene · período corregido</td></tr><tr><td class="">ISO 22000 y FSSC 22000 · España</td><td class="">2.235 y 708 impr.; grupo propio. BRCGS 33 impr.; negativo</td><td class="">ISO 22000 2.265 impr. pos. 40,7 · FSSC 650 pos. 32,2 · BRCGS 37. Cero clics orgánicos en las tres.</td><td class="">Se sostiene · período corregido</td></tr><tr><td class="">GMP+ España y Portugal</td><td class="">2.848 impr. en posición 11; el problema era el vocabulario</td><td class="">España 5.031 impr. pos. 13,7, creciendo de 424 en marzo a 1.015 en el mes pico. Portugal 1.195 impr. pos. 25,1.</td><td class="">Se sostiene y se refuerza</td></tr><tr><td class="">CU Canadá · Forestry y Aqua</td><td class="">223 impr. de FSC «en doce meses»; pausar</td><td class="">251 impr. de FSC y bosques en toda la propiedad, 200 desde Estados Unidos y 0 desde Canadá. TEMO: 20.346 impr. en posición 9,2.</td><td class="">Se sostiene · período corregido; Canadá aún más débil</td></tr><tr><td class="">Zona 8–20 · cinco términos de SEO</td><td class="">GRS, RecyClass, SMETA, ISCC, PEFC en posición 12–16</td><td class="">Media simple entre filas-país. Ponderada y por país de compra: recyclass 6,0, smeta 7,8, iscc 7,2, pefc 19,9, GRS 7,3 con 384 impr. desde España.</td><td class="">Contradice · la lista y el indicador de 30 días se reemplazan</td></tr><tr><td class="">ISO 45001 · España</td><td class="">71.967 impr. «anuales», sin campaña</td><td class="">72.363 impr. en 199 queries, pos. 11,6, 25 clics. Máximo mensual 15.527 en may 26.</td><td class="">Se sostiene · período corregido; es demanda de seis meses</td></tr></tbody></table>
+ <div class="hair"></div>
+ <div class="g">
+  <div class="c6">
+   <p class="kick kick-n">Qué se sostiene</p>
+   <p>Las cinco decisiones de alcance se sostienen en dirección: FSC se certifica y tiene demanda, OEKO-TEX no aparece ni una vez en
+   32.079 queries, ISO 22000 y FSSC tienen demanda y BRCGS no, GMP+ existe y crece, Canadá no tiene contenido
+   forestal. Lo que cambia es el rótulo temporal: donde decía «doce meses» o «anual» debe decir «marzo a septiembre de 2026».
+   Anualizadas, las cifras serían aproximadamente el doble, y el cero de OEKO-TEX es un cero de seis meses, más débil que uno de doce.</p>
+  </div>
+  <div class="c6">
+   <p class="kick kick-n">Qué se contradice</p>
+   <p>La lista de «cinco prioridades de SEO en posición 12–16» y el indicador de 30 días que se apoyaba en ella. Con la posición
+   ponderada y por país de compra, cuatro de los cinco ya estaban en primera página en España cuando se escribió el informe anterior.
+   No es un cambio de los datos: es un error de cálculo del informe anterior, y se corrige acá de forma explícita. La lista que la
+   reemplaza está en la sección 02, y el indicador nuevo en la sección 06.</p>
+   <p>Las dos decisiones abiertas de §7 (pausar Bioenergía PS y CeSu; corte CU/PS en ISCC Argentina) siguen sin contestarse con
+   estos datos.</p>
+  </div>
+ </div>
+</section>
+
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick">Sección 05</p><h2>Límites de los datos y supuestos sin verificar</h2></div>
+ <div class="g">
+  <div class="c6">
+   <h3>Límites, como siempre</h3>
+   <ul class="act">
+    <li><span class="tag">Anonimización</span> Google omite queries de bajo volumen. En España el corte por query recoge el
+    65% de las impresiones de la propiedad; el resto es invisible. No se recupera.</li>
+    <li><span class="tag">Ads oculto</span> El 43% del tráfico pago está bajo «Otros términos» y ahí cayeron las 4 conversiones.
+    Ningún cruce puede atribuir conversión a término.</li>
+    <li><span class="tag">Agregación</span> Por propiedad, por página y por query dan totales distintos (una impresión por búsqueda,
+    por URL o por query visible). Este informe declara cuál usa en cada tabla. No se suman entre sí.</li>
+    <li><span class="tag">Posición</span> Es un promedio de todas las apariciones. Se usa como banda. Y se pondera por impresiones:
+    la media simple entre países fue el error del informe anterior.</li>
+    <li><span class="tag">Ventana</span> Seis meses y medio para ocho propiedades. No hay estacionalidad ni interanual salvo en
+    Argentina y México, y ahí con hueco.</li>
+    <li><span class="tag">Landing</span> Solo medible en ISO 27001: el export de keywords no trae URL final para el resto.</li>
+   </ul>
+  </div>
+  <div class="c6">
+   <h3>Supuestos que no se pudieron verificar</h3>
+   <ul class="act">
+    <li><span class="tag">Retención</span> Que el 4 de mayo de 2025 es el borde de retención de Google y no la fecha de alta de
+    Argentina y México. Se infiere de que coinciden entre sí y con el límite de 16 meses. Se confirma si mañana el primer día se corre.</li>
+    <li><span class="tag">Hueco</span> La causa del hueco de Argentina y México, y por qué las otras seis arrancan justo el día
+    siguiente. Requiere saber qué pasó con las propiedades entre noviembre de 2025 y marzo de 2026.</li>
+    <li><span class="tag">Desperdicio</span> La reconstrucción del Anexo A como lista de tokens. Los ARS 190.042
+    que descuenta este informe no son los ARS 243.023 de la auditoría: aquella clasificación era manual y no está en los datos.</li>
+    <li><span class="tag">Umbrales</span> «Tema fuerte» = 200+ impresiones del tema en la ventana; «apareció» = 30+ impresiones.
+    Son criterios de este informe, no de Google.</li>
+    <li><span class="tag">Alcance</span> Que rainforest alliance en España es servicio y no solo demanda. Los datos dicen que hay
+    3.739 impresiones y una página que rankea; si se certifica, lo sabe la filial.</li>
+   </ul>
+  </div>
+ </div>
+ <div class="hair"></div>
+ <div class="panel">
+  <p class="kick kick-n">Verificación</p>
+  <p>Antes de cerrar, un script independiente recalculó 61 números de este informe directamente desde
+  los CSV fuente, sin pasar por el análisis, y el PDF se rasterizó página por página para contar píxeles de los tres colores de marca
+  prohibidos en piezas internas. Resultado: los 61 coinciden.</p>
+ </div>
+</section>
+
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick">Sección 06</p><h2>Qué cambia en el plan</h2></div>
+ <div class="g">
+  <div class="c4 step stat-lite"><h4>01 · Nada de lo decidido se revierte</h4><p class="d">Las cinco decisiones de alcance
+  siguen en pie. Solo cambia cómo se las cita: son evidencia de marzo a septiembre de 2026, no anual.</p></div>
+  <div class="c4 step stat-lite"><h4>02 · Se reemplaza la lista de SEO</h4><p class="d">Las cinco prioridades pasan a ser
+  smeta (España, 7,5), iscc (España, 12,1), pefc portugal (Portugal, 8,0), pefc (Portugal, 7,9), iscc (Portugal, 12,2). Todas medidas desde el país que compra y ponderadas por impresiones.</p></div>
+  <div class="c4 step stat-lite"><h4>03 · Se suma el dispositivo</h4><p class="d">Ajuste de puja por dispositivo en las campañas de
+  norma de España y Portugal, donde el escritorio domina. Primero ver el reparto de conversiones en Ads, que este informe no tiene.</p></div>
+ </div>
+ <div class="hair"></div>
+ <h3>Orden sugerido</h3>
+ <ul class="act">
+  <li><span class="tag">Hoy</span> Guardar el archivo <code>datos/gsc-historico/</code> fuera de la carpeta de trabajo. Es lo único que va a
+  existir de mayo de 2025 cuando Google lo borre, y para Argentina y México eso empieza mañana.</li>
+  <li><span class="tag">Esta semana</span> Confirmar con quien administre las propiedades qué pasó entre noviembre de 2025 y marzo de 2026.
+  Si fue una baja y re-alta, conviene saberlo antes del próximo informe de tendencia.</li>
+  <li><span class="tag">Esta semana</span> Corregir el rótulo temporal en el informe anterior donde se cite. Ninguna cifra cambia; el período sí.</li>
+  <li><span class="tag">Corto plazo</span> Pasar la zona 8–20 real al equipo de contenido, con la posición por país como línea de base.</li>
+  <li><span class="tag">Cada mes</span> Repetir la extracción con los mismos scripts. Cada corrida agrega un mes que Google después borra,
+  y la validación de continuidad ya está automatizada.</li>
+ </ul>
+ <div class="hair"></div>
+ <div class="g">
+  <div class="c6 panel-navy">
+   <p class="kick">Para medir dentro de 30 días</p>
+   <p>El indicador anterior (posición media de cinco términos que ya estaban en primera página) se retira. Lo reemplazan dos:
+   la posición <strong>ponderada y por país</strong> de la zona 8–20 real de la sección 02, y el <strong>reparto móvil de clics</strong>
+   por propiedad, que hoy es 26% y por primera vez tiene línea de base.</p>
+  </div>
+  <div class="c6 panel">
+   <p class="kick kick-n">Lo que sigue abierto</p>
+   <p>Pausar o no Bioenergía PS y CeSu de Peterson Argentina, y el corte de marca entre Control Union y Peterson en ISCC Argentina.
+   Ninguna de las dos se contesta con Search Console: son decisiones de alcance comercial, y donde hay una marca que certifica y otra
+   que acompaña, la subasta no puede tener a las dos.</p>
+  </div>
+ </div>
+</section>
+
+</body></html>

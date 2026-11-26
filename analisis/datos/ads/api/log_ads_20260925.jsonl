@@ -1,0 +1,13 @@
+{"reporte": "test", "status": "error", "error": "User doesn't have permission to access customer. Note: If you're accessing a client customer, the manager's customer id must be set in the 'login-customer-id' header. See https://developers.google.com/google-ads/api/docs/concepts/call-structure#cid", "ts": "2026-09-25T09:34:38"}
+{"reporte": "test", "status": "error", "error": "The Google Cloud project is only approved for use with test accounts. To access non-test accounts, apply for Explorer, Basic or Standard access.", "ts": "2026-09-25T09:35:03"}
+{"reporte": "test", "status": "ok", "filas": 1, "ts": "2026-09-25T09:40:00"}
+{"reporte": "terminos", "desde": "2026-08-01", "hasta": "2026-09-11", "status": "ok", "filas": 4111, "ts": "2026-09-25T09:40:07"}
+{"reporte": "terminos", "desde": "2026-08-01", "hasta": "2026-09-11", "status": "ok", "filas": 4111, "ts": "2026-09-25T09:40:25"}
+{"reporte": "terminos", "desde": "2026-08-01", "hasta": "2026-09-11", "status": "ok", "filas": 4111, "ts": "2026-09-25T09:40:39"}
+{"reporte": "keywords", "desde": "2026-08-01", "hasta": "2026-09-11", "status": "ok", "filas": 1501, "ts": "2026-09-25T09:40:41"}
+{"reporte": "anuncios", "desde": "2026-08-01", "hasta": "2026-09-11", "status": "ok", "filas": 143, "ts": "2026-09-25T09:40:43"}
+{"reporte": "recursos", "desde": "2026-08-01", "hasta": "2026-09-11", "status": "ok", "filas": 3087, "ts": "2026-09-25T09:40:45"}
+{"reporte": "terminos", "desde": "2026-09-12", "hasta": "2026-09-24", "status": "ok", "filas": 3795, "ts": "2026-09-25T09:50:18"}
+{"reporte": "keywords", "desde": "2026-09-12", "hasta": "2026-09-24", "status": "ok", "filas": 1499, "ts": "2026-09-25T09:50:20"}
+{"reporte": "anuncios", "desde": "2026-09-12", "hasta": "2026-09-24", "status": "ok", "filas": 143, "ts": "2026-09-25T09:50:22"}
+{"reporte": "recursos", "desde": "2026-09-12", "hasta": "2026-09-24", "status": "ok", "filas": 3087, "ts": "2026-09-25T09:50:25"}

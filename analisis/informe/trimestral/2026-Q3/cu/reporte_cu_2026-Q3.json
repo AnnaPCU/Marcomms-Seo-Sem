@@ -1,0 +1,674 @@
+{
+  "marca": "Control Union",
+  "trimestre": "2026-Q3",
+  "desde": "2026-07-01",
+  "hasta": "2026-09-30",
+  "extraido": "2026-10-09",
+  "definicion_conversion": "formularios = vistas a páginas de gracias (todo envío Gravity Forms o HubSpot redirige ahí) con origen en otra página del mismo sitio, sin admin ni empleo/academy/reclamos (gracias_real) + emails = click_email con pagePath fuera de empleo, academy y reclamos (EMAIL_REAL); filtros de ga4_export.py",
+  "cuentas": [
+    {
+      "cuenta": "Control Union Argentina",
+      "search_console": "https://argentina.controlunion.com/",
+      "ga4": "properties/512118948",
+      "seo": {
+        "average_position": 9.11,
+        "impressions": 76744,
+        "total_clicks": 1855,
+        "ctr_pct": 2.42,
+        "top_keywords": [
+          {
+            "keyword": "control union",
+            "clicks": 489,
+            "impressions": 1394,
+            "position": 3.5
+          },
+          {
+            "keyword": "control union argentina",
+            "clicks": 181,
+            "impressions": 328,
+            "position": 1.7
+          },
+          {
+            "keyword": "control union argentina s.a",
+            "clicks": 30,
+            "impressions": 62,
+            "position": 1.1
+          },
+          {
+            "keyword": "control union tucuman",
+            "clicks": 29,
+            "impressions": 157,
+            "position": 4.6
+          },
+          {
+            "keyword": "visec",
+            "clicks": 26,
+            "impressions": 3579,
+            "position": 4.9
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 2920,
+        "total_traffic_sessions": 4098,
+        "impressions_pageviews": 8566,
+        "conversions": 32,
+        "conversions_detalle": {
+          "formularios": 19,
+          "emails": 13
+        },
+        "conversions_crudas": {
+          "click_email": 153,
+          "form_submit": 65,
+          "total": 218
+        },
+        "vistas_gracias_sin_filtro": 95,
+        "embudo_vista_a_sesion_pct": 47.84,
+        "embudo_sesion_a_conversion_pct": 0.78,
+        "top_pages": [
+          {
+            "page": "https://argentina.controlunion.com/",
+            "views": 1545
+          },
+          {
+            "page": "https://argentina.controlunion.com/nosotros/",
+            "views": 552
+          },
+          {
+            "page": "https://argentina.controlunion.com/vacantes/",
+            "views": 512
+          },
+          {
+            "page": "https://argentina.controlunion.com/programas-de-certificacion/",
+            "views": 429
+          },
+          {
+            "page": "https://argentina.controlunion.com/contacto/",
+            "views": 310
+          }
+        ]
+      }
+    },
+    {
+      "cuenta": "Control Union Brasil",
+      "search_console": "https://brasil.controlunion.com/",
+      "ga4": "properties/512120869",
+      "seo": {
+        "average_position": 10.49,
+        "impressions": 62175,
+        "total_clicks": 1874,
+        "ctr_pct": 3.01,
+        "top_keywords": [
+          {
+            "keyword": "control union",
+            "clicks": 689,
+            "impressions": 1923,
+            "position": 2.6
+          },
+          {
+            "keyword": "controlunion",
+            "clicks": 117,
+            "impressions": 296,
+            "position": 3.6
+          },
+          {
+            "keyword": "control union brasil",
+            "clicks": 77,
+            "impressions": 132,
+            "position": 1.2
+          },
+          {
+            "keyword": "control union latinoamérica",
+            "clicks": 52,
+            "impressions": 121,
+            "position": 1.3
+          },
+          {
+            "keyword": "control union warrants ltda",
+            "clicks": 50,
+            "impressions": 275,
+            "position": 3.7
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 3040,
+        "total_traffic_sessions": 3793,
+        "impressions_pageviews": 7258,
+        "conversions": 185,
+        "conversions_detalle": {
+          "formularios": 53,
+          "emails": 132
+        },
+        "conversions_crudas": {
+          "click_email": 234,
+          "form_submit": 63,
+          "total": 297
+        },
+        "vistas_gracias_sin_filtro": 76,
+        "embudo_vista_a_sesion_pct": 52.26,
+        "embudo_sesion_a_conversion_pct": 4.88,
+        "top_pages": [
+          {
+            "page": "https://brasil.controlunion.com/",
+            "views": 2288
+          },
+          {
+            "page": "https://brasil.controlunion.com/contato/",
+            "views": 576
+          },
+          {
+            "page": "https://brasil.controlunion.com/vagas/",
+            "views": 496
+          },
+          {
+            "page": "https://brasil.controlunion.com/programas-de-certificacao/",
+            "views": 413
+          },
+          {
+            "page": "https://brasil.controlunion.com/quem-somos/",
+            "views": 352
+          }
+        ]
+      }
+    },
+    {
+      "cuenta": "Control Union Chile",
+      "search_console": "https://chile.controlunion.com/",
+      "ga4": "properties/512070842",
+      "seo": {
+        "average_position": 11.3,
+        "impressions": 29122,
+        "total_clicks": 463,
+        "ctr_pct": 1.59,
+        "top_keywords": [
+          {
+            "keyword": "control union",
+            "clicks": 69,
+            "impressions": 181,
+            "position": 6.2
+          },
+          {
+            "keyword": "control union chile",
+            "clicks": 51,
+            "impressions": 71,
+            "position": 1.0
+          },
+          {
+            "keyword": "grasp",
+            "clicks": 11,
+            "impressions": 644,
+            "position": 5.7
+          },
+          {
+            "keyword": "bap",
+            "clicks": 10,
+            "impressions": 1139,
+            "position": 7.8
+          },
+          {
+            "keyword": "controlunion",
+            "clicks": 8,
+            "impressions": 16,
+            "position": 10.7
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 957,
+        "total_traffic_sessions": 1197,
+        "impressions_pageviews": 2628,
+        "conversions": 48,
+        "conversions_detalle": {
+          "formularios": 15,
+          "emails": 33
+        },
+        "conversions_crudas": {
+          "click_email": 71,
+          "form_submit": 33,
+          "total": 104
+        },
+        "vistas_gracias_sin_filtro": 40,
+        "embudo_vista_a_sesion_pct": 45.55,
+        "embudo_sesion_a_conversion_pct": 4.01,
+        "top_pages": [
+          {
+            "page": "https://chile.controlunion.com/",
+            "views": 490
+          },
+          {
+            "page": "https://chile.controlunion.com/programas-de-certificacion/",
+            "views": 209
+          },
+          {
+            "page": "https://chile.controlunion.com/contacto/",
+            "views": 122
+          },
+          {
+            "page": "https://chile.controlunion.com/service/certificaciones/",
+            "views": 114
+          },
+          {
+            "page": "https://chile.controlunion.com/nosotros/",
+            "views": 87
+          }
+        ]
+      }
+    },
+    {
+      "cuenta": "Control Union España",
+      "search_console": "https://espana.controlunion.com/",
+      "ga4": "properties/512083164",
+      "seo": {
+        "average_position": 14.11,
+        "impressions": 171269,
+        "total_clicks": 1393,
+        "ctr_pct": 0.81,
+        "top_keywords": [
+          {
+            "keyword": "control union",
+            "clicks": 221,
+            "impressions": 1026,
+            "position": 5.2
+          },
+          {
+            "keyword": "control union españa",
+            "clicks": 48,
+            "impressions": 110,
+            "position": 1.0
+          },
+          {
+            "keyword": "controlunion",
+            "clicks": 39,
+            "impressions": 114,
+            "position": 5.3
+          },
+          {
+            "keyword": "iso 21401",
+            "clicks": 22,
+            "impressions": 572,
+            "position": 4.2
+          },
+          {
+            "keyword": "sure",
+            "clicks": 11,
+            "impressions": 4478,
+            "position": 9.1
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 2370,
+        "total_traffic_sessions": 2798,
+        "impressions_pageviews": 5961,
+        "conversions": 37,
+        "conversions_detalle": {
+          "formularios": 19,
+          "emails": 18
+        },
+        "conversions_crudas": {
+          "click_email": 28,
+          "form_submit": 41,
+          "total": 69
+        },
+        "vistas_gracias_sin_filtro": 70,
+        "embudo_vista_a_sesion_pct": 46.94,
+        "embudo_sesion_a_conversion_pct": 1.32,
+        "top_pages": [
+          {
+            "page": "https://espana.controlunion.com/",
+            "views": 518
+          },
+          {
+            "page": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/",
+            "views": 393
+          },
+          {
+            "page": "https://espana.controlunion.com/programas-de-certificacion/",
+            "views": 270
+          },
+          {
+            "page": "https://espana.controlunion.com/programa-de-certificacion/iso-9001/",
+            "views": 237
+          },
+          {
+            "page": "https://espana.controlunion.com/contacto/",
+            "views": 174
+          }
+        ]
+      }
+    },
+    {
+      "cuenta": "Control Union México",
+      "search_console": "https://mexico.controlunion.com/",
+      "ga4": "properties/512088729",
+      "seo": {
+        "average_position": 11.46,
+        "impressions": 59107,
+        "total_clicks": 738,
+        "ctr_pct": 1.25,
+        "top_keywords": [
+          {
+            "keyword": "control union",
+            "clicks": 114,
+            "impressions": 370,
+            "position": 5.0
+          },
+          {
+            "keyword": "control union mexico",
+            "clicks": 63,
+            "impressions": 105,
+            "position": 1.1
+          },
+          {
+            "keyword": "controlunion",
+            "clicks": 8,
+            "impressions": 27,
+            "position": 6.0
+          },
+          {
+            "keyword": "organico mexico",
+            "clicks": 8,
+            "impressions": 92,
+            "position": 4.9
+          },
+          {
+            "keyword": "grs",
+            "clicks": 7,
+            "impressions": 4004,
+            "position": 8.2
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 2092,
+        "total_traffic_sessions": 2493,
+        "impressions_pageviews": 4445,
+        "conversions": 86,
+        "conversions_detalle": {
+          "formularios": 39,
+          "emails": 47
+        },
+        "conversions_crudas": {
+          "click_email": 95,
+          "form_submit": 26,
+          "total": 121
+        },
+        "vistas_gracias_sin_filtro": 58,
+        "embudo_vista_a_sesion_pct": 56.09,
+        "embudo_sesion_a_conversion_pct": 3.45,
+        "top_pages": [
+          {
+            "page": "https://mexico.controlunion.com/",
+            "views": 1379
+          },
+          {
+            "page": "https://mexico.controlunion.com/contacto-mexico/",
+            "views": 284
+          },
+          {
+            "page": "https://mexico.controlunion.com/programas-de-certificacion/",
+            "views": 221
+          },
+          {
+            "page": "https://mexico.controlunion.com/service/certificaciones/",
+            "views": 154
+          },
+          {
+            "page": "https://mexico.controlunion.com/nosotros/",
+            "views": 141
+          }
+        ]
+      }
+    },
+    {
+      "cuenta": "Control Union North America",
+      "search_console": "https://northamerica.controlunion.com/",
+      "ga4": "properties/512051793",
+      "seo": {
+        "average_position": 14.63,
+        "impressions": 30970,
+        "total_clicks": 313,
+        "ctr_pct": 1.01,
+        "top_keywords": [
+          {
+            "keyword": "control union canada",
+            "clicks": 37,
+            "impressions": 120,
+            "position": 2.3
+          },
+          {
+            "keyword": "control union usa",
+            "clicks": 29,
+            "impressions": 79,
+            "position": 1.1
+          },
+          {
+            "keyword": "control union",
+            "clicks": 17,
+            "impressions": 775,
+            "position": 5.2
+          },
+          {
+            "keyword": "temo",
+            "clicks": 2,
+            "impressions": 4321,
+            "position": 7.8
+          },
+          {
+            "keyword": "control union job vacancy",
+            "clicks": 1,
+            "impressions": 11,
+            "position": 7
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 2475,
+        "total_traffic_sessions": 3200,
+        "impressions_pageviews": 6388,
+        "conversions": 62,
+        "conversions_detalle": {
+          "formularios": 35,
+          "emails": 27
+        },
+        "conversions_crudas": {
+          "click_email": 78,
+          "form_submit": 102,
+          "total": 180
+        },
+        "vistas_gracias_sin_filtro": 57,
+        "embudo_vista_a_sesion_pct": 50.09,
+        "embudo_sesion_a_conversion_pct": 1.94,
+        "top_pages": [
+          {
+            "page": "https://northamerica.controlunion.com/",
+            "views": 1474
+          },
+          {
+            "page": "https://northamerica.controlunion.com/certification-programs/",
+            "views": 600
+          },
+          {
+            "page": "https://northamerica.controlunion.com/vacancies/",
+            "views": 296
+          },
+          {
+            "page": "https://northamerica.controlunion.com/contact/",
+            "views": 289
+          },
+          {
+            "page": "https://northamerica.controlunion.com/service/certification/",
+            "views": 218
+          }
+        ]
+      }
+    },
+    {
+      "cuenta": "Control Union Perú",
+      "search_console": "https://peru.controlunion.com/",
+      "ga4": "properties/512089024",
+      "seo": {
+        "average_position": 7.83,
+        "impressions": 274322,
+        "total_clicks": 3993,
+        "ctr_pct": 1.46,
+        "top_keywords": [
+          {
+            "keyword": "control union",
+            "clicks": 393,
+            "impressions": 1093,
+            "position": 2.6
+          },
+          {
+            "keyword": "control union peru",
+            "clicks": 182,
+            "impressions": 303,
+            "position": 1.1
+          },
+          {
+            "keyword": "control union services",
+            "clicks": 175,
+            "impressions": 306,
+            "position": 1.6
+          },
+          {
+            "keyword": "control union services s.a.c",
+            "clicks": 43,
+            "impressions": 95,
+            "position": 1
+          },
+          {
+            "keyword": "smeta 7.0 standard pdf",
+            "clicks": 41,
+            "impressions": 267,
+            "position": 2.4
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 4080,
+        "total_traffic_sessions": 6009,
+        "impressions_pageviews": 11431,
+        "conversions": 107,
+        "conversions_detalle": {
+          "formularios": 21,
+          "emails": 86
+        },
+        "conversions_crudas": {
+          "click_email": 155,
+          "form_submit": 110,
+          "total": 265
+        },
+        "vistas_gracias_sin_filtro": 49,
+        "embudo_vista_a_sesion_pct": 52.57,
+        "embudo_sesion_a_conversion_pct": 1.78,
+        "top_pages": [
+          {
+            "page": "https://peru.controlunion.com/",
+            "views": 2585
+          },
+          {
+            "page": "https://peru.controlunion.com/programas-de-certificacion/",
+            "views": 572
+          },
+          {
+            "page": "https://peru.controlunion.com/service/certificaciones/",
+            "views": 466
+          },
+          {
+            "page": "https://peru.controlunion.com/vacantes/",
+            "views": 440
+          },
+          {
+            "page": "https://peru.controlunion.com/nosotros/",
+            "views": 406
+          }
+        ]
+      }
+    },
+    {
+      "cuenta": "Control Union Portugal",
+      "search_console": "https://portugal.controlunion.com/",
+      "ga4": "properties/512089818",
+      "seo": {
+        "average_position": 14.4,
+        "impressions": 46940,
+        "total_clicks": 692,
+        "ctr_pct": 1.47,
+        "top_keywords": [
+          {
+            "keyword": "control union",
+            "clicks": 144,
+            "impressions": 307,
+            "position": 6.9
+          },
+          {
+            "keyword": "control union portugal",
+            "clicks": 58,
+            "impressions": 127,
+            "position": 2.8
+          },
+          {
+            "keyword": "controlunion",
+            "clicks": 28,
+            "impressions": 61,
+            "position": 8.5
+          },
+          {
+            "keyword": "grs",
+            "clicks": 28,
+            "impressions": 618,
+            "position": 2.4
+          },
+          {
+            "keyword": "gots",
+            "clicks": 8,
+            "impressions": 757,
+            "position": 5.1
+          }
+        ]
+      },
+      "website": {
+        "single_traffic_users": 1525,
+        "total_traffic_sessions": 1686,
+        "impressions_pageviews": 3456,
+        "conversions": 43,
+        "conversions_detalle": {
+          "formularios": 7,
+          "emails": 36
+        },
+        "conversions_crudas": {
+          "click_email": 54,
+          "form_submit": 37,
+          "total": 91
+        },
+        "vistas_gracias_sin_filtro": 30,
+        "embudo_vista_a_sesion_pct": 48.78,
+        "embudo_sesion_a_conversion_pct": 2.55,
+        "top_pages": [
+          {
+            "page": "https://portugal.controlunion.com/",
+            "views": 663
+          },
+          {
+            "page": "https://portugal.controlunion.com/esquemas-de-certificacao/",
+            "views": 156
+          },
+          {
+            "page": "https://portugal.controlunion.com/contacto/",
+            "views": 132
+          },
+          {
+            "page": "https://portugal.controlunion.com/certificacoes/",
+            "views": 89
+          },
+          {
+            "page": "https://portugal.controlunion.com/quem-somos/",
+            "views": 66
+          }
+        ]
+      }
+    }
+  ]
+}

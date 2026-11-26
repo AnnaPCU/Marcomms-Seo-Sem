@@ -1,0 +1,736 @@
+{
+ "desde": "2026-11-09",
+ "hasta": "2026-11-11",
+ "generado": "2026-11-12T14:44:56",
+ "filas": [
+  {
+   "ads_id": "24251193083",
+   "campana": "CU Argentina - Agroexportación - Search",
+   "fecha": "2026-11-09",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 1,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799947",
+   "campana": "CU Argentina - Cadena de Custodia - Search",
+   "fecha": "2026-11-09",
+   "coste": 12.53,
+   "clics": 1,
+   "impresiones": 5,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799941",
+   "campana": "CU Argentina - Agro sostentible - Search",
+   "fecha": "2026-11-10",
+   "coste": 1803.36,
+   "clics": 3,
+   "impresiones": 37,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24251193083",
+   "campana": "CU Argentina - Agroexportación - Search",
+   "fecha": "2026-11-10",
+   "coste": 8496.26,
+   "clics": 26,
+   "impresiones": 426,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799938",
+   "campana": "CU Argentina - Biocombustible - Search",
+   "fecha": "2026-11-10",
+   "coste": 1676.67,
+   "clics": 2,
+   "impresiones": 28,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799947",
+   "campana": "CU Argentina - Cadena de Custodia - Search",
+   "fecha": "2026-11-10",
+   "coste": 2502.36,
+   "clics": 2,
+   "impresiones": 46,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799950",
+   "campana": "CU Argentina - GHG - Search",
+   "fecha": "2026-11-10",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 25,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799944",
+   "campana": "CU Argentina - Industria - Search",
+   "fecha": "2026-11-10",
+   "coste": 2207.99,
+   "clics": 4,
+   "impresiones": 141,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24409220059",
+   "campana": "CU Argentina - Smeta - Search",
+   "fecha": "2026-11-10",
+   "coste": 354.6,
+   "clics": 1,
+   "impresiones": 25,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475400",
+   "campana": "CU Canada - Canada Gap - Search",
+   "fecha": "2026-11-10",
+   "coste": 3120.28,
+   "clics": 1,
+   "impresiones": 29,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475415",
+   "campana": "CU Canada - Forestry - Search",
+   "fecha": "2026-11-10",
+   "coste": 2201.35,
+   "clics": 1,
+   "impresiones": 61,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475409",
+   "campana": "CU Canada - GLOBALG.A.P. - Search",
+   "fecha": "2026-11-10",
+   "coste": 2350.77,
+   "clics": 1,
+   "impresiones": 11,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475277",
+   "campana": "CU Canada - Smeta - Search",
+   "fecha": "2026-11-10",
+   "coste": 4521.95,
+   "clics": 2,
+   "impresiones": 24,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321047",
+   "campana": "CU Canada- Aqua / Fisheries - Search",
+   "fecha": "2026-11-10",
+   "coste": 4450.68,
+   "clics": 1,
+   "impresiones": 10,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321086",
+   "campana": "CU España - Bioenergia - Search",
+   "fecha": "2026-11-10",
+   "coste": 1759.74,
+   "clics": 1,
+   "impresiones": 38,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321059",
+   "campana": "CU España - Biomasa - Search",
+   "fecha": "2026-11-10",
+   "coste": 1820.44,
+   "clics": 1,
+   "impresiones": 8,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321098",
+   "campana": "CU España - CAEs - Search",
+   "fecha": "2026-11-10",
+   "coste": 4237.45,
+   "clics": 5,
+   "impresiones": 156,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321092",
+   "campana": "CU España - Forestal - Search",
+   "fecha": "2026-11-10",
+   "coste": 4478.02,
+   "clics": 4,
+   "impresiones": 88,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475274",
+   "campana": "CU España - GMP+ - Search",
+   "fecha": "2026-11-10",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 1,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475271",
+   "campana": "CU España - IFS - SEARCH",
+   "fecha": "2026-11-10",
+   "coste": 4235.58,
+   "clics": 2,
+   "impresiones": 6,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321083",
+   "campana": "CU España - Plasticos - Search",
+   "fecha": "2026-11-10",
+   "coste": 4527.2,
+   "clics": 2,
+   "impresiones": 17,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321074",
+   "campana": "CU España - Smeta - Search",
+   "fecha": "2026-11-10",
+   "coste": 4505.04,
+   "clics": 4,
+   "impresiones": 46,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321089",
+   "campana": "CU España - Textile - Search",
+   "fecha": "2026-11-10",
+   "coste": 4042.01,
+   "clics": 4,
+   "impresiones": 79,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321068",
+   "campana": "CU Portugal - Bioenergia - Search",
+   "fecha": "2026-11-10",
+   "coste": 4525.36,
+   "clics": 2,
+   "impresiones": 31,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321065",
+   "campana": "CU Portugal - Biomasa - Search",
+   "fecha": "2026-11-10",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 1,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321062",
+   "campana": "CU Portugal - Forestal - Search",
+   "fecha": "2026-11-10",
+   "coste": 4523.36,
+   "clics": 3,
+   "impresiones": 9,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475268",
+   "campana": "CU Portugal - GMP+ - SEARCH",
+   "fecha": "2026-11-10",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 1,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321095",
+   "campana": "CU Portugal - Plasticos - Search",
+   "fecha": "2026-11-10",
+   "coste": 3268.36,
+   "clics": 1,
+   "impresiones": 10,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321077",
+   "campana": "CU Portugal - Smeta - Search",
+   "fecha": "2026-11-10",
+   "coste": 1226.84,
+   "clics": 1,
+   "impresiones": 34,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321080",
+   "campana": "CU Portugal - Textile - Search",
+   "fecha": "2026-11-10",
+   "coste": 3882.92,
+   "clics": 2,
+   "impresiones": 30,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24164538908",
+   "campana": "CU United States - Organic - PrimusGFS - Search",
+   "fecha": "2026-11-10",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 10,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24164537216",
+   "campana": "CU United States - Organic - USDA NOP - Search",
+   "fecha": "2026-11-10",
+   "coste": 11683.72,
+   "clics": 2,
+   "impresiones": 82,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24231149725",
+   "campana": "PCU - Argentina - Competidores ISO 27001 - Search",
+   "fecha": "2026-11-10",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 3,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24231149722",
+   "campana": "PCU - Argentina - ISO 27001 - Search",
+   "fecha": "2026-11-10",
+   "coste": 13896.21,
+   "clics": 9,
+   "impresiones": 152,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321071",
+   "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+   "fecha": "2026-11-10",
+   "coste": 1779.86,
+   "clics": 1,
+   "impresiones": 208,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321050",
+   "campana": "PS Argentina - CeSu - Preparacion para certificaciones - Search",
+   "fecha": "2026-11-10",
+   "coste": 4520.89,
+   "clics": 1,
+   "impresiones": 21,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321056",
+   "campana": "PS Argentina - SuSe - ESG / Reportes - Search",
+   "fecha": "2026-11-10",
+   "coste": 3815.21,
+   "clics": 3,
+   "impresiones": 93,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321044",
+   "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+   "fecha": "2026-11-10",
+   "coste": 2892.08,
+   "clics": 4,
+   "impresiones": 328,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475403",
+   "campana": "PS Argentina - SuSo - Abastecimiento sostenible - Search",
+   "fecha": "2026-11-10",
+   "coste": 4401.18,
+   "clics": 1,
+   "impresiones": 13,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321053",
+   "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+   "fecha": "2026-11-10",
+   "coste": 3105.34,
+   "clics": 6,
+   "impresiones": 493,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475406",
+   "campana": "PS Argentina - SuSo - Trazabilidad / EUDR - Search",
+   "fecha": "2026-11-10",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 32,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799941",
+   "campana": "CU Argentina - Agro sostentible - Search",
+   "fecha": "2026-11-11",
+   "coste": 1082.77,
+   "clics": 1,
+   "impresiones": 39,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24251193083",
+   "campana": "CU Argentina - Agroexportación - Search",
+   "fecha": "2026-11-11",
+   "coste": 8883.89,
+   "clics": 27,
+   "impresiones": 562,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799938",
+   "campana": "CU Argentina - Biocombustible - Search",
+   "fecha": "2026-11-11",
+   "coste": 434.86,
+   "clics": 1,
+   "impresiones": 59,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799947",
+   "campana": "CU Argentina - Cadena de Custodia - Search",
+   "fecha": "2026-11-11",
+   "coste": 2972.32,
+   "clics": 2,
+   "impresiones": 34,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799950",
+   "campana": "CU Argentina - GHG - Search",
+   "fecha": "2026-11-11",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 41,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24256799944",
+   "campana": "CU Argentina - Industria - Search",
+   "fecha": "2026-11-11",
+   "coste": 1781.24,
+   "clics": 3,
+   "impresiones": 202,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24409220059",
+   "campana": "CU Argentina - Smeta - Search",
+   "fecha": "2026-11-11",
+   "coste": 2422.55,
+   "clics": 1,
+   "impresiones": 20,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475400",
+   "campana": "CU Canada - Canada Gap - Search",
+   "fecha": "2026-11-11",
+   "coste": 5470.96,
+   "clics": 2,
+   "impresiones": 4,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475415",
+   "campana": "CU Canada - Forestry - Search",
+   "fecha": "2026-11-11",
+   "coste": 9022.26,
+   "clics": 4,
+   "impresiones": 102,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475409",
+   "campana": "CU Canada - GLOBALG.A.P. - Search",
+   "fecha": "2026-11-11",
+   "coste": 2667.23,
+   "clics": 1,
+   "impresiones": 12,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475277",
+   "campana": "CU Canada - Smeta - Search",
+   "fecha": "2026-11-11",
+   "coste": 3839.87,
+   "clics": 1,
+   "impresiones": 20,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321047",
+   "campana": "CU Canada- Aqua / Fisheries - Search",
+   "fecha": "2026-11-11",
+   "coste": 4511.35,
+   "clics": 1,
+   "impresiones": 10,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321086",
+   "campana": "CU España - Bioenergia - Search",
+   "fecha": "2026-11-11",
+   "coste": 4535.46,
+   "clics": 3,
+   "impresiones": 10,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321059",
+   "campana": "CU España - Biomasa - Search",
+   "fecha": "2026-11-11",
+   "coste": 4527.27,
+   "clics": 2,
+   "impresiones": 5,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321098",
+   "campana": "CU España - CAEs - Search",
+   "fecha": "2026-11-11",
+   "coste": 4109.3,
+   "clics": 5,
+   "impresiones": 239,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321092",
+   "campana": "CU España - Forestal - Search",
+   "fecha": "2026-11-11",
+   "coste": 4476.33,
+   "clics": 4,
+   "impresiones": 41,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475274",
+   "campana": "CU España - GMP+ - Search",
+   "fecha": "2026-11-11",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 12,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475271",
+   "campana": "CU España - IFS - SEARCH",
+   "fecha": "2026-11-11",
+   "coste": 4529.09,
+   "clics": 3,
+   "impresiones": 44,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321083",
+   "campana": "CU España - Plasticos - Search",
+   "fecha": "2026-11-11",
+   "coste": 3464.4,
+   "clics": 2,
+   "impresiones": 31,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321074",
+   "campana": "CU España - Smeta - Search",
+   "fecha": "2026-11-11",
+   "coste": 2217.24,
+   "clics": 2,
+   "impresiones": 106,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321089",
+   "campana": "CU España - Textile - Search",
+   "fecha": "2026-11-11",
+   "coste": 4524.54,
+   "clics": 5,
+   "impresiones": 67,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321068",
+   "campana": "CU Portugal - Bioenergia - Search",
+   "fecha": "2026-11-11",
+   "coste": 4512.57,
+   "clics": 2,
+   "impresiones": 14,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321065",
+   "campana": "CU Portugal - Biomasa - Search",
+   "fecha": "2026-11-11",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 2,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321062",
+   "campana": "CU Portugal - Forestal - Search",
+   "fecha": "2026-11-11",
+   "coste": 3979.43,
+   "clics": 3,
+   "impresiones": 19,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475268",
+   "campana": "CU Portugal - GMP+ - SEARCH",
+   "fecha": "2026-11-11",
+   "coste": 1740.35,
+   "clics": 1,
+   "impresiones": 4,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321095",
+   "campana": "CU Portugal - Plasticos - Search",
+   "fecha": "2026-11-11",
+   "coste": 4478.35,
+   "clics": 2,
+   "impresiones": 7,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321077",
+   "campana": "CU Portugal - Smeta - Search",
+   "fecha": "2026-11-11",
+   "coste": 3899.71,
+   "clics": 3,
+   "impresiones": 84,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321080",
+   "campana": "CU Portugal - Textile - Search",
+   "fecha": "2026-11-11",
+   "coste": 4167.99,
+   "clics": 2,
+   "impresiones": 29,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24447492636",
+   "campana": "CU United States - Organic - Competidores USDA NOP - Search",
+   "fecha": "2026-11-11",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 3,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24164538908",
+   "campana": "CU United States - Organic - PrimusGFS - Search",
+   "fecha": "2026-11-11",
+   "coste": 87643.91,
+   "clics": 1,
+   "impresiones": 6,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24164537216",
+   "campana": "CU United States - Organic - USDA NOP - Search",
+   "fecha": "2026-11-11",
+   "coste": 16962.32,
+   "clics": 3,
+   "impresiones": 66,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24231149725",
+   "campana": "PCU - Argentina - Competidores ISO 27001 - Search",
+   "fecha": "2026-11-11",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 8,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24231149722",
+   "campana": "PCU - Argentina - ISO 27001 - Search",
+   "fecha": "2026-11-11",
+   "coste": 25477.04,
+   "clics": 13,
+   "impresiones": 173,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321071",
+   "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+   "fecha": "2026-11-11",
+   "coste": 4530.75,
+   "clics": 4,
+   "impresiones": 69,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321050",
+   "campana": "PS Argentina - CeSu - Preparacion para certificaciones - Search",
+   "fecha": "2026-11-11",
+   "coste": 4532.58,
+   "clics": 1,
+   "impresiones": 23,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321056",
+   "campana": "PS Argentina - SuSe - ESG / Reportes - Search",
+   "fecha": "2026-11-11",
+   "coste": 4481.03,
+   "clics": 4,
+   "impresiones": 74,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321044",
+   "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+   "fecha": "2026-11-11",
+   "coste": 4533.87,
+   "clics": 7,
+   "impresiones": 384,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475403",
+   "campana": "PS Argentina - SuSo - Abastecimiento sostenible - Search",
+   "fecha": "2026-11-11",
+   "coste": 4434.49,
+   "clics": 1,
+   "impresiones": 5,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24057321053",
+   "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+   "fecha": "2026-11-11",
+   "coste": 4807.1,
+   "clics": 10,
+   "impresiones": 671,
+   "conversiones": 0.0
+  },
+  {
+   "ads_id": "24052475406",
+   "campana": "PS Argentina - SuSo - Trazabilidad / EUDR - Search",
+   "fecha": "2026-11-11",
+   "coste": 0.0,
+   "clics": 0,
+   "impresiones": 23,
+   "conversiones": 0.0
+  }
+ ]
+}

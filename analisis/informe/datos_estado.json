@@ -1,0 +1,1956 @@
+{
+ "ventanas": {
+  "aud": [
+   "2026-08-01_2026-09-11",
+   42
+  ],
+  "post": [
+   "2026-09-12_2026-09-24",
+   13
+  ]
+ },
+ "totales": {
+  "coste_aud": 1746984,
+  "coste_post": 1405680,
+  "dia_aud": 41595,
+  "dia_post": 108129,
+  "clics_aud": 1057,
+  "clics_post": 794,
+  "conv_aud": 5.0,
+  "conv_post": 6.0,
+  "nuevas": 6,
+  "campanas": 41
+ },
+ "campanas": [
+  {
+   "campana": "PCU España - ISO 27001 - Search",
+   "marca": "pcu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 15300,
+   "nueva": false,
+   "coste_aud": 78246,
+   "coste_dia_aud": 1863,
+   "clics_aud": 13,
+   "conv_aud": 0.0,
+   "coste_post": 194276,
+   "coste_dia_post": 14944,
+   "clics_post": 186,
+   "conv_post": 1.0,
+   "keywords_activas": 31,
+   "keywords_pausadas": 0,
+   "negativos": 108,
+   "consultant_negativo": true,
+   "grupos": [
+    "Compra",
+    "Proceso",
+    "Renovación"
+   ],
+   "anuncios": 6,
+   "anexo_a": null,
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 3.0
+   },
+   "rel_post": {
+    "pct_nula": 5.0,
+    "pct_fuerte": 75.8,
+    "score": 2.7,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "PCU Argentina - ISO 27001 - Search",
+   "marca": "pcu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 12750,
+   "nueva": false,
+   "coste_aud": 59022,
+   "coste_dia_aud": 1405,
+   "clics_aud": 24,
+   "conv_aud": 0.0,
+   "coste_post": 171085,
+   "coste_dia_post": 13160,
+   "clics_post": 88,
+   "conv_post": 1.0,
+   "keywords_activas": 31,
+   "keywords_pausadas": 0,
+   "negativos": 105,
+   "consultant_negativo": true,
+   "grupos": [
+    "Compra",
+    "Proceso",
+    "Renovación"
+   ],
+   "anuncios": 6,
+   "anexo_a": {
+    "propuestos": 1,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": {
+    "propuestas": 3,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 83.4,
+    "score": 2.8
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 68.6,
+    "score": 2.6,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU United States - Organic - USDA NOP - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 8000,
+   "nueva": false,
+   "coste_aud": 107542,
+   "coste_dia_aud": 2561,
+   "clics_aud": 17,
+   "conv_aud": 0.0,
+   "coste_post": 121410,
+   "coste_dia_post": 9339,
+   "clics_post": 14,
+   "conv_post": 0.0,
+   "keywords_activas": 50,
+   "keywords_pausadas": 1,
+   "negativos": 54,
+   "consultant_negativo": false,
+   "grupos": [
+    "Handlers Brands Processors",
+    "Import Export Trade",
+    "Multi-Site Multi-Scope",
+    "SOE & Import Compliance",
+    "Switch & Get Certified"
+   ],
+   "anuncios": 5,
+   "anexo_a": {
+    "propuestos": 3,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 47.6,
+    "score": 1.7
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 63.9,
+    "score": 2.1,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Canada - Forestry - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 4536,
+   "nueva": false,
+   "coste_aud": 199963,
+   "coste_dia_aud": 4761,
+   "clics_aud": 44,
+   "conv_aud": 1.0,
+   "coste_post": 75249,
+   "coste_dia_post": 5788,
+   "clics_post": 17,
+   "conv_post": 0.0,
+   "keywords_activas": 53,
+   "keywords_pausadas": 0,
+   "negativos": 14,
+   "consultant_negativo": false,
+   "grupos": [
+    "Biomass",
+    "Chain of Custody",
+    "FSC",
+    "Forestry cert",
+    "Legal sourcing",
+    "PEFC"
+   ],
+   "anuncios": 6,
+   "anexo_a": {
+    "propuestos": 6,
+    "aplicados": 2,
+    "cuales": [
+     "training",
+     "job"
+    ]
+   },
+   "anexo_b": {
+    "propuestas": 3,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 4.3,
+    "pct_fuerte": 69.1,
+    "score": 1.7
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 69.6,
+    "score": 1.4,
+    "relev_debajo": 19938.6
+   }
+  },
+  {
+   "campana": "CU España - Smeta - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 34947,
+   "coste_dia_aud": 832,
+   "clics_aud": 11,
+   "conv_aud": 0.0,
+   "coste_post": 53237,
+   "coste_dia_post": 4095,
+   "clics_post": 22,
+   "conv_post": 1.0,
+   "keywords_activas": 18,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "Social"
+   ],
+   "anuncios": 1,
+   "anexo_a": null,
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 2.6
+   },
+   "rel_post": {
+    "pct_nula": 80.3,
+    "pct_fuerte": 0.0,
+    "score": 1.0,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Portugal - Textile - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 50602,
+   "coste_dia_aud": 1205,
+   "clics_aud": 32,
+   "conv_aud": 0.0,
+   "coste_post": 49340,
+   "coste_dia_post": 3795,
+   "clics_post": 27,
+   "conv_post": 0.0,
+   "keywords_activas": 34,
+   "keywords_pausadas": 0,
+   "negativos": 0,
+   "consultant_negativo": false,
+   "grupos": [
+    "GOTS",
+    "GRS",
+    "Higg FEM"
+   ],
+   "anuncios": 3,
+   "anexo_a": {
+    "propuestos": 2,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": {
+    "propuestas": 3,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 62.8,
+    "score": 2.5
+   },
+   "rel_post": {
+    "pct_nula": 11.4,
+    "pct_fuerte": 47.5,
+    "score": 2.4,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Argentina - Agroexportación - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 6000,
+   "nueva": true,
+   "coste_aud": 0,
+   "coste_dia_aud": 0,
+   "clics_aud": 0,
+   "conv_aud": 0.0,
+   "coste_post": 44313,
+   "coste_dia_post": 3409,
+   "clics_post": 27,
+   "conv_post": 0.0,
+   "keywords_activas": 82,
+   "keywords_pausadas": 0,
+   "negativos": 68,
+   "consultant_negativo": true,
+   "grupos": [
+    "EUDR compra",
+    "EUDR proceso",
+    "GGAP compra",
+    "Organico compra"
+   ],
+   "anuncios": 8,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 78.3,
+    "score": 1.8,
+    "relev_debajo": 4937.8
+   }
+  },
+  {
+   "campana": "CU España - Forestal - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 68727,
+   "coste_dia_aud": 1636,
+   "clics_aud": 30,
+   "conv_aud": 0.0,
+   "coste_post": 42155,
+   "coste_dia_post": 3243,
+   "clics_post": 20,
+   "conv_post": 0.0,
+   "keywords_activas": 18,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "PEFC"
+   ],
+   "anuncios": 1,
+   "anexo_a": {
+    "propuestos": 2,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 6.9,
+    "pct_fuerte": 81.7,
+    "score": 2.6
+   },
+   "rel_post": {
+    "pct_nula": 50.7,
+    "pct_fuerte": 37.1,
+    "score": 1.9,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+   "marca": "ps",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 61307,
+   "coste_dia_aud": 1460,
+   "clics_aud": 37,
+   "conv_aud": 0.0,
+   "coste_post": 38254,
+   "coste_dia_post": 2943,
+   "clics_post": 27,
+   "conv_post": 0.0,
+   "keywords_activas": 32,
+   "keywords_pausadas": 0,
+   "negativos": 17,
+   "consultant_negativo": false,
+   "grupos": [
+    "Biocombustibles",
+    "Bioenergia",
+    "ISCC RED",
+    "Trazabilidad"
+   ],
+   "anuncios": 4,
+   "anexo_a": {
+    "propuestos": 3,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": null,
+   "rel_aud": {
+    "pct_nula": 55.2,
+    "pct_fuerte": 29.9,
+    "score": 1.7
+   },
+   "rel_post": {
+    "pct_nula": 46.6,
+    "pct_fuerte": 35.6,
+    "score": 1.9,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU España - Textile - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 89865,
+   "coste_dia_aud": 2140,
+   "clics_aud": 36,
+   "conv_aud": 0.0,
+   "coste_post": 35080,
+   "coste_dia_post": 2698,
+   "clics_post": 26,
+   "conv_post": 0.0,
+   "keywords_activas": 45,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "GOTS",
+    "GRS",
+    "Higg FEM"
+   ],
+   "anuncios": 3,
+   "anexo_a": {
+    "propuestos": 2,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": {
+    "propuestas": 3,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 55.3,
+    "score": 2.5
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 48.5,
+    "score": 2.5,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "PS Argentina - SuSe - Huella de agua - Search",
+   "marca": "ps",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 35439,
+   "coste_dia_aud": 844,
+   "clics_aud": 14,
+   "conv_aud": 0.0,
+   "coste_post": 33973,
+   "coste_dia_post": 2613,
+   "clics_post": 9,
+   "conv_post": 0.0,
+   "keywords_activas": 29,
+   "keywords_pausadas": 0,
+   "negativos": 0,
+   "consultant_negativo": false,
+   "grupos": [
+    "Agua agroindustria",
+    "Gestion agua",
+    "Huella hidrica",
+    "Riesgo hidrico"
+   ],
+   "anuncios": 4,
+   "anexo_a": {
+    "propuestos": 3,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 0.0,
+    "score": 0.0
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 0.0,
+    "score": 0.0,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Portugal - Plasticos - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 25550,
+   "coste_dia_aud": 608,
+   "clics_aud": 13,
+   "conv_aud": 0.0,
+   "coste_post": 33202,
+   "coste_dia_post": 2554,
+   "clics_post": 14,
+   "conv_post": 0.0,
+   "keywords_activas": 24,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "RecyClass",
+    "UNE 15343"
+   ],
+   "anuncios": 2,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 61.5,
+    "score": 2.4
+   },
+   "rel_post": {
+    "pct_nula": 36.4,
+    "pct_fuerte": 63.6,
+    "score": 1.8,
+    "relev_debajo": 2069.7
+   }
+  },
+  {
+   "campana": "CU España - Plasticos - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 34222,
+   "coste_dia_aud": 815,
+   "clics_aud": 12,
+   "conv_aud": 0.0,
+   "coste_post": 32414,
+   "coste_dia_post": 2493,
+   "clics_post": 15,
+   "conv_post": 2.0,
+   "keywords_activas": 34,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "RecyClass",
+    "UNE 15343"
+   ],
+   "anuncios": 2,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 98.1,
+    "score": 3.0
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 3.0,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Canada - Canada Gap - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 78745,
+   "coste_dia_aud": 1875,
+   "clics_aud": 27,
+   "conv_aud": 0.0,
+   "coste_post": 32303,
+   "coste_dia_post": 2485,
+   "clics_post": 12,
+   "conv_post": 0.0,
+   "keywords_activas": 45,
+   "keywords_pausadas": 0,
+   "negativos": 26,
+   "consultant_negativo": false,
+   "grupos": [
+    "CanadaGAP audit",
+    "CanadaGAP cert",
+    "Fresh produce",
+    "Greenhouse",
+    "Handling brokerage",
+    "Packing storage"
+   ],
+   "anuncios": 6,
+   "anexo_a": {
+    "propuestos": 4,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 15.4,
+    "pct_fuerte": 78.5,
+    "score": 2.1
+   },
+   "rel_post": {
+    "pct_nula": 32.0,
+    "pct_fuerte": 49.4,
+    "score": 2.2,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+   "marca": "ps",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 115316,
+   "coste_dia_aud": 2746,
+   "clics_aud": 92,
+   "conv_aud": 0.0,
+   "coste_post": 31932,
+   "coste_dia_post": 2456,
+   "clics_post": 28,
+   "conv_post": 0.0,
+   "keywords_activas": 33,
+   "keywords_pausadas": 0,
+   "negativos": 0,
+   "consultant_negativo": false,
+   "grupos": [
+    "AFOLU",
+    "Huella carbono",
+    "Huella producto",
+    "Scope 1 2 3"
+   ],
+   "anuncios": 4,
+   "anexo_a": {
+    "propuestos": 5,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 37.5,
+    "pct_fuerte": 24.1,
+    "score": 1.2
+   },
+   "rel_post": {
+    "pct_nula": 47.1,
+    "pct_fuerte": 16.6,
+    "score": 0.4,
+    "relev_debajo": 1695.2
+   }
+  },
+  {
+   "campana": "CU Portugal - Smeta - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 19287,
+   "coste_dia_aud": 459,
+   "clics_aud": 11,
+   "conv_aud": 0.0,
+   "coste_post": 31767,
+   "coste_dia_post": 2444,
+   "clics_post": 11,
+   "conv_post": 0.0,
+   "keywords_activas": 15,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "Smeta"
+   ],
+   "anuncios": 1,
+   "anexo_a": null,
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 2.9
+   },
+   "rel_post": {
+    "pct_nula": 22.5,
+    "pct_fuerte": 77.5,
+    "score": 2.5,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU España - CAEs - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 112223,
+   "coste_dia_aud": 2672,
+   "clics_aud": 75,
+   "conv_aud": 1.0,
+   "coste_post": 31732,
+   "coste_dia_post": 2441,
+   "clics_post": 28,
+   "conv_post": 1.0,
+   "keywords_activas": 28,
+   "keywords_pausadas": 0,
+   "negativos": 14,
+   "consultant_negativo": false,
+   "grupos": [
+    "Certificados y Sistema CAE",
+    "Verificación y Actuaciones CAE"
+   ],
+   "anuncios": 2,
+   "anexo_a": {
+    "propuestos": 6,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 31.6,
+    "pct_fuerte": 30.2,
+    "score": 1.1
+   },
+   "rel_post": {
+    "pct_nula": 44.8,
+    "pct_fuerte": 28.8,
+    "score": 0.8,
+    "relev_debajo": 10449.4
+   }
+  },
+  {
+   "campana": "CU Portugal - Bioenergia - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 37462,
+   "coste_dia_aud": 892,
+   "clics_aud": 16,
+   "conv_aud": 0.0,
+   "coste_post": 30798,
+   "coste_dia_post": 2369,
+   "clics_post": 13,
+   "conv_post": 0.0,
+   "keywords_activas": 13,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "ISCC"
+   ],
+   "anuncios": 1,
+   "anexo_a": null,
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 2.9
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 2.7,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+   "marca": "ps",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 130478,
+   "coste_dia_aud": 3107,
+   "clics_aud": 382,
+   "conv_aud": 0.0,
+   "coste_post": 30630,
+   "coste_dia_post": 2356,
+   "clics_post": 77,
+   "conv_post": 0.0,
+   "keywords_activas": 27,
+   "keywords_pausadas": 0,
+   "negativos": 17,
+   "consultant_negativo": false,
+   "grupos": [
+    "Carbono campo",
+    "Impacto",
+    "Regenerativa",
+    "Transicion"
+   ],
+   "anuncios": 4,
+   "anexo_a": {
+    "propuestos": 8,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 50.0,
+    "pct_fuerte": 9.4,
+    "score": 1.4
+   },
+   "rel_post": {
+    "pct_nula": 58.6,
+    "pct_fuerte": 11.0,
+    "score": 1.3,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU España - IFS - SEARCH",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 107408,
+   "coste_dia_aud": 2557,
+   "clics_aud": 43,
+   "conv_aud": 0.0,
+   "coste_post": 30618,
+   "coste_dia_post": 2355,
+   "clics_post": 17,
+   "conv_post": 0.0,
+   "keywords_activas": 9,
+   "keywords_pausadas": 0,
+   "negativos": 13,
+   "consultant_negativo": false,
+   "grupos": [
+    "Food Safety"
+   ],
+   "anuncios": 1,
+   "anexo_a": {
+    "propuestos": 4,
+    "aplicados": 1,
+    "cuales": [
+     "curso"
+    ]
+   },
+   "anexo_b": {
+    "propuestas": 3,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 55.5,
+    "pct_fuerte": 5.2,
+    "score": 0.1
+   },
+   "rel_post": {
+    "pct_nula": 100.0,
+    "pct_fuerte": 0.0,
+    "score": 0.0,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Canada - Smeta - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 17237,
+   "coste_dia_aud": 410,
+   "clics_aud": 4,
+   "conv_aud": 0.0,
+   "coste_post": 30049,
+   "coste_dia_post": 2311,
+   "clics_post": 11,
+   "conv_post": 0.0,
+   "keywords_activas": 36,
+   "keywords_pausadas": 0,
+   "negativos": 14,
+   "consultant_negativo": false,
+   "grupos": [
+    "Smeta"
+   ],
+   "anuncios": 1,
+   "anexo_a": null,
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 3.0
+   },
+   "rel_post": {
+    "pct_nula": 21.8,
+    "pct_fuerte": 7.6,
+    "score": 1.2,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU España - Bioenergia - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 38922,
+   "coste_dia_aud": 927,
+   "clics_aud": 16,
+   "conv_aud": 2.0,
+   "coste_post": 28906,
+   "coste_dia_post": 2224,
+   "clics_post": 14,
+   "conv_post": 0.0,
+   "keywords_activas": 21,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "ISCC"
+   ],
+   "anuncios": 1,
+   "anexo_a": null,
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 2.4
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 2.2,
+    "relev_debajo": 17455.6
+   }
+  },
+  {
+   "campana": "PCU España - Competidores ISO 27001 - Search",
+   "marca": "pcu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2500,
+   "nueva": false,
+   "coste_aud": 0,
+   "coste_dia_aud": 0,
+   "clics_aud": 0,
+   "conv_aud": 0.0,
+   "coste_post": 28338,
+   "coste_dia_post": 2180,
+   "clics_post": 7,
+   "conv_post": 0.0,
+   "keywords_activas": 8,
+   "keywords_pausadas": 0,
+   "negativos": 108,
+   "consultant_negativo": true,
+   "grupos": [
+    "Comparación"
+   ],
+   "anuncios": 2,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 0.0,
+    "score": 1.0,
+    "relev_debajo": 10751.6
+   }
+  },
+  {
+   "campana": "CU Portugal - Forestal - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 55623,
+   "coste_dia_aud": 1324,
+   "clics_aud": 24,
+   "conv_aud": 0.0,
+   "coste_post": 27310,
+   "coste_dia_post": 2101,
+   "clics_post": 12,
+   "conv_post": 0.0,
+   "keywords_activas": 11,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "PEFC"
+   ],
+   "anuncios": 1,
+   "anexo_a": null,
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 81.9,
+    "score": 2.6
+   },
+   "rel_post": {
+    "pct_nula": 18.1,
+    "pct_fuerte": 70.7,
+    "score": 2.5,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Canada - GLOBALG.A.P. - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 15701,
+   "coste_dia_aud": 374,
+   "clics_aud": 3,
+   "conv_aud": 1.0,
+   "coste_post": 25882,
+   "coste_dia_post": 1991,
+   "clics_post": 7,
+   "conv_post": 0.0,
+   "keywords_activas": 43,
+   "keywords_pausadas": 0,
+   "negativos": 26,
+   "consultant_negativo": false,
+   "grupos": [
+    "Chain of Custody",
+    "Farm assurance",
+    "GLOBALG.A.P audit",
+    "GLOBALG.A.P cert",
+    "IFA"
+   ],
+   "anuncios": 5,
+   "anexo_a": null,
+   "anexo_b": {
+    "propuestas": 1,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 2.0
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 69.6,
+    "score": 1.4,
+    "relev_debajo": 14778.2
+   }
+  },
+  {
+   "campana": "PS Argentina - SuSe - ESG / Reportes - Search",
+   "marca": "ps",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 90744,
+   "coste_dia_aud": 2161,
+   "clics_aud": 57,
+   "conv_aud": 0.0,
+   "coste_post": 25760,
+   "coste_dia_post": 1982,
+   "clics_post": 19,
+   "conv_post": 0.0,
+   "keywords_activas": 32,
+   "keywords_pausadas": 0,
+   "negativos": 13,
+   "consultant_negativo": false,
+   "grupos": [
+    "Consultoria ESG",
+    "Datos ESG",
+    "Materialidad",
+    "Reportes ESG"
+   ],
+   "anuncios": 4,
+   "anexo_a": {
+    "propuestos": 4,
+    "aplicados": 1,
+    "cuales": [
+     "que es"
+    ]
+   },
+   "anexo_b": {
+    "propuestas": 3,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 49.0,
+    "score": 1.2
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 39.0,
+    "score": 1.2,
+    "relev_debajo": 2525.4
+   }
+  },
+  {
+   "campana": "CU Canada- Aqua / Fisheries - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 34279,
+   "coste_dia_aud": 816,
+   "clics_aud": 8,
+   "conv_aud": 0.0,
+   "coste_post": 24271,
+   "coste_dia_post": 1867,
+   "clics_post": 6,
+   "conv_post": 0.0,
+   "keywords_activas": 40,
+   "keywords_pausadas": 0,
+   "negativos": 25,
+   "consultant_negativo": false,
+   "grupos": [
+    "ASC",
+    "Aqua certification",
+    "BAP",
+    "MSC",
+    "Seafood traceability"
+   ],
+   "anuncios": 5,
+   "anexo_a": null,
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 0,
+    "cuales": []
+   },
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 78.1,
+    "score": 1.5
+   },
+   "rel_post": {
+    "pct_nula": 34.1,
+    "pct_fuerte": 65.9,
+    "score": 1.0,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Portugal - Biomasa - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 661,
+   "coste_dia_aud": 16,
+   "clics_aud": 1,
+   "conv_aud": 0.0,
+   "coste_post": 17215,
+   "coste_dia_post": 1324,
+   "clics_post": 6,
+   "conv_post": 0.0,
+   "keywords_activas": 12,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "SURE"
+   ],
+   "anuncios": 1,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 3.0,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "PCU Argentina - Competidores ISO 27001 - Search",
+   "marca": "pcu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2000,
+   "nueva": false,
+   "coste_aud": 2234,
+   "coste_dia_aud": 53,
+   "clics_aud": 1,
+   "conv_aud": 0.0,
+   "coste_post": 11719,
+   "coste_dia_post": 901,
+   "clics_post": 6,
+   "conv_post": 0.0,
+   "keywords_activas": 8,
+   "keywords_pausadas": 0,
+   "negativos": 105,
+   "consultant_negativo": true,
+   "grupos": [
+    "Comparación"
+   ],
+   "anuncios": 2,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 78.4,
+    "score": 2.8,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Argentina - GHG - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 3000,
+   "nueva": true,
+   "coste_aud": 0,
+   "coste_dia_aud": 0,
+   "clics_aud": 0,
+   "conv_aud": 0.0,
+   "coste_post": 9674,
+   "coste_dia_post": 744,
+   "clics_post": 9,
+   "conv_post": 0.0,
+   "keywords_activas": 6,
+   "keywords_pausadas": 20,
+   "negativos": 73,
+   "consultant_negativo": true,
+   "grupos": [
+    "GHG verificación"
+   ],
+   "anuncios": 1,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 0.0,
+    "score": 1.0,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU España - GMP+ - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 3402,
+   "nueva": false,
+   "coste_aud": 0,
+   "coste_dia_aud": 0,
+   "clics_aud": 0,
+   "conv_aud": 0.0,
+   "coste_post": 7738,
+   "coste_dia_post": 595,
+   "clics_post": 2,
+   "conv_post": 0.0,
+   "keywords_activas": 31,
+   "keywords_pausadas": 0,
+   "negativos": 13,
+   "consultant_negativo": false,
+   "grupos": [
+    "Certificación",
+    "Feed Safety",
+    "Renovación / Transferencia"
+   ],
+   "anuncios": 3,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": null
+  },
+  {
+   "campana": "PS Argentina - CeSu - Preparacion para certificaciones - Search",
+   "marca": "ps",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 0,
+   "coste_dia_aud": 0,
+   "clics_aud": 0,
+   "conv_aud": 0.0,
+   "coste_post": 5809,
+   "coste_dia_post": 447,
+   "clics_post": 3,
+   "conv_post": 0.0,
+   "keywords_activas": 39,
+   "keywords_pausadas": 0,
+   "negativos": 17,
+   "consultant_negativo": false,
+   "grupos": [
+    "2BSvs",
+    "FSA",
+    "Gap analysis",
+    "ISCC",
+    "Preparación"
+   ],
+   "anuncios": 5,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": {
+    "pct_nula": 100.0,
+    "pct_fuerte": 0.0,
+    "score": 0.0,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Argentina - Biocombustible - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 1500,
+   "nueva": true,
+   "coste_aud": 0,
+   "coste_dia_aud": 0,
+   "clics_aud": 0,
+   "conv_aud": 0.0,
+   "coste_post": 5525,
+   "coste_dia_post": 425,
+   "clics_post": 4,
+   "conv_post": 0.0,
+   "keywords_activas": 26,
+   "keywords_pausadas": 68,
+   "negativos": 72,
+   "consultant_negativo": true,
+   "grupos": [
+    "2BS compra",
+    "ISCC CORSIA compra",
+    "ISCC EU compra",
+    "ISCC plus compra",
+    "ISCC sector",
+    "RFS2 compra"
+   ],
+   "anuncios": 6,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": null
+  },
+  {
+   "campana": "CU Argentina - Industria - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2000,
+   "nueva": true,
+   "coste_aud": 0,
+   "coste_dia_aud": 0,
+   "clics_aud": 0,
+   "conv_aud": 0.0,
+   "coste_post": 4824,
+   "coste_dia_post": 371,
+   "clics_post": 4,
+   "conv_post": 0.0,
+   "keywords_activas": 2,
+   "keywords_pausadas": 60,
+   "negativos": 76,
+   "consultant_negativo": true,
+   "grupos": [
+    "FSSC compra",
+    "FSSC proceso",
+    "SMETA compra",
+    "SMETA proceso"
+   ],
+   "anuncios": 4,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 2.0,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "PS Argentina - SuSo - Trazabilidad / EUDR - Search",
+   "marca": "ps",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 8316,
+   "coste_dia_aud": 198,
+   "clics_aud": 3,
+   "conv_aud": 0.0,
+   "coste_post": 4529,
+   "coste_dia_post": 348,
+   "clics_post": 3,
+   "conv_post": 0.0,
+   "keywords_activas": 29,
+   "keywords_pausadas": 0,
+   "negativos": 18,
+   "consultant_negativo": false,
+   "grupos": [
+    "Due diligence",
+    "EUDR",
+    "Geolocalizacion",
+    "Trazabilidad"
+   ],
+   "anuncios": 4,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": {
+    "pct_nula": 8.1,
+    "pct_fuerte": 0.0,
+    "score": 1.8
+   },
+   "rel_post": null
+  },
+  {
+   "campana": "PS Argentina - SuSo - Abastecimiento sostenible - Search",
+   "marca": "ps",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 5763,
+   "coste_dia_aud": 137,
+   "clics_aud": 5,
+   "conv_aud": 0.0,
+   "coste_post": 3117,
+   "coste_dia_post": 240,
+   "clics_post": 2,
+   "conv_post": 0.0,
+   "keywords_activas": 32,
+   "keywords_pausadas": 0,
+   "negativos": 21,
+   "consultant_negativo": false,
+   "grupos": [
+    "Abastecimiento",
+    "Cadena de valor",
+    "Proveedores",
+    "Responsible sourcing"
+   ],
+   "anuncios": 4,
+   "anexo_a": {
+    "propuestos": 2,
+    "aplicados": 0,
+    "cuales": []
+   },
+   "anexo_b": null,
+   "rel_aud": {
+    "pct_nula": 100.0,
+    "pct_fuerte": 0.0,
+    "score": 0.0
+   },
+   "rel_post": null
+  },
+  {
+   "campana": "CU España - Biomasa - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 2268,
+   "nueva": false,
+   "coste_aud": 5212,
+   "coste_dia_aud": 124,
+   "clics_aud": 2,
+   "conv_aud": 0.0,
+   "coste_post": 1246,
+   "coste_dia_post": 96,
+   "clics_post": 1,
+   "conv_post": 0.0,
+   "keywords_activas": 16,
+   "keywords_pausadas": 0,
+   "negativos": 12,
+   "consultant_negativo": false,
+   "grupos": [
+    "SURE"
+   ],
+   "anuncios": 1,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 3.0
+   },
+   "rel_post": {
+    "pct_nula": 0.0,
+    "pct_fuerte": 100.0,
+    "score": 3.0,
+    "relev_debajo": 0.0
+   }
+  },
+  {
+   "campana": "CU Argentina - Cadena de Custodia - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 1500,
+   "nueva": true,
+   "coste_aud": 0,
+   "coste_dia_aud": 0,
+   "clics_aud": 0,
+   "conv_aud": 0.0,
+   "coste_post": 0,
+   "coste_dia_post": 0,
+   "clics_post": 0,
+   "conv_post": 0.0,
+   "keywords_activas": 1,
+   "keywords_pausadas": 53,
+   "negativos": 75,
+   "consultant_negativo": true,
+   "grupos": [
+    "FSC compra",
+    "FSC sector",
+    "RSPO compra"
+   ],
+   "anuncios": 3,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": null
+  },
+  {
+   "campana": "CU Argentina - Agro sostentible - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 1500,
+   "nueva": true,
+   "coste_aud": 0,
+   "coste_dia_aud": 0,
+   "clics_aud": 0,
+   "conv_aud": 0.0,
+   "coste_post": 0,
+   "coste_dia_post": 0,
+   "clics_post": 0,
+   "conv_post": 0.0,
+   "keywords_activas": 1,
+   "keywords_pausadas": 86,
+   "negativos": 84,
+   "consultant_negativo": true,
+   "grupos": [
+    "FSA SAI",
+    "FTUSA",
+    "RTRS COC",
+    "RTRS producción",
+    "RWS",
+    "Regenagri"
+   ],
+   "anuncios": 6,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": null
+  },
+  {
+   "campana": "CU Portugal - GMP+ - SEARCH",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 3402,
+   "nueva": false,
+   "coste_aud": 0,
+   "coste_dia_aud": 0,
+   "clics_aud": 0,
+   "conv_aud": 0.0,
+   "coste_post": 0,
+   "coste_dia_post": 0,
+   "clics_post": 0,
+   "conv_post": 0.0,
+   "keywords_activas": 24,
+   "keywords_pausadas": 0,
+   "negativos": 14,
+   "consultant_negativo": false,
+   "grupos": [
+    "Certificación",
+    "Feed Safety",
+    "Renovacion / Transferencia"
+   ],
+   "anuncios": 3,
+   "anexo_a": null,
+   "anexo_b": null,
+   "rel_aud": null,
+   "rel_post": null
+  },
+  {
+   "campana": "CU United States - Organic - PrimusGFS - Search",
+   "marca": "cu",
+   "estado": "ENABLED",
+   "presupuesto_dia": 8000,
+   "nueva": false,
+   "coste_aud": 25941,
+   "coste_dia_aud": 618,
+   "clics_aud": 4,
+   "conv_aud": 0.0,
+   "coste_post": 0,
+   "coste_dia_post": 0,
+   "clics_post": 0,
+   "conv_post": 0.0,
+   "keywords_activas": 28,
+   "keywords_pausadas": 0,
+   "negativos": 39,
+   "consultant_negativo": false,
+   "grupos": [
+    "Cold Storage Distribution",
+    "Combined Organic PrimusGFS",
+    "Growers & Packers",
+    "PrimusGFS Core Generic",
+    "Switcher Competitor"
+   ],
+   "anuncios": 5,
+   "anexo_a": null,
+   "anexo_b": {
+    "propuestas": 2,
+    "aplicadas": 1,
+    "cuales": [
+     "primusgfs"
+    ]
+   },
+   "rel_aud": {
+    "pct_nula": 100.0,
+    "pct_fuerte": 0.0,
+    "score": 0.0
+   },
+   "rel_post": null
+  }
+ ],
+ "por_marca": {
+  "cu": {
+   "coste_dia_aud": 27622,
+   "coste_dia_post": 63558,
+   "conv_post": 4.0,
+   "conv_aud": 5.0,
+   "relacion_post": [
+    {
+     "relacion_anuncio": "fuerte",
+     "coste": 281316.87,
+     "terminos": 78,
+     "clics": 110,
+     "pct": 60.2
+    },
+    {
+     "relacion_anuncio": "nula",
+     "coste": 84600.65,
+     "terminos": 34,
+     "clics": 35,
+     "pct": 18.1
+    },
+    {
+     "relacion_anuncio": "parcial",
+     "coste": 95126.06999999999,
+     "terminos": 32,
+     "clics": 32,
+     "pct": 20.4
+    },
+    {
+     "relacion_anuncio": "sin anuncio",
+     "coste": 6381.860000000001,
+     "terminos": 6,
+     "clics": 6,
+     "pct": 1.4
+    }
+   ],
+   "relacion_aud": [
+    {
+     "relacion_anuncio": "fuerte",
+     "coste": 442635.93,
+     "terminos": 92,
+     "clics": 160,
+     "pct": 64.8
+    },
+    {
+     "relacion_anuncio": "nula",
+     "coste": 81957.93,
+     "terminos": 30,
+     "clics": 33,
+     "pct": 12.0
+    },
+    {
+     "relacion_anuncio": "parcial",
+     "coste": 154026.85,
+     "terminos": 47,
+     "clics": 56,
+     "pct": 22.5
+    },
+    {
+     "relacion_anuncio": "sin anuncio",
+     "coste": 4964.719999999999,
+     "terminos": 2,
+     "clics": 2,
+     "pct": 0.7
+    }
+   ],
+   "peores_post": [
+    {
+     "campana": "CU Canada - Canada Gap - Search",
+     "termino": "cargill canada",
+     "keyword": "canada gap certification",
+     "coste": 8178.17,
+     "clics": 2,
+     "titulos": "CanadaGAP Certification | CanadaGAP Audit Support | Fresh Produce Safety | Produce Certification | Food Safety Audits | Don't Risk It, Get Certified | Audit Readiness | Produce Handling Audit | Greenhouse Food Safety | Packing House Support | Strengthen Traceability | Contact Our Experts | Transpare",
+     "url_final": "https://northamerica.controlunion.com/certification-program/canadagap/"
+    },
+    {
+     "campana": "CU España - Smeta - Search",
+     "termino": "intertek ibérica spain s l u",
+     "keyword": "smeta auditoria",
+     "coste": 4493.09,
+     "clics": 1,
+     "titulos": "Certificación SMETA | Auditoría SMETA | SMETA 2 Y 4 Pilares | SEDEX Y SMETA | SMETA España | Solicita Información | Prepara Tu Auditoría",
+     "url_final": "https://espana.controlunion.com/programa-de-certificacion/smeta/"
+    },
+    {
+     "campana": "CU Portugal - Plasticos - Search",
+     "termino": "bso consulting",
+     "keyword": "norma 15343",
+     "coste": 4418.15,
+     "clics": 1,
+     "titulos": "Certificação UNE 15343 | Plásticos Reciclados | Auditoria EN 15343 | Cumprir EN 15343 | Peça Informação | Certificação EN 15343 | EN 15343 Portugal",
+     "url_final": "https://portugal.controlunion.com/programas-de-certificacao/une-en-15343/"
+    },
+    {
+     "campana": "CU Canada- Aqua / Fisheries - Search",
+     "termino": "marine stewardship certification",
+     "keyword": "seafood certification",
+     "coste": 4037.46,
+     "clics": 1,
+     "titulos": "Control Union | Aqua Certification | Aquaculture Audits | ASC Certification | MSC Certification | BAP Certification | Seafood Traceability | Chain Of Custody | Fisheries Certification | Request Certification | Responsible Aquaculture | Seafood Audit Support | Sustainable Fisheries | Canada Aqua Supp",
+     "url_final": "https://northamerica.controlunion.com/industry/aquaculture-and-fisheries/"
+    },
+    {
+     "campana": "CU Portugal - Smeta - Search",
+     "termino": "kiwa com",
+     "keyword": "sedex smeta",
+     "coste": 3858.2,
+     "clics": 1,
+     "titulos": "Certificação SMETA | Auditoria SMETA | SMETA 2 E 4 Pilares | Auditoria Social | SEDEX E SMETA | SMETA Portugal | Peça Informação",
+     "url_final": "https://portugal.controlunion.com/programas-de-certificacao/smeta/"
+    },
+    {
+     "campana": "CU España - Forestal - Search",
+     "termino": "sostenibilidad aplicada al sistema productivo",
+     "keyword": "pefc certification",
+     "coste": 3856.44,
+     "clics": 1,
+     "titulos": "Certificación PEFC | Auditoría PEFC | Cadena Custodia PEFC | Certificación Forestal | Forestal Sostenible | PEFC España | Solicita Información",
+     "url_final": "https://espana.controlunion.com/programa-de-certificacion/pefc-programa-para-la-homologacion-de-esquemas-nacionales/"
+    }
+   ]
+  },
+  "ps": {
+   "coste_dia_aud": 10652,
+   "coste_dia_post": 13385,
+   "conv_post": 0.0,
+   "conv_aud": 0.0,
+   "relacion_post": [
+    {
+     "relacion_anuncio": "fuerte",
+     "coste": 18721.09,
+     "terminos": 16,
+     "clics": 20,
+     "pct": 25.8
+    },
+    {
+     "relacion_anuncio": "nula",
+     "coste": 28156.96,
+     "terminos": 25,
+     "clics": 34,
+     "pct": 38.7
+    },
+    {
+     "relacion_anuncio": "parcial",
+     "coste": 25821.8,
+     "terminos": 20,
+     "clics": 23,
+     "pct": 35.5
+    }
+   ],
+   "relacion_aud": [
+    {
+     "relacion_anuncio": "fuerte",
+     "coste": 48806.18,
+     "terminos": 30,
+     "clics": 43,
+     "pct": 23.5
+    },
+    {
+     "relacion_anuncio": "nula",
+     "coste": 70949.58,
+     "terminos": 50,
+     "clics": 70,
+     "pct": 34.1
+    },
+    {
+     "relacion_anuncio": "parcial",
+     "coste": 88049.75,
+     "terminos": 73,
+     "clics": 180,
+     "pct": 42.4
+    }
+   ],
+   "peores_post": [
+    {
+     "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+     "termino": "biogas",
+     "keyword": "bioenergia sostenible",
+     "coste": 7405.71,
+     "clics": 3,
+     "titulos": "Bioenergia Sostenible | Biocombustibles | Biomasa Certificacion | ISCC Biocombustibles | 2BSvs Biocombustibles | RED II Support | Mass Balance | Trazabilidad Biomasa | Consultoria Peterson | Biofuels Compliance | Cadena Bioenergia | Certificacion Biomasa | Mercado Bioenergia | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/industry/bioenergia/"
+    },
+    {
+     "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+     "termino": "dosbio",
+     "keyword": "bioenergia sostenible",
+     "coste": 2519.28,
+     "clics": 2,
+     "titulos": "Bioenergia Sostenible | Biocombustibles | Biomasa Certificacion | ISCC Biocombustibles | 2BSvs Biocombustibles | RED II Support | Mass Balance | Trazabilidad Biomasa | Consultoria Peterson | Biofuels Compliance | Cadena Bioenergia | Certificacion Biomasa | Mercado Bioenergia | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/industry/bioenergia/"
+    },
+    {
+     "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+     "termino": "iso 14001",
+     "keyword": "inventario gases de efecto invernadero",
+     "coste": 1856.35,
+     "clics": 2,
+     "titulos": "Huella De Carbono | Inventario GEI | Scope 1 2 3 | Emisiones Scope 3 | Huella De Producto | AFOLU Agro | ISO 14064 | Consultoria Peterson | Medicion De Emisiones | Gestion GEI | Reporte De Emisiones | Carbono Corporativo | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/"
+    },
+    {
+     "campana": "PS Argentina - CeSu - Preparacion para certificaciones - Search",
+     "termino": "auditor interno certificado",
+     "keyword": "auditoria interna certificaciones",
+     "coste": 1540.71,
+     "clics": 1,
+     "titulos": "Soporte Certificaciones | Preparacion Auditoria | Gap Analysis | Auditoria Interna | ISCC Support | 2BSvs Support | FSA Support | Certificacion Sostenible | Consultoria Peterson | Auditorias De Certificacion | Preparacion ISCC | Preparacion FSA | Checklist Operativo | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/"
+    },
+    {
+     "campana": "PS Argentina - CeSu - Preparacion para certificaciones - Search",
+     "termino": "iso 9001 auditor interno",
+     "keyword": "auditoria interna certificaciones",
+     "coste": 1515.21,
+     "clics": 1,
+     "titulos": "Soporte Certificaciones | Preparacion Auditoria | Gap Analysis | Auditoria Interna | ISCC Support | 2BSvs Support | FSA Support | Certificacion Sostenible | Consultoria Peterson | Auditorias De Certificacion | Preparacion ISCC | Preparacion FSA | Checklist Operativo | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/"
+    },
+    {
+     "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+     "termino": "biogas industrial",
+     "keyword": "bioenergia sostenible",
+     "coste": 1508.63,
+     "clics": 1,
+     "titulos": "Bioenergia Sostenible | Biocombustibles | Biomasa Certificacion | ISCC Biocombustibles | 2BSvs Biocombustibles | RED II Support | Mass Balance | Trazabilidad Biomasa | Consultoria Peterson | Biofuels Compliance | Cadena Bioenergia | Certificacion Biomasa | Mercado Bioenergia | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/industry/bioenergia/"
+    }
+   ]
+  },
+  "pcu": {
+   "coste_dia_aud": 3321,
+   "coste_dia_post": 31186,
+   "conv_post": 2.0,
+   "conv_aud": 0.0,
+   "relacion_post": [
+    {
+     "relacion_anuncio": "fuerte",
+     "coste": 183870.12,
+     "terminos": 28,
+     "clics": 151,
+     "pct": 69.7
+    },
+    {
+     "relacion_anuncio": "nula",
+     "coste": 6566.63,
+     "terminos": 2,
+     "clics": 3,
+     "pct": 2.5
+    },
+    {
+     "relacion_anuncio": "parcial",
+     "coste": 73512.74,
+     "terminos": 28,
+     "clics": 45,
+     "pct": 27.9
+    }
+   ],
+   "relacion_aud": [
+    {
+     "relacion_anuncio": "fuerte",
+     "coste": 46814.659999999996,
+     "terminos": 7,
+     "clics": 14,
+     "pct": 89.4
+    },
+    {
+     "relacion_anuncio": "parcial",
+     "coste": 5555.72,
+     "terminos": 3,
+     "clics": 3,
+     "pct": 10.6
+    }
+   ],
+   "peores_post": [
+    {
+     "campana": "PCU España - ISO 27001 - Search",
+     "termino": "iso 27",
+     "keyword": "certificacion iso 27001",
+     "coste": 5895.3,
+     "clics": 1,
+     "titulos": "Certificación ISO 27001 | Entidad de certificación | Auditoría ISO 27001 | Certificamos ISO 27001 | Auditores en España | Solicita tu presupuesto | Habla con un auditor | Más de 100 años certificando | Presencia en más de 80 países | Más de 274 oficinas | Alcance acreditado | Certificación de tu SGS",
+     "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/"
+    },
+    {
+     "campana": "PCU España - ISO 27001 - Search",
+     "termino": "iso 2701",
+     "keyword": "certificacion iso 27001",
+     "coste": 671.33,
+     "clics": 2,
+     "titulos": "Certificación ISO 27001 | Entidad de certificación | Auditoría ISO 27001 | Certificamos ISO 27001 | Auditores en España | Solicita tu presupuesto | Habla con un auditor | Más de 100 años certificando | Presencia en más de 80 países | Más de 274 oficinas | Alcance acreditado | Certificación de tu SGS",
+     "url_final": "https://espana.controlunion.com/programa-de-certificacion/certification-program-iso-27001-certification/"
+    }
+   ]
+  }
+ }
+}

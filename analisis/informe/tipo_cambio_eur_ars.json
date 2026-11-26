@@ -1,0 +1,32 @@
+{
+ "fuente": "BCRA, API de estadísticas cambiarias (tipo de cambio de referencia, promedio de los días hábiles del mes)",
+ "generado": "2026-11-10T18:01:53",
+ "tipos": {
+  "EUR": {
+   "2026-02": {
+    "promedio": 1665.0717,
+    "dias": 18
+   },
+   "2026-03": {
+    "promedio": 1613.5057,
+    "dias": 20
+   },
+   "2026-04": {
+    "promedio": 1618.5405,
+    "dias": 20
+   },
+   "2026-05": {
+    "promedio": 1632.1443,
+    "dias": 19
+   },
+   "2026-06": {
+    "promedio": 1669.3026,
+    "dias": 21
+   },
+   "2026-07": {
+    "promedio": 1697.6827,
+    "dias": 21
+   }
+  }
+ }
+}

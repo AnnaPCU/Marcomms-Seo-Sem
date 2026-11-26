@@ -1,0 +1,750 @@
+{
+ "ventana": "2026-08-01_2026-09-11",
+ "marcas": {
+  "cu": {
+   "coste_total": 683585,
+   "terminos": 171,
+   "por_relacion": [
+    {
+     "relacion_anuncio": "fuerte",
+     "coste": 442635.93,
+     "terminos": 92,
+     "clics": 160,
+     "pct": 64.8
+    },
+    {
+     "relacion_anuncio": "nula",
+     "coste": 81957.93,
+     "terminos": 30,
+     "clics": 33,
+     "pct": 12.0
+    },
+    {
+     "relacion_anuncio": "parcial",
+     "coste": 154026.85,
+     "terminos": 47,
+     "clics": 56,
+     "pct": 22.5
+    },
+    {
+     "relacion_anuncio": "sin anuncio",
+     "coste": 4964.719999999999,
+     "terminos": 2,
+     "clics": 2,
+     "pct": 0.7
+    }
+   ],
+   "por_campana": [
+    {
+     "campana": "CU Canada - Forestry - Search",
+     "coste": 127133.0,
+     "terminos": 22.0,
+     "clics": 27.0,
+     "pct_nula": 4.3,
+     "pct_fuerte": 69.1,
+     "score_medio": 1.7,
+     "relev_debajo": 13884.3
+    },
+    {
+     "campana": "CU Canada - Canada Gap - Search",
+     "coste": 68289.7,
+     "terminos": 14.0,
+     "clics": 22.0,
+     "pct_nula": 15.4,
+     "pct_fuerte": 78.5,
+     "score_medio": 2.1,
+     "relev_debajo": 34470.1
+    },
+    {
+     "campana": "CU España - Textile - Search",
+     "coste": 65808.7,
+     "terminos": 15.0,
+     "clics": 25.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 55.3,
+     "score_medio": 2.5,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU España - CAEs - Search",
+     "coste": 60858.0,
+     "terminos": 31.0,
+     "clics": 40.0,
+     "pct_nula": 31.6,
+     "pct_fuerte": 30.2,
+     "score_medio": 1.1,
+     "relev_debajo": 43242.2
+    },
+    {
+     "campana": "CU United States - Organic - USDA NOP - Search",
+     "coste": 39268.5,
+     "terminos": 7.0,
+     "clics": 7.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 47.6,
+     "score_medio": 1.7,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU España - Forestal - Search",
+     "coste": 35122.8,
+     "terminos": 10.0,
+     "clics": 17.0,
+     "pct_nula": 6.9,
+     "pct_fuerte": 81.7,
+     "score_medio": 2.6,
+     "relev_debajo": 1207.0
+    },
+    {
+     "campana": "CU Canada- Aqua / Fisheries - Search",
+     "coste": 34278.6,
+     "terminos": 7.0,
+     "clics": 8.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 78.1,
+     "score_medio": 1.5,
+     "relev_debajo": 7491.5
+    },
+    {
+     "campana": "CU Portugal - Forestal - Search",
+     "coste": 34166.2,
+     "terminos": 7.0,
+     "clics": 15.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 81.9,
+     "score_medio": 2.6,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU España - IFS - SEARCH",
+     "coste": 33174.6,
+     "terminos": 15.0,
+     "clics": 17.0,
+     "pct_nula": 55.5,
+     "pct_fuerte": 5.2,
+     "score_medio": 0.1,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU Portugal - Bioenergia - Search",
+     "coste": 28421.2,
+     "terminos": 8.0,
+     "clics": 11.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 100.0,
+     "score_medio": 2.9,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU España - Smeta - Search",
+     "coste": 27136.7,
+     "terminos": 4.0,
+     "clics": 8.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 100.0,
+     "score_medio": 2.6,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU Portugal - Textile - Search",
+     "coste": 26333.3,
+     "terminos": 12.0,
+     "clics": 17.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 62.8,
+     "score_medio": 2.5,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU United States - Organic - PrimusGFS - Search",
+     "coste": 25941.4,
+     "terminos": 3.0,
+     "clics": 4.0,
+     "pct_nula": 100.0,
+     "pct_fuerte": 0.0,
+     "score_medio": 0.0,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU España - Plasticos - Search",
+     "coste": 18707.6,
+     "terminos": 4.0,
+     "clics": 8.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 98.1,
+     "score_medio": 3.0,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU Portugal - Plasticos - Search",
+     "coste": 17751.5,
+     "terminos": 3.0,
+     "clics": 10.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 61.5,
+     "score_medio": 2.4,
+     "relev_debajo": 4447.1
+    },
+    {
+     "campana": "CU Canada - Smeta - Search",
+     "coste": 12944.3,
+     "terminos": 2.0,
+     "clics": 3.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 100.0,
+     "score_medio": 3.0,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU España - Bioenergia - Search",
+     "coste": 12035.0,
+     "terminos": 3.0,
+     "clics": 4.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 100.0,
+     "score_medio": 2.4,
+     "relev_debajo": 7547.3
+    },
+    {
+     "campana": "CU Canada - GLOBALG.A.P. - Search",
+     "coste": 7702.1,
+     "terminos": 1.0,
+     "clics": 1.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 100.0,
+     "score_medio": 2.0,
+     "relev_debajo": 7702.1
+    },
+    {
+     "campana": "CU Portugal - Smeta - Search",
+     "coste": 6345.1,
+     "terminos": 2.0,
+     "clics": 6.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 100.0,
+     "score_medio": 2.9,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "CU España - Biomasa - Search",
+     "coste": 2167.3,
+     "terminos": 1.0,
+     "clics": 1.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 100.0,
+     "score_medio": 3.0,
+     "relev_debajo": 0.0
+    }
+   ],
+   "peores": [
+    {
+     "campana": "CU United States - Organic - PrimusGFS - Search",
+     "termino": "gfsi consultant",
+     "keyword": "gfsi certification",
+     "coste": 15922.69,
+     "clics": 2,
+     "titulos": "CUC USA: PrimusGFS Cert | PrimusGFS Certification | Get PrimusGFS Certified | PrimusGFS for Fresh Produce | CUC USA Food Safety Cert | Meet Buyer Food Safety Rules | Request a PrimusGFS Quote | Does PrimusGFS Apply to You? | Global PrimusGFS Certifier | Fresh Produce Audit Experts | Certify With CUC",
+     "url_final": "https://northamerica.controlunion.com/certification-program/primusgfs-certification/"
+    },
+    {
+     "campana": "CU Canada - Canada Gap - Search",
+     "termino": "supply chain management in canada",
+     "keyword": "gap certification canada",
+     "coste": 7752.72,
+     "clics": 1,
+     "titulos": "CanadaGAP Certification | CanadaGAP Audit Support | Fresh Produce Safety | Produce Certification | Food Safety Audits | Don't Risk It, Get Certified | Audit Readiness | Produce Handling Audit | Greenhouse Food Safety | Packing House Support | Strengthen Traceability | Contact Our Experts | Transpare",
+     "url_final": "https://northamerica.controlunion.com/certification-program/canadagap/"
+    },
+    {
+     "campana": "CU Canada - Forestry - Search",
+     "termino": "enform falling ticket",
+     "keyword": "forestry certification",
+     "coste": 5426.03,
+     "clics": 1,
+     "titulos": "Forestry Certification | FSC Certification | PEFC Certification | Forest Chain Of Custody | Legal Sourcing Support | Biomass Certification | Timber Traceability | Wood Compliance | Request Certification | Forest Audit Support | Market Access Support | Sustainable Forestry | Wood Pellet Certification",
+     "url_final": "https://northamerica.controlunion.com/industry/forestry/"
+    },
+    {
+     "campana": "CU United States - Organic - PrimusGFS - Search",
+     "termino": "gfsi consultant",
+     "keyword": "gfsi certified",
+     "coste": 5028.14,
+     "clics": 1,
+     "titulos": "CUC USA: PrimusGFS Cert | PrimusGFS Certification | Get PrimusGFS Certified | PrimusGFS for Fresh Produce | CUC USA Food Safety Cert | Meet Buyer Food Safety Rules | Request a PrimusGFS Quote | Does PrimusGFS Apply to You? | Global PrimusGFS Certifier | Fresh Produce Audit Experts | Certify With CUC",
+     "url_final": "https://northamerica.controlunion.com/certification-program/primusgfs-certification/"
+    },
+    {
+     "campana": "CU United States - Organic - PrimusGFS - Search",
+     "termino": "gfsi certification",
+     "keyword": "gfsi certification",
+     "coste": 4990.53,
+     "clics": 1,
+     "titulos": "CUC USA: PrimusGFS Cert | PrimusGFS Certification | Get PrimusGFS Certified | PrimusGFS for Fresh Produce | CUC USA Food Safety Cert | Meet Buyer Food Safety Rules | Request a PrimusGFS Quote | Does PrimusGFS Apply to You? | Global PrimusGFS Certifier | Fresh Produce Audit Experts | Certify With CUC",
+     "url_final": "https://northamerica.controlunion.com/certification-program/primusgfs-certification/"
+    },
+    {
+     "campana": "CU España - IFS - SEARCH",
+     "termino": "iso 22000 2018",
+     "keyword": "certificacion seguridad alimentaria",
+     "coste": 4043.85,
+     "clics": 2,
+     "titulos": "Seguridad Alimentaria | Certificación Food Safety | Auditorías Seguridad Alim. | Gestión Inocuidad Aliment. | Auditoría Inocuidad | Equipo técnico experto | Control Union España | Soporte técnico completo | Auditorías para empresas",
+     "url_final": "https://espana.controlunion.com/industry/seguridad-alimentaria/"
+    },
+    {
+     "campana": "CU España - IFS - SEARCH",
+     "termino": "iso 22000",
+     "keyword": "certificacion seguridad alimentaria",
+     "coste": 3673.4,
+     "clics": 1,
+     "titulos": "Seguridad Alimentaria | Certificación Food Safety | Auditorías Seguridad Alim. | Gestión Inocuidad Aliment. | Auditoría Inocuidad | Equipo técnico experto | Control Union España | Soporte técnico completo | Auditorías para empresas",
+     "url_final": "https://espana.controlunion.com/industry/seguridad-alimentaria/"
+    },
+    {
+     "campana": "CU España - CAEs - Search",
+     "termino": "gestión caes particulares",
+     "keyword": "actuaciones singulares cae",
+     "coste": 3498.31,
+     "clics": 1,
+     "titulos": "Certificado Ahorro Energético | Control Union | Control Union España | Verificación CAE Certificada | Organismo Acreditado por ENAC | Entidad Verificadora | Rigor Técnico en Cada Proyecto",
+     "url_final": "https://espana.controlunion.com/programa-de-certificacion/certificado-ahorro-energetico-cae/"
+    },
+    {
+     "campana": "CU España - CAEs - Search",
+     "termino": "ce3 descargar",
+     "keyword": "certificado de eficiencia energetica",
+     "coste": 2888.89,
+     "clics": 1,
+     "titulos": "Certificado Ahorro Energético | Control Union | Control Union España | Verificación CAE Certificada | Organismo Acreditado por ENAC | Entidad Verificadora | Rigor Técnico en Cada Proyecto",
+     "url_final": "https://espana.controlunion.com/programa-de-certificacion/certificado-ahorro-energetico-cae/"
+    },
+    {
+     "campana": "CU Canada - Canada Gap - Search",
+     "termino": "indocert inc",
+     "keyword": "canada gap certification",
+     "coste": 2766.03,
+     "clics": 1,
+     "titulos": "CanadaGAP Certification | CanadaGAP Audit Support | Fresh Produce Safety | Produce Certification | Food Safety Audits | Don't Risk It, Get Certified | Audit Readiness | Produce Handling Audit | Greenhouse Food Safety | Packing House Support | Strengthen Traceability | Contact Our Experts | Transpare",
+     "url_final": "https://northamerica.controlunion.com/certification-program/canadagap/"
+    },
+    {
+     "campana": "CU España - IFS - SEARCH",
+     "termino": "certificaciones brcgs",
+     "keyword": "certificacion food safety",
+     "coste": 2402.9,
+     "clics": 1,
+     "titulos": "Seguridad Alimentaria | Certificación Food Safety | Auditorías Seguridad Alim. | Gestión Inocuidad Aliment. | Auditoría Inocuidad | Equipo técnico experto | Control Union España | Soporte técnico completo | Auditorías para empresas",
+     "url_final": "https://espana.controlunion.com/industry/seguridad-alimentaria/"
+    },
+    {
+     "campana": "CU España - IFS - SEARCH",
+     "termino": "certificado brc que significa",
+     "keyword": "certificacion seguridad alimentaria",
+     "coste": 2294.35,
+     "clics": 1,
+     "titulos": "Seguridad Alimentaria | Certificación Food Safety | Auditorías Seguridad Alim. | Gestión Inocuidad Aliment. | Auditoría Inocuidad | Equipo técnico experto | Control Union España | Soporte técnico completo | Auditorías para empresas",
+     "url_final": "https://espana.controlunion.com/industry/seguridad-alimentaria/"
+    }
+   ],
+   "mejores": [
+    {
+     "campana": "CU España - Textile - Search",
+     "termino": "global recycled standard",
+     "keyword": "global recycled standard",
+     "coste": 19793.51,
+     "clics": 7
+    },
+    {
+     "campana": "CU España - Plasticos - Search",
+     "termino": "recyclass",
+     "keyword": "recyclass",
+     "coste": 17175.96,
+     "clics": 5
+    },
+    {
+     "campana": "CU España - Forestal - Search",
+     "termino": "pefc españa",
+     "keyword": "pefc espana",
+     "coste": 15694.23,
+     "clics": 6
+    },
+    {
+     "campana": "CU España - Smeta - Search",
+     "termino": "smeta",
+     "keyword": "auditoria smeta",
+     "coste": 14283.11,
+     "clics": 5
+    },
+    {
+     "campana": "CU Canada - Forestry - Search",
+     "termino": "fsc",
+     "keyword": "fsc certification",
+     "coste": 14003.44,
+     "clics": 4
+    },
+    {
+     "campana": "CU Canada - Canada Gap - Search",
+     "termino": "canada gap",
+     "keyword": "canadagap certification",
+     "coste": 11726.94,
+     "clics": 4
+    }
+   ],
+   "google": {
+    "con_dato": 135,
+    "coste_relev_debajo": 119992,
+    "coste_landing_debajo": 385233
+   }
+  },
+  "ps": {
+   "coste_total": 207806,
+   "terminos": 153,
+   "por_relacion": [
+    {
+     "relacion_anuncio": "fuerte",
+     "coste": 48806.18,
+     "terminos": 30,
+     "clics": 43,
+     "pct": 23.5
+    },
+    {
+     "relacion_anuncio": "nula",
+     "coste": 70949.58,
+     "terminos": 50,
+     "clics": 70,
+     "pct": 34.1
+    },
+    {
+     "relacion_anuncio": "parcial",
+     "coste": 88049.75,
+     "terminos": 73,
+     "clics": 180,
+     "pct": 42.4
+    }
+   ],
+   "por_campana": [
+    {
+     "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+     "coste": 63156.4,
+     "terminos": 68.0,
+     "clics": 191.0,
+     "pct_nula": 50.0,
+     "pct_fuerte": 9.4,
+     "score_medio": 1.4,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+     "coste": 55567.0,
+     "terminos": 37.0,
+     "clics": 46.0,
+     "pct_nula": 37.5,
+     "pct_fuerte": 24.1,
+     "score_medio": 1.2,
+     "relev_debajo": 5042.5
+    },
+    {
+     "campana": "PS Argentina - SuSe - ESG / Reportes - Search",
+     "coste": 39988.7,
+     "terminos": 25.0,
+     "clics": 25.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 49.0,
+     "score_medio": 1.2,
+     "relev_debajo": 6795.8
+    },
+    {
+     "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+     "coste": 32947.7,
+     "terminos": 12.0,
+     "clics": 20.0,
+     "pct_nula": 55.2,
+     "pct_fuerte": 29.9,
+     "score_medio": 1.7,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "PS Argentina - SuSe - Huella de agua - Search",
+     "coste": 12317.6,
+     "terminos": 8.0,
+     "clics": 8.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 0.0,
+     "score_medio": 0.0,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "PS Argentina - SuSo - Trazabilidad / EUDR - Search",
+     "coste": 3826.8,
+     "terminos": 2.0,
+     "clics": 2.0,
+     "pct_nula": 8.1,
+     "pct_fuerte": 0.0,
+     "score_medio": 1.8,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "PS Argentina - SuSo - Abastecimiento sostenible - Search",
+     "coste": 1.3,
+     "terminos": 1.0,
+     "clics": 1.0,
+     "pct_nula": 100.0,
+     "pct_fuerte": 0.0,
+     "score_medio": 0.0,
+     "relev_debajo": 1.3
+    }
+   ],
+   "peores": [
+    {
+     "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+     "termino": "fenix bioenergy",
+     "keyword": "bioenergia sostenible",
+     "coste": 7753.1,
+     "clics": 1,
+     "titulos": "Bioenergia Sostenible | Biocombustibles | Biomasa Certificacion | ISCC Biocombustibles | 2BSvs Biocombustibles | RED II Support | Mass Balance | Trazabilidad Biomasa | Consultoria Peterson | Biofuels Compliance | Cadena Bioenergia | Certificacion Biomasa | Mercado Bioenergia | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/industry/bioenergia/"
+    },
+    {
+     "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+     "termino": "biogas",
+     "keyword": "bioenergia sostenible",
+     "coste": 5922.03,
+     "clics": 4,
+     "titulos": "Bioenergia Sostenible | Biocombustibles | Biomasa Certificacion | ISCC Biocombustibles | 2BSvs Biocombustibles | RED II Support | Mass Balance | Trazabilidad Biomasa | Consultoria Peterson | Biofuels Compliance | Cadena Bioenergia | Certificacion Biomasa | Mercado Bioenergia | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/industry/bioenergia/"
+    },
+    {
+     "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+     "termino": "argenbio",
+     "keyword": "agricultura regenerativa en argentina",
+     "coste": 4701.45,
+     "clics": 8,
+     "titulos": "Agricultura Regenerativa | Transicion Regenerativa | Programas Regenerativos | Suelo Y Carbono | Monitoreo En Campo | Consultoria Peterson | Hable Con Peterson | Soporte en Regenagri | Cadena Agricola | Practicas Regenerativas | Medicion De Impacto | Carbono En Suelo | Agenda Una Reunion | Impacto A",
+     "url_final": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/"
+    },
+    {
+     "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+     "termino": "gestión empresarial para la sostenibilidad de pymes",
+     "keyword": "huella de carbono producto",
+     "coste": 3192.36,
+     "clics": 3,
+     "titulos": "Huella De Carbono | Inventario GEI | Scope 1 2 3 | Emisiones Scope 3 | Huella De Producto | AFOLU Agro | ISO 14064 | Consultoria Peterson | Medicion De Emisiones | Gestion GEI | Reporte De Emisiones | Carbono Corporativo | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/"
+    },
+    {
+     "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+     "termino": "sustainability company",
+     "keyword": "huella de carbono producto",
+     "coste": 2840.49,
+     "clics": 3,
+     "titulos": "Huella De Carbono | Inventario GEI | Scope 1 2 3 | Emisiones Scope 3 | Huella De Producto | AFOLU Agro | ISO 14064 | Consultoria Peterson | Medicion De Emisiones | Gestion GEI | Reporte De Emisiones | Carbono Corporativo | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/"
+    },
+    {
+     "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+     "termino": "fragaria srl",
+     "keyword": "agricultura regenerativa en argentina",
+     "coste": 2828.04,
+     "clics": 1,
+     "titulos": "Agricultura Regenerativa | Transicion Regenerativa | Programas Regenerativos | Suelo Y Carbono | Monitoreo En Campo | Consultoria Peterson | Hable Con Peterson | Soporte en Regenagri | Cadena Agricola | Practicas Regenerativas | Medicion De Impacto | Carbono En Suelo | Agenda Una Reunion | Impacto A",
+     "url_final": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/"
+    },
+    {
+     "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+     "termino": "biogas electricidad",
+     "keyword": "bioenergia sostenible",
+     "coste": 2774.59,
+     "clics": 1,
+     "titulos": "Bioenergia Sostenible | Biocombustibles | Biomasa Certificacion | ISCC Biocombustibles | 2BSvs Biocombustibles | RED II Support | Mass Balance | Trazabilidad Biomasa | Consultoria Peterson | Biofuels Compliance | Cadena Bioenergia | Certificacion Biomasa | Mercado Bioenergia | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/industry/bioenergia/"
+    },
+    {
+     "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+     "termino": "corteva argentina",
+     "keyword": "agricultura regenerativa en argentina",
+     "coste": 2598.93,
+     "clics": 1,
+     "titulos": "Agricultura Regenerativa | Transicion Regenerativa | Programas Regenerativos | Suelo Y Carbono | Monitoreo En Campo | Consultoria Peterson | Hable Con Peterson | Soporte en Regenagri | Cadena Agricola | Practicas Regenerativas | Medicion De Impacto | Carbono En Suelo | Agenda Una Reunion | Impacto A",
+     "url_final": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/"
+    },
+    {
+     "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+     "termino": "pools de siembra en argentina",
+     "keyword": "agricultura regenerativa en argentina",
+     "coste": 2497.96,
+     "clics": 1,
+     "titulos": "Agricultura Regenerativa | Transicion Regenerativa | Programas Regenerativos | Suelo Y Carbono | Monitoreo En Campo | Consultoria Peterson | Hable Con Peterson | Soporte en Regenagri | Cadena Agricola | Practicas Regenerativas | Medicion De Impacto | Carbono En Suelo | Agenda Una Reunion | Impacto A",
+     "url_final": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/"
+    },
+    {
+     "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+     "termino": "rizobacter",
+     "keyword": "agricultura regenerativa en argentina",
+     "coste": 2213.51,
+     "clics": 1,
+     "titulos": "Agricultura Regenerativa | Transicion Regenerativa | Programas Regenerativos | Suelo Y Carbono | Monitoreo En Campo | Consultoria Peterson | Hable Con Peterson | Soporte en Regenagri | Cadena Agricola | Practicas Regenerativas | Medicion De Impacto | Carbono En Suelo | Agenda Una Reunion | Impacto A",
+     "url_final": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/"
+    },
+    {
+     "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+     "termino": "iso 14040 44",
+     "keyword": "iso 14067 huella de carbono",
+     "coste": 2008.87,
+     "clics": 1,
+     "titulos": "Huella De Carbono | Inventario GEI | Scope 1 2 3 | Emisiones Scope 3 | Huella De Producto | AFOLU Agro | ISO 14064 | Consultoria Peterson | Medicion De Emisiones | Gestion GEI | Reporte De Emisiones | Carbono Corporativo | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/"
+    },
+    {
+     "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+     "termino": "consultora ambiental",
+     "keyword": "huella de carbono producto",
+     "coste": 1990.4,
+     "clics": 1,
+     "titulos": "Huella De Carbono | Inventario GEI | Scope 1 2 3 | Emisiones Scope 3 | Huella De Producto | AFOLU Agro | ISO 14064 | Consultoria Peterson | Medicion De Emisiones | Gestion GEI | Reporte De Emisiones | Carbono Corporativo | Agenda Una Reunion",
+     "url_final": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/"
+    }
+   ],
+   "mejores": [
+    {
+     "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+     "termino": "energia biomasa",
+     "keyword": "bioenergia sostenible",
+     "coste": 4499.47,
+     "clics": 2
+    },
+    {
+     "campana": "PS Argentina - SuSe - ESG / Reportes - Search",
+     "termino": "csrd",
+     "keyword": "reporte csrd",
+     "coste": 3863.97,
+     "clics": 1
+    },
+    {
+     "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+     "termino": "biomasa energia",
+     "keyword": "bioenergia sostenible",
+     "coste": 3065.35,
+     "clics": 4
+    },
+    {
+     "campana": "PS Argentina - SuSe - ESG / Reportes - Search",
+     "termino": "estandar gri",
+     "keyword": "reporte gri",
+     "coste": 2811.5,
+     "clics": 1
+    },
+    {
+     "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+     "termino": "bonos de carbono",
+     "keyword": "huella de carbono producto",
+     "coste": 2565.52,
+     "clics": 1
+    },
+    {
+     "campana": "PS Argentina - SuSe - ESG / Reportes - Search",
+     "termino": "esg latam",
+     "keyword": "servicios de consultoria esg",
+     "coste": 2543.68,
+     "clics": 1
+    }
+   ],
+   "google": {
+    "con_dato": 123,
+    "coste_relev_debajo": 11840,
+    "coste_landing_debajo": 165472
+   }
+  },
+  "pcu": {
+   "coste_total": 52370,
+   "terminos": 10,
+   "por_relacion": [
+    {
+     "relacion_anuncio": "fuerte",
+     "coste": 46814.659999999996,
+     "terminos": 7,
+     "clics": 14,
+     "pct": 89.4
+    },
+    {
+     "relacion_anuncio": "parcial",
+     "coste": 5555.72,
+     "terminos": 3,
+     "clics": 3,
+     "pct": 10.6
+    }
+   ],
+   "por_campana": [
+    {
+     "campana": "PCU Argentina - ISO 27001 - Search",
+     "coste": 33528.0,
+     "terminos": 7.0,
+     "clics": 13.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 83.4,
+     "score_medio": 2.8,
+     "relev_debajo": 0.0
+    },
+    {
+     "campana": "PCU España - ISO 27001 - Search",
+     "coste": 18842.4,
+     "terminos": 3.0,
+     "clics": 4.0,
+     "pct_nula": 0.0,
+     "pct_fuerte": 100.0,
+     "score_medio": 3.0,
+     "relev_debajo": 0.0
+    }
+   ],
+   "peores": [],
+   "mejores": [
+    {
+     "campana": "PCU Argentina - ISO 27001 - Search",
+     "termino": "iso 27001",
+     "keyword": "certificacion iso 27001",
+     "coste": 18030.09,
+     "clics": 6
+    },
+    {
+     "campana": "PCU España - ISO 27001 - Search",
+     "termino": "iso 27001",
+     "keyword": "certificacion iso 27001",
+     "coste": 9504.63,
+     "clics": 2
+    },
+    {
+     "campana": "PCU España - ISO 27001 - Search",
+     "termino": "certificarse en iso 27001",
+     "keyword": "certificacion iso 27001",
+     "coste": 5652.87,
+     "clics": 1
+    },
+    {
+     "campana": "PCU Argentina - ISO 27001 - Search",
+     "termino": "iso27001",
+     "keyword": "certificacion iso 27001",
+     "coste": 4943.05,
+     "clics": 2
+    },
+    {
+     "campana": "PCU España - ISO 27001 - Search",
+     "termino": "certificacion iso 27001",
+     "keyword": "certificacion iso 27001",
+     "coste": 3684.91,
+     "clics": 1
+    },
+    {
+     "campana": "PCU Argentina - ISO 27001 - Search",
+     "termino": "certificacion 27001",
+     "keyword": "certificacion iso 27001",
+     "coste": 2994.46,
+     "clics": 1
+    }
+   ],
+   "google": {
+    "con_dato": 10,
+    "coste_relev_debajo": 0,
+    "coste_landing_debajo": 52370
+   }
+  }
+ }
+}

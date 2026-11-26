@@ -1,0 +1,202 @@
+/* ===== Sistema neutro interno · Peterson Control Union World Group =====
+   Paleta: solo los colores compartidos por ambos manuales de marca.
+   Dark Blue #1b1e42 · Dark Grey #4f6566 · Light Grey #799495
+   Sin Cyan (CU) ni Aqua/Yellow (PS). Sin logos ni taglines.
+   Tipografía: Calibri (fallback oficial de ambas marcas) / Carlito.        */
+
+:root{
+  --navy:#1b1e42;
+  --ink:#4f6566;
+  --grey:#799495;
+  --tint:#f3f5f6;
+  --tint2:#e8ecee;
+  --hair:#d7dee0;
+  --paper:#ffffff;
+
+  --col: 1fr;
+  --gut: 5mm;
+}
+
+@page{ size:A4; margin:17mm 16mm 16mm 16mm; }
+
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; }
+body{
+  font-family:"Calibri","Carlito","Liberation Sans",sans-serif;
+  font-size:9.3pt; line-height:1.52; color:var(--ink);
+  -webkit-print-color-adjust:exact; print-color-adjust:exact;
+}
+
+/* ---------- grilla base de 12 columnas ---------- */
+.g{ display:grid; grid-template-columns:repeat(12,1fr); gap:var(--gut); }
+.c2{grid-column:span 2}.c3{grid-column:span 3}.c4{grid-column:span 4}
+.c5{grid-column:span 5}.c6{grid-column:span 6}.c7{grid-column:span 7}
+.c8{grid-column:span 8}.c9{grid-column:span 9}.c12{grid-column:span 12}
+
+/* ---------- tipografía ---------- */
+h1,h2,h3,h4{ color:var(--navy); margin:0; font-weight:700; }
+h2{ font-size:19pt; line-height:1.12; letter-spacing:-.012em; }
+h3{ font-size:11.6pt; line-height:1.2; letter-spacing:-.005em; }
+h4{ font-size:9.8pt; line-height:1.25; }
+p{ margin:0 0 6pt; }
+p:last-child{ margin-bottom:0; }
+strong{ color:var(--navy); font-weight:700; }
+em{ font-style:italic; }
+a{ color:var(--navy); text-decoration:none; border-bottom:.5pt solid var(--grey); }
+
+.kick{
+  font-size:7pt; font-weight:700; letter-spacing:.17em; text-transform:uppercase;
+  color:var(--grey); margin:0 0 3pt;
+}
+.kick-n{ color:var(--navy); }
+.lede{ font-size:11.2pt; line-height:1.42; color:var(--navy); font-weight:400; }
+.small{ font-size:8pt; line-height:1.45; color:var(--grey); }
+.mono{ font-family:"Liberation Mono","DejaVu Sans Mono",monospace; font-size:8.2pt; }
+code{ font-family:"Liberation Mono","DejaVu Sans Mono",monospace;
+      font-size:.80em; letter-spacing:-.01em; color:var(--navy);
+      background:var(--tint); padding:.3pt 1.6pt; border-radius:1pt; }
+
+/* ---------- reglas y secciones ---------- */
+.rule{ height:2.4pt; background:var(--navy); margin:0 0 5mm; }
+.hair{ height:.5pt; background:var(--hair); margin:4mm 0; }
+section{ break-inside:auto; }
+.newpage{ break-before:page; }
+.sec-head{ margin-bottom:6mm; }
+.sec-head .rule{ margin-bottom:3.5mm; }
+
+/* ---------- portada ---------- */
+.cover{
+  height:252mm; padding:0; display:flex; flex-direction:column; break-after:page;
+}
+.cover-top{ background:var(--navy); color:#fff; padding:19mm 14mm 13mm; flex:0 0 auto;
+  margin:0 -4mm; }
+.cover-top .kick{ color:rgba(255,255,255,.62); }
+.cover-top h1{
+  color:#fff; font-size:37pt; line-height:1.04; letter-spacing:-.022em;
+  font-weight:700; margin:0 0 7mm; max-width:135mm;
+}
+.cover-meta{ display:grid; grid-template-columns:repeat(12,1fr); gap:var(--gut);
+  border-top:.75pt solid rgba(255,255,255,.28); padding-top:5mm; }
+.cover-meta .lbl{ font-size:6.6pt; letter-spacing:.16em; text-transform:uppercase;
+  color:rgba(255,255,255,.55); margin:0 0 1.5mm; }
+.cover-meta .val{ font-size:9pt; color:#fff; margin:0; line-height:1.3; }
+.cover-body{ padding:12mm 0 0; flex:1 1 auto; }
+.cover-foot{ padding:0; }
+
+/* ---------- fichas de dato ---------- */
+.stat{ border-top:2.4pt solid var(--navy); padding-top:2.5mm; }
+.stat .n{ font-size:30pt; line-height:.95; font-weight:700; color:var(--navy);
+  letter-spacing:-.035em; margin:0 0 1.5mm; }
+.stat .n small{ font-size:15pt; letter-spacing:-.02em; }
+.stat .t{ font-size:7pt; font-weight:700; letter-spacing:.15em; text-transform:uppercase;
+  color:var(--grey); margin:0 0 1mm; }
+.stat .d{ font-size:7.8pt; line-height:1.35; color:var(--ink); margin:0; }
+
+.stat-lite{ border-top:.75pt solid var(--hair); }
+.step{ padding-top:3mm; }
+.step .d{ font-size:8.3pt; line-height:1.45; }
+.step h4{ font-size:11pt; }
+
+/* ---------- paneles ---------- */
+.panel{ background:var(--tint); padding:4mm 4.5mm; }
+.panel-navy{ background:var(--navy); color:#fff; padding:5mm 5.5mm; }
+.panel-navy h3,.panel-navy strong{ color:#fff; }
+.panel-navy .kick{ color:rgba(255,255,255,.6); }
+.panel-navy code{ background:rgba(255,255,255,.14); color:#fff; }
+.panel-line{ border-left:2.4pt solid var(--navy); padding:0 0 0 4mm; break-inside:avoid; }
+
+/* ---------- tablas ---------- */
+table{ width:100%; border-collapse:collapse; font-size:8.2pt; }
+th{ background:var(--navy); color:#fff; text-align:left; font-weight:700;
+  padding:2.2mm 2.5mm; font-size:7.2pt; letter-spacing:.09em; text-transform:uppercase; }
+td{ padding:2mm 2.5mm; border-bottom:.5pt solid var(--hair); vertical-align:top; line-height:1.38; }
+tbody tr:nth-child(even) td{ background:var(--tint); }
+td.num{ text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+th.num{ text-align:right; }
+tbody tr.total td, tbody tr.total:nth-child(even) td{
+  background:var(--navy) !important; color:#fff !important; font-weight:700; border-bottom:none; }
+tbody tr.total td .small, tbody tr.total td span{ color:rgba(255,255,255,.72) !important; }
+table.tight td{ padding:1.5mm 2.5mm; font-size:7.8pt; }
+
+/* ---------- decisiones (rail + narrativa) ---------- */
+.dec{ break-inside:avoid-page; margin-bottom:6mm; padding-bottom:5mm;
+  border-bottom:.5pt solid var(--hair); }
+.dec:last-child{ border-bottom:none; margin-bottom:0; }
+.dec > div > p, .dec .c9 p, .dec .c3 > p{ font-size:8.7pt; line-height:1.46; }
+.dec p{ margin-bottom:4pt; }
+.dec h3{ font-size:11pt; }
+p.dec-num, .dec p.dec-num{ font-size:27pt; font-weight:700; color:var(--navy); line-height:.9;
+  letter-spacing:-.04em; margin:0 0 2mm; }
+.rail{ border-top:2.4pt solid var(--navy); padding-top:2.5mm; }
+.rail dl{ margin:0; }
+.rail dt{ font-size:6.8pt; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--grey); margin:0 0 .5mm; }
+.rail dd{ margin:0 0 2.1mm; font-size:9pt; font-weight:700; color:var(--navy);
+  line-height:1.15; font-variant-numeric:tabular-nums; }
+.rail dd.warn{ color:var(--navy); }
+.bar{ height:3pt; background:var(--tint2); margin-top:1mm; }
+.bar span{ display:block; height:3pt; background:var(--navy); }
+
+/* ---------- acciones ---------- */
+.act{ margin:0; padding:0; list-style:none; }
+.act li{ padding:1.4mm 0 1.4mm 23mm; text-indent:-23mm;
+  border-top:.5pt solid var(--hair); font-size:8.3pt; line-height:1.4; }
+.act li:first-child{ border-top:none; padding-top:0; }
+.act .tag{ display:inline-block; width:20mm; text-indent:0; font-size:6.6pt;
+  font-weight:700; letter-spacing:.13em; text-transform:uppercase; color:var(--navy);
+  vertical-align:baseline; }
+
+/* ---------- tarjetas de campaña ---------- */
+.g{ break-inside:auto; }
+.card{ break-inside:avoid; border-top:.75pt solid var(--hair); padding-top:2.5mm; margin-bottom:5mm; }
+.card.key{ border-top:2.4pt solid var(--navy); }
+.card h4{ margin:0 0 1.5mm; }
+.card .met{ font-size:7.4pt; color:var(--grey); letter-spacing:.02em; margin:0 0 2mm;
+  font-variant-numeric:tabular-nums; }
+.card p{ font-size:8.3pt; line-height:1.45; margin:0 0 2mm; }
+.card .lab{ font-weight:700; color:var(--navy); font-size:7.4pt;
+  letter-spacing:.1em; text-transform:uppercase; }
+
+.country{ font-size:7.4pt; font-weight:700; letter-spacing:.2em; text-transform:uppercase;
+  color:#fff; background:var(--navy); padding:1.4mm 3mm; display:inline-block; margin:0 0 4mm; }
+
+/* ---------- mapa de gasto ---------- */
+.spend{ font-size:8pt; }
+.spend .row{ display:grid; grid-template-columns:34mm 1fr 15mm 9mm; gap:2mm;
+  align-items:center; padding:.95mm 0; border-top:.5pt solid var(--hair); }
+.spend .row.head{ border-top:none; break-inside:avoid; border-bottom:1.2pt solid var(--navy); padding-bottom:1.8mm;
+  font-size:6.6pt; font-weight:700; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--grey); align-items:end; }
+.spend .row.head .amt,.spend .row.head .pct,.spend .row.head .cpc{ font-size:6.6pt;
+  font-weight:700; color:var(--grey); line-height:1.2; }
+.spend .nm b{ color:var(--navy); font-weight:700; display:block; line-height:1.15; }
+.spend .nm span{ color:var(--grey); font-size:6.8pt; line-height:1.1; }
+.spend .track{ position:relative; height:5.5pt; background:var(--tint2); }
+.spend .fill{ position:absolute; left:0; top:0; height:5.5pt; background:var(--navy); }
+.spend .waste{ position:absolute; left:0; top:0; height:5.5pt; background:#8c95b4; }
+.spend .amt{ text-align:right; font-variant-numeric:tabular-nums; color:var(--navy);
+  font-weight:700; font-size:7.8pt; }
+.spend .pct{ text-align:right; font-variant-numeric:tabular-nums; color:var(--grey); font-size:7.4pt; }
+.spend .cpc{ text-align:right; font-variant-numeric:tabular-nums; color:var(--grey); font-size:7.4pt; }
+.spend .row.hot .pct{ color:var(--navy); font-weight:700; }
+.legend{ display:flex; gap:5mm; font-size:7pt; color:var(--grey); margin-top:3mm;
+  border-top:.5pt solid var(--hair); padding-top:2mm; }
+.legend i{ display:inline-block; width:7pt; height:5pt; margin-right:1.5mm; vertical-align:-.5pt; }
+
+/* ---------- flujo en columnas para las fichas ---------- */
+.flow{ column-count:2; column-gap:6mm; break-inside:auto; }
+.flow > div{ break-inside:avoid; }
+.flow .card{ margin-bottom:4.5mm; }
+.country{ column-span:all; }
+.spend-2{ column-count:2; column-gap:7mm; column-fill:balance; }
+.spend-2 .row{ break-inside:avoid; }
+
+/* ---------- bloque de categorías compacto ---------- */
+.cats{ background:var(--tint); padding:3mm 3.5mm; margin:2.5mm 0 3mm; }
+.cats .r{ display:grid; grid-template-columns:27mm 1fr; gap:3mm; align-items:baseline;
+  padding:1.4mm 0; border-top:.5pt solid #dde3e5; }
+.cats .r:first-child{ border-top:none; padding-top:0; }
+.cats .r:last-child{ padding-bottom:0; }
+.cats .k{ font-size:6.8pt; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--navy); }
+.cats .v{ font-size:8pt; line-height:1.38; color:var(--ink); }

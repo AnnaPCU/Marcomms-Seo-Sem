@@ -1,0 +1,2184 @@
+﻿property,query,clicks,impressions,ctr,position,norma,comprada
+Argentina,smeta,22,8890,0.002475,10.33,SMETA / Sedex,False
+Argentina,visec,85,8803,0.009656,5.5,VISEC,False
+Argentina,fsa,14,5082,0.002755,4.27,FSA,False
+Argentina,visec carne,30,4458,0.006729,8.43,VISEC,False
+Argentina,deposito fiscal,31,3430,0.009038,8.59,,False
+Argentina,fsma,8,3407,0.002348,9.86,FSMA,False
+Argentina,asc,2,2567,0.000779,5.62,MSC / ASC / BAP,False
+Argentina,rtrs,6,2450,0.002449,5.53,RTRS,False
+Argentina,2bsvs,14,2261,0.006192,6.57,2BSvs,False
+Argentina,iscc,14,2012,0.006958,7.04,ISCC,False
+Argentina,cfr,0,1682,0.0,9.47,,False
+Argentina,pprs,4,1407,0.002843,6.3,,False
+Argentina,gots,3,1194,0.002513,7.45,GOTS,False
+Argentina,sedex smeta,6,1130,0.00531,8.58,SMETA / Sedex,False
+Argentina,draft survey,13,1096,0.011861,16.03,,False
+Argentina,smeta certification,3,1068,0.002809,12.12,SMETA / Sedex,False
+Argentina,fsma que es,0,1064,0.0,9.49,FSMA,False
+Argentina,fsma certification,0,1039,0.0,27.3,FSMA,False
+Argentina,fsa certification,0,1009,0.0,6.64,FSA,False
+Argentina,fsa argentina,10,926,0.010799,3.87,FSA,False
+Argentina,rws,2,863,0.002317,4.82,,False
+Argentina,cumcs,7,807,0.008674,6.9,CUMCS,False
+Argentina,smeta que es,0,787,0.0,9.42,SMETA / Sedex,False
+Argentina,sedex argentina,1,746,0.00134,8.77,SMETA / Sedex,False
+Argentina,"santiago, argentina title services",0,676,0.0,19.9,,False
+Argentina,warrants,4,642,0.006231,8.6,,False
+Argentina,sedex,0,634,0.0,5.8,SMETA / Sedex,False
+Argentina,gstc,3,598,0.005017,8.96,,False
+Argentina,warrant,0,591,0.0,10.78,,False
+Argentina,que es un deposito fiscal,2,575,0.003478,5.74,,False
+Argentina,monitoreo de cultivos,2,571,0.003503,18.66,,False
+Argentina,que es smeta,1,521,0.001919,8.91,SMETA / Sedex,False
+Argentina,visec argentina,15,515,0.029126,4.48,VISEC,False
+Argentina,smeta logo,4,499,0.008016,8.05,SMETA / Sedex,False
+Argentina,certificación fsma,0,498,0.0,13.49,FSMA,False
+Argentina,corsia,2,498,0.004016,7.05,,False
+Argentina,smeta certificacion,1,490,0.002041,6.75,SMETA / Sedex,False
+Argentina,fair trade,2,489,0.00409,8.61,,False
+Argentina,bonsucro,4,483,0.008282,6.98,,False
+Argentina,que es fsma,0,473,0.0,9.39,FSMA,False
+Argentina,ocs,0,441,0.0,7.9,,False
+Argentina,certificacion smeta,1,411,0.002433,9.58,SMETA / Sedex,False
+Argentina,fsc,0,409,0.0,8.93,FSC,False
+Argentina,eudr,1,401,0.002494,13.52,EUDR,False
+Argentina,smeta certified,0,399,0.0,10.78,SMETA / Sedex,False
+Argentina,depósito fiscal,3,380,0.007895,4.24,,False
+Argentina,gmp+,2,376,0.005319,9.47,GMP+,False
+Argentina,monitorización de cultivos,0,359,0.0,41.58,,False
+Argentina,smeta sedex,0,355,0.0,10.34,SMETA / Sedex,False
+Argentina,argentina eco-tourism stats,0,353,0.0,38.41,,False
+Argentina,responsible wool standard,4,351,0.011396,45.84,,False
+Argentina,monitoreo de cultivo,0,350,0.0,40.19,,False
+Argentina,global recycled standard,0,346,0.0,86.72,GRS,False
+Argentina,deposito fiscal que es,2,339,0.0059,5.8,,False
+Argentina,2bs,1,336,0.002976,5.53,2BSvs,False
+Argentina,sustainable tourism in argentina,0,336,0.0,57.44,,False
+Argentina,servicio de monitoreo de cultivos,1,323,0.003096,41.07,,False
+Argentina,ursa,2,318,0.006289,3.15,,False
+Argentina,depósitos fiscales,2,315,0.006349,10.82,,False
+Argentina,certificación sedex,0,312,0.0,14.11,SMETA / Sedex,False
+Argentina,argentina eco-tourism policies,0,309,0.0,37.07,,False
+Argentina,gas free certification,0,308,0.0,68.22,,False
+Argentina,fda fsma,0,300,0.0,29.78,FSMA,False
+Argentina,control de quejas,0,295,0.0,87.25,,False
+Argentina,depositos fiscales,1,288,0.003472,9.6,,False
+Argentina,ley fsma,0,282,0.0,13.06,FSMA,False
+Argentina,plataforma visec,7,276,0.025362,3.22,VISEC,False
+Argentina,logo smeta,3,273,0.010989,6.92,SMETA / Sedex,False
+Argentina,eco-tourism impact argentina,0,265,0.0,58.22,,False
+Argentina,turismo sostenible argentina,0,265,0.0,21.5,,False
+Argentina,seguimiento de cultivos,1,262,0.003817,34.84,,False
+Argentina,sustainable travel argentina,0,261,0.0,58.79,,False
+Argentina,farm sustainability assessment,5,252,0.019841,27.72,,False
+Argentina,rspo,1,251,0.003984,5.25,RSPO,False
+Argentina,gafta 124 sampling,0,249,0.0,51.92,,False
+Argentina,draft survey en español,1,245,0.004082,4.28,,False
+Argentina,visec carnes,1,240,0.004167,8.69,VISEC,False
+Argentina,argentina green tourism,0,236,0.0,71.6,,False
+Argentina,2bsvs certification,5,234,0.021368,5.62,2BSvs,False
+Argentina,iscc plus,1,234,0.004274,9.86,ISCC,False
+Argentina,fsa que es,0,228,0.0,4.65,FSA,False
+Argentina,iscc corsia,1,227,0.004405,13.98,ISCC,False
+Argentina,soja rtrs,1,227,0.004405,5.78,RTRS,False
+Argentina,monitoreo de cultivos agricolas,0,226,0.0,38.44,,False
+Argentina,warrants argentina,5,226,0.022124,8.61,,False
+Argentina,visec que es,0,217,0.0,2.3,VISEC,False
+Argentina,control calidad plásticos,0,216,0.0,71.79,,False
+Argentina,monitoreo de cultivos agrícolas,0,214,0.0,19.9,,False
+Argentina,fsa sai,7,210,0.033333,6.33,FSA,False
+Argentina,soja visec,1,206,0.004854,4.46,VISEC,False
+Argentina,gmp argentina,1,194,0.005155,7.49,GMP+,False
+Argentina,monitoreo agricola,0,194,0.0,20.69,,False
+Argentina,turismo sostenible,0,191,0.0,43.33,,False
+Argentina,lana rws,1,190,0.005263,4.44,,False
+Argentina,monitoreo de cultivos agricultura,0,190,0.0,39.47,,False
+Argentina,que significa fsma,1,190,0.005263,8.75,FSMA,False
+Argentina,gmp+ fsa,0,188,0.0,39.91,GMP+,False
+Argentina,visec soja,2,187,0.010695,5.63,VISEC,False
+Argentina,soluciones haccp,0,185,0.0,11.63,,False
+Argentina,sustainable tourism practices argentina,0,184,0.0,48.32,,False
+Argentina,certificación smeta,0,177,0.0,7.42,SMETA / Sedex,False
+Argentina,sustainable tourist sites argentina,0,173,0.0,67.85,,False
+Argentina,viaje sostenible a argentina,0,173,0.0,67.64,,False
+Argentina,virasoro 2669,1,171,0.005848,6.18,,False
+Argentina,politica de calidad,2,168,0.011905,11.02,,False
+Argentina,certificación iscc,0,167,0.0,20.78,ISCC,False
+Argentina,certificacion fsma,2,166,0.012048,7.94,FSMA,False
+Argentina,smeta certificate,0,163,0.0,3.62,SMETA / Sedex,False
+Argentina,fssc 22000,0,160,0.0,9.32,FSSC 22000,False
+Argentina,gacp,1,160,0.00625,13.18,,False
+Argentina,que es rws,1,159,0.006289,4.6,,False
+Argentina,iscc eu,2,158,0.012658,28.58,ISCC,False
+Argentina,rtrs certificacion,2,158,0.012658,5.69,RTRS,False
+Argentina,temo argentina,0,157,0.0,7.57,TEMO,False
+Argentina,bonded warehouse,0,156,0.0,9.62,,False
+Argentina,smeta audit,0,156,0.0,9.87,SMETA / Sedex,False
+Argentina,consejo global de turismo sostenible,2,152,0.013158,6.28,,False
+Argentina,trade audit,0,152,0.0,8.48,,False
+Argentina,que es asc,0,151,0.0,13.06,MSC / ASC / BAP,False
+Argentina,auditoria smeta,0,150,0.0,7.09,SMETA / Sedex,False
+Argentina,argentina location as a service market,0,147,0.0,48.62,,False
+Argentina,sustainable community tourism in argentina,0,147,0.0,79.86,,False
+Argentina,rws wool,0,145,0.0,40.97,,False
+Argentina,fsma readiness,0,143,0.0,35.86,FSMA,False
+Argentina,rainforest alliance,0,141,0.0,6.85,Rainforest Alliance,False
+Argentina,control animal,0,140,0.0,9.51,,False
+Argentina,certificación plastico reutilizable,0,139,0.0,83.03,,False
+Argentina,iso 14064-2,3,137,0.021898,11.75,Huella de carbono / GEI,False
+Argentina,que es visec,0,137,0.0,1.98,VISEC,False
+Argentina,red global,2,137,0.014599,9.38,,False
+Argentina,fsma que significa,0,136,0.0,8.39,FSMA,False
+Argentina,rws que es,0,136,0.0,4.74,,False
+Argentina,no conformidad,0,135,0.0,9.19,,False
+Argentina,auditoria bienestar animal,1,134,0.007463,69.82,Welfair / bienestar animal,False
+Argentina,fsma certificacion,0,134,0.0,7.71,FSMA,False
+Argentina,que es la fsma,0,134,0.0,9.47,FSMA,False
+Argentina,nature-based tourism argentina,0,133,0.0,80.68,,False
+Argentina,smeta software,0,132,0.0,10.78,SMETA / Sedex,False
+Argentina,inspecciones,0,131,0.0,10.55,,False
+Argentina,rfs2,7,131,0.053435,4.84,,False
+Argentina,que es el fsma,0,129,0.0,8.17,FSMA,False
+Argentina,due diligence argentina,0,127,0.0,19.23,,False
+Argentina,union textil,0,126,0.0,6.85,,False
+Argentina,smeta auditoria,1,122,0.008197,6.01,SMETA / Sedex,False
+Argentina,asc certification,2,121,0.016529,22.18,MSC / ASC / BAP,False
+Argentina,monitorizacion de cultivos,0,121,0.0,57.59,,False
+Argentina,gmp+ fsa 2020,0,120,0.0,11.89,GMP+,False
+Argentina,gmp fsa,0,117,0.0,42.35,GMP+,False
+Argentina,bonded warehouse services,0,115,0.0,67.42,,False
+Argentina,responsible soy cultivation,0,113,0.0,28.78,,False
+Argentina,sma argentina,0,113,0.0,6.84,,False
+Argentina,smeta 4 pilares,0,113,0.0,12.27,SMETA / Sedex,False
+Argentina,.asc,0,112,0.0,28.51,MSC / ASC / BAP,False
+Argentina,carne visec com ar,1,112,0.008929,7.34,VISEC,False
+Argentina,asc que es,0,110,0.0,9.6,MSC / ASC / BAP,False
+Argentina,fsma certificate,0,110,0.0,48.31,FSMA,False
+Argentina,biocombustible,0,109,0.0,42.15,Bioenergía / biomasa,False
+Argentina,que es bonsucro,1,109,0.009174,8.58,,False
+Argentina,best platform for managing smeta audit scheduling across global sites,0,108,0.0,8.16,SMETA / Sedex,False
+Argentina,deposito fiscales,1,108,0.009259,8.94,,False
+Argentina,sai fsa,2,108,0.018519,13.29,FSA,False
+Argentina,fair trade usa,1,106,0.009434,11.08,,False
+Argentina,deposito fical,0,105,0.0,30.75,,False
+Argentina,donde comprar warrants,0,104,0.0,36.34,,False
+Argentina,inspección de plásticos,0,104,0.0,21.44,,False
+Argentina,responsible tourism in argentina,0,104,0.0,80.61,,False
+Argentina,contr,0,103,0.0,10.64,,False
+Argentina,sistema de monitoreo de cultivos,1,103,0.009709,61.39,,False
+Argentina,turismo cultural sostenible argentina,0,103,0.0,52.92,,False
+Argentina,murchison deposito fiscal,0,102,0.0,49.28,,False
+Argentina,gafta laboratories,0,101,0.0,55.36,,False
+Argentina,fsma significado,0,98,0.0,7.56,FSMA,False
+Argentina,servicio de surveyor,0,98,0.0,14.63,,False
+Argentina,control.union,32,97,0.329897,1.96,,False
+Argentina,certificado smeta,0,95,0.0,7.49,SMETA / Sedex,False
+Argentina,depósitos fiscales en argentina,1,95,0.010526,6.87,,False
+Argentina,intermediate warehouse tucuman,1,95,0.010526,1.0,,False
+Argentina,rws certification,0,95,0.0,27.19,,False
+Argentina,laboratorio control,0,94,0.0,15.81,,False
+Argentina,virasoro 2669 beccar,0,94,0.0,5.99,,False
+Argentina,felix lacroze,3,92,0.032609,6.76,,False
+Argentina,certificación de reutilización de plásticos,0,91,0.0,70.81,,False
+Argentina,haccp,0,91,0.0,19.72,,False
+Argentina,bonsucro que es,0,90,0.0,8.56,,False
+Argentina,argentina green travel options,0,88,0.0,68.37,,False
+Argentina,que es un deposito fiscal en argentina,2,88,0.022727,1.75,,False
+Argentina,biomasa y biocombustibles,1,86,0.011628,7.6,Bioenergía / biomasa,False
+Argentina,control de depósito,0,86,0.0,22.84,,False
+Argentina,fsa farm sustainability assessment,1,86,0.011628,6.87,FSA,False
+Argentina,certificacion iscc,1,85,0.011765,6.87,ISCC,False
+Argentina,sustainable agriculture platform,0,85,0.0,79.36,,False
+Argentina,global sustainable tourism council,1,84,0.011905,12.84,,False
+Argentina,top in-line inspection companies in argentina,0,84,0.0,43.01,,False
+Argentina,politicas de calidad,1,83,0.012048,9.82,,False
+Argentina,que es un depósito fiscal,0,83,0.0,4.85,,False
+Argentina,control group,0,82,0.0,49.62,,False
+Argentina,certificación smeta pdf,2,80,0.025,3.52,SMETA / Sedex,False
+Argentina,control de calidad en materiales plásticos,0,80,0.0,73.33,,False
+Argentina,cumcs-g.a.p,0,80,0.0,29.06,CUMCS,False
+Argentina,vicec,4,80,0.05,5.02,,False
+Argentina,que significa smeta,0,79,0.0,7.86,SMETA / Sedex,False
+Argentina,rws lana,7,79,0.088608,3.77,,False
+Argentina,laboratorio de control,0,78,0.0,17.75,,False
+Argentina,asc agriculture,0,77,0.0,6.95,MSC / ASC / BAP,False
+Argentina,gstc que es,1,77,0.012987,6.83,,False
+Argentina,vessel draft survey,0,77,0.0,23.13,,False
+Argentina,ftusa,0,76,0.0,7.12,,False
+Argentina,deyari senasa,2,75,0.026667,6.2,,False
+Argentina,farm sustainability assessment (fsa),3,75,0.04,5.47,FSA,False
+Argentina,que es el visec,2,75,0.026667,2.2,VISEC,False
+Argentina,que es gots,0,75,0.0,7.15,GOTS,False
+Argentina,que es deposito fiscal,0,74,0.0,6.0,,False
+Argentina,smeta certificering,0,74,0.0,11.15,SMETA / Sedex,False
+Argentina,control grup,0,73,0.0,48.77,,False
+Argentina,listado de depósitos fiscales en argentina,1,73,0.013699,11.0,,False
+Argentina,war rants,0,72,0.0,11.12,,False
+Argentina,biocombustibles,0,71,0.0,30.62,Bioenergía / biomasa,False
+Argentina,certification ocs,0,71,0.0,38.0,,False
+Argentina,deposito,0,71,0.0,29.38,,False
+Argentina,control de laboratorio,0,69,0.0,88.55,,False
+Argentina,norma fsma,0,69,0.0,9.39,FSMA,False
+Argentina,ocs certification,0,69,0.0,35.03,,False
+Argentina,cañamo industrial argentina,0,68,0.0,8.41,,False
+Argentina,collateral management agreement,0,68,0.0,63.84,,False
+Argentina,sistema visec carne,1,68,0.014706,7.15,VISEC,False
+Argentina,which sustainability tech vendor works directly with smeta audit bodies,0,67,0.0,9.5,SMETA / Sedex,False
+Argentina,inspecciones de techos,0,66,0.0,44.79,,False
+Argentina,animal welfare,0,65,0.0,12.22,,False
+Argentina,fssc,1,65,0.015385,6.37,FSSC 22000,False
+Argentina,gmp fra,0,65,0.0,22.57,GMP+,False
+Argentina,certificación orgánica senasa,1,64,0.015625,6.56,USDA NOP / orgánico,False
+Argentina,eti smeta,0,63,0.0,78.49,SMETA / Sedex,False
+Argentina,ocs in textile,0,63,0.0,5.92,,False
+Argentina,certificaciones textiles,1,62,0.016129,51.73,,False
+Argentina,monitoreo de campo,0,62,0.0,19.4,,False
+Argentina,normas gmp argentina,0,61,0.0,11.0,GMP+,False
+Argentina,union central de empresas,0,61,0.0,9.38,,False
+Argentina,criterios globales de turismo sostenible,1,60,0.016667,8.37,,False
+Argentina,ingeniería social,0,60,0.0,7.62,,False
+Argentina,14064-2,1,58,0.017241,9.64,Huella de carbono / GEI,False
+Argentina,cañamo industrial,1,58,0.017241,12.97,,False
+Argentina,certificacion sedex,0,58,0.0,7.85,SMETA / Sedex,False
+Argentina,organic content standard,0,58,0.0,85.97,USDA NOP / orgánico,False
+Argentina,politica de calidad de una empresa,0,58,0.0,9.88,,False
+Argentina,qué es un depósito fiscal,0,58,0.0,3.83,,False
+Argentina,rtrs soja,0,58,0.0,8.06,RTRS,False
+Argentina,certificado rcs,1,57,0.017544,3.75,,False
+Argentina,crop monitoring,0,57,0.0,10.84,,False
+Argentina,eudr regulation,0,57,0.0,26.97,EUDR,False
+Argentina,que es la ley fsma,0,57,0.0,9.37,FSMA,False
+Argentina,sustainable travel resources argentina,0,57,0.0,33.32,,False
+Argentina,certificación gmp+,0,56,0.0,56.87,GMP+,False
+Argentina,deposito fiscal cordoba,0,56,0.0,36.98,,False
+Argentina,responsible wool standard yarn,0,56,0.0,47.68,,False
+Argentina,warehouse argentina,2,56,0.035714,11.16,,False
+Argentina,ghg,0,55,0.0,11.46,,False
+Argentina,bienestas animal,0,54,0.0,29.05,,False
+Argentina,gmp+ 2020,0,54,0.0,19.98,GMP+,False
+Argentina,smeta extension,0,54,0.0,8.48,SMETA / Sedex,False
+Argentina,warrant argentina,3,54,0.055556,11.44,,False
+Argentina,control depositos,0,53,0.0,41.3,,False
+Argentina,gots en español,0,53,0.0,12.7,GOTS,False
+Argentina,monitoreo de temperatura,1,53,0.018868,21.77,,False
+Argentina,rws certified wool,0,53,0.0,29.02,,False
+Argentina,ias fsa,0,51,0.0,2.06,FSA,False
+Argentina,logistica tucuman,0,51,0.0,9.27,,False
+Argentina,wool standards,0,51,0.0,59.06,,False
+Argentina,biomass scheme,0,50,0.0,63.24,Bioenergía / biomasa,False
+Argentina,depositos de mercaderia,0,50,0.0,10.7,,False
+Argentina,inspección de materiales plásticos,0,50,0.0,56.46,,False
+Argentina,sustainability assessment certification,0,50,0.0,45.86,,False
+Argentina,ethical tourism in argentina,0,49,0.0,71.14,,False
+Argentina,que es el asc,0,49,0.0,9.39,MSC / ASC / BAP,False
+Argentina,smeta 7.0,0,49,0.0,18.9,SMETA / Sedex,False
+Argentina,soja eudr,0,49,0.0,7.16,EUDR,False
+Argentina,usda nop,0,49,0.0,10.24,USDA NOP / orgánico,False
+Argentina,control de depositos,0,48,0.0,61.29,,False
+Argentina,rws criteria,0,48,0.0,72.91,,False
+Argentina,control de unión industrial,0,47,0.0,76.43,,False
+Argentina,fair trade aps,0,47,0.0,20.13,,False
+Argentina,gstc (global sustainable tourism council),0,47,0.0,5.96,,False
+Argentina,warehouse intermedio tucuman,0,47,0.0,1.0,,False
+Argentina,what is rws wool,0,47,0.0,29.58,,False
+Argentina,almacenes y depositos,0,46,0.0,86.7,,False
+Argentina,responsible soy,0,46,0.0,5.66,,False
+Argentina,sedex members ethical trade audit,0,46,0.0,3.63,SMETA / Sedex,False
+Argentina,bonded warehouse security,0,45,0.0,88.4,,False
+Argentina,food control,0,45,0.0,6.6,,False
+Argentina,production support in argentina,0,45,0.0,72.91,,False
+Argentina,certificacion asc,0,44,0.0,37.89,MSC / ASC / BAP,False
+Argentina,deyari,0,44,0.0,6.7,,False
+Argentina,rtrs argentina,0,44,0.0,7.27,RTRS,False
+Argentina,servicio monitoreo,0,44,0.0,74.73,,False
+Argentina,smeta certificación,0,44,0.0,6.66,SMETA / Sedex,False
+Argentina,soja 2bsvs,0,44,0.0,5.43,2BSvs,False
+Argentina,warrantera,0,44,0.0,6.98,,False
+Argentina,cfr.,0,43,0.0,8.23,,False
+Argentina,deposito logistica,0,43,0.0,56.23,,False
+Argentina,local guide program,0,43,0.0,1.0,,False
+Argentina,prefectura naval argentina ingreso 2027,0,43,0.0,12.21,,False
+Argentina,sistema visec,1,43,0.023256,5.0,VISEC,False
+Argentina,eu deforestation regulation,0,42,0.0,49.38,EUDR,False
+Argentina,loading supervision,0,42,0.0,87.86,,False
+Argentina,rws wool meaning,0,42,0.0,24.14,,False
+Argentina,sa 8000 certification in philippines,0,42,0.0,74.17,,False
+Argentina,asociación biocombustibles,0,41,0.0,32.37,Bioenergía / biomasa,False
+Argentina,garantia warrant,0,41,0.0,10.05,,False
+Argentina,lci inspection,0,41,0.0,8.32,,False
+Argentina,manual smeta 7.0 español,1,41,0.02439,9.54,SMETA / Sedex,False
+Argentina,collateral management for bulk commodities (cma),0,40,0.0,60.52,,False
+Argentina,good agricultural & collection practices gacp,0,40,0.0,76.42,,False
+Argentina,politicas de calidad de una empresa,0,40,0.0,10.4,,False
+Argentina,que es fsma en alimentos,0,40,0.0,8.62,FSMA,False
+Brasil,obp,1,4647,0.000215,6.82,,False
+Brasil,grs,3,4104,0.000731,5.03,GRS,False
+Brasil,gmp,3,3722,0.000806,10.71,GMP+,False
+Brasil,smeta,4,2306,0.001735,8.35,SMETA / Sedex,False
+Brasil,gmp+,12,1924,0.006237,8.63,GMP+,False
+Brasil,rspo,2,1870,0.00107,6.37,RSPO,False
+Brasil,iscc,5,1763,0.002836,7.57,ISCC,False
+Brasil,gots,2,1513,0.001322,8.74,GOTS,False
+Brasil,warrants,2,1512,0.001323,7.18,,False
+Brasil,pest control solutions,0,1403,0.0,8.34,,False
+Brasil,fsma,1,1347,0.000742,8.28,FSMA,False
+Brasil,rtrs,0,1302,0.0,7.35,RTRS,False
+Brasil,pefc,0,1147,0.0,34.86,PEFC,False
+Brasil,bonsucro,4,984,0.004065,10.59,,False
+Brasil,gmp fsa,0,913,0.0,21.98,GMP+,False
+Brasil,pefc certification,0,774,0.0,25.22,PEFC,False
+Brasil,iso 22716,11,703,0.015647,8.05,,False
+Brasil,draft survey,1,693,0.001443,20.95,,False
+Brasil,fssc 22000,0,657,0.0,12.99,FSSC 22000,False
+Brasil,roundtable on sustainable palm oil,1,554,0.001805,16.95,,False
+Brasil,aquacultura,0,491,0.0,6.19,MSC / ASC / BAP,False
+Brasil,rainforest alliance,0,490,0.0,2.45,Rainforest Alliance,False
+Brasil,asc,0,486,0.0,2.94,MSC / ASC / BAP,False
+Brasil,gmp+fsa,1,470,0.002128,5.67,GMP+,False
+Brasil,top in-line inspection companies in brazil,0,450,0.0,24.59,,False
+Brasil,control trabalhe conosco,10,426,0.023474,6.32,,False
+Brasil,fsc,0,417,0.0,12.06,FSC,False
+Brasil,regenagri,8,410,0.019512,3.38,,False
+Brasil,pest control,2,383,0.005222,10.94,,False
+Brasil,iscc plus,5,370,0.013514,4.92,ISCC,False
+Brasil,2bsvs,8,361,0.022161,4.76,2BSvs,False
+Brasil,o que é grs,0,360,0.0,5.22,GRS,False
+Brasil,iscc certificação,2,341,0.005865,9.97,ISCC,False
+Brasil,crop monitoring,0,326,0.0,13.32,,False
+Brasil,gmp brasil,0,324,0.0,7.26,GMP+,False
+Brasil,eudr,0,292,0.0,52.06,EUDR,False
+Brasil,rainfed area,0,278,0.0,3.85,,False
+Brasil,iscc corsia,1,271,0.00369,9.69,ISCC,False
+Brasil,crs,0,266,0.0,13.57,,False
+Brasil,regen agri,0,263,0.0,16.02,,False
+Brasil,gstc,1,254,0.003937,23.48,,False
+Brasil,certificação gmp,1,240,0.004167,7.72,GMP+,False
+Brasil,certificação fairtrade,0,234,0.0,14.88,,False
+Brasil,responsible soy supply chain,0,229,0.0,18.48,,False
+Brasil,gmp+ fsa,2,227,0.008811,18.34,GMP+,False
+Brasil,ocs,0,225,0.0,10.08,,False
+Brasil,fsma certification,0,210,0.0,15.24,FSMA,False
+Brasil,global recycled standard,6,210,0.028571,26.98,GRS,False
+Brasil,certificação fsc,0,209,0.0,44.42,FSC,False
+Brasil,what is the industry of ofcinternacional.com,0,205,0.0,10.79,,False
+Brasil,certificado fsc,0,194,0.0,32.24,FSC,False
+Brasil,o que significa grs,0,193,0.0,5.5,GRS,False
+Brasil,sedex smeta,0,191,0.0,6.55,SMETA / Sedex,False
+Brasil,fsa,0,188,0.0,43.28,FSA,False
+Brasil,corsia,0,186,0.0,9.73,,False
+Brasil,pefc forest,0,177,0.0,44.38,PEFC,False
+Brasil,iscc eu,0,174,0.0,43.32,ISCC,False
+Brasil,msc certificação,0,174,0.0,8.35,MSC / ASC / BAP,False
+Brasil,monitoramento de lavoura,1,172,0.005814,9.55,,False
+Brasil,gestão de garantias,3,171,0.017544,3.8,,False
+Brasil,control vagas,5,160,0.03125,7.22,,False
+Brasil,pefc certified,0,158,0.0,39.04,PEFC,False
+Brasil,iso 22000 certification in brazil,0,155,0.0,24.32,ISO 22000,False
+Brasil,pefc forest certification,0,153,0.0,43.24,PEFC,False
+Brasil,fsc brasil,0,152,0.0,7.93,FSC,False
+Brasil,smeta certificação,1,152,0.006579,7.38,SMETA / Sedex,False
+Brasil,certificação gmp+,6,151,0.039735,3.55,GMP+,False
+Brasil,draft navio,0,151,0.0,7.77,,False
+Brasil,monitoramento da lavoura,0,151,0.0,12.25,,False
+Brasil,marine stewardship council msc certification,0,150,0.0,66.7,MSC / ASC / BAP,False
+Brasil,eudr wood brazil,0,149,0.0,19.64,EUDR,False
+Brasil,gmp+ o que é,2,149,0.013423,5.63,GMP+,False
+Brasil,rainfed crop,0,148,0.0,7.29,,False
+Brasil,smeta 4 pillar,1,148,0.006757,33.43,SMETA / Sedex,False
+Brasil,certificação iscc,2,143,0.013986,8.36,ISCC,False
+Brasil,certificação smeta,1,142,0.007042,7.89,SMETA / Sedex,False
+Brasil,gmp + fsa,0,142,0.0,5.8,GMP+,False
+Brasil,certificado gmp,0,138,0.0,7.79,GMP+,False
+Brasil,grs o que é,0,138,0.0,4.43,GRS,False
+Brasil,iso 22000,0,137,0.0,44.87,ISO 22000,False
+Brasil,rfs,0,136,0.0,2.72,,False
+Brasil,smeta 2-pillar audit,0,129,0.0,24.96,SMETA / Sedex,False
+Brasil,iscc certificates,0,127,0.0,6.35,ISCC,False
+Brasil,smeta auditoria,0,127,0.0,9.26,SMETA / Sedex,False
+Brasil,fair trade,1,126,0.007937,9.76,,False
+Brasil,what is pefc certified,0,124,0.0,8.32,PEFC,False
+Brasil,smeta sedex,0,123,0.0,7.93,SMETA / Sedex,False
+Brasil,inspeção de tanques de carga de petróleo,0,122,0.0,25.81,,False
+Brasil,monitoramento agricola,0,122,0.0,23.66,,False
+Brasil,global organic textile standard,2,121,0.016529,55.73,USDA NOP / orgánico,False
+Brasil,monitoramento de estoque,2,121,0.016529,4.75,,False
+Brasil,o que e grs,0,121,0.0,4.68,GRS,False
+Brasil,controle de união industrial,0,117,0.0,18.55,,False
+Brasil,certificação msc,1,116,0.008621,8.99,MSC / ASC / BAP,False
+Brasil,food safety system certification 22000,0,112,0.0,67.46,,False
+Brasil,round table on responsible soy,0,111,0.0,4.91,,False
+Brasil,gmp+ 2020,0,110,0.0,22.09,GMP+,False
+Brasil,warrants o que é,0,110,0.0,7.24,,False
+Brasil,gmp+ fsa 2020,0,109,0.0,22.63,GMP+,False
+Brasil,iso gmp+,0,107,0.0,66.96,GMP+,False
+Brasil,soya control,0,104,0.0,4.45,,False
+Brasil,marine stewardship council chain of custody,0,101,0.0,44.19,,False
+Brasil,draft survey o que é,0,99,0.0,7.44,,False
+Brasil,inspeção remota de tanques,0,97,0.0,37.54,,False
+Brasil,ocean bound plastic,0,97,0.0,67.35,,False
+Brasil,rfs2,4,96,0.041667,5.76,,False
+Brasil,fair trade usa,1,95,0.010526,6.86,,False
+Brasil,fsma readiness,0,95,0.0,45.79,FSMA,False
+Brasil,responsible wool standard,2,94,0.021277,19.12,,False
+Brasil,monitoramento agrícola,0,89,0.0,17.7,,False
+Brasil,cda e warrant,0,86,0.0,15.36,,False
+Brasil,cda wa,0,85,0.0,13.41,,False
+Brasil,adesivos com certificação iscc plus,0,83,0.0,14.52,ISCC,False
+Brasil,programme for the endorsement of forest certification chain of custody,0,83,0.0,36.39,,False
+Brasil,marine stewardship council,0,82,0.0,18.9,,False
+Brasil,rspo palm,0,81,0.0,58.79,RSPO,False
+Brasil,crop monitor,1,80,0.0125,15.31,,False
+Brasil,eudr brazil suppliers,0,79,0.0,21.57,EUDR,False
+Brasil,eudr brazilian exporters,0,78,0.0,22.52,EUDR,False
+Brasil,farm sustainability assessment,1,78,0.012821,23.28,,False
+Brasil,oq é grs,0,77,0.0,6.22,GRS,False
+Brasil,rainfed areas,0,77,0.0,4.43,,False
+Brasil,auditoria smeta,0,76,0.0,15.66,SMETA / Sedex,False
+Brasil,forest stewardship council,0,76,0.0,15.91,,False
+Brasil,iso 22000 certification in belo horizonte,0,76,0.0,33.92,ISO 22000,False
+Brasil,rspo palm oil,1,75,0.013333,52.21,RSPO,False
+Brasil,gmp +,0,73,0.0,9.03,GMP+,False
+Brasil,o que é fsc,0,73,0.0,37.45,FSC,False
+Brasil,control vagas de emprego,1,72,0.013889,7.44,,False
+Brasil,rws,0,71,0.0,4.56,,False
+Brasil,cda/wa,0,70,0.0,13.84,,False
+Brasil,ocs certificação,1,69,0.014493,4.72,,False
+Brasil,draft surveyor,0,68,0.0,9.06,,False
+Brasil,certificado smeta,0,65,0.0,8.49,SMETA / Sedex,False
+Brasil,smeta 4 pillars,0,65,0.0,35.89,SMETA / Sedex,False
+Brasil,certificação iso 22000 no brasil,0,64,0.0,30.89,ISO 22000,False
+Brasil,fssc 2200,0,64,0.0,10.0,FSSC 22000,False
+Brasil,iso22716,0,64,0.0,6.09,,False
+Brasil,roundtable sustainable palm oil,0,64,0.0,15.83,,False
+Brasil,union lab,1,64,0.015625,9.11,,False
+Brasil,gmp fsa 2020,0,63,0.0,18.52,GMP+,False
+Brasil,union academy,0,63,0.0,8.27,,False
+Brasil,fsa png,0,62,0.0,1.32,FSA,False
+Brasil,selo fair trade,0,62,0.0,9.45,,False
+Brasil,fsas,0,60,0.0,17.41,,False
+Brasil,quality management system iso,0,60,0.0,59.02,,False
+Brasil,fsa sai,1,59,0.016949,2.95,FSA,False
+Brasil,certificado rspo,0,58,0.0,8.39,RSPO,False
+Brasil,certificado gmp+,0,57,0.0,5.7,GMP+,False
+Brasil,certificação iso 22000,0,56,0.0,70.52,ISO 22000,False
+Brasil,certificação msc para pesca sustentável,0,56,0.0,3.23,MSC / ASC / BAP,False
+Brasil,msc pesca sustentável,0,56,0.0,3.96,MSC / ASC / BAP,False
+Brasil,pefc certificate,0,56,0.0,17.48,PEFC,False
+Brasil,rspo sustainable palm oil,0,56,0.0,61.57,RSPO,False
+Brasil,draught navio,0,55,0.0,6.73,,False
+Brasil,msc standards,0,55,0.0,56.24,MSC / ASC / BAP,False
+Brasil,biomasses,0,54,0.0,9.09,Bioenergía / biomasa,False
+Brasil,cdawa,0,54,0.0,15.44,,False
+Brasil,certificação msc para pescarias sustentáveis,0,54,0.0,6.12,MSC / ASC / BAP,False
+Brasil,smeta 4 pillar audit,0,54,0.0,44.96,SMETA / Sedex,False
+Brasil,certification body,0,53,0.0,48.11,,False
+Brasil,rspo o que é,0,53,0.0,8.89,RSPO,False
+Brasil,certificação iso 9001:2015,0,52,0.0,75.31,ISO 9001,False
+Brasil,pefc certified meaning,0,52,0.0,8.54,PEFC,False
+Brasil,rainfed land,0,52,0.0,3.55,,False
+Brasil,aquaculture stewardship council,0,51,0.0,12.18,MSC / ASC / BAP,False
+Brasil,certificación gmp+,0,50,0.0,85.6,GMP+,False
+Brasil,commodity inspection services,0,50,0.0,30.0,,False
+Brasil,biomasa,0,49,0.0,42.49,Bioenergía / biomasa,False
+Brasil,fsc info,0,49,0.0,8.35,FSC,False
+Brasil,gmp+ international,0,49,0.0,7.15,GMP+,False
+Brasil,programme for the endorsement of forest certification,0,49,0.0,19.37,,False
+Brasil,certified sustainable palm oil,0,48,0.0,71.0,,False
+Brasil,grs procedure,0,48,0.0,4.1,GRS,False
+Brasil,o que é rspo,0,48,0.0,9.69,RSPO,False
+Brasil,22716,0,47,0.0,7.28,,False
+Brasil,fssc,2,47,0.042553,18.81,FSSC 22000,False
+Brasil,ftusa,1,47,0.021277,5.77,,False
+Brasil,inspeção de caixa marítima,0,47,0.0,55.15,,False
+Brasil,msc certification,0,46,0.0,48.59,MSC / ASC / BAP,False
+Brasil,what is asc certified,0,46,0.0,43.3,MSC / ASC / BAP,False
+Brasil,certificalia empresa coordenador brasil,0,45,0.0,6.98,,False
+Brasil,fsc forest management,0,45,0.0,38.54,FSC,False
+Brasil,gmp plus,1,45,0.022222,8.31,GMP+,False
+Brasil,rtrs soy,0,45,0.0,9.0,RTRS,False
+Brasil,what is pefc certification,0,45,0.0,15.93,PEFC,False
+Brasil,bom sucro,0,44,0.0,7.73,,False
+Brasil,2bsvs certification,0,43,0.0,3.79,2BSvs,False
+Brasil,rspo roundtable on sustainable palm oil,0,43,0.0,14.56,RSPO,False
+Brasil,asc coc,0,42,0.0,42.31,MSC / ASC / BAP,False
+Brasil,draught survey,0,42,0.0,15.53,,False
+Brasil,marine stewardship,0,42,0.0,30.07,,False
+Brasil,warrant,0,42,0.0,9.71,,False
+Brasil,what does pefc stand for,0,42,0.0,66.69,PEFC,False
+Brasil,bomsucro,0,41,0.0,7.51,,False
+Brasil,monitoramento de cultivo agricola,0,41,0.0,33.34,,False
+Brasil,rspo certificação,0,41,0.0,7.88,RSPO,False
+Brasil,rws wool,0,41,0.0,10.9,,False
+Brasil,aprendizado academy,0,40,0.0,7.7,,False
+Brasil,certificado msc,0,40,0.0,5.23,MSC / ASC / BAP,False
+Brasil,global sustainable tourism council,0,40,0.0,20.8,,False
+Brasil,gmp certificado,0,40,0.0,6.55,GMP+,False
+Brasil,iso 9001 2015,0,40,0.0,31.05,ISO 9001,False
+Brasil,msc kontrolle,0,40,0.0,25.75,MSC / ASC / BAP,False
+Brasil,pefc international,0,40,0.0,45.63,PEFC,False
+Chile,bap,22,2631,0.008362,6.63,MSC / ASC / BAP,False
+Chile,grs,2,1891,0.001058,6.64,GRS,False
+Chile,asc,6,1660,0.003614,7.93,MSC / ASC / BAP,False
+Chile,control de calidad en frutas,2,1568,0.001276,26.22,,False
+Chile,brcgs,1,1493,0.00067,12.55,BRCGS,False
+Chile,grasp,21,1377,0.015251,6.12,GLOBALG.A.P.,False
+Chile,ifs,6,1364,0.004399,4.28,IFS,False
+Chile,control de calidad de frutas,0,1353,0.0,28.8,,False
+Chile,tecnicas de control de calidad en frutas,0,1284,0.0,46.11,,False
+Chile,trabajo de control de calidad en fruta,0,918,0.0,40.84,,False
+Chile,smeta,0,814,0.0,8.89,SMETA / Sedex,False
+Chile,control de calidad frutas y verduras,0,789,0.0,33.52,,False
+Chile,certificacion bap,4,418,0.009569,6.22,MSC / ASC / BAP,False
+Chile,gots,1,398,0.002513,6.98,GOTS,False
+Chile,fair trade,0,383,0.0,6.42,,False
+Chile,bap certification,3,260,0.011538,18.15,MSC / ASC / BAP,False
+Chile,control de calidad de frutas y hortalizas,0,249,0.0,54.29,,False
+Chile,auditoria smeta,0,232,0.0,8.47,SMETA / Sedex,False
+Chile,b.a.p,0,227,0.0,6.8,,False
+Chile,ifs certification,0,227,0.0,36.59,IFS,False
+Chile,smeta 4 pilares,1,220,0.004545,8.71,SMETA / Sedex,False
+Chile,auditoria bap,3,210,0.014286,5.16,MSC / ASC / BAP,False
+Chile,cucert,16,201,0.079602,2.07,,False
+Chile,certificación bap,2,197,0.010152,7.28,MSC / ASC / BAP,False
+Chile,rainforest alliance,0,196,0.0,8.97,Rainforest Alliance,False
+Chile,grs significado,0,194,0.0,7.61,GRS,False
+Chile,que es asc,0,184,0.0,14.57,MSC / ASC / BAP,False
+Chile,nch 2861,8,179,0.044693,5.68,,False
+Chile,certificación bap acuicultura,1,167,0.005988,5.66,MSC / ASC / BAP,False
+Chile,sedex smeta,1,164,0.006098,8.55,SMETA / Sedex,False
+Chile,certificacion ifs,0,162,0.0,10.54,IFS,False
+Chile,bap certificacion,0,160,0.0,6.06,MSC / ASC / BAP,False
+Chile,msc,0,158,0.0,10.39,MSC / ASC / BAP,False
+Chile,control de calidad en exportación,0,153,0.0,34.94,,False
+Chile,inspección de calidad frutas y hortalizas,0,147,0.0,58.28,,False
+Chile,ley 20089,0,140,0.0,9.18,,False
+Chile,smeta certificacion,3,138,0.021739,6.26,SMETA / Sedex,False
+Chile,ifs chile,2,137,0.014599,4.49,IFS,False
+Chile,certificacion brcgs,0,133,0.0,11.6,BRCGS,False
+Chile,lci chile,0,131,0.0,7.0,,False
+Chile,inspeccion de calidad,0,128,0.0,15.34,,False
+Chile,certificado bap,2,126,0.015873,7.44,MSC / ASC / BAP,False
+Chile,que es grs,0,126,0.0,5.89,GRS,False
+Chile,certificacion smeta,0,122,0.0,10.16,SMETA / Sedex,False
+Chile,bap acuicultura,1,121,0.008264,5.37,MSC / ASC / BAP,False
+Chile,quantity control,0,119,0.0,22.16,,False
+Chile,brcgs significado,0,117,0.0,9.32,BRCGS,False
+Chile,ifs food,1,109,0.009174,16.6,IFS,False
+Chile,certificacion usda,0,102,0.0,14.86,USDA NOP / orgánico,False
+Chile,empresas de control de calidad,0,102,0.0,14.75,,False
+Chile,usda significado,0,102,0.0,12.37,USDA NOP / orgánico,False
+Chile,aquaculture stewardship council,3,99,0.030303,5.52,MSC / ASC / BAP,False
+Chile,temo,0,98,0.0,7.86,TEMO,False
+Chile,bap certification español,2,96,0.020833,5.27,MSC / ASC / BAP,False
+Chile,asc que es,0,94,0.0,10.6,MSC / ASC / BAP,False
+Chile,certificación brc chile,0,88,0.0,28.63,BRCGS,False
+Chile,global gap,0,86,0.0,19.15,GLOBALG.A.P.,False
+Chile,business developer,0,85,0.0,7.6,,False
+Chile,organico chile,0,84,0.0,14.28,USDA NOP / orgánico,False
+Chile,rws,0,83,0.0,7.76,,False
+Chile,que es grasp,5,81,0.061728,3.01,GLOBALG.A.P.,False
+Chile,que es smeta,0,80,0.0,8.57,SMETA / Sedex,False
+Chile,certificacion organica,1,79,0.012658,7.29,USDA NOP / orgánico,False
+Chile,globalg.a.p.,0,79,0.0,6.0,GLOBALG.A.P.,False
+Chile,certificacion grasp,5,78,0.064103,1.86,GLOBALG.A.P.,False
+Chile,global recycled standard,0,77,0.0,42.52,GRS,False
+Chile,best aquaculture practices certification,0,76,0.0,57.54,MSC / ASC / BAP,False
+Chile,certificación smeta,0,76,0.0,5.59,SMETA / Sedex,False
+Chile,norma chilena 2861,8,72,0.111111,4.64,,False
+Chile,usda chile,1,72,0.013889,6.29,USDA NOP / orgánico,False
+Chile,brand reputation compliance global standards,0,70,0.0,11.72,,False
+Chile,grasp certification,0,69,0.0,2.91,GLOBALG.A.P.,False
+Chile,business developer manager,0,65,0.0,7.08,,False
+Chile,control de fruta en destino,0,65,0.0,29.28,,False
+Chile,norma bap,0,64,0.0,5.72,MSC / ASC / BAP,False
+Chile,bap certified,0,61,0.0,7.64,MSC / ASC / BAP,False
+Chile,certificación msc,0,60,0.0,17.91,MSC / ASC / BAP,False
+Chile,empresas quality control,0,60,0.0,23.33,,False
+Chile,brand reputation compliance,0,58,0.0,30.55,,False
+Chile,brcgs que es,0,56,0.0,8.46,BRCGS,False
+Chile,certificación fair trade,0,54,0.0,5.15,,False
+Chile,ley 20.089,0,54,0.0,10.19,,False
+Chile,que es el grs,0,53,0.0,4.94,GRS,False
+Chile,fair trade usa,0,51,0.0,8.37,,False
+Chile,control de unión industrial,0,50,0.0,69.58,,False
+Chile,global gap chile,1,49,0.020408,8.25,GLOBALG.A.P.,False
+Chile,best aquaculture practices,0,48,0.0,4.98,MSC / ASC / BAP,False
+Chile,que es brcgs,0,47,0.0,7.57,BRCGS,False
+Chile,que es msc,0,47,0.0,17.25,MSC / ASC / BAP,False
+Chile,auditoria smeta 4 pilares,1,46,0.021739,5.13,SMETA / Sedex,False
+Chile,certificacion global gap,0,46,0.0,18.35,GLOBALG.A.P.,False
+Chile,normativa distribuidor orgánicos chile,0,46,0.0,8.98,USDA NOP / orgánico,False
+Chile,certificacion asc,0,45,0.0,45.44,MSC / ASC / BAP,False
+Chile,nch2861,2,45,0.044444,6.85,,False
+Chile,usda certificacion organica,0,45,0.0,59.98,USDA NOP / orgánico,False
+Chile,usda organic,0,44,0.0,15.68,USDA NOP / orgánico,False
+Chile,certificacion fair trade,0,43,0.0,6.51,,False
+Chile,certificación asc acuicultura,1,43,0.023256,19.39,MSC / ASC / BAP,False
+Chile,quality control,0,43,0.0,16.67,,False
+Chile,asc certification,0,42,0.0,7.53,MSC / ASC / BAP,False
+Chile,certificación grasp,0,42,0.0,1.9,GLOBALG.A.P.,False
+Chile,fairtrade,0,42,0.0,5.29,,False
+Chile,certificado grs,1,41,0.02439,4.07,GRS,False
+Chile,ftusa,0,41,0.0,3.49,,False
+Chile,globalg.a.p,1,41,0.02439,6.29,GLOBALG.A.P.,False
+Chile,usda,0,41,0.0,4.76,USDA NOP / orgánico,False
+Chile,organismo de inspección,0,40,0.0,37.9,,False
+España,iso 45001,10,62834,0.000159,10.73,ISO 45001,False
+España,welfair,5,5196,0.000962,6.51,Welfair / bienestar animal,False
+España,grasp,18,4553,0.003953,8.35,GLOBALG.A.P.,False
+España,red española de servicios,20,3426,0.005838,6.64,,False
+España,iso 45000,0,2865,0.0,13.85,,False
+España,sbp,0,2152,0.0,7.75,SBP,False
+España,gstc,11,1880,0.005851,8.16,,False
+España,cumcs,9,1587,0.005671,2.91,CUMCS,False
+España,green globe,5,1523,0.003283,5.49,,False
+España,iso 21401,79,1471,0.053705,3.69,,False
+España,gas free certification,0,1432,0.0,7.72,,False
+España,iso 450001,0,1396,0.0,14.22,,False
+España,huella de carbono corporativa,1,1304,0.000767,7.97,Huella de carbono / GEI,False
+España,certificado iso 45001,0,1183,0.0,13.27,ISO 45001,False
+España,iso 20121,2,1136,0.001761,14.78,,False
+España,red iii,10,1056,0.00947,9.21,RED II/III,False
+España,certificacion iso 45001,0,989,0.0,22.57,ISO 45001,False
+España,animal welfare,1,895,0.001117,8.93,,False
+España,certificación de reutilización de plásticos,0,830,0.0,35.51,,False
+España,iso 9001,0,777,0.0,49.29,ISO 9001,False
+España,certificación de huella de carbono corporativa,0,748,0.0,3.39,Huella de carbono / GEI,False
+España,sbp que es,0,746,0.0,4.77,SBP,False
+España,directiva red iii,31,738,0.042005,3.18,RED II/III,False
+España,redcert,7,736,0.009511,11.01,,False
+España,asc,0,734,0.0,8.32,MSC / ASC / BAP,False
+España,control de unión industrial,0,721,0.0,24.24,,False
+España,marine stewardship council,2,681,0.002937,16.54,,False
+España,iso45001,0,649,0.0,4.48,,False
+España,rsb,0,629,0.0,7.58,,False
+España,certificado welfair,1,593,0.001686,7.89,Welfair / bienestar animal,False
+España,bap certification,0,586,0.0,37.65,MSC / ASC / BAP,False
+España,best aquaculture practices,0,575,0.0,23.73,MSC / ASC / BAP,False
+España,certificación residuo cero,0,568,0.0,50.13,,False
+España,rspo,0,555,0.0,12.66,RSPO,False
+España,21401,4,530,0.007547,4.89,,False
+España,animalwelfair,2,524,0.003817,5.98,Welfair / bienestar animal,False
+España,friend of the sea,1,513,0.001949,7.05,,False
+España,marine stewardship council certification,0,499,0.0,21.97,,False
+España,que es sbp,0,497,0.0,6.49,SBP,False
+España,certificaciones iso 45001,0,496,0.0,11.05,ISO 45001,False
+España,directiva (ue) 2023/2413,2,487,0.004107,7.17,,False
+España,certificación iso 45001,0,481,0.0,19.16,ISO 45001,False
+España,animal welfair,3,467,0.006424,5.7,Welfair / bienestar animal,False
+España,animal welfare certification,0,467,0.0,13.56,,False
+España,gas free,2,462,0.004329,7.44,,False
+España,20121,0,460,0.0,10.65,,False
+España,aquaculture stewardship council,1,451,0.002217,19.36,MSC / ASC / BAP,False
+España,rws wool,1,432,0.002315,12.93,,False
+España,welfare,0,432,0.0,12.34,,False
+España,iso 45001 logo,6,428,0.014019,1.55,ISO 45001,False
+España,red española de servicios sa,2,416,0.004808,7.46,,False
+España,iso 45.001,0,402,0.0,27.22,,False
+España,icao corsia,1,401,0.002494,14.22,,False
+España,enplus,1,395,0.002532,5.93,,False
+España,45001 iso,0,390,0.0,4.75,ISO 45001,False
+España,global sustainable tourism council,0,389,0.0,9.16,,False
+España,rws,1,385,0.002597,3.42,,False
+España,certificación plastico reutilizable,0,384,0.0,33.65,,False
+España,best aquaculture practices certification,0,379,0.0,33.2,MSC / ASC / BAP,False
+España,msc certification,2,379,0.005277,22.52,MSC / ASC / BAP,False
+España,global slp,9,376,0.023936,4.04,,False
+España,slp,0,376,0.0,17.76,,False
+España,logo iso 45001,2,369,0.00542,1.07,ISO 45001,False
+España,red cert,2,365,0.005479,8.25,,False
+España,certificado grasp,0,357,0.0,10.34,GLOBALG.A.P.,False
+España,marine stewardship,0,356,0.0,20.16,,False
+España,certificación iso 9001,0,348,0.0,46.38,ISO 9001,False
+España,no conformidad,0,335,0.0,12.09,,False
+España,certificado bienestar animal,0,334,0.0,16.33,Welfair / bienestar animal,False
+España,marine stewardship council (msc),0,330,0.0,19.69,MSC / ASC / BAP,False
+España,responsible down standard,4,323,0.012384,23.01,,False
+España,2bsvs,1,321,0.003115,6.86,2BSvs,False
+España,certificación de huella de carbono,0,316,0.0,29.66,Huella de carbono / GEI,False
+España,normas iso para hoteles mallorca,0,307,0.0,26.79,,False
+España,certificaciones zero waste,0,303,0.0,74.61,,False
+España,en15343,3,299,0.010033,7.95,RecyClass,False
+España,responsible wool standard,0,290,0.0,36.89,,False
+España,normas iso para hoteles baleares,0,288,0.0,30.42,,False
+España,"red espanola de servicios, s.a.",0,287,0.0,7.47,,False
+España,bap,0,285,0.0,8.44,MSC / ASC / BAP,False
+España,certificado iso 14001,0,282,0.0,51.18,ISO 14001,False
+España,plastic free,3,282,0.010638,6.9,,False
+España,iso 45001 certificacion,1,281,0.003559,13.81,ISO 45001,False
+España,welfair bienestar animal,2,280,0.007143,5.78,Welfair / bienestar animal,False
+España,certificación de calidad iso 9001,0,276,0.0,55.95,ISO 9001,False
+España,international featured standards,0,276,0.0,30.38,,False
+España,friend of the sea certification,1,272,0.003676,7.56,,False
+España,green key,0,266,0.0,7.36,,False
+España,certificacion iso 9001,0,265,0.0,44.2,ISO 9001,False
+España,directiva 2023/2413,2,265,0.007547,5.81,,False
+España,certificación iso 9001 14001,0,263,0.0,67.17,ISO 9001,False
+España,red iii directiva,26,256,0.101562,3.34,RED II/III,False
+España,marine stewardship council msc certification,0,249,0.0,47.04,MSC / ASC / BAP,False
+España,gas free certificate,2,246,0.00813,8.65,,False
+España,iso 14001,0,244,0.0,55.55,ISO 14001,False
+España,best aquaculture practices (bap),0,243,0.0,20.73,MSC / ASC / BAP,False
+España,slp global,1,233,0.004292,5.08,,False
+España,iso 4500,0,231,0.0,7.24,,False
+España,obp,0,230,0.0,8.62,,False
+España,obtener iso 45001,0,230,0.0,28.58,ISO 45001,False
+España,45001,0,225,0.0,19.45,ISO 45001,False
+España,tierwohl,0,222,0.0,4.11,,False
+España,normas iso turismo,0,220,0.0,12.88,,False
+España,what is the best way to track and report scope 3 co2 emissions for corporate taxi usage in barcelona?,0,220,0.0,7.58,,False
+España,draft survey,0,218,0.0,25.43,,False
+España,certificación turística sostenible mallorca,0,215,0.0,54.71,,False
+España,friends of the sea,2,215,0.009302,6.34,,False
+España,gsa bap,0,214,0.0,17.6,MSC / ASC / BAP,False
+España,certificado de calidad iso 9001,0,213,0.0,57.86,ISO 9001,False
+España,no conformidades,0,211,0.0,13.07,,False
+España,ocean bound plastic,0,211,0.0,49.98,,False
+España,análisis detallado sobre cómo el despliegue de combustibles renovables de repsol en españa contribuye específicamente a los objetivos de la directiva (ue) 2023/2413 (red iii) y cuál es el mecanismo de certificación de ahorro de emisiones de gei utilizado para validar su impacto frente a la regulación vigente.,0,208,0.0,2.43,RED II/III,False
+España,iso turismo,0,208,0.0,11.29,,False
+España,msc certified,1,208,0.004808,47.3,MSC / ASC / BAP,False
+España,asc aquaculture,0,207,0.0,21.21,MSC / ASC / BAP,False
+España,certificación blue angel para plásticos,0,205,0.0,49.0,,False
+España,diferencia entre hallazgo y no conformidad,8,205,0.039024,2.48,,False
+España,normas iso en turismo,0,205,0.0,12.39,,False
+España,ftusa,1,204,0.004902,7.28,,False
+España,asc aquaculture stewardship council,1,197,0.005076,19.33,MSC / ASC / BAP,False
+España,inspeccion de carga,0,196,0.0,21.07,,False
+España,empresa certificadora iso 45001,0,194,0.0,34.3,ISO 45001,False
+España,gacp,0,194,0.0,9.31,,False
+España,aquaculture stewardship council certification,0,193,0.0,43.36,MSC / ASC / BAP,False
+España,cumcs-g.a.p,0,193,0.0,10.42,CUMCS,False
+España,huella de carbono empresas,0,191,0.0,56.29,Huella de carbono / GEI,False
+España,gmp fsa,0,190,0.0,42.82,GMP+,False
+España,inspección de mercancías agrícolas,0,190,0.0,17.54,,False
+España,certificado huella de carbono,0,189,0.0,42.4,Huella de carbono / GEI,False
+España,certificaciones de tejidos,0,188,0.0,11.07,,False
+España,gas free verification,0,187,0.0,12.8,,False
+España,animalwelfair. com,0,184,0.0,6.43,Welfair / bienestar animal,False
+España,global seafood alliance's best aquaculture practices,0,182,0.0,26.21,MSC / ASC / BAP,False
+España,2018/848,0,179,0.0,8.82,,False
+España,certificaciones iso 9001,0,179,0.0,41.69,ISO 9001,False
+España,auditoria bienestar animal,0,178,0.0,49.68,Welfair / bienestar animal,False
+España,certificación welfair,1,177,0.00565,8.12,Welfair / bienestar animal,False
+España,bienestar animal certificado welfair,0,176,0.0,7.26,Welfair / bienestar animal,False
+España,control de calidad de piensos,0,175,0.0,59.65,,False
+España,conseguir iso 45001,0,172,0.0,52.39,ISO 45001,False
+España,iso 4501,0,172,0.0,6.55,,False
+España,certificado calidad iso 9001,0,167,0.0,55.86,ISO 9001,False
+España,consejo global de turismo sostenible,2,167,0.011976,5.45,,False
+España,sello bienestar animal,1,165,0.006061,10.94,Welfair / bienestar animal,False
+España,certificados iso 14001,0,164,0.0,43.2,ISO 14001,False
+España,red iii españa,6,163,0.03681,4.82,RED II/III,False
+España,certificacion 9001,0,162,0.0,32.89,ISO 9001,False
+España,gstc certification,1,162,0.006173,7.8,,False
+España,rsb corsia,2,161,0.012422,5.74,,False
+España,aquaculture stewardship council standard certification,0,157,0.0,21.67,MSC / ASC / BAP,False
+España,greenglobe,0,157,0.0,5.57,,False
+España,marine stewardship certification,0,156,0.0,20.42,,False
+España,bienestar animal welfair,1,153,0.006536,5.44,Welfair / bienestar animal,False
+España,sustainable biomass,0,153,0.0,51.9,Bioenergía / biomasa,False
+España,curso huella de carbono,0,148,0.0,51.69,Huella de carbono / GEI,False
+España,red española de servicios ressa,3,147,0.020408,5.52,,False
+España,huella de carbono producto,0,142,0.0,45.27,Huella de carbono / GEI,False
+España,certificados iso 9001,0,141,0.0,43.69,ISO 9001,False
+España,iso 45001 actualizada,0,140,0.0,17.13,ISO 45001,False
+España,que es grasp,0,138,0.0,4.05,GLOBALG.A.P.,False
+España,certificacion turismo sostenible,0,136,0.0,17.77,,False
+España,control mercancia puerto,0,134,0.0,40.91,,False
+España,friends of the sea certification,0,131,0.0,6.82,,False
+España,fairtrade usa,0,130,0.0,8.46,,False
+España,norma iso 45001,0,128,0.0,31.85,ISO 45001,False
+España,la norma iso 45001,0,127,0.0,43.96,ISO 45001,False
+España,rws wool meaning,0,127,0.0,7.51,,False
+España,aquaculture stewardship,0,126,0.0,48.17,MSC / ASC / BAP,False
+España,global recycle standard,0,125,0.0,62.04,,False
+España,certificaciones iso 14001,0,124,0.0,44.13,ISO 14001,False
+España,msc marine stewardship council,0,124,0.0,17.42,MSC / ASC / BAP,False
+España,certificación apr para plásticos,0,123,0.0,42.45,,False
+España,cargo oil tank inspection,0,119,0.0,44.32,,False
+España,certificado iso 9001,0,119,0.0,54.41,ISO 9001,False
+España,iso 9001 certificación,0,119,0.0,34.97,ISO 9001,False
+España,nc iso 45001,0,119,0.0,25.07,ISO 45001,False
+España,rws certification,0,117,0.0,7.02,,False
+España,asc que es,0,116,0.0,10.97,MSC / ASC / BAP,False
+España,certificado de iso 14001,0,116,0.0,47.23,ISO 14001,False
+España,certificados textiles ecologicos,0,116,0.0,25.22,USDA NOP / orgánico,False
+España,welfare animal,0,115,0.0,7.41,,False
+España,certificado 14001,0,114,0.0,51.95,ISO 14001,False
+España,residuo cero,0,114,0.0,54.79,,False
+España,green globe certification,0,113,0.0,5.71,,False
+España,red española de servicios sau,1,113,0.00885,5.35,,False
+España,certificacion de turismo sostenible,0,112,0.0,19.43,,False
+España,slp international,0,112,0.0,10.85,,False
+España,certificación msc,0,109,0.0,25.3,MSC / ASC / BAP,False
+España,huella de carbono empresas madrid,0,109,0.0,62.65,Huella de carbono / GEI,False
+España,curso calculo huella de carbono,1,108,0.009259,24.21,Huella de carbono / GEI,False
+España,normas iso para hoteles,0,108,0.0,12.5,,False
+España,certificación de turismo sostenible,0,107,0.0,15.7,,False
+España,fair trade,0,107,0.0,7.62,,False
+España,rws que es,0,107,0.0,4.52,,False
+España,control de carga,0,106,0.0,33.35,,False
+España,implementacion de normas iso en hoteles baleares,0,105,0.0,39.23,,False
+España,friend of the sea official website,0,103,0.0,8.33,,False
+España,iso 45001 png,5,103,0.048544,1.3,ISO 45001,False
+España,certified plastic recovery,0,102,0.0,13.38,,False
+España,gstc (global sustainable tourism council),0,102,0.0,6.35,,False
+España,red 3,0,102,0.0,7.9,,False
+España,loading and discharge supervision,0,101,0.0,7.98,,False
+España,certificacion de bienestar animal,0,100,0.0,12.05,Welfair / bienestar animal,False
+España,eficacia del sistema de balance de masas y el rol de la union database (udb) en la prevención de la doble contabilización de certificados de reducción de emisiones en combustibles renovables.,0,100,0.0,8.56,,False
+España,regulation 2018/848,0,100,0.0,6.68,,False
+España,certificarse en iso 45001,0,99,0.0,11.92,ISO 45001,False
+España,sello welfair,0,98,0.0,6.6,Welfair / bienestar animal,False
+España,cargo hold condition,0,97,0.0,39.33,,False
+España,certificacion iso 14001,0,97,0.0,44.55,ISO 14001,False
+España,grasp que es,0,97,0.0,4.11,GLOBALG.A.P.,False
+España,rds,0,97,0.0,5.34,,False
+España,aquaculture stewardship council chain of custody,0,96,0.0,40.99,MSC / ASC / BAP,False
+España,certificación rsb para biomateriales sostenibles,0,96,0.0,9.95,,False
+España,en15343 certification,1,96,0.010417,7.37,RecyClass,False
+España,grasp certification,0,96,0.0,7.23,GLOBALG.A.P.,False
+España,iso 22483,0,96,0.0,64.17,,False
+España,certificado huella carbono,0,95,0.0,37.55,,False
+España,ursa audit,2,95,0.021053,3.12,,False
+España,fair trade usa,0,94,0.0,16.47,,False
+España,certificación bienestar animal welfair,0,93,0.0,7.0,Welfair / bienestar animal,False
+España,certificadora iso 45001,0,93,0.0,14.47,ISO 45001,False
+España,msc pesca,0,93,0.0,8.38,MSC / ASC / BAP,False
+España,what is marine stewardship council,0,93,0.0,41.15,,False
+España,loading supervision,0,92,0.0,10.35,,False
+España,rediii,1,92,0.01087,7.14,,False
+España,asc coc,0,91,0.0,36.75,MSC / ASC / BAP,False
+España,certificación iso 45001 en españa,0,91,0.0,8.33,ISO 45001,False
+España,la iso 45001,0,90,0.0,34.85,ISO 45001,False
+España,green key certification,0,88,0.0,7.77,,False
+España,neikos elea,0,88,0.0,9.85,,False
+España,que es green globe,4,88,0.045455,5.0,,False
+España,sistemas de inspeccion industria maderera,0,88,0.0,73.84,,False
+España,certificado msc pesca,0,87,0.0,10.23,MSC / ASC / BAP,False
+España,certificado welfair bienestar animal,1,87,0.011494,5.13,Welfair / bienestar animal,False
+España,fos,0,87,0.0,27.44,,False
+España,iso seguridad y salud,0,87,0.0,39.47,,False
+España,iso 20121 eventos sostenibles,0,85,0.0,9.43,,False
+España,msc certificado,0,85,0.0,16.63,MSC / ASC / BAP,False
+España,grasp certificado,0,84,0.0,4.41,GLOBALG.A.P.,False
+España,iso21401,1,83,0.012048,5.29,,False
+España,cbam,0,82,0.0,27.14,CBAM,False
+España,regulation (eu) 2018/848,0,82,0.0,6.99,,False
+España,green globe certificate,0,81,0.0,68.19,,False
+España,iso 45001 logo png,0,81,0.0,1.3,ISO 45001,False
+España,que es green key,0,81,0.0,8.01,,False
+España,responsible sourcing audit,0,81,0.0,18.43,,False
+España,"""plaza de europa 11"" imárcoain",0,80,0.0,3.0,,False
+España,gmpplus kursus,0,80,0.0,26.49,,False
+España,tank and cargo hold servicing,0,80,0.0,25.33,,False
+España,ido 45001,0,79,0.0,6.57,ISO 45001,False
+España,certificación internacional iso 9001,0,78,0.0,29.76,ISO 9001,False
+España,globalg.a.p.,1,78,0.012821,14.7,GLOBALG.A.P.,False
+España,green glober,0,78,0.0,8.99,,False
+España,iso 45001 que es y para que sirve,0,78,0.0,28.81,ISO 45001,False
+España,iso 21401 pdf,5,77,0.064935,6.48,,False
+España,so 45001,0,77,0.0,10.17,ISO 45001,False
+España,welfair certificado,0,77,0.0,6.06,Welfair / bienestar animal,False
+España,isso 45001,0,76,0.0,7.71,ISO 45001,False
+España,certificación rsb,0,75,0.0,7.25,,False
+España,certificación iso 14001,0,74,0.0,53.2,ISO 14001,False
+España,directiva renovables,0,74,0.0,4.32,,False
+España,iso45000,0,74,0.0,8.11,,False
+España,sistemas de gestión iso 45001,0,74,0.0,29.82,ISO 45001,False
+España,titulo plastic packaging,0,73,0.0,20.41,,False
+España,bap best aquaculture practices,0,72,0.0,19.6,MSC / ASC / BAP,False
+España,consultora huella de carbono,0,72,0.0,84.36,Huella de carbono / GEI,False
+España,manage options en español,0,72,0.0,11.57,,False
+España,rds down,0,72,0.0,26.47,,False
+España,uso 45001,0,72,0.0,6.22,ISO 45001,False
+España,certification msc,0,71,0.0,9.71,MSC / ASC / BAP,False
+España,what is rws wool,0,71,0.0,11.28,,False
+España,control de calidad en origen,0,70,0.0,56.46,,False
+España,earthcheck,0,70,0.0,5.4,,False
+España,global grasp,1,70,0.014286,6.89,GLOBALG.A.P.,False
+España,iso 45001 certification in spain,0,70,0.0,26.57,ISO 45001,False
+España,iso eventos sostenibles,1,70,0.014286,7.03,,False
+España,lana rws,1,70,0.014286,9.34,,False
+España,red espanola de servicios s.a,0,69,0.0,7.26,,False
+España,iso 450,0,68,0.0,7.18,,False
+España,wel fair,0,68,0.0,6.65,,False
+España,cargo inspection in the british virgin islands,0,67,0.0,50.45,,False
+España,iso 21401:2018,14,66,0.212121,2.49,,False
+España,msc pesca sostenible,0,66,0.0,27.47,MSC / ASC / BAP,False
+España,quantity control,0,66,0.0,28.7,,False
+España,redcert eu,0,66,0.0,9.64,,False
+España,graps,0,65,0.0,2.36,,False
+España,iso 45001 madrid,0,65,0.0,36.15,ISO 45001,False
+España,iso 9001 certificado,0,65,0.0,59.38,ISO 9001,False
+España,servicios de inspeccion,0,65,0.0,24.61,,False
+España,grasp en español,0,64,0.0,2.48,GLOBALG.A.P.,False
+España,iso 18065,0,64,0.0,25.05,,False
+España,norma iso 14001,0,64,0.0,56.17,ISO 14001,False
+España,reciclass,0,64,0.0,6.38,,False
+España,certificacion huella hidrica,0,63,0.0,12.54,Huella hídrica,False
+España,certificação grasp,0,63,0.0,35.73,GLOBALG.A.P.,False
+España,tencent15343,0,63,0.0,6.86,RecyClass,False
+España,recyclas,0,62,0.0,6.07,,False
+España,servicios de certificación rsb,0,62,0.0,7.08,,False
+España,what does the marine stewardship council do,0,62,0.0,20.56,,False
+España,asc certification,0,61,0.0,14.23,MSC / ASC / BAP,False
+España,certificado de inspeccion,0,61,0.0,25.57,,False
+España,certificado de bienestar animal,0,60,0.0,17.21,Welfair / bienestar animal,False
+España,iso 45001 sevilla,0,60,0.0,25.05,ISO 45001,False
+España,norma uni iso 45001,0,60,0.0,21.03,ISO 45001,False
+España,redcert certificates,0,60,0.0,26.2,,False
+España,green globes,0,59,0.0,7.12,,False
+España,iso450001,0,59,0.0,8.93,,False
+España,aquaculture certification,0,58,0.0,17.37,MSC / ASC / BAP,False
+España,certificado msc,0,58,0.0,11.0,MSC / ASC / BAP,False
+España,certificado residuo cero,0,58,0.0,60.21,,False
+España,logo grasp,0,58,0.0,1.0,GLOBALG.A.P.,False
+España,what is the marine stewardship council,0,58,0.0,31.96,,False
+España,certificacion iso 14000,0,57,0.0,65.6,,False
+España,implantación globalg.a.p.,0,57,0.0,67.18,GLOBALG.A.P.,False
+España,animal welfair.com,1,56,0.017857,4.82,Welfair / bienestar animal,False
+España,free plastic,0,56,0.0,13.52,,False
+España,global sustainable tourism council (gstc),0,56,0.0,5.91,,False
+España,organic content standard,3,56,0.053571,18.36,USDA NOP / orgánico,False
+España,sbp sbp,0,56,0.0,5.17,SBP,False
+España,"""plaza de europa 11"" imárcoain navarra",0,55,0.0,2.29,,False
+España,certificado de calidad iso 14001,0,55,0.0,55.56,ISO 14001,False
+España,gestor residuo cero,0,55,0.0,71.09,,False
+España,normativas iso 14001,0,55,0.0,62.65,ISO 14001,False
+España,certification bap,0,54,0.0,5.87,MSC / ASC / BAP,False
+España,huella de carbono empresa,0,54,0.0,60.17,Huella de carbono / GEI,False
+España,huella de carbono industrial,0,54,0.0,52.96,Huella de carbono / GEI,False
+España,que es el sbp,0,54,0.0,6.18,SBP,False
+España,rws certificate,0,54,0.0,3.61,,False
+España,and welfare,0,53,0.0,14.89,,False
+España,aquaculture stewardship council (asc),0,53,0.0,6.93,MSC / ASC / BAP,False
+España,certificación gaa bap,0,53,0.0,11.94,MSC / ASC / BAP,False
+España,iso 45 001,0,53,0.0,17.02,,False
+España,plasticfree,0,53,0.0,6.93,,False
+España,que es rsb,1,53,0.018868,4.38,,False
+España,control calidad plásticos,0,52,0.0,89.42,,False
+España,control operacional iso 45001,0,52,0.0,29.68,ISO 45001,False
+España,fos certification,1,52,0.019231,4.71,,False
+España,gstc meaning,0,52,0.0,8.98,,False
+España,msc marine,0,52,0.0,8.25,MSC / ASC / BAP,False
+España,normativa red iii,10,52,0.192308,1.27,RED II/III,False
+España,une 45001,0,52,0.0,27.79,ISO 45001,False
+España,huella de carbono empresarial,0,51,0.0,11.76,Huella de carbono / GEI,False
+España,iaws,0,51,0.0,6.2,,False
+España,multimodal de transportes agrupados,0,51,0.0,9.76,,False
+España,norma iso 4500,0,51,0.0,31.67,,False
+España,c juan esplandiu 13 28007 madrid,0,50,0.0,2.32,,False
+España,impacto de la directiva red iii en la prima de precio de los combustibles renovables: ¿cómo influyen los objetivos de intensidad de carbono y los mecanismos de cumplimiento en el precio final para el sector transporte?,0,50,0.0,6.78,RED II/III,False
+España,rws certified wool,0,50,0.0,27.24,,False
+España,mantenimiento iso 45001,0,49,0.0,51.76,ISO 45001,False
+España,no conformidad mayor,1,49,0.020408,7.29,,False
+España,sea fos,0,49,0.0,8.53,,False
+España,verificacion de la huella de carbono,0,49,0.0,21.55,Huella de carbono / GEI,False
+España,globalg.a.p,2,48,0.041667,9.31,GLOBALG.A.P.,False
+España,gmp fsa 2020,0,48,0.0,5.29,GMP+,False
+España,iso 45001.,0,48,0.0,6.96,ISO 45001,False
+España,logo de iso 45001,0,48,0.0,1.75,ISO 45001,False
+España,que es una no conformidad,0,48,0.0,12.64,,False
+España,sgc iso 9001,0,48,0.0,50.71,ISO 9001,False
+España,usqs,0,48,0.0,9.0,,False
+España,verificacion huella de carbono,0,48,0.0,13.06,Huella de carbono / GEI,False
+España,aquaculture stewardship council standard,0,47,0.0,30.58,MSC / ASC / BAP,False
+España,auditoria cbam,0,47,0.0,38.15,CBAM,False
+España,directiva red,0,47,0.0,17.46,,False
+España,certification iso 45001,0,46,0.0,13.07,ISO 45001,False
+España,gmp fc scheme 2020,0,46,0.0,15.5,GMP+,False
+España,international featured standard,0,46,0.0,32.26,,False
+España,bap acuicultura,0,45,0.0,10.87,MSC / ASC / BAP,False
+España,directiva (ue) 2023/2413 (red iii),0,45,0.0,3.55,RED II/III,False
+España,non conformities,0,45,0.0,10.49,,False
+España,what is friend of the sea certification,0,45,0.0,6.84,,False
+España,certificación bap,0,44,0.0,7.52,MSC / ASC / BAP,False
+España,eu 2018/848,0,44,0.0,7.95,,False
+España,implementacion de normas iso en hoteles mallorca,0,44,0.0,37.66,,False
+España,iso 45000 logo,0,44,0.0,1.05,,False
+España,msc certificate,0,44,0.0,14.89,MSC / ASC / BAP,False
+España,¿de qué están hechos exactamente los combustibles renovables y cómo sabemos que no se está usando comida o dañando bosques para fabricarlos?,0,44,0.0,2.95,,False
+España,gas free inspection,0,43,0.0,13.23,,False
+España,transporte agrupados,0,43,0.0,38.72,,False
+España,certificación pesca,0,42,0.0,46.12,,False
+España,friend of sea certification,0,42,0.0,6.64,,False
+España,grasps,0,42,0.0,10.12,,False
+España,gstc que es,0,42,0.0,7.24,,False
+España,industria de piensos,0,42,0.0,11.52,,False
+España,45000 iso,0,41,0.0,20.0,,False
+España,análisis de piensos,0,41,0.0,68.24,,False
+España,asc certified,0,41,0.0,40.48,MSC / ASC / BAP,False
+España,directiva ue 2023/2413,0,41,0.0,7.59,,False
+España,gstc full form,0,41,0.0,7.39,,False
+España,iso seguridad laboral,0,41,0.0,54.09,,False
+España,iso 45001 huelva,0,40,0.0,31.5,ISO 45001,False
+España,iso 45001 malaga,0,40,0.0,20.5,ISO 45001,False
+España,red certification,0,40,0.0,18.22,,False
+España,scope of iso 20121,0,40,0.0,43.55,,False
+España,servicios de inspección,0,40,0.0,25.68,,False
+México,grs,24,22617,0.001061,7.51,GRS,False
+México,fsa,8,6624,0.001208,6.39,FSA,False
+México,fsc,5,5433,0.00092,8.61,FSC,False
+México,smeta,8,5202,0.001538,9.71,SMETA / Sedex,False
+México,ocs,0,4341,0.0,4.13,,False
+México,fair trade,5,3374,0.001482,9.03,,False
+México,grs que es,1,3232,0.000309,4.44,GRS,False
+México,primusgfs,15,3130,0.004792,11.75,PrimusGFS,False
+México,primus gfs,12,2382,0.005038,9.04,PrimusGFS,False
+México,que es grs,1,1956,0.000511,5.71,GRS,False
+México,obp,4,1897,0.002109,18.38,,False
+México,gstc,17,1712,0.00993,8.27,,False
+México,reserva de accion climatica,0,1613,0.0,4.69,,False
+México,fsa certification,4,1532,0.002611,6.73,FSA,False
+México,usda,2,1264,0.001582,5.84,USDA NOP / orgánico,False
+México,smeta certificacion,0,1197,0.0,7.98,SMETA / Sedex,False
+México,global gap,0,1078,0.0,29.54,GLOBALG.A.P.,False
+México,gots,2,1019,0.001963,12.73,GOTS,False
+México,control de calidad frutas y verduras,0,949,0.0,42.84,,False
+México,global recycled standard,24,934,0.025696,27.22,GRS,False
+México,certificadora mexico,0,846,0.0,26.18,,False
+México,rspo,1,820,0.00122,10.56,RSPO,False
+México,what is grs in mexico,0,801,0.0,5.45,GRS,False
+México,leaf marque,0,789,0.0,17.07,,False
+México,bonsucro,0,747,0.0,10.28,,False
+México,globalgap database,0,724,0.0,20.38,GLOBALG.A.P.,False
+México,asc,0,615,0.0,8.2,MSC / ASC / BAP,False
+México,jas,1,605,0.001653,7.3,,False
+México,fair trade usa,1,576,0.001736,6.8,,False
+México,iscc,1,564,0.001773,7.41,ISCC,False
+México,primusgfs certification,0,553,0.0,43.56,PrimusGFS,False
+México,quality control,2,551,0.00363,10.81,,False
+México,control de calidad en frutas,0,539,0.0,36.7,,False
+México,certificacion de proveedores,0,516,0.0,65.57,,False
+México,certificacion leaf,0,507,0.0,14.27,,False
+México,certificacion primus,3,504,0.005952,7.51,PrimusGFS,False
+México,certificacion smeta,2,486,0.004115,7.96,SMETA / Sedex,False
+México,organico mexico,16,482,0.033195,6.8,USDA NOP / orgánico,False
+México,globalgap,0,480,0.0,55.51,GLOBALG.A.P.,False
+México,certificación iscc plus,0,479,0.0,8.28,ISCC,False
+México,que significa grs,1,465,0.002151,5.52,GRS,False
+México,certificacion smeta mexico,0,451,0.0,6.65,SMETA / Sedex,False
+México,globalg.a.p.,1,448,0.002232,37.92,GLOBALG.A.P.,False
+México,control de calidad de frutas,0,439,0.0,30.68,,False
+México,sedex smeta,2,437,0.004577,10.87,SMETA / Sedex,False
+México,certificación iscc,0,426,0.0,15.51,ISCC,False
+México,certificación rspo,0,406,0.0,22.2,RSPO,False
+México,organic certification mexico,0,402,0.0,15.87,USDA NOP / orgánico,False
+México,smeta 4 pilares,1,397,0.002519,11.97,SMETA / Sedex,False
+México,organico,0,393,0.0,13.37,USDA NOP / orgánico,False
+México,pfm mexico,0,391,0.0,6.8,,False
+México,certificado organico,0,384,0.0,12.07,USDA NOP / orgánico,False
+México,primus certificacion,1,374,0.002674,6.58,PrimusGFS,False
+México,iscc plus,3,350,0.008571,9.66,ISCC,False
+México,auditoría smeta,0,344,0.0,28.9,SMETA / Sedex,False
+México,certificación de proveedores,0,340,0.0,69.63,,False
+México,certificacion global gap,0,335,0.0,36.16,GLOBALG.A.P.,False
+México,primus gfs que es,1,334,0.002994,7.35,PrimusGFS,False
+México,draft survey,4,323,0.012384,31.96,,False
+México,control proveedores,0,316,0.0,59.48,,False
+México,asc que es,0,312,0.0,10.41,MSC / ASC / BAP,False
+México,certificacion usda,1,312,0.003205,11.11,USDA NOP / orgánico,False
+México,grs mexico,4,288,0.013889,4.29,GRS,False
+México,certificacion bonsucro,0,280,0.0,12.48,,False
+México,ocean bound plastic,1,263,0.003802,58.9,,False
+México,certificación smeta,1,257,0.003891,10.82,SMETA / Sedex,False
+México,global gap database,0,247,0.0,31.85,GLOBALG.A.P.,False
+México,certificacion jas,3,243,0.012346,6.08,,False
+México,global sustainable tourism council,1,243,0.004115,17.46,,False
+México,control de calidad en sucursales,0,231,0.0,20.24,,False
+México,que es asc,0,229,0.0,10.8,MSC / ASC / BAP,False
+México,que es ocs,0,227,0.0,7.4,,False
+México,global sustainable tourism,0,223,0.0,33.93,,False
+México,auditoria smeta,0,221,0.0,16.2,SMETA / Sedex,False
+México,certificación msc,0,221,0.0,20.6,MSC / ASC / BAP,False
+México,grs significado,1,221,0.004525,8.42,GRS,False
+México,loading supervision,0,220,0.0,68.86,,False
+México,verificacion de proveedores,0,220,0.0,51.39,,False
+México,certificacion organica,0,218,0.0,11.69,USDA NOP / orgánico,False
+México,certificación primus,0,209,0.0,8.25,PrimusGFS,False
+México,certificacion organica mexico,10,203,0.049261,5.2,USDA NOP / orgánico,False
+México,servicio de inspección de calidad,0,201,0.0,36.65,,False
+México,certificaciones organicas,0,193,0.0,19.1,USDA NOP / orgánico,False
+México,aquaculture stewardship council,1,192,0.005208,11.16,MSC / ASC / BAP,False
+México,control de calidad de frutas y hortalizas,0,190,0.0,43.25,,False
+México,inspection services mexico,0,190,0.0,18.71,,False
+México,regenagri,0,189,0.0,5.59,,False
+México,msc chain of custody,0,188,0.0,42.96,MSC / ASC / BAP,False
+México,certificación sedex,0,187,0.0,29.29,SMETA / Sedex,False
+México,krav,0,174,0.0,9.7,,False
+México,certificación primus gfs,3,171,0.017544,6.08,PrimusGFS,False
+México,consejo global de turismo sostenible,4,169,0.023669,5.04,,False
+México,control de estandares de marca,0,169,0.0,44.4,,False
+México,control europeo,0,169,0.0,7.14,,False
+México,organismos certificadores iso 9001 en méxico,0,167,0.0,78.93,ISO 9001,False
+México,no conformidad mayor,0,163,0.0,9.54,,False
+México,reliable inspection companies mexico order verification,0,163,0.0,8.77,,False
+México,marine stewardship council chain of custody,0,160,0.0,45.28,,False
+México,asociacion de inspeccion,0,157,0.0,21.86,,False
+México,certificado organico mexico,4,155,0.025806,6.35,USDA NOP / orgánico,False
+México,grs que significa,0,155,0.0,5.6,GRS,False
+México,usda nop,0,154,0.0,23.1,USDA NOP / orgánico,False
+México,consultoria smeta,1,153,0.006536,5.4,SMETA / Sedex,False
+México,fsc mexico,0,152,0.0,7.77,FSC,False
+México,certificación jas,3,151,0.019868,5.48,,False
+México,forest stewardship council,0,150,0.0,11.03,,False
+México,gots en español,1,150,0.006667,9.8,GOTS,False
+México,organismos de certificación acreditados en méxico,0,150,0.0,62.99,,False
+México,servicios de control de calidad,0,148,0.0,18.58,,False
+México,certificacion grs,1,147,0.006803,5.19,GRS,False
+México,fairtrade usa,1,146,0.006849,6.94,,False
+México,certificacion primusgfs,0,145,0.0,7.87,PrimusGFS,False
+México,certificado grs,1,143,0.006993,7.77,GRS,False
+México,roundtable on sustainable palm oil,0,142,0.0,26.98,,False
+México,que es primus gfs,0,141,0.0,8.05,PrimusGFS,False
+México,comprar organicos certificados,0,138,0.0,45.96,USDA NOP / orgánico,False
+México,grs certification,0,137,0.0,6.67,GRS,False
+México,smeta 2 pilares,4,136,0.029412,6.94,SMETA / Sedex,False
+México,aquaculture stewardship council certification,0,135,0.0,40.85,MSC / ASC / BAP,False
+México,mexico aquaculture market,0,135,0.0,57.93,MSC / ASC / BAP,False
+México,requisitos smeta,0,134,0.0,5.62,SMETA / Sedex,False
+México,q es grs,0,133,0.0,6.18,GRS,False
+México,carga de supervisión,0,132,0.0,29.62,,False
+México,control de calidad alimentaria,0,131,0.0,31.32,,False
+México,sello organico mexico,0,131,0.0,9.1,USDA NOP / orgánico,False
+México,bonsucro que es,0,128,0.0,10.31,,False
+México,ocs que es,1,128,0.007812,7.82,,False
+México,gstc que es,2,126,0.015873,6.28,,False
+México,mexico palm recognition market,0,126,0.0,58.71,,False
+México,bio suisse,0,124,0.0,10.15,,False
+México,grs.,0,124,0.0,7.64,GRS,False
+México,organic mexico,1,124,0.008065,35.97,USDA NOP / orgánico,False
+México,que es bonsucro,1,124,0.008065,10.31,,False
+México,draft survey en español,1,122,0.008197,5.37,,False
+México,que es jas,0,120,0.0,8.65,,False
+México,certificación usda,0,119,0.0,7.38,USDA NOP / orgánico,False
+México,4 pilares smeta,0,118,0.0,9.43,SMETA / Sedex,False
+México,¿cuál es el estado actual de la certificación rspo en la industria alimentaria de méxico?,0,118,0.0,7.59,RSPO,False
+México,primusgfs certificacion,0,117,0.0,7.23,PrimusGFS,False
+México,certificación smeta 4 pilares,2,116,0.017241,7.91,SMETA / Sedex,False
+México,fairtrade,0,116,0.0,9.36,,False
+México,fslm,0,115,0.0,6.7,FSLM / Higg,False
+México,certificado jas,0,114,0.0,6.47,,False
+México,empresa de control de calidad,0,114,0.0,31.93,,False
+México,global gap certificacion,1,114,0.008772,13.32,GLOBALG.A.P.,False
+México,jas certificacion,3,114,0.026316,4.39,,False
+México,usda national organic program,0,112,0.0,46.44,USDA NOP / orgánico,False
+México,av santa fe 495 cruz manca,0,111,0.0,9.9,,False
+México,que son grs,0,111,0.0,5.54,GRS,False
+México,biosuisse,0,110,0.0,10.19,,False
+México,conatrol mexico,0,109,0.0,6.68,,False
+México,proveedor de inspección de calidad,0,109,0.0,15.17,,False
+México,recycled claim standard,0,109,0.0,12.49,,False
+México,rcs mexico,2,105,0.019048,7.33,,False
+México,commodities de mexico,0,104,0.0,37.53,,False
+México,biomasa en mexico,3,103,0.029126,12.3,Bioenergía / biomasa,False
+México,auditoria smeta 4 pilares,0,102,0.0,9.4,SMETA / Sedex,False
+México,fair trade mexico,2,102,0.019608,8.58,,False
+México,tecnicas de control de calidad en frutas,0,102,0.0,62.65,,False
+México,certificaciones textiles,0,101,0.0,6.18,,False
+México,auditoria sedex smeta,0,100,0.0,15.83,SMETA / Sedex,False
+México,aceite de palma sostenible certificado,0,99,0.0,37.04,,False
+México,due diligence mexico,1,99,0.010101,27.21,,False
+México,certificado eec,0,98,0.0,30.26,,False
+México,msc certification,0,98,0.0,54.29,MSC / ASC / BAP,False
+México,footwear quality control mexico,0,97,0.0,45.65,,False
+México,protocolo car,0,97,0.0,6.9,,False
+México,global gap certification,0,94,0.0,34.61,GLOBALG.A.P.,False
+México,globalg.a.p. standard,0,94,0.0,52.06,GLOBALG.A.P.,False
+México,soc1 certification in mexico,0,93,0.0,49.85,,False
+México,servicio de control de calidad,0,91,0.0,16.24,,False
+México,certificado usda,1,90,0.011111,5.38,USDA NOP / orgánico,False
+México,usda certification,0,90,0.0,27.99,USDA NOP / orgánico,False
+México,control de unión industrial,0,89,0.0,62.81,,False
+México,fsc certification,0,89,0.0,12.43,FSC,False
+México,ftusa,1,89,0.011236,3.99,,False
+México,usda certificacion,0,89,0.0,8.76,USDA NOP / orgánico,False
+México,sustainable tourism certification,0,88,0.0,25.49,,False
+México,auditorias a proveedores,0,87,0.0,55.26,,False
+México,no conformidades menores,0,87,0.0,12.75,,False
+México,organismos certificadores mexico,0,87,0.0,69.03,,False
+México,global recycled standard (grs),2,86,0.023256,4.6,GRS,False
+México,que es certificacion global gap,0,86,0.0,61.23,GLOBALG.A.P.,False
+México,inspecciones de flotas,0,85,0.0,80.56,,False
+México,marine stewardship council,0,85,0.0,21.26,,False
+México,que es un grs,0,85,0.0,5.89,GRS,False
+México,globalg.a.p,0,84,0.0,12.19,GLOBALG.A.P.,False
+México,certificación fair trade,0,83,0.0,10.44,,False
+México,que es smeta 4 pilares,0,83,0.0,8.55,SMETA / Sedex,False
+México,asc aquaculture stewardship council,0,82,0.0,24.35,MSC / ASC / BAP,False
+México,collateral agency services,0,82,0.0,78.24,,False
+México,fair trade certificación,0,82,0.0,9.48,,False
+México,certificación de sostenibilidad internacional y de carbono iscc,0,81,0.0,25.01,ISCC,False
+México,certificación orgánica en méxico,2,81,0.024691,9.34,USDA NOP / orgánico,False
+México,due diligence empresas méxico,0,81,0.0,53.31,,False
+México,productos organicos en méxico,0,81,0.0,47.16,USDA NOP / orgánico,False
+México,regen agri,0,80,0.0,59.42,,False
+México,certificación grs,1,79,0.012658,5.35,GRS,False
+México,certificado fair trade,0,79,0.0,9.73,,False
+México,empresas de control de calidad,0,79,0.0,56.86,,False
+México,obp que es,0,79,0.0,7.75,,False
+México,organismos certificadores de mexico,0,79,0.0,74.82,,False
+México,qué significa grs,0,79,0.0,5.86,GRS,False
+México,usda certificacion organica,0,79,0.0,47.55,USDA NOP / orgánico,False
+México,leaf marque certification,0,78,0.0,30.95,,False
+México,oco,1,78,0.012821,1.2,,False
+México,organismos certificadores en méxico,0,78,0.0,68.77,,False
+México,que es la grs,0,78,0.0,4.82,GRS,False
+México,global g.a.p. standards,0,77,0.0,64.7,GLOBALG.A.P.,False
+México,nop usda,0,77,0.0,21.03,USDA NOP / orgánico,False
+México,certificado scc,0,76,0.0,26.97,,False
+México,servicios de inspección de calidad.,0,76,0.0,44.88,,False
+México,auditoría de proveedores,0,74,0.0,47.41,,False
+México,certificación bonsucro,1,74,0.013514,8.6,,False
+México,global organic textile standard,0,74,0.0,10.8,USDA NOP / orgánico,False
+México,global recycle standard,1,74,0.013514,56.17,,False
+México,database globalgap,0,71,0.0,28.06,GLOBALG.A.P.,False
+México,certificacion asc,0,70,0.0,16.86,MSC / ASC / BAP,False
+México,certificacion fair trade,0,70,0.0,9.92,,False
+México,productos organicos mexico,0,70,0.0,66.66,USDA NOP / orgánico,False
+México,que es la fsa,1,69,0.014493,7.16,FSA,False
+México,usda-nop,0,69,0.0,19.17,USDA NOP / orgánico,False
+México,auditoria de proveedores,0,68,0.0,40.38,,False
+México,collateral management solutions,0,68,0.0,38.04,,False
+México,bap certification,0,67,0.0,66.83,MSC / ASC / BAP,False
+México,certified sustainable palm oil,0,67,0.0,54.2,,False
+México,iso 9001 certification in mexico city,0,67,0.0,74.75,ISO 9001,False
+México,organismos certificadores en mexico,0,67,0.0,72.27,,False
+México,primus certification,0,67,0.0,21.8,PrimusGFS,False
+México,ursa audit,1,67,0.014925,4.31,,False
+México,certificación organica,1,66,0.015152,8.62,USDA NOP / orgánico,False
+México,verificación de proveedores,0,66,0.0,51.85,,False
+México,loading and discharge supervision,0,65,0.0,14.69,,False
+México,nop certification,0,65,0.0,44.86,USDA NOP / orgánico,False
+México,norma jas,1,65,0.015385,8.59,,False
+México,fsa sai,2,64,0.03125,5.48,FSA,False
+México,g.r.s,0,64,0.0,6.8,,False
+México,jas mexico,0,64,0.0,9.76,,False
+México,que es gots,0,64,0.0,10.44,GOTS,False
+México,¿podrías recomendar algunas empresas confiables que ofrezcan servicios de control de calidad para pruebas de productos?,0,63,0.0,7.48,,False
+México,biomasa y biocombustibles,0,62,0.0,10.08,Bioenergía / biomasa,False
+México,fsa mexico,0,62,0.0,5.21,FSA,False
+México,que es el asc,0,62,0.0,9.74,MSC / ASC / BAP,False
+México,certificado orgánico,0,61,0.0,11.43,USDA NOP / orgánico,False
+México,mercado de biomasa de méxico,0,61,0.0,17.54,Bioenergía / biomasa,False
+México,bonsucro certification,0,60,0.0,10.62,,False
+México,iscc plus certificacion,0,60,0.0,4.39,ISCC,False
+México,jas.,0,60,0.0,8.0,,False
+México,marine stewardship council certification,0,60,0.0,40.95,,False
+México,ursa,0,60,0.0,12.25,,False
+México,what is grs,0,60,0.0,5.87,GRS,False
+México,4 pilares de smeta,0,59,0.0,9.98,SMETA / Sedex,False
+México,asc aquaculture,0,58,0.0,8.81,MSC / ASC / BAP,False
+México,bio suisse certification,2,58,0.034483,12.22,,False
+México,enfoque mexico,0,58,0.0,7.82,,False
+México,higg,0,58,0.0,9.38,FSLM / Higg,False
+México,que es el grs,0,58,0.0,4.32,GRS,False
+México,jas japon,0,57,0.0,10.67,,False
+México,recycled 100 claim standard,1,57,0.017544,9.81,,False
+México,client action reserve tons,0,56,0.0,22.04,,False
+México,climate action reserve méxico,0,56,0.0,24.73,,False
+México,fair trade marketing,0,56,0.0,69.12,,False
+México,no conformidad,0,56,0.0,14.24,,False
+México,smeta 4,2,56,0.035714,6.87,SMETA / Sedex,False
+México,empresa textil,0,55,0.0,85.75,,False
+México,smeta audit,0,55,0.0,10.05,SMETA / Sedex,False
+México,criterios globales de turismo sostenible,1,54,0.018519,9.44,,False
+México,msc certificacion,0,54,0.0,7.56,MSC / ASC / BAP,False
+México,que es obp,0,54,0.0,8.3,,False
+México,certificación orgánica,1,53,0.018868,7.83,USDA NOP / orgánico,False
+México,forest stewardship council en español,0,53,0.0,8.15,,False
+México,para que sirven las certificaciones,0,53,0.0,7.98,,False
+México,que es la ocs,0,53,0.0,1.89,,False
+México,que es el jas,0,52,0.0,9.48,,False
+México,smeta 4p,0,52,0.0,7.21,SMETA / Sedex,False
+México,digital due diligence mexico,0,51,0.0,7.27,,False
+México,farm sustainability assessment,1,51,0.019608,21.51,,False
+México,que es rspo,0,51,0.0,9.22,RSPO,False
+México,calidad textil,0,50,0.0,48.7,,False
+México,certificacion de productos organicos,1,50,0.02,7.78,USDA NOP / orgánico,False
+México,global sustainable tourism council (gstc),0,50,0.0,6.98,,False
+México,que significa ocs,0,50,0.0,1.78,,False
+México,qué es la due diligence en méxico,0,50,0.0,72.36,,False
+México,certificación integral de proveedores,0,48,0.0,76.33,,False
+México,fair trade certified,0,48,0.0,17.81,,False
+México,krav certification,2,48,0.041667,5.21,,False
+México,cumplimiento smeta proveedores,0,47,0.0,19.23,SMETA / Sedex,False
+México,inspección de carga,0,47,0.0,72.6,,False
+México,best aquaculture practices certification,0,46,0.0,51.24,MSC / ASC / BAP,False
+México,biomasas industriales,0,46,0.0,14.43,Bioenergía / biomasa,False
+México,certificacion iscc,0,46,0.0,7.33,ISCC,False
+México,certificación asc,0,46,0.0,21.61,MSC / ASC / BAP,False
+México,para que sirve una certificación,0,46,0.0,8.06,,False
+México,aquaculture stewardship,0,45,0.0,61.47,MSC / ASC / BAP,False
+México,car climate action reserve,0,44,0.0,6.22,,False
+México,certificado de organico,0,44,0.0,7.18,USDA NOP / orgánico,False
+México,fsa certified,0,44,0.0,17.73,FSA,False
+México,primus gfs logo,0,44,0.0,5.73,PrimusGFS,False
+México,rspo certification que es,0,44,0.0,9.22,RSPO,False
+México,• inspecciones / control de calidad,0,44,0.0,94.84,,False
+México,certificación fsc,0,43,0.0,31.32,FSC,False
+México,collateral management services,0,43,0.0,61.42,,False
+México,mexico organico,1,43,0.023256,7.02,USDA NOP / orgánico,False
+México,car mexico forest protocol,0,42,0.0,8.19,,False
+México,control de proveedores,0,42,0.0,74.16,,False
+México,farm sustainability assessment (fsa),0,42,0.0,6.38,FSA,False
+México,gestión de garantías,0,41,0.0,43.12,,False
+México,marine stewardship council standards,0,41,0.0,50.85,,False
+México,collateral audit report,0,40,0.0,79.1,,False
+México,global-gap,0,40,0.0,32.72,GLOBALG.A.P.,False
+México,jas certification,0,40,0.0,22.95,,False
+Norteamérica,temo,6,19040,0.000315,9.33,TEMO,False
+Norteamérica,collateral management services,0,1266,0.0,49.37,,False
+Norteamérica,fslm,2,1225,0.001633,8.69,FSLM / Higg,False
+Norteamérica,cumcs,5,1107,0.004517,1.94,CUMCS,False
+Norteamérica,collateral management solutions,0,946,0.0,37.2,,False
+Norteamérica,what is temo,0,596,0.0,6.24,TEMO,False
+Norteamérica,higg fslm,0,569,0.0,9.9,FSLM / Higg,False
+Norteamérica,iso 22716,1,545,0.001835,39.19,,False
+Norteamérica,collateral management service,0,515,0.0,64.54,,False
+Norteamérica,collateral management solution,0,376,0.0,47.42,,False
+Norteamérica,iso 22716 certification,0,276,0.0,51.56,,False
+Norteamérica,compilazione higg fslm,0,233,0.0,8.3,FSLM / Higg,False
+Norteamérica,cumsc,0,204,0.0,3.52,,False
+Norteamérica,gacp certification,1,204,0.004902,6.52,,False
+Norteamérica,collateral management systems,0,189,0.0,58.0,,False
+Norteamérica,gmp cosmetics iso 22716,0,185,0.0,47.23,GMP+,False
+Norteamérica,higg fslm full form,1,162,0.006173,6.16,FSLM / Higg,False
+Norteamérica,collateral monitoring,0,144,0.0,42.54,,False
+Norteamérica,iso 22716 standards,0,131,0.0,64.15,,False
+Norteamérica,iso standards for cosmetic industry,0,129,0.0,56.55,,False
+Norteamérica,rcs standard,0,127,0.0,17.9,,False
+Norteamérica,fslm audit full form,1,123,0.00813,7.94,FSLM / Higg,False
+Norteamérica,what is a temo,0,113,0.0,5.11,TEMO,False
+Norteamérica,cumcs-g.a.p,0,89,0.0,1.08,CUMCS,False
+Norteamérica,higg fslm verification,0,87,0.0,11.85,FSLM / Higg,False
+Norteamérica,collateral control,0,77,0.0,33.58,,False
+Norteamérica,fslm meaning,0,72,0.0,7.92,FSLM / Higg,False
+Norteamérica,rcs certification,0,63,0.0,28.95,,False
+Norteamérica,what does temo mean,0,60,0.0,7.35,TEMO,False
+Norteamérica,iso 27001 controls certification,0,59,0.0,35.36,ISO 27001,False
+Norteamérica,iso 22716 standard,0,56,0.0,47.02,,False
+Norteamérica,tem o,0,51,0.0,7.23,,False
+Norteamérica,fslm full form,0,48,0.0,7.88,FSLM / Higg,False
+Norteamérica,cannabis gacp compliance,0,47,0.0,25.47,,False
+Norteamérica,higg fdm,0,47,0.0,6.02,FSLM / Higg,False
+Norteamérica,temo service,0,44,0.0,7.5,TEMO,False
+Norteamérica,gacp certification within canada and the us,0,43,0.0,17.42,,False
+Norteamérica,higg fslm logo,1,43,0.023256,1.84,FSLM / Higg,False
+Norteamérica,collateral management system,0,42,0.0,77.11,,False
+Norteamérica,financial and collateral management,0,40,0.0,37.52,,False
+Norteamérica,how to temo,0,40,0.0,8.57,TEMO,False
+Norteamérica,inventory collateral management,0,40,0.0,25.43,,False
+Norteamérica,primusgfs.com,0,40,0.0,10.08,PrimusGFS,False
+Perú,koa certification,0,26177,0.0,6.8,,False
+Perú,haccp,31,15416,0.002011,8.06,,False
+Perú,rainforest alliance,32,10896,0.002937,3.43,Rainforest Alliance,False
+Perú,asc,24,8588,0.002795,6.9,MSC / ASC / BAP,False
+Perú,rain forest,0,6624,0.0,1.02,,False
+Perú,ras,8,6374,0.001255,5.94,,False
+Perú,haccp que significa,2,6219,0.000322,7.89,,False
+Perú,eti,5,5692,0.000878,4.73,,False
+Perú,politica de privacidad para el tratamiento de datos personales,29,5010,0.005788,3.57,,False
+Perú,ocs,21,4873,0.004309,3.83,,False
+Perú,usda,0,4592,0.0,5.32,USDA NOP / orgánico,False
+Perú,grasp,37,4557,0.008119,7.68,GLOBALG.A.P.,False
+Perú,grs,13,4473,0.002906,4.47,GRS,False
+Perú,leaf,8,3168,0.002525,8.46,,False
+Perú,gots,1,3033,0.00033,13.49,GOTS,False
+Perú,smeta,7,2742,0.002553,4.58,SMETA / Sedex,False
+Perú,brcgs,7,2588,0.002705,6.46,BRCGS,False
+Perú,global gap,7,2537,0.002759,7.29,GLOBALG.A.P.,False
+Perú,fair trade,6,2304,0.002604,6.03,,False
+Perú,fssc 22000,13,2176,0.005974,4.8,FSSC 22000,False
+Perú,leaf marque,11,1951,0.005638,5.72,,False
+Perú,uebt full form,1,1885,0.000531,7.09,,False
+Perú,que es eti,3,1585,0.001893,3.99,,False
+Perú,obp,0,1518,0.0,5.11,,False
+Perú,iscc,5,1479,0.003381,6.86,ISCC,False
+Perú,fos,1,1375,0.000727,6.06,,False
+Perú,rainforest,2,1259,0.001589,4.73,Rainforest Alliance,False
+Perú,que significa eti,4,1224,0.003268,4.76,,False
+Perú,haccp que es,3,1172,0.00256,9.19,,False
+Perú,bap,4,1070,0.003738,6.47,MSC / ASC / BAP,False
+Perú,ifs,3,1067,0.002812,3.88,IFS,False
+Perú,smeta 7.0,11,1059,0.010387,8.96,SMETA / Sedex,False
+Perú,rspo,4,1050,0.00381,6.66,RSPO,False
+Perú,bap certification,0,1027,0.0,29.27,MSC / ASC / BAP,False
+Perú,rms,1,1025,0.000976,8.1,,False
+Perú,iso 14064,49,1004,0.048805,11.11,Huella de carbono / GEI,False
+Perú,smeta 7.0 standard pdf,133,981,0.135576,2.29,SMETA / Sedex,False
+Perú,que es haccp,2,939,0.00213,9.48,,False
+Perú,sistema haccp,2,887,0.002255,9.62,,False
+Perú,uebt,5,863,0.005794,7.36,,False
+Perú,certificacion haccp,2,838,0.002387,8.24,,False
+Perú,fairtrade,1,771,0.001297,5.64,,False
+Perú,academy,3,741,0.004049,8.11,,False
+Perú,certificación haccp,2,735,0.002721,12.06,,False
+Perú,codigo eti,8,733,0.010914,5.31,,False
+Perú,flor verde,0,714,0.0,6.2,,False
+Perú,rainforest alliance certification standard for product certification bodies,0,688,0.0,10.43,Rainforest Alliance,False
+Perú,non gmo,4,676,0.005917,7.08,,False
+Perú,certificacion leaf,0,667,0.0,9.27,,False
+Perú,vcs,3,655,0.00458,8.29,,False
+Perú,vvgr,3,647,0.004637,3.63,,False
+Perú,asc|oupsxzrajqgwat9exj84kbehukv2oszh,0,641,0.0,9.35,MSC / ASC / BAP,False
+Perú,que es global gap,3,640,0.004688,6.51,GLOBALG.A.P.,False
+Perú,fsc,1,639,0.001565,8.9,FSC,False
+Perú,haccap,0,632,0.0,8.0,,False
+Perú,iso 14046,1,622,0.001608,19.26,Huella hídrica,False
+Perú,que significa haccp,0,620,0.0,8.32,,False
+Perú,msc chain of custody certification requirements,0,612,0.0,11.66,MSC / ASC / BAP,False
+Perú,que es grasp,7,602,0.011628,4.94,GLOBALG.A.P.,False
+Perú,fair trade usa,4,598,0.006689,5.85,,False
+Perú,contr,0,594,0.0,7.6,,False
+Perú,organica,0,590,0.0,7.96,USDA NOP / orgánico,False
+Perú,usda organic,1,578,0.00173,7.63,USDA NOP / orgánico,False
+Perú,cafe practices,0,577,0.0,7.46,,False
+Perú,brcgs significado,2,576,0.003472,5.83,BRCGS,False
+Perú,haccp en alimentos,3,572,0.005245,7.47,,False
+Perú,primus gfs,1,566,0.001767,18.23,PrimusGFS,False
+Perú,eti que significa,0,553,0.0,5.23,,False
+Perú,c.a.f.e. practices,0,549,0.0,7.31,,False
+Perú,certificado haccp,2,546,0.003663,9.06,,False
+Perú,certificacion global gap,2,536,0.003731,11.7,GLOBALG.A.P.,False
+Perú,eti que es,2,529,0.003781,5.89,,False
+Perú,que es asc,0,505,0.0,8.49,MSC / ASC / BAP,False
+Perú,certificacion usda,0,500,0.0,9.66,USDA NOP / orgánico,False
+Perú,ccb,0,476,0.0,8.44,,False
+Perú,certificado grasp,1,469,0.002132,8.15,GLOBALG.A.P.,False
+Perú,msc,3,468,0.00641,4.96,MSC / ASC / BAP,False
+Perú,certificado organico,2,447,0.004474,10.04,USDA NOP / orgánico,False
+Perú,ethical trading initiative,0,445,0.0,36.04,,False
+Perú,smeta que es,0,439,0.0,6.99,SMETA / Sedex,False
+Perú,auditoria smeta,1,436,0.002294,5.58,SMETA / Sedex,False
+Perú,certificación iscc,0,433,0.0,11.4,ISCC,False
+Perú,certificacion organica,12,432,0.027778,7.92,USDA NOP / orgánico,False
+Perú,haccp en ingles,0,426,0.0,7.55,,False
+Perú,iso 22000 que es y para que sirve,3,420,0.007143,8.03,ISO 22000,False
+Perú,pefc,0,415,0.0,7.25,PEFC,False
+Perú,rtpo,10,412,0.024272,2.69,,False
+Perú,que es ocs,1,393,0.002545,6.73,,False
+Perú,luis nutron alimentos email corporativo,0,392,0.0,5.48,,False
+Perú,brand reputation compliance global standards,6,391,0.015345,5.37,,False
+Perú,global sustainable tourism council criteria philippines,0,390,0.0,11.64,,False
+Perú,qué significa eti,0,379,0.0,4.01,,False
+Perú,brand reputation compliance,0,374,0.0,9.14,,False
+Perú,globalgap,0,374,0.0,9.23,GLOBALG.A.P.,False
+Perú,aquaculture stewardship council certification,0,372,0.0,36.41,MSC / ASC / BAP,False
+Perú,draft survey,0,371,0.0,34.5,,False
+Perú,best aquaculture practices,1,370,0.002703,18.96,MSC / ASC / BAP,False
+Perú,global gap certificación,0,367,0.0,7.21,GLOBALG.A.P.,False
+Perú,certificación de sostenibilidad internacional y de carbono iscc,0,366,0.0,15.8,ISCC,False
+Perú,certificaciones textiles,0,345,0.0,60.93,,False
+Perú,iso 14064-1,42,343,0.122449,14.0,Huella de carbono / GEI,False
+Perú,politica de privacidad,5,335,0.014925,8.27,,False
+Perú,what is brand reputation compliance,0,334,0.0,8.67,,False
+Perú,rds,0,330,0.0,7.56,,False
+Perú,certificación msc,0,329,0.0,14.39,MSC / ASC / BAP,False
+Perú,brand reputation through compliance global standards,5,324,0.015432,3.84,,False
+Perú,que es la certificacion rainforest alliance,0,319,0.0,11.29,Rainforest Alliance,False
+Perú,eti significado,0,318,0.0,4.21,,False
+Perú,bird friendly,3,312,0.009615,5.81,,False
+Perú,fairtrade usa,2,310,0.006452,5.2,,False
+Perú,que es el haccp,0,307,0.0,9.18,,False
+Perú,política de privacidad ejemplo,0,305,0.0,7.22,,False
+Perú,smeta 7.0 pdf,32,305,0.104918,5.09,SMETA / Sedex,False
+Perú,que significa haccp en alimentos,0,300,0.0,8.33,,False
+Perú,globalg.a.p.,2,295,0.00678,4.69,GLOBALG.A.P.,False
+Perú,green choice,11,295,0.037288,4.86,,False
+Perú,fssc,0,294,0.0,4.51,FSSC 22000,False
+Perú,primusgfs certification,0,291,0.0,53.24,PrimusGFS,False
+Perú,sakana,1,289,0.00346,9.52,,False
+Perú,ifs pac secure,0,288,0.0,17.9,IFS,False
+Perú,usda nop,4,288,0.013889,7.52,USDA NOP / orgánico,False
+Perú,sedex smeta,2,286,0.006993,7.87,SMETA / Sedex,False
+Perú,independent verification bodies,0,278,0.0,27.72,,False
+Perú,ifs pacsecure,0,275,0.0,16.35,IFS,False
+Perú,usda certificacion organica,0,271,0.0,13.86,USDA NOP / orgánico,False
+Perú,que es smeta,1,266,0.003759,5.88,SMETA / Sedex,False
+Perú,sedex,0,265,0.0,6.82,SMETA / Sedex,False
+Perú,gstc,0,261,0.0,15.5,,False
+Perú,global gap que es,2,259,0.007722,6.0,GLOBALG.A.P.,False
+Perú,primusgfs,3,259,0.011583,42.85,PrimusGFS,False
+Perú,certificación orgánica,8,257,0.031128,7.5,USDA NOP / orgánico,False
+Perú,puntos criticos de control,1,257,0.003891,10.33,,False
+Perú,smeta 4 pilares,1,257,0.003891,6.51,SMETA / Sedex,False
+Perú,ethical,0,256,0.0,8.66,,False
+Perú,smeta certificacion,1,255,0.003922,5.11,SMETA / Sedex,False
+Perú,verra,2,254,0.007874,5.08,,False
+Perú,download smeta,0,250,0.0,9.24,SMETA / Sedex,False
+Perú,best aquaculture practices certification,0,249,0.0,39.54,MSC / ASC / BAP,False
+Perú,hacpp,0,249,0.0,7.84,,False
+Perú,smeta 7.0 standard pdf free download,54,249,0.216867,1.92,SMETA / Sedex,False
+Perú,certificacion rainforest,0,243,0.0,12.0,Rainforest Alliance,False
+Perú,ifs food,3,241,0.012448,5.23,IFS,False
+Perú,cafe practices starbucks,1,240,0.004167,4.7,,False
+Perú,que es el eti,0,240,0.0,4.22,,False
+Perú,"""ina fibers holding"" ""certificate of conversion""",0,239,0.0,5.34,,False
+Perú,¿qué estándares de certificación existen para seguridad alimentaria en empresas?. my location is peru.,0,239,0.0,6.01,,False
+Perú,grasp que es,5,238,0.021008,4.91,GLOBALG.A.P.,False
+Perú,smeta 4 pilares versión 7 pdf,7,238,0.029412,7.58,SMETA / Sedex,False
+Perú,que significa grasp,2,235,0.008511,9.48,GLOBALG.A.P.,False
+Perú,iscc que es,0,233,0.0,8.58,ISCC,False
+Perú,iso 22000,0,232,0.0,15.45,ISO 22000,False
+Perú,que es grs,0,230,0.0,8.67,GRS,False
+Perú,certificacion smeta,0,226,0.0,6.09,SMETA / Sedex,False
+Perú,ifa v5.4-1 gfs,0,226,0.0,42.59,,False
+Perú,marque,0,226,0.0,8.17,,False
+Perú,bonsucro,0,225,0.0,8.39,,False
+Perú,global recycled standard,3,225,0.013333,25.14,GRS,False
+Perú,fssc22000,0,223,0.0,5.36,,False
+Perú,cucert,3,222,0.013514,2.48,,False
+Perú,gots en español,0,222,0.0,7.49,GOTS,False
+Perú,que es certificacion global gap,0,222,0.0,13.17,GLOBALG.A.P.,False
+Perú,aquaculture stewardship council,1,220,0.004545,33.92,MSC / ASC / BAP,False
+Perú,sedex smeta 7.0 standard pdf free download,43,218,0.197248,1.78,SMETA / Sedex,False
+Perú,iso 14046 pdf,40,217,0.184332,3.82,Huella hídrica,False
+Perú,aquaculture stewardship farm standard,0,216,0.0,20.59,MSC / ASC / BAP,False
+Perú,grs significado,0,216,0.0,4.85,GRS,False
+Perú,nop,1,216,0.00463,10.56,USDA NOP / orgánico,False
+Perú,politica de privacidad de datos,4,216,0.018519,4.45,,False
+Perú,asc feed certification,0,215,0.0,29.02,MSC / ASC / BAP,False
+Perú,confidencialidad,0,215,0.0,8.72,,False
+Perú,asc certified,0,214,0.0,48.53,MSC / ASC / BAP,False
+Perú,qué es eti,0,214,0.0,4.01,,False
+Perú,uebt certified que es,1,214,0.004673,5.05,,False
+Perú,código eti,0,213,0.0,5.45,,False
+Perú,brcgs que es,1,211,0.004739,3.8,BRCGS,False
+Perú,que es ifs,1,211,0.004739,5.01,IFS,False
+Perú,rainforest alliance peru,8,211,0.037915,4.0,Rainforest Alliance,False
+Perú,certificacion grasp,4,209,0.019139,3.79,GLOBALG.A.P.,False
+Perú,que es brcgs,1,209,0.004785,4.81,BRCGS,False
+Perú,haccp (análisis de peligros y puntos críticos de control),0,208,0.0,8.16,,False
+Perú,que es haccp en alimentos,0,207,0.0,8.78,,False
+Perú,primus 3.2 certification,0,206,0.0,30.02,PrimusGFS,False
+Perú,asc que es,0,199,0.0,8.48,MSC / ASC / BAP,False
+Perú,certificación global gap,0,198,0.0,7.69,GLOBALG.A.P.,False
+Perú,certificado global gap,2,198,0.010101,7.46,GLOBALG.A.P.,False
+Perú,rcs,0,197,0.0,9.09,,False
+Perú,eti full form,0,194,0.0,1.85,,False
+Perú,certificado gots,1,193,0.005181,10.1,GOTS,False
+Perú,norma iso 14046,0,192,0.0,23.6,Huella hídrica,False
+Perú,que significa grs,0,188,0.0,5.81,GRS,False
+Perú,asc aquaculture,0,186,0.0,31.52,MSC / ASC / BAP,False
+Perú,que es msc,0,186,0.0,10.03,MSC / ASC / BAP,False
+Perú,globalg.a.p,1,184,0.005435,4.13,GLOBALG.A.P.,False
+Perú,bio suisse,1,183,0.005464,9.21,,False
+Perú,que es un eti,0,180,0.0,5.09,,False
+Perú,c.a.f.e practices,0,179,0.0,7.13,,False
+Perú,smeta standard,1,178,0.005618,17.42,SMETA / Sedex,False
+Perú,que es rainforest,1,176,0.005682,5.56,Rainforest Alliance,False
+Perú,certificado haccp peru,0,175,0.0,4.57,,False
+Perú,non-gmo,0,175,0.0,6.73,,False
+Perú,asistente de certificaciones,9,173,0.052023,4.91,,False
+Perú,ifs que es,1,173,0.00578,5.9,IFS,False
+Perú,iso 14046 islas baleares,0,173,0.0,46.86,Huella hídrica,False
+Perú,smeta standard pdf free download,8,173,0.046243,4.13,SMETA / Sedex,False
+Perú,acreditaciones,0,170,0.0,8.87,,False
+Perú,política de privacidad para el tratamiento de datos personales,2,170,0.011765,3.94,,False
+Perú,smeta 4 pillar,0,169,0.0,38.21,SMETA / Sedex,False
+Perú,certificacion asc,0,168,0.0,14.93,MSC / ASC / BAP,False
+Perú,tesco nurture,5,168,0.029762,8.28,,False
+Perú,msc certificacion,3,167,0.017964,7.68,MSC / ASC / BAP,False
+Perú,brcgs que significa,0,165,0.0,5.46,BRCGS,False
+Perú,iso 14046 madrid,0,165,0.0,27.37,Huella hídrica,False
+Perú,política de privacidad de datos ejemplo,0,165,0.0,7.05,,False
+Perú,que significa brcgs,1,165,0.006061,5.34,BRCGS,False
+Perú,what is the difference between an ab member and a c member on the sedex platform,0,165,0.0,9.78,SMETA / Sedex,False
+Perú,eu organic,1,164,0.006098,5.18,USDA NOP / orgánico,False
+Perú,iso 14046 huella del agua,0,161,0.0,56.34,Huella hídrica,False
+Perú,significado de eti,0,160,0.0,4.12,,False
+Perú,manual smeta 7.0 español pdf,4,159,0.025157,6.32,SMETA / Sedex,False
+Perú,certificación orgánica perú,9,158,0.056962,2.83,USDA NOP / orgánico,False
+Perú,que es el codigo eti,0,158,0.0,5.71,,False
+Perú,rain forest en español,0,158,0.0,3.64,,False
+Perú,ifs pacsecure version 1,0,155,0.0,10.67,IFS,False
+Perú,certificacion gots,1,154,0.006494,5.58,GOTS,False
+Perú,marine stewardship council chain of custody,0,154,0.0,28.08,,False
+Perú,responsible wool standard,0,154,0.0,47.02,,False
+Perú,sucraxil,0,153,0.0,9.33,,False
+Perú,smeta 2 pillar vs 4 pillar,0,152,0.0,7.81,SMETA / Sedex,False
+Perú,non gmo que significa,0,151,0.0,8.03,,False
+Perú,sedex full meaning,0,150,0.0,13.43,SMETA / Sedex,False
+Perú,"""alpaca statistical cert""",0,148,0.0,7.7,,False
+Perú,aquaculture stewardship,0,148,0.0,38.99,MSC / ASC / BAP,False
+Perú,gsa bap,0,147,0.0,24.33,MSC / ASC / BAP,False
+Perú,hatch cover inspection,0,147,0.0,71.77,,False
+Perú,smeta version 7,7,147,0.047619,6.9,SMETA / Sedex,False
+Perú,asc certification requirements,0,146,0.0,9.76,MSC / ASC / BAP,False
+Perú,rainforest alliance certification requirements,0,144,0.0,7.15,Rainforest Alliance,False
+Perú,global gap certificacion,0,143,0.0,9.31,GLOBALG.A.P.,False
+Perú,iso 14046 islas canarias,0,143,0.0,39.62,Huella hídrica,False
+Perú,smeta standard pdf,6,143,0.041958,5.43,SMETA / Sedex,False
+Perú,auditoria global gap,2,142,0.014085,8.17,GLOBALG.A.P.,False
+Perú,certificaciones organicas,5,142,0.035211,8.83,USDA NOP / orgánico,False
+Perú,que significa gots,1,142,0.007042,5.61,GOTS,False
+Perú,estándares de certificación de seguridad alimentaria empresas perú,0,139,0.0,2.98,,False
+Perú,certificación smeta pdf,7,138,0.050725,6.1,SMETA / Sedex,False
+Perú,mauricio nutron alimentos email corporativo,0,138,0.0,6.26,,False
+Perú,certificación iso 14064,0,137,0.0,42.05,Huella de carbono / GEI,False
+Perú,global gap para que sirve,0,137,0.0,9.18,GLOBALG.A.P.,False
+Perú,certificación haccp en perú,3,136,0.022059,2.98,,False
+Perú,que es rainforest alliance,2,136,0.014706,6.63,Rainforest Alliance,False
+Perú,bap audit full form,0,134,0.0,8.78,MSC / ASC / BAP,False
+Perú,haccp alimentos,0,134,0.0,11.1,,False
+Perú,que es rspo,0,134,0.0,7.89,RSPO,False
+Perú,rainforest que es,0,134,0.0,6.69,Rainforest Alliance,False
+Perú,asc logo user guide,1,133,0.007519,6.74,MSC / ASC / BAP,False
+Perú,certificacion haccp peru,2,133,0.015038,3.39,,False
+Perú,que es jas,0,133,0.0,8.63,,False
+Perú,ifs food version 8 requirement 1.1.2,0,132,0.0,8.28,IFS,False
+Perú,manual smeta 7.0 español,5,132,0.037879,8.1,SMETA / Sedex,False
+Perú,certificación rainforest alliance,0,129,0.0,8.69,Rainforest Alliance,False
+Perú,regenagri,1,128,0.007812,5.84,,False
+Perú,certificaciones haccp,0,127,0.0,12.57,,False
+Perú,certificación asc,0,127,0.0,15.27,MSC / ASC / BAP,False
+Perú,certificación iso 14064-1,0,127,0.0,59.13,Huella de carbono / GEI,False
+Perú,que es el global gap,0,127,0.0,6.48,GLOBALG.A.P.,False
+Perú,bap standard,0,126,0.0,9.02,MSC / ASC / BAP,False
+Perú,ftusa,1,125,0.008,3.76,,False
+Perú,nop usda,0,125,0.0,6.95,USDA NOP / orgánico,False
+Perú,normas global gap,5,125,0.04,6.63,GLOBALG.A.P.,False
+Perú,smeta 2-pillar audit checklist pdf,0,125,0.0,17.25,SMETA / Sedex,False
+Perú,smeta best practice guidance,4,125,0.032,8.39,SMETA / Sedex,False
+Perú,global gap documentos,1,124,0.008065,8.42,GLOBALG.A.P.,False
+Perú,gots certification,1,124,0.008065,8.87,GOTS,False
+Perú,iscc eu,1,124,0.008065,6.69,ISCC,False
+Perú,watbland,3,124,0.024194,6.33,,False
+Perú,international featured standards,0,123,0.0,66.23,,False
+Perú,une en iso 14064,0,123,0.0,45.2,Huella de carbono / GEI,False
+Perú,smeta version 7 pdf,30,122,0.245902,1.97,SMETA / Sedex,False
+Perú,iso 14046 valencia,0,121,0.0,42.76,Huella hídrica,False
+Perú,que es una eti,0,121,0.0,5.67,,False
+Perú,auditoria grasp,4,120,0.033333,2.89,GLOBALG.A.P.,False
+Perú,fsc peru,0,120,0.0,6.77,FSC,False
+Perú,hazard analysis and critical control point certification,0,120,0.0,57.97,,False
+Perú,iso 14046 barcelona,0,120,0.0,41.61,Huella hídrica,False
+Perú,rspo que es,0,120,0.0,7.82,RSPO,False
+Perú,significado de grs,0,120,0.0,6.56,GRS,False
+Perú,certificación grasp,3,119,0.02521,2.77,GLOBALG.A.P.,False
+Perú,certificación smeta,0,119,0.0,4.61,SMETA / Sedex,False
+Perú,rainforest alliance en español,0,119,0.0,7.19,Rainforest Alliance,False
+Perú,rainforest certificacion,0,117,0.0,5.99,Rainforest Alliance,False
+Perú,rds m,0,117,0.0,17.91,,False
+Perú,haccp peru,0,115,0.0,6.92,,False
+Perú,que es gots,0,115,0.0,7.61,GOTS,False
+Perú,certificación organica,4,114,0.035088,3.54,USDA NOP / orgánico,False
+Perú,4c certification coffee,0,113,0.0,13.15,,False
+Perú,global gap significado,0,113,0.0,8.93,GLOBALG.A.P.,False
+Perú,sedex 2 pillar vs 4 pillar,3,113,0.026549,8.51,SMETA / Sedex,False
+Perú,smeta auditoria,0,113,0.0,6.44,SMETA / Sedex,False
+Perú,asc feed standard,0,112,0.0,18.01,MSC / ASC / BAP,False
+Perú,orgánica,0,112,0.0,9.2,USDA NOP / orgánico,False
+Perú,grasps,0,111,0.0,7.36,,False
+Perú,grasp certificado,3,110,0.027273,2.64,GLOBALG.A.P.,False
+Perú,haacp,1,110,0.009091,8.1,,False
+Perú,haccp certificado,0,110,0.0,9.35,,False
+Perú,certificado iso 14064,0,108,0.0,61.89,Huella de carbono / GEI,False
+Perú,msc certification,0,108,0.0,12.96,MSC / ASC / BAP,False
+Perú,primer eti,0,108,0.0,1.19,,False
+Perú,best aquaculture practices (bap),2,107,0.018692,10.86,MSC / ASC / BAP,False
+Perú,que significa global gap,0,107,0.0,7.53,GLOBALG.A.P.,False
+Perú,certificación fssc 22000,1,106,0.009434,13.8,FSSC 22000,False
+Perú,políticas de privacidad ejemplos,0,106,0.0,4.61,,False
+Perú,que es la eti,0,106,0.0,2.75,,False
+Perú,union for ethical biotrade,0,106,0.0,7.47,,False
+Perú,ley de productos organicos,0,105,0.0,16.11,USDA NOP / orgánico,False
+Perú,rainforest alliance audit checklist,2,105,0.019048,7.02,Rainforest Alliance,False
+Perú,ras animal,0,105,0.0,8.37,,False
+Perú,smeta audit report,0,105,0.0,19.62,SMETA / Sedex,False
+Perú,organic certification,2,104,0.019231,26.88,USDA NOP / orgánico,False
+Perú,smeta pdf,5,104,0.048077,7.06,SMETA / Sedex,False
+Perú,haccp certificación,1,103,0.009709,7.17,,False
+Perú,q es eti,0,103,0.0,4.11,,False
+Perú,unilever smeta audit filetype:pdf,0,103,0.0,10.52,SMETA / Sedex,False
+Perú,what is asc certified,0,103,0.0,47.06,MSC / ASC / BAP,False
+Perú,certificacion iscc,1,102,0.009804,12.24,ISCC,False
+Perú,norma global gap,3,101,0.029703,7.93,GLOBALG.A.P.,False
+Perú,certificacion organica en peru,6,100,0.06,2.81,USDA NOP / orgánico,False
+Perú,smeta 2-pillar cairo textiles,0,100,0.0,3.86,SMETA / Sedex,False
+Perú,global gap standard,0,99,0.0,17.48,GLOBALG.A.P.,False
+Perú,smeta 4 pillar audit,0,99,0.0,50.92,SMETA / Sedex,False
+Perú,asc aquaculture stewardship council,0,98,0.0,31.64,MSC / ASC / BAP,False
+Perú,asc certification,0,97,0.0,32.36,MSC / ASC / BAP,False
+Perú,fscc 22000,1,97,0.010309,22.11,,False
+Perú,hacvp,0,97,0.0,8.9,,False
+Perú,jas que es,0,97,0.0,9.61,,False
+Perú,smeta 7,1,97,0.010309,7.98,SMETA / Sedex,False
+Perú,14064,3,96,0.03125,7.11,Huella de carbono / GEI,False
+Perú,certificacion fair trade,2,96,0.020833,6.52,,False
+Perú,qué es haccp,0,96,0.0,8.32,,False
+Perú,smeta certificación,0,96,0.0,3.93,SMETA / Sedex,False
+Perú,certificacion ras,8,95,0.084211,1.44,,False
+Perú,global gab,1,95,0.010526,6.04,,False
+Perú,norma iso 14064,8,95,0.084211,9.22,Huella de carbono / GEI,False
+Perú,que es iscc,0,95,0.0,8.37,ISCC,False
+Perú,global gap pdf,9,94,0.095745,6.12,GLOBALG.A.P.,False
+Perú,politica de datos,0,94,0.0,4.79,,False
+Perú,punto critico de control,0,94,0.0,10.41,,False
+Perú,standard smeta,0,94,0.0,15.28,SMETA / Sedex,False
+Perú,fair trade que es,0,93,0.0,6.85,,False
+Perú,pacsecure,0,93,0.0,15.28,,False
+Perú,sustainable aquaculture certification,0,93,0.0,40.38,MSC / ASC / BAP,False
+Perú,bird friendly certification,3,92,0.032609,8.36,,False
+Perú,rain forest sl,0,92,0.0,1.04,,False
+Perú,smeta meaning,1,91,0.010989,8.16,SMETA / Sedex,False
+Perú,asc que significa,0,90,0.0,8.62,MSC / ASC / BAP,False
+Perú,no gmo,0,90,0.0,9.19,,False
+Perú,smeta audit frequency,0,90,0.0,22.13,SMETA / Sedex,False
+Perú,globalgap que es,0,89,0.0,4.95,GLOBALG.A.P.,False
+Perú,norma iso 22000,0,89,0.0,5.19,ISO 22000,False
+Perú,analisis de peligros y puntos criticos de control,0,88,0.0,11.83,,False
+Perú,certificado nop,0,88,0.0,6.99,USDA NOP / orgánico,False
+Perú,manufacturing osha 29 cfr 1910 report spreadsheet filetype:xlsx,0,88,0.0,8.91,,False
+Perú,smeta 7.0 audit checklist pdf download,6,88,0.068182,6.73,SMETA / Sedex,False
+Perú,gots tc policy,0,87,0.0,9.49,GOTS,False
+Perú,haccp en español,0,87,0.0,10.94,,False
+Perú,ifs standard,3,87,0.034483,19.45,IFS,False
+Perú,smeta audit guidelines,0,87,0.0,14.82,SMETA / Sedex,False
+Perú,aquaculture stewardship council standard certification,0,86,0.0,29.19,MSC / ASC / BAP,False
+Perú,certificado rainforest alliance,0,86,0.0,11.21,Rainforest Alliance,False
+Perú,global organic textile standard,2,86,0.023256,13.49,USDA NOP / orgánico,False
+Perú,iso 14064 huella de carbono,4,86,0.046512,6.06,Huella de carbono / GEI,False
+Perú,que es fssc 22000,0,86,0.0,6.03,FSSC 22000,False
+Perú,14064 iso,2,85,0.023529,24.71,Huella de carbono / GEI,False
+Perú,2018/848,1,85,0.011765,8.79,,False
+Perú,haccp significado,0,85,0.0,8.5,,False
+Perú,politica de tratamiento de datos personales,3,85,0.035294,3.65,,False
+Perú,política de protección de datos personales,9,85,0.105882,5.06,,False
+Perú,smeta audit checklist,0,85,0.0,40.94,SMETA / Sedex,False
+Perú,biosuisse,0,84,0.0,5.7,,False
+Perú,certificaciones global gap,0,84,0.0,14.91,GLOBALG.A.P.,False
+Perú,estándar de granjas asc,0,84,0.0,6.12,MSC / ASC / BAP,False
+Perú,iso 14064 pdf,31,84,0.369048,4.7,Huella de carbono / GEI,False
+Perú,graps,0,83,0.0,2.62,,False
+Perú,normativa global gap,1,83,0.012048,9.05,GLOBALG.A.P.,False
+Perú,rws,0,83,0.0,6.65,,False
+Perú,rws wool,0,83,0.0,39.06,,False
+Perú,que es el haccp en alimentos,0,82,0.0,9.46,,False
+Perú,certificación gots,2,81,0.024691,6.63,GOTS,False
+Perú,global grasp,1,81,0.012346,6.16,GLOBALG.A.P.,False
+Perú,ifs onsite evaluation,0,81,0.0,15.15,IFS,False
+Perú,norma fssc 22000,0,81,0.0,12.51,FSSC 22000,False
+Perú,ras alpaca,5,81,0.061728,2.38,,False
+Perú,grs que significa,0,80,0.0,4.01,GRS,False
+Perú,organic content standard,0,80,0.0,44.16,USDA NOP / orgánico,False
+Perú,référentiel smeta pdf,6,80,0.075,5.26,SMETA / Sedex,False
+Perú,sedex standard,3,80,0.0375,6.38,SMETA / Sedex,False
+Perú,iso 14046 sevilla,0,79,0.0,57.38,Huella hídrica,False
+Perú,puntos criticos de control haccp,0,79,0.0,15.23,,False
+Perú,sedex membership list pdf,1,79,0.012658,7.71,SMETA / Sedex,False
+Perú,certificación gsa bap,0,78,0.0,10.44,MSC / ASC / BAP,False
+Perú,certificado grs,1,78,0.012821,21.21,GRS,False
+Perú,grs que es,0,78,0.0,8.49,GRS,False
+Perú,non gmo en español,0,78,0.0,5.61,,False
+Perú,politica de datos personales,3,78,0.038462,4.83,,False
+Perú,certificacion fssc22000,0,77,0.0,7.35,,False
+Perú,certificado fair trade,2,77,0.025974,5.13,,False
+Perú,certificado msc,0,77,0.0,8.35,MSC / ASC / BAP,False
+Perú,pefc certification,0,77,0.0,6.32,PEFC,False
+Perú,smeta 7.0 requirements,9,77,0.116883,3.95,SMETA / Sedex,False
+Perú,"también llamados hallazgos de la auditoria. son registros, declaraciones de hechos o cualquier otra información que corresponden a los criterios de auditoría y son verificables.",0,77,0.0,7.92,,False
+Perú,asc fish,0,76,0.0,64.4,MSC / ASC / BAP,False
+Perú,certificacion jas,0,76,0.0,5.59,,False
+Perú,msc coc,0,76,0.0,6.61,MSC / ASC / BAP,False
+Perú,sistema de seguimiento de cumplimiento y certificación,0,76,0.0,30.28,,False
+Perú,av petit thouars 4653 miraflores,0,75,0.0,6.21,,False
+Perú,certificación brcgs,0,75,0.0,6.33,BRCGS,False
+Perú,certificado brcgs,0,75,0.0,6.19,BRCGS,False
+Perú,haccpp,0,75,0.0,7.93,,False
+Perú,que es fair trade,0,75,0.0,5.79,,False
+Perú,asc feed,1,74,0.013514,7.26,MSC / ASC / BAP,False
+Perú,brand reputation through compliance,0,74,0.0,13.62,,False
+Perú,certificacion hasac,0,74,0.0,6.14,,False
+Perú,global gap requisitos,1,74,0.013514,8.3,GLOBALG.A.P.,False
+Perú,ras certification,2,74,0.027027,5.43,,False
+Perú,tc policy,0,74,0.0,9.35,,False
+Perú,ifs certification,0,73,0.0,4.63,IFS,False
+Perú,software para la normativa orgánica de la unión europea 2018/848,0,73,0.0,5.6,USDA NOP / orgánico,False
+Perú,aquaculture stewardship council standard,0,72,0.0,28.43,MSC / ASC / BAP,False
+Perú,certificacion msc,0,72,0.0,12.89,MSC / ASC / BAP,False
+Perú,que significa grasp en español,1,72,0.013889,10.42,GLOBALG.A.P.,False
+Perú,smeta 7.0 measurement criteria pdf,9,72,0.125,2.36,SMETA / Sedex,False
+Perú,asc label,0,71,0.0,9.14,MSC / ASC / BAP,False
+Perú,auditoría smeta,0,71,0.0,7.23,SMETA / Sedex,False
+Perú,certificado smeta,1,71,0.014085,5.66,SMETA / Sedex,False
+Perú,logo de rainforest alliance,0,71,0.0,1.14,Rainforest Alliance,False
+Perú,q significa eti,0,71,0.0,3.93,,False
+Perú,bap certified,0,70,0.0,5.67,MSC / ASC / BAP,False
+Perú,certificacion bap,3,70,0.042857,4.74,MSC / ASC / BAP,False
+Perú,certificacion nop,0,70,0.0,12.33,USDA NOP / orgánico,False
+Perú,sedex meaning,0,70,0.0,16.71,SMETA / Sedex,False
+Perú,asc feed standard v1.2,0,69,0.0,9.49,MSC / ASC / BAP,False
+Perú,bcrgs,0,69,0.0,7.03,,False
+Perú,leitfaden smeta audit,0,69,0.0,44.13,SMETA / Sedex,False
+Perú,norma iso 14064-1,7,69,0.101449,27.0,Huella de carbono / GEI,False
+Perú,que significa non gmo,0,69,0.0,9.83,,False
+Perú,asc claim,0,68,0.0,8.62,MSC / ASC / BAP,False
+Perú,certificación fair trade,0,68,0.0,7.18,,False
+Perú,rainforest alliance certification standards pdf,0,68,0.0,7.37,Rainforest Alliance,False
+Perú,rainforest alliance que es,0,68,0.0,7.25,Rainforest Alliance,False
+Perú,"""1.1.5"" ""mecanismo de quejas"" ""igualdad de género"" rainforest alliance",0,67,0.0,2.8,Rainforest Alliance,False
+Perú,costo promedio de una auditoría de certificación para plantas de alimentos en perú.,0,67,0.0,2.01,,False
+Perú,certificate of analysis gfs,0,66,0.0,30.53,,False
+Perú,msc guidelines,0,66,0.0,11.82,MSC / ASC / BAP,False
+Perú,qué significa grs,0,66,0.0,7.11,GRS,False
+Perú,qué significa haccp,0,66,0.0,7.73,,False
+Perú,¿quiénes ofrecen servicios de auditoría para certificaciones de calidad en perú?,0,66,0.0,8.58,,False
+Perú,848/2018,1,65,0.015385,8.69,,False
+Perú,inspeccion de almacen,1,65,0.015385,3.77,,False
+Perú,msc certificate,1,65,0.015385,16.83,MSC / ASC / BAP,False
+Perú,responsible down standard,1,65,0.015385,31.77,,False
+Perú,certificado rainforest,0,64,0.0,7.2,Rainforest Alliance,False
+Perú,certificado ras,3,64,0.046875,5.73,,False
+Perú,friend of the sea,1,64,0.015625,4.64,,False
+Perú,que es non gmo,0,64,0.0,12.58,,False
+Perú,4c coffee certification,0,63,0.0,13.35,,False
+Perú,fssc 22000 que es,0,63,0.0,5.98,FSSC 22000,False
+Perú,que es graps,0,63,0.0,6.51,,False
+Perú,brgcs,0,62,0.0,6.19,,False
+Perú,politica de privacidad de datos personales,0,62,0.0,3.21,,False
+Perú,brcgs (brand reputation through compliance global standards),1,61,0.016393,4.43,BRCGS,False
+Perú,costo promedio de una auditoría de certificación para plantas de alimentos en perú.. my location is peru.,0,61,0.0,4.53,,False
+Perú,curso smeta,2,61,0.032787,16.25,SMETA / Sedex,False
+Perú,leaf certificacion,1,61,0.016393,4.15,,False
+Perú,politica de tratamiento de datos,2,61,0.032787,5.0,,False
+Perú,política de privacidad,0,61,0.0,8.38,,False
+Perú,sistema haccp (análisis de peligros y puntos críticos de control),1,61,0.016393,8.55,,False
+Perú,what mechanisms do standard-setters like rainforest alliance use to detect and prevent audit fraud on certified cocoa farms?,0,61,0.0,9.76,Rainforest Alliance,False
+Perú,certificacion ifs,0,60,0.0,14.05,IFS,False
+Perú,certificaciones de tejidos,0,60,0.0,72.4,,False
+Perú,requisitos globalgap,0,60,0.0,31.7,GLOBALG.A.P.,False
+Perú,smeta 7.0 best practice guidance pdf,3,60,0.05,4.43,SMETA / Sedex,False
+Perú,the gots,0,60,0.0,4.48,GOTS,False
+Perú,22000 fssc,0,59,0.0,3.63,FSSC 22000,False
+Perú,animal ras,0,59,0.0,8.22,,False
+Perú,asistente de compliance,5,59,0.084746,6.86,,False
+Perú,brcgs (brand reputation compliance global standards),6,59,0.101695,3.66,BRCGS,False
+Perú,c.a.f.e. practices starbucks,0,59,0.0,6.19,,False
+Perú,certificacion pefc,0,59,0.0,6.78,PEFC,False
+Perú,ethical trade initiative,0,59,0.0,18.85,,False
+Perú,gcts peru,0,59,0.0,12.61,,False
+Perú,geixxx,4,59,0.067797,3.39,,False
+Perú,global ga,0,59,0.0,6.81,,False
+Perú,global seafood alliance's best aquaculture practices,0,59,0.0,44.35,MSC / ASC / BAP,False
+Perú,haccps,0,59,0.0,8.49,,False
+Perú,nop or,0,59,0.0,6.95,USDA NOP / orgánico,False
+Perú,que es el sistema haccp,0,59,0.0,7.71,,False
+Perú,canadagap,2,58,0.034483,6.88,CanadaGAP,False
+Perú,certificación bap,0,58,0.0,12.2,MSC / ASC / BAP,False
+Perú,control junior,1,58,0.017241,3.43,,False
+Perú,gots significado,0,58,0.0,6.6,GOTS,False
+Perú,iso fssc,0,58,0.0,7.5,FSSC 22000,False
+Perú,que significa rainforest alliance,0,58,0.0,8.14,Rainforest Alliance,False
+Perú,asc aqua,0,57,0.0,20.82,MSC / ASC / BAP,False
+Perú,bap best aquaculture practices,0,57,0.0,35.37,MSC / ASC / BAP,False
+Perú,haccp certification,0,57,0.0,5.88,,False
+Perú,haccp.,0,57,0.0,7.89,,False
+Perú,ifs food standard version 8 requirement 1.1.2,0,57,0.0,8.75,IFS,False
+Perú,msc certification requirements,0,57,0.0,10.37,MSC / ASC / BAP,False
+Perú,msc chain of custody,0,57,0.0,28.13,MSC / ASC / BAP,False
+Perú,smeta 2-pillar audit,0,57,0.0,30.96,SMETA / Sedex,False
+Perú,vcs que es,0,57,0.0,12.92,,False
+Perú,auditoria smeta 4 pilares,1,56,0.017857,5.36,SMETA / Sedex,False
+Perú,fair trade peru,3,56,0.053571,3.38,,False
+Perú,fssc 22001,0,56,0.0,3.79,FSSC 22000,False
+Perú,gsa bap certification,0,56,0.0,25.34,MSC / ASC / BAP,False
+Perú,norma brcgs,1,56,0.017857,5.62,BRCGS,False
+Perú,que es globalgap,0,56,0.0,6.21,GLOBALG.A.P.,False
+Perú,que es non gmo en español,0,56,0.0,9.95,,False
+Perú,smeta 4 pilares pdf,1,56,0.017857,9.11,SMETA / Sedex,False
+Perú,fsc certification,0,55,0.0,7.94,FSC,False
+Perú,no gmo que significa,0,55,0.0,3.11,,False
+Perú,que es bonsucro,0,55,0.0,8.85,,False
+Perú,que es primus,0,55,0.0,6.76,PrimusGFS,False
+Perú,"""electronic certificate fee"" primusgfs",0,54,0.0,8.76,PrimusGFS,False
+Perú,certificación pefc,0,54,0.0,10.58,PEFC,False
+Perú,certificação grasp,0,54,0.0,63.56,GLOBALG.A.P.,False
+Perú,haccp 2022,0,54,0.0,24.57,,False
+Perú,inspecciones,0,54,0.0,10.54,,False
+Perú,msc coc certification requirements,0,54,0.0,6.31,MSC / ASC / BAP,False
+Perú,organico,0,54,0.0,8.52,USDA NOP / orgánico,False
+Perú,pgfs,0,54,0.0,11.94,,False
+Perú,rainforest alliance standard pdf,0,54,0.0,9.18,Rainforest Alliance,False
+Perú,tesco peru,0,54,0.0,8.87,,False
+Perú,auditoria rainforest,0,53,0.0,3.34,Rainforest Alliance,False
+Perú,certificación turística sostenible mallorca,0,53,0.0,70.6,,False
+Perú,certificado iso 14064-1,0,52,0.0,64.21,Huella de carbono / GEI,False
+Perú,haccp (hazard analysis critical control point),0,52,0.0,17.98,,False
+Perú,que es nop,0,52,0.0,9.6,USDA NOP / orgánico,False
+Perú,servicio de inspección,1,52,0.019231,26.42,,False
+Perú,usda certificacion,0,52,0.0,7.13,USDA NOP / orgánico,False
+Perú,certificacion brcgs,1,51,0.019608,5.96,BRCGS,False
+Perú,fssc 22000 que significa,0,51,0.0,6.45,FSSC 22000,False
+Perú,haccp en peru,0,51,0.0,5.49,,False
+Perú,ifs standard pdf,4,51,0.078431,8.84,IFS,False
+Perú,qué es el eti,0,51,0.0,2.8,,False
+Perú,sistemas haccp,1,51,0.019608,8.67,,False
+Perú,"""report entry fee"" ""primusgfs""",0,50,0.0,6.06,PrimusGFS,False
+Perú,certificacion rspo,0,50,0.0,5.28,RSPO,False
+Perú,haccp certificacion,0,50,0.0,6.48,,False
+Perú,jas organic,1,50,0.02,8.86,USDA NOP / orgánico,False
+Perú,que es el asc,0,50,0.0,5.5,MSC / ASC / BAP,False
+Perú,que es el brcgs,0,50,0.0,4.98,BRCGS,False
+Perú,que es verra,0,50,0.0,7.32,,False
+Perú,rspo certification que es,0,50,0.0,5.18,RSPO,False
+Perú,tesco nurture certification,0,50,0.0,6.56,,False
+Perú,"""electronic certificate fee"" ""primusgfs""",0,49,0.0,9.64,PrimusGFS,False
+Perú,brcgs en español,0,49,0.0,8.94,BRCGS,False
+Perú,certificación usda organic,2,49,0.040816,9.06,USDA NOP / orgánico,False
+Perú,fair trade certificación,0,49,0.0,5.96,,False
+Perú,jas certification,5,49,0.102041,15.39,,False
+Perú,norma smeta,0,49,0.0,17.81,SMETA / Sedex,False
+Perú,que es la certificacion haccp,0,49,0.0,6.02,,False
+Perú,que significa smeta,1,49,0.020408,7.04,SMETA / Sedex,False
+Perú,qué es el haccp,0,49,0.0,9.21,,False
+Perú,rtpo organico,0,49,0.0,4.51,USDA NOP / orgánico,False
+Perú,smeta 2 pillar audit,0,49,0.0,41.63,SMETA / Sedex,False
+Perú,verificacion,0,49,0.0,9.94,,False
+Perú,asc certified seafood,0,48,0.0,45.04,MSC / ASC / BAP,False
+Perú,confidencialidad en auditoria,0,48,0.0,8.37,,False
+Perú,eu 848/2018,0,48,0.0,5.02,,False
+Perú,implantación globalgap,0,48,0.0,48.29,GLOBALG.A.P.,False
+Perú,msc peru,0,48,0.0,8.69,MSC / ASC / BAP,False
+Perú,non gmo significado,0,48,0.0,4.37,,False
+Perú,que es codigo eti,0,48,0.0,5.0,,False
+Perú,rainforest alliance certification what it covers standards requirements,0,48,0.0,7.85,Rainforest Alliance,False
+Perú,smeta 2 pilares,2,48,0.041667,3.4,SMETA / Sedex,False
+Perú,certificación rspo,0,47,0.0,11.19,RSPO,False
+Perú,consumer worker,0,47,0.0,3.08,,False
+Perú,control haccp,0,47,0.0,14.17,,False
+Perú,descargar certificado global gap,2,47,0.042553,7.96,GLOBALG.A.P.,False
+Perú,fair choice,6,47,0.12766,11.1,,False
+Perú,fssc 220000,0,47,0.0,6.19,FSSC 22000,False
+Perú,haccp que significa en español,0,47,0.0,7.98,,False
+Perú,hazard analysis and critical control points,0,47,0.0,6.45,,False
+Perú,how to pass a sedex smeta audit in 2025,0,47,0.0,17.23,SMETA / Sedex,False
+Perú,politica de proteccion de datos,1,47,0.021277,5.64,,False
+Perú,que es un haccp,0,47,0.0,8.58,,False
+Perú,que es un punto critico de control,0,47,0.0,9.51,,False
+Perú,sedex 4 pillar,0,47,0.0,47.26,SMETA / Sedex,False
+Perú,smeta 7.0 audit checklist,1,47,0.021277,11.23,SMETA / Sedex,False
+Perú,software para certificación orgánica,0,47,0.0,2.96,USDA NOP / orgánico,False
+Perú,"""report entry fee"" ""transfer fee"" primusgfs",0,46,0.0,6.04,PrimusGFS,False
+Perú,asc certificacion,0,46,0.0,7.61,MSC / ASC / BAP,False
+Perú,asc.,0,46,0.0,6.3,MSC / ASC / BAP,False
+Perú,bio suisse organic,0,46,0.0,4.33,USDA NOP / orgánico,False
+Perú,certificación leaf marque,0,46,0.0,3.89,,False
+Perú,certificado pefc,0,46,0.0,8.24,PEFC,False
+Perú,globalgap documentos,0,46,0.0,12.89,GLOBALG.A.P.,False
+Perú,que es el certificado haccp,0,46,0.0,7.28,,False
+Perú,bonsucro que es,0,45,0.0,11.4,,False
+Perú,certificación grs,0,45,0.0,25.38,GRS,False
+Perú,implantación globalg.a.p.,0,45,0.0,25.49,GLOBALG.A.P.,False
+Perú,inspección de carga,0,45,0.0,31.87,,False
+Perú,iso 14064 huella de carbono pdf,13,45,0.288889,1.98,Huella de carbono / GEI,False
+Perú,sistema hazard,0,45,0.0,10.4,,False
+Perú,14064-1,11,44,0.25,4.61,Huella de carbono / GEI,False
+Perú,b.a.p,0,44,0.0,4.34,,False
+Perú,biocomercio,0,44,0.0,1.05,,False
+Perú,cafe practice,0,44,0.0,9.52,,False
+Perú,certificacion iso 22000,0,44,0.0,15.29,ISO 22000,False
+Perú,certificación hazard,0,44,0.0,3.82,,False
+Perú,global ap,1,44,0.022727,9.29,,False
+Perú,global g.a.p,0,44,0.0,4.94,GLOBALG.A.P.,False
+Perú,iso fssc 22000,0,44,0.0,27.41,FSSC 22000,False
+Perú,leaf marque certification,0,44,0.0,24.95,,False
+Perú,manufacturing audit in peru,0,44,0.0,5.75,,False
+Perú,msc certificado,0,44,0.0,21.2,MSC / ASC / BAP,False
+Perú,msc labour eligibility requirements,0,44,0.0,6.61,MSC / ASC / BAP,False
+Perú,normas iso 14064,1,44,0.022727,24.73,Huella de carbono / GEI,False
+Perú,primus certification,0,44,0.0,28.25,PrimusGFS,False
+Perú,productos orgánicos certificados,1,44,0.022727,23.41,USDA NOP / orgánico,False
+Perú,que es smeta 4 pilares,0,44,0.0,5.25,SMETA / Sedex,False
+Perú,que haccp,0,44,0.0,10.75,,False
+Perú,responsible alpaca standard,3,44,0.068182,3.41,,False
+Perú,sedex smeta audit methodology official,0,44,0.0,8.27,SMETA / Sedex,False
+Perú,smeta audit standard,0,44,0.0,20.57,SMETA / Sedex,False
+Perú,certificación jas,1,43,0.023256,3.79,,False
+Perú,certificación leaf,0,43,0.0,3.6,,False
+Perú,certificación orgánica senasa,1,43,0.023256,5.31,USDA NOP / orgánico,False
+Perú,certificado jas,1,43,0.023256,6.12,,False
+Perú,formato de privacidad de datos personales,0,43,0.0,5.35,,False
+Perú,grasp español,0,43,0.0,9.68,GLOBALG.A.P.,False
+Perú,msc certificering,0,43,0.0,20.47,MSC / ASC / BAP,False
+Perú,passionfruit45583,0,43,0.0,8.49,,False
+Perú,potensil,0,43,0.0,9.53,,False
+Perú,primus gfs que es,0,43,0.0,3.77,PrimusGFS,False
+Perú,programme for the endorsement of forest certification chain of custody,0,43,0.0,25.91,,False
+Perú,smeta 4 pillars,0,43,0.0,48.62,SMETA / Sedex,False
+Perú,abreviatura de validación,0,42,0.0,7.12,,False
+Perú,ascsh,0,42,0.0,10.07,,False
+Perú,cadena de certificaciones,0,42,0.0,8.74,,False
+Perú,ccb que es,0,42,0.0,8.36,,False
+Perú,ccb verra,0,42,0.0,3.88,,False
+Perú,certification bap,0,42,0.0,15.21,MSC / ASC / BAP,False
+Perú,claim validation,0,42,0.0,67.71,,False
+Perú,fssc iso,0,42,0.0,7.05,FSSC 22000,False
+Perú,fssc iso 22000,0,42,0.0,21.6,ISO 22000,False
+Perú,ifs international food standard,0,42,0.0,26.64,IFS,False
+Perú,iso 14046 huella hídrica pdf,7,42,0.166667,2.36,Huella hídrica,False
+Perú,la eti,0,42,0.0,5.33,,False
+Perú,no-gmo,0,42,0.0,4.24,,False
+Perú,nom gmo,0,42,0.0,6.41,,False
+Perú,norma global gap pdf,1,42,0.02381,6.76,GLOBALG.A.P.,False
+Perú,ras peru,0,42,0.0,4.41,,False
+Perú,4 pilares de smeta,0,41,0.0,6.71,SMETA / Sedex,False
+Perú,asc claim text,0,41,0.0,4.56,MSC / ASC / BAP,False
+Perú,bacmil plus,0,41,0.0,7.29,,False
+Perú,bap acuicultura,0,41,0.0,18.02,MSC / ASC / BAP,False
+Perú,con certificación orgánica,0,41,0.0,22.15,USDA NOP / orgánico,False
+Perú,fairtrade peru,1,41,0.02439,4.63,,False
+Perú,global sustainable tourism council,1,41,0.02439,7.63,,False
+Perú,no conformidad mayor,0,41,0.0,5.73,,False
+Perú,que es el código eti,0,41,0.0,5.54,,False
+Perú,que es sakana,0,41,0.0,9.54,,False
+Perú,sello organico,0,41,0.0,6.9,USDA NOP / orgánico,False
+Perú,smeta requirements,1,41,0.02439,5.34,SMETA / Sedex,False
+Perú,vcus,0,41,0.0,7.86,,False
+Perú,brcgs en peru,0,40,0.0,3.88,BRCGS,False
+Perú,cafe practices certification,0,40,0.0,9.78,,False
+Perú,"dentro de la estructura de ifa v6 para frutas y hortalizas, ¿cuántos principios se clasifican bajo la sección de 'sostenibilidad ambiental' en la versión smart?",0,40,0.0,7.98,,False
+Perú,que es la certificación haccp,0,40,0.0,5.12,,False
+Perú,rain forest alliance,0,40,0.0,5.35,,False
+Perú,sedex audit checklist,0,40,0.0,39.5,SMETA / Sedex,False
+Perú,sedex smeta audit 10th of ramadan,0,40,0.0,8.3,SMETA / Sedex,False
+Portugal,aquacultura,2,4451,0.000449,6.14,MSC / ASC / BAP,False
+Portugal,green key,2,1424,0.001404,7.06,,False
+Portugal,iso 9001,0,1303,0.0,12.88,ISO 9001,False
+Portugal,carbon neutral,0,1172,0.0,4.34,,False
+Portugal,vcs,0,1092,0.0,9.25,,False
+Portugal,sbp,9,1066,0.008443,4.72,SBP,False
+Portugal,ccs,4,1007,0.003972,8.67,,False
+Portugal,gas free certification,0,979,0.0,46.73,,False
+Portugal,2bsvs,0,914,0.0,7.66,2BSvs,False
+Portugal,draft survey,2,913,0.002191,33.33,,False
+Portugal,iso 22000,2,854,0.002342,13.88,ISO 22000,False
+Portugal,ggl,1,652,0.001534,11.82,,False
+Portugal,earthcheck,1,645,0.00155,23.24,,False
+Portugal,verra,0,568,0.0,6.12,,False
+Portugal,asc,0,552,0.0,9.39,MSC / ASC / BAP,False
+Portugal,earthcheck certification,1,495,0.00202,30.99,,False
+Portugal,plan vivo,0,451,0.0,8.19,,False
+Portugal,rspo,1,395,0.002532,7.87,RSPO,False
+Portugal,slcp,3,386,0.007772,13.97,,False
+Portugal,uer,0,371,0.0,6.41,,False
+Portugal,pas 2060 certification,0,366,0.0,30.01,,False
+Portugal,iso 14064,1,362,0.002762,7.68,Huella de carbono / GEI,False
+Portugal,roc,1,361,0.00277,7.23,,False
+Portugal,cumcs,3,340,0.008824,3.81,CUMCS,False
+Portugal,rws,6,339,0.017699,5.0,,False
+Portugal,earth check,2,337,0.005935,7.9,,False
+Portugal,responsible wool standard,0,325,0.0,19.55,,False
+Portugal,gafta sampling rules,0,292,0.0,36.55,,False
+Portugal,9001,0,269,0.0,5.54,ISO 9001,False
+Portugal,regenagri,14,258,0.054264,2.77,,False
+Portugal,brcgs,0,254,0.0,22.21,BRCGS,False
+Portugal,forest stewardship council,0,247,0.0,39.71,,False
+Portugal,sfa,0,247,0.0,7.63,,False
+Portugal,earth checks,0,229,0.0,10.92,,False
+Portugal,gstc,0,226,0.0,29.85,,False
+Portugal,msc certified,0,223,0.0,44.36,MSC / ASC / BAP,False
+Portugal,dinplus,2,219,0.009132,5.99,,False
+Portugal,certificação da madeira,0,202,0.0,33.44,,False
+Portugal,msc certification,1,202,0.00495,36.61,MSC / ASC / BAP,False
+Portugal,certificação de conteúdo reciclado,0,197,0.0,13.91,,False
+Portugal,certificação de plásticos compostáveis,0,196,0.0,13.9,,False
+Portugal,carbonneutral certification (chauffeur/business) lisbon,0,194,0.0,2.71,,False
+Portugal,gmp fsa,0,181,0.0,43.19,GMP+,False
+Portugal,certificação rac,0,168,0.0,22.99,,False
+Portugal,green key portugal,2,165,0.012121,6.51,,False
+Portugal,pas 2060,1,163,0.006135,41.66,,False
+Portugal,marine stewardship council msc certification,0,159,0.0,59.07,MSC / ASC / BAP,False
+Portugal,2bsvs certification,1,153,0.006536,6.78,2BSvs,False
+Portugal,controle de união industrial,0,151,0.0,11.68,,False
+Portugal,gafta 124 sampling,0,144,0.0,31.29,,False
+Portugal,rspo certified,0,143,0.0,89.11,RSPO,False
+Portugal,rspo palm,0,143,0.0,73.32,RSPO,False
+Portugal,enplus,1,134,0.007463,4.85,,False
+Portugal,green globe,2,125,0.016,4.89,,False
+Portugal,rws portugal,0,117,0.0,8.41,,False
+Portugal,aquaculture stewardship council,0,114,0.0,43.0,MSC / ASC / BAP,False
+Portugal,plan vivo foundation,0,114,0.0,21.0,,False
+Portugal,msc organisation,0,113,0.0,14.07,MSC / ASC / BAP,False
+Portugal,controlo de qualidade textil,0,111,0.0,66.85,,False
+Portugal,green key certification,0,111,0.0,14.42,,False
+Portugal,uers,0,106,0.0,1.72,,False
+Portugal,marine stewardship council,0,105,0.0,19.59,,False
+Portugal,certificação msc,0,104,0.0,9.55,MSC / ASC / BAP,False
+Portugal,din plus,6,104,0.057692,9.07,,False
+Portugal,green key hotels,0,103,0.0,18.87,,False
+Portugal,iso 22000 certification in portugal,0,99,0.0,11.22,ISO 22000,False
+Portugal,earth check certification,0,96,0.0,5.95,,False
+Portugal,forest certification schemes,0,96,0.0,64.75,,False
+Portugal,cumcs-g.a.p,0,95,0.0,4.59,CUMCS,False
+Portugal,iso 9001:2015,0,95,0.0,7.14,ISO 9001,False
+Portugal,rws wool,0,93,0.0,17.54,,False
+Portugal,iso 140012015,0,92,0.0,13.97,,False
+Portugal,certificação iso 22000 em portugal,0,91,0.0,13.58,ISO 22000,False
+Portugal,forest stewardship council certification,0,89,0.0,58.28,,False
+Portugal,certificação iso 9001,0,88,0.0,59.92,ISO 9001,False
+Portugal,iso22000,1,88,0.011364,10.82,ISO 22000,False
+Portugal,marine stewardship council certification,0,83,0.0,38.54,,False
+Portugal,rspo palm oil,0,83,0.0,70.15,RSPO,False
+Portugal,vcs standard,0,80,0.0,7.39,,False
+Portugal,fssc 22000,0,79,0.0,54.19,FSSC 22000,False
+Portugal,iso 14064 consultants,0,79,0.0,70.2,Huella de carbono / GEI,False
+Portugal,iso 9001 certification in portugal,0,79,0.0,9.93,ISO 9001,False
+Portugal,obp,0,79,0.0,18.38,,False
+Portugal,social and labor convergence program,0,75,0.0,34.41,,False
+Portugal,certificação iso 9001 em portugal,0,73,0.0,27.11,ISO 9001,False
+Portugal,aquicultura,0,72,0.0,1.0,,False
+Portugal,globalg.a.p.,0,69,0.0,12.82,GLOBALG.A.P.,False
+Portugal,msc pesca sustentável,0,65,0.0,21.2,MSC / ASC / BAP,False
+Portugal,gmp feed certification scheme,0,64,0.0,21.42,GMP+,False
+Portugal,norma iso 9001,0,64,0.0,22.88,ISO 9001,False
+Portugal,roc portugal,1,64,0.015625,7.19,,False
+Portugal,green gold label,0,63,0.0,8.21,,False
+Portugal,green key global,0,63,0.0,41.62,,False
+Portugal,pas 2060 certification cost,0,62,0.0,30.39,,False
+Portugal,regen agri,0,61,0.0,44.43,,False
+Portugal,draught survey,0,60,0.0,17.8,,False
+Portugal,gas free certificate,0,60,0.0,33.48,,False
+Portugal,iso 14064-1,0,60,0.0,13.4,Huella de carbono / GEI,False
+Portugal,reciclass,0,59,0.0,4.14,,False
+Portugal,ccs programa,0,58,0.0,8.47,,False
+Portugal,dinplus official website,0,57,0.0,5.93,,False
+Portugal,accreditation body,0,56,0.0,40.64,,False
+Portugal,key certification for hotels,0,56,0.0,16.84,,False
+Portugal,gafta 124 sampling rules,0,55,0.0,35.69,,False
+Portugal,asc aquaculture stewardship council,0,53,0.0,63.85,MSC / ASC / BAP,False
+Portugal,marthcheck,0,53,0.0,6.72,,False
+Portugal,msc certificação,0,53,0.0,5.89,MSC / ASC / BAP,False
+Portugal,what is asc certified,0,52,0.0,49.82,MSC / ASC / BAP,False
+Portugal,fair trade aps,0,51,0.0,10.04,,False
+Portugal,9001 iso,0,50,0.0,10.8,ISO 9001,False
+Portugal,asc certified,0,50,0.0,47.58,MSC / ASC / BAP,False
+Portugal,plan vivo certification,0,49,0.0,11.15,,False
+Portugal,ghg emissions verification body,0,48,0.0,27.79,,False
+Portugal,roundtable on sustainable palm oil,0,48,0.0,57.1,,False
+Portugal,rspo sustainable palm oil,0,48,0.0,74.73,RSPO,False
+Portugal,certified wool,0,47,0.0,22.68,,False
+Portugal,global sustainable tourism council,0,47,0.0,26.47,,False
+Portugal,verified carbon standard (vcs),0,47,0.0,9.0,,False
+Portugal,zero waste,0,46,0.0,25.15,,False
+Portugal,draft survey o que é,0,45,0.0,7.05,,False
+Portugal,rws certified wool,0,45,0.0,8.2,,False
+Portugal,certificado biologico,0,44,0.0,23.66,,False
+Portugal,norma 9001,0,44,0.0,15.05,ISO 9001,False
+Portugal,rspo certified palm oil,0,44,0.0,84.66,RSPO,False
+Portugal,world sbp,0,44,0.0,1.91,SBP,False
+Portugal,certificação green key,0,43,0.0,4.84,,False
+Portugal,gas free,0,43,0.0,29.93,,False
+Portugal,plan vivo logo,0,43,0.0,9.19,,False
+Portugal,what is the difference between iso 14064-1 and iso 14064-2?,0,43,0.0,64.12,Huella de carbono / GEI,False
+Portugal,asc aquaculture,0,42,0.0,48.14,MSC / ASC / BAP,False
+Portugal,fssc 22000 food safety system certification,0,42,0.0,65.45,FSSC 22000,False
+Portugal,iso 14064 certification,0,41,0.0,64.27,Huella de carbono / GEI,False
+Portugal,iso 14064-1 certification,0,41,0.0,57.78,Huella de carbono / GEI,False
+Portugal,certified sustainable palm oil,0,40,0.0,72.03,,False
+Portugal,control de unión industrial,0,40,0.0,81.85,,False
+Portugal,iso9001,0,40,0.0,24.3,,False
+Portugal,lci inspection,0,40,0.0,7.87,,False

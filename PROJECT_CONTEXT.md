@@ -9,7 +9,7 @@ descartada. Cada movimiento queda registrado con quién y cuándo; descartar exi
 
 ## De dónde salen las tarjetas
 
-Del proyecto de análisis `Optimizaciónes SEO-SEM/proyecto` (Python), que cruza Google Ads por API con el
+Del proyecto de análisis `analisis/` (Python, en este mismo repo), que cruza Google Ads por API con el
 histórico de Search Console. Sus informes se traducen a recomendaciones con una **clave estable**
 (`marca:tipo:campaña|sitio:slug`) para que el mismo hallazgo no se duplique cuando se vuelve a correr el
 análisis el mes siguiente. Origen de cada tipo:

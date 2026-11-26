@@ -1,0 +1,573 @@
+{
+ "ventana": "2026-08-25_2026-09-24",
+ "dias": 31,
+ "filas": [
+  {
+   "marca": "Control Union",
+   "unidad": "Argentina",
+   "campana": "CU Argentina - Agroexportación - Search",
+   "grupo": "EUDR compra",
+   "coste": 8217.41,
+   "clics": 3,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Argentina",
+   "campana": "CU Argentina - Agroexportación - Search",
+   "grupo": "EUDR proceso",
+   "coste": 18638.72,
+   "clics": 13,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Argentina",
+   "campana": "CU Argentina - Agroexportación - Search",
+   "grupo": "GGAP compra",
+   "coste": 14219.32,
+   "clics": 7,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Argentina",
+   "campana": "CU Argentina - Agroexportación - Search",
+   "grupo": "Organico compra",
+   "coste": 3237.18,
+   "clics": 4,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Argentina",
+   "campana": "CU Argentina - Biocombustible - Search",
+   "grupo": "ISCC EU compra",
+   "coste": 1734.61,
+   "clics": 2,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Argentina",
+   "campana": "CU Argentina - Biocombustible - Search",
+   "grupo": "RFS2 compra",
+   "coste": 3790.74,
+   "clics": 2,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Argentina",
+   "campana": "CU Argentina - GHG - Search",
+   "grupo": "GHG verificación",
+   "coste": 9674.31,
+   "clics": 9,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Argentina",
+   "campana": "CU Argentina - Industria - Search",
+   "grupo": "SMETA compra",
+   "coste": 4824.04,
+   "clics": 4,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Canadá",
+   "campana": "CU Canada - Canada Gap - Search",
+   "grupo": "CanadaGAP cert",
+   "coste": 70656.245184,
+   "clics": 30,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Canadá",
+   "campana": "CU Canada - Forestry - Search",
+   "grupo": "FSC",
+   "coste": 58828.729999999996,
+   "clics": 12,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Canadá",
+   "campana": "CU Canada - Forestry - Search",
+   "grupo": "Forestry cert",
+   "coste": 101954.77168,
+   "clics": 23,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Canadá",
+   "campana": "CU Canada - Forestry - Search",
+   "grupo": "PEFC",
+   "coste": 4908.17,
+   "clics": 2,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Canadá",
+   "campana": "CU Canada - GLOBALG.A.P. - Search",
+   "grupo": "GLOBALG.A.P audit",
+   "coste": 3015.47,
+   "clics": 1,
+   "conv": 1.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Canadá",
+   "campana": "CU Canada - GLOBALG.A.P. - Search",
+   "grupo": "GLOBALG.A.P cert",
+   "coste": 25881.65,
+   "clics": 7,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Canadá",
+   "campana": "CU Canada - Smeta - Search",
+   "grupo": "Smeta",
+   "coste": 30049.350000000002,
+   "clics": 11,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Canadá",
+   "campana": "CU Canada- Aqua / Fisheries - Search",
+   "grupo": "Aqua certification",
+   "coste": 4037.46,
+   "clics": 1,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Canadá",
+   "campana": "CU Canada- Aqua / Fisheries - Search",
+   "grupo": "MSC",
+   "coste": 12179.439999999999,
+   "clics": 3,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Canadá",
+   "campana": "CU Canada- Aqua / Fisheries - Search",
+   "grupo": "Seafood traceability",
+   "coste": 8053.74,
+   "clics": 2,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - Bioenergia - Search",
+   "grupo": "ISCC",
+   "coste": 45862.147344,
+   "clics": 22,
+   "conv": 2.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - Biomasa - Search",
+   "grupo": "SURE",
+   "coste": 1245.7,
+   "clics": 1,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - CAEs - Search",
+   "grupo": "Certificados y Sistema CAE",
+   "coste": 41253.143072000006,
+   "clics": 35,
+   "conv": 2.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - CAEs - Search",
+   "grupo": "Verificación y Actuaciones CAE",
+   "coste": 34328.395024,
+   "clics": 15,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - Forestal - Search",
+   "grupo": "PEFC",
+   "coste": 65623.25128,
+   "clics": 34,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - GMP+ - Search",
+   "grupo": "Certificación",
+   "coste": 7737.84,
+   "clics": 2,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - IFS - SEARCH",
+   "grupo": "Food Safety",
+   "coste": 78753.701088,
+   "clics": 34,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - Plasticos - Search",
+   "grupo": "RecyClass",
+   "coste": 27837.445306,
+   "clics": 10,
+   "conv": 1.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - Plasticos - Search",
+   "grupo": "UNE 15343",
+   "coste": 20027.54,
+   "clics": 12,
+   "conv": 1.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - Smeta - Search",
+   "grupo": "Social",
+   "coste": 61421.71000000001,
+   "clics": 25,
+   "conv": 1.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - Textile - Search",
+   "grupo": "GOTS",
+   "coste": 40985.410272,
+   "clics": 27,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "España",
+   "campana": "CU España - Textile - Search",
+   "grupo": "GRS",
+   "coste": 33214.260943999994,
+   "clics": 18,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Estados Unidos",
+   "campana": "CU United States - Organic - PrimusGFS - Search",
+   "grupo": "PrimusGFS Core Generic",
+   "coste": 25941.36,
+   "clics": 4,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Estados Unidos",
+   "campana": "CU United States - Organic - USDA NOP - Search",
+   "grupo": "SOE & Import Compliance",
+   "coste": 15817.81,
+   "clics": 1,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Estados Unidos",
+   "campana": "CU United States - Organic - USDA NOP - Search",
+   "grupo": "Switch & Get Certified",
+   "coste": 201134.867078,
+   "clics": 28,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Portugal",
+   "campana": "CU Portugal - Bioenergia - Search",
+   "grupo": "ISCC",
+   "coste": 45465.025136000004,
+   "clics": 20,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Portugal",
+   "campana": "CU Portugal - Biomasa - Search",
+   "grupo": "SURE",
+   "coste": 17875.983415,
+   "clics": 7,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Portugal",
+   "campana": "CU Portugal - Forestal - Search",
+   "grupo": "PEFC",
+   "coste": 42883.809808,
+   "clics": 24,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Portugal",
+   "campana": "CU Portugal - Plasticos - Search",
+   "grupo": "RecyClass",
+   "coste": 20786.894464,
+   "clics": 13,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Portugal",
+   "campana": "CU Portugal - Plasticos - Search",
+   "grupo": "UNE 15343",
+   "coste": 23303.469536,
+   "clics": 9,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Portugal",
+   "campana": "CU Portugal - Smeta - Search",
+   "grupo": "Smeta",
+   "coste": 42861.597984,
+   "clics": 17,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Portugal",
+   "campana": "CU Portugal - Textile - Search",
+   "grupo": "GOTS",
+   "coste": 43896.476724,
+   "clics": 24,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Portugal",
+   "campana": "CU Portugal - Textile - Search",
+   "grupo": "GRS",
+   "coste": 15935.852047999999,
+   "clics": 9,
+   "conv": 0.0
+  },
+  {
+   "marca": "Control Union",
+   "unidad": "Portugal",
+   "campana": "CU Portugal - Textile - Search",
+   "grupo": "Higg FEM",
+   "coste": 6441.18,
+   "clics": 3,
+   "conv": 0.0
+  },
+  {
+   "marca": "ISO 27001 (PCU)",
+   "unidad": "?",
+   "campana": "PCU Tech - Competidores ISO 27001 - Search",
+   "grupo": "Comparación",
+   "coste": 13953.2,
+   "clics": 7,
+   "conv": 0.0
+  },
+  {
+   "marca": "ISO 27001 (PCU)",
+   "unidad": "?",
+   "campana": "PCU Tech - ISO 27001 - Search",
+   "grupo": "Compra",
+   "coste": 215017.44999999998,
+   "clics": 104,
+   "conv": 1.0
+  },
+  {
+   "marca": "ISO 27001 (PCU)",
+   "unidad": "?",
+   "campana": "PCU Tech - ISO 27001 - Search",
+   "grupo": "Proceso",
+   "coste": 15090.349999999999,
+   "clics": 8,
+   "conv": 0.0
+  },
+  {
+   "marca": "ISO 27001 (PCU)",
+   "unidad": "España",
+   "campana": "PCU España - Competidores ISO 27001 - Search",
+   "grupo": "Comparación",
+   "coste": 28338.170000000002,
+   "clics": 7,
+   "conv": 0.0
+  },
+  {
+   "marca": "ISO 27001 (PCU)",
+   "unidad": "España",
+   "campana": "PCU España - ISO 27001 - Search",
+   "grupo": "Compra",
+   "coste": 264194.62,
+   "clics": 184,
+   "conv": 1.0
+  },
+  {
+   "marca": "ISO 27001 (PCU)",
+   "unidad": "España",
+   "campana": "PCU España - ISO 27001 - Search",
+   "grupo": "Proceso",
+   "coste": 8326.69,
+   "clics": 15,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - Bioenergia / Biocombustibles - Search",
+   "grupo": "Bioenergia",
+   "coste": 62921.38405,
+   "clics": 40,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - CeSu - Preparacion para certificaciones - Search",
+   "grupo": "Gap analysis",
+   "coste": 5808.96,
+   "clics": 3,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSe - ESG / Reportes - Search",
+   "grupo": "Consultoria ESG",
+   "coste": 8174.3099999999995,
+   "clics": 5,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSe - ESG / Reportes - Search",
+   "grupo": "Materialidad",
+   "coste": 6817.84,
+   "clics": 3,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSe - ESG / Reportes - Search",
+   "grupo": "Reportes ESG",
+   "coste": 58580.939999999995,
+   "clics": 43,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSe - Huella de agua - Search",
+   "grupo": "Gestion agua",
+   "coste": 48830.64,
+   "clics": 14,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSe - Huella de agua - Search",
+   "grupo": "Huella hidrica",
+   "coste": 3348.28,
+   "clics": 5,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+   "grupo": "Huella carbono",
+   "coste": 33938.2,
+   "clics": 21,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSe - Huella de carbono / GEI - Search",
+   "grupo": "Huella producto",
+   "coste": 45623.789579000004,
+   "clics": 43,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSo - Abastecimiento sostenible - Search",
+   "grupo": "Cadena de valor",
+   "coste": 4176.97,
+   "clics": 4,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+   "grupo": "Regenerativa",
+   "coste": 70702.496384,
+   "clics": 124,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSo - Agricultura regenerativa- Search",
+   "grupo": "Transicion",
+   "coste": 8716.57,
+   "clics": 13,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSo - Trazabilidad / EUDR - Search",
+   "grupo": "Due diligence",
+   "coste": 1586.45,
+   "clics": 1,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSo - Trazabilidad / EUDR - Search",
+   "grupo": "Geolocalizacion",
+   "coste": 2802.39,
+   "clics": 2,
+   "conv": 0.0
+  },
+  {
+   "marca": "Peterson Solutions",
+   "unidad": "Argentina",
+   "campana": "PS Argentina - SuSo - Trazabilidad / EUDR - Search",
+   "grupo": "Trazabilidad",
+   "coste": 451.31,
+   "clics": 1,
+   "conv": 0.0
+  }
+ ]
+}

@@ -1,0 +1,1341 @@
+{
+ "clientes": [
+  {
+   "marca": "CU",
+   "propiedad": "España",
+   "pais": "esp",
+   "nombre": "Control Union España",
+   "ads": {
+    "gasto": 566753,
+    "clics": 236,
+    "conv": 2,
+    "campanas": 11,
+    "keywords": 259,
+    "sin_impr": 164,
+    "visible": 273060,
+    "desperdicio": 55163,
+    "huecos": 48446,
+    "huecos_terminos": 22,
+    "relevante": 217897,
+    "canib": 3462,
+    "zona": [
+     {
+      "termino": "smeta",
+      "coste": 14283.11,
+      "pos_org": 7.55,
+      "impr_org": 305.0
+     },
+     {
+      "termino": "iscc",
+      "coste": 11732.97,
+      "pos_org": 12.07,
+      "impr_org": 14.0
+     },
+     {
+      "termino": "cae",
+      "coste": 3480.71,
+      "pos_org": 16.39,
+      "impr_org": 18.0
+     },
+     {
+      "termino": "auditoria smeta",
+      "coste": 3084.93,
+      "pos_org": 9.0,
+      "impr_org": 10.0
+     },
+     {
+      "termino": "gots global organic textile standard",
+      "coste": 1439.03,
+      "pos_org": 11.67,
+      "impr_org": 3.0
+     }
+    ],
+    "cpc": 2401
+   },
+   "campanas": [
+    {
+     "camp_corta": "CAEs",
+     "coste": 111420.61,
+     "clics": 74,
+     "conv": 1.0,
+     "keywords": 28,
+     "sin_impr": 13,
+     "visible": 60055.99,
+     "desperdicio": 36518.67,
+     "hueco": 6813.93,
+     "pct_fuera": 61.0
+    },
+    {
+     "camp_corta": "IFS",
+     "coste": 105191.14,
+     "clics": 42,
+     "conv": 0.0,
+     "keywords": 9,
+     "sin_impr": 3,
+     "visible": 33183.46,
+     "desperdicio": 3282.1,
+     "hueco": 10022.869999999999,
+     "pct_fuera": 10.0
+    },
+    {
+     "camp_corta": "Textile",
+     "coste": 89865.04000000001,
+     "clics": 36,
+     "conv": 0.0,
+     "keywords": 45,
+     "sin_impr": 27,
+     "visible": 65808.66,
+     "desperdicio": 15361.95,
+     "hueco": 8427.220000000001,
+     "pct_fuera": 23.0
+    },
+    {
+     "camp_corta": "ISO 27001",
+     "coste": 78245.66,
+     "clics": 13,
+     "conv": 0.0,
+     "keywords": 31,
+     "sin_impr": 27,
+     "visible": 18842.41,
+     "desperdicio": 0.0,
+     "hueco": 18842.41,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Forestal",
+     "coste": 68727.31,
+     "clics": 30,
+     "conv": 0.0,
+     "keywords": 18,
+     "sin_impr": 6,
+     "visible": 35122.77,
+     "desperdicio": 0.0,
+     "hueco": 3988.78,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Bioenergia",
+     "coste": 38921.57,
+     "clics": 16,
+     "conv": 1.0,
+     "keywords": 21,
+     "sin_impr": 10,
+     "visible": 12035.01,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Smeta",
+     "coste": 34946.9,
+     "clics": 11,
+     "conv": 0.0,
+     "keywords": 18,
+     "sin_impr": 6,
+     "visible": 27136.68,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Plasticos",
+     "coste": 34222.17,
+     "clics": 12,
+     "conv": 0.0,
+     "keywords": 34,
+     "sin_impr": 26,
+     "visible": 18707.64,
+     "desperdicio": 0.0,
+     "hueco": 351.21,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Biomasa",
+     "coste": 5212.139999999999,
+     "clics": 2,
+     "conv": 0.0,
+     "keywords": 16,
+     "sin_impr": 11,
+     "visible": 2167.29,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "GMP+",
+     "coste": 0.0,
+     "clics": 0,
+     "conv": 0.0,
+     "keywords": 31,
+     "sin_impr": 30,
+     "visible": 0.0,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": NaN
+    },
+    {
+     "camp_corta": "Competidores ISO 27001",
+     "coste": 0.0,
+     "clics": 0,
+     "conv": 0.0,
+     "keywords": 8,
+     "sin_impr": 5,
+     "visible": 0.0,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": NaN
+    }
+   ],
+   "gsc": {
+    "impr_ads": 28356,
+    "clics_ads": 177,
+    "queries_ads": 1951,
+    "impr_hist": 123288,
+    "clics_hist": 1078,
+    "pos_hist": 16.8,
+    "movil_pct": 31.4,
+    "ctr_movil": 0.56,
+    "ctr_desk": 1.0,
+    "no_comprada": [
+     {
+      "query": "iso 45001",
+      "impressions": 62834,
+      "clicks": 10,
+      "position": 10.73,
+      "norma": "ISO 45001"
+     },
+     {
+      "query": "welfair",
+      "impressions": 5196,
+      "clicks": 5,
+      "position": 6.51,
+      "norma": "Welfair / bienestar animal"
+     },
+     {
+      "query": "grasp",
+      "impressions": 4553,
+      "clicks": 18,
+      "position": 8.35,
+      "norma": "GLOBALG.A.P."
+     },
+     {
+      "query": "red española de servicios",
+      "impressions": 3426,
+      "clicks": 20,
+      "position": 6.64,
+      "norma": NaN
+     },
+     {
+      "query": "iso 45000",
+      "impressions": 2865,
+      "clicks": 0,
+      "position": 13.85,
+      "norma": NaN
+     },
+     {
+      "query": "sbp",
+      "impressions": 2152,
+      "clicks": 0,
+      "position": 7.75,
+      "norma": "SBP"
+     },
+     {
+      "query": "gstc",
+      "impressions": 1880,
+      "clicks": 11,
+      "position": 8.16,
+      "norma": NaN
+     },
+     {
+      "query": "cumcs",
+      "impressions": 1587,
+      "clicks": 9,
+      "position": 2.91,
+      "norma": "CUMCS"
+     }
+    ],
+    "no_comprada_n": 394,
+    "no_comprada_impr": 159394
+   }
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Portugal",
+   "pais": "prt",
+   "nombre": "Control Union Portugal",
+   "ads": {
+    "gasto": 189185,
+    "clics": 97,
+    "conv": 0,
+    "campanas": 7,
+    "keywords": 133,
+    "sin_impr": 77,
+    "visible": 113017,
+    "desperdicio": 3516,
+    "huecos": 11900,
+    "huecos_terminos": 5,
+    "relevante": 109501,
+    "canib": 12020,
+    "zona": [
+     {
+      "termino": "pefc portugal",
+      "coste": 7871.06,
+      "pos_org": 8.0,
+      "impr_org": 5.0
+     },
+     {
+      "termino": "pefc",
+      "coste": 7656.13,
+      "pos_org": 7.9,
+      "impr_org": 105.0
+     },
+     {
+      "termino": "iscc",
+      "coste": 7494.84,
+      "pos_org": 12.17,
+      "impr_org": 35.0
+     },
+     {
+      "termino": "iscc certificates",
+      "coste": 6612.59,
+      "pos_org": 9.55,
+      "impr_org": 22.0
+     },
+     {
+      "termino": "gots 8.0",
+      "coste": 2958.84,
+      "pos_org": 17.0,
+      "impr_org": 1.0
+     }
+    ],
+    "cpc": 1950
+   },
+   "campanas": [
+    {
+     "camp_corta": "Forestal",
+     "coste": 55622.630000000005,
+     "clics": 24,
+     "conv": 0.0,
+     "keywords": 11,
+     "sin_impr": 5,
+     "visible": 34166.21,
+     "desperdicio": 0.0,
+     "hueco": 6185.459999999999,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Textile",
+     "coste": 50602.43,
+     "clics": 32,
+     "conv": 0.0,
+     "keywords": 34,
+     "sin_impr": 15,
+     "visible": 26333.309999999998,
+     "desperdicio": 3516.39,
+     "hueco": 3321.11,
+     "pct_fuera": 13.0
+    },
+    {
+     "camp_corta": "Bioenergia",
+     "coste": 37461.67,
+     "clics": 16,
+     "conv": 0.0,
+     "keywords": 13,
+     "sin_impr": 4,
+     "visible": 28421.16,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Plasticos",
+     "coste": 25549.629999999997,
+     "clics": 13,
+     "conv": 0.0,
+     "keywords": 24,
+     "sin_impr": 16,
+     "visible": 17751.54,
+     "desperdicio": 0.0,
+     "hueco": 2393.14,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Smeta",
+     "coste": 19287.43,
+     "clics": 11,
+     "conv": 0.0,
+     "keywords": 15,
+     "sin_impr": 3,
+     "visible": 6345.13,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Biomasa",
+     "coste": 661.23,
+     "clics": 1,
+     "conv": 0.0,
+     "keywords": 12,
+     "sin_impr": 10,
+     "visible": 0.0,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": NaN
+    },
+    {
+     "camp_corta": "GMP+",
+     "coste": 0.0,
+     "clics": 0,
+     "conv": 0.0,
+     "keywords": 24,
+     "sin_impr": 24,
+     "visible": 0.0,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": NaN
+    }
+   ],
+   "gsc": {
+    "impr_ads": 6175,
+    "clics_ads": 127,
+    "queries_ads": 651,
+    "impr_hist": 41415,
+    "clics_hist": 801,
+    "pos_hist": 9.1,
+    "movil_pct": 26.4,
+    "ctr_movil": 1.0,
+    "ctr_desk": 1.6,
+    "no_comprada": [
+     {
+      "query": "aquacultura",
+      "impressions": 4451,
+      "clicks": 2,
+      "position": 6.14,
+      "norma": "MSC / ASC / BAP"
+     },
+     {
+      "query": "green key",
+      "impressions": 1424,
+      "clicks": 2,
+      "position": 7.06,
+      "norma": NaN
+     },
+     {
+      "query": "iso 9001",
+      "impressions": 1303,
+      "clicks": 0,
+      "position": 12.88,
+      "norma": "ISO 9001"
+     },
+     {
+      "query": "carbon neutral",
+      "impressions": 1172,
+      "clicks": 0,
+      "position": 4.34,
+      "norma": NaN
+     },
+     {
+      "query": "vcs",
+      "impressions": 1092,
+      "clicks": 0,
+      "position": 9.25,
+      "norma": NaN
+     },
+     {
+      "query": "sbp",
+      "impressions": 1066,
+      "clicks": 9,
+      "position": 4.72,
+      "norma": "SBP"
+     },
+     {
+      "query": "ccs",
+      "impressions": 1007,
+      "clicks": 4,
+      "position": 8.67,
+      "norma": NaN
+     },
+     {
+      "query": "gas free certification",
+      "impressions": 979,
+      "clicks": 0,
+      "position": 46.73,
+      "norma": NaN
+     }
+    ],
+    "no_comprada_n": 137,
+    "no_comprada_impr": 33012
+   }
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Norteamérica",
+   "pais": "can",
+   "nombre": "Control Union Canadá",
+   "ads": {
+    "gasto": 345924,
+    "clics": 86,
+    "conv": 2,
+    "campanas": 5,
+    "keywords": 217,
+    "sin_impr": 146,
+    "visible": 250348,
+    "desperdicio": 32182,
+    "huecos": 207501,
+    "huecos_terminos": 37,
+    "relevante": 218166,
+    "canib": 0,
+    "zona": [],
+    "cpc": 4022
+   },
+   "campanas": [
+    {
+     "camp_corta": "Forestry",
+     "coste": 199962.91,
+     "clics": 44,
+     "conv": 1.0,
+     "keywords": 53,
+     "sin_impr": 32,
+     "visible": 127133.01000000001,
+     "desperdicio": 17517.67,
+     "hueco": 98950.38,
+     "pct_fuera": 14
+    },
+    {
+     "camp_corta": "Canada Gap",
+     "coste": 78744.62,
+     "clics": 27,
+     "conv": 0.0,
+     "keywords": 45,
+     "sin_impr": 38,
+     "visible": 68289.71,
+     "desperdicio": 14664.49,
+     "hueco": 53625.22,
+     "pct_fuera": 21
+    },
+    {
+     "camp_corta": "Aqua / Fisheries",
+     "coste": 34278.57,
+     "clics": 8,
+     "conv": 0.0,
+     "keywords": 40,
+     "sin_impr": 25,
+     "visible": 34278.57,
+     "desperdicio": 0.0,
+     "hueco": 34278.57,
+     "pct_fuera": 0
+    },
+    {
+     "camp_corta": "Smeta",
+     "coste": 17237.42,
+     "clics": 4,
+     "conv": 0.0,
+     "keywords": 36,
+     "sin_impr": 22,
+     "visible": 12944.31,
+     "desperdicio": 0.0,
+     "hueco": 12944.31,
+     "pct_fuera": 0
+    },
+    {
+     "camp_corta": "GLOBALG.A.P.",
+     "coste": 15700.64,
+     "clics": 3,
+     "conv": 1.0,
+     "keywords": 43,
+     "sin_impr": 29,
+     "visible": 7702.07,
+     "desperdicio": 0.0,
+     "hueco": 7702.07,
+     "pct_fuera": 0
+    }
+   ],
+   "gsc": {
+    "impr_ads": 373,
+    "clics_ads": 13,
+    "queries_ads": 69,
+    "impr_hist": 2251,
+    "clics_hist": 79,
+    "pos_hist": 9.7,
+    "movil_pct": 35.4,
+    "ctr_movil": 0.74,
+    "ctr_desk": 1.07,
+    "no_comprada": [
+     {
+      "query": "temo",
+      "impressions": 19040,
+      "clicks": 6,
+      "position": 9.33,
+      "norma": "TEMO"
+     },
+     {
+      "query": "collateral management services",
+      "impressions": 1266,
+      "clicks": 0,
+      "position": 49.37,
+      "norma": NaN
+     },
+     {
+      "query": "fslm",
+      "impressions": 1225,
+      "clicks": 2,
+      "position": 8.69,
+      "norma": "FSLM / Higg"
+     },
+     {
+      "query": "cumcs",
+      "impressions": 1107,
+      "clicks": 5,
+      "position": 1.94,
+      "norma": "CUMCS"
+     },
+     {
+      "query": "collateral management solutions",
+      "impressions": 946,
+      "clicks": 0,
+      "position": 37.2,
+      "norma": NaN
+     },
+     {
+      "query": "what is temo",
+      "impressions": 596,
+      "clicks": 0,
+      "position": 6.24,
+      "norma": "TEMO"
+     },
+     {
+      "query": "higg fslm",
+      "impressions": 569,
+      "clicks": 0,
+      "position": 9.9,
+      "norma": "FSLM / Higg"
+     },
+     {
+      "query": "iso 22716",
+      "impressions": 545,
+      "clicks": 1,
+      "position": 39.19,
+      "norma": NaN
+     }
+    ],
+    "no_comprada_n": 43,
+    "no_comprada_impr": 29493
+   }
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Norteamérica",
+   "pais": "usa",
+   "nombre": "Control Union Estados Unidos",
+   "ads": {
+    "gasto": 107542,
+    "clics": 17,
+    "conv": 0,
+    "campanas": 2,
+    "keywords": 79,
+    "sin_impr": 69,
+    "visible": 65210,
+    "desperdicio": 33998,
+    "huecos": 7516,
+    "huecos_terminos": 1,
+    "relevante": 31212,
+    "canib": 3586,
+    "zona": [],
+    "cpc": 6326
+   },
+   "campanas": [
+    {
+     "camp_corta": "USDA NOP",
+     "coste": 107541.61,
+     "clics": 17,
+     "conv": 0.0,
+     "keywords": 51,
+     "sin_impr": 43,
+     "visible": 39268.47,
+     "desperdicio": 13046.89,
+     "hueco": 7516.04,
+     "pct_fuera": 33
+    },
+    {
+     "camp_corta": "PrimusGFS",
+     "coste": 0.0,
+     "clics": 0,
+     "conv": 0.0,
+     "keywords": 28,
+     "sin_impr": 26,
+     "visible": 25941.36,
+     "desperdicio": 20950.83,
+     "hueco": 0.0,
+     "pct_fuera": 81
+    }
+   ],
+   "gsc": {
+    "impr_ads": 2385,
+    "clics_ads": 14,
+    "queries_ads": 244,
+    "impr_hist": 13441,
+    "clics_hist": 69,
+    "pos_hist": 23.0,
+    "movil_pct": 35.4,
+    "ctr_movil": 0.74,
+    "ctr_desk": 1.07,
+    "no_comprada": [
+     {
+      "query": "temo",
+      "impressions": 19040,
+      "clicks": 6,
+      "position": 9.33,
+      "norma": "TEMO"
+     },
+     {
+      "query": "collateral management services",
+      "impressions": 1266,
+      "clicks": 0,
+      "position": 49.37,
+      "norma": NaN
+     },
+     {
+      "query": "fslm",
+      "impressions": 1225,
+      "clicks": 2,
+      "position": 8.69,
+      "norma": "FSLM / Higg"
+     },
+     {
+      "query": "cumcs",
+      "impressions": 1107,
+      "clicks": 5,
+      "position": 1.94,
+      "norma": "CUMCS"
+     },
+     {
+      "query": "collateral management solutions",
+      "impressions": 946,
+      "clicks": 0,
+      "position": 37.2,
+      "norma": NaN
+     },
+     {
+      "query": "what is temo",
+      "impressions": 596,
+      "clicks": 0,
+      "position": 6.24,
+      "norma": "TEMO"
+     },
+     {
+      "query": "higg fslm",
+      "impressions": 569,
+      "clicks": 0,
+      "position": 9.9,
+      "norma": "FSLM / Higg"
+     },
+     {
+      "query": "iso 22716",
+      "impressions": 545,
+      "clicks": 1,
+      "position": 39.19,
+      "norma": NaN
+     }
+    ],
+    "no_comprada_n": 43,
+    "no_comprada_impr": 29493
+   }
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Argentina",
+   "pais": "arg",
+   "nombre": "Control Union Argentina",
+   "ads": {
+    "gasto": 56478,
+    "clics": 23,
+    "conv": 0,
+    "campanas": 2,
+    "keywords": 39,
+    "sin_impr": 29,
+    "visible": 28750,
+    "desperdicio": 0,
+    "huecos": 8647,
+    "huecos_terminos": 4,
+    "relevante": 28750,
+    "canib": 0,
+    "zona": [],
+    "cpc": 2456
+   },
+   "campanas": [
+    {
+     "camp_corta": "ISO 27001",
+     "coste": 54244.049999999996,
+     "clics": 22,
+     "conv": 0.0,
+     "keywords": 31,
+     "sin_impr": 24,
+     "visible": 28749.56,
+     "desperdicio": 0.0,
+     "hueco": 8646.89,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Competidores ISO 27001",
+     "coste": 2234.45,
+     "clics": 1,
+     "conv": 0.0,
+     "keywords": 8,
+     "sin_impr": 5,
+     "visible": 0.0,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": NaN
+    }
+   ],
+   "gsc": {
+    "impr_ads": 8832,
+    "clics_ads": 446,
+    "queries_ads": 698,
+    "impr_hist": 64825,
+    "clics_hist": 4032,
+    "pos_hist": 6.8,
+    "movil_pct": 32.9,
+    "ctr_movil": 2.66,
+    "ctr_desk": 2.73,
+    "no_comprada": [
+     {
+      "query": "smeta",
+      "impressions": 8890,
+      "clicks": 22,
+      "position": 10.33,
+      "norma": "SMETA / Sedex"
+     },
+     {
+      "query": "visec",
+      "impressions": 8803,
+      "clicks": 85,
+      "position": 5.5,
+      "norma": "VISEC"
+     },
+     {
+      "query": "fsa",
+      "impressions": 5082,
+      "clicks": 14,
+      "position": 4.27,
+      "norma": "FSA"
+     },
+     {
+      "query": "visec carne",
+      "impressions": 4458,
+      "clicks": 30,
+      "position": 8.43,
+      "norma": "VISEC"
+     },
+     {
+      "query": "deposito fiscal",
+      "impressions": 3430,
+      "clicks": 31,
+      "position": 8.59,
+      "norma": NaN
+     },
+     {
+      "query": "fsma",
+      "impressions": 3407,
+      "clicks": 8,
+      "position": 9.86,
+      "norma": "FSMA"
+     },
+     {
+      "query": "asc",
+      "impressions": 2567,
+      "clicks": 2,
+      "position": 5.62,
+      "norma": "MSC / ASC / BAP"
+     },
+     {
+      "query": "rtrs",
+      "impressions": 2450,
+      "clicks": 6,
+      "position": 5.53,
+      "norma": "RTRS"
+     }
+    ],
+    "no_comprada_n": 313,
+    "no_comprada_impr": 101887
+   }
+  },
+  {
+   "marca": "PS",
+   "propiedad": "Américas",
+   "pais": "arg",
+   "nombre": "Peterson Solutions Argentina",
+   "ads": {
+    "gasto": 443240,
+    "clics": 588,
+    "conv": 0,
+    "campanas": 8,
+    "keywords": 253,
+    "sin_impr": 196,
+    "visible": 203682,
+    "desperdicio": 65183,
+    "huecos": 138500,
+    "huecos_terminos": 110,
+    "relevante": 138500,
+    "canib": 0,
+    "zona": [],
+    "cpc": 754
+   },
+   "campanas": [
+    {
+     "camp_corta": "Agricultura regenerativa",
+     "coste": 130477.81999999999,
+     "clics": 382,
+     "conv": 0.0,
+     "keywords": 27,
+     "sin_impr": 21,
+     "visible": 63156.38,
+     "desperdicio": 16526.46,
+     "hueco": 46629.92,
+     "pct_fuera": 26.0
+    },
+    {
+     "camp_corta": "Huella de carbono / GEI",
+     "coste": 115316.44,
+     "clics": 92,
+     "conv": 0.0,
+     "keywords": 33,
+     "sin_impr": 20,
+     "visible": 55566.99,
+     "desperdicio": 13757.419999999998,
+     "hueco": 41809.57,
+     "pct_fuera": 25.0
+    },
+    {
+     "camp_corta": "ESG / Reportes",
+     "coste": 90743.78,
+     "clics": 57,
+     "conv": 0.0,
+     "keywords": 32,
+     "sin_impr": 18,
+     "visible": 39988.7,
+     "desperdicio": 3805.5099999999998,
+     "hueco": 36183.19,
+     "pct_fuera": 10.0
+    },
+    {
+     "camp_corta": "Bioenergia / Biocombustibles",
+     "coste": 57184.03,
+     "clics": 35,
+     "conv": 0.0,
+     "keywords": 32,
+     "sin_impr": 29,
+     "visible": 28824.63,
+     "desperdicio": 18775.96,
+     "hueco": 10048.67,
+     "pct_fuera": 65.0
+    },
+    {
+     "camp_corta": "Huella de agua",
+     "coste": 35439.090000000004,
+     "clics": 14,
+     "conv": 0.0,
+     "keywords": 29,
+     "sin_impr": 25,
+     "visible": 12317.58,
+     "desperdicio": 12317.580000000002,
+     "hueco": 0.0,
+     "pct_fuera": 100.0
+    },
+    {
+     "camp_corta": "Trazabilidad / EUDR",
+     "coste": 8315.83,
+     "clics": 3,
+     "conv": 0.0,
+     "keywords": 29,
+     "sin_impr": 21,
+     "visible": 3826.84,
+     "desperdicio": 0.0,
+     "hueco": 3826.84,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "Abastecimiento sostenible",
+     "coste": 5762.95,
+     "clics": 5,
+     "conv": 0.0,
+     "keywords": 32,
+     "sin_impr": 25,
+     "visible": 1.31,
+     "desperdicio": 0.0,
+     "hueco": 1.31,
+     "pct_fuera": 0.0
+    },
+    {
+     "camp_corta": "CeSu - Preparacion para certificaciones",
+     "coste": 0.0,
+     "clics": 0,
+     "conv": 0.0,
+     "keywords": 39,
+     "sin_impr": 37,
+     "visible": 0.0,
+     "desperdicio": 0.0,
+     "hueco": 0.0,
+     "pct_fuera": NaN
+    }
+   ],
+   "gsc": {
+    "impr_ads": 294,
+    "clics_ads": 2,
+    "queries_ads": 32,
+    "impr_hist": 2065,
+    "clics_hist": 21,
+    "pos_hist": 9.4,
+    "movil_pct": 20.7,
+    "ctr_movil": 1.64,
+    "ctr_desk": 1.31,
+    "no_comprada": [
+     {
+      "query": "red iii",
+      "impressions": 1611,
+      "clicks": 4,
+      "position": 11.2,
+      "norma": "RED II/III"
+     },
+     {
+      "query": "eu red iii",
+      "impressions": 486,
+      "clicks": 2,
+      "position": 8.45,
+      "norma": "RED II/III"
+     },
+     {
+      "query": "red iii directive",
+      "impressions": 280,
+      "clicks": 1,
+      "position": 11.16,
+      "norma": "RED II/III"
+     },
+     {
+      "query": "red iii eu",
+      "impressions": 152,
+      "clicks": 0,
+      "position": 8.38,
+      "norma": "RED II/III"
+     },
+     {
+      "query": "renewable energy directive iii",
+      "impressions": 146,
+      "clicks": 0,
+      "position": 13.64,
+      "norma": NaN
+     },
+     {
+      "query": "renewable energy directive (red iii)",
+      "impressions": 116,
+      "clicks": 0,
+      "position": 9.59,
+      "norma": "RED II/III"
+     },
+     {
+      "query": "rediii",
+      "impressions": 108,
+      "clicks": 0,
+      "position": 10.07,
+      "norma": NaN
+     },
+     {
+      "query": "red iii europe",
+      "impressions": 101,
+      "clicks": 1,
+      "position": 8.49,
+      "norma": "RED II/III"
+     }
+    ],
+    "no_comprada_n": 29,
+    "no_comprada_impr": 4205
+   }
+  }
+ ],
+ "sin_campana": [
+  {
+   "marca": "CU",
+   "propiedad": "Perú",
+   "impr": 792461,
+   "clics": 10773,
+   "impr_ads": 112434,
+   "clics_ads": 1721,
+   "pos": 8.6,
+   "movil_pct": 25.9,
+   "top": [
+    {
+     "query": "koa certification",
+     "impressions": 26177,
+     "clicks": 0,
+     "position": 6.8,
+     "norma": NaN
+    },
+    {
+     "query": "haccp",
+     "impressions": 15416,
+     "clicks": 31,
+     "position": 8.06,
+     "norma": NaN
+    },
+    {
+     "query": "rainforest alliance",
+     "impressions": 10896,
+     "clicks": 32,
+     "position": 3.43,
+     "norma": "Rainforest Alliance"
+    },
+    {
+     "query": "asc",
+     "impressions": 8588,
+     "clicks": 24,
+     "position": 6.9,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "rain forest",
+     "impressions": 6624,
+     "clicks": 0,
+     "position": 1.02,
+     "norma": NaN
+    },
+    {
+     "query": "ras",
+     "impressions": 6374,
+     "clicks": 8,
+     "position": 5.94,
+     "norma": NaN
+    }
+   ],
+   "no_comprada_n": 673,
+   "no_comprada_impr": 246502
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Brasil",
+   "impr": 141775,
+   "clics": 3710,
+   "impr_ads": 31492,
+   "clics_ads": 847,
+   "pos": 13.0,
+   "movil_pct": 34.8,
+   "top": [
+    {
+     "query": "obp",
+     "impressions": 4647,
+     "clicks": 1,
+     "position": 6.82,
+     "norma": NaN
+    },
+    {
+     "query": "grs",
+     "impressions": 4104,
+     "clicks": 3,
+     "position": 5.03,
+     "norma": "GRS"
+    },
+    {
+     "query": "gmp",
+     "impressions": 3722,
+     "clicks": 3,
+     "position": 10.71,
+     "norma": "GMP+"
+    },
+    {
+     "query": "smeta",
+     "impressions": 2306,
+     "clicks": 4,
+     "position": 8.35,
+     "norma": "SMETA / Sedex"
+    },
+    {
+     "query": "gmp+",
+     "impressions": 1924,
+     "clicks": 12,
+     "position": 8.63,
+     "norma": "GMP+"
+    },
+    {
+     "query": "rspo",
+     "impressions": 1870,
+     "clicks": 2,
+     "position": 6.37,
+     "norma": "RSPO"
+    }
+   ],
+   "no_comprada_n": 205,
+   "no_comprada_impr": 57111
+  },
+  {
+   "marca": "CU",
+   "propiedad": "México",
+   "impr": 244056,
+   "clics": 3100,
+   "impr_ads": 27692,
+   "clics_ads": 358,
+   "pos": 14.7,
+   "movil_pct": 41.1,
+   "top": [
+    {
+     "query": "grs",
+     "impressions": 22617,
+     "clicks": 24,
+     "position": 7.51,
+     "norma": "GRS"
+    },
+    {
+     "query": "fsa",
+     "impressions": 6624,
+     "clicks": 8,
+     "position": 6.39,
+     "norma": "FSA"
+    },
+    {
+     "query": "fsc",
+     "impressions": 5433,
+     "clicks": 5,
+     "position": 8.61,
+     "norma": "FSC"
+    },
+    {
+     "query": "smeta",
+     "impressions": 5202,
+     "clicks": 8,
+     "position": 9.71,
+     "norma": "SMETA / Sedex"
+    },
+    {
+     "query": "ocs",
+     "impressions": 4341,
+     "clicks": 0,
+     "position": 4.13,
+     "norma": NaN
+    },
+    {
+     "query": "fair trade",
+     "impressions": 3374,
+     "clicks": 5,
+     "position": 9.03,
+     "norma": NaN
+    }
+   ],
+   "no_comprada_n": 311,
+   "no_comprada_impr": 117418
+  },
+  {
+   "marca": "CU",
+   "propiedad": "Chile",
+   "impr": 77192,
+   "clics": 1195,
+   "impr_ads": 13633,
+   "clics_ads": 196,
+   "pos": 13.5,
+   "movil_pct": 31.3,
+   "top": [
+    {
+     "query": "bap",
+     "impressions": 2631,
+     "clicks": 22,
+     "position": 6.63,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "grs",
+     "impressions": 1891,
+     "clicks": 2,
+     "position": 6.64,
+     "norma": "GRS"
+    },
+    {
+     "query": "asc",
+     "impressions": 1660,
+     "clicks": 6,
+     "position": 7.93,
+     "norma": "MSC / ASC / BAP"
+    },
+    {
+     "query": "control de calidad en frutas",
+     "impressions": 1568,
+     "clicks": 2,
+     "position": 26.22,
+     "norma": NaN
+    },
+    {
+     "query": "brcgs",
+     "impressions": 1493,
+     "clicks": 1,
+     "position": 12.55,
+     "norma": "BRCGS"
+    },
+    {
+     "query": "grasp",
+     "impressions": 1377,
+     "clicks": 21,
+     "position": 6.12,
+     "norma": "GLOBALG.A.P."
+    }
+   ],
+   "no_comprada_n": 107,
+   "no_comprada_impr": 27621
+  },
+  {
+   "marca": "PS",
+   "propiedad": "Iberia",
+   "impr": 25834,
+   "clics": 706,
+   "impr_ads": 8442,
+   "clics_ads": 162,
+   "pos": 13.2,
+   "movil_pct": 25.0,
+   "top": [
+    {
+     "query": "csrd",
+     "impressions": 1456,
+     "clicks": 0,
+     "position": 21.49,
+     "norma": "CSRD"
+    },
+    {
+     "query": "finanzas sostenibles",
+     "impressions": 269,
+     "clicks": 0,
+     "position": 25.41,
+     "norma": NaN
+    },
+    {
+     "query": "ecgt",
+     "impressions": 239,
+     "clicks": 2,
+     "position": 3.87,
+     "norma": NaN
+    },
+    {
+     "query": "cbam services",
+     "impressions": 238,
+     "clicks": 0,
+     "position": 28.56,
+     "norma": "CBAM"
+    },
+    {
+     "query": "reportes de sostenibilidad",
+     "impressions": 219,
+     "clicks": 0,
+     "position": 23.85,
+     "norma": NaN
+    },
+    {
+     "query": "csrd sostenibilidad",
+     "impressions": 183,
+     "clicks": 0,
+     "position": 31.19,
+     "norma": "CSRD"
+    }
+   ],
+   "no_comprada_n": 28,
+   "no_comprada_impr": 4363
+  }
+ ],
+ "ads_total": 1709122,
+ "ads_clics": 1047,
+ "ads_conv": 4
+}

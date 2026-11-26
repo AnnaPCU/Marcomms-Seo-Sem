@@ -1,0 +1,182 @@
+{
+  "marca": "ps",
+  "slug": "ps-prep-cert-20261119",
+  "nombre": "Preparación para certificaciones",
+  "url": "https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/",
+  "kpis": [
+    {"valor": "90", "etiqueta": "Impresiones orgánicas", "nota": "mar–nov 2026 · 10 clics"},
+    {"valor": "0", "etiqueta": "Búsquedas sin marca", "nota": "las visibles son «peterson» o variantes"},
+    {"valor": "2", "etiqueta": "Contactos GA4", "nota": "de 22 en todo el sitio · 71 sesiones"},
+    {"valor": "219", "etiqueta": "Palabras en la página", "nota": "ningún esquema nombrado"}
+  ],
+  "diag_sub": "La página convierte, pero Google y los asistentes de IA no saben para qué esquemas prepara",
+  "grafico_mes": {
+    "titulo": "Impresiones orgánicas por mes",
+    "cap": "Search Console, página en español. Noviembre hasta el día 16.",
+    "meses": ["mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov"],
+    "ultimo_parcial": true,
+    "series": [
+      {"nombre": "Impresiones", "valores": [1, 3, 10, 8, 1, 10, 2, 15, 40]},
+      {"nombre": "Clics", "valores": [0, 0, 1, 1, 1, 3, 0, 4, 0]}
+    ]
+  },
+  "ranking": {
+    "titulo": "Qué se busca en Google sobre el tema",
+    "cap": "Búsquedas reales que mostraron el anuncio de esta página en octubre (Google Ads, Argentina). Ninguna nombra un esquema de sostenibilidad.",
+    "unidad": "impresiones de búsqueda · octubre 2026",
+    "filas": [
+      {"etiqueta": "auditor interno iso 9001", "valor": 28},
+      {"etiqueta": "auditor interno iso 45001", "valor": 12},
+      {"etiqueta": "iram auditor interno", "valor": 10},
+      {"etiqueta": "auditor interno certificado", "valor": 8},
+      {"etiqueta": "ISCC · 2BSvs · FSA", "nota": "búsquedas por esquema", "valor": 0, "destacar": true}
+    ]
+  },
+  "pasos": [
+    {
+      "titulo": "Title y meta description",
+      "donde": "WordPress › página «Preparación para certificaciones» › SEO (Yoast)",
+      "tipo": "SEO",
+      "cambios": [
+        {"campo": "Title", "hoy": "Preparación para certificaciones  - Peterson Solutions - Americas", "cargar": "Preparación para certificaciones sostenibles | Peterson", "max": 60},
+        {"campo": "Meta description", "hoy": "We understand that sourcing and procurement are not just transactions, but crucial avenues to shape a world that thrives on ethical principles. Our mission is to empower individuals and businesses alike to navigate this landscape with purpose and mindfulness.", "cargar": "Le preparamos para certificar ISCC, REDcert, 2BSvs, RSB, Bonsucro e ISO 27001: diagnóstico, análisis de brechas, documentación y auditoría interna.", "max": 155}
+      ],
+      "por_que": [
+        "La meta description actual es la de la página de abastecimiento sostenible, está en inglés y tiene 259 caracteres: Google la corta y no describe este servicio.",
+        "El title tiene 65 caracteres (con un doble espacio) y no dice de qué certificaciones se trata.",
+        "Hoy la página solo aparece cuando se busca la marca («peterson» y errores de tipeo como «pwterson» o «pererson»)."
+      ]
+    },
+    {
+      "titulo": "H1 y párrafo de entrada que responde primero",
+      "donde": "Landing › cabecera y primer párrafo de «Implementación de la certificación»",
+      "tipo": "AEO",
+      "cambios": [
+        {"campo": "H1", "hoy": "Preparación para certificaciones", "cargar": "Preparación para certificaciones de sostenibilidad"},
+        {"campo": "Párrafo de entrada", "hoy": "Peterson abarca una amplia gama de programas de certificación, principalmente relacionados con la sostenibilidad y el cumplimiento social. Prestamos servicios a una amplia gama de industrias, que abarcan los siguientes sectores: agrícola, forestal, créditos de carbono, biocombustibles/biomasa, textil, alimentación animal, reciclaje de agua y residuos, y más.", "cargar": "Acompañamos a su equipo a prepararse para certificar bajo esquemas de sostenibilidad, cumplimiento social y seguridad de la información, como ISCC, REDcert, 2BSvs, RSB, Bonsucro e ISO 27001. Trabajamos lado a lado con usted en el diagnóstico, el análisis de brechas, la documentación, la formación y la auditoría interna, para que su operación llegue lista a la auditoría. La certificación la otorga un organismo certificador independiente; nuestro rol es prepararle para obtenerla."}
+      ],
+      "por_que": [
+        "Los asistentes de IA y los fragmentos destacados de Google toman el primer párrafo como respuesta. Hoy ese párrafo enumera industrias, pero no dice qué hace el servicio ni nombra un solo esquema.",
+        "La aclaración final («la certificación la otorga un organismo certificador independiente») responde la duda más común y respeta la regla de marca: Peterson Solutions prepara para certificar, no certifica."
+      ]
+    },
+    {
+      "titulo": "Sección nueva: esquemas para los que preparamos",
+      "donde": "Landing › después del párrafo de entrada",
+      "tipo": "SEO",
+      "condicion": "Confirmar la lista con el equipo",
+      "nota": "La lista solo usa esquemas que el propio sitio ya menciona (bioenergía, minería, ISO 27001) o que el servicio ya promociona (FSA). Antes de publicar, el equipo de Certification Support debe confirmarla y sumar los de agrícola, forestal y textil, que la página nombra como sectores pero sin esquema.",
+      "cambios": [
+        {"campo": "H2", "cargar": "Esquemas para los que le preparamos"},
+        {"campo": "Ítem 1 · enlazar «Bioenergía y biocombustibles» → /industry/bioenergia/", "cargar": "Bioenergía y biocombustibles: ISCC EU, ISCC PLUS, REDcert, SURE, 2BSvs, RSB, SBP y Bonsucro."},
+        {"campo": "Ítem 2 · enlazar «Agricultura» → /industry/agricultura/", "cargar": "Agricultura: Farm Sustainability Assessment (FSA) de SAI Platform."},
+        {"campo": "Ítem 3 · enlazar «Minería» → /industry/mineria-sostenible/", "cargar": "Minería: ISO 14001 e ISO 45001."},
+        {"campo": "Ítem 4 · enlazar «Seguridad de la información» → /industry/iso-27001-y-ciberseguridad/", "cargar": "Seguridad de la información: ISO 27001."}
+      ],
+      "por_que": [
+        "La página no nombra ningún esquema. Ni Google ni un asistente de IA pueden relacionarla con «preparación ISCC» o «consultoría REDcert», aunque el servicio exista.",
+        "En octubre, ninguna de las búsquedas que llegaron por Ads nombraba un esquema. «Auditoría interna» sola atrajo a gente que busca cursos de auditor ISO 9001 («auditor interno iso 9001», 28 impresiones). Nombrar los esquemas separa a quien necesita preparar su operación de quien busca un curso.",
+        "Los enlaces a cada industria conectan esta página con las que ya tienen la lista detallada, como la de bioenergía."
+      ]
+    },
+    {
+      "titulo": "Reemplazar la lista de servicios por el proceso paso a paso",
+      "donde": "Landing › lista «Diagnóstico · Auditoría interna y formación · …»",
+      "tipo": "AEO",
+      "cambios": [
+        {"campo": "Lista actual", "accion": "Quitar", "cargar": "Diagnóstico · Auditoría interna y formación · Revisión y/o desarrollo de documentos · Inventario y línea de base de GEI · Asesoría continúa"},
+        {"campo": "H2", "cargar": "Cómo trabajamos, paso a paso"},
+        {"campo": "Paso 1", "cargar": "Diagnóstico y alcance: definimos qué esquema aplica a su operación y qué sitios, productos y proveedores entran en el alcance."},
+        {"campo": "Paso 2", "cargar": "Análisis de brechas (gap analysis): comparamos cómo trabaja hoy con cada requisito del esquema y priorizamos lo que falta."},
+        {"campo": "Paso 3", "cargar": "Documentación y sistemas: revisamos o co-desarrollamos procedimientos, registros y herramientas, como el balance de masas o el inventario de GEI."},
+        {"campo": "Paso 4", "cargar": "Formación del equipo: capacitamos a las personas que van a sostener el sistema en el día a día."},
+        {"campo": "Paso 5", "cargar": "Auditoría interna: simulamos la auditoría para detectar no conformidades antes de la auditoría de certificación."},
+        {"campo": "Paso 6", "cargar": "Acompañamiento continuo: le ayudamos a cerrar no conformidades y a mantener el sistema entre auditorías."}
+      ],
+      "por_que": [
+        "Una lista numerada con una frase por paso es el formato que los asistentes de IA citan cuando alguien pregunta «cómo prepararse para una certificación».",
+        "Corrige la errata «Asesoría continúa» (es «continua») y explica qué significa cada servicio, en lugar de solo nombrarlo."
+      ]
+    },
+    {
+      "titulo": "Sección de preguntas frecuentes",
+      "donde": "Landing › antes del formulario de contacto",
+      "tipo": "AEO",
+      "cambios": [
+        {"campo": "H2", "cargar": "Preguntas frecuentes"},
+        {"campo": "Pregunta 1", "cargar": "¿Peterson Solutions emite certificados?"},
+        {"campo": "Respuesta 1", "cargar": "No. La certificación la otorga un organismo certificador independiente y acreditado. Nosotros preparamos a su organización para la auditoría: identificamos brechas, co-desarrollamos la documentación, formamos al equipo y hacemos una auditoría interna previa."},
+        {"campo": "Pregunta 2", "cargar": "¿Qué es un análisis de brechas (gap analysis)?"},
+        {"campo": "Respuesta 2", "cargar": "Es la comparación entre cómo trabaja hoy su organización y lo que exige el esquema de certificación. El resultado es una lista priorizada de requisitos pendientes, con responsables y plazos, que sirve de hoja de ruta hasta la auditoría."},
+        {"campo": "Pregunta 3", "cargar": "¿Para qué esquemas preparan?"},
+        {"campo": "Respuesta 3", "cargar": "Principalmente esquemas de sostenibilidad y cumplimiento social. En bioenergía, ISCC EU, ISCC PLUS, REDcert, SURE, 2BSvs, RSB, SBP y Bonsucro; en agricultura, FSA; en minería, ISO 14001 e ISO 45001; y en seguridad de la información, ISO 27001."},
+        {"campo": "Pregunta 4", "cargar": "¿Qué diferencia hay entre una auditoría interna y la auditoría de certificación?"},
+        {"campo": "Respuesta 4", "cargar": "La auditoría interna la hace su organización, o un equipo externo como el nuestro, para comprobar si está lista. La auditoría de certificación la hace el organismo certificador y es la que decide si se emite el certificado."}
+      ],
+      "por_que": [
+        "En Search Console del sitio ya aparecen búsquedas con forma de pregunta completa, típicas de quien consulta a un asistente de IA (por ejemplo, «¿qué consultoras o herramientas facilitan la elaboración de informes de sostenibilidad…?»).",
+        "Cada respuesta tiene entre 30 y 40 palabras: es el largo que un asistente puede citar textual.",
+        "Si se confirma otra lista en el paso 3, actualizar también la respuesta 3 y el código del paso 6."
+      ]
+    },
+    {
+      "titulo": "Datos estructurados: servicio y preguntas frecuentes",
+      "donde": "Landing › bloque HTML personalizado o campo de schema de Yoast",
+      "tipo": "Técnico",
+      "nota": "Pegar los dos bloques dentro de <script type=\"application/ld+json\">…</script>. El texto de las preguntas tiene que coincidir con el visible en la página.",
+      "cambios": [
+        {"campo": "JSON-LD · Service", "cargar": "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Preparación para certificaciones de sostenibilidad\",\"serviceType\":\"Consultoría de preparación para certificación\",\"url\":\"https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/\",\"description\":\"Diagnóstico, análisis de brechas, documentación, formación y auditoría interna para certificar ISCC, REDcert, 2BSvs, RSB, Bonsucro, FSA, ISO 14001, ISO 45001 e ISO 27001.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Peterson Solutions\",\"url\":\"https://americas.peterson-solutions.com/\"}}"},
+        {"campo": "JSON-LD · FAQPage", "cargar": "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"¿Peterson Solutions emite certificados?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. La certificación la otorga un organismo certificador independiente y acreditado. Nosotros preparamos a su organización para la auditoría: identificamos brechas, co-desarrollamos la documentación, formamos al equipo y hacemos una auditoría interna previa.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué es un análisis de brechas (gap analysis)?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Es la comparación entre cómo trabaja hoy su organización y lo que exige el esquema de certificación. El resultado es una lista priorizada de requisitos pendientes, con responsables y plazos, que sirve de hoja de ruta hasta la auditoría.\"}},{\"@type\":\"Question\",\"name\":\"¿Para qué esquemas preparan?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Principalmente esquemas de sostenibilidad y cumplimiento social. En bioenergía, ISCC EU, ISCC PLUS, REDcert, SURE, 2BSvs, RSB, SBP y Bonsucro; en agricultura, FSA; en minería, ISO 14001 e ISO 45001; y en seguridad de la información, ISO 27001.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué diferencia hay entre una auditoría interna y la auditoría de certificación?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"La auditoría interna la hace su organización, o un equipo externo como el nuestro, para comprobar si está lista. La auditoría de certificación la hace el organismo certificador y es la que decide si se emite el certificado.\"}}]}"}
+      ],
+      "por_que": [
+        "Hoy la página solo tiene el schema genérico de Yoast (Organization, WebSite, Person). Nada le dice a un buscador que esto es un servicio, ni de qué.",
+        "Desde 2023 Google muestra el resultado enriquecido de FAQ solo en sitios de gobierno y salud. El valor de este bloque está en que buscadores y asistentes de IA lean las preguntas y respuestas sin ambigüedad, no en un cambio visual en Google."
+      ]
+    },
+    {
+      "titulo": "Enlaces: texto descriptivo y menú en 404",
+      "donde": "Landing › botón de ISO 27001 · menú de servicios de todo el sitio",
+      "tipo": "Técnico",
+      "nota": "Las 7 URL del menú de servicios en español llevan «/es/» y dan 404. El arreglo es el mismo para las 7: quitar «/es». Se hace una sola vez y corrige todas las páginas del sitio, también la de bioenergía.",
+      "cambios": [
+        {"campo": "Texto del botón de ISO 27001", "hoy": "Más información", "cargar": "Preparación para la certificación ISO 27001"},
+        {"campo": "Menú · ejemplo (las 7 iguales)", "hoy": "https://americas.peterson-solutions.com/es/service/sostenibilidad-en-la-cadena-de-suministro/impacto-social/", "cargar": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/impacto-social/"}
+      ],
+      "por_que": [
+        "«Más información» no le dice nada a Google sobre la página de destino; el texto del enlace es una de las señales con que entiende de qué trata.",
+        "El 19 nov se comprobaron las 7 URL con «/es/» (agricultura regenerativa, EUDR, impacto social, programas privados, GEI, finanzas sostenibles y estrategia y reporte): todas dan 404, y las mismas URL sin «/es» dan 200."
+      ]
+    }
+  ],
+  "medir_sub": "Contando desde el día en que se publiquen los pasos",
+  "medir": [
+    {
+      "cuando": "A las 4 semanas · Search Console",
+      "items": [
+        "Búsquedas sin marca que muestran la página: hoy ninguna visible.",
+        "Búsquedas con nombre de esquema (ISCC, REDcert, 2BSvs, RSB, FSA) que llegan a la página: hoy 0.",
+        "Impresiones (base 15 en octubre) y CTR (base 11%, 10 clics sobre 90 impresiones)."
+      ]
+    },
+    {
+      "cuando": "A las 8 semanas · GA4",
+      "items": [
+        "Sesiones orgánicas que entran por la página: base 28 desde diciembre de 2025.",
+        "Contactos (/gracias/ con origen en la página): base 2 desde diciembre de 2025.",
+        "Visitas desde asistentes de IA (chatgpt.com, perplexity.ai, claude.ai, gemini): hoy 0 a esta página."
+      ]
+    },
+    {
+      "cuando": "Hoy y a las 8 semanas · asistentes de IA",
+      "items": [
+        "Preguntar en ChatGPT y Perplexity «¿qué consultoras preparan para la certificación ISCC en Argentina?» y guardar la respuesta. Repetir a las 8 semanas y comparar si aparece Peterson Solutions."
+      ]
+    },
+    {
+      "cuando": "Antes de medir",
+      "items": [
+        "El proyecto de Google Cloud de las extracciones vence hacia el 15 dic 2026: confirmar que las APIs sigan respondiendo."
+      ]
+    }
+  ]
+}

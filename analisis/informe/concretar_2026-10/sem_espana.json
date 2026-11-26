@@ -1,0 +1,4182 @@
+{
+ "tarjetas": [
+  {
+   "clave": "CU:SEM:plan:espana:textile-paga-oeko-tex-y-forestal-compra-sostenibilidad",
+   "marca": "CU",
+   "campana": "CU España - Textile - Search",
+   "grupo": "GOTS",
+   "titulo": "CU España - Textile: negativizar OEKO-TEX (ARS 8.874), pausar 2 amplias que traen ropa y corregir los anuncios de GOTS y GRS",
+   "detalle": "OEKO-TEX sigue sin ser negativa y costó ARS 8.874 (7 clics) del 1 sep al 20 oct; el sitio no tiene ni una búsqueda orgánica de OEKO-TEX. Dos keywords amplias del grupo GOTS traen consumidores de ropa y OEKO-TEX: se pausan. Los anuncios de GOTS y GRS dicen «Prepara Tu Auditoría» y «Control Union acompaña…», que es vocabulario de Peterson. La parte de Forestal de esta tarjeta vieja va en la tarjeta de CU España - Forestal.",
+   "prioridad": "alta",
+   "unifica": [
+    "CU:SEM:anuncio:cu-espana-textile:gots",
+    "CU:SEM:anuncio:cu-espana-textile:grs"
+   ],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "España",
+    "campana": "CU España - Textile - Search",
+    "acciones": [
+     "negativas",
+     "pausa",
+     "keywords",
+     "anuncio",
+     "revisar"
+    ],
+    "resumen": "Dejar de pagar OEKO-TEX y ropa, y que los anuncios de GOTS y GRS hablen como certificador.",
+    "por_que": "1 sep – 20 oct 2026: 88 clics y ARS 111.061, sin conversiones (presupuesto ARS 2.268 por día). OEKO-TEX: 234 impresiones, 7 clics, ARS 8.874; en Search Console (3 mar – 14 sep 2026) no hay ni una búsqueda con «oeko» en espana.controlunion.com, lo que confirma lo decidido en septiembre. «ropa certificado gots» (nivel de calidad 3, ARS 10.374) y «global organic textile standard gots» (ARS 10.485) son amplias que traen consumidores, OEKO-TEX e «industria textil». El anuncio de GOTS tiene fuerza «pobre» (55 clics, ARS 66.183).",
+    "ya_hecho": "Nada: anuncios, keywords y negativas de la campaña son idénticos en las estructuras del 25 sep y del 21 oct. Corrección a septiembre: «organic cotton standard» NO va a negativa; OCS (Organic Content Standard) tiene página propia en el sitio y 1.434 impresiones orgánicas desde España.",
+    "pasos": [
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 9 negativas de campaña (OEKO-TEX, definiciones y compra de ropa)",
+      "donde": "CU España - Textile - Search › toda la campaña",
+      "detalle": "OEKO-TEX es el desvío más caro: Control Union no lo certifica y el sitio no tiene ni una búsqueda orgánica con «oeko». Las negativas no cubren variantes escritas distinto: por eso van «oeko», «oekotex» y «ecotex» por separado.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "oeko",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "OEKO-TEX: 234 impresiones, 7 clics y ARS 8.874 en el período («oeko tex» ARS 4.378, «oeko tex standard 100» ARS 2.826, «www oeko tex com standard 100» ARS 1.128, «gots oeko tex» ARS 542). Cero búsquedas orgánicas con «oeko» en espana.controlunion.com: no hay servicio.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "oekotex",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«oekotex» (6 impresiones) y «certificado oekotex» (1): escrito junto, «oeko» no lo cubre.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ecotex",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«ecotex standard 100» (1 impresión): misma norma mal escrita.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que es",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«que es grs» (16 impresiones, 1 clic, ARS 1.280), «que es gots» (6), «gots que es» (3): buscan la definición. Sin tilde porque la negativa no cubre la variante.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que significa",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«que significa gots»: definición.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "significado",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«certificado gots significado» (4 impresiones) y «gots significado» (2).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "camisetas",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«camisetas gots»: 1 clic, ARS 1.527. Es alguien comprando ropa, no una marca que certifica.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "lenzing",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«lenzing ecovero» y «que es lenzing ecovero» (3 impresiones): fibra de marca, no es una norma que certifiquemos.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "en español",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«gots en español» (4 impresiones) y «global recycled standard en español»: buscan el texto de la norma traducido (en orgánico, «gots en español» tiene 78 impresiones: la página ya lo recibe gratis).",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "pausa",
+      "titulo": "Pausar 2 keywords amplias del grupo «GOTS» y sumar 1 exacta",
+      "donde": "CU España - Textile - Search › grupo «GOTS»",
+      "detalle": "Las dos amplias traen OEKO-TEX, ropa y «industria textil». El grupo sigue cubierto por «gots certificado» (amplia, la que más vende), «global organic textile standard» (exacta y frase) y las exactas de certificación.",
+      "items": [
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "ropa certificado gots",
+        "concordancia": "amplia",
+        "destino": "Grupo «GOTS»",
+        "motivo": "Nivel de calidad 3. 104 impresiones, 8 clics y ARS 10.374: sus términos son «ropa gots» (2 clics, ARS 1.927), «ropa certificado gots» (ARS 1.998), «camisetas gots» (ARS 1.527), «oeko tex standard 100» (ARS 1.609) y «biomateriales textiles» (ARS 784). Es intención de consumidor.",
+        "prioritario": true
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "global organic textile standard gots",
+        "concordancia": "amplia",
+        "destino": "Grupo «GOTS»",
+        "motivo": "150 impresiones, 8 clics y ARS 10.485. Sus términos visibles: «oeko tex standard 100» (ARS 1.217), «www oeko tex com standard 100» (ARS 1.128), «industria textil», «lenzing ecovero», «paquete ómnibus 2026». La misma frase ya está en exacta y en frase («global organic textile standard»).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificado gots",
+        "concordancia": "exacta",
+        "destino": "Grupo «GOTS»",
+        "motivo": "«certificado gots» tuvo 49 impresiones y 0 clics entrando por tres keywords distintas; en septiembre fue el término más caro del grupo (ARS 10.604). La exacta la deja controlada aunque se ajuste «gots certificado» (amplia).",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "keywords",
+      "titulo": "Sumar 1 exacta al grupo «GRS»",
+      "donde": "CU España - Textile - Search › grupo «GRS»",
+      "detalle": "Textile Exchange es el dueño de GRS y así lo buscan.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "grs textile exchange",
+        "concordancia": "exacta",
+        "destino": "Grupo «GRS»",
+        "motivo": "2 clics y ARS 4.333 entrando por amplias («global recycled standard» y «certificado grs»). La exacta asegura que vea el anuncio con el título «GRS de Textile Exchange».",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Corregir el anuncio de GOTS",
+      "donde": "CU España - Textile - Search › grupo «GOTS» · anuncio id 817970230796",
+      "detalle": "Fuerza «pobre», 55 clics y ARS 66.183. Tiene vocabulario de Peterson («Prepara Tu Auditoría», «Control Union acompaña…»). Queda con 12 títulos y 4 descripciones.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Certificamos GOTS",
+        "destino": "Anuncio id 817970230796 · grupo «GOTS»",
+        "reemplaza": "Prepara Tu Auditoría",
+        "prioritario": true,
+        "motivo": "El verbo de Control Union. «Prepara tu auditoría» es servicio de Peterson (preparar para certificar), no de un certificador."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificado GOTS",
+        "destino": "Anuncio id 817970230796 · grupo «GOTS»",
+        "prioritario": true,
+        "motivo": "«gots certificado» (amplia) es la keyword con más gasto de la campaña: 508 impresiones, ARS 35.542; «certificado gots» 49 impresiones."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Organismo Certificador Textil",
+        "destino": "Anuncio id 817970230796 · grupo «GOTS»",
+        "reemplaza": "Auditoría Independiente",
+        "opcional": true,
+        "motivo": "Dice qué es Control Union; «Auditoría Independiente» es genérico."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Auditoría GOTS en España",
+        "destino": "Anuncio id 817970230796 · grupo «GOTS»",
+        "opcional": true,
+        "motivo": "Norma más país."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union España",
+        "destino": "Anuncio id 817970230796 · grupo «GOTS»",
+        "opcional": true,
+        "motivo": "Marca."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Solicita Tu Certificación GOTS",
+        "destino": "Anuncio id 817970230796 · grupo «GOTS»",
+        "opcional": true,
+        "motivo": "Llamado a la acción con la norma."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos GOTS: textiles orgánicos con trazabilidad desde la fibra hasta la prenda.",
+        "destino": "Anuncio id 817970230796 · grupo «GOTS»",
+        "reemplaza": "Control Union acompaña marcas, fabricantes y proveedores textiles.",
+        "prioritario": true,
+        "motivo": "«Acompaña» es vocabulario de Peterson; Control Union certifica."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Corregir el anuncio de GRS",
+      "donde": "CU España - Textile - Search › grupo «GRS» · anuncio id 817970230793",
+      "detalle": "Fuerza «media», 32 clics y ARS 43.562. Mismo problema de vocabulario y un título en minúsculas copiado de la keyword. Queda con 11 títulos y 4 descripciones.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "GRS de Textile Exchange",
+        "destino": "Anuncio id 817970230793 · grupo «GRS»",
+        "reemplaza": "grs textile certification",
+        "prioritario": true,
+        "motivo": "«grs textile exchange»: 2 clics y ARS 4.333. «grs textile certification» es la keyword pegada en minúsculas y como keyword no tuvo ni un clic (12 impresiones)."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Certificamos GRS y RCS",
+        "destino": "Anuncio id 817970230793 · grupo «GRS»",
+        "reemplaza": "Prepara Tu Auditoría",
+        "prioritario": true,
+        "motivo": "Verbo de Control Union. RCS tiene página propia (rcs-100-recycled-claim-standard) y «recycled claim standard» costó ARS 1.344 en este grupo."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificado GRS",
+        "destino": "Anuncio id 817970230793 · grupo «GRS»",
+        "opcional": true,
+        "motivo": "«certificado grs» (amplia): 254 impresiones, 15 clics, ARS 18.132; en orgánico 126 impresiones, posición 13,5."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Auditoría GRS en España",
+        "destino": "Anuncio id 817970230793 · grupo «GRS»",
+        "opcional": true,
+        "motivo": "Norma más país."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union España",
+        "destino": "Anuncio id 817970230793 · grupo «GRS»",
+        "opcional": true,
+        "motivo": "Marca."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos GRS y RCS, los estándares de contenido reciclado de Textile Exchange.",
+        "destino": "Anuncio id 817970230793 · grupo «GRS»",
+        "reemplaza": "Control Union acompaña marcas, fabricantes y proveedores textiles.",
+        "prioritario": true,
+        "motivo": "Reemplaza el «acompaña» de consultora y nombra a Textile Exchange."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Corregir 2 descripciones del anuncio de Higg FEM",
+      "donde": "CU España - Textile - Search › grupo «Higg FEM» · anuncio id 817970230790",
+      "detalle": "Casi no gira (16 impresiones, 1 clic, ARS 1.315), pero dice «prepara tu verificación» y «soporte especializado», que son de consultora.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Verificamos tu módulo Higg FEM: energía, agua, residuos y emisiones de tu planta.",
+        "destino": "Anuncio id 817970230790 · grupo «Higg FEM»",
+        "reemplaza": "Prepara tu verificación Higg FEM con Control Union.",
+        "prioritario": true,
+        "motivo": "«Prepara tu verificación» es vocabulario de Peterson; Control Union verifica."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Verificación Higg FEM independiente, con equipo de Control Union en España.",
+        "destino": "Anuncio id 817970230790 · grupo «Higg FEM»",
+        "reemplaza": "Evalúa energía, agua, residuos y emisiones con soporte especializado.",
+        "opcional": true,
+        "motivo": "Saca «soporte especializado» (consultora)."
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "Decidir si se abre un grupo OCS",
+      "donde": "CU España - Textile - Search › grupo nuevo «OCS» (a decidir)",
+      "detalle": "OCS tiene página y más demanda orgánica que GOTS, y hoy la campaña no lo compra: sus búsquedas caen en el grupo GOTS.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "grupo",
+        "texto": "¿Abrimos el grupo «OCS» con URL final https://espana.controlunion.com/programa-de-certificacion/ocs-blended-organic-content-standard/?",
+        "destino": "La campaña",
+        "opcional": true,
+        "motivo": "En orgánico, «ocs» tiene 1.434 impresiones desde España (posición 10,1) y «certificado ocs» 91 (posición 5,1). En pagos ya aparecen «certificado ocs», «ocs cotton», «organic content standard ocs» (11 impresiones en el grupo GOTS). Si sí: keywords [certificado ocs], [certificacion ocs] y [organic content standard] en exacta, negativa «ocs» en el grupo «GOTS», y un anuncio con «Certificación OCS» y «Certificamos OCS». Si no: no hacer nada."
+       }
+      ]
+     }
+    ],
+    "anuncios": [
+     {
+      "anuncio_id": "817970230796",
+      "anuncio_desc": "fuerza Pobre, 55 clics y ARS 66.183 del 1 sep – 20 oct 2026",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/gots-global-organic-textile-standard/",
+      "gasto_ars": 66183,
+      "clics": 55,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación GOTS",
+       "Auditoría GOTS",
+       "Textiles Orgánicos",
+       "Global Organic Textile",
+       "GOTS España",
+       "Solicita Información",
+       "Auditoría Independiente",
+       "Prepara Tu Auditoría"
+      ],
+      "descripciones_hoy": [
+       "Certificación GOTS para textiles orgánicos y cadenas sostenibles.",
+       "Control Union acompaña marcas, fabricantes y proveedores textiles.",
+       "Solicita tu certificación textil y conoce los requisitos del proceso.",
+       "Habla con Control Union para definir alcance, tiempos y próximos pasos."
+      ],
+      "accion": "Ajustar",
+      "motivo": "Fuerza «pobre» y vocabulario de Peterson («Prepara Tu Auditoría», «Control Union acompaña…»). Falta «certificado», que es como lo busca la gente.",
+      "terminos": [
+       {
+        "termino": "certified gots organic cotton",
+        "relacion": "parcial",
+        "coste": 4191,
+        "clics": 1
+       },
+       {
+        "termino": "oeko tex",
+        "relacion": "nula",
+        "coste": 4378,
+        "clics": 3
+       },
+       {
+        "termino": "gots global organic textile standard",
+        "relacion": "fuerte",
+        "coste": 2944,
+        "clics": 2
+       },
+       {
+        "termino": "gots",
+        "relacion": "fuerte",
+        "coste": 2898,
+        "clics": 3
+       },
+       {
+        "termino": "algodon gots",
+        "relacion": "parcial",
+        "coste": 2749,
+        "clics": 3
+       },
+       {
+        "termino": "ropa certificado gots",
+        "relacion": "parcial",
+        "coste": 1998,
+        "clics": 1
+       }
+      ],
+      "grupo": "GOTS",
+      "titulos_propuestos": [
+       {
+        "texto": "Certificamos GOTS",
+        "motivo": "El verbo de Control Union. «Prepara tu auditoría» es servicio de Peterson (preparar para certificar), no de un certificador.",
+        "prioritario": true,
+        "reemplaza": "Prepara Tu Auditoría"
+       },
+       {
+        "texto": "Certificado GOTS",
+        "motivo": "«gots certificado» (amplia) es la keyword con más gasto de la campaña: 508 impresiones, ARS 35.542; «certificado gots» 49 impresiones.",
+        "prioritario": true
+       },
+       {
+        "texto": "Organismo Certificador Textil",
+        "motivo": "Dice qué es Control Union; «Auditoría Independiente» es genérico.",
+        "reemplaza": "Auditoría Independiente"
+       },
+       {
+        "texto": "Auditoría GOTS en España",
+        "motivo": "Norma más país."
+       },
+       {
+        "texto": "Control Union España",
+        "motivo": "Marca."
+       },
+       {
+        "texto": "Solicita Tu Certificación GOTS",
+        "motivo": "Llamado a la acción con la norma."
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos GOTS: textiles orgánicos con trazabilidad desde la fibra hasta la prenda.",
+        "motivo": "«Acompaña» es vocabulario de Peterson; Control Union certifica.",
+        "prioritario": true,
+        "reemplaza": "Control Union acompaña marcas, fabricantes y proveedores textiles."
+       }
+      ],
+      "quitar": [
+       {
+        "texto": "Prepara Tu Auditoría",
+        "motivo": "El verbo de Control Union. «Prepara tu auditoría» es servicio de Peterson (preparar para certificar), no de un certificador."
+       },
+       {
+        "texto": "Auditoría Independiente",
+        "motivo": "Dice qué es Control Union; «Auditoría Independiente» es genérico."
+       },
+       {
+        "texto": "Control Union acompaña marcas, fabricantes y proveedores textiles.",
+        "motivo": "«Acompaña» es vocabulario de Peterson; Control Union certifica."
+       }
+      ]
+     },
+     {
+      "anuncio_id": "817970230793",
+      "anuncio_desc": "fuerza Promedio, 32 clics y ARS 43.562 del 1 sep – 20 oct 2026",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+      "gasto_ars": 43562,
+      "clics": 32,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación GRS",
+       "Auditoría GRS",
+       "Global Recycled Standard",
+       "Textiles Reciclados",
+       "Cadena Textil Sostenible",
+       "GRS España",
+       "Prepara Tu Auditoría",
+       "grs textile certification"
+      ],
+      "descripciones_hoy": [
+       "Certificación GRS para contenido reciclado, trazabilidad y cadena textil.",
+       "Control Union acompaña marcas, fabricantes y proveedores textiles.",
+       "Solicita tu certificación textil y conoce los requisitos del proceso.",
+       "Habla con Control Union para definir alcance, tiempos y próximos pasos."
+      ],
+      "accion": "Ajustar",
+      "motivo": "Tema correcto («global recycled standard», ARS 11.435), pero con «Prepara Tu Auditoría», «acompaña» y un título en minúsculas. No nombra Textile Exchange.",
+      "terminos": [
+       {
+        "termino": "global recycled standard",
+        "relacion": "fuerte",
+        "coste": 11435,
+        "clics": 6
+       },
+       {
+        "termino": "grs textile exchange",
+        "relacion": "parcial",
+        "coste": 4333,
+        "clics": 2
+       },
+       {
+        "termino": "control union certifications",
+        "relacion": "parcial",
+        "coste": 2973,
+        "clics": 2
+       },
+       {
+        "termino": "recycled claim standard",
+        "relacion": "parcial",
+        "coste": 1344,
+        "clics": 1
+       }
+      ],
+      "grupo": "GRS",
+      "titulos_propuestos": [
+       {
+        "texto": "GRS de Textile Exchange",
+        "motivo": "«grs textile exchange»: 2 clics y ARS 4.333. «grs textile certification» es la keyword pegada en minúsculas y como keyword no tuvo ni un clic (12 impresiones).",
+        "prioritario": true,
+        "reemplaza": "grs textile certification"
+       },
+       {
+        "texto": "Certificamos GRS y RCS",
+        "motivo": "Verbo de Control Union. RCS tiene página propia (rcs-100-recycled-claim-standard) y «recycled claim standard» costó ARS 1.344 en este grupo.",
+        "prioritario": true,
+        "reemplaza": "Prepara Tu Auditoría"
+       },
+       {
+        "texto": "Certificado GRS",
+        "motivo": "«certificado grs» (amplia): 254 impresiones, 15 clics, ARS 18.132; en orgánico 126 impresiones, posición 13,5."
+       },
+       {
+        "texto": "Auditoría GRS en España",
+        "motivo": "Norma más país."
+       },
+       {
+        "texto": "Control Union España",
+        "motivo": "Marca."
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos GRS y RCS, los estándares de contenido reciclado de Textile Exchange.",
+        "motivo": "Reemplaza el «acompaña» de consultora y nombra a Textile Exchange.",
+        "prioritario": true,
+        "reemplaza": "Control Union acompaña marcas, fabricantes y proveedores textiles."
+       }
+      ],
+      "quitar": [
+       {
+        "texto": "grs textile certification",
+        "motivo": "«grs textile exchange»: 2 clics y ARS 4.333. «grs textile certification» es la keyword pegada en minúsculas y como keyword no tuvo ni un clic (12 impresiones)."
+       },
+       {
+        "texto": "Prepara Tu Auditoría",
+        "motivo": "Verbo de Control Union. RCS tiene página propia (rcs-100-recycled-claim-standard) y «recycled claim standard» costó ARS 1.344 en este grupo."
+       },
+       {
+        "texto": "Control Union acompaña marcas, fabricantes y proveedores textiles.",
+        "motivo": "Reemplaza el «acompaña» de consultora y nombra a Textile Exchange."
+       }
+      ]
+     },
+     {
+      "anuncio_id": "817970230790",
+      "anuncio_desc": "fuerza Promedio, 1 clic y ARS 1.315 del 1 sep – 20 oct 2026",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/higg-fem-higg-facility-environmental-module/",
+      "gasto_ars": 1315,
+      "clics": 1,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Higg FEM",
+       "Verificación Higg FEM",
+       "Auditoría Higg FEM",
+       "Módulo Ambiental Higg",
+       "Desempeño Ambiental",
+       "Certificación Higg FEM",
+       "Higg FEM España",
+       "Solicita Información"
+      ],
+      "descripciones_hoy": [
+       "Verificación Higg FEM para medir y mejorar el desempeño ambiental de instalaciones.",
+       "Evalúa energía, agua, residuos y emisiones con soporte especializado.",
+       "Prepara tu verificación Higg FEM con Control Union.",
+       "Habla con Control Union para definir alcance, tiempos y próximos pasos."
+      ],
+      "accion": "Ajustar",
+      "motivo": "Dos descripciones con vocabulario de consultora («prepara», «soporte especializado»).",
+      "grupo": "Higg FEM",
+      "titulos_propuestos": [],
+      "descripciones_propuestas": [
+       {
+        "texto": "Verificamos tu módulo Higg FEM: energía, agua, residuos y emisiones de tu planta.",
+        "motivo": "«Prepara tu verificación» es vocabulario de Peterson; Control Union verifica.",
+        "prioritario": true,
+        "reemplaza": "Prepara tu verificación Higg FEM con Control Union."
+       },
+       {
+        "texto": "Verificación Higg FEM independiente, con equipo de Control Union en España.",
+        "motivo": "Saca «soporte especializado» (consultora).",
+        "reemplaza": "Evalúa energía, agua, residuos y emisiones con soporte especializado."
+       }
+      ],
+      "quitar": [
+       {
+        "texto": "Prepara tu verificación Higg FEM con Control Union.",
+        "motivo": "«Prepara tu verificación» es vocabulario de Peterson; Control Union verifica."
+       },
+       {
+        "texto": "Evalúa energía, agua, residuos y emisiones con soporte especializado.",
+        "motivo": "Saca «soporte especializado» (consultora)."
+       }
+      ]
+     }
+    ],
+    "keywords": [
+     {
+      "texto": "ropa certificado gots",
+      "concordancia": "amplia",
+      "grupo": "GOTS",
+      "accion": "pausar",
+      "motivo": "Nivel de calidad 3. 104 impresiones, 8 clics y ARS 10.374: sus términos son «ropa gots» (2 clics, ARS 1.927), «ropa certificado gots» (ARS 1.998), «camisetas gots» (ARS 1.527), «oeko tex standard 100» (ARS 1.609) y «biomateriales textiles» (ARS 784). Es intención de consumidor."
+     },
+     {
+      "texto": "global organic textile standard gots",
+      "concordancia": "amplia",
+      "grupo": "GOTS",
+      "accion": "pausar",
+      "motivo": "150 impresiones, 8 clics y ARS 10.485. Sus términos visibles: «oeko tex standard 100» (ARS 1.217), «www oeko tex com standard 100» (ARS 1.128), «industria textil», «lenzing ecovero», «paquete ómnibus 2026». La misma frase ya está en exacta y en frase («global organic textile standard»)."
+     },
+     {
+      "texto": "certificado gots",
+      "concordancia": "exacta",
+      "grupo": "GOTS",
+      "accion": "agregar",
+      "motivo": "«certificado gots» tuvo 49 impresiones y 0 clics entrando por tres keywords distintas; en septiembre fue el término más caro del grupo (ARS 10.604). La exacta la deja controlada aunque se ajuste «gots certificado» (amplia)."
+     },
+     {
+      "texto": "grs textile exchange",
+      "concordancia": "exacta",
+      "grupo": "GRS",
+      "accion": "agregar",
+      "motivo": "2 clics y ARS 4.333 entrando por amplias («global recycled standard» y «certificado grs»). La exacta asegura que vea el anuncio con el título «GRS de Textile Exchange»."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "oeko",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "OEKO-TEX: 234 impresiones, 7 clics y ARS 8.874 en el período («oeko tex» ARS 4.378, «oeko tex standard 100» ARS 2.826, «www oeko tex com standard 100» ARS 1.128, «gots oeko tex» ARS 542). Cero búsquedas orgánicas con «oeko» en espana.controlunion.com: no hay servicio."
+     },
+     {
+      "texto": "oekotex",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«oekotex» (6 impresiones) y «certificado oekotex» (1): escrito junto, «oeko» no lo cubre."
+     },
+     {
+      "texto": "ecotex",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«ecotex standard 100» (1 impresión): misma norma mal escrita."
+     },
+     {
+      "texto": "que es",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«que es grs» (16 impresiones, 1 clic, ARS 1.280), «que es gots» (6), «gots que es» (3): buscan la definición. Sin tilde porque la negativa no cubre la variante."
+     },
+     {
+      "texto": "que significa",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«que significa gots»: definición."
+     },
+     {
+      "texto": "significado",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«certificado gots significado» (4 impresiones) y «gots significado» (2)."
+     },
+     {
+      "texto": "camisetas",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«camisetas gots»: 1 clic, ARS 1.527. Es alguien comprando ropa, no una marca que certifica."
+     },
+     {
+      "texto": "lenzing",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«lenzing ecovero» y «que es lenzing ecovero» (3 impresiones): fibra de marca, no es una norma que certifiquemos."
+     },
+     {
+      "texto": "en español",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«gots en español» (4 impresiones) y «global recycled standard en español»: buscan el texto de la norma traducido (en orgánico, «gots en español» tiene 78 impresiones: la página ya lo recibe gratis)."
+     }
+    ],
+    "negativas_decision": "Sí: 9 de campaña (OEKO-TEX con sus tres grafías, definiciones y compra de ropa). No se negativiza «organic cotton standard» ni «ocs»: Control Union España certifica OCS. Tampoco «control union»: son búsquedas de la marca (ARS 3.300).",
+    "organico": [
+     {
+      "query": "grs",
+      "impr": 7658,
+      "pos": 9.4
+     },
+     {
+      "query": "ocs",
+      "impr": 1434,
+      "pos": 10.1
+     },
+     {
+      "query": "gots",
+      "impr": 1002,
+      "pos": 19.0
+     },
+     {
+      "query": "certificaciones textiles",
+      "impr": 644,
+      "pos": 11.0
+     },
+     {
+      "query": "global recycled standard",
+      "impr": 386,
+      "pos": 7.3
+     },
+     {
+      "query": "certificado grs",
+      "impr": 126,
+      "pos": 13.5
+     },
+     {
+      "query": "certificado ocs",
+      "impr": 91,
+      "pos": 5.1
+     },
+     {
+      "query": "gots en español",
+      "impr": 78,
+      "pos": 11.2
+     }
+    ],
+    "organico_desde": "España",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026; Search Console 3 mar – 14 sep 2026"
+   }
+  },
+  {
+   "clave": "CU:SEM:anuncio:cu-espana-forestal:pefc",
+   "marca": "CU",
+   "campana": "CU España - Forestal - Search",
+   "grupo": "PEFC",
+   "titulo": "CU España - Forestal: pasar «pefc certification» a exacta (47% del gasto), abrir el grupo FSC y sumar 16 negativas",
+   "detalle": "La amplia «pefc certification» se llevó ARS 52.410 de ARS 112.426 trayendo FSC, EUDR y «sostenibilidad». Se reemplaza por la exacta, se suman negativas de definiciones, sostenibilidad y navegación, y se abre el grupo FSC con su página (Control Union España certifica la cadena de custodia FSC). Incluye la parte de Forestal de la tarjeta vieja «Textile paga OEKO-TEX y Forestal compra sostenibilidad».",
+   "prioridad": "alta",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "España",
+    "campana": "CU España - Forestal - Search",
+    "acciones": [
+     "pausa",
+     "keywords",
+     "negativas",
+     "estructura",
+     "anuncio",
+     "revisar"
+    ],
+    "resumen": "Comprar PEFC y FSC por separado, con su anuncio y su página, y dejar de pagar sostenibilidad genérica.",
+    "por_que": "1 sep – 20 oct 2026: 77 clics, 2.174 impresiones y ARS 112.426 (ARS 2.249 por día contra un presupuesto de ARS 2.268), sin conversiones. Un solo grupo, «PEFC». «pefc certification» (amplia) se lleva ARS 52.410 (47%). FSC entra al grupo PEFC: 211 impresiones, 9 clics, ARS 9.200. Sostenibilidad y medio ambiente genéricos: ARS 10.363 (6 clics). Definiciones («pefc que es», «que es pefc»…): 209 impresiones, ARS 4.926. En orgánico, FSC tiene 1.027 impresiones desde España y PEFC 682 (Search Console, 3 mar – 14 sep 2026).",
+    "ya_hecho": "Nada: la campaña está igual que el 25 sep (mismo anuncio, mismas 18 keywords, mismas 12 negativas). Corrección a septiembre: «pefc certification» no estaba en frase sino en amplia, y la campaña ya no gasta ARS 3.243 por día sino ARS 2.249.",
+    "pasos": [
+     {
+      "accion": "pausa",
+      "titulo": "Pasar «pefc certification» de amplia a exacta",
+      "donde": "CU España - Forestal - Search › grupo «PEFC»",
+      "detalle": "Es la keyword que trae FSC, EUDR y «sostenibilidad»: se lleva casi la mitad del gasto. Google Ads no deja cambiar la concordancia: se agrega la exacta y se pausa la amplia.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "pefc certification",
+        "concordancia": "exacta",
+        "destino": "Grupo «PEFC»",
+        "motivo": "Conserva la búsqueda propia de la keyword («pefc certification»: 12 impresiones, 2 clics, ARS 2.301) sin lo demás. En orgánico, 24 impresiones desde España, posición 10,5.",
+        "prioritario": true
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "pefc certification",
+        "concordancia": "amplia",
+        "destino": "Grupo «PEFC»",
+        "motivo": "1.152 impresiones, 35 clics y ARS 52.410: el 47% del gasto de la campaña, sin conversiones. Sus términos visibles: «fsc» (ARS 2.314), «sostenibilidad aplicada al sistema productivo» (ARS 3.856), «sostenibilidad» (ARS 2.428), «www pefc it» (ARS 2.548), «eudr» (21 impresiones), «desarrollo sostenible» (16).",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 15 negativas de campaña y 1 de grupo",
+      "donde": "CU España - Forestal - Search › toda la campaña (15) y grupo «PEFC» (1)",
+      "detalle": "Hoy la campaña solo tiene las 12 negativas estándar (gratis, curso, pdf…). Ninguna cubre definiciones ni «sostenibilidad». La de grupo manda FSC al grupo nuevo.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que es",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«pefc que es» (98 impresiones, 2 clics, ARS 2.696), «que es el pefc» (ARS 1.008), «que es pefc» (19), «fsc que es» (8), «eudr que es» (21).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que significa",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«que significa pefc» (15 impresiones) y «pefc que significa» (11).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "significado",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«pefc significado», «fsc significado», «certificado fsc significado».",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "sostenibilidad",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«sostenibilidad aplicada al sistema productivo» (ARS 3.856), «sostenibilidad» (ARS 2.428), «gestión empresarial para la sostenibilidad de pymes» (ARS 296): ARS 6.580 por 3 clics sin relación con PEFC.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "desarrollo sostenible",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "27 impresiones de «desarrollo sostenible», más «proyecto de desarrollo sostenible».",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "sustainable development",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«https www un org sustainabledevelopment es sustainable development goals»: 1 clic, ARS 1.168.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "www",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Gente que va a la web de otro: «www pefc it» (2 clics, ARS 2.548), «www fsc org español» (ARS 1.704), «www pefc es» (ARS 1.161), «www sgs es».",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "search",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«search pefc» (ARS 1.476): buscador de certificados de PEFC.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "info",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«info pefc» (ARS 1.669): navegación a pefc.org.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "retema",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«retema» (ARS 1.029): revista de medio ambiente.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ambiental",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«certificado medio ambiental», «sostenibilidad ambiental», «desempeño ambiental», «proteccion ambiental»: no es forestal.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ambientales",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«certificados ambientales» (1 clic, ARS 1.586), «certificaciones ambientales». La negativa en singular no cubre el plural.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "medioambiental",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«auditoría medioambiental» (4 impresiones).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "medioambientales",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«certificados medioambientales» (2 impresiones).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "pymes",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«gestión empresarial para la sostenibilidad de pymes» (ARS 296); ya estaba en el plan de septiembre.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "fsc",
+        "concordancia": "amplia",
+        "destino": "Grupo «PEFC»",
+        "motivo": "Para que las búsquedas de FSC vayan al grupo «FSC» y no vean el anuncio de PEFC. Hoy FSC suma 211 impresiones, 9 clics y ARS 9.200 en este grupo.",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "estructura",
+      "titulo": "Crear el grupo «FSC»",
+      "donde": "CU España - Forestal - Search › grupo nuevo «FSC»",
+      "detalle": "Control Union España certifica la cadena de custodia FSC (página propia; ya decidido en septiembre). Crear el grupo con URL final https://espana.controlunion.com/programa-de-certificacion/fsc-forest-stewardship-council/ y cargarle las 7 keywords y el anuncio de este paso.",
+      "items": [
+       {
+        "accion": "crear",
+        "tipo": "grupo",
+        "texto": "FSC",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "URL final: https://espana.controlunion.com/programa-de-certificacion/fsc-forest-stewardship-council/ (la página dice «certificación de cadena de custodia FSC®»; en Search Console 2.223 impresiones del 3 mar al 14 sep 2026)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificado fsc",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC»",
+        "motivo": "«certificado fsc» (10 impresiones) y «fsc certificado» (5) hoy ven el anuncio de PEFC. En orgánico es la búsqueda de FSC más frecuente: 173 impresiones desde España, posición 45,9.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificacion fsc",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC»",
+        "motivo": "«certificacion fsc» (7) y «certificación fsc» (6) en el período; 51 impresiones orgánicas, posición 43,1.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificación forestal fsc",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC»",
+        "motivo": "4 impresiones, 2 clics, ARS 1.651 en el grupo PEFC; en orgánico «certificación fsc forestal», 50 impresiones.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "fsc españa",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC»",
+        "motivo": "9 impresiones, 1 clic (ARS 228); en orgánico 50 impresiones, posición 11,7.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "cadena de custodia fsc",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC»",
+        "motivo": "Es exactamente el servicio de la página. 43 impresiones orgánicas en posición 54,7: el sitio no se ve.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificado fsc madera",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC»",
+        "motivo": "4 impresiones, 1 clic, ARS 1.044.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificacion fsc",
+        "concordancia": "frase",
+        "destino": "Grupo «FSC»",
+        "motivo": "Cubre «certificacion fsc cadena de custodia» y «certificación fsc para empresas» (41 impresiones orgánicas) sin abrir a todo lo que diga «fsc».",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificación FSC",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "prioritario": true,
+        "motivo": "Repite la búsqueda principal."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Cadena de Custodia FSC",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "prioritario": true,
+        "motivo": "Es el servicio que certifica Control Union España según la página."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificado FSC",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "prioritario": true,
+        "motivo": "«certificado fsc»: 173 impresiones orgánicas, la búsqueda de FSC más frecuente."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificamos FSC",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "El verbo de Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Auditoría FSC en España",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "Norma más país."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "FSC para Madera y Papel",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "«certificado fsc madera» (ARS 1.044)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Organismo Certificador",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "Dice qué es Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union España",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "Marca."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Certificamos la cadena de custodia FSC para madera, papel y productos forestales.",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "prioritario": true,
+        "motivo": "Servicio exacto de la página, con el verbo de Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Organismo de certificación FSC con equipo auditor en España. Solicita tu presupuesto.",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "prioritario": true,
+        "motivo": "Quién es y qué hacer."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Si ya tienes PEFC, auditamos FSC y PEFC en la misma visita.",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "Confirmar con la unidad que hacen auditorías combinadas antes de publicarla."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Más de 100 años certificando. Presencia en más de 80 países.",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "Respaldo."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Ajustar el anuncio de PEFC",
+      "donde": "CU España - Forestal - Search › grupo «PEFC» · anuncio id 817970230799",
+      "detalle": "Fuerza «pobre», 77 clics y ARS 112.426. Tiene 7 títulos: se suman 7 y se cambia «Forestal Sostenible», que invita a búsquedas de sostenibilidad. Queda con 14 títulos y 4 descripciones.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Certificado PEFC de Madera",
+        "destino": "Anuncio id 817970230799 · grupo «PEFC»",
+        "reemplaza": "Forestal Sostenible",
+        "prioritario": true,
+        "motivo": "«certificado madera pefc» (ARS 2.504) y «certificado pefc madera» (ARS 1.207). «Forestal Sostenible» empuja hacia «sostenibilidad», que se negativiza."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificado PEFC",
+        "destino": "Anuncio id 817970230799 · grupo «PEFC»",
+        "prioritario": true,
+        "motivo": "«certificado pefc» (amplia): 263 impresiones; el término «certificado pefc» tuvo 60 impresiones y 0 clics. En orgánico, 100 impresiones."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificamos PEFC",
+        "destino": "Anuncio id 817970230799 · grupo «PEFC»",
+        "prioritario": true,
+        "motivo": "El verbo de Control Union; la fuerza «pobre» pide más títulos distintos."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Cadena de Custodia PEFC",
+        "destino": "Anuncio id 817970230799 · grupo «PEFC»",
+        "opcional": true,
+        "motivo": "Escrito completo (hoy «Cadena Custodia PEFC»)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "PEFC para Madera y Papel",
+        "destino": "Anuncio id 817970230799 · grupo «PEFC»",
+        "opcional": true,
+        "motivo": "«papel pefc» (6 impresiones), «pefc madera» (6)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Auditores PEFC en España",
+        "destino": "Anuncio id 817970230799 · grupo «PEFC»",
+        "opcional": true,
+        "motivo": "«pefc españa» es el término que más gasta (10 clics, ARS 13.398)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Organismo Certificador",
+        "destino": "Anuncio id 817970230799 · grupo «PEFC»",
+        "opcional": true,
+        "motivo": "Dice qué es Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union España",
+        "destino": "Anuncio id 817970230799 · grupo «PEFC»",
+        "opcional": true,
+        "motivo": "Marca."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos PEFC con auditores en España. Cuéntanos tu producto y coordinamos fechas.",
+        "destino": "Anuncio id 817970230799 · grupo «PEFC»",
+        "reemplaza": "Habla con Control Union para definir alcance, tiempos y próximos pasos.",
+        "prioritario": true,
+        "motivo": "Verbo de Control Union y un pedido concreto, en lugar de un genérico «habla con»."
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "Decidir qué hacer con EUDR",
+      "donde": "CU España - Forestal - Search › toda la campaña",
+      "detalle": "EUDR aparece por la amplia que se pausa; no costó nada, pero hay que saber si es servicio.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "negativa",
+        "texto": "¿Control Union España verifica EUDR (Reglamento UE 2023/1115)?",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "63 impresiones de EUDR en el período («eudr» 23, «eudr que es» 21), 0 clics. Confirmar con la unidad. Si no: agregar «eudr» (amplia) como negativa de campaña. Si sí: no negativizar y evaluar una campaña aparte; no meterlo en el grupo PEFC."
+       }
+      ]
+     }
+    ],
+    "anuncios": [
+     {
+      "anuncio_id": "817970230799",
+      "anuncio_desc": "fuerza Pobre, 77 clics y ARS 112.426 del 1 sep – 20 oct 2026",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/pefc-programa-para-la-homologacion-de-esquemas-nacionales/",
+      "gasto_ars": 112426,
+      "clics": 77,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación PEFC",
+       "Auditoría PEFC",
+       "Cadena Custodia PEFC",
+       "Certificación Forestal",
+       "Forestal Sostenible",
+       "PEFC España",
+       "Solicita Información"
+      ],
+      "descripciones_hoy": [
+       "Certificación PEFC de cadena de custodia para productos forestales.",
+       "Demuestra origen responsable, trazabilidad y cumplimiento forestal.",
+       "Solicita información para iniciar tu proceso de certificación PEFC.",
+       "Habla con Control Union para definir alcance, tiempos y próximos pasos."
+      ],
+      "accion": "Ajustar",
+      "motivo": "Fuerza «pobre» con solo 7 títulos; no dice «certificado», que es como se busca, y «Forestal Sostenible» atrae sostenibilidad genérica.",
+      "terminos": [
+       {
+        "termino": "pefc españa",
+        "relacion": "fuerte",
+        "coste": 13398,
+        "clics": 10
+       },
+       {
+        "termino": "pefc",
+        "relacion": "fuerte",
+        "coste": 10752,
+        "clics": 8
+       },
+       {
+        "termino": "sostenibilidad aplicada al sistema productivo",
+        "relacion": "nula",
+        "coste": 3856,
+        "clics": 1
+       },
+       {
+        "termino": "www pefc it",
+        "relacion": "nula",
+        "coste": 2548,
+        "clics": 2
+       },
+       {
+        "termino": "sostenibilidad",
+        "relacion": "nula",
+        "coste": 2428,
+        "clics": 1
+       },
+       {
+        "termino": "fsc",
+        "relacion": "nula",
+        "coste": 2314,
+        "clics": 2
+       }
+      ],
+      "grupo": "PEFC",
+      "titulos_propuestos": [
+       {
+        "texto": "Certificado PEFC de Madera",
+        "motivo": "«certificado madera pefc» (ARS 2.504) y «certificado pefc madera» (ARS 1.207). «Forestal Sostenible» empuja hacia «sostenibilidad», que se negativiza.",
+        "prioritario": true,
+        "reemplaza": "Forestal Sostenible"
+       },
+       {
+        "texto": "Certificado PEFC",
+        "motivo": "«certificado pefc» (amplia): 263 impresiones; el término «certificado pefc» tuvo 60 impresiones y 0 clics. En orgánico, 100 impresiones.",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificamos PEFC",
+        "motivo": "El verbo de Control Union; la fuerza «pobre» pide más títulos distintos.",
+        "prioritario": true
+       },
+       {
+        "texto": "Cadena de Custodia PEFC",
+        "motivo": "Escrito completo (hoy «Cadena Custodia PEFC»)."
+       },
+       {
+        "texto": "PEFC para Madera y Papel",
+        "motivo": "«papel pefc» (6 impresiones), «pefc madera» (6)."
+       },
+       {
+        "texto": "Auditores PEFC en España",
+        "motivo": "«pefc españa» es el término que más gasta (10 clics, ARS 13.398)."
+       },
+       {
+        "texto": "Organismo Certificador",
+        "motivo": "Dice qué es Control Union."
+       },
+       {
+        "texto": "Control Union España",
+        "motivo": "Marca."
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos PEFC con auditores en España. Cuéntanos tu producto y coordinamos fechas.",
+        "motivo": "Verbo de Control Union y un pedido concreto, en lugar de un genérico «habla con».",
+        "prioritario": true,
+        "reemplaza": "Habla con Control Union para definir alcance, tiempos y próximos pasos."
+       }
+      ],
+      "quitar": [
+       {
+        "texto": "Forestal Sostenible",
+        "motivo": "«certificado madera pefc» (ARS 2.504) y «certificado pefc madera» (ARS 1.207). «Forestal Sostenible» empuja hacia «sostenibilidad», que se negativiza."
+       },
+       {
+        "texto": "Habla con Control Union para definir alcance, tiempos y próximos pasos.",
+        "motivo": "Verbo de Control Union y un pedido concreto, en lugar de un genérico «habla con»."
+       }
+      ]
+     },
+     {
+      "accion": "Anuncio nuevo",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/fsc-forest-stewardship-council/",
+      "motivo": "El grupo nuevo necesita su anuncio: hoy quien busca FSC ve un anuncio de PEFC (211 impresiones, 9 clics, ARS 9.200).",
+      "grupo": "FSC",
+      "titulos_propuestos": [
+       {
+        "texto": "Certificación FSC",
+        "motivo": "Repite la búsqueda principal.",
+        "prioritario": true
+       },
+       {
+        "texto": "Cadena de Custodia FSC",
+        "motivo": "Es el servicio que certifica Control Union España según la página.",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificado FSC",
+        "motivo": "«certificado fsc»: 173 impresiones orgánicas, la búsqueda de FSC más frecuente.",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificamos FSC",
+        "motivo": "El verbo de Control Union."
+       },
+       {
+        "texto": "Auditoría FSC en España",
+        "motivo": "Norma más país."
+       },
+       {
+        "texto": "FSC para Madera y Papel",
+        "motivo": "«certificado fsc madera» (ARS 1.044)."
+       },
+       {
+        "texto": "Organismo Certificador",
+        "motivo": "Dice qué es Control Union."
+       },
+       {
+        "texto": "Control Union España",
+        "motivo": "Marca."
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos la cadena de custodia FSC para madera, papel y productos forestales.",
+        "motivo": "Servicio exacto de la página, con el verbo de Control Union.",
+        "prioritario": true
+       },
+       {
+        "texto": "Organismo de certificación FSC con equipo auditor en España. Solicita tu presupuesto.",
+        "motivo": "Quién es y qué hacer.",
+        "prioritario": true
+       },
+       {
+        "texto": "Si ya tienes PEFC, auditamos FSC y PEFC en la misma visita.",
+        "motivo": "Confirmar con la unidad que hacen auditorías combinadas antes de publicarla."
+       },
+       {
+        "texto": "Más de 100 años certificando. Presencia en más de 80 países.",
+        "motivo": "Respaldo."
+       }
+      ]
+     }
+    ],
+    "keywords": [
+     {
+      "texto": "pefc certification",
+      "concordancia": "exacta",
+      "grupo": "PEFC",
+      "accion": "agregar",
+      "motivo": "Conserva la búsqueda propia de la keyword («pefc certification»: 12 impresiones, 2 clics, ARS 2.301) sin lo demás. En orgánico, 24 impresiones desde España, posición 10,5."
+     },
+     {
+      "texto": "pefc certification",
+      "concordancia": "amplia",
+      "grupo": "PEFC",
+      "accion": "pausar",
+      "motivo": "1.152 impresiones, 35 clics y ARS 52.410: el 47% del gasto de la campaña, sin conversiones. Sus términos visibles: «fsc» (ARS 2.314), «sostenibilidad aplicada al sistema productivo» (ARS 3.856), «sostenibilidad» (ARS 2.428), «www pefc it» (ARS 2.548), «eudr» (21 impresiones), «desarrollo sostenible» (16)."
+     },
+     {
+      "texto": "certificado fsc",
+      "concordancia": "exacta",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "«certificado fsc» (10 impresiones) y «fsc certificado» (5) hoy ven el anuncio de PEFC. En orgánico es la búsqueda de FSC más frecuente: 173 impresiones desde España, posición 45,9."
+     },
+     {
+      "texto": "certificacion fsc",
+      "concordancia": "exacta",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "«certificacion fsc» (7) y «certificación fsc» (6) en el período; 51 impresiones orgánicas, posición 43,1."
+     },
+     {
+      "texto": "certificación forestal fsc",
+      "concordancia": "exacta",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "4 impresiones, 2 clics, ARS 1.651 en el grupo PEFC; en orgánico «certificación fsc forestal», 50 impresiones."
+     },
+     {
+      "texto": "fsc españa",
+      "concordancia": "exacta",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "9 impresiones, 1 clic (ARS 228); en orgánico 50 impresiones, posición 11,7."
+     },
+     {
+      "texto": "cadena de custodia fsc",
+      "concordancia": "exacta",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "Es exactamente el servicio de la página. 43 impresiones orgánicas en posición 54,7: el sitio no se ve."
+     },
+     {
+      "texto": "certificado fsc madera",
+      "concordancia": "exacta",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "4 impresiones, 1 clic, ARS 1.044."
+     },
+     {
+      "texto": "certificacion fsc",
+      "concordancia": "frase",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "Cubre «certificacion fsc cadena de custodia» y «certificación fsc para empresas» (41 impresiones orgánicas) sin abrir a todo lo que diga «fsc»."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "que es",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«pefc que es» (98 impresiones, 2 clics, ARS 2.696), «que es el pefc» (ARS 1.008), «que es pefc» (19), «fsc que es» (8), «eudr que es» (21)."
+     },
+     {
+      "texto": "que significa",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«que significa pefc» (15 impresiones) y «pefc que significa» (11)."
+     },
+     {
+      "texto": "significado",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«pefc significado», «fsc significado», «certificado fsc significado»."
+     },
+     {
+      "texto": "sostenibilidad",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«sostenibilidad aplicada al sistema productivo» (ARS 3.856), «sostenibilidad» (ARS 2.428), «gestión empresarial para la sostenibilidad de pymes» (ARS 296): ARS 6.580 por 3 clics sin relación con PEFC."
+     },
+     {
+      "texto": "desarrollo sostenible",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "27 impresiones de «desarrollo sostenible», más «proyecto de desarrollo sostenible»."
+     },
+     {
+      "texto": "sustainable development",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«https www un org sustainabledevelopment es sustainable development goals»: 1 clic, ARS 1.168."
+     },
+     {
+      "texto": "www",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Gente que va a la web de otro: «www pefc it» (2 clics, ARS 2.548), «www fsc org español» (ARS 1.704), «www pefc es» (ARS 1.161), «www sgs es»."
+     },
+     {
+      "texto": "search",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«search pefc» (ARS 1.476): buscador de certificados de PEFC."
+     },
+     {
+      "texto": "info",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«info pefc» (ARS 1.669): navegación a pefc.org."
+     },
+     {
+      "texto": "retema",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«retema» (ARS 1.029): revista de medio ambiente."
+     },
+     {
+      "texto": "ambiental",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«certificado medio ambiental», «sostenibilidad ambiental», «desempeño ambiental», «proteccion ambiental»: no es forestal."
+     },
+     {
+      "texto": "ambientales",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«certificados ambientales» (1 clic, ARS 1.586), «certificaciones ambientales». La negativa en singular no cubre el plural."
+     },
+     {
+      "texto": "medioambiental",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«auditoría medioambiental» (4 impresiones)."
+     },
+     {
+      "texto": "medioambientales",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«certificados medioambientales» (2 impresiones)."
+     },
+     {
+      "texto": "pymes",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«gestión empresarial para la sostenibilidad de pymes» (ARS 296); ya estaba en el plan de septiembre."
+     },
+     {
+      "texto": "fsc",
+      "concordancia": "amplia",
+      "nivel": "grupo",
+      "motivo": "Para que las búsquedas de FSC vayan al grupo «FSC» y no vean el anuncio de PEFC. Hoy FSC suma 211 impresiones, 9 clics y ARS 9.200 en este grupo.",
+      "grupo": "PEFC"
+     }
+    ],
+    "negativas_decision": "Sí: 15 de campaña (definiciones, sostenibilidad y medio ambiente genéricos, navegación a otras webs) y «fsc» en el grupo «PEFC» para que FSC vaya a su grupo. No se agrega «fsc» a nivel campaña: FSC sí se certifica (decidido en septiembre y confirmado por la página). EUDR queda a decidir con la unidad.",
+    "organico": [
+     {
+      "query": "pefc",
+      "impr": 261,
+      "pos": 19.9
+     },
+     {
+      "query": "fsc",
+      "impr": 160,
+      "pos": 20.4
+     },
+     {
+      "query": "certificado fsc",
+      "impr": 173,
+      "pos": 45.9
+     },
+     {
+      "query": "certificado pefc",
+      "impr": 100,
+      "pos": 52.7
+     },
+     {
+      "query": "control forestal",
+      "impr": 85,
+      "pos": 13.0
+     },
+     {
+      "query": "certificacion fsc",
+      "impr": 51,
+      "pos": 43.1
+     },
+     {
+      "query": "fsc españa",
+      "impr": 50,
+      "pos": 11.7
+     },
+     {
+      "query": "cadena de custodia fsc",
+      "impr": 43,
+      "pos": 54.7
+     }
+    ],
+    "organico_desde": "España",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026; Search Console 3 mar – 14 sep 2026"
+   }
+  },
+  {
+   "clave": "CU:SEM:plan:espana:gmp-empezo-a-gastar-sin-reconstruirse",
+   "marca": "CU",
+   "campana": "CU España - GMP+ - Search",
+   "grupo": "Certificación",
+   "titulo": "CU España - GMP+: sacar el voseo y el «acompañamiento» de los 3 anuncios y comprar [gmp+], la búsqueda que hoy no tiene keyword",
+   "detalle": "Los tres anuncios dicen «Pedí presupuesto», «Transferí tu GMP+» y «acompañamiento total»: voseo y vocabulario de Peterson en un anuncio de Control Union para España. Ninguna keyword compra «gmp+» a secas, que es el 60% de la demanda orgánica: se suma en exacta con otras 4. No se pausa «el resto»: las 28 keywords sin clics no gastaron nada.",
+   "prioridad": "media",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "España",
+    "campana": "CU España - GMP+ - Search",
+    "acciones": [
+     "anuncio",
+     "keywords",
+     "negativas",
+     "revisar"
+    ],
+    "resumen": "Que el anuncio hable como Control Union y que la campaña compre «gmp+», que es como se busca.",
+    "por_que": "1 sep – 20 oct 2026: 7 clics, 160 impresiones y ARS 29.895, sin conversiones; CPC medio ARS 4.271. Gasta unos ARS 598 por día de un presupuesto de ARS 3.402: el límite no es la plata sino las keywords. De 31 keywords solo 3 tuvieron clics («certificadora gmp+», «gmp+ certification», «gmp+ certificación») y 22 figuran como «pocas búsquedas». Los 7 clics cayeron todos en «otros términos». En orgánico, «gmp+» tiene 1.136 impresiones desde España en posición 6,2 (Search Console, 3 mar – 14 sep 2026).",
+    "ya_hecho": "Nada: keywords, anuncios y negativas iguales que el 25 sep. Revisión del plan de septiembre: [gmp+] y [gmp plus] sí; [feed safety] no (2 impresiones orgánicas en seis meses: no hay demanda); [certificacion gmp] no en genérico (14 impresiones y riesgo de GMP farmacéutico), sí la variante «certificacion gmp españa» como opcional; «pausar el resto» no hace falta porque esas keywords no gastan.",
+    "pasos": [
+     {
+      "accion": "anuncio",
+      "titulo": "Sacar el voseo y el «acompañamiento» de los 3 anuncios",
+      "donde": "CU España - GMP+ - Search › grupos «Certificación» (anuncio id 817970220953), «Feed Safety» (id 817970220947) y «Renovación / Transferencia» (id 817970220950)",
+      "detalle": "Los tres anuncios tienen el mismo texto: «Pedí presupuesto hoy», «Transferí tu GMP+ fácil», «Contactanos y te guiamos paso a paso» y «acompañamiento total». Es voseo en un anuncio para España y vocabulario de Peterson. Mismos 4 reemplazos en cada anuncio; los 3 títulos extra solo en el de «Certificación», que es el único que gira.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Solicita Tu Presupuesto",
+        "destino": "Anuncio id 817970220953 · grupo «Certificación»",
+        "reemplaza": "Pedí presupuesto hoy",
+        "prioritario": true,
+        "motivo": "«Pedí» es voseo rioplatense en un anuncio para España."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Transfiere Tu GMP+",
+        "destino": "Anuncio id 817970220953 · grupo «Certificación»",
+        "reemplaza": "Transferí tu GMP+ fácil",
+        "prioritario": true,
+        "motivo": "«Transferí» es voseo; se mantiene la idea del cambio de certificadora."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos GMP+ FSA y FRA en toda la cadena de alimentación animal en España.",
+        "destino": "Anuncio id 817970220953 · grupo «Certificación»",
+        "reemplaza": "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total.",
+        "prioritario": true,
+        "motivo": "«Acompañamiento total» es vocabulario de Peterson; Control Union certifica. Los dos módulos (FSA y FRA) los nombra la página de GMP+ del sitio."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Renueva o transfiere tu certificado GMP+ con Control Union. Escríbenos y coordinamos.",
+        "destino": "Anuncio id 817970220953 · grupo «Certificación»",
+        "reemplaza": "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso.",
+        "prioritario": true,
+        "motivo": "«Contactanos» es voseo y «te guiamos paso a paso» es de consultora."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Solicita Tu Presupuesto",
+        "destino": "Anuncio id 817970220947 · grupo «Feed Safety»",
+        "reemplaza": "Pedí presupuesto hoy",
+        "prioritario": true,
+        "motivo": "«Pedí» es voseo rioplatense en un anuncio para España."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Transfiere Tu GMP+",
+        "destino": "Anuncio id 817970220947 · grupo «Feed Safety»",
+        "reemplaza": "Transferí tu GMP+ fácil",
+        "prioritario": true,
+        "motivo": "«Transferí» es voseo; se mantiene la idea del cambio de certificadora."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos GMP+ FSA y FRA en toda la cadena de alimentación animal en España.",
+        "destino": "Anuncio id 817970220947 · grupo «Feed Safety»",
+        "reemplaza": "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total.",
+        "prioritario": true,
+        "motivo": "«Acompañamiento total» es vocabulario de Peterson; Control Union certifica. Los dos módulos (FSA y FRA) los nombra la página de GMP+ del sitio."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Renueva o transfiere tu certificado GMP+ con Control Union. Escríbenos y coordinamos.",
+        "destino": "Anuncio id 817970220947 · grupo «Feed Safety»",
+        "reemplaza": "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso.",
+        "prioritario": true,
+        "motivo": "«Contactanos» es voseo y «te guiamos paso a paso» es de consultora."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Solicita Tu Presupuesto",
+        "destino": "Anuncio id 817970220950 · grupo «Renovación / Transferencia»",
+        "reemplaza": "Pedí presupuesto hoy",
+        "prioritario": true,
+        "motivo": "«Pedí» es voseo rioplatense en un anuncio para España."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Transfiere Tu GMP+",
+        "destino": "Anuncio id 817970220950 · grupo «Renovación / Transferencia»",
+        "reemplaza": "Transferí tu GMP+ fácil",
+        "prioritario": true,
+        "motivo": "«Transferí» es voseo; se mantiene la idea del cambio de certificadora."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos GMP+ FSA y FRA en toda la cadena de alimentación animal en España.",
+        "destino": "Anuncio id 817970220950 · grupo «Renovación / Transferencia»",
+        "reemplaza": "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total.",
+        "prioritario": true,
+        "motivo": "«Acompañamiento total» es vocabulario de Peterson; Control Union certifica. Los dos módulos (FSA y FRA) los nombra la página de GMP+ del sitio."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Renueva o transfiere tu certificado GMP+ con Control Union. Escríbenos y coordinamos.",
+        "destino": "Anuncio id 817970220950 · grupo «Renovación / Transferencia»",
+        "reemplaza": "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso.",
+        "prioritario": true,
+        "motivo": "«Contactanos» es voseo y «te guiamos paso a paso» es de consultora."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "GMP+ Feed Safety Assurance",
+        "destino": "Anuncio id 817970220953 · grupo «Certificación»",
+        "opcional": true,
+        "motivo": "«gmp+ feed safety assurance», «gmp+ fsa» y «gmp+fsa» aparecen en orgánico (21 impresiones juntas desde España)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Organismo Certificador GMP+",
+        "destino": "Anuncio id 817970220953 · grupo «Certificación»",
+        "opcional": true,
+        "motivo": "Dice qué es Control Union; reemplaza la idea de «Equipo técnico experto»."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Auditores GMP+ en España",
+        "destino": "Anuncio id 817970220953 · grupo «Certificación»",
+        "opcional": true,
+        "motivo": "Norma más país."
+       }
+      ]
+     },
+     {
+      "accion": "keywords",
+      "titulo": "Sumar 5 exactas al grupo «Certificación» con el vocabulario de la gente",
+      "donde": "CU España - GMP+ - Search › grupo «Certificación»",
+      "detalle": "Ninguna de las 31 keywords es «gmp+» a secas, que es casi toda la demanda orgánica. Del plan de septiembre se toma [gmp+] y [gmp plus]; [feed safety] y [certificacion gmp] no (ver motivo).",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "gmp+",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación»",
+        "motivo": "La búsqueda principal: 1.136 impresiones orgánicas desde España (posición 6,2), el 60% de toda la demanda de GMP+ del sitio. Hoy no hay keyword que la compre.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificado gmp+",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación»",
+        "motivo": "«certificado gmp+»: 6 impresiones pagas en el período y 26 orgánicas (posición 6,8).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso gmp+",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación»",
+        "motivo": "237 impresiones orgánicas desde España (posición 8,2): lo buscan mezclando ISO con GMP+.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "gmp plus",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación»",
+        "motivo": "Grafía sin «+»: 21 impresiones orgánicas (posición 11,8).",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificacion gmp españa",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación»",
+        "motivo": "52 impresiones orgánicas (posición 10,4), y Google las manda a la página de GMP+. Confirmar en 30 días que no traiga GMP farmacéutico.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 5 negativas de campaña",
+      "donde": "CU España - GMP+ - Search › toda la campaña",
+      "detalle": "La negativa actual es «qué es» con tilde y no cubre «que es». El resto son búsquedas de listados de empresas certificadas.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que es",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«gmp+ que es»: 9 impresiones en el período. La negativa vigente «qué es» lleva tilde y no la cubre.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "database",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«gmp+ database», «gmp+ company database»: buscan el registro de empresas de GMP+ International.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "companies",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«gmp+ certified companies» (7 impresiones): mismo registro.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "lijst",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«gmp+ producten lijst» (2 impresiones): listado en neerlandés.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "consultoria",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "En orgánico «consultoria gmp+» (10 impresiones): buscan consultor, servicio que Control Union no da.",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "En 30 días, revisar los términos de [gmp+]",
+      "donde": "CU España - GMP+ - Search › grupo «Certificación»",
+      "detalle": "Google puede tratar «gmp+» como «gmp», que es otra cosa (buenas prácticas de fabricación farmacéutica).",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "negativa",
+        "texto": "¿Entran términos de GMP farmacéutico por [gmp+]?",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "Mirar el informe de términos de búsqueda a los 30 días. Si aparecen «gmp» a secas, «normas gmp», «gmp farmaceutica» o «medicamentos», agregar «farmaceutica», «medicamentos», «cosmetica» y «normas gmp» como negativas de campaña. Si no, no hacer nada."
+       }
+      ]
+     }
+    ],
+    "anuncios": [
+     {
+      "anuncio_id": "817970220953",
+      "anuncio_desc": "fuerza Promedio, 7 clics y ARS 29.895 del 1 sep – 20 oct 2026",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/gmp/",
+      "gasto_ars": 29895,
+      "clics": 7,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación GMP+",
+       "Auditoría GMP+",
+       "Control Union GMP+",
+       "Expertos en esquema GMP+",
+       "Pedí presupuesto hoy",
+       "Equipo técnico experto",
+       "Transferí tu GMP+ fácil",
+       "Certificación para feed",
+       "gmp+ certification"
+      ],
+      "descripciones_hoy": [
+       "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total.",
+       "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso."
+      ],
+      "accion": "Ajustar",
+      "motivo": "Voseo («Pedí», «Transferí», «Contactanos») en un anuncio para España y vocabulario de Peterson («acompañamiento total», «te guiamos paso a paso»).",
+      "grupo": "Certificación",
+      "titulos_propuestos": [
+       {
+        "texto": "Solicita Tu Presupuesto",
+        "motivo": "«Pedí» es voseo rioplatense en un anuncio para España.",
+        "prioritario": true,
+        "reemplaza": "Pedí presupuesto hoy"
+       },
+       {
+        "texto": "Transfiere Tu GMP+",
+        "motivo": "«Transferí» es voseo; se mantiene la idea del cambio de certificadora.",
+        "prioritario": true,
+        "reemplaza": "Transferí tu GMP+ fácil"
+       },
+       {
+        "texto": "GMP+ Feed Safety Assurance",
+        "motivo": "«gmp+ feed safety assurance», «gmp+ fsa» y «gmp+fsa» aparecen en orgánico (21 impresiones juntas desde España)."
+       },
+       {
+        "texto": "Organismo Certificador GMP+",
+        "motivo": "Dice qué es Control Union; reemplaza la idea de «Equipo técnico experto»."
+       },
+       {
+        "texto": "Auditores GMP+ en España",
+        "motivo": "Norma más país."
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos GMP+ FSA y FRA en toda la cadena de alimentación animal en España.",
+        "motivo": "«Acompañamiento total» es vocabulario de Peterson; Control Union certifica. Los dos módulos (FSA y FRA) los nombra la página de GMP+ del sitio.",
+        "prioritario": true,
+        "reemplaza": "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total."
+       },
+       {
+        "texto": "Renueva o transfiere tu certificado GMP+ con Control Union. Escríbenos y coordinamos.",
+        "motivo": "«Contactanos» es voseo y «te guiamos paso a paso» es de consultora.",
+        "prioritario": true,
+        "reemplaza": "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso."
+       }
+      ],
+      "quitar": [
+       {
+        "texto": "Pedí presupuesto hoy",
+        "motivo": "«Pedí» es voseo rioplatense en un anuncio para España."
+       },
+       {
+        "texto": "Transferí tu GMP+ fácil",
+        "motivo": "«Transferí» es voseo; se mantiene la idea del cambio de certificadora."
+       },
+       {
+        "texto": "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total.",
+        "motivo": "«Acompañamiento total» es vocabulario de Peterson; Control Union certifica. Los dos módulos (FSA y FRA) los nombra la página de GMP+ del sitio."
+       },
+       {
+        "texto": "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso.",
+        "motivo": "«Contactanos» es voseo y «te guiamos paso a paso» es de consultora."
+       }
+      ]
+     },
+     {
+      "anuncio_id": "817970220947",
+      "anuncio_desc": "fuerza Pobre, 0 clics (10 impresiones) del 1 sep – 20 oct 2026",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/gmp/",
+      "gasto_ars": 0,
+      "clics": 0,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación GMP+",
+       "Auditoría GMP+",
+       "Control Union GMP+",
+       "Expertos en esquema GMP+",
+       "Pedí presupuesto hoy",
+       "Equipo técnico experto",
+       "Transferí tu GMP+ fácil",
+       "Certificación para feed"
+      ],
+      "descripciones_hoy": [
+       "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total.",
+       "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso."
+      ],
+      "accion": "Ajustar",
+      "motivo": "Voseo («Pedí», «Transferí», «Contactanos») en un anuncio para España y vocabulario de Peterson («acompañamiento total», «te guiamos paso a paso»).",
+      "grupo": "Feed Safety",
+      "titulos_propuestos": [
+       {
+        "texto": "Solicita Tu Presupuesto",
+        "motivo": "«Pedí» es voseo rioplatense en un anuncio para España.",
+        "prioritario": true,
+        "reemplaza": "Pedí presupuesto hoy"
+       },
+       {
+        "texto": "Transfiere Tu GMP+",
+        "motivo": "«Transferí» es voseo; se mantiene la idea del cambio de certificadora.",
+        "prioritario": true,
+        "reemplaza": "Transferí tu GMP+ fácil"
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos GMP+ FSA y FRA en toda la cadena de alimentación animal en España.",
+        "motivo": "«Acompañamiento total» es vocabulario de Peterson; Control Union certifica. Los dos módulos (FSA y FRA) los nombra la página de GMP+ del sitio.",
+        "prioritario": true,
+        "reemplaza": "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total."
+       },
+       {
+        "texto": "Renueva o transfiere tu certificado GMP+ con Control Union. Escríbenos y coordinamos.",
+        "motivo": "«Contactanos» es voseo y «te guiamos paso a paso» es de consultora.",
+        "prioritario": true,
+        "reemplaza": "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso."
+       }
+      ],
+      "quitar": [
+       {
+        "texto": "Pedí presupuesto hoy",
+        "motivo": "«Pedí» es voseo rioplatense en un anuncio para España."
+       },
+       {
+        "texto": "Transferí tu GMP+ fácil",
+        "motivo": "«Transferí» es voseo; se mantiene la idea del cambio de certificadora."
+       },
+       {
+        "texto": "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total.",
+        "motivo": "«Acompañamiento total» es vocabulario de Peterson; Control Union certifica. Los dos módulos (FSA y FRA) los nombra la página de GMP+ del sitio."
+       },
+       {
+        "texto": "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso.",
+        "motivo": "«Contactanos» es voseo y «te guiamos paso a paso» es de consultora."
+       }
+      ]
+     },
+     {
+      "anuncio_id": "817970220950",
+      "anuncio_desc": "fuerza Promedio, 0 clics (0 impresiones) del 1 sep – 20 oct 2026",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/gmp/",
+      "gasto_ars": 0,
+      "clics": 0,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación GMP+",
+       "Auditoría GMP+",
+       "Control Union GMP+",
+       "Expertos en esquema GMP+",
+       "Pedí presupuesto hoy",
+       "Equipo técnico experto",
+       "Transferí tu GMP+ fácil",
+       "Certificación para feed",
+       "Renovación gmp+"
+      ],
+      "descripciones_hoy": [
+       "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total.",
+       "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso."
+      ],
+      "accion": "Ajustar",
+      "motivo": "Voseo («Pedí», «Transferí», «Contactanos») en un anuncio para España y vocabulario de Peterson («acompañamiento total», «te guiamos paso a paso»).",
+      "grupo": "Renovación / Transferencia",
+      "titulos_propuestos": [
+       {
+        "texto": "Solicita Tu Presupuesto",
+        "motivo": "«Pedí» es voseo rioplatense en un anuncio para España.",
+        "prioritario": true,
+        "reemplaza": "Pedí presupuesto hoy"
+       },
+       {
+        "texto": "Transfiere Tu GMP+",
+        "motivo": "«Transferí» es voseo; se mantiene la idea del cambio de certificadora.",
+        "prioritario": true,
+        "reemplaza": "Transferí tu GMP+ fácil"
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos GMP+ FSA y FRA en toda la cadena de alimentación animal en España.",
+        "motivo": "«Acompañamiento total» es vocabulario de Peterson; Control Union certifica. Los dos módulos (FSA y FRA) los nombra la página de GMP+ del sitio.",
+        "prioritario": true,
+        "reemplaza": "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total."
+       },
+       {
+        "texto": "Renueva o transfiere tu certificado GMP+ con Control Union. Escríbenos y coordinamos.",
+        "motivo": "«Contactanos» es voseo y «te guiamos paso a paso» es de consultora.",
+        "prioritario": true,
+        "reemplaza": "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso."
+       }
+      ],
+      "quitar": [
+       {
+        "texto": "Pedí presupuesto hoy",
+        "motivo": "«Pedí» es voseo rioplatense en un anuncio para España."
+       },
+       {
+        "texto": "Transferí tu GMP+ fácil",
+        "motivo": "«Transferí» es voseo; se mantiene la idea del cambio de certificadora."
+       },
+       {
+        "texto": "Certificación GMP+ con equipo técnico experto. Propuesta rápida y acompañamiento total.",
+        "motivo": "«Acompañamiento total» es vocabulario de Peterson; Control Union certifica. Los dos módulos (FSA y FRA) los nombra la página de GMP+ del sitio."
+       },
+       {
+        "texto": "Renovación o transferencia GMP+ sin fricción. Contactanos y te guiamos paso a paso.",
+        "motivo": "«Contactanos» es voseo y «te guiamos paso a paso» es de consultora."
+       }
+      ]
+     }
+    ],
+    "keywords": [
+     {
+      "texto": "gmp+",
+      "concordancia": "exacta",
+      "grupo": "Certificación",
+      "accion": "agregar",
+      "motivo": "La búsqueda principal: 1.136 impresiones orgánicas desde España (posición 6,2), el 60% de toda la demanda de GMP+ del sitio. Hoy no hay keyword que la compre."
+     },
+     {
+      "texto": "certificado gmp+",
+      "concordancia": "exacta",
+      "grupo": "Certificación",
+      "accion": "agregar",
+      "motivo": "«certificado gmp+»: 6 impresiones pagas en el período y 26 orgánicas (posición 6,8)."
+     },
+     {
+      "texto": "iso gmp+",
+      "concordancia": "exacta",
+      "grupo": "Certificación",
+      "accion": "agregar",
+      "motivo": "237 impresiones orgánicas desde España (posición 8,2): lo buscan mezclando ISO con GMP+."
+     },
+     {
+      "texto": "gmp plus",
+      "concordancia": "exacta",
+      "grupo": "Certificación",
+      "accion": "agregar",
+      "motivo": "Grafía sin «+»: 21 impresiones orgánicas (posición 11,8)."
+     },
+     {
+      "texto": "certificacion gmp españa",
+      "concordancia": "exacta",
+      "grupo": "Certificación",
+      "accion": "agregar",
+      "motivo": "52 impresiones orgánicas (posición 10,4), y Google las manda a la página de GMP+. Confirmar en 30 días que no traiga GMP farmacéutico."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "que es",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«gmp+ que es»: 9 impresiones en el período. La negativa vigente «qué es» lleva tilde y no la cubre."
+     },
+     {
+      "texto": "database",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«gmp+ database», «gmp+ company database»: buscan el registro de empresas de GMP+ International."
+     },
+     {
+      "texto": "companies",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«gmp+ certified companies» (7 impresiones): mismo registro."
+     },
+     {
+      "texto": "lijst",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«gmp+ producten lijst» (2 impresiones): listado en neerlandés."
+     },
+     {
+      "texto": "consultoria",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "En orgánico «consultoria gmp+» (10 impresiones): buscan consultor, servicio que Control Union no da."
+     }
+    ],
+    "negativas_decision": "Sí: «que es» sin tilde (la vigente con tilde no la cubre) y 3 de listados de empresas; «consultoria» opcional. No se negativiza «fra»: GMP+ FRA es un módulo que Control Union certifica.",
+    "organico": [
+     {
+      "query": "gmp+",
+      "impr": 1136,
+      "pos": 6.2
+     },
+     {
+      "query": "iso gmp+",
+      "impr": 237,
+      "pos": 8.2
+     },
+     {
+      "query": "certificación gmp+",
+      "impr": 131,
+      "pos": 7.0
+     },
+     {
+      "query": "certificado gmp españa",
+      "impr": 55,
+      "pos": 12.5
+     },
+     {
+      "query": "certificacion gmp españa",
+      "impr": 52,
+      "pos": 10.4
+     },
+     {
+      "query": "gmp+ certification",
+      "impr": 49,
+      "pos": 5.4
+     },
+     {
+      "query": "certificado gmp+",
+      "impr": 26,
+      "pos": 6.8
+     },
+     {
+      "query": "gmp plus",
+      "impr": 21,
+      "pos": 11.8
+     }
+    ],
+    "organico_desde": "España",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026; Search Console 3 mar – 14 sep 2026"
+   }
+  },
+  {
+   "clave": "CU:SEM:anuncio:cu-espana-bioenergia:iscc",
+   "marca": "CU",
+   "campana": "CU España - Bioenergia - Search",
+   "grupo": "ISCC",
+   "titulo": "CU España - Bioenergia: el único anuncio está desaprobado; abrir el grupo ISCC PLUS y cambiar «iscc certificate» (calidad 1, 60% del gasto)",
+   "detalle": "El anuncio id 817970230787 figura desaprobado el 21 oct y es el único de la campaña: primero ver el motivo en Google Ads. Después, separar ISCC PLUS en su grupo con su página (de ahí vinieron las 2 conversiones), reemplazar la amplia «iscc certificate» (nivel de calidad 1, ARS 66.186) por exactas, sumar negativas de navegación y sacar «prepara tu certificación» del anuncio.",
+   "prioridad": "alta",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "España",
+    "campana": "CU España - Bioenergia - Search",
+    "acciones": [
+     "revisar",
+     "estructura",
+     "keywords",
+     "pausa",
+     "negativas",
+     "anuncio"
+    ],
+    "resumen": "Volver a publicar la campaña y separar ISCC EU de ISCC PLUS, cada uno con su página.",
+    "por_que": "1 sep – 20 oct 2026: 55 clics, 665 impresiones, ARS 109.750 y 2 conversiones (las dos por la keyword «iscc plus»); CPC medio ARS 1.995. «iscc certificate» (amplia, nivel de calidad 1) se lleva ARS 66.186 sin conversiones. Todas las búsquedas van a la página de ISCC EU, pero en orgánico la página de ISCC PLUS tiene 3.813 impresiones y la de ISCC EU 1.460 (Search Console, 3 mar – 14 sep 2026). El anuncio pasó de aprobado (30 sep) a desaprobado (21 oct) sin cambios de texto.",
+    "ya_hecho": "Nada de lo propuesto en septiembre: anuncio, keywords y negativas iguales que el 25 sep. Lo nuevo es la desaprobación. Corrección a septiembre: «iscc» no «desapareció» del orgánico; desde España tiene 1.876 impresiones en posición 7,2 entre el 3 mar y el 14 sep.",
+    "pasos": [
+     {
+      "accion": "revisar",
+      "titulo": "Resolver la desaprobación del anuncio",
+      "donde": "CU España - Bioenergia - Search › grupo «ISCC» · anuncio id 817970230787",
+      "detalle": "Es el único anuncio de la campaña y figura «Desaprobado» en la estructura del 21 oct (el 30 sep estaba aprobado, con el mismo texto). Sin anuncio aprobado la campaña no sale. El motivo no viene en los datos de la API: hay que verlo en Google Ads.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Qué política marca Google Ads en el anuncio id 817970230787?",
+        "destino": "Anuncio id 817970230787 · grupo «ISCC»",
+        "prioritario": true,
+        "motivo": "Google Ads › Anuncios › columna Estado › ver el motivo. Si es «Marca comercial» (ISCC en el texto): pedir revisión o la autorización de ISCC System, y mientras tanto publicar el anuncio corregido del paso 5. Si es «Destino no funciona»: abrir https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/ y avisar a la web. Si es otra: anotarla y apelar. Último dato diario: 18 oct, ARS 4.520 gastados."
+       }
+      ]
+     },
+     {
+      "accion": "estructura",
+      "titulo": "Crear el grupo «ISCC PLUS»",
+      "donde": "CU España - Bioenergia - Search › grupo nuevo «ISCC PLUS»",
+      "detalle": "ISCC PLUS tiene su página y es la que más se ve en orgánico; hoy sus búsquedas llegan a la página de ISCC EU. Las 2 conversiones de la campaña vinieron por la keyword «iscc plus». Crear el grupo con URL final https://espana.controlunion.com/programa-de-certificacion/iscc-plus/, cargarle las 3 keywords y el anuncio, y pausar en el grupo «ISCC» las 3 keywords de PLUS.",
+      "items": [
+       {
+        "accion": "crear",
+        "tipo": "grupo",
+        "texto": "ISCC PLUS",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "URL final: https://espana.controlunion.com/programa-de-certificacion/iscc-plus/ (bioplásticos, residuos plásticos, químicos, alimentos y piensos). En Search Console tiene 3.813 impresiones del 3 mar al 14 sep 2026, contra 1.460 de la página de ISCC EU."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iscc plus",
+        "concordancia": "exacta",
+        "destino": "Grupo «ISCC PLUS»",
+        "motivo": "«iscc plus»: 41 impresiones, 5 clics, ARS 11.721 en el período; en orgánico 444 impresiones desde España, posición 7,6.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iscc plus",
+        "concordancia": "frase",
+        "destino": "Grupo «ISCC PLUS»",
+        "motivo": "Cubre «iscc plus certificacion» (9), «iscc plus certification» (4) e «iscc plus mass balance». Reemplaza a la amplia, que hizo las 2 conversiones de la campaña (103 impresiones, 8 clics, ARS 19.355).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificacion iscc plus",
+        "concordancia": "exacta",
+        "destino": "Grupo «ISCC PLUS»",
+        "motivo": "«certificación iscc plus»: 5 impresiones pagas; 34 orgánicas en posición 3,7.",
+        "prioritario": true
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "iscc plus",
+        "concordancia": "amplia",
+        "destino": "Grupo «ISCC»",
+        "motivo": "Se reemplaza por la exacta y la frase del grupo nuevo (una keyword no se mueve de grupo: se crea la nueva y se pausa la vieja).",
+        "prioritario": true
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "iscc plus certificacion",
+        "concordancia": "exacta",
+        "destino": "Grupo «ISCC»",
+        "motivo": "35 impresiones, 0 clics: pasa a cubrirla la frase del grupo nuevo.",
+        "prioritario": true
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "iscc plus certificacion",
+        "concordancia": "frase",
+        "destino": "Grupo «ISCC»",
+        "motivo": "0 impresiones: la cubre la frase del grupo nuevo.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificación ISCC PLUS",
+        "destino": "Anuncio nuevo · grupo «ISCC PLUS»",
+        "prioritario": true,
+        "motivo": "Repite la búsqueda («iscc plus», ARS 11.721)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificado ISCC PLUS",
+        "destino": "Anuncio nuevo · grupo «ISCC PLUS»",
+        "prioritario": true,
+        "motivo": "Variante con «certificado»."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificamos ISCC PLUS",
+        "destino": "Anuncio nuevo · grupo «ISCC PLUS»",
+        "opcional": true,
+        "motivo": "El verbo de Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "ISCC PLUS Balance de Masas",
+        "destino": "Anuncio nuevo · grupo «ISCC PLUS»",
+        "opcional": true,
+        "motivo": "«iscc plus mass balance» en términos pagos."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "ISCC PLUS Plásticos y Químicos",
+        "destino": "Anuncio nuevo · grupo «ISCC PLUS»",
+        "opcional": true,
+        "motivo": "Los mercados que nombra la página; «envase iscc plus» tiene 64 impresiones orgánicas."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Organismo Certificador",
+        "destino": "Anuncio nuevo · grupo «ISCC PLUS»",
+        "opcional": true,
+        "motivo": "Dice qué es Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union España",
+        "destino": "Anuncio nuevo · grupo «ISCC PLUS»",
+        "opcional": true,
+        "motivo": "Marca."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Certificamos ISCC PLUS para bioplásticos, residuos plásticos y químicos circulares.",
+        "destino": "Anuncio nuevo · grupo «ISCC PLUS»",
+        "prioritario": true,
+        "motivo": "Alcance tal como lo describe la página de ISCC PLUS."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "ISCC PLUS con balance de masas: trazabilidad de la materia prima a tu producto.",
+        "destino": "Anuncio nuevo · grupo «ISCC PLUS»",
+        "prioritario": true,
+        "motivo": "El argumento técnico por el que se pide."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Más de 100 años certificando. Presencia en más de 80 países.",
+        "destino": "Anuncio nuevo · grupo «ISCC PLUS»",
+        "opcional": true,
+        "motivo": "Respaldo."
+       }
+      ]
+     },
+     {
+      "accion": "pausa",
+      "titulo": "Cambiar «iscc certificate» (amplia, calidad 1) por exactas",
+      "donde": "CU España - Bioenergia - Search › grupo «ISCC»",
+      "detalle": "La amplia «iscc certificate» tiene nivel de calidad 1 y se lleva el 60% del gasto sin conversiones; trae sobre todo «iscc» a secas y búsquedas del registro de certificados. Se compran en exacta las búsquedas que valen.",
+      "items": [
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "iscc certificate",
+        "concordancia": "amplia",
+        "destino": "Grupo «ISCC»",
+        "motivo": "Nivel de calidad 1. 352 impresiones, 33 clics, ARS 66.186 (60% de la campaña), 0 conversiones. Términos: «iscc» (18 clics, ARS 35.624), «iscc certificates» (6 clics, ARS 10.519), «iscc database» (ARS 3.782), «iscc system» (ARS 2.122), «iscc certification bodies» (ARS 1.839).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iscc",
+        "concordancia": "exacta",
+        "destino": "Grupo «ISCC»",
+        "motivo": "Era el término principal de la amplia (135 impresiones, 18 clics, ARS 35.624). En exacta se sigue comprando sin las variantes; en orgánico, 1.876 impresiones desde España, posición 7,2.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificado iscc",
+        "concordancia": "exacta",
+        "destino": "Grupo «ISCC»",
+        "motivo": "26 impresiones y 1 clic (ARS 1.961) entrando por tres keywords; 78 orgánicas, posición 10,1.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iscc eu",
+        "concordancia": "exacta",
+        "destino": "Grupo «ISCC»",
+        "motivo": "«iscc eu»: 10 impresiones, 1 clic (ARS 1.850); 161 orgánicas, posición 8,3. Es la norma de la página de destino.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iscc certification",
+        "concordancia": "exacta",
+        "destino": "Grupo «ISCC»",
+        "motivo": "4 impresiones, 1 clic (ARS 2.731).",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 9 negativas de campaña y 1 de grupo",
+      "donde": "CU España - Bioenergia - Search › toda la campaña (9) y grupo «ISCC» (1)",
+      "detalle": "Navegación al sitio de ISCC System y búsquedas de definición. La de grupo manda PLUS a su grupo.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que es",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«iscc que es» (11 impresiones), «que es iscc» (9).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "database",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iscc database»: 1 clic, ARS 3.782. Buscan el registro de certificados de ISCC.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "system",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iscc system» (1 clic, ARS 2.122), «iscc system gmbh» (4), «www iscc system org»: es el dueño del esquema.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "hub",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iscc hub» (7 impresiones): plataforma de ISCC.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "website",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iscc website» (3 impresiones).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "valid",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iscc valid certificates» (3 impresiones): consulta de certificados vigentes.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "training",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iscc eu training» (2 impresiones): formación.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "checklist",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iscc checklist».",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "guidance",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iscc mass balance guidance».",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "plus",
+        "concordancia": "amplia",
+        "destino": "Grupo «ISCC»",
+        "motivo": "Para que ISCC PLUS vaya a su grupo y no a la página de ISCC EU.",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Ajustar el anuncio de ISCC (EU)",
+      "donde": "CU España - Bioenergia - Search › grupo «ISCC» · anuncio id 817970230787",
+      "detalle": "Con PLUS en su grupo, este anuncio queda para ISCC EU. Se saca «prepara tu certificación» (vocabulario de Peterson). Queda con 13 títulos y 4 descripciones.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Certificación ISCC EU",
+        "destino": "Anuncio id 817970230787 · grupo «ISCC»",
+        "reemplaza": "ISCC EU E ISCC Plus",
+        "prioritario": true,
+        "motivo": "Con ISCC PLUS en su grupo, este anuncio es de ISCC EU: «certificacion iscc eu» (exacta) 36 impresiones, 3 clics, ARS 7.136."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificado ISCC",
+        "destino": "Anuncio id 817970230787 · grupo «ISCC»",
+        "prioritario": true,
+        "motivo": "«certificado iscc»: 26 impresiones pagas y 78 orgánicas."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificamos ISCC EU",
+        "destino": "Anuncio id 817970230787 · grupo «ISCC»",
+        "opcional": true,
+        "motivo": "El verbo de Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Auditoría ISCC en España",
+        "destino": "Anuncio id 817970230787 · grupo «ISCC»",
+        "opcional": true,
+        "motivo": "Norma más país."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Organismo Certificador ISCC",
+        "destino": "Anuncio id 817970230787 · grupo «ISCC»",
+        "opcional": true,
+        "motivo": "Dice qué es Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union España",
+        "destino": "Anuncio id 817970230787 · grupo «ISCC»",
+        "opcional": true,
+        "motivo": "Marca."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Cumplimiento RED III",
+        "destino": "Anuncio id 817970230787 · grupo «ISCC»",
+        "opcional": true,
+        "motivo": "ISCC EU es el esquema voluntario de la directiva de renovables; confirmar con la unidad que el alcance acreditado cubre RED III antes de publicarlo."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos ISCC EU para biomasa, biocombustibles y materias primas sostenibles.",
+        "destino": "Anuncio id 817970230787 · grupo «ISCC»",
+        "reemplaza": "Habla con un experto y prepara tu certificación ISCC EU o ISCC Plus.",
+        "prioritario": true,
+        "motivo": "«Prepara tu certificación» es vocabulario de Peterson; Control Union certifica."
+       }
+      ]
+     }
+    ],
+    "anuncios": [
+     {
+      "anuncio_id": "817970230787",
+      "anuncio_desc": "fuerza Promedio, DESAPROBADO al 21 oct; 55 clics y ARS 109.750 del 1 sep – 20 oct 2026",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+      "gasto_ars": 109750,
+      "clics": 55,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación ISCC",
+       "Auditoría ISCC",
+       "ISCC EU E ISCC Plus",
+       "Bioenergía Sostenible",
+       "Trazabilidad Biomasa",
+       "ISCC España",
+       "Solicita Información"
+      ],
+      "descripciones_hoy": [
+       "Certificación ISCC para biomasa, biocombustibles y cadenas sostenibles.",
+       "Demuestra trazabilidad y cumplimiento con auditorías de Control Union.",
+       "Habla con un experto y prepara tu certificación ISCC EU o ISCC Plus.",
+       "Habla con Control Union para definir alcance, tiempos y próximos pasos."
+      ],
+      "accion": "Ajustar",
+      "motivo": "Desaprobado al 21 oct (motivo a ver en Google Ads). Además dice «prepara tu certificación» (Peterson) y mezcla ISCC EU e ISCC PLUS, que van a grupos distintos.",
+      "terminos": [
+       {
+        "termino": "iscc",
+        "relacion": "fuerte",
+        "coste": 35624,
+        "clics": 18
+       },
+       {
+        "termino": "iscc plus",
+        "relacion": "parcial",
+        "coste": 11721,
+        "clics": 5
+       },
+       {
+        "termino": "iscc certificates",
+        "relacion": "parcial",
+        "coste": 10519,
+        "clics": 6
+       },
+       {
+        "termino": "iscc database",
+        "relacion": "nula",
+        "coste": 3782,
+        "clics": 1
+       },
+       {
+        "termino": "certificacion iscc",
+        "relacion": "fuerte",
+        "coste": 3416,
+        "clics": 3
+       }
+      ],
+      "grupo": "ISCC",
+      "titulos_propuestos": [
+       {
+        "texto": "Certificación ISCC EU",
+        "motivo": "Con ISCC PLUS en su grupo, este anuncio es de ISCC EU: «certificacion iscc eu» (exacta) 36 impresiones, 3 clics, ARS 7.136.",
+        "prioritario": true,
+        "reemplaza": "ISCC EU E ISCC Plus"
+       },
+       {
+        "texto": "Certificado ISCC",
+        "motivo": "«certificado iscc»: 26 impresiones pagas y 78 orgánicas.",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificamos ISCC EU",
+        "motivo": "El verbo de Control Union."
+       },
+       {
+        "texto": "Auditoría ISCC en España",
+        "motivo": "Norma más país."
+       },
+       {
+        "texto": "Organismo Certificador ISCC",
+        "motivo": "Dice qué es Control Union."
+       },
+       {
+        "texto": "Control Union España",
+        "motivo": "Marca."
+       },
+       {
+        "texto": "Cumplimiento RED III",
+        "motivo": "ISCC EU es el esquema voluntario de la directiva de renovables; confirmar con la unidad que el alcance acreditado cubre RED III antes de publicarlo."
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos ISCC EU para biomasa, biocombustibles y materias primas sostenibles.",
+        "motivo": "«Prepara tu certificación» es vocabulario de Peterson; Control Union certifica.",
+        "prioritario": true,
+        "reemplaza": "Habla con un experto y prepara tu certificación ISCC EU o ISCC Plus."
+       }
+      ],
+      "quitar": [
+       {
+        "texto": "ISCC EU E ISCC Plus",
+        "motivo": "Con ISCC PLUS en su grupo, este anuncio es de ISCC EU: «certificacion iscc eu» (exacta) 36 impresiones, 3 clics, ARS 7.136."
+       },
+       {
+        "texto": "Habla con un experto y prepara tu certificación ISCC EU o ISCC Plus.",
+        "motivo": "«Prepara tu certificación» es vocabulario de Peterson; Control Union certifica."
+       }
+      ]
+     },
+     {
+      "accion": "Anuncio nuevo",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/iscc-plus/",
+      "motivo": "El grupo nuevo necesita su anuncio, con ISCC PLUS en los títulos y su página de destino.",
+      "grupo": "ISCC PLUS",
+      "titulos_propuestos": [
+       {
+        "texto": "Certificación ISCC PLUS",
+        "motivo": "Repite la búsqueda («iscc plus», ARS 11.721).",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificado ISCC PLUS",
+        "motivo": "Variante con «certificado».",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificamos ISCC PLUS",
+        "motivo": "El verbo de Control Union."
+       },
+       {
+        "texto": "ISCC PLUS Balance de Masas",
+        "motivo": "«iscc plus mass balance» en términos pagos."
+       },
+       {
+        "texto": "ISCC PLUS Plásticos y Químicos",
+        "motivo": "Los mercados que nombra la página; «envase iscc plus» tiene 64 impresiones orgánicas."
+       },
+       {
+        "texto": "Organismo Certificador",
+        "motivo": "Dice qué es Control Union."
+       },
+       {
+        "texto": "Control Union España",
+        "motivo": "Marca."
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos ISCC PLUS para bioplásticos, residuos plásticos y químicos circulares.",
+        "motivo": "Alcance tal como lo describe la página de ISCC PLUS.",
+        "prioritario": true
+       },
+       {
+        "texto": "ISCC PLUS con balance de masas: trazabilidad de la materia prima a tu producto.",
+        "motivo": "El argumento técnico por el que se pide.",
+        "prioritario": true
+       },
+       {
+        "texto": "Más de 100 años certificando. Presencia en más de 80 países.",
+        "motivo": "Respaldo."
+       }
+      ]
+     }
+    ],
+    "keywords": [
+     {
+      "texto": "iscc plus",
+      "concordancia": "exacta",
+      "grupo": "ISCC PLUS",
+      "accion": "agregar",
+      "motivo": "«iscc plus»: 41 impresiones, 5 clics, ARS 11.721 en el período; en orgánico 444 impresiones desde España, posición 7,6."
+     },
+     {
+      "texto": "iscc plus",
+      "concordancia": "frase",
+      "grupo": "ISCC PLUS",
+      "accion": "agregar",
+      "motivo": "Cubre «iscc plus certificacion» (9), «iscc plus certification» (4) e «iscc plus mass balance». Reemplaza a la amplia, que hizo las 2 conversiones de la campaña (103 impresiones, 8 clics, ARS 19.355)."
+     },
+     {
+      "texto": "certificacion iscc plus",
+      "concordancia": "exacta",
+      "grupo": "ISCC PLUS",
+      "accion": "agregar",
+      "motivo": "«certificación iscc plus»: 5 impresiones pagas; 34 orgánicas en posición 3,7."
+     },
+     {
+      "texto": "iscc plus",
+      "concordancia": "amplia",
+      "grupo": "ISCC",
+      "accion": "pausar",
+      "motivo": "Se reemplaza por la exacta y la frase del grupo nuevo (una keyword no se mueve de grupo: se crea la nueva y se pausa la vieja)."
+     },
+     {
+      "texto": "iscc plus certificacion",
+      "concordancia": "exacta",
+      "grupo": "ISCC",
+      "accion": "pausar",
+      "motivo": "35 impresiones, 0 clics: pasa a cubrirla la frase del grupo nuevo."
+     },
+     {
+      "texto": "iscc plus certificacion",
+      "concordancia": "frase",
+      "grupo": "ISCC",
+      "accion": "pausar",
+      "motivo": "0 impresiones: la cubre la frase del grupo nuevo."
+     },
+     {
+      "texto": "iscc certificate",
+      "concordancia": "amplia",
+      "grupo": "ISCC",
+      "accion": "pausar",
+      "motivo": "Nivel de calidad 1. 352 impresiones, 33 clics, ARS 66.186 (60% de la campaña), 0 conversiones. Términos: «iscc» (18 clics, ARS 35.624), «iscc certificates» (6 clics, ARS 10.519), «iscc database» (ARS 3.782), «iscc system» (ARS 2.122), «iscc certification bodies» (ARS 1.839)."
+     },
+     {
+      "texto": "iscc",
+      "concordancia": "exacta",
+      "grupo": "ISCC",
+      "accion": "agregar",
+      "motivo": "Era el término principal de la amplia (135 impresiones, 18 clics, ARS 35.624). En exacta se sigue comprando sin las variantes; en orgánico, 1.876 impresiones desde España, posición 7,2."
+     },
+     {
+      "texto": "certificado iscc",
+      "concordancia": "exacta",
+      "grupo": "ISCC",
+      "accion": "agregar",
+      "motivo": "26 impresiones y 1 clic (ARS 1.961) entrando por tres keywords; 78 orgánicas, posición 10,1."
+     },
+     {
+      "texto": "iscc eu",
+      "concordancia": "exacta",
+      "grupo": "ISCC",
+      "accion": "agregar",
+      "motivo": "«iscc eu»: 10 impresiones, 1 clic (ARS 1.850); 161 orgánicas, posición 8,3. Es la norma de la página de destino."
+     },
+     {
+      "texto": "iscc certification",
+      "concordancia": "exacta",
+      "grupo": "ISCC",
+      "accion": "agregar",
+      "motivo": "4 impresiones, 1 clic (ARS 2.731)."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "que es",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«iscc que es» (11 impresiones), «que es iscc» (9)."
+     },
+     {
+      "texto": "database",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iscc database»: 1 clic, ARS 3.782. Buscan el registro de certificados de ISCC."
+     },
+     {
+      "texto": "system",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iscc system» (1 clic, ARS 2.122), «iscc system gmbh» (4), «www iscc system org»: es el dueño del esquema."
+     },
+     {
+      "texto": "hub",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iscc hub» (7 impresiones): plataforma de ISCC."
+     },
+     {
+      "texto": "website",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iscc website» (3 impresiones)."
+     },
+     {
+      "texto": "valid",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iscc valid certificates» (3 impresiones): consulta de certificados vigentes."
+     },
+     {
+      "texto": "training",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iscc eu training» (2 impresiones): formación."
+     },
+     {
+      "texto": "checklist",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iscc checklist»."
+     },
+     {
+      "texto": "guidance",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iscc mass balance guidance»."
+     },
+     {
+      "texto": "plus",
+      "concordancia": "amplia",
+      "nivel": "grupo",
+      "motivo": "Para que ISCC PLUS vaya a su grupo y no a la página de ISCC EU.",
+      "grupo": "ISCC"
+     }
+    ],
+    "negativas_decision": "Sí: 9 de campaña (definición, navegación al sitio y al registro de ISCC System, formación) y «plus» en el grupo «ISCC» para separar PLUS. No se negativiza «certificates»: «iscc certificates» mezcla gente que busca el registro con gente que necesita el certificado; con la amplia pausada deja de entrar igual.",
+    "organico": [
+     {
+      "query": "iscc",
+      "impr": 1876,
+      "pos": 7.2
+     },
+     {
+      "query": "iscc plus",
+      "impr": 444,
+      "pos": 7.6
+     },
+     {
+      "query": "iscc eu",
+      "impr": 161,
+      "pos": 8.3
+     },
+     {
+      "query": "certificados iscc",
+      "impr": 121,
+      "pos": 14.2
+     },
+     {
+      "query": "certificacion iscc",
+      "impr": 91,
+      "pos": 22.0
+     },
+     {
+      "query": "certificado iscc",
+      "impr": 78,
+      "pos": 10.1
+     },
+     {
+      "query": "envase iscc plus",
+      "impr": 64,
+      "pos": 19.4
+     },
+     {
+      "query": "certificación iscc plus",
+      "impr": 34,
+      "pos": 3.7
+     }
+    ],
+    "organico_desde": "España",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026; Search Console 3 mar – 14 sep 2026"
+   }
+  },
+  {
+   "clave": "CU:SEM:anuncio:cu-espana-plasticos:recyclass",
+   "marca": "CU",
+   "campana": "CU España - Plasticos - Search",
+   "grupo": "RecyClass",
+   "titulo": "CU España - Plasticos: el anuncio de UNE 15343 está desaprobado y la campaña no gastó del 16 al 18 oct; corregir los 2 anuncios",
+   "detalle": "Es la campaña con más conversiones del lote (3, por ARS 89.511) y el 21 oct tenía el anuncio de UNE 15343 desaprobado; además no gastó nada del 16 al 18 oct. Primero ver el motivo en Google Ads. Después, sacar «Prepara Tu Auditoría», «recibe orientación» y «acompaña» de los dos anuncios y sumar en RecyClass las variantes que se buscan.",
+   "prioridad": "alta",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "España",
+    "campana": "CU España - Plasticos - Search",
+    "acciones": [
+     "revisar",
+     "anuncio",
+     "negativas"
+    ],
+    "resumen": "Volver a publicar UNE 15343 y que los dos anuncios hablen como certificador.",
+    "por_que": "1 sep – 20 oct 2026: 41 clics, 548 impresiones, ARS 89.511 y 3 conversiones (2 en RecyClass por «recyclass certification», 1 en UNE 15343 por «une 15343»). Gasto diario en cero del 16 al 18 oct. El anuncio de UNE 15343 pasó de aprobado (30 sep) a desaprobado (21 oct) sin cambios de texto. En orgánico, las variantes de RecyClass suman 4.512 impresiones desde España (Search Console, 3 mar – 14 sep 2026).",
+    "ya_hecho": "Nada: anuncios, keywords y negativas iguales que el 25 sep. De la propuesta de septiembre no se toma quitar «Equipo Auditor Local» (no tiene problema) ni sumar «reutilización» (no hay datos que lo sostengan).",
+    "pasos": [
+     {
+      "accion": "revisar",
+      "titulo": "Resolver la desaprobación del anuncio de UNE 15343",
+      "donde": "CU España - Plasticos - Search › grupo «UNE 15343» · anuncio id 817970230784",
+      "detalle": "Figura «Desaprobado» en la estructura del 21 oct (aprobado el 30 sep, mismo texto). Es el único anuncio del grupo. Además, la campaña entera no gastó nada del 16 al 18 oct (último dato diario), aunque el anuncio de RecyClass sigue aprobado.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Qué política marca Google Ads en el anuncio id 817970230784, y por qué la campaña no gastó del 16 al 18 oct?",
+        "destino": "Anuncio id 817970230784 · grupo «UNE 15343»",
+        "prioritario": true,
+        "motivo": "Google Ads › Anuncios › columna Estado › ver el motivo. Si es el texto: publicar el anuncio corregido del paso 3. Si es «Destino no funciona»: abrir https://espana.controlunion.com/programa-de-certificacion/une-en-15343/ y avisar a la web. Si la campaña sigue en 0 con RecyClass aprobado, revisar en Diagnóstico de la campaña si hay otro bloqueo (pago, programación)."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Ajustar el anuncio de RecyClass",
+      "donde": "CU España - Plasticos - Search › grupo «RecyClass» · anuncio id 817970230781",
+      "detalle": "Es el que convierte (2 conversiones). Se saca «Prepara Tu Auditoría» y «recibe orientación», y se suman las tres variantes que la gente busca en orgánico. Queda con 11 títulos y 4 descripciones.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Certificamos RecyClass",
+        "destino": "Anuncio id 817970230781 · grupo «RecyClass»",
+        "reemplaza": "Prepara Tu Auditoría",
+        "prioritario": true,
+        "motivo": "«Prepara tu auditoría» es servicio de Peterson; Control Union certifica."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "RecyClass Contenido Reciclado",
+        "destino": "Anuncio id 817970230781 · grupo «RecyClass»",
+        "prioritario": true,
+        "motivo": "«certificación recyclass de contenido reciclado»: 567 impresiones orgánicas desde España (posición 7,2)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Reciclabilidad RecyClass",
+        "destino": "Anuncio id 817970230781 · grupo «RecyClass»",
+        "prioritario": true,
+        "motivo": "«certificación de reciclabilidad recyclass»: 542 impresiones orgánicas (posición 7,9)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "RecyClass Proceso de Reciclaje",
+        "destino": "Anuncio id 817970230781 · grupo «RecyClass»",
+        "opcional": true,
+        "motivo": "«recyclass recycling process»: 2 clics, ARS 3.897; en orgánico «certificación recyclass de proceso de reciclaje», 428 impresiones."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union España",
+        "destino": "Anuncio id 817970230781 · grupo «RecyClass»",
+        "opcional": true,
+        "motivo": "Marca."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos RecyClass: reciclabilidad, contenido reciclado y proceso de reciclaje.",
+        "destino": "Anuncio id 817970230781 · grupo «RecyClass»",
+        "reemplaza": "Solicita información y recibe orientación para iniciar tu certificación.",
+        "prioritario": true,
+        "motivo": "«Recibe orientación» suena a consultora; esta nombra los tres alcances que se buscan."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Corregir el anuncio de UNE 15343",
+      "donde": "CU España - Plasticos - Search › grupo «UNE 15343» · anuncio id 817970230784",
+      "detalle": "Dice «Control Union acompaña tu certificación… de principio a fin» (Peterson). Queda con 10 títulos y 4 descripciones.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos la trazabilidad del plástico reciclado según UNE-EN 15343.",
+        "destino": "Anuncio id 817970230784 · grupo «UNE 15343»",
+        "reemplaza": "Control Union acompaña tu certificación UNE-EN 15343 de principio a fin.",
+        "prioritario": true,
+        "motivo": "«Acompaña… de principio a fin» es vocabulario de Peterson; Control Union certifica."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Solicita tu presupuesto de certificación UNE-EN 15343 para plástico reciclado.",
+        "destino": "Anuncio id 817970230784 · grupo «UNE 15343»",
+        "reemplaza": "Solicita información y recibe orientación para iniciar tu proceso de certificación.",
+        "opcional": true,
+        "motivo": "Pedido concreto en lugar de «recibe orientación»."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificamos UNE-EN 15343",
+        "destino": "Anuncio id 817970230784 · grupo «UNE 15343»",
+        "prioritario": true,
+        "motivo": "El verbo de Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificación EN 15343",
+        "destino": "Anuncio id 817970230784 · grupo «UNE 15343»",
+        "opcional": true,
+        "motivo": "«en 15343»: 14 impresiones, 2 clics, ARS 3.243; en orgánico 63 desde España (posición 9,9)."
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 2 negativas de campaña",
+      "donde": "CU España - Plasticos - Search › toda la campaña",
+      "detalle": "Poco volumen: son búsquedas de herramientas y guías gratuitas de RecyClass.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "tool",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«recyclass online tool» (2 impresiones): herramienta gratuita de RecyClass.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "guidelines",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«recyclass guidelines» (1 impresión): guías de diseño.",
+        "opcional": true
+       }
+      ]
+     }
+    ],
+    "anuncios": [
+     {
+      "anuncio_id": "817970230781",
+      "anuncio_desc": "fuerza Promedio, 20 clics, ARS 50.035 y 2 conversiones del 1 sep – 20 oct 2026",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/recyclass/",
+      "gasto_ars": 50035,
+      "clics": 20,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación RecyClass",
+       "RecyClass Para Plásticos",
+       "Auditoría RecyClass",
+       "Trazabilidad Reciclado",
+       "Solicita Certificación",
+       "Prepara Tu Auditoría",
+       "Equipo Auditor Local"
+      ],
+      "descripciones_hoy": [
+       "Certifica contenido reciclado y trazabilidad en productos plásticos con Control Union.",
+       "Auditorías RecyClass para demostrar sostenibilidad y evitar greenwashing.",
+       "Solicita información y recibe orientación para iniciar tu certificación.",
+       "Habla con Control Union para definir alcance, tiempos y próximos pasos."
+      ],
+      "accion": "Ajustar",
+      "motivo": "Relación fuerte con lo que se busca («recyclass», ARS 21.935), pero con «Prepara Tu Auditoría» y «recibe orientación», y sin las tres variantes que se buscan en orgánico (contenido reciclado, reciclabilidad, proceso).",
+      "terminos": [
+       {
+        "termino": "recyclass",
+        "relacion": "fuerte",
+        "coste": 21935,
+        "clics": 7
+       },
+       {
+        "termino": "recy class",
+        "relacion": "fuerte",
+        "coste": 4421,
+        "clics": 1
+       },
+       {
+        "termino": "recyclass recycling process",
+        "relacion": "parcial",
+        "coste": 3897,
+        "clics": 2
+       },
+       {
+        "termino": "recyclass certification",
+        "relacion": "fuerte",
+        "coste": 1649,
+        "clics": 1
+       }
+      ],
+      "grupo": "RecyClass",
+      "titulos_propuestos": [
+       {
+        "texto": "Certificamos RecyClass",
+        "motivo": "«Prepara tu auditoría» es servicio de Peterson; Control Union certifica.",
+        "prioritario": true,
+        "reemplaza": "Prepara Tu Auditoría"
+       },
+       {
+        "texto": "RecyClass Contenido Reciclado",
+        "motivo": "«certificación recyclass de contenido reciclado»: 567 impresiones orgánicas desde España (posición 7,2).",
+        "prioritario": true
+       },
+       {
+        "texto": "Reciclabilidad RecyClass",
+        "motivo": "«certificación de reciclabilidad recyclass»: 542 impresiones orgánicas (posición 7,9).",
+        "prioritario": true
+       },
+       {
+        "texto": "RecyClass Proceso de Reciclaje",
+        "motivo": "«recyclass recycling process»: 2 clics, ARS 3.897; en orgánico «certificación recyclass de proceso de reciclaje», 428 impresiones."
+       },
+       {
+        "texto": "Control Union España",
+        "motivo": "Marca."
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos RecyClass: reciclabilidad, contenido reciclado y proceso de reciclaje.",
+        "motivo": "«Recibe orientación» suena a consultora; esta nombra los tres alcances que se buscan.",
+        "prioritario": true,
+        "reemplaza": "Solicita información y recibe orientación para iniciar tu certificación."
+       }
+      ],
+      "quitar": [
+       {
+        "texto": "Prepara Tu Auditoría",
+        "motivo": "«Prepara tu auditoría» es servicio de Peterson; Control Union certifica."
+       },
+       {
+        "texto": "Solicita información y recibe orientación para iniciar tu certificación.",
+        "motivo": "«Recibe orientación» suena a consultora; esta nombra los tres alcances que se buscan."
+       }
+      ]
+     },
+     {
+      "anuncio_id": "817970230784",
+      "anuncio_desc": "fuerza Promedio, DESAPROBADO al 21 oct; 21 clics, ARS 39.476 y 1 conversión del 1 sep – 20 oct 2026",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/une-en-15343/",
+      "gasto_ars": 39476,
+      "clics": 21,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación UNE 15343",
+       "Plásticos Reciclados",
+       "Auditoría UNE-EN 15343",
+       "Cumple EN 15343",
+       "Solicita Certificación",
+       "Auditoría UNE 15343",
+       "UNE 15343 España",
+       "Solicita Información"
+      ],
+      "descripciones_hoy": [
+       "Certifica procesos de plástico reciclado con auditoría local y alcance internacional.",
+       "Control Union acompaña tu certificación UNE-EN 15343 de principio a fin.",
+       "Solicita información y recibe orientación para iniciar tu proceso de certificación.",
+       "Habla con Control Union para definir alcance, tiempos y próximos pasos."
+      ],
+      "accion": "Ajustar",
+      "motivo": "Desaprobado al 21 oct (motivo a ver en Google Ads) y con «Control Union acompaña tu certificación», vocabulario de Peterson.",
+      "terminos": [
+       {
+        "termino": "une en 15343",
+        "relacion": "fuerte",
+        "coste": 6020,
+        "clics": 3
+       },
+       {
+        "termino": "en 15343",
+        "relacion": "fuerte",
+        "coste": 3243,
+        "clics": 2
+       },
+       {
+        "termino": "une en 15343 certification",
+        "relacion": "fuerte",
+        "coste": 2956,
+        "clics": 1
+       },
+       {
+        "termino": "une en 15343 2008",
+        "relacion": "parcial",
+        "coste": 2707,
+        "clics": 2
+       }
+      ],
+      "grupo": "UNE 15343",
+      "titulos_propuestos": [
+       {
+        "texto": "Certificamos UNE-EN 15343",
+        "motivo": "El verbo de Control Union.",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificación EN 15343",
+        "motivo": "«en 15343»: 14 impresiones, 2 clics, ARS 3.243; en orgánico 63 desde España (posición 9,9)."
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos la trazabilidad del plástico reciclado según UNE-EN 15343.",
+        "motivo": "«Acompaña… de principio a fin» es vocabulario de Peterson; Control Union certifica.",
+        "prioritario": true,
+        "reemplaza": "Control Union acompaña tu certificación UNE-EN 15343 de principio a fin."
+       },
+       {
+        "texto": "Solicita tu presupuesto de certificación UNE-EN 15343 para plástico reciclado.",
+        "motivo": "Pedido concreto en lugar de «recibe orientación».",
+        "reemplaza": "Solicita información y recibe orientación para iniciar tu proceso de certificación."
+       }
+      ],
+      "quitar": [
+       {
+        "texto": "Control Union acompaña tu certificación UNE-EN 15343 de principio a fin.",
+        "motivo": "«Acompaña… de principio a fin» es vocabulario de Peterson; Control Union certifica."
+       },
+       {
+        "texto": "Solicita información y recibe orientación para iniciar tu proceso de certificación.",
+        "motivo": "Pedido concreto en lugar de «recibe orientación»."
+       }
+      ]
+     }
+    ],
+    "keywords": [],
+    "negativas": [
+     {
+      "texto": "tool",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«recyclass online tool» (2 impresiones): herramienta gratuita de RecyClass."
+     },
+     {
+      "texto": "guidelines",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«recyclass guidelines» (1 impresión): guías de diseño."
+     }
+    ],
+    "negativas_decision": "Opcional: «tool» y «guidelines», búsquedas de recursos gratuitos de RecyClass sin clics todavía. No se negativiza «2008»: «une en 15343 2008» (2 clics, ARS 2.707) puede ser alguien que necesita certificar contra esa versión.",
+    "organico": [
+     {
+      "query": "recyclass",
+      "impr": 1108,
+      "pos": 6.0
+     },
+     {
+      "query": "certificación recyclass",
+      "impr": 760,
+      "pos": 6.7
+     },
+     {
+      "query": "certificación recyclass de contenido reciclado",
+      "impr": 567,
+      "pos": 7.2
+     },
+     {
+      "query": "certificación de reciclabilidad recyclass",
+      "impr": 542,
+      "pos": 7.9
+     },
+     {
+      "query": "certificación recyclass para plásticos",
+      "impr": 522,
+      "pos": 8.3
+     },
+     {
+      "query": "certificación recyclass de proceso de reciclaje",
+      "impr": 428,
+      "pos": 29.4
+     },
+     {
+      "query": "une 15343",
+      "impr": 194,
+      "pos": 12.4
+     },
+     {
+      "query": "une-en 15343",
+      "impr": 105,
+      "pos": 7.8
+     }
+    ],
+    "organico_desde": "España",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026; Search Console 3 mar – 14 sep 2026"
+   }
+  },
+  {
+   "clave": "CU:SEM:plan:espana:iso-45001-la-mayor-demanda-sigue-sin-campana",
+   "marca": "CU",
+   "campana": null,
+   "grupo": "Certificación ISO 45001",
+   "titulo": "Crear la campaña ISO 45001 España: ARS 2.268/día, solo España, 9 keywords de certificación y 15 negativas",
+   "detalle": "La página de ISO 45001 es la más vista del sitio de España y no tiene campaña. Se crea una de Búsqueda con ubicación España, Maximizar clics con tope de CPC ARS 1.400, 9 keywords de intención de certificarse y 15 negativas iniciales. Corrección a septiembre: de las 72.363 impresiones orgánicas, solo 14.728 vienen de España.",
+   "prioridad": "media",
+   "unifica": [],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "España",
+    "campanas": [
+     "CU España - ISO 45001 - Search (campaña nueva, a crear)"
+    ],
+    "acciones": [
+     "estructura",
+     "keywords",
+     "negativas",
+     "anuncio",
+     "revisar"
+    ],
+    "resumen": "Comprar en España las búsquedas de certificación ISO 45001, que hoy la página recibe en posición 13 a 35.",
+    "por_que": "Search Console, 3 mar – 14 sep 2026: la página https://espana.controlunion.com/programa-de-certificacion/iso-45001/ tuvo 79.299 impresiones (la más vista del sitio). Las búsquedas de ISO 45001 desde España suman 14.728 impresiones; las de compra están fuera de la primera página: «certificado iso 45001» 1.149 (posición 13,2), «certificacion iso 45001» 936 (22,7), «empresa certificadora iso 45001» 194 (34,3). Modelo: PCU - España - ISO 27001 - Search, 952 clics a ARS 681 de CPC medio en el período.",
+    "ya_hecho": "Nada: no hay campaña de ISO 45001 en la estructura del 21 oct. La campaña de ISO 27001 España tiene «iso 45001» como negativa.",
+    "pasos": [
+     {
+      "accion": "revisar",
+      "titulo": "Confirmar marca y alcance antes de crear",
+      "donde": "Cuenta de Google Ads › campaña nueva",
+      "detalle": "ISO 27001 en España corre como «PCU - España - ISO 27001 - Search» y lleva a espana.controlunion.com; la página de ISO 45001 está en el mismo sitio. Hay que decidir el nombre y confirmar el servicio.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿La campaña va como «CU España - ISO 45001 - Search» o como «PCU - España - ISO 45001 - Search», junto a ISO 27001?",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "Si va con PCU, usar el mismo nombre de cuenta y presupuesto de PCU; el resto de esta tarjeta no cambia. La campaña de ISO 27001 ya tiene «iso 45001» como negativa: no compiten."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Control Union España emite ISO 45001 con acreditación (ENAC u otra)?",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "La página dice «ofrecemos la certificación conforme a la norma ISO 45001» pero no nombra acreditación. Confirmar con la unidad. Si no está acreditada, no usar «acreditada» en los anuncios (los textos de esta tarjeta no la usan)."
+       }
+      ]
+     },
+     {
+      "accion": "estructura",
+      "titulo": "Crear la campaña con esta configuración",
+      "donde": "Cuenta de Google Ads › campaña nueva «CU España - ISO 45001 - Search»",
+      "detalle": "Mismo esquema de oferta y presupuesto que las campañas de CU España y que ISO 27001 España.",
+      "items": [
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "Tipo: Búsqueda. Redes: solo Búsqueda de Google (sin socios de búsqueda ni Display).",
+        "destino": "Configuración de la campaña › Redes",
+        "prioritario": true,
+        "motivo": "Socios de búsqueda y Display traen tráfico de menor intención; con un presupuesto chico conviene concentrarlo en Google Búsqueda."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "Presupuesto diario: ARS 2.268",
+        "destino": "Configuración de la campaña › Presupuesto",
+        "prioritario": true,
+        "motivo": "Es el presupuesto de 8 de las 9 campañas de CU España en la estructura del 21 oct. Al CPC medio de ISO 27001 España (ARS 681 en el período) da unos 3 clics por día. Revisar a los 30 días."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "Estrategia: Maximizar clics con límite de CPC máximo ARS 1.400",
+        "destino": "Configuración de la campaña › Oferta",
+        "prioritario": true,
+        "motivo": "Maximizar clics es la estrategia de todas las campañas de España. El tope es el doble del CPC medio de ISO 27001 España (ARS 681): con 1 conversión en ISO 27001 España en el período no hay base para pujar por conversión."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "Ubicación: España · opción «Presencia: personas que están o suelen estar en la ubicación»",
+        "destino": "Configuración de la campaña › Ubicaciones",
+        "prioritario": true,
+        "motivo": "De las 72.363 impresiones orgánicas de ISO 45001 del sitio, solo 14.728 vienen de España; México (14.676), Colombia (14.412) y Perú (9.843) suman más. El número de septiembre incluía a Latinoamérica."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "Idioma: español",
+        "destino": "Configuración de la campaña › Idiomas",
+        "prioritario": true,
+        "motivo": "Las búsquedas de España son en español."
+       },
+       {
+        "accion": "crear",
+        "tipo": "grupo",
+        "texto": "Certificación ISO 45001",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "URL final: https://espana.controlunion.com/programa-de-certificacion/iso-45001/ (79.299 impresiones orgánicas del 3 mar al 14 sep 2026)."
+       }
+      ]
+     },
+     {
+      "accion": "keywords",
+      "titulo": "Cargar 9 keywords en el grupo «Certificación ISO 45001»",
+      "donde": "CU España - ISO 45001 - Search (campaña nueva, a crear) › grupo «Certificación ISO 45001»",
+      "detalle": "Solo búsquedas con intención de certificarse. No se compra «iso 45001» a secas al arrancar: 7.859 impresiones desde España, pero sobre todo lectura de la norma.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificacion iso 45001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación ISO 45001»",
+        "motivo": "«certificacion iso 45001» (936 impresiones desde España, posición 22,7) y «certificación iso 45001» (412, posición 17,9); cubre también el plural «certificaciones iso 45001» (489). La página no sale en la primera página.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificado iso 45001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación ISO 45001»",
+        "motivo": "1.149 impresiones desde España, posición 13,2.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificacion iso 45001",
+        "concordancia": "frase",
+        "destino": "Grupo «Certificación ISO 45001»",
+        "motivo": "Cubre «certificación iso 45001 en españa» (91 impresiones), «certificacion iso 45001 madrid» (8) y «… para empresas» (4).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "iso 45001 certificacion",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación ISO 45001»",
+        "motivo": "216 impresiones, posición 12,8.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "empresa certificadora iso 45001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación ISO 45001»",
+        "motivo": "194 impresiones, posición 34,3: buscan exactamente un certificador y el sitio no se ve.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificadora iso 45001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación ISO 45001»",
+        "motivo": "93 impresiones, posición 14,5.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "entidad certificadora iso 45001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación ISO 45001»",
+        "motivo": "17 impresiones, posición 15,4.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "auditoria iso 45001",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación ISO 45001»",
+        "motivo": "«auditoria iso 45001» (30) y «auditoría iso 45001» (14), posición 68–79.",
+        "opcional": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "obtener certificacion iso 45001",
+        "concordancia": "frase",
+        "destino": "Grupo «Certificación ISO 45001»",
+        "motivo": "«obtener iso 45001» (229 impresiones, posición 28,6) y «conseguir iso 45001» (172).",
+        "opcional": true
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Cargar 15 negativas iniciales de campaña",
+      "donde": "CU España - ISO 45001 - Search (campaña nueva, a crear) › toda la campaña",
+      "detalle": "Tomadas de lo que aparece en orgánico y de la lista de ISO 27001 España, que ya está depurada. Van con y sin tilde porque la negativa no cubre la variante.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "que es",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 45001 que es y para que sirve» (78 impresiones), «que es la iso 45001» (9), «que es iso 45001» (6).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "para que sirve",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«para que sirve iso 45001» (9 impresiones).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "logo",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«logo iso 45001» (41) e «iso 45001 logo» (37): buscan el sello para descargar.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "png",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«iso 45001 png» (12) y «iso 45001 logo png».",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "software",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«software iso 45001» (38) y «software 45001» (21).",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "consultoria",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "«consultoría iso 45001 / prevención riesgos laborales» (21): buscan consultor; Control Union no asesora.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "consultoría",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Variante con tilde de la anterior.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "empresas certificadas",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "motivo": "«empresas certificadas iso 45001» (21) y «lista de empresas certificadas en iso 45001» (6): buscan listados.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "curso",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Formación; está en la lista de ISO 27001 España.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "cursos",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Plural de la anterior.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "formacion",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Formación; en la lista de ISO 27001 España.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "formación",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Variante con tilde.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "pdf",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Buscan la norma para descargar.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "gratis",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Estándar de todas las campañas de España.",
+        "prioritario": true
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "empleo",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "motivo": "Estándar de todas las campañas de España (búsquedas de trabajo).",
+        "prioritario": true
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Crear el anuncio del grupo",
+      "donde": "CU España - ISO 45001 - Search (campaña nueva, a crear) › grupo «Certificación ISO 45001» · anuncio nuevo",
+      "detalle": "Mismo estilo que los anuncios de ISO 27001 España, sin «acreditada» hasta confirmarlo con la unidad. URL final: https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificación ISO 45001",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "prioritario": true,
+        "motivo": "Repite la keyword principal."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificado ISO 45001",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "prioritario": true,
+        "motivo": "«certificado iso 45001»: 1.149 impresiones desde España."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificamos ISO 45001",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "prioritario": true,
+        "motivo": "El verbo de Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Auditoría ISO 45001",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "opcional": true,
+        "motivo": "Variante con «auditoría»."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Seguridad y Salud Laboral",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "opcional": true,
+        "motivo": "De qué trata la norma, en palabras del comprador."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Entidad de Certificación",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "opcional": true,
+        "motivo": "Dice qué es Control Union (mismo título que funciona en ISO 27001 España)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Auditores en España",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "opcional": true,
+        "motivo": "Equipo local."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Solicita Tu Presupuesto",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "opcional": true,
+        "motivo": "Llamado a la acción."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Más de 100 Años Certificando",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "opcional": true,
+        "motivo": "Respaldo."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union España",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "opcional": true,
+        "motivo": "Marca."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Certificamos tu sistema de gestión de seguridad y salud en el trabajo ISO 45001.",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "prioritario": true,
+        "motivo": "Qué certifica, con el verbo de Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Entidad de certificación con más de 100 años y presencia en más de 80 países.",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "prioritario": true,
+        "motivo": "Respaldo; texto que ya corre en ISO 27001 España."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Cuéntanos el alcance de tu empresa y coordinamos la auditoría con el equipo local.",
+        "destino": "Anuncio nuevo · grupo «Certificación ISO 45001»",
+        "opcional": true,
+        "motivo": "Pedido concreto."
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "A los 30 días, decidir si se compra «iso 45001» a secas",
+      "donde": "CU España - ISO 45001 - Search (campaña nueva, a crear) › grupo «Certificación ISO 45001»",
+      "detalle": "Depende de cuántos términos de lectura entren y de si el presupuesto se gasta.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "keyword",
+        "texto": "¿Se agrega [iso 45001] en exacta?",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación ISO 45001»",
+        "opcional": true,
+        "motivo": "7.859 impresiones orgánicas desde España (posición 12,6), sobre todo informativas. Si a los 30 días la campaña no gasta el presupuesto y los términos son de compra, agregarla en exacta. Si ya gasta el presupuesto, no."
+       }
+      ]
+     }
+    ],
+    "anuncios": [
+     {
+      "accion": "Anuncio nuevo",
+      "url": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+      "motivo": "La campaña nueva necesita su anuncio; repite «certificación» y «certificado ISO 45001», que es lo que se busca.",
+      "grupo": "Certificación ISO 45001",
+      "titulos_propuestos": [
+       {
+        "texto": "Certificación ISO 45001",
+        "motivo": "Repite la keyword principal.",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificado ISO 45001",
+        "motivo": "«certificado iso 45001»: 1.149 impresiones desde España.",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificamos ISO 45001",
+        "motivo": "El verbo de Control Union.",
+        "prioritario": true
+       },
+       {
+        "texto": "Auditoría ISO 45001",
+        "motivo": "Variante con «auditoría»."
+       },
+       {
+        "texto": "Seguridad y Salud Laboral",
+        "motivo": "De qué trata la norma, en palabras del comprador."
+       },
+       {
+        "texto": "Entidad de Certificación",
+        "motivo": "Dice qué es Control Union (mismo título que funciona en ISO 27001 España)."
+       },
+       {
+        "texto": "Auditores en España",
+        "motivo": "Equipo local."
+       },
+       {
+        "texto": "Solicita Tu Presupuesto",
+        "motivo": "Llamado a la acción."
+       },
+       {
+        "texto": "Más de 100 Años Certificando",
+        "motivo": "Respaldo."
+       },
+       {
+        "texto": "Control Union España",
+        "motivo": "Marca."
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos tu sistema de gestión de seguridad y salud en el trabajo ISO 45001.",
+        "motivo": "Qué certifica, con el verbo de Control Union.",
+        "prioritario": true
+       },
+       {
+        "texto": "Entidad de certificación con más de 100 años y presencia en más de 80 países.",
+        "motivo": "Respaldo; texto que ya corre en ISO 27001 España.",
+        "prioritario": true
+       },
+       {
+        "texto": "Cuéntanos el alcance de tu empresa y coordinamos la auditoría con el equipo local.",
+        "motivo": "Pedido concreto."
+       }
+      ]
+     }
+    ],
+    "keywords": [
+     {
+      "texto": "certificacion iso 45001",
+      "concordancia": "exacta",
+      "grupo": "Certificación ISO 45001",
+      "accion": "agregar",
+      "motivo": "«certificacion iso 45001» (936 impresiones desde España, posición 22,7) y «certificación iso 45001» (412, posición 17,9); cubre también el plural «certificaciones iso 45001» (489). La página no sale en la primera página."
+     },
+     {
+      "texto": "certificado iso 45001",
+      "concordancia": "exacta",
+      "grupo": "Certificación ISO 45001",
+      "accion": "agregar",
+      "motivo": "1.149 impresiones desde España, posición 13,2."
+     },
+     {
+      "texto": "certificacion iso 45001",
+      "concordancia": "frase",
+      "grupo": "Certificación ISO 45001",
+      "accion": "agregar",
+      "motivo": "Cubre «certificación iso 45001 en españa» (91 impresiones), «certificacion iso 45001 madrid» (8) y «… para empresas» (4)."
+     },
+     {
+      "texto": "iso 45001 certificacion",
+      "concordancia": "exacta",
+      "grupo": "Certificación ISO 45001",
+      "accion": "agregar",
+      "motivo": "216 impresiones, posición 12,8."
+     },
+     {
+      "texto": "empresa certificadora iso 45001",
+      "concordancia": "exacta",
+      "grupo": "Certificación ISO 45001",
+      "accion": "agregar",
+      "motivo": "194 impresiones, posición 34,3: buscan exactamente un certificador y el sitio no se ve."
+     },
+     {
+      "texto": "certificadora iso 45001",
+      "concordancia": "exacta",
+      "grupo": "Certificación ISO 45001",
+      "accion": "agregar",
+      "motivo": "93 impresiones, posición 14,5."
+     },
+     {
+      "texto": "entidad certificadora iso 45001",
+      "concordancia": "exacta",
+      "grupo": "Certificación ISO 45001",
+      "accion": "agregar",
+      "motivo": "17 impresiones, posición 15,4."
+     },
+     {
+      "texto": "auditoria iso 45001",
+      "concordancia": "exacta",
+      "grupo": "Certificación ISO 45001",
+      "accion": "agregar",
+      "motivo": "«auditoria iso 45001» (30) y «auditoría iso 45001» (14), posición 68–79."
+     },
+     {
+      "texto": "obtener certificacion iso 45001",
+      "concordancia": "frase",
+      "grupo": "Certificación ISO 45001",
+      "accion": "agregar",
+      "motivo": "«obtener iso 45001» (229 impresiones, posición 28,6) y «conseguir iso 45001» (172)."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "que es",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«iso 45001 que es y para que sirve» (78 impresiones), «que es la iso 45001» (9), «que es iso 45001» (6)."
+     },
+     {
+      "texto": "para que sirve",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«para que sirve iso 45001» (9 impresiones)."
+     },
+     {
+      "texto": "logo",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«logo iso 45001» (41) e «iso 45001 logo» (37): buscan el sello para descargar."
+     },
+     {
+      "texto": "png",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«iso 45001 png» (12) y «iso 45001 logo png»."
+     },
+     {
+      "texto": "software",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«software iso 45001» (38) y «software 45001» (21)."
+     },
+     {
+      "texto": "consultoria",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«consultoría iso 45001 / prevención riesgos laborales» (21): buscan consultor; Control Union no asesora."
+     },
+     {
+      "texto": "consultoría",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Variante con tilde de la anterior."
+     },
+     {
+      "texto": "empresas certificadas",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«empresas certificadas iso 45001» (21) y «lista de empresas certificadas en iso 45001» (6): buscan listados."
+     },
+     {
+      "texto": "curso",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Formación; está en la lista de ISO 27001 España."
+     },
+     {
+      "texto": "cursos",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Plural de la anterior."
+     },
+     {
+      "texto": "formacion",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Formación; en la lista de ISO 27001 España."
+     },
+     {
+      "texto": "formación",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Variante con tilde."
+     },
+     {
+      "texto": "pdf",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Buscan la norma para descargar."
+     },
+     {
+      "texto": "gratis",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Estándar de todas las campañas de España."
+     },
+     {
+      "texto": "empleo",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Estándar de todas las campañas de España (búsquedas de trabajo)."
+     }
+    ],
+    "negativas_decision": "Sí, desde el inicio: 15 de campaña (definiciones, logos, software, consultoría, listados de empresas, formación, descargas y empleo), con y sin tilde. Revisar términos a los 30 días.",
+    "organico": [
+     {
+      "query": "iso 45001",
+      "impr": 7859,
+      "pos": 12.6
+     },
+     {
+      "query": "certificado iso 45001",
+      "impr": 1149,
+      "pos": 13.2
+     },
+     {
+      "query": "certificacion iso 45001",
+      "impr": 936,
+      "pos": 22.7
+     },
+     {
+      "query": "certificaciones iso 45001",
+      "impr": 489,
+      "pos": 11.1
+     },
+     {
+      "query": "certificación iso 45001",
+      "impr": 412,
+      "pos": 17.9
+     },
+     {
+      "query": "iso 45001 certificacion",
+      "impr": 216,
+      "pos": 12.8
+     },
+     {
+      "query": "empresa certificadora iso 45001",
+      "impr": 194,
+      "pos": 34.3
+     },
+     {
+      "query": "certificadora iso 45001",
+      "impr": 93,
+      "pos": 14.5
+     }
+    ],
+    "organico_desde": "España",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); métricas 1 sep – 20 oct 2026; Search Console 3 mar – 14 sep 2026"
+   }
+  }
+ ],
+ "descartes": []
+}

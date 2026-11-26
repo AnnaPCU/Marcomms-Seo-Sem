@@ -1,0 +1,86 @@
+{
+ "fecha": "2026-10-01",
+ "cuenta": {
+  "moneda": "ARS",
+  "zona": "America/Buenos_Aires",
+  "autotag": true,
+  "tag": "AW-18309388869"
+ },
+ "acciones": [
+  {
+   "nombre": "Vista de página",
+   "tipo": "WEBPAGE",
+   "categoria": "PAGE_VIEW",
+   "primaria": true,
+   "cuenta": "MANY_PER_CLICK"
+  },
+  {
+   "nombre": "Clic saliente",
+   "tipo": "WEBPAGE",
+   "categoria": "OUTBOUND_CLICK",
+   "primaria": true,
+   "cuenta": "MANY_PER_CLICK"
+  },
+  {
+   "nombre": "Enviar formulario de clientes potenciales",
+   "tipo": "WEBPAGE",
+   "categoria": "SUBMIT_LEAD_FORM",
+   "primaria": true,
+   "cuenta": "ONE_PER_CLICK"
+  },
+  {
+   "nombre": "Click Email",
+   "tipo": "WEBPAGE",
+   "categoria": "CONTACT",
+   "primaria": true,
+   "cuenta": "ONE_PER_CLICK"
+  },
+  {
+   "nombre": "Formulario de contacto - Enviar",
+   "tipo": "LEAD_FORM_SUBMIT",
+   "categoria": "SUBMIT_LEAD_FORM",
+   "primaria": true,
+   "cuenta": "ONE_PER_CLICK"
+  }
+ ],
+ "disparos_ago_sep": {
+  "Click Email": {
+   "todas": 6,
+   "conversiones": 4
+  },
+  "Enviar formulario de clientes potenciales": {
+   "todas": 7,
+   "conversiones": 7
+  }
+ },
+ "cuenta_ago_sep": {
+  "clics": 2344,
+  "coste": 3870030,
+  "impresiones": 57680
+ },
+ "usa_sep": [
+  {
+   "campana": "CU United States - Organic - USDA NOP - Search",
+   "clics": 32,
+   "coste": 240944,
+   "cuota": 0.31,
+   "cuota_arriba": 0.19,
+   "perdida_ranking": 0.49,
+   "perdida_presupuesto": 0.2
+  },
+  {
+   "campana": "CU United States - Organic - PrimusGFS - Search",
+   "clics": 0,
+   "coste": 0,
+   "cuota": 0.3,
+   "cuota_arriba": 0.2,
+   "perdida_ranking": 0.7,
+   "perdida_presupuesto": 0.0
+  }
+ ],
+ "geo_usa": {
+  "CU United States - Organic - USDA NOP - Search": "PRESENCE_OR_INTEREST",
+  "CU United States - Organic - PrimusGFS - Search": "PRESENCE_OR_INTEREST"
+ },
+ "listas_negativas": []
+}

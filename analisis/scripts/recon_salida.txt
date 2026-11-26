@@ -1,0 +1,166 @@
+Token renovado. Nuevo vencimiento del access token: 2026-09-16 15:53:29.715977Z
+
+10 propiedades visibles con esta cuenta:
+  siteRestrictedUser     https://americas.peterson-solutions.com/         <- PS Américas
+  siteFullUser           https://argentina.controlunion.com/              <- CU Argentina
+  siteFullUser           https://brasil.controlunion.com/                 <- CU Brasil
+  siteFullUser           https://chile.controlunion.com/                  <- CU Chile
+  siteFullUser           https://espana.controlunion.com/                 <- CU España
+  siteRestrictedUser     https://iberia.peterson-solutions.com/           <- PS Iberia
+  siteFullUser           https://mexico.controlunion.com/                 <- CU México
+  siteFullUser           https://northamerica.controlunion.com/           <- CU Norteamérica
+  siteFullUser           https://peru.controlunion.com/                   <- CU Perú
+  siteFullUser           https://portugal.controlunion.com/               <- CU Portugal
+
+Hoy 2026-09-16. 16 meses atrás ~ 2025-05-17. Sondeo desde 2025-04-01.
+
+  CU España        2026-03-03 -> 2026-09-13  (195 d, 195 con datos, 406,259 impr.)  muestra28: queries=17705 pages=4522 query_page=2890 devices=3099
+  CU Portugal      2026-03-03 -> 2026-09-13  (195 d, 195 con datos, 114,275 impr.)  muestra28: queries=4428 pages=3033 query_page=1072 devices=1086
+  CU Norteamérica  2026-03-03 -> 2026-09-13  (195 d, 195 con datos, 74,829 impr.)  muestra28: queries=2580 pages=923 query_page=487 devices=503
+  CU Argentina     2025-05-04 -> 2026-09-13  (498 d, 421 con datos, 293,737 impr.)  muestra28: queries=6688 pages=3296 query_page=1376 devices=1268
+  CU Brasil        2026-03-03 -> 2026-09-13  (195 d, 195 con datos, 140,981 impr.)  muestra28: queries=4169 pages=2690 query_page=1156 devices=1111
+  CU México        2025-05-04 -> 2026-09-13  (498 d, 392 con datos, 243,364 impr.)  muestra28: queries=4183 pages=2290 query_page=1063 devices=1139
+  CU Chile         2026-03-03 -> 2026-09-13  (195 d, 195 con datos, 76,788 impr.)  muestra28: queries=2667 pages=1433 query_page=592 devices=666
+  CU Perú          2026-03-03 -> 2026-09-13  (195 d, 195 con datos, 789,465 impr.)  muestra28: queries=12733 pages=5889 query_page=2774 devices=3017
+  PS Américas      2026-03-22 -> 2026-09-13  (176 d, 176 con datos, 57,980 impr.)  muestra28: queries=1586 pages=921 query_page=425 devices=340
+  PS Iberia        2026-03-22 -> 2026-09-13  (176 d, 176 con datos, 25,564 impr.)  muestra28: queries=1534 pages=1181 query_page=320 devices=313
+
+marca    propiedad    primera     ultima  dias_span  dias_con_datos  impresiones  clics  exp_unicas  m28_queries  est_queries  m28_pages  est_pages  m28_query_page  est_query_page  m28_devices  est_devices
+   CU       España 2026-03-03 2026-09-13        195             195       406259   3500        0.46        17705       123303       4522      31492            2890            7023         3099         7531
+   CU     Portugal 2026-03-03 2026-09-13        195             195       114275   1637        0.52         4428        30838       3033      21123            1072            2937         1086         2976
+   CU Norteamérica 2026-03-03 2026-09-13        195             195        74829    706        0.46         2580        17968        923       6428             487            1179          503         1218
+   CU    Argentina 2025-05-04 2026-09-13        498             421       293737   7948        0.50         6688       118951       3296      58622            1376            5732         1268         5283
+   CU       Brasil 2026-03-03 2026-09-13        195             195       140981   3682        0.56         4169        29034       2690      18734            1156            3414         1111         3281
+   CU       México 2025-05-04 2026-09-13        498             392       243364   3091        0.53         4183        74398       2290      40729            1063            4829         1139         5175
+   CU        Chile 2026-03-03 2026-09-13        195             195        76788   1192        0.49         2667        18574       1433       9980             592            1522          666         1713
+   CU         Perú 2026-03-03 2026-09-13        195             195       789465  10745        0.61        12733        88676       5889      41013            2774            9123         3017         9922
+   PS     Américas 2026-03-22 2026-09-13        176             176        57980    801        0.49         1586         9969        921       5789             425            1038          340          830
+   PS       Iberia 2026-03-22 2026-09-13        176             176        25564    696        0.30         1534         9642       1181       7423             320             557          313          545
+
+Resumen -> C:\Users\tmisrahi\OneDrive - Peterson and Control Union\Documentos\Optimizaciónes SEO-SEM\proyecto\scripts\recon_20260916.csv
+Log     -> C:\Users\tmisrahi\OneDrive - Peterson and Control Union\Documentos\Optimizaciónes SEO-SEM\proyecto\scripts\log_recon_20260916.jsonl
+
+España: por mes
+         impressions  clicks  dias
+mes                               
+2026-03        66918     579    29
+2026-04        69369     649    30
+2026-05        68763     618    31
+2026-06        62731     555    30
+2026-07        55635     523    31
+2026-08        57684     386    31
+2026-09        25159     190    13
+
+Portugal: por mes
+         impressions  clicks  dias
+mes                               
+2026-03        21042     330    29
+2026-04        19036     265    30
+2026-05        18586     252    31
+2026-06        17116     246    30
+2026-07        16835     269    31
+2026-08        14400     170    31
+2026-09         7260     105    13
+
+Norteamérica: por mes
+         impressions  clicks  dias
+mes                               
+2026-03        10192      93    29
+2026-04        14351     115    30
+2026-05        12668     134    31
+2026-06        10673     110    30
+2026-07        11180     112    31
+2026-08        11917     112    31
+2026-09         3848      30    13
+
+Argentina: por mes
+         impressions  clicks  dias
+mes                               
+2025-05        26326     604    28
+2025-06        20780     396    30
+2025-07        17043     406    31
+2025-08        14046     521    31
+2025-09        13877     540    30
+2025-10        16517     606    31
+2025-11        20521     586    30
+2025-12        10582     260    15
+2026-03        19530     583    29
+2026-04        21556     622    30
+2026-05        26283     735    31
+2026-06        26565     652    30
+2026-07        22175     546    31
+2026-08        26539     639    31
+2026-09        11397     252    13
+
+Brasil: por mes
+         impressions  clicks  dias
+mes                               
+2026-03        23533     521    29
+2026-04        21693     559    30
+2026-05        19628     556    31
+2026-06        23125     569    30
+2026-07        20828     626    31
+2026-08        21421     666    31
+2026-09        10753     185    13
+
+México: por mes
+         impressions  clicks  dias
+mes                               
+2025-05        17993     230    28
+2025-06        18424     201    30
+2025-07        19744     209    31
+2025-08        15261     193    31
+2025-09        15953     217    30
+2025-10        16538     236    31
+2025-11         9882     112    16
+2026-03        19896     279    29
+2026-04        21174     264    30
+2026-05        20676     306    31
+2026-06        19249     254    30
+2026-07        20099     230    31
+2026-08        19054     245    31
+2026-09         9421     115    13
+
+Chile: por mes
+         impressions  clicks  dias
+mes                               
+2026-03        11294     168    29
+2026-04        14482     238    30
+2026-05        15369     215    31
+2026-06        12014     195    30
+2026-07         9624     175    31
+2026-08         9833     135    31
+2026-09         4172      66    13
+
+Perú: por mes
+         impressions  clicks  dias
+mes                               
+2026-03       125906    2082    29
+2026-04       130025    1804    30
+2026-05       140330    1816    31
+2026-06       158796    1700    30
+2026-07       117802    1590    31
+2026-08        81099    1252    31
+2026-09        35507     501    13
+
+Américas: por mes
+         impressions  clicks  dias
+mes                               
+2026-03         2159      36    10
+2026-04        11921     132    30
+2026-05        14281     127    31
+2026-06         8220     123    30
+2026-07         7088     179    31
+2026-08         9568     149    31
+2026-09         4743      55    13
+
+Iberia: por mes
+         impressions  clicks  dias
+mes                               
+2026-03         1050      29    10
+2026-04         2880     115    30
+2026-05         3444     153    31
+2026-06         4771     113    30
+2026-07         4694     124    31
+2026-08         5331      84    31
+2026-09         3394      78    13

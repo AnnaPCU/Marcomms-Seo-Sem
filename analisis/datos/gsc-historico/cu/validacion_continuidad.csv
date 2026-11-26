@@ -1,0 +1,13 @@
+﻿marca,prueba,propiedad,primera,ultima,dias,huecos,filas_base,filas_hist,solo_base,solo_hist,dif_impr,dif_clics,identico,en_ambos,cobertura_filas,cobertura_impr,cobertura_clics,hist_excede
+cu,cobertura,Argentina,2025-05-04,2026-09-14,422.0,"[(datetime.date(2025, 12, 15), datetime.date(2026, 3, 3), 77)]",,,,,,,,,,,,
+cu,cobertura,Brasil,2026-03-03,2026-09-14,196.0,[],,,,,,,,,,,,
+cu,cobertura,Chile,2026-03-03,2026-09-14,196.0,[],,,,,,,,,,,,
+cu,cobertura,España,2026-03-03,2026-09-14,196.0,[],,,,,,,,,,,,
+cu,cobertura,México,2025-05-04,2026-09-14,393.0,"[(datetime.date(2025, 11, 16), datetime.date(2026, 3, 3), 106)]",,,,,,,,,,,,
+cu,cobertura,Norteamérica,2026-03-03,2026-09-14,196.0,[],,,,,,,,,,,,
+cu,cobertura,Perú,2026-03-03,2026-09-14,196.0,[],,,,,,,,,,,,
+cu,cobertura,Portugal,2026-03-03,2026-09-14,196.0,[],,,,,,,,,,,,
+cu,pages_12m,,,,,,2467.0,2467.0,0.0,0.0,0.0,0.0,True,,,,,
+cu,queries_12m,,,,,,72428.0,72428.0,,0.0,,,,72428.0,100.0,100.0,100.0,0.0
+cu,pages_ads,,,,,,1815.0,1815.0,0.0,0.0,0.0,0.0,True,,,,,
+cu,queries_ads,,,,,,23300.0,23300.0,,0.0,,,,23300.0,100.0,100.0,100.0,0.0

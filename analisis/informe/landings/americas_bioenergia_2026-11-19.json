@@ -1,0 +1,199 @@
+{
+  "marca": "ps",
+  "slug": "ps-bioenergia-20261119",
+  "nombre": "Bioenergía",
+  "url": "https://americas.peterson-solutions.com/industry/bioenergia/",
+  "kpis": [
+    {"valor": "43", "etiqueta": "Impresiones orgánicas", "nota": "may–nov 2026 · posición 18,1"},
+    {"valor": "80%", "etiqueta": "Sesiones pagas", "nota": "78 de 97 sesiones en GA4"},
+    {"valor": "0", "etiqueta": "Contactos GA4", "nota": "desde diciembre de 2025"},
+    {"valor": "3", "etiqueta": "Enlaces rotos", "nota": "salen a un dominio de la otra marca"}
+  ],
+  "diag_sub": "El sitio ya tiene autoridad en el tema, pero no llega a esta página",
+  "grafico_mes": {
+    "titulo": "Impresiones orgánicas por mes",
+    "cap": "Search Console. La página en español y su versión en portugués. Noviembre hasta el día 16.",
+    "meses": ["mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov"],
+    "ultimo_parcial": true,
+    "series": [
+      {"nombre": "Página en español", "valores": [0, 0, 4, 5, 2, 10, 6, 12, 4]},
+      {"nombre": "Versión en portugués", "valores": [3, 7, 1, 1, 0, 4, 6, 25, 18]}
+    ]
+  },
+  "ranking": {
+    "titulo": "Dónde aparece hoy el tema en el sitio",
+    "cap": "Impresiones orgánicas acumuladas al 16 nov 2026. Ninguno de los dos artículos sobre RED III enlaza a la página de bioenergía.",
+    "unidad": "impresiones orgánicas · Search Console",
+    "filas": [
+      {"etiqueta": "Artículo RED III", "nota": "inglés · posición 8,4", "valor": 22579},
+      {"etiqueta": "Artículo RED III, combustibles", "nota": "inglés · posición 15,0", "valor": 2154},
+      {"etiqueta": "Bioenergía en portugués", "nota": "posición 6,0", "valor": 65},
+      {"etiqueta": "Bioenergía en inglés", "nota": "posición 15,8", "valor": 64},
+      {"etiqueta": "Bioenergía en español", "nota": "posición 18,1", "valor": 43, "destacar": true}
+    ]
+  },
+  "pasos": [
+    {
+      "titulo": "Corregir los tres enlaces que salen del sitio",
+      "donde": "Landing › bloque «Consultoría integral en la cadena de valor de la bioenergía» › enlace de cada pilar",
+      "tipo": "Técnico",
+      "nota": "Regla de marca: una página de Peterson Solutions nunca enlaza a la otra marca del grupo. Además, los tres enlaces abren en una pestaña nueva; conviene que abran en la misma.",
+      "cambios": [
+        {"campo": "Enlace «Preparación para certificaciones»", "hoy": "https://southregionlatam.controlunion.com/service/certifications-support/", "cargar": "https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/"},
+        {"campo": "Enlace «Estrategia y gestión de sostenibilidad»", "hoy": "https://southregionlatam.controlunion.com/service/sustainability-services/", "cargar": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/"},
+        {"campo": "Enlace «Sostenibilidad en la cadena de suministro»", "hoy": "https://southregionlatam.controlunion.com/service/sustainable-sourcing/", "cargar": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/"}
+      ],
+      "por_que": [
+        "Son los únicos enlaces de la página hacia los tres servicios, y apuntan a un subdominio de la otra marca que el 19 nov no resolvía (el DNS no devuelve dirección): quien hace clic cae en un error.",
+        "En GA4, desde esta página nadie pasó a ninguno de los tres servicios. Las páginas siguientes fueron contacto (7), las versiones en otro idioma (12) y las portadas en español y portugués (5).",
+        "Las tres URL nuevas se comprobaron el 19 nov: dan 200."
+      ]
+    },
+    {
+      "titulo": "Title y meta description",
+      "donde": "WordPress › página «Bioenergía» › SEO (Yoast)",
+      "tipo": "SEO",
+      "cambios": [
+        {"campo": "Title", "hoy": "Bioenergía  - Peterson Solutions - Americas", "cargar": "Consultoría en bioenergía y biocombustibles | Peterson", "max": 60},
+        {"campo": "Meta description", "hoy": "(la página no tiene meta description)", "cargar": "Preparamos a empresas de biocombustibles y biomasa para certificar ISCC, REDcert, 2BSvs, RSB y SBP, con balance de masas, trazabilidad y diligencia EUDR.", "max": 155}
+      ],
+      "por_que": [
+        "Sin meta description, Google arma el fragmento con cualquier texto de la página.",
+        "«Bioenergía» sola compite con definiciones y noticias. En octubre, las búsquedas que llegaron por Ads fueron casi todas informativas («energía biomasa», 592 impresiones; «biogas», 230). El title nuevo deja claro que es un servicio de consultoría, con la palabra «biocombustibles», que hoy no está ni en el title ni en el H1."
+      ]
+    },
+    {
+      "titulo": "H1 y párrafo de entrada que responde primero",
+      "donde": "Landing › cabecera y sección «Nuestro rol»",
+      "tipo": "AEO",
+      "cambios": [
+        {"campo": "H1", "hoy": "Bioenergía", "cargar": "Consultoría en bioenergía y biocombustibles"},
+        {"campo": "Frase de «Nuestro rol»", "accion": "Quitar", "cargar": "Garantizamos una calidad constante, soluciones sostenibles y el cumplimiento de la normativa."},
+        {"campo": "Párrafo de entrada (primer párrafo de «Nuestro rol»)", "hoy": "En Peterson Solutions nos comprometemos a apoyar el cambio mundial hacia las energías renovables prestando servicios especializados en el sector de la bioenergía.", "cargar": "Acompañamos a empresas de biocombustibles, biomasa y bioquímicos a cumplir la normativa y a prepararse para certificar bajo ISCC, REDcert, 2BSvs, RSB, SBP y Bonsucro. Trabajamos lado a lado con su equipo en el mapeo de la cadena de suministro, el análisis de brechas, el balance de masas, la diligencia debida y la auditoría interna."}
+      ],
+      "por_que": [
+        "Los asistentes de IA y los fragmentos destacados toman el primer párrafo como respuesta. El actual habla de compromiso, pero no dice qué hace el servicio ni para qué esquemas.",
+        "«Garantizamos el cumplimiento de la normativa» promete un resultado que decide un tercero. El manual de marca pide que toda afirmación sea verificable."
+      ]
+    },
+    {
+      "titulo": "Corregir afirmaciones y términos",
+      "donde": "Landing › pilar «Preparación para Certificaciones» y módulo EUDR",
+      "tipo": "SEO",
+      "nota": "Peterson Solutions no emite certificados ni puede garantizar el resultado de una auditoría.",
+      "cambios": [
+        {"campo": "Frase del pilar", "hoy": "Guiamos a los clientes a lo largo de todo el proceso de certificación, garantizando la conformidad con sistemas internacionales como:", "cargar": "Guiamos a los clientes a lo largo de todo el proceso de certificación y preparamos su operación para certificar bajo sistemas internacionales como:"},
+        {"campo": "Ítem del pilar", "hoy": "Evaluación de carencias", "cargar": "Análisis de brechas (gap analysis)"},
+        {"campo": "Frase del módulo EUDR", "hoy": "Track & Trace garantiza que estos materiales tienen un origen libre de deforestación, apoyando la diligencia debida de la EUDR y manteniendo la integridad normativa y del mercado.", "cargar": "Track & Trace le ayuda a documentar que estos materiales tienen un origen libre de deforestación, como apoyo a la diligencia debida de la EUDR."}
+      ],
+      "por_que": [
+        "Una herramienta no puede garantizar el origen de una materia prima: ayuda a documentarlo. La versión nueva es verificable.",
+        "«Evaluación de carencias» es una traducción literal. En el sector se dice «análisis de brechas» o «gap analysis», que es lo que se busca."
+      ]
+    },
+    {
+      "titulo": "Sección nueva: qué cubre cada esquema",
+      "donde": "Landing › después del bloque de los tres pilares",
+      "tipo": "AEO",
+      "cambios": [
+        {"campo": "H2", "cargar": "Esquemas de certificación para biocombustibles y biomasa"},
+        {"campo": "ISCC EU", "cargar": "ISCC EU: esquema reconocido por la Comisión Europea para demostrar que biocombustibles, biolíquidos y biomasa cumplen los criterios de sostenibilidad de la Directiva de Energías Renovables (RED)."},
+        {"campo": "ISCC PLUS", "cargar": "ISCC PLUS: para mercados fuera de la RED, como bioquímicos, plásticos circulares, alimentos y piensos."},
+        {"campo": "ISCC CORSIA", "cargar": "ISCC CORSIA: para combustibles de aviación sostenibles (SAF) que se declaran bajo el esquema CORSIA de la OACI."},
+        {"campo": "REDcert", "cargar": "REDcert: esquema reconocido por la Comisión Europea para biocombustibles bajo la RED; REDcert² cubre alimentos, piensos y química."},
+        {"campo": "SURE", "cargar": "SURE: para biomasa sólida y gaseosa usada en electricidad, calor y frío bajo la RED."},
+        {"campo": "2BSvs", "cargar": "2BSvs: esquema voluntario reconocido por la Comisión Europea para biomasa y biocombustibles."},
+        {"campo": "RSB", "cargar": "RSB: estándar de la Roundtable on Sustainable Biomaterials para biocombustibles, SAF y biomateriales."},
+        {"campo": "SBP, GGL y ENplus", "cargar": "SBP, GGL y ENplus: biomasa leñosa y pellets. SBP y GGL cubren la sostenibilidad del origen; ENplus, la calidad del pellet."},
+        {"campo": "Bonsucro", "cargar": "Bonsucro: caña de azúcar y sus derivados, como el etanol."}
+      ],
+      "por_que": [
+        "Hoy la página nombra nueve esquemas, pero no explica ninguno. Un asistente de IA que responde «qué certificación necesito para exportar biodiésel a Europa» cita a quien lo explica en una frase.",
+        "En el sitio la demanda existe, aunque llega a otra página: los artículos sobre RED III suman 24.733 impresiones con búsquedas como «red iii sustainability criteria biomass». La única búsqueda visible con nombre de esquema que trajo esta página fue «certificación rsb para biomateriales sostenibles» (posición 48)."
+      ]
+    },
+    {
+      "titulo": "Sección de preguntas frecuentes",
+      "donde": "Landing › antes de «Nuestra academia de formación»",
+      "tipo": "AEO",
+      "cambios": [
+        {"campo": "H2", "cargar": "Preguntas frecuentes sobre certificación en bioenergía"},
+        {"campo": "Pregunta 1", "cargar": "¿Qué certificación necesita un biocombustible para venderse en la Unión Europea?"},
+        {"campo": "Respuesta 1", "cargar": "Tiene que demostrar que cumple los criterios de sostenibilidad y de ahorro de emisiones de la Directiva de Energías Renovables (RED). La vía más usada es certificar con un esquema voluntario reconocido por la Comisión Europea, como ISCC EU, REDcert, 2BSvs o RSB. Le ayudamos a elegir el esquema y a prepararse para la auditoría."},
+        {"campo": "Pregunta 2", "cargar": "¿Qué diferencia hay entre ISCC EU e ISCC PLUS?"},
+        {"campo": "Respuesta 2", "cargar": "ISCC EU sirve para demostrar el cumplimiento de la RED en el mercado europeo de energía. ISCC PLUS se usa en mercados que la RED no regula, como bioquímicos, plásticos circulares, alimentos y piensos, dentro y fuera de Europa."},
+        {"campo": "Pregunta 3", "cargar": "¿Qué es el balance de masas?"},
+        {"campo": "Respuesta 3", "cargar": "Es un método de cadena de custodia que permite mezclar material certificado y no certificado, siempre que lo vendido como sostenible no supere lo que entró como sostenible. Es el modelo habitual en ISCC y REDcert, y exige registros precisos de entradas, salidas y factores de conversión."},
+        {"campo": "Pregunta 4", "cargar": "¿El EUDR aplica al sector de la bioenergía?"},
+        {"campo": "Respuesta 4", "cargar": "Sí, cuando la cadena usa materias primas incluidas en el reglamento, como la madera para biomasa, la soja para biocombustibles o el caucho. Esas empresas deberán demostrar, mediante diligencia debida, que el origen está libre de deforestación."},
+        {"campo": "Pregunta 5", "cargar": "¿Peterson Solutions certifica?"},
+        {"campo": "Respuesta 5", "cargar": "No. La certificación la otorga un organismo certificador independiente y acreditado. Nosotros preparamos su operación para la auditoría y la acompañamos para mantener el cumplimiento."}
+      ],
+      "por_que": [
+        "El artículo principal de RED III ya recibe visitas desde claude.ai y perplexity.ai (pocas, una de cada uno): los asistentes de IA ya usan el sitio como fuente sobre el tema. Las preguntas frecuentes llevan esa autoridad a la página del servicio.",
+        "En Search Console del sitio aparecen preguntas completas sobre el tema, como «¿qué certificados de reducción de emisiones tienen estos combustibles…?»."
+      ]
+    },
+    {
+      "titulo": "Datos estructurados: servicio y preguntas frecuentes",
+      "donde": "Landing › bloque HTML personalizado o campo de schema de Yoast",
+      "tipo": "Técnico",
+      "nota": "Pegar los dos bloques dentro de <script type=\"application/ld+json\">…</script>. El texto de las preguntas tiene que coincidir con el visible en la página.",
+      "cambios": [
+        {"campo": "JSON-LD · Service", "cargar": "{\"@context\":\"https://schema.org\",\"@type\":\"Service\",\"name\":\"Consultoría en bioenergía y biocombustibles\",\"serviceType\":\"Consultoría de preparación para certificación en bioenergía\",\"url\":\"https://americas.peterson-solutions.com/industry/bioenergia/\",\"description\":\"Preparación para certificar ISCC EU, ISCC PLUS, ISCC CORSIA, REDcert, SURE, 2BSvs, RSB, SBP, GGL, ENplus y Bonsucro, con balance de masas, trazabilidad y diligencia debida EUDR.\",\"provider\":{\"@type\":\"Organization\",\"name\":\"Peterson Solutions\",\"url\":\"https://americas.peterson-solutions.com/\"}}"},
+        {"campo": "JSON-LD · FAQPage", "cargar": "{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"¿Qué certificación necesita un biocombustible para venderse en la Unión Europea?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Tiene que demostrar que cumple los criterios de sostenibilidad y de ahorro de emisiones de la Directiva de Energías Renovables (RED). La vía más usada es certificar con un esquema voluntario reconocido por la Comisión Europea, como ISCC EU, REDcert, 2BSvs o RSB. Le ayudamos a elegir el esquema y a prepararse para la auditoría.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué diferencia hay entre ISCC EU e ISCC PLUS?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"ISCC EU sirve para demostrar el cumplimiento de la RED en el mercado europeo de energía. ISCC PLUS se usa en mercados que la RED no regula, como bioquímicos, plásticos circulares, alimentos y piensos, dentro y fuera de Europa.\"}},{\"@type\":\"Question\",\"name\":\"¿Qué es el balance de masas?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Es un método de cadena de custodia que permite mezclar material certificado y no certificado, siempre que lo vendido como sostenible no supere lo que entró como sostenible. Es el modelo habitual en ISCC y REDcert, y exige registros precisos de entradas, salidas y factores de conversión.\"}},{\"@type\":\"Question\",\"name\":\"¿El EUDR aplica al sector de la bioenergía?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"Sí, cuando la cadena usa materias primas incluidas en el reglamento, como la madera para biomasa, la soja para biocombustibles o el caucho. Esas empresas deberán demostrar, mediante diligencia debida, que el origen está libre de deforestación.\"}},{\"@type\":\"Question\",\"name\":\"¿Peterson Solutions certifica?\",\"acceptedAnswer\":{\"@type\":\"Answer\",\"text\":\"No. La certificación la otorga un organismo certificador independiente y acreditado. Nosotros preparamos su operación para la auditoría y la acompañamos para mantener el cumplimiento.\"}}]}"}
+      ],
+      "por_que": [
+        "Hoy la página solo tiene el schema genérico de Yoast (Organization, WebSite, Person).",
+        "Desde 2023 Google muestra el resultado enriquecido de FAQ solo en sitios de gobierno y salud. El valor de este bloque está en que buscadores y asistentes de IA lean el servicio y las respuestas sin ambigüedad."
+      ]
+    },
+    {
+      "titulo": "Que los artículos de RED III enlacen al servicio",
+      "donde": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/ y /en/insight/what-does-red-iii-mean-for-renewable-fuels/",
+      "tipo": "SEO",
+      "nota": "Los artículos están en inglés, así que el enlace va a la versión en inglés de la landing. Para que la página en español reciba el mismo empuje hace falta una versión en español del artículo de RED III.",
+      "cambios": [
+        {"campo": "Frase final · artículo RED III", "accion": "Agregar y enlazar «bioenergy consulting services» → /en/industry/bioenergy/", "cargar": "Preparing for ISCC EU, REDcert or SURE under RED III? See our bioenergy consulting services."},
+        {"campo": "Frase final · artículo RED III y combustibles", "accion": "Agregar y enlazar «bioenergy consulting services» → /en/industry/bioenergy/", "cargar": "Preparing your renewable fuels for RED III certification? See our bioenergy consulting services."},
+        {"campo": "Versión en español del artículo RED III", "accion": "Publicar y enlazar «consultoría en bioenergía» → /industry/bioenergia/", "cargar": "¿Está preparando su operación para ISCC EU, REDcert o SURE bajo RED III? Conozca nuestra consultoría en bioenergía."}
+      ],
+      "por_que": [
+        "El artículo de RED III es la página con más impresiones del sitio (22.579, posición 8,4), y el de RED III y combustibles suma 2.154. Ninguno enlaza a la página de bioenergía en ningún idioma.",
+        "GA4 registra visitas a ese artículo desde claude.ai y perplexity.ai. Un enlace con texto descriptivo le dice a Google, y a quien llega desde un asistente, cuál es la página del servicio."
+      ]
+    }
+  ],
+  "medir_sub": "Contando desde el día en que se publiquen los pasos",
+  "medir": [
+    {
+      "cuando": "A las 4 semanas · Search Console",
+      "items": [
+        "Impresiones de la página en español: base 12 en octubre, 43 entre mayo y noviembre.",
+        "Búsquedas sin marca con «biocombustibles», «biomasa», «ISCC», «REDcert» o «RSB» que llegan a la página: hoy una visible («certificación rsb…», posición 48).",
+        "Posición media de la página: base 18,1. Usarla como banda, no como cifra exacta."
+      ]
+    },
+    {
+      "cuando": "A las 4 semanas · GA4",
+      "items": [
+        "Clics desde la página hacia los tres servicios: hoy 0, porque los enlaces están rotos.",
+        "Sesiones orgánicas: base 7 desde diciembre de 2025. Contactos (/gracias/ con origen en la página): base 0."
+      ]
+    },
+    {
+      "cuando": "A las 8 semanas · GA4 y asistentes de IA",
+      "items": [
+        "Visitas a /en/industry/bioenergy/ desde los dos artículos de RED III: hoy 0.",
+        "Visitas desde chatgpt.com, perplexity.ai, claude.ai o gemini a la página: hoy 0.",
+        "Preguntar en ChatGPT y Perplexity «¿qué consultoras preparan para la certificación ISCC EU en Argentina?» hoy y a las 8 semanas, y comparar si aparece Peterson Solutions."
+      ]
+    },
+    {
+      "cuando": "Antes de medir",
+      "items": [
+        "El proyecto de Google Cloud de las extracciones vence hacia el 15 dic 2026: confirmar que las APIs sigan respondiendo."
+      ]
+    }
+  ]
+}

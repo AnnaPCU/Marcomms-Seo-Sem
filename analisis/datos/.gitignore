@@ -1,0 +1,7 @@
+# Generado por scripts/datos_gz.py: estos CSV van comprimidos (.csv.gz) en el repo.
+gsc-historico/cu/gsc_cu_hist_devices.csv
+gsc-historico/cu/gsc_cu_hist_pages.csv
+gsc-historico/cu/gsc_cu_hist_queries.csv
+gsc-historico/cu/gsc_cu_hist_queries_agg.csv
+gsc-historico/cu/gsc_cu_hist_query_page.csv
+gsc/gsc_cu_12m_queries.csv

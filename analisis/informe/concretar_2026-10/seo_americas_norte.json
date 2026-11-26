@@ -1,0 +1,2114 @@
+{
+ "tarjetas": [
+  {
+   "clave": "CU:SEO:northamerica-controlunion-com:temo",
+   "marca": "CU",
+   "sitio": "northamerica.controlunion.com",
+   "titulo": "TEMO: corregir la meta (es la de pesaje) y llevar title/H1 a «temperature monitoring»; «temo» es ambiguo y solo 18% viene de EE. UU./Canadá",
+   "detalle": "La página TEMO suma 22.485 impresiones y 14 clics (posición 8,9), pero 19.040 son de la query «temo», una palabra ambigua: 82% de esas impresiones vienen de India, Filipinas, Nigeria, Pakistán y otros, no de EE. UU. ni Canadá. La «caída» de septiembre (3.165 → 249) es solo del recorte EE. UU.+Canadá; la página completa pasó de 4.398–7.197 impr./mes (mar–may) a 1.163–2.730 (jun–ago). Lo que sí está mal y se arregla en 10 minutos: la meta description es la del servicio de pesaje y el title no dice para qué sirve. Prioridad baja: no hay demanda comercial demostrada.",
+   "prioridad": "baja",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "northamerica.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+      "nota": "la que se cambia (title, meta, H1 y una sección nueva)"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Corregir el snippet de la página TEMO y sumar una definición corta que responda «what is temo»; no perseguir la query «temo» genérica.",
+    "por_que": "Search Console (mar – 14 sep 2026): página 22.485 impr., 14 clics, pos. 8,95, CTR 0,06%. Query «temo» 19.040 impr., 6 clics, pos. 9,3: India 6.065, EE. UU. 2.781, Filipinas 2.558, Nigeria 687, Pakistán 675, Canadá 644. «what is temo» 596 impr. en pos. 6,2 y «what is a temo» 113 en pos. 5,1, con 0 clics. Queries de temperatura/stockpile/barge: 1 impresión en 16 meses. La meta actual describe pesaje y calibración de balanzas, no TEMO.",
+    "ya_hecho": "Nada: title, meta y H1 siguen como en septiembre (leídos el 28 oct 2026). El hreflang en-US y el canonical están bien.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Reescribir title, meta description y H1",
+      "donde": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+      "detalle": "Cambiar en el editor SEO de WordPress (Yoast/campos de la página). Pedir al equipo web de Control Union North America.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "TEMO Temperature Monitoring for Stockpiles | Control Union",
+        "destino": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+        "motivo": "El title actual no dice qué se monitorea; «stockpiles» y «barges» son los usos que describe la propia página.",
+        "reemplaza": "TEMO: Temperature Monitoring"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Wireless TEMO probes monitor temperature and moisture in stockpiles and barges 24/7, with real-time alerts and periodic reports.",
+        "destino": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+        "motivo": "La meta actual es la del servicio de pesaje (copiada por error): no menciona temperatura ni TEMO.",
+        "reemplaza": "We offer independent inspections of scale weight and quantity determination, tank measurements, counting, volumetric stock determination, and verify scale calibrations and terminal figures."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "TEMO: Temperature and Moisture Monitoring for Stockpiles and Barges",
+        "destino": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+        "motivo": "Alinea el H1 con lo que la página describe (temperatura y humedad en stockpiles y barcazas).",
+        "reemplaza": "TEMO: Temperature monitoring"
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Agregar una definición corta al inicio",
+      "donde": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+      "detalle": "Sección nueva justo debajo del H1, antes de «About the service». 40–50 palabras, para que Google la use como respuesta a «what is temo».",
+      "items": [
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «What is TEMO?»: TEMO is Control Union's wireless system of probes that measures temperature and moisture inside stored commodities around the clock, sends alerts when limits are exceeded and produces periodic reports per sensor.",
+        "destino": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+        "motivo": "«what is temo» 596 impr. en pos. 6,2 y «what is a temo» 113 en pos. 5,1, sin clics: hoy no hay una frase que defina TEMO."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Qué commodities y almacenes cubre TEMO en EE. UU. y Canadá (granos, azúcar, carbón; silos, barcazas)? Si la unidad lo confirma, sumar H2 «Commodities and storage we monitor» con esa lista; si no, no se agrega.",
+        "destino": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+        "motivo": "Confirmar con la unidad: la página no lo dice y no se puede inventar el alcance."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "temo",
+      "impr": 19040,
+      "pos": 9.33
+     },
+     {
+      "query": "what is temo",
+      "impr": 596,
+      "pos": 6.24
+     },
+     {
+      "query": "what is a temo",
+      "impr": 113,
+      "pos": 5.12
+     },
+     {
+      "query": "what does temo mean",
+      "impr": 60,
+      "pos": 7.35
+     },
+     {
+      "query": "temo service",
+      "impr": 44,
+      "pos": 7.5
+     }
+    ],
+    "organico_desde": "Norteamérica",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:northamerica-controlunion-com:geografia",
+   "marca": "CU",
+   "sitio": "northamerica.controlunion.com",
+   "titulo": "Canadá: hreflang en-CA, dirección de Vancouver en el schema y meta de home con Canadá (2.251 impr. y 79 clics vs 69 de EE. UU.)",
+   "detalle": "Todas las páginas declaran solo hreflang en-US y el schema Organization no tiene direcciones, así que Google no tiene ninguna señal técnica de que el sitio también es de Canadá. Canadá trae pocas impresiones (2.251) pero más clics que EE. UU. (79 contra 69). Hay que agregar en-CA como alternate de la misma URL en todo el sitio, cargar las dos oficinas en el schema y reescribir la meta de la home (hoy 390 caracteres, se corta) y el title de contacto.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "northamerica.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://northamerica.controlunion.com/",
+      "nota": "home: meta y schema Organization"
+     },
+     {
+      "url": "https://northamerica.controlunion.com/contact/",
+      "nota": "contacto: title y meta; tiene las dos oficinas"
+     },
+     {
+      "url": "https://northamerica.controlunion.com/certification-program/primusgfs-certification/",
+      "nota": "ejemplo de página con hreflang solo en-US (pasa en todo el sitio)"
+     }
+    ],
+    "acciones": [
+     "tecnico",
+     "contenido"
+    ],
+    "resumen": "Dar señales de Canadá: hreflang en-CA en todo el sitio, LocalBusiness/Organization con las dos direcciones y snippet de home y contacto que nombren USA y Canadá.",
+    "por_que": "Search Console (mar – 14 sep 2026, consultas con país): EE. UU. 13.441 impr. y 69 clics; India 7.599 y 9; Filipinas 2.747 y 4; Canadá 2.251 y 79. «control union canada» 803 impr. repartidas entre / (252, pos. 1,5) y /contact/ (237, pos. 4,0). En Canadá las queries que aparecen son marca, PrimusGFS (149), CUMCS (65), «gacp certification within canada and the us» (43).",
+    "ya_hecho": "El title de la home ya dice «USA & Canada» y /contact/ ya lista Control Union Canada Inc (Vancouver). Falta todo lo técnico (leído el 28 oct 2026).",
+    "pasos": [
+     {
+      "accion": "tecnico",
+      "titulo": "Agregar hreflang en-CA en todas las páginas",
+      "donde": "Todo northamerica.controlunion.com (plantilla del tema / plugin de idiomas)",
+      "detalle": "Hoy cada página tiene <link rel=\"alternate\" hreflang=\"en-US\"> y x-default apuntando a sí misma. Agregar una tercera línea en-CA con la misma URL. Es un cambio de plantilla: pedir al proveedor web (el autor del sitio figura como «bitfactory»).",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "<link rel=\"alternate\" hreflang=\"en-CA\" href=\"https://northamerica.controlunion.com/\" /> (en cada página, con su propia URL; se mantienen en-US y x-default)",
+        "destino": "https://northamerica.controlunion.com/",
+        "motivo": "Canadá: 79 clics vs 69 de EE. UU. con 6 veces menos impresiones; sin en-CA el sitio solo se declara para EE. UU."
+       }
+      ]
+     },
+     {
+      "accion": "tecnico",
+      "titulo": "Completar el schema Organization de la home",
+      "donde": "https://northamerica.controlunion.com/",
+      "detalle": "El JSON-LD actual tiene \"url\": \"https://northamerica.controlunion.com/wp\" y ninguna dirección. Reemplazar el nodo Organization.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "\"url\": \"https://northamerica.controlunion.com/\"",
+        "destino": "https://northamerica.controlunion.com/",
+        "motivo": "La URL declarada termina en /wp, que no es la home.",
+        "reemplaza": "\"url\":\"https:\\/\\/northamerica.controlunion.com\\/wp\""
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "\"address\": [{\"@type\":\"PostalAddress\",\"streetAddress\":\"1655-999 West Hastings St\",\"addressLocality\":\"Vancouver\",\"addressRegion\":\"BC\",\"postalCode\":\"V6C 2W2\",\"addressCountry\":\"CA\"},{\"@type\":\"PostalAddress\",\"streetAddress\":\"600 North Pine Island Road\",\"addressLocality\":\"Plantation\",\"addressRegion\":\"FL\",\"addressCountry\":\"US\"}]",
+        "destino": "https://northamerica.controlunion.com/",
+        "motivo": "Son las dos oficinas que publica /contact/ (Control Union Canada Inc y Control Union (United States) Inc.). Código postal de Plantation: confirmar con la unidad, no figura en la web."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Reescribir la meta de la home y el snippet de contacto",
+      "donde": "https://northamerica.controlunion.com/ y https://northamerica.controlunion.com/contact/",
+      "detalle": "La meta de la home tiene unos 390 caracteres y Google la corta en la mitad de la historia de 1981. Contacto no menciona Canadá en el title.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Inspection and certification across the supply chain in the USA and Canada: agri-food certifications, commodity inspections and collateral management.",
+        "destino": "https://northamerica.controlunion.com/",
+        "motivo": "Nombra los dos países y los tres servicios que la meta actual menciona recién al final.",
+        "reemplaza": "Our journey began in 1981 in the United States, rooted in the commodity inspection market. In 2008, we expanded into Canada, further strengthening our presence in the region. Since then, both offices have grown significantly, evolving to offer comprehensive services across the entire supply chain – including agricultural product inspections, agri-food certifications, logistics solutions, and collateral management."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Contact Control Union USA & Canada | Offices",
+        "destino": "https://northamerica.controlunion.com/contact/",
+        "motivo": "«control union canada» (803 impr.) y «control union usa» (776) caen en / y /contact/; el title de contacto no nombra ningún país.",
+        "reemplaza": "Contact  - Control Union North America"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Contact Control Union Canada Inc in Vancouver, BC, or Control Union (United States) Inc. in Plantation, FL, for certification and inspection services.",
+        "destino": "https://northamerica.controlunion.com/contact/",
+        "motivo": "Pone las dos oficinas en el snippet.",
+        "reemplaza": "We can provide you with general information about our services or refer you to our regional and local experts or teams. It is best to contact your local office to find out more about the possibilities in your region."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "control union canada",
+      "impr": 803,
+      "pos": 2.7
+     },
+     {
+      "query": "control union usa",
+      "impr": 776,
+      "pos": 1.45
+     },
+     {
+      "query": "control union certifications",
+      "impr": 322,
+      "pos": 19.8
+     }
+    ],
+    "organico_desde": "Norteamérica",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:northamerica-controlunion-com:contenido-forestal",
+   "marca": "CU",
+   "sitio": "northamerica.controlunion.com",
+   "titulo": "FSC Canadá: reescribir la página FSC (201 impr., pos. 27) y la landing /industry/forestry/ de la campaña Forestry (ARS 235.969, 66 clics)",
+   "detalle": "La campaña CU Canada - Forestry - Search sigue activa (21 oct 2026) y gastó ARS 235.969 por 66 clics entre el 1 sep y el 20 oct 2026, todo hacia /industry/forestry/, que tiene 21 impresiones orgánicas en 16 meses y una meta cortada («second to none within the agricu ...»). La página FSC tiene 201 impresiones en posición 27 y no dice Canadá ni EE. UU. en ningún lado. Si la campaña sigue, hay que reescribir las dos páginas; si se pausa (decisión SEM ya tomada en septiembre y no aplicada), esto pasa a prioridad baja.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "northamerica.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+      "nota": "la que se reescribe (title, meta, H1, secciones nuevas)"
+     },
+     {
+      "url": "https://northamerica.controlunion.com/industry/forestry/",
+      "nota": "landing de la campaña Forestry: corregir title y meta"
+     },
+     {
+      "url": "https://northamerica.controlunion.com/certification-program/pefc-program-for-the-endorsement-of-forest-certification-systems/",
+      "nota": "origen de un enlace interno nuevo"
+     }
+    ],
+    "acciones": [
+     "contenido",
+     "landing"
+    ],
+    "resumen": "Que la página FSC y la landing forestal digan qué se certifica (cadena de custodia FSC/PEFC) y dónde (Canadá y EE. UU.).",
+    "por_que": "Search Console (mar – 14 sep 2026): FSC 201 impr., 0 clics, pos. 26,9 («fsc forest management» 45 en pos. 20,8; «fsc usa» 26 en pos. 7,4); PEFC 66 impr. en pos. 43; /industry/forestry/ 21 impr.; ENplus 14. Google Ads, CU Canada - Forestry - Search (1 sep – 20 oct 2026): anuncios FSC ARS 97.546 (28 clics), Forestry cert ARS 108.885 (28), PEFC ARS 29.538 (10); términos «fsc» 174 impr., «fsc certification» 102, «fsc canada» 21.",
+    "ya_hecho": "Nada en contenido. La campaña Forestry no se pausó: figura ENABLED en la estructura del 21 oct 2026.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Reescribir title, meta y H1 de la página FSC",
+      "donde": "https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+      "detalle": "La página solo ofrece cadena de custodia (lo dice su propio texto); el H1 nuevo no promete manejo forestal.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "FSC Chain of Custody Certification | Control Union",
+        "destino": "https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+        "motivo": "Las búsquedas pagas y orgánicas son «fsc certification» y «fsc chain of custody»; el title actual es solo el nombre de la norma.",
+        "reemplaza": "FSC® - Forest Stewardship Council®  - Control Union North America"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "FSC® and PEFC chain of custody certification for sawmills, traders, manufacturers and brands in Canada and the USA. Request a quote from Control Union.",
+        "destino": "https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+        "motivo": "La meta actual habla de manejo forestal, que la página no ofrece, y no nombra ningún país.",
+        "reemplaza": "Forest Management Certification gives the public reassurance that timber products originating from a forest are managed in a responsible and sustainable way."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "FSC® Chain of Custody Certification in Canada and the USA",
+        "destino": "https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+        "motivo": "Ninguna parte de la página nombra Canadá; «fsc canada» es un término pago de la campaña.",
+        "reemplaza": "FSC® – Forest Stewardship Council®"
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Sumar tres secciones a la página FSC",
+      "donde": "https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+      "detalle": "Debajo de «Chain of Custody Certification of Forest Based Products» y antes de «FSC® Resources».",
+      "items": [
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «Who needs FSC® Chain of Custody certification»: sawmills, wood processors, traders and exporters, printers and packaging makers, and brands that sell FSC-labelled products.",
+        "destino": "https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+        "motivo": "Es la lista «Who we support» de /industry/forestry/ llevada a FSC; responde «fsc certification» (102 impr. pagas)."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «How FSC® certification works with Control Union»: application and quote, audit against FSC-STD-40-004, certification decision, annual surveillance audits.",
+        "destino": "https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+        "motivo": "Las normas FSC-STD-40-004 y 40-003 ya están citadas en la página. Confirmar con la unidad la secuencia y si la auditoría es en sitio o remota."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Control Union North America certifica también manejo forestal FSC (FM) en Canadá? Si sí: H2 «FSC® Forest Management certification in Canada»; si no: quitar la frase de manejo forestal del primer párrafo.",
+        "destino": "https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+        "motivo": "Confirmar con la unidad. El primer párrafo habla de manejo forestal pero el servicio descrito es solo cadena de custodia; «fsc forest management» tiene 45 impr. en pos. 20,8."
+       }
+      ]
+     },
+     {
+      "accion": "landing",
+      "titulo": "Corregir title y meta de /industry/forestry/",
+      "donde": "https://northamerica.controlunion.com/industry/forestry/",
+      "detalle": "Es la URL final de los 5 anuncios de CU Canada - Forestry - Search.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Forestry Certification: FSC®, PEFC and SBP | Control Union",
+        "destino": "https://northamerica.controlunion.com/industry/forestry/",
+        "motivo": "Los programas que la página enlaza son FSC, PEFC y SBP; el title actual es «Forestry».",
+        "reemplaza": "Forestry  - Control Union North America"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Chain of custody certification for forest products in Canada and the USA: FSC®, PEFC and SBP for sawmills, traders, pellet producers and brands.",
+        "destino": "https://northamerica.controlunion.com/industry/forestry/",
+        "motivo": "La meta actual está cortada en «agricu ...» y habla de logística.",
+        "reemplaza": "As one of the most important industries in the world, our in-depth knowledge of all aspects of the logistics chain makes us second to none within the agricu ..."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Enlaces internos hacia la página FSC",
+      "donde": "https://northamerica.controlunion.com/certification-program/pefc-program-for-the-endorsement-of-forest-certification-systems/ y https://northamerica.controlunion.com/certification-programs/",
+      "detalle": "Hoy solo /industry/forestry/ enlaza a FSC.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://northamerica.controlunion.com/certification-program/pefc-program-for-the-endorsement-of-forest-certification-systems/ con anchor «FSC® chain of custody certification» hacia https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+        "destino": "https://northamerica.controlunion.com/certification-program/pefc-program-for-the-endorsement-of-forest-certification-systems/",
+        "motivo": "PEFC y FSC se auditan juntas en cadena de custodia (lo dice la página FSC)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://northamerica.controlunion.com/certification-programs/ con anchor «FSC® Chain of Custody» hacia https://northamerica.controlunion.com/certification-program/fsc-forest-stewardship-council/",
+        "destino": "https://northamerica.controlunion.com/certification-programs/",
+        "motivo": "El listado de programas (4.061 impr., pos. 8) no enlaza a FSC: 0 enlaces verificados el 28 oct 2026."
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "Decisión SEM pendiente: pausa de Forestry",
+      "donde": "CU Canada - Forestry - Search",
+      "detalle": "No es un cambio de la web: si la campaña se pausa, este paso y la prioridad de la tarjeta bajan.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Se pausa CU Canada - Forestry - Search como se decidió en septiembre? Si sí: hacer solo el paso de title/meta (prioridad baja). Si sigue: hacer toda la tarjeta y cambiar la URL final del grupo «FSC» a la página FSC.",
+        "destino": "CU Canada - Forestry - Search",
+        "motivo": "ARS 235.969 por 66 clics (1 sep – 20 oct 2026) hacia una landing con 21 impr. orgánicas."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "fsc forest management",
+      "impr": 45,
+      "pos": 20.82
+     },
+     {
+      "query": "fsc standard 29",
+      "impr": 28,
+      "pos": 10.79
+     },
+     {
+      "query": "fsc usa",
+      "impr": 26,
+      "pos": 7.35
+     },
+     {
+      "query": "fsc approved",
+      "impr": 18,
+      "pos": 65.44
+     },
+     {
+      "query": "pefc certification",
+      "impr": 8,
+      "pos": 59.62
+     }
+    ],
+    "organico_desde": "Norteamérica",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026; Google Ads 1 sep – 20 oct 2026, estructura al 21 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:argentina-controlunion-com:smeta-y-visec",
+   "marca": "CU",
+   "sitio": "argentina.controlunion.com",
+   "titulo": "SMETA y VISEC: hreflang ya cargado; falta /en/ como «en», title de la /en/ SMETA, snippet de VISEC, 3 redirecciones 301 y enlaces",
+   "detalle": "El hreflang es-AR / en-AR / x-default ya está bien cargado y es recíproco, así que lo de septiembre está a medio camino. Lo que queda es concreto: las /en/ están marcadas en-AR (inglés para Argentina) cuando su público es el comprador extranjero; la /en/ de SMETA tiene un title en castellano y H1 «SMETA»; la meta de VISEC tiene 330 caracteres y nombra a Peterson; hay tres URL viejas que dan 404, y ninguna página de la red enlaza a VISEC. Suma «sedex argentina» y «visec carne», que en septiembre estaban en quick wins.",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "argentina.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://argentina.controlunion.com/programa-de-certificacion/smeta/",
+      "nota": "SMETA en castellano: title y meta"
+     },
+     {
+      "url": "https://argentina.controlunion.com/en/certification-program/smeta/",
+      "nota": "SMETA en inglés: hreflang, title y H1"
+     },
+     {
+      "url": "https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+      "nota": "VISEC en castellano: title, meta, sección «VISEC Carne»"
+     },
+     {
+      "url": "https://argentina.controlunion.com/en/certification-program/visec-traceability-platform-for-deforestation-free-soy-and-beef/",
+      "nota": "VISEC en inglés: hreflang"
+     }
+    ],
+    "acciones": [
+     "tecnico",
+     "contenido"
+    ],
+    "resumen": "Afinar hreflang, snippet y enlaces de las dos páginas de programa que más ve el mercado argentino.",
+    "por_que": "Search Console (may 2025 – 14 sep 2026): SMETA es 15.154 impr., 44 clics, pos. 9,4 (CTR 0,29%); SMETA /en/ 5.150 impr., 6 clics, pos. 12,8. «smeta» 8.890 impr. en total, pero solo 1.607 desde Argentina (México 905, Ecuador 818, Colombia 667, EE. UU. 485): no se puede saber por país qué URL ve cada uno. «sedex argentina» 732 impr., pos. 8,7, 1 clic (724 desde Argentina). VISEC 13.163 impr., 125 clics, pos. 6,4; «visec carne» 4.433 impr., pos. 8,5, 29 clics. En el análisis de septiembre la página SMETA encabezaba la lista de CTR bajo del sitio (22.535 impr. en la serie diaria, CTR 0,51%).",
+    "ya_hecho": "Hreflang es-AR/en-AR/x-default recíproco en las cuatro URL y canonical propio en cada una (verificado el 28 oct 2026). Falta todo lo de los 5 pasos: hreflang «en», snippet de SMETA, snippet de VISEC, 3 redirecciones 301 y enlaces hacia VISEC.",
+    "pasos": [
+     {
+      "accion": "tecnico",
+      "titulo": "Cambiar hreflang en-AR por en en las cuatro URL",
+      "donde": "https://argentina.controlunion.com/programa-de-certificacion/smeta/, https://argentina.controlunion.com/en/certification-program/smeta/, https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/, https://argentina.controlunion.com/en/certification-program/visec-traceability-platform-for-deforestation-free-soy-and-beef/",
+      "detalle": "Se reemplaza solo el atributo de la línea de la versión inglesa; es-AR y x-default quedan igual. Si el cambio se hace en la configuración de idiomas (WPML/Polylang), aplica a todo el sitio, que es lo buscado.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "<link rel=\"alternate\" hreflang=\"en\" href=\"https://argentina.controlunion.com/en/certification-program/smeta/\" />",
+        "destino": "https://argentina.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "Con en-AR la versión inglesa queda declarada solo para angloparlantes en Argentina; «smeta certification» viene de EE. UU. (182), India (105) y Reino Unido (73).",
+        "reemplaza": "<link rel=\"alternate\" hreflang=\"en-AR\" href=\"https://argentina.controlunion.com/en/certification-program/smeta/\" />"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "<link rel=\"alternate\" hreflang=\"en\" href=\"https://argentina.controlunion.com/en/certification-program/visec-traceability-platform-for-deforestation-free-soy-and-beef/\" />",
+        "destino": "https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+        "motivo": "Mismo criterio: «visec» tiene 503 impr. desde Suiza y 226 desde EE. UU.",
+        "reemplaza": "<link rel=\"alternate\" hreflang=\"en-AR\" href=\"https://argentina.controlunion.com/en/certification-program/visec-traceability-platform-for-deforestation-free-soy-and-beef/\" />"
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Snippet de SMETA en castellano y en inglés",
+      "donde": "https://argentina.controlunion.com/programa-de-certificacion/smeta/ y https://argentina.controlunion.com/en/certification-program/smeta/",
+      "detalle": "SMETA es una auditoría (no un certificado): los textos dicen «auditoría».",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Auditoría SMETA (Sedex) en Argentina | Control Union",
+        "destino": "https://argentina.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "Suma «Sedex» y «Argentina»: «sedex argentina» 732 impr. en pos. 8,7 y «sedex smeta» 1.129 en pos. 8,6.",
+        "reemplaza": "SMETA – Sedex Members Ethical Trade Audit | Control Union Argentina"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Auditorías SMETA 2 y 4 pilares para miembros de Sedex en Argentina: trabajo, salud y seguridad, ambiente y ética. Control Union es miembro de APSCA.",
+        "destino": "https://argentina.controlunion.com/programa-de-certificacion/smeta/",
+        "motivo": "La meta actual no dice dónde ni para quién; APSCA y 2/4 pilares ya están en la página.",
+        "reemplaza": "SMETA es una metodología reconocida a nivel global para auditar el cumplimiento social, ético y ambiental en la cadena de suministro."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "SMETA Audit (Sedex) in Argentina | Control Union",
+        "destino": "https://argentina.controlunion.com/en/certification-program/smeta/",
+        "motivo": "El title de la versión inglesa está en castellano («Certificaciones»).",
+        "reemplaza": "SMETA - Certificaciones - Control Union Argentina"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "SMETA – Sedex Members Ethical Trade Audit",
+        "destino": "https://argentina.controlunion.com/en/certification-program/smeta/",
+        "motivo": "El H1 en inglés es solo «SMETA»; se iguala al de la versión en castellano.",
+        "reemplaza": "SMETA"
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Snippet de VISEC y sección «VISEC Carne»",
+      "donde": "https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+      "detalle": "El title actual (95 caracteres) y la meta (unos 330) se cortan. La meta nombra a Peterson: en una página de Control Union no se mezclan las marcas.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "VISEC: soja y carne sin deforestación | Control Union",
+        "destino": "https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+        "motivo": "Se corta en el resultado; con 53 caracteres entra completo.",
+        "reemplaza": "VISEC - Plataforma de trazabilidad para soja y carne sin deforestación | Control Union Argentina"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Control Union es organismo de verificación de VISEC: verificamos plantas, puertos y embarques de soja y carne para exportar a la UE según la EUDR.",
+        "destino": "https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+        "motivo": "Dice el rol de Control Union (verificador autorizado, como dice la página) en 145 caracteres y saca la mención a otra marca.",
+        "reemplaza": "VISEC es una plataforma nacional desarrollada por organizaciones argentinas clave (CIARA‑CEC, The Nature Conservancy, Tropical Forest Alliance y  Peterson). Su objetivo es garantizar la trazabilidad ambiental y de cumplimiento legal de las partidas de soja y carne vacuna, orientadas al mercado europeo, para cumplir con el Reglamento UE 2023/1115 sobre deforestación."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «VISEC Carne: verificación para frigoríficos y exportadores»: qué verifica Control Union en la cadena de carne vacuna (plantas, puertos, embarques) y enlace a la plataforma VISEC Carne para el registro del operador.",
+        "destino": "https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+        "motivo": "«visec carne» 4.433 impr., pos. 8,5 vs «visec» en pos. 5,5: la página no tiene ninguna sección propia de carne. Confirmar con la unidad qué eslabones de la cadena de carne verifica."
+       }
+      ]
+     },
+     {
+      "accion": "tecnico",
+      "titulo": "Redirigir tres URL viejas que dan 404",
+      "donde": "Plugin de redirecciones de argentina.controlunion.com",
+      "detalle": "Las tres responden 404 (28 oct 2026) y tuvieron impresiones en Search Console.",
+      "items": [
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/programa-de-certificacion/smeta/",
+        "destino": "https://argentina.controlunion.com/es/normas-internacionales/smeta-evaluaciones-de-2-pilares-y-4-pilares",
+        "motivo": "404; tuvo 113 impr. en pos. 17,7."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/en/certification-program/smeta/",
+        "destino": "https://argentina.controlunion.com/en/international-standards/smeta-2-pillar-and-4-pillar-assessments",
+        "motivo": "404; tuvo 28 impr."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+        "destino": "https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-soja-y-carne-sin-deforestacion/",
+        "motivo": "404; slug anterior de la página VISEC."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Enlazar VISEC desde EUDR y desde las industrias",
+      "donde": "https://argentina.controlunion.com/eudr-eu-deforestation-regulation/ y páginas de industria",
+      "detalle": "Ninguna de estas tres páginas enlaza hoy a VISEC (0 enlaces, verificado el 28 oct 2026).",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://argentina.controlunion.com/eudr-eu-deforestation-regulation/ con anchor «verificación VISEC de soja y carne» hacia https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+        "destino": "https://argentina.controlunion.com/eudr-eu-deforestation-regulation/",
+        "motivo": "VISEC es la herramienta argentina para la EUDR; la página EUDR no la menciona."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://argentina.controlunion.com/industry/ganaderia-y-productos-animales/ con anchor «VISEC Carne» hacia https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+        "destino": "https://argentina.controlunion.com/industry/ganaderia-y-productos-animales/",
+        "motivo": "Refuerza «visec carne» (4.433 impr., pos. 8,5)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://argentina.controlunion.com/industry/oleaginosas-grasas-y-aceites/ con anchor «VISEC Soja» hacia https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+        "destino": "https://argentina.controlunion.com/industry/oleaginosas-grasas-y-aceites/",
+        "motivo": "«visec soja» 184 impr. y «soja visec» 205."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "smeta",
+      "impr": 8905,
+      "pos": 10.4
+     },
+     {
+      "query": "sedex smeta",
+      "impr": 1129,
+      "pos": 8.58
+     },
+     {
+      "query": "smeta que es",
+      "impr": 786,
+      "pos": 9.43
+     },
+     {
+      "query": "sedex argentina",
+      "impr": 732,
+      "pos": 8.69
+     },
+     {
+      "query": "visec",
+      "impr": 8812,
+      "pos": 5.5
+     },
+     {
+      "query": "visec carne",
+      "impr": 4433,
+      "pos": 8.45
+     }
+    ],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:argentina-controlunion-com:servicios",
+   "marca": "CU",
+   "sitio": "argentina.controlunion.com",
+   "titulo": "Inspecciones: el CTR bajo de /servicios-inspecciones/ es por búsquedas de marca; reescribir title/meta y redirigir 3 URL viejas de servicios",
+   "detalle": "La página tiene 6.818 impresiones con consulta visible y unas 5.000 son de marca («control union» 3.533 en pos. 1,8; «control union argentina» 1.465 en pos. 1,4): Google la muestra debajo de la home y el clic se lo lleva la home. Por eso el CTR de 0,5% no se arregla con el title. Lo que sí rinde: un title/meta con los servicios reales (la propuesta de septiembre mezclaba depósito fiscal y warrants, que no son inspecciones) y redirigir tres URL de servicios que dan 404. Prioridad baja.",
+   "prioridad": "baja",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "argentina.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://argentina.controlunion.com/servicios-inspecciones/",
+      "nota": "listado de servicios de inspección: title y meta"
+     },
+     {
+      "url": "https://argentina.controlunion.com/service/inspecciones-de-commodities/",
+      "nota": "página principal de inspecciones (más completa): decisión de consolidar"
+     },
+     {
+      "url": "https://argentina.controlunion.com/service/inspecciones-de-commodities/draft-survey/",
+      "nota": "destino de una redirección"
+     }
+    ],
+    "acciones": [
+     "contenido",
+     "tecnico"
+    ],
+    "resumen": "Snippet con los servicios concretos y limpieza de URL viejas de servicios.",
+    "por_que": "Search Console (may 2025 – 14 sep 2026): /servicios-inspecciones/ 11.472 impr., 57 clics, pos. 4,0 (serie diaria); con query visible 6.818 impr., de las que «control union» son 3.533 y «control union argentina» 1.465. Sin marca: «inspecciones» 113 impr. en pos. 11,1. «draft survey» 76 impr. en pos. 4,2 sobre /es/servicios/draft-survey, que hoy da 404.",
+    "ya_hecho": "/es/servicios-inspecciones y /es/inspecciones-de-commodities ya redirigen con 301 (verificado el 28 oct 2026).",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Reescribir title y meta con los servicios que lista la página",
+      "donde": "https://argentina.controlunion.com/servicios-inspecciones/",
+      "detalle": "Los servicios salen de los H3 de la propia página.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Inspección de granos y commodities en puerto | Control Union",
+        "destino": "https://argentina.controlunion.com/servicios-inspecciones/",
+        "motivo": "«inspecciones» (113 impr., pos. 11) es la única query sin marca relevante; «granos» y «puerto» describen el servicio.",
+        "reemplaza": "Inspecciones de commodities - Servicios - Control Union Argentina"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Draft survey, supervisión de carga y descarga, muestreo y lacrado, inspección de bodegas, tanques y almacenes, y laboratorio propio en Ricardone, Santa Fe.",
+        "destino": "https://argentina.controlunion.com/servicios-inspecciones/",
+        "motivo": "Nombra los servicios concretos; la meta actual es genérica.",
+        "reemplaza": "Tenemos las herramientas, la experiencia y los conocimientos para respaldar toda su cadena logística, proporcionando los servicios de inspección independientes más apropiados para garantizar que se cumplen con las obligaciones contractuales y los estándares de calidad más exigentes."
+       }
+      ]
+     },
+     {
+      "accion": "tecnico",
+      "titulo": "Redirigir tres URL viejas de servicios",
+      "donde": "Plugin de redirecciones de argentina.controlunion.com",
+      "detalle": "Las tres dan 404 (28 oct 2026).",
+      "items": [
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/service/inspecciones-de-commodities/draft-survey/",
+        "destino": "https://argentina.controlunion.com/es/servicios/draft-survey",
+        "motivo": "404; tuvo al menos 123 impr. y 1 clic en pos. 5,3 («draft survey» 76 en pos. 4,2)."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/service/inspecciones-de-commodities/inspecciones-de-almacenes/",
+        "destino": "https://argentina.controlunion.com/es/servicios/inspecciones-en-almacenes",
+        "motivo": "404; tuvo al menos 105 impr. con queries de inspección."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/service/inspecciones-de-commodities/inspeccion-de-bodegas-y-tanques/",
+        "destino": "https://argentina.controlunion.com/es/servicios/inspeccion-de-bodegas-y-tanques",
+        "motivo": "404; tuvo al menos 30 impr. con queries de inspección."
+       }
+      ]
+     },
+     {
+      "accion": "tecnico",
+      "titulo": "Decidir si se consolidan las dos páginas de inspecciones",
+      "donde": "https://argentina.controlunion.com/servicios-inspecciones/ y https://argentina.controlunion.com/service/inspecciones-de-commodities/",
+      "detalle": "Hay dos páginas para lo mismo: el listado y la página de inspecciones con acreditaciones (ISO/IEC 17020, GAFTA, SENASA). Opcional.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Se deja una sola página de inspecciones? Si sí: 301 de https://argentina.controlunion.com/servicios-inspecciones/ → https://argentina.controlunion.com/service/inspecciones-de-commodities/ (y la versión /en/inspections-services/ a /en/service/commodity-inspections/), y el title propuesto pasa a la página que queda. Si no: dejar las dos y solo cambiar el snippet.",
+        "destino": "https://argentina.controlunion.com/servicios-inspecciones/",
+        "motivo": "Opcional: la página de destino es más completa, pero el listado concentra 6.818 impr. de marca; pedir opinión al equipo web antes de mover."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "control union",
+      "impr": 3533,
+      "pos": 1.83
+     },
+     {
+      "query": "control union argentina",
+      "impr": 1465,
+      "pos": 1.35
+     },
+     {
+      "query": "inspecciones",
+      "impr": 113,
+      "pos": 11.13
+     },
+     {
+      "query": "draft survey",
+      "impr": 773,
+      "pos": 12.8
+     }
+    ],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:argentina-controlunion-com:deposito-fiscal",
+   "marca": "CU",
+   "sitio": "argentina.controlunion.com",
+   "titulo": "Depósito fiscal: /service/deposito-fiscal/ da 404 sin redirección y se perdieron ~900 impr./mes en pos. 4–6; recrear la página o 301",
+   "detalle": "La página que rankeaba para «depósito fiscal» (18.817 impresiones, 179 clics, posición 4–6 a fines de 2025) hoy da 404, igual que /es/deposito-fiscal y /service/depositos/; el contenido quedó como una sección de /service/logistica-almacenaje-y-depositos/ (Control Union Norte, Tucumán). Las queries de depósito fiscal pasaron de 829–1.110 impr./mes (may–nov 2025) a 3–76 por mes en 2026. Lo mejor es volver a publicar la página en la misma URL; como mínimo, redirigir.",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "argentina.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://argentina.controlunion.com/service/deposito-fiscal/",
+      "nota": "da 404: se recrea en la misma URL (opción A) o se redirige (opción B)"
+     },
+     {
+      "url": "https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/",
+      "nota": "donde quedó el contenido (sección «Depósito Fiscal»)"
+     },
+     {
+      "url": "https://argentina.controlunion.com/es/deposito-fiscal",
+      "nota": "URL vieja, 404"
+     },
+     {
+      "url": "https://argentina.controlunion.com/service/depositos/",
+      "nota": "URL vieja, 404"
+     }
+    ],
+    "acciones": [
+     "tecnico",
+     "contenido"
+    ],
+    "resumen": "Recuperar la URL de depósito fiscal que tenía posición 4–6 y quedó en 404.",
+    "por_que": "Search Console: /service/deposito-fiscal/ 1.348–3.153 impr./mes de may a nov 2025 y 1.038 en dic 2025; desde mar 2026 no aparece. Queries con «fiscal»: 829–1.110 impr./mes y posición 4,1–5,9 entre sep y nov 2025; en 2026, 3 a 76 por mes. «deposito fiscal» 3.126 impr. y 25 clics sobre esa URL; «que es un deposito fiscal» 531 en pos. 5,9; «depósitos fiscales» 295. /service/logistica-almacenaje-y-depositos/ recibe 163–599 impr./mes.",
+    "ya_hecho": "Nada. /service/logistica/ ya redirige (301) a la página de logística, pero /service/deposito-fiscal/, /es/deposito-fiscal, /service/depositos/, /es/depositos y /es/logistica-1 dan 404 (verificado el 28 oct 2026).",
+    "pasos": [
+     {
+      "accion": "tecnico",
+      "titulo": "Elegir opción y ejecutar",
+      "donde": "https://argentina.controlunion.com/service/deposito-fiscal/",
+      "detalle": "Opción A (recomendada): publicar de nuevo una página propia en /service/deposito-fiscal/ con el texto de la sección «Depósito Fiscal» de la página de logística, ampliado. Opción B: redirigir con 301 a la página de logística.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Control Union Norte puede volver a tener una página propia de depósito fiscal? Si sí: opción A (crear la página en /service/deposito-fiscal/ con el contenido de este paso a paso). Si no: opción B (301 de las cinco URL a la página de logística).",
+        "destino": "https://argentina.controlunion.com/service/deposito-fiscal/",
+        "motivo": "La URL vieja tenía posición 4–6 y enlaces; recrearla en la misma dirección recupera más que una redirección a una página general."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/service/deposito-fiscal/ (opción A) o https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/ (opción B)",
+        "destino": "https://argentina.controlunion.com/es/deposito-fiscal",
+        "motivo": "404; tuvo 2.195 impr. en may 2025 y «deposito fiscal» 387 impr. en pos. 11,3."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/",
+        "destino": "https://argentina.controlunion.com/service/depositos/",
+        "motivo": "404; tuvo 2.538 impr. (may–dic 2025)."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/",
+        "destino": "https://argentina.controlunion.com/es/depositos",
+        "motivo": "404; tuvo 441 impr."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/",
+        "destino": "https://argentina.controlunion.com/es/logistica-1",
+        "motivo": "404; tuvo 417 impr."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/",
+        "destino": "https://argentina.controlunion.com/service/deposito-fiscal/",
+        "motivo": "Solo si se elige la opción B; con la opción A esta URL vuelve a responder 200."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Contenido de la página recreada (opción A)",
+      "donde": "https://argentina.controlunion.com/service/deposito-fiscal/",
+      "detalle": "Texto base: la sección «Depósito Fiscal» de la página de logística. Lo que no está en esa sección se confirma con Control Union Norte.",
+      "items": [
+       {
+        "accion": "crear",
+        "tipo": "title",
+        "texto": "Depósito fiscal en Tucumán | Control Union Argentina",
+        "destino": "https://argentina.controlunion.com/service/deposito-fiscal/",
+        "motivo": "«deposito fiscal» 3.126 impr. sobre esta URL; la ubicación (Tucumán, Norte Argentino) diferencia el servicio."
+       },
+       {
+        "accion": "crear",
+        "tipo": "meta",
+        "texto": "Depósito fiscal habilitado en Tucumán para importación y exportación: almacenaje de mercadería nacional o extranjera, trasvase, paletizado y warrants.",
+        "destino": "https://argentina.controlunion.com/service/deposito-fiscal/",
+        "motivo": "Resume lo que dice la página de logística sobre el depósito fiscal y el almacenaje."
+       },
+       {
+        "accion": "crear",
+        "tipo": "h1",
+        "texto": "Depósito fiscal en el Norte Argentino",
+        "destino": "https://argentina.controlunion.com/service/deposito-fiscal/",
+        "motivo": "Coincide con la query principal y con la ubicación."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «¿Qué es un depósito fiscal?»: definición en 2–3 frases (predio habilitado donde la mercadería de importación o exportación se almacena bajo control aduanero).",
+        "destino": "https://argentina.controlunion.com/service/deposito-fiscal/",
+        "motivo": "«que es un deposito fiscal» 531 impr. en pos. 5,9 y «deposito fiscal que es» 318 en pos. 5,6."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «Servicios en nuestro depósito fiscal»: recepción, control e inventario, trasvase, paletizado, toma de muestras, y emisión de certificados de depósito y warrants.",
+        "destino": "https://argentina.controlunion.com/service/deposito-fiscal/",
+        "motivo": "Lista tomada de la página de logística."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «Ubicación y capacidad»: base operativa en Tucumán, unos 50.000 m² de depósitos propios y alquilados, con el enlace «Ver catálogo de nuestros depósitos».",
+        "destino": "https://argentina.controlunion.com/service/deposito-fiscal/",
+        "motivo": "Datos de la página de logística; confirmar con la unidad qué parte de esos 50.000 m² está habilitada como depósito fiscal."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Enlaces internos hacia depósito fiscal",
+      "donde": "https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/ y https://argentina.controlunion.com/servicios/",
+      "detalle": "Solo con la opción A.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/ con anchor «depósito fiscal» hacia https://argentina.controlunion.com/service/deposito-fiscal/",
+        "destino": "https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/",
+        "motivo": "La sección «Depósito Fiscal» de la página de logística tiene que llevar a la página propia."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://argentina.controlunion.com/servicios/ con anchor «Depósito fiscal» hacia https://argentina.controlunion.com/service/deposito-fiscal/",
+        "destino": "https://argentina.controlunion.com/servicios/",
+        "motivo": "El listado de servicios hoy no enlaza ninguna página de depósito fiscal."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "deposito fiscal",
+      "impr": 3126,
+      "pos": 8.4
+     },
+     {
+      "query": "que es un deposito fiscal",
+      "impr": 531,
+      "pos": 5.86
+     },
+     {
+      "query": "depósito fiscal",
+      "impr": 363,
+      "pos": 4.42
+     },
+     {
+      "query": "deposito fiscal que es",
+      "impr": 318,
+      "pos": 5.63
+     },
+     {
+      "query": "depósitos fiscales",
+      "impr": 295,
+      "pos": 10.86
+     },
+     {
+      "query": "deposito fiscal control union",
+      "impr": 313,
+      "pos": 2.14
+     }
+    ],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:argentina-controlunion-com:quick-wins",
+   "marca": "CU",
+   "sitio": "argentina.controlunion.com",
+   "titulo": "Warrants: ampliar /warrants-cma/ (378 impr. en pos. 8,4, 3 párrafos) y redirigir 2 URL con 404; CFR no es quick win",
+   "detalle": "De los cuatro quick wins de septiembre queda uno: warrants. «visec carne» y «sedex argentina» pasaron a la tarjeta SMETA y VISEC (son las mismas páginas). «cfr» no conviene: 1.345 impresiones desde Argentina y 0 clics en 16 meses; casi seguro es el Incoterm CFR (costo y flete), no la Clean Fuel Regulation canadiense. Para warrants: la página /warrants-cma/ tiene tres párrafos; hay que sumar qué es un warrant y cómo funciona, y redirigir las URL viejas que todavía reciben impresiones.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "argentina.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+      "nota": "la que se amplía (title, meta, H1, secciones)"
+     },
+     {
+      "url": "https://argentina.controlunion.com/service/gestion-de-garantias/",
+      "nota": "página madre de gestión de garantías: origen de enlaces"
+     },
+     {
+      "url": "https://argentina.controlunion.com/servicios-cma/",
+      "nota": "listado duplicado sin meta: decisión de redirigir"
+     }
+    ],
+    "acciones": [
+     "contenido",
+     "tecnico"
+    ],
+    "resumen": "Hacer de /warrants-cma/ la página que responda «warrants» y «qué es un warrant».",
+    "por_que": "Search Console (may 2025 – 14 sep 2026): «warrants» 378 impr. en pos. 8,4 sobre /warrants-cma/ y 186 en pos. 8,9 sobre /gestion-de-garantias/; «warrant» 566 en pos. 10,7; «warrants argentina» 201 en pos. 8,6 (5 clics); «que es un warrant» 37 en pos. 11,3 sobre /es/acerca-del-servicio, que da 404. «cfr» 1.682 impr., 0 clics, pos. 9,5 (1.345 desde Argentina).",
+    "ya_hecho": "/gestion-de-garantias/ ya enlaza a /warrants-cma/ y tiene un title con «Warrants» (28 oct 2026).",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Reescribir title, meta y H1 de /warrants-cma/",
+      "donde": "https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+      "detalle": "Mismo texto base de la página; no se agregan promesas financieras.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Warrants sobre mercadería en Argentina | Control Union",
+        "destino": "https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+        "motivo": "«warrants argentina» 201 impr. en pos. 8,6; el title actual mezcla inglés («Collateral Management»).",
+        "reemplaza": "Warrants & CMA - Collateral Management - Control Union Argentina"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Warrants y certificados de depósito sobre mercadería en guarda: garantía real de rápida ejecución para bancos, traders, industrias y productores.",
+        "destino": "https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+        "motivo": "Usa lo que dice la página (depositario de activos, garantía real de fácil ejecución) y nombra a los cuatro públicos de la página madre.",
+        "reemplaza": "El warrant es un instrumento de crédito en el que Control Union se convierte en depositario de activos concedidos como garantía en beneficio de un acreedor financiero y/o comercial."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Warrants y CMA: mercadería como garantía de crédito",
+        "destino": "https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+        "motivo": "El H1 actual («Warrants y CMA») no dice qué es; «garantía» aparece en «warrant garantia» y «garantia warrant».",
+        "reemplaza": "Warrants y CMA"
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Agregar dos secciones",
+      "donde": "https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+      "detalle": "Debajo del primer párrafo, antes de «Beneficios de este servicio».",
+      "items": [
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «¿Qué es un warrant?»: título de crédito que se emite sobre mercadería depositada y permite usarla como garantía de un préstamo; Control Union actúa como depositario.",
+        "destino": "https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+        "motivo": "«que es un warrant» 37 impr. en pos. 11,3 caían en una URL que hoy da 404."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «Cómo funciona el warrant con Control Union»: depósito y control de la mercadería, emisión del certificado de depósito y del warrant, endoso al acreedor, seguimiento del stock y liberación al cancelar.",
+        "destino": "https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+        "motivo": "Confirmar con la unidad la secuencia y los nombres exactos de cada paso antes de publicar."
+       }
+      ]
+     },
+     {
+      "accion": "tecnico",
+      "titulo": "Redirigir URL viejas y el listado duplicado",
+      "donde": "Plugin de redirecciones de argentina.controlunion.com",
+      "detalle": "Las dos primeras dan 404 (28 oct 2026). La tercera responde 200 pero es un listado sin meta y con H1 «Servicios».",
+      "items": [
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+        "destino": "https://argentina.controlunion.com/es/acerca-del-servicio",
+        "motivo": "404; tuvo 260 impr. de queries de warrants («warrants» 82 en pos. 9,5)."
+       },
+       {
+        "accion": "redirigir",
+        "tipo": "url",
+        "texto": "301 → https://argentina.controlunion.com/en/service/collateral-management/warrants-cma/",
+        "destino": "https://argentina.controlunion.com/en/about-the-service",
+        "motivo": "404; tuvo 49 impr. de queries de warrants."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿https://argentina.controlunion.com/servicios-cma/ sigue en algún menú? Si no: 301 → https://argentina.controlunion.com/service/gestion-de-garantias/. Si sí: cambiar ese enlace del menú y después redirigir.",
+        "destino": "https://argentina.controlunion.com/servicios-cma/",
+        "motivo": "Duplica a /gestion-de-garantias/ (title «Servicios - Gestión de garantías», sin meta) y recibió 24 impr. de «warrants»."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Enlace desde la página de logística",
+      "donde": "https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/",
+      "detalle": "La página de logística dice «emisión de certificados de depósito y warrants» sin enlazar.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/ con anchor «warrants» hacia https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+        "destino": "https://argentina.controlunion.com/service/logistica-almacenaje-y-depositos/",
+        "motivo": "Conecta almacenaje con warrants; hoy esa mención no tiene enlace."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "warrant",
+      "impr": 566,
+      "pos": 10.73
+     },
+     {
+      "query": "warrants",
+      "impr": 378,
+      "pos": 8.35
+     },
+     {
+      "query": "warrants argentina",
+      "impr": 201,
+      "pos": 8.56
+     },
+     {
+      "query": "que es un warrant",
+      "impr": 37,
+      "pos": 11.32
+     },
+     {
+      "query": "cfr",
+      "impr": 1682,
+      "pos": 9.47
+     }
+    ],
+    "organico_desde": "Argentina",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEO:mexico-controlunion-com:grs",
+   "marca": "CU",
+   "sitio": "mexico.controlunion.com",
+   "titulo": "GRS México: definir «qué es GRS» arriba de todo y reescribir el snippet; en móvil «grs» tiene 17.875 impr. y 9 clics (CTR 0,05%)",
+   "detalle": "La página GRS es la de más impresiones de toda la red (38.407, posición 6,6, CTR 0,27%), y el problema está en móvil: «grs» da CTR 0,05% en móvil contra 0,32% en escritorio con la misma posición (7,5), y «grs que es» tiene 2.915 impresiones móviles en posición 4,3 con 0 clics. La gente pregunta qué es GRS y la página no lo responde en una frase. Por eso se unifica aquí la tarjeta de móvil: la brecha móvil de la propiedad se explica casi entera por esta página.",
+   "prioridad": "alta",
+   "unifica": [
+    "CU:SEO:mexico-controlunion-com:movil"
+   ],
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "mexico.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+      "nota": "la que se cambia (title, meta, H1, secciones)"
+     },
+     {
+      "url": "https://mexico.controlunion.com/en/certification-program/grs-global-recycled-standard/",
+      "nota": "versión inglesa: hreflang"
+     },
+     {
+      "url": "https://mexico.controlunion.com/programa-de-certificacion/ocs-blended-organic-content-standard/",
+      "nota": "origen de un enlace interno"
+     },
+     {
+      "url": "https://mexico.controlunion.com/programa-de-certificacion/rcs-100-recycled-claim-standard/",
+      "nota": "origen de un enlace interno"
+     }
+    ],
+    "acciones": [
+     "contenido",
+     "tecnico"
+    ],
+    "resumen": "Responder «qué es GRS» en la primera frase y llevar el snippet a «certificación GRS en México».",
+    "por_que": "Search Console (may 2025 – 14 sep 2026): página 38.407 impr., 102 clics, pos. 6,6. «grs» 22.367 impr. (21.761 desde México), 23 clics, pos. 7,5: móvil 17.875 impr. y 9 clics, escritorio 4.657 y 15. «grs que es» 3.212 impr. en pos. 4,5 con 1 clic (móvil 2.915, 0 clics). «que es grs» 1.929 en pos. 5,7. La propiedad tiene 41% de impresiones móviles y CTR móvil 0,95% vs 1,50% escritorio; en las consultas con query visible el CTR es 0,70% móvil vs 1,16% escritorio, y sin las queries que contienen «grs» queda 1,13% vs 1,23%: la brecha es casi toda de GRS.",
+    "ya_hecho": "Las URL viejas /es/normas-internacionales/grs-global-recycled-standard y /en/international-standards/grs-global-recycled-standard ya redirigen con 301 (verificado el 28 oct 2026). Title, meta y contenido siguen como en septiembre.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Reescribir title, meta y H1",
+      "donde": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+      "detalle": "El title actual es solo el nombre de la norma y la meta repite la primera frase de la página.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "GRS: qué es y cómo certificarse en México | Control Union",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "Responde la intención dominante («grs que es» 3.212, «que es grs» 1.929, «que significa grs» 453) y nombra México («grs mexico» 227 en pos. 4,3).",
+        "reemplaza": "GRS - Global Recycled Standard - Control Union México"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "GRS (Global Recycled Standard) certifica contenido reciclado, cadena de custodia y prácticas sociales, ambientales y químicas. Certificación GRS en México.",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "Empieza con la definición, que es lo que buscan en móvil, y cierra con el servicio.",
+        "reemplaza": "El GRS es un estándar de producto internacional, voluntario, y completo que fija requisitos para la certificación por parte de terceros de contenido reciclado, cadena de custodia, prácticas sociales y medioambientales, y restricciones químicas."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "GRS (Global Recycled Standard): qué es y cómo certificarse",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "Alinea el H1 con la pregunta.",
+        "reemplaza": "GRS – Global Recycled Standard"
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Agregar la definición y tres secciones",
+      "donde": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+      "detalle": "La definición va como primer párrafo bajo el H1 (40–50 palabras). Las secciones reemplazan a «Acerca del estándar» y «Objetivo», que hoy tienen dos párrafos.",
+      "items": [
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «¿Qué es GRS?»: GRS (Global Recycled Standard) es un estándar internacional de Textile Exchange que verifica el contenido reciclado de un producto y su cadena de custodia, y exige requisitos sociales, ambientales y de químicos. Un producto GRS lleva al menos 20% de material reciclado.",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "«grs que es» móvil: 2.915 impr. en pos. 4,3 y 0 clics. El 20% es el mínimo de la norma GRS 4.0: confirmar con la unidad la versión vigente antes de publicar."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «¿Quién necesita la certificación GRS?»: recicladores, fabricantes de hilos, telas, plásticos y empaques, comercializadoras y marcas que venden productos con declaración de reciclado.",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "Da contexto comercial a una página hoy solo informativa."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «Diferencia entre GRS y RCS»: GRS suma requisitos sociales, ambientales y de químicos; RCS solo verifica el contenido reciclado. Con enlace a la página RCS.",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "La página de Textiles ya presenta GRS y RCS juntas; RCS tiene 207 impr. en México."
+       },
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «Proceso de certificación GRS con Control Union»: solicitud, cotización, auditoría, decisión de certificación y certificados de transacción (TC).",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "Confirmar con la unidad los pasos y si emite TC desde México."
+       }
+      ]
+     },
+     {
+      "accion": "tecnico",
+      "titulo": "Cambiar hreflang en-MX por en",
+      "donde": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/ y https://mexico.controlunion.com/en/certification-program/grs-global-recycled-standard/",
+      "detalle": "Mismo cambio que en Argentina: la versión inglesa no es para angloparlantes en México sino para compradores de afuera.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "<link rel=\"alternate\" hreflang=\"en\" href=\"https://mexico.controlunion.com/en/certification-program/grs-global-recycled-standard/\" />",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "motivo": "«global recycled standard» en la /en/ está en pos. 68 (327 impr.); con en-MX la versión inglesa no se ofrece fuera de México.",
+        "reemplaza": "<link rel=\"alternate\" hreflang=\"en-MX\" href=\"https://mexico.controlunion.com/en/certification-program/grs-global-recycled-standard/\" />"
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Enlaces internos hacia GRS",
+      "donde": "Páginas OCS y RCS",
+      "detalle": "La página de Textiles ya enlaza a GRS; faltan las de programas vecinos.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://mexico.controlunion.com/programa-de-certificacion/ocs-blended-organic-content-standard/ con anchor «certificación GRS (Global Recycled Standard)» hacia https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/ocs-blended-organic-content-standard/",
+        "motivo": "OCS tiene 7.023 impr. en pos. 4,6 y es el programa textil vecino."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://mexico.controlunion.com/programa-de-certificacion/rcs-100-recycled-claim-standard/ con anchor «GRS» hacia https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/rcs-100-recycled-claim-standard/",
+        "motivo": "Quien mira RCS compara con GRS."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "grs",
+      "impr": 22367,
+      "pos": 7.52
+     },
+     {
+      "query": "grs que es",
+      "impr": 3212,
+      "pos": 4.47
+     },
+     {
+      "query": "que es grs",
+      "impr": 1929,
+      "pos": 5.7
+     },
+     {
+      "query": "global recycled standard",
+      "impr": 626,
+      "pos": 5.07
+     },
+     {
+      "query": "que significa grs",
+      "impr": 453,
+      "pos": 5.5
+     },
+     {
+      "query": "grs mexico",
+      "impr": 227,
+      "pos": 4.25
+     }
+    ],
+    "organico_desde": "México",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026. Velocidad móvil: no verificada (la API de PageSpeed devolvió cuota agotada el 28 oct 2026)"
+   }
+  },
+  {
+   "clave": "CU:SEO:mexico-controlunion-com:fair-trade-y-obp",
+   "marca": "CU",
+   "sitio": "mexico.controlunion.com",
+   "titulo": "Fair trade y OBP: páginas OK (200, indexadas), bajó la demanda; pasar el snippet de OBP al castellano y acortar el de fair trade",
+   "detalle": "Verificado: las dos páginas responden 200, tienen canonical propio y siguen con impresiones. La caída no es técnica. «obp» pasó de posición 13 a 43 en jul 2025 y desapareció: es una sigla genérica y las búsquedas de «ocean bound plastic» son decenas por año. «fair trade» bajó de 274–498 impr./mes (2025) a 9–136 (jun–sep 2026) con posición 8–9 estable. Lo único que se arregla es el snippet: el de OBP está en inglés en el sitio en castellano y el de fair trade se corta.",
+   "prioridad": "baja",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "mexico.controlunion.com",
+    "paginas": [
+     {
+      "url": "https://mexico.controlunion.com/programa-de-certificacion/fair-trade-usa/",
+      "nota": "title y meta"
+     },
+     {
+      "url": "https://mexico.controlunion.com/programa-de-certificacion/obp-ocean-bound-plastic-certification/",
+      "nota": "title, meta y H1 en castellano"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "No hay nada roto; corregir idioma y largo de los dos snippets.",
+    "por_que": "Search Console: fair-trade-usa 5.011 impr. con query visible, 10 clics, pos. 8,9; «fair trade» 3.118 en pos. 9,0 (mensual: 479 may 2025 → 9–136 jun–sep 2026); «fair trade usa» 524 en pos. 6,3; «certificación fair trade» 83 en pos. 10,4. OBP: «obp» 637 (may 2025) y 953 (jun 2025) en pos. 13–14, luego 119 en pos. 41,5 (jul 2025) y casi nada en 2026; la página tiene 11–36 impr./mes en pos. 4,7–6,5 en 2026.",
+    "ya_hecho": "Las URL viejas /es/normas-internacionales/fair-trade y /es/normas-internacionales/obp-ocean-bound-plastic ya redirigen con 301 (verificado el 28 oct 2026).",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Snippet de Fair Trade USA",
+      "donde": "https://mexico.controlunion.com/programa-de-certificacion/fair-trade-usa/",
+      "detalle": "La meta actual tiene unos 270 caracteres y se corta.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificación Fair Trade USA en México | Control Union",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/fair-trade-usa/",
+        "motivo": "«certificación fair trade» (83), «fair trade certificación» (82), «certificado fair trade» (79) y «certificacion fair trade» (70): 314 impr. en pos. 9–10 sin clics.",
+        "reemplaza": "Fair Trade USA - Control Union Mexico - Certificaciones"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificación Fair Trade USA para productores, procesadores y marcas en México: requisitos sociales, de salud y seguridad, ambientales y de comunidad.",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/fair-trade-usa/",
+        "motivo": "Dice qué se certifica y para quién en 144 caracteres.",
+        "reemplaza": "Fair Trade es un movimiento mundial formado por una red diversa de productores, empresas, compradores, defensores y organizaciones que se centran en el cumplimiento social, la salud y la seguridad, al tiempo que dan prioridad al capital humano, la comunidad y la sostenibilidad."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Snippet y H1 de OBP en castellano",
+      "donde": "https://mexico.controlunion.com/programa-de-certificacion/obp-ocean-bound-plastic-certification/",
+      "detalle": "El cuerpo de la página está en castellano; title y meta están en inglés.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Certificación Ocean Bound Plastic (OBP) | Control Union",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/obp-ocean-bound-plastic-certification/",
+        "motivo": "Sin «obp» genérico (sigla ambigua), con el nombre completo del programa.",
+        "reemplaza": "OBP - Ocean Bound Plastic certification  - Control Union Mexico"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Certificación OBP para colectores, recicladores y usuarios de plástico recuperado antes de llegar al mar. Control Union certifica el programa OBP.",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/obp-ocean-bound-plastic-certification/",
+        "motivo": "Los públicos salen de los H2 de la página (Colectores, Recicladores, Productores y Usuarios de Plásticos).",
+        "reemplaza": "Ocean Bound Plastic (OBP) is abandoned plastic waste on its way to our oceans. OBP is a critical element in the fight against oceanic plastic pollution. The goal of the Ocean Bound Plastic certification is to encourage the capture of OBP by giving it additional value and recognition in the market."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Certificación Ocean Bound Plastic (OBP)",
+        "destino": "https://mexico.controlunion.com/programa-de-certificacion/obp-ocean-bound-plastic-certification/",
+        "motivo": "El H1 actual es «Ocean Bound Plastic», sin decir que es una certificación.",
+        "reemplaza": "Ocean Bound Plastic"
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "fair trade",
+      "impr": 3118,
+      "pos": 8.96
+     },
+     {
+      "query": "fair trade usa",
+      "impr": 524,
+      "pos": 6.26
+     },
+     {
+      "query": "fairtrade usa",
+      "impr": 139,
+      "pos": 5.71
+     },
+     {
+      "query": "certificación fair trade",
+      "impr": 83,
+      "pos": 10.43
+     },
+     {
+      "query": "obp",
+      "impr": 1414,
+      "pos": 7.68
+     }
+    ],
+    "organico_desde": "México",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "PS:SEO:americas-peterson-solutions-com:espanol-para-argentina",
+   "marca": "PS",
+   "sitio": "americas.peterson-solutions.com",
+   "titulo": "Español: las 5 páginas en castellano ya existen pero casi no aparecen (1–58 impr. en 6 meses); title/meta con las búsquedas reales",
+   "detalle": "Lo que pedía septiembre ya está: agricultura regenerativa, huella de carbono, ESG, huella de agua y EUDR tienen URL propia en castellano con hreflang es, y son las URL finales de las campañas PS Argentina. El problema ahora es que Google casi no las muestra: agricultura regenerativa tuvo 1 impresión, GEI 12, estrategia y reporte 12, gestión del agua 58 y trazabilidad EUDR 11. Los títulos son genéricos («GEI y servicios medioambientales») y no usan las palabras que la gente busca en Ads («iso 14001», «estándares gri», «huella hídrica», «ganadería regenerativa»).",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "americas.peterson-solutions.com",
+    "paginas": [
+     {
+      "url": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/",
+      "nota": "agricultura regenerativa (landing de PS Argentina - SuSo - Agricultura regenerativa- Search)"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+      "nota": "huella de carbono / GEI (landing de las campañas Huella de carbono y Huella de agua)"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+      "nota": "estrategia y reporte ESG"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gestion-eficiente-del-agua/",
+      "nota": "gestión del agua (no es landing de ninguna campaña)"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/eudrtrazabilidad-y-geolocalizacion/",
+      "nota": "trazabilidad EUDR (landing de PS Argentina - SuSo - Trazabilidad / EUDR - Search)"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/regulacion-europea-contra-la-deforestacion-eudr/",
+      "nota": "página de la regulación EUDR: sin meta"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/industry/bioenergia/",
+      "nota": "bioenergía (landing de PS Argentina - Bioenergia / Biocombustibles - Search): sin meta"
+     }
+    ],
+    "acciones": [
+     "contenido",
+     "landing"
+    ],
+    "resumen": "Que las páginas en castellano que ya existen usen en title, meta y H1 las búsquedas que hoy solo se compran.",
+    "por_que": "Search Console (mar – 14 sep 2026): impresiones en 6 meses de las URL en castellano: agricultura regenerativa 1, GEI 12 (pos. 12,3), estrategia y reporte 12, gestión del agua 58 (pos. 48), trazabilidad EUDR 11, regulación EUDR 758 («eudr» 631 en pos. 18,9), bioenergía 2. Google Ads (1 sep – 20 oct 2026), términos con más impresiones: Agricultura regenerativa «agricultura regenerativa» 218 impr. (6 clics), «ganaderia regenerativa» 114; Huella de carbono «iso 14001» 428 (8 clics), «ghg protocol» 66, «iso 14064» 65; ESG «csrd» 76, «estandares gri» 74, «doble materialidad» 31; Huella de agua «huella hidrica» 28, «calculadora de huella hidrica» 18; EUDR «mapeo de campos» 4.",
+    "ya_hecho": "Las páginas en castellano existen, con canonical propio y hreflang es/en/pt-br (verificado el 28 oct 2026), y son las URL finales de los anuncios (estructura del 21 oct 2026). Falta el snippet.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Agricultura regenerativa",
+      "donde": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/",
+      "detalle": "Voz de Peterson: acompañamos, co-desarrollamos, preparamos.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Agricultura y ganadería regenerativa | Peterson Solutions",
+        "destino": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/",
+        "motivo": "«agricultura regenerativa» 218 impr. pagas y «ganaderia regenerativa» 114; la página no nombra ganadería en el title.",
+        "reemplaza": "Agricultura Regenerativa  - Peterson Solutions - Americas"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Acompañamos a productores y empresas a implementar agricultura y ganadería regenerativa: viabilidad, implementación, medición de GEI y créditos.",
+        "destino": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/agricultura-regenerativa/",
+        "motivo": "Usa los servicios que lista la página (viabilidad, implementación, inventario de GEI, créditos de carbono).",
+        "reemplaza": "Volver a la ciencia, a la agronomía enfocados en la implementación de prácticas que favorezcan el cuidado del suelo, el ambiente y las comunidades, garantizando la sustentabilidad del negocio a largo plazo."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Huella de carbono / GEI",
+      "donde": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+      "detalle": "El title actual habla de huella «a campo» y el H1 de «GEI».",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Huella de carbono, GHG Protocol e ISO 14064 | Peterson",
+        "destino": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+        "motivo": "«iso 14064» 65 impr. y «ghg protocol» 66 en la campaña; «ghg» 10 impr. orgánicas en pos. 12,9.",
+        "reemplaza": "Huella de Carbono a campo - Servicios Medioambientales - Peterson Solutions"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Medimos la huella de carbono de tu empresa con GHG Protocol e ISO 14064 y te acompañamos a reducir emisiones y a preparar la verificación.",
+        "destino": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+        "motivo": "Dice qué se hace y con qué método; la meta actual no nombra la huella de carbono.",
+        "reemplaza": "Proporcionamos servicios de gran impacto aprovechando los conocimientos de nuestro equipo disciplinar y la experiencia en el sector sobre el terreno."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Huella de carbono y servicios ambientales",
+        "destino": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/",
+        "motivo": "La campaña se llama «Huella de carbono / GEI» y el H1 dice «GEI»; «huella de carbono» es la forma en que se busca.",
+        "reemplaza": "GEI y servicios medioambientales"
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Estrategia y reporte ESG",
+      "donde": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+      "detalle": "El title y la meta actuales no usan ninguna de las palabras que se compran en la campaña.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Reportes de sostenibilidad GRI y ESG | Peterson Solutions",
+        "destino": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+        "motivo": "«estandares gri» 74, «estándares gri» 31, «gri» 36 y «normas gri» 24 impr. en la campaña ESG / Reportes.",
+        "reemplaza": "Estrategia de Sostenibilidad y Reporte  - Peterson Solutions - Americas"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Co-desarrollamos tu estrategia ESG y tu reporte de sostenibilidad con estándares GRI, análisis de doble materialidad e indicadores clave.",
+        "destino": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+        "motivo": "«doble materialidad» 31 + 21 impr.; la página ya tiene la sección «Análisis de materialidad y diagnóstico ESG».",
+        "reemplaza": "La creación de una estrategia y un informe de sostenibilidad impactantes empieza aquí. Le ayudamos a informar sobre los resultados sociales, medioambientales, económicos y de gobernanza (ESG)."
+       }
+      ]
+     },
+     {
+      "accion": "landing",
+      "titulo": "Huella hídrica: snippet y landing de la campaña",
+      "donde": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gestion-eficiente-del-agua/",
+      "detalle": "La campaña PS Argentina - SuSe - Huella de agua - Search manda a la página de GEI, no a esta.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Huella hídrica y gestión del agua | Peterson Solutions",
+        "destino": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gestion-eficiente-del-agua/",
+        "motivo": "«huella hidrica» 28, «calculadora de huella hidrica» 18 y «calculadora huella hidrica» 12 impr. en la campaña; el title actual no dice «huella hídrica».",
+        "reemplaza": "Gestión eficiente del agua - Peterson Solutions"
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Se cambia la URL final de los 4 anuncios de PS Argentina - SuSe - Huella de agua - Search de https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gei-y-servicios-medioambientales/ a https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gestion-eficiente-del-agua/? Si sí: pedir a SEM el cambio después de publicar el title nuevo. Si no: sumar en la página GEI una sección H2 «Huella hídrica» con enlace a esta página.",
+        "destino": "https://americas.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/gestion-eficiente-del-agua/",
+        "motivo": "Hoy el que busca huella de agua cae en una página de carbono (estructura del 21 oct 2026)."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Trazabilidad EUDR, regulación EUDR y bioenergía",
+      "donde": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/eudrtrazabilidad-y-geolocalizacion/, https://americas.peterson-solutions.com/regulacion-europea-contra-la-deforestacion-eudr/ y https://americas.peterson-solutions.com/industry/bioenergia/",
+      "detalle": "Las dos últimas no tienen meta description.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Trazabilidad y geolocalización para EUDR | Peterson",
+        "destino": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/eudrtrazabilidad-y-geolocalizacion/",
+        "motivo": "El H1 actual («Trazabilidad – Geolocalización») no nombra la EUDR; «trazabilidad eudr» 9 impr. en pos. 24.",
+        "reemplaza": "EUDR: Geolocalización y Trazabilidad  - Peterson Solutions - Americas"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "Trazabilidad y geolocalización para cumplir la EUDR",
+        "destino": "https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/eudrtrazabilidad-y-geolocalizacion/",
+        "motivo": "Alinea el H1 con la campaña Trazabilidad / EUDR.",
+        "reemplaza": "Trazabilidad – Geolocalización"
+       },
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "Te acompañamos a cumplir la EUDR: quién está alcanzado, sistema de debida diligencia, geolocalización de parcelas y trazabilidad hasta la exportación.",
+        "destino": "https://americas.peterson-solutions.com/regulacion-europea-contra-la-deforestacion-eudr/",
+        "motivo": "No tiene meta; «eudr» 631 impr. en pos. 18,9 y «eudr que es» 11. Los temas salen de los H2 de la página."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "Acompañamos a productores de biocombustibles y biomasa a preparar la certificación, medir su huella y trazar su cadena de suministro.",
+        "destino": "https://americas.peterson-solutions.com/industry/bioenergia/",
+        "motivo": "No tiene meta; es la landing de PS Argentina - Bioenergia / Biocombustibles - Search. Usa los H2 de la página (Preparación para Certificaciones, trazabilidad)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://americas.peterson-solutions.com/regulacion-europea-contra-la-deforestacion-eudr/ con anchor «trazabilidad y geolocalización para EUDR» hacia https://americas.peterson-solutions.com/service/sostenibilidad-en-la-cadena-de-suministro/eudrtrazabilidad-y-geolocalizacion/",
+        "destino": "https://americas.peterson-solutions.com/regulacion-europea-contra-la-deforestacion-eudr/",
+        "motivo": "La página de la regulación (758 impr.) es la que Google muestra; tiene que pasar autoridad a la del servicio. Agregar solo si no está ya en el bloque «Qué hacemos»."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "eudr",
+      "impr": 631,
+      "pos": 18.88
+     },
+     {
+      "query": "consultoria eudr",
+      "impr": 31,
+      "pos": 16.9
+     },
+     {
+      "query": "ghg",
+      "impr": 10,
+      "pos": 12.9
+     },
+     {
+      "query": "gestión eficiente del agua",
+      "impr": 8,
+      "pos": 16.88
+     },
+     {
+      "query": "servicios de reporte de sostenibilidad",
+      "impr": 8,
+      "pos": 23.62
+     }
+    ],
+    "organico_desde": "Américas",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026; Google Ads 1 sep – 20 oct 2026, estructura al 21 oct 2026"
+   }
+  },
+  {
+   "clave": "PS:SEO:americas-peterson-solutions-com:red-iii",
+   "marca": "PS",
+   "sitio": "americas.peterson-solutions.com",
+   "titulo": "RED III (20.511 impr., CTR 0,22%): title con «what is RED III» y metas 2030, H2 nuevos y enlaces a bioenergía y a la otra nota",
+   "detalle": "La nota de RED III es la página que más ve el mercado en la propiedad (20.511 impresiones, posición 8,4, 46 clics). El title es el titular periodístico, no la pregunta que se hace («red iii», «eu red iii», «what is red iii», metas 2030), y el artículo no enlaza a ningún servicio de Peterson ni a la otra nota de RED III, que compite por «red iii» en posición 21. Hay que reescribir el snippet, sumar dos secciones y cuatro enlaces.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "americas.peterson-solutions.com",
+    "paginas": [
+     {
+      "url": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+      "nota": "la que se cambia"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/en/insight/what-does-red-iii-mean-for-renewable-fuels/",
+      "nota": "segunda nota de RED III: se enlazan entre sí"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/en/industry/bioenergy/",
+      "nota": "destino de enlace"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/en/service/certifications-support/",
+      "nota": "destino de enlace"
+     }
+    ],
+    "acciones": [
+     "contenido"
+    ],
+    "resumen": "Convertir la nota más vista en una puerta a los servicios de bioenergía.",
+    "por_que": "Search Console (mar – 14 sep 2026): página 20.511 impr., 46 clics, pos. 8,4, CTR 0,22%. «red iii» 1.433 impr. en pos. 10,7 (y 204 en pos. 21,4 sobre la otra nota); «eu red iii» 463 en pos. 8,8; «red iii directive» 273; «renewable energy directive iii» 145 en pos. 13,2; «eu red iii renewable energy target 2030» 90 en pos. 7,1; «what is red iii» 31 en pos. 18,5.",
+    "ya_hecho": "Nada (leído el 28 oct 2026): un solo H2 de contenido («Transforming the transport sector») y ningún enlace a servicios dentro del texto.",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Reescribir title, meta y H1",
+      "donde": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+      "detalle": "Inglés, voz de Peterson.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "What Is RED III? EU Renewable Energy Directive 2030 Targets",
+        "destino": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+        "motivo": "Junta la pregunta («what is red iii») con lo que más se busca después («eu red iii», metas 2030).",
+        "reemplaza": "RED III: Transforming Europe's renewable energy landscape"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "RED III raises the EU renewable target to 42.5% by 2030: 29% in transport, 5.5% advanced biofuels, 1% RFNBOs. What changes for biofuels and biomass.",
+        "destino": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+        "motivo": "Las cifras ya están en el artículo; en el snippet responden la búsqueda sin abrir la nota y dan razón para hacer clic.",
+        "reemplaza": "The Renewable Energy Directive (RED) is a cornerstone of EU climate policy, driving the transition away from fossil fuels across member states and beyond."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "h1",
+        "texto": "RED III: What the EU Renewable Energy Directive Changes by 2030",
+        "destino": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+        "motivo": "Alinea el H1 con la pregunta y el horizonte 2030.",
+        "reemplaza": "RED III: Transforming Europe’s renewable energy landscape"
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Sumar dos secciones y cambiar el cierre",
+      "donde": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+      "detalle": "Hoy «Key changes in RED III» y «Forestry biomass under scrutiny» no son H2 (no aparecen como encabezados h1–h4).",
+      "items": [
+       {
+        "accion": "crear",
+        "tipo": "texto",
+        "texto": "H2 «What is RED III?» al principio: two sentences defining Directive (EU) 2023/2413 as the third revision of the Renewable Energy Directive and its 2030 horizon.",
+        "destino": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+        "motivo": "«what is red iii» 31 + 30 impr. entre las dos notas, en pos. 13–18. Confirmar el número de directiva con la unidad antes de publicar."
+       },
+       {
+        "accion": "editar",
+        "tipo": "texto",
+        "texto": "Pasar a H2 los títulos «Key changes in RED III», «Introduction of RFNBOs», «Forestry biomass under scrutiny» y «Road ahead».",
+        "destino": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+        "motivo": "Hoy no son encabezados H2–H4: Google no ve la estructura de la nota."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "H2 «Preparing your supply chain for RED III»: We accompany biofuel and biomass producers through ISCC EU preparation, GHG calculations and Union Database registration, so they reach the certification audit ready.",
+        "destino": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+        "motivo": "El cierre actual («How can we help you?») es genérico. Peterson acompaña y prepara para certificar; no certifica.",
+        "reemplaza": "How can we help you?"
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Cuatro enlaces internos",
+      "donde": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+      "detalle": "Cada enlace va dentro del texto, en la frase que ya habla del tema.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/ con anchor «bioenergy sustainability services» hacia https://americas.peterson-solutions.com/en/industry/bioenergy/",
+        "destino": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+        "motivo": "La nota trata biocombustibles y biomasa y no enlaza a la página de bioenergía."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/ con anchor «ISCC certification preparation» hacia https://americas.peterson-solutions.com/en/service/certifications-support/",
+        "destino": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+        "motivo": "El párrafo «Road ahead» menciona ISCC sin enlace."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/ con anchor «what RED III means for renewable fuels and RFNBOs» hacia https://americas.peterson-solutions.com/en/insight/what-does-red-iii-mean-for-renewable-fuels/",
+        "destino": "https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+        "motivo": "La otra nota compite por «red iii» en pos. 21,4; enlazarla como ampliación de RFNBOs separa los temas."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "Enlace interno desde https://americas.peterson-solutions.com/en/insight/what-does-red-iii-mean-for-renewable-fuels/ con anchor «RED III: what the EU Renewable Energy Directive changes by 2030» hacia https://americas.peterson-solutions.com/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+        "destino": "https://americas.peterson-solutions.com/en/insight/what-does-red-iii-mean-for-renewable-fuels/",
+        "motivo": "Enlace de vuelta hacia la nota principal."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "red iii",
+      "impr": 1433,
+      "pos": 10.71
+     },
+     {
+      "query": "eu red iii",
+      "impr": 463,
+      "pos": 8.77
+     },
+     {
+      "query": "red iii directive",
+      "impr": 273,
+      "pos": 10.92
+     },
+     {
+      "query": "renewable energy directive iii",
+      "impr": 145,
+      "pos": 13.18
+     },
+     {
+      "query": "eu red iii renewable energy target 2030",
+      "impr": 90,
+      "pos": 7.09
+     },
+     {
+      "query": "what is red iii",
+      "impr": 31,
+      "pos": 18.45
+     }
+    ],
+    "organico_desde": "Américas",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "PS:SEO:americas-peterson-solutions-com:home-y-contacto",
+   "marca": "PS",
+   "sitio": "americas.peterson-solutions.com",
+   "titulo": "Home y contacto: title «Home», sin meta y contacto sin H1; «peterson» (4.888 impr.) es un apellido común y el sitio queda en pos. 8–10",
+   "detalle": "«peterson» reparte impresiones entre / (2.733, pos. 8,0) y /contact/ (1.642, pos. 10,4) porque es un apellido y hay muchas empresas Peterson: la página que gana es la que más claro dice quién es. Hoy la home se titula «Home - Peterson Solutions - Americas», no tiene meta description, y contacto no tiene H1 ni meta. Los sitelinks no se pueden pedir; se ganan con una home clara y un schema Organization correcto (hoy su url termina en /wp).",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "americas.peterson-solutions.com",
+    "paginas": [
+     {
+      "url": "https://americas.peterson-solutions.com/",
+      "nota": "home en castellano: title, meta, schema"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/en/",
+      "nota": "home en inglés: title y meta"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/contact/",
+      "nota": "contacto: title, meta, H1"
+     }
+    ],
+    "acciones": [
+     "contenido",
+     "tecnico"
+    ],
+    "resumen": "Que la home y contacto digan «Peterson Solutions Américas, sostenibilidad» en el snippet y en el schema.",
+    "por_que": "Search Console (mar – 14 sep 2026): «peterson» 4.888 impr. (Argentina 1.565, México 1.527, Brasil 454, Colombia 295, Paraguay 227): / 2.733 impr., 22 clics, pos. 8,0; /contact/ 1.642, 6 clics, pos. 10,4. «peterson solutions» 388 impr. en pos. 2,0 con 32 clics. /en/ 13.242 impr., CTR 0,39%. Variantes mal escritas («pererson», «perteson», «peterso») caen en pos. 10–11.",
+    "ya_hecho": "El hreflang es / en / pt-br / x-default está bien cargado en home y contacto (28 oct 2026).",
+    "pasos": [
+     {
+      "accion": "contenido",
+      "titulo": "Title y meta de las dos home",
+      "donde": "https://americas.peterson-solutions.com/ y https://americas.peterson-solutions.com/en/",
+      "detalle": "Castellano neutro en la home principal; inglés en /en/.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Peterson Solutions Américas | Consultoría en sostenibilidad",
+        "destino": "https://americas.peterson-solutions.com/",
+        "motivo": "«Home» no dice nada; con el nombre completo y el rubro Google separa a esta Peterson de las otras.",
+        "reemplaza": "Home  - Peterson Solutions - Americas"
+       },
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "Acompañamos a empresas de América Latina en sostenibilidad: EUDR, huella de carbono, agricultura regenerativa, reportes ESG y preparación para certificar.",
+        "destino": "https://americas.peterson-solutions.com/",
+        "motivo": "La home no tiene meta description; Google arma el snippet con cualquier texto."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Peterson Solutions Americas | Sustainability Consulting",
+        "destino": "https://americas.peterson-solutions.com/en/",
+        "motivo": "Mismo problema en inglés: 13.242 impr. y CTR 0,39%.",
+        "reemplaza": "Home  - Peterson Solutions - Americas"
+       },
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "We accompany companies across the Americas on EUDR, carbon footprint, regenerative agriculture, ESG reporting and certification readiness.",
+        "destino": "https://americas.peterson-solutions.com/en/",
+        "motivo": "La home en inglés tampoco tiene meta."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Title, meta y H1 de contacto",
+      "donde": "https://americas.peterson-solutions.com/contact/",
+      "detalle": "Las oficinas salen del propio listado de la página.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Contacto | Peterson Solutions Américas",
+        "destino": "https://americas.peterson-solutions.com/contact/",
+        "motivo": "«Contacto - Peterson Solutions - Americas» con doble espacio; se ordena con el nombre de marca primero.",
+        "reemplaza": "Contacto  - Peterson Solutions - Americas"
+       },
+       {
+        "accion": "agregar",
+        "tipo": "meta",
+        "texto": "Oficinas de Peterson en Argentina (Béccar, Buenos Aires), México (CDMX) y Ecuador (Guayaquil). Escríbenos y te contactamos con tu equipo local.",
+        "destino": "https://americas.peterson-solutions.com/contact/",
+        "motivo": "No tiene meta; «peterson argentina» 29 impr. y «peterson paraguay» 54 caen en esta página."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "h1",
+        "texto": "Contacto Peterson Solutions Américas",
+        "destino": "https://americas.peterson-solutions.com/contact/",
+        "motivo": "La página no tiene H1 (verificado el 28 oct 2026)."
+       }
+      ]
+     },
+     {
+      "accion": "tecnico",
+      "titulo": "Corregir el schema Organization",
+      "donde": "https://americas.peterson-solutions.com/",
+      "detalle": "Pedir al proveedor web; es el mismo bloque JSON-LD en todas las páginas.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "\"url\": \"https://americas.peterson-solutions.com/\"",
+        "destino": "https://americas.peterson-solutions.com/",
+        "motivo": "La URL declarada termina en /wp.",
+        "reemplaza": "\"url\":\"https:\\/\\/americas.peterson-solutions.com\\/wp\""
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "\"address\": {\"@type\":\"PostalAddress\",\"streetAddress\":\"Valentín Virasoro 2669\",\"addressLocality\":\"Béccar\",\"addressRegion\":\"Buenos Aires\",\"postalCode\":\"B1643\",\"addressCountry\":\"AR\"}",
+        "destino": "https://americas.peterson-solutions.com/",
+        "motivo": "Casa central publicada en /contact/ («Valentin Virasoro 2669, Casa Central, Beccar B1643»)."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "peterson",
+      "impr": 4888,
+      "pos": 8.9
+     },
+     {
+      "query": "peterson solutions",
+      "impr": 486,
+      "pos": 2.6
+     },
+     {
+      "query": "peterson paraguay",
+      "impr": 54,
+      "pos": 9.48
+     },
+     {
+      "query": "peterson argentina",
+      "impr": 29,
+      "pos": 6.1
+     },
+     {
+      "query": "grupo peterson",
+      "impr": 17,
+      "pos": 3.76
+     }
+    ],
+    "organico_desde": "Américas",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "14 sep 2026 (Search Console, ventana completa disponible: may 2025 – 14 sep 2026 en Argentina y México, mar – 14 sep 2026 en Norteamérica y Américas); páginas leídas en vivo el 28 oct 2026"
+   }
+  },
+  {
+   "clave": "PS:SEO:americas-peterson-solutions-com:tono",
+   "marca": "PS",
+   "sitio": "americas.peterson-solutions.com",
+   "titulo": "Tono: el schema de las páginas de Peterson firma como «Control Union»; además, meta en inglés y frase ambigua en Preparación",
+   "detalle": "Revisé home, preparación para certificaciones, bioenergía, agricultura regenerativa, GEI, EUDR y la nota de RED III: ninguna dice que Peterson certifica. Pero hay dos problemas de marca concretos: el JSON-LD de cada página declara como autor a «Control Union» (usuario «bitfactory» de WordPress), que mezcla las marcas en lo que leen Google y las IA; y la página que es la landing de la campaña CeSu tiene la meta en inglés hablando de compras y una frase («Peterson abarca una amplia gama de programas de certificación») que se puede leer como que certifica.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "seo",
+    "sitio": "americas.peterson-solutions.com",
+    "paginas": [
+     {
+      "url": "https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/",
+      "nota": "landing de PS Argentina - CeSu - Preparacion para certificaciones - Search: meta y texto"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/",
+      "nota": "ejemplo del schema con autor «Control Union» (igual en /contact/, RED III y preparación)"
+     },
+     {
+      "url": "https://americas.peterson-solutions.com/author/bitfactory/",
+      "nota": "archivo de autor que responde 200"
+     }
+    ],
+    "acciones": [
+     "contenido",
+     "tecnico"
+    ],
+    "resumen": "Sacar «Control Union» del schema de Peterson y dejar el texto de preparación para certificar en la voz de Peterson.",
+    "por_que": "Leído el 28 oct 2026: \"@type\":\"Person\",\"name\":\"Control Union\" en el JSON-LD de /, /contact/, /service/preparacion-para-certificaciones/ y la nota de RED III. La meta de /service/preparacion-para-certificaciones/ está en inglés y habla de «sourcing and procurement». Esta página es la URL final de los 5 anuncios de la campaña CeSu (estructura del 21 oct 2026). Search Console no tiene datos propios de esta URL (sin impresiones con query visible).",
+    "ya_hecho": "En las 9 páginas revisadas no aparece «certificamos», «emitimos certificados» ni «get certified».",
+    "pasos": [
+     {
+      "accion": "tecnico",
+      "titulo": "Cambiar el autor del schema",
+      "donde": "WordPress de americas.peterson-solutions.com › Usuarios › bitfactory",
+      "detalle": "El nombre público del usuario es lo que el plugin SEO pone como autor en el JSON-LD de todas las páginas.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "Nombre público del usuario bitfactory: «Peterson Solutions»",
+        "destino": "https://americas.peterson-solutions.com/",
+        "motivo": "Hoy el schema de cada página de Peterson declara como autor a «Control Union»: las marcas no se mezclan.",
+        "reemplaza": "Control Union"
+       },
+       {
+        "accion": "agregar",
+        "tipo": "texto",
+        "texto": "<meta name=\"robots\" content=\"noindex, follow\" /> en https://americas.peterson-solutions.com/author/bitfactory/",
+        "destino": "https://americas.peterson-solutions.com/author/bitfactory/",
+        "motivo": "El archivo de autor responde 200 y no aporta nada a la búsqueda."
+       }
+      ]
+     },
+     {
+      "accion": "contenido",
+      "titulo": "Meta y texto de Preparación para certificaciones",
+      "donde": "https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/",
+      "detalle": "Castellano neutro, voz de Peterson (acompañamos, preparamos para certificar).",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "title",
+        "texto": "Preparación para certificaciones | Peterson Solutions",
+        "destino": "https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/",
+        "motivo": "Ordena el title (hoy con doble espacio y «Americas»).",
+        "reemplaza": "Preparación para certificaciones  - Peterson Solutions - Americas"
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "meta",
+        "texto": "Te acompañamos a implementar los requisitos de programas de sostenibilidad, cumplimiento social e ISO 27001 para que llegues a la auditoría preparado.",
+        "destino": "https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/",
+        "motivo": "La meta actual está en inglés y habla de compras, no de preparación para certificar.",
+        "reemplaza": "We understand that sourcing and procurement are not just transactions, but crucial avenues to shape a world that thrives on ethical principles. Our mission is to empower individuals and businesses alike to navigate this landscape with purpose and mindfulness."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "texto",
+        "texto": "Acompañamos a las empresas a prepararse para una amplia gama de programas de certificación, principalmente de sostenibilidad y cumplimiento social, en sectores agrícola, forestal, créditos de carbono, biocombustibles y biomasa, textil, alimentación animal, agua y residuos.",
+        "destino": "https://americas.peterson-solutions.com/service/preparacion-para-certificaciones/",
+        "motivo": "«Peterson abarca… programas de certificación» se puede leer como que Peterson certifica; Peterson prepara, el certificado lo emite un organismo certificador.",
+        "reemplaza": "Peterson abarca una amplia gama de programas de certificación, principalmente relacionados con la sostenibilidad y el cumplimiento social."
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "Regla para cada página nueva de Peterson",
+      "donde": "Antes de publicar cualquier página en americas.peterson-solutions.com",
+      "detalle": "Control de una línea para el equipo de contenidos.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "Antes de publicar, buscar en el texto: «emitimos», «certificado por Peterson», «obtené tu certificado», «get certified with Peterson». Si aparece alguna, reemplazar por «te acompañamos a prepararte para la certificación» / «we prepare you for certification».",
+        "destino": "Cada página nueva",
+        "motivo": "Peterson acompaña y prepara para certificar; no emite certificados."
+       }
+      ]
+     }
+    ],
+    "organico": [],
+    "organico_desde": "Américas",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "Páginas leídas el 28 oct 2026; estructura de Google Ads al 21 oct 2026"
+   }
+  }
+ ],
+ "descartes": [
+  {
+   "clave": "CU:SEO:northamerica-controlunion-com:primusgfs",
+   "motivo": "Ya está hecho. /certification-program/primusgfs/ responde 301 hacia /certification-program/primusgfs-certification/ (verificado el 28 oct 2026) y ambas comparten canonical. En Search Console la URL vieja tuvo 1.008 impr. en jun 2026 y 15 en jul; la nueva pasó de 71 (jun) a 1.042 (jul), 1.117 (ago) y 932 (1–14 sep), con posición 12,8 → 9,3. Las 772 impr. «repartidas» de septiembre eran el acumulado de antes de la redirección. Los enlaces de la home ya apuntan a la URL nueva."
+  },
+  {
+   "clave": "CU:SEO:mexico-controlunion-com:fsa",
+   "motivo": "Ya está hecho. /es/normas-internacionales/fsa-farm-sustainability-assessment responde 301 hacia /programa-de-certificacion/fsa-farm-sustainability-assessment/ (verificado el 28 oct 2026). En Search Console la URL vieja tuvo su última impresión en jul 2025 (667); desde ago 2025 solo rankea la URL nueva (1.139 impr. en jul 2026, 1.012 en ago, pos. 6,5–7,2). Las 6.663 impr. «repartidas» de septiembre eran el acumulado de may–jul 2025."
+  }
+ ]
+}

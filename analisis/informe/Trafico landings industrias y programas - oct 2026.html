@@ -1,0 +1,545 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Tráfico de landings · industrias y programas</title>
+<style>/* ===== Sistema neutro interno · Peterson Control Union World Group =====
+   Paleta: solo los colores compartidos por ambos manuales de marca.
+   Dark Blue #1b1e42 · Dark Grey #4f6566 · Light Grey #799495
+   Sin Cyan (CU) ni Aqua/Yellow (PS). Sin logos ni taglines.
+   Tipografía: Calibri (fallback oficial de ambas marcas) / Carlito.        */
+
+:root{
+  --navy:#1b1e42;
+  --ink:#4f6566;
+  --grey:#799495;
+  --tint:#f3f5f6;
+  --tint2:#e8ecee;
+  --hair:#d7dee0;
+  --paper:#ffffff;
+
+  --col: 1fr;
+  --gut: 5mm;
+}
+
+@page{ size:A4; margin:17mm 16mm 16mm 16mm; }
+
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; }
+body{
+  font-family:"Calibri","Carlito","Liberation Sans",sans-serif;
+  font-size:9.3pt; line-height:1.52; color:var(--ink);
+  -webkit-print-color-adjust:exact; print-color-adjust:exact;
+}
+
+/* ---------- grilla base de 12 columnas ---------- */
+.g{ display:grid; grid-template-columns:repeat(12,1fr); gap:var(--gut); }
+.c2{grid-column:span 2}.c3{grid-column:span 3}.c4{grid-column:span 4}
+.c5{grid-column:span 5}.c6{grid-column:span 6}.c7{grid-column:span 7}
+.c8{grid-column:span 8}.c9{grid-column:span 9}.c12{grid-column:span 12}
+
+/* ---------- tipografía ---------- */
+h1,h2,h3,h4{ color:var(--navy); margin:0; font-weight:700; }
+h2{ font-size:19pt; line-height:1.12; letter-spacing:-.012em; }
+h3{ font-size:11.6pt; line-height:1.2; letter-spacing:-.005em; }
+h4{ font-size:9.8pt; line-height:1.25; }
+p{ margin:0 0 6pt; }
+p:last-child{ margin-bottom:0; }
+strong{ color:var(--navy); font-weight:700; }
+em{ font-style:italic; }
+a{ color:var(--navy); text-decoration:none; border-bottom:.5pt solid var(--grey); }
+
+.kick{
+  font-size:7pt; font-weight:700; letter-spacing:.17em; text-transform:uppercase;
+  color:var(--grey); margin:0 0 3pt;
+}
+.kick-n{ color:var(--navy); }
+.lede{ font-size:11.2pt; line-height:1.42; color:var(--navy); font-weight:400; }
+.small{ font-size:8pt; line-height:1.45; color:var(--grey); }
+.mono{ font-family:"Liberation Mono","DejaVu Sans Mono",monospace; font-size:8.2pt; }
+code{ font-family:"Liberation Mono","DejaVu Sans Mono",monospace;
+      font-size:.80em; letter-spacing:-.01em; color:var(--navy);
+      background:var(--tint); padding:.3pt 1.6pt; border-radius:1pt; }
+
+/* ---------- reglas y secciones ---------- */
+.rule{ height:2.4pt; background:var(--navy); margin:0 0 5mm; }
+.hair{ height:.5pt; background:var(--hair); margin:4mm 0; }
+section{ break-inside:auto; }
+.newpage{ break-before:page; }
+.sec-head{ margin-bottom:6mm; }
+.sec-head .rule{ margin-bottom:3.5mm; }
+
+/* ---------- portada ---------- */
+.cover{
+  height:252mm; padding:0; display:flex; flex-direction:column; break-after:page;
+}
+.cover-top{ background:var(--navy); color:#fff; padding:19mm 14mm 13mm; flex:0 0 auto;
+  margin:0 -4mm; }
+.cover-top .kick{ color:rgba(255,255,255,.62); }
+.cover-top h1{
+  color:#fff; font-size:37pt; line-height:1.04; letter-spacing:-.022em;
+  font-weight:700; margin:0 0 7mm; max-width:135mm;
+}
+.cover-meta{ display:grid; grid-template-columns:repeat(12,1fr); gap:var(--gut);
+  border-top:.75pt solid rgba(255,255,255,.28); padding-top:5mm; }
+.cover-meta .lbl{ font-size:6.6pt; letter-spacing:.16em; text-transform:uppercase;
+  color:rgba(255,255,255,.55); margin:0 0 1.5mm; }
+.cover-meta .val{ font-size:9pt; color:#fff; margin:0; line-height:1.3; }
+.cover-body{ padding:12mm 0 0; flex:1 1 auto; }
+.cover-foot{ padding:0; }
+
+/* ---------- fichas de dato ---------- */
+.stat{ border-top:2.4pt solid var(--navy); padding-top:2.5mm; }
+.stat .n{ font-size:30pt; line-height:.95; font-weight:700; color:var(--navy);
+  letter-spacing:-.035em; margin:0 0 1.5mm; }
+.stat .n small{ font-size:15pt; letter-spacing:-.02em; }
+.stat .t{ font-size:7pt; font-weight:700; letter-spacing:.15em; text-transform:uppercase;
+  color:var(--grey); margin:0 0 1mm; }
+.stat .d{ font-size:7.8pt; line-height:1.35; color:var(--ink); margin:0; }
+
+.stat-lite{ border-top:.75pt solid var(--hair); }
+.step{ padding-top:3mm; }
+.step .d{ font-size:8.3pt; line-height:1.45; }
+.step h4{ font-size:11pt; }
+
+/* ---------- paneles ---------- */
+.panel{ background:var(--tint); padding:4mm 4.5mm; }
+.panel-navy{ background:var(--navy); color:#fff; padding:5mm 5.5mm; }
+.panel-navy h3,.panel-navy strong{ color:#fff; }
+.panel-navy .kick{ color:rgba(255,255,255,.6); }
+.panel-navy code{ background:rgba(255,255,255,.14); color:#fff; }
+.panel-line{ border-left:2.4pt solid var(--navy); padding:0 0 0 4mm; break-inside:avoid; }
+
+/* ---------- tablas ---------- */
+table{ width:100%; border-collapse:collapse; font-size:8.2pt; }
+th{ background:var(--navy); color:#fff; text-align:left; font-weight:700;
+  padding:2.2mm 2.5mm; font-size:7.2pt; letter-spacing:.09em; text-transform:uppercase; }
+td{ padding:2mm 2.5mm; border-bottom:.5pt solid var(--hair); vertical-align:top; line-height:1.38; }
+tbody tr:nth-child(even) td{ background:var(--tint); }
+td.num{ text-align:right; white-space:nowrap; font-variant-numeric:tabular-nums; }
+th.num{ text-align:right; }
+tbody tr.total td, tbody tr.total:nth-child(even) td{
+  background:var(--navy) !important; color:#fff !important; font-weight:700; border-bottom:none; }
+tbody tr.total td .small, tbody tr.total td span{ color:rgba(255,255,255,.72) !important; }
+table.tight td{ padding:1.5mm 2.5mm; font-size:7.8pt; }
+
+/* ---------- decisiones (rail + narrativa) ---------- */
+.dec{ break-inside:avoid-page; margin-bottom:6mm; padding-bottom:5mm;
+  border-bottom:.5pt solid var(--hair); }
+.dec:last-child{ border-bottom:none; margin-bottom:0; }
+.dec > div > p, .dec .c9 p, .dec .c3 > p{ font-size:8.7pt; line-height:1.46; }
+.dec p{ margin-bottom:4pt; }
+.dec h3{ font-size:11pt; }
+p.dec-num, .dec p.dec-num{ font-size:27pt; font-weight:700; color:var(--navy); line-height:.9;
+  letter-spacing:-.04em; margin:0 0 2mm; }
+.rail{ border-top:2.4pt solid var(--navy); padding-top:2.5mm; }
+.rail dl{ margin:0; }
+.rail dt{ font-size:6.8pt; font-weight:700; letter-spacing:.14em; text-transform:uppercase;
+  color:var(--grey); margin:0 0 .5mm; }
+.rail dd{ margin:0 0 2.1mm; font-size:9pt; font-weight:700; color:var(--navy);
+  line-height:1.15; font-variant-numeric:tabular-nums; }
+.rail dd.warn{ color:var(--navy); }
+.bar{ height:3pt; background:var(--tint2); margin-top:1mm; }
+.bar span{ display:block; height:3pt; background:var(--navy); }
+
+/* ---------- acciones ---------- */
+.act{ margin:0; padding:0; list-style:none; }
+.act li{ padding:1.4mm 0 1.4mm 23mm; text-indent:-23mm;
+  border-top:.5pt solid var(--hair); font-size:8.3pt; line-height:1.4; }
+.act li:first-child{ border-top:none; padding-top:0; }
+.act .tag{ display:inline-block; width:20mm; text-indent:0; font-size:6.6pt;
+  font-weight:700; letter-spacing:.13em; text-transform:uppercase; color:var(--navy);
+  vertical-align:baseline; }
+
+/* ---------- tarjetas de campaña ---------- */
+.g{ break-inside:auto; }
+.card{ break-inside:avoid; border-top:.75pt solid var(--hair); padding-top:2.5mm; margin-bottom:5mm; }
+.card.key{ border-top:2.4pt solid var(--navy); }
+.card h4{ margin:0 0 1.5mm; }
+.card .met{ font-size:7.4pt; color:var(--grey); letter-spacing:.02em; margin:0 0 2mm;
+  font-variant-numeric:tabular-nums; }
+.card p{ font-size:8.3pt; line-height:1.45; margin:0 0 2mm; }
+.card .lab{ font-weight:700; color:var(--navy); font-size:7.4pt;
+  letter-spacing:.1em; text-transform:uppercase; }
+
+.country{ font-size:7.4pt; font-weight:700; letter-spacing:.2em; text-transform:uppercase;
+  color:#fff; background:var(--navy); padding:1.4mm 3mm; display:inline-block; margin:0 0 4mm; }
+
+/* ---------- mapa de gasto ---------- */
+.spend{ font-size:8pt; }
+.spend .row{ display:grid; grid-template-columns:34mm 1fr 15mm 9mm; gap:2mm;
+  align-items:center; padding:.95mm 0; border-top:.5pt solid var(--hair); }
+.spend .row.head{ border-top:none; break-inside:avoid; border-bottom:1.2pt solid var(--navy); padding-bottom:1.8mm;
+  font-size:6.6pt; font-weight:700; letter-spacing:.13em; text-transform:uppercase;
+  color:var(--grey); align-items:end; }
+.spend .row.head .amt,.spend .row.head .pct,.spend .row.head .cpc{ font-size:6.6pt;
+  font-weight:700; color:var(--grey); line-height:1.2; }
+.spend .nm b{ color:var(--navy); font-weight:700; display:block; line-height:1.15; }
+.spend .nm span{ color:var(--grey); font-size:6.8pt; line-height:1.1; }
+.spend .track{ position:relative; height:5.5pt; background:var(--tint2); }
+.spend .fill{ position:absolute; left:0; top:0; height:5.5pt; background:var(--navy); }
+.spend .waste{ position:absolute; left:0; top:0; height:5.5pt; background:#8c95b4; }
+.spend .amt{ text-align:right; font-variant-numeric:tabular-nums; color:var(--navy);
+  font-weight:700; font-size:7.8pt; }
+.spend .pct{ text-align:right; font-variant-numeric:tabular-nums; color:var(--grey); font-size:7.4pt; }
+.spend .cpc{ text-align:right; font-variant-numeric:tabular-nums; color:var(--grey); font-size:7.4pt; }
+.spend .row.hot .pct{ color:var(--navy); font-weight:700; }
+.legend{ display:flex; gap:5mm; font-size:7pt; color:var(--grey); margin-top:3mm;
+  border-top:.5pt solid var(--hair); padding-top:2mm; }
+.legend i{ display:inline-block; width:7pt; height:5pt; margin-right:1.5mm; vertical-align:-.5pt; }
+
+/* ---------- flujo en columnas para las fichas ---------- */
+.flow{ column-count:2; column-gap:6mm; break-inside:auto; }
+.flow > div{ break-inside:avoid; }
+.flow .card{ margin-bottom:4.5mm; }
+.country{ column-span:all; }
+.spend-2{ column-count:2; column-gap:7mm; column-fill:balance; }
+.spend-2 .row{ break-inside:avoid; }
+
+/* ---------- bloque de categorías compacto ---------- */
+.cats{ background:var(--tint); padding:3mm 3.5mm; margin:2.5mm 0 3mm; }
+.cats .r{ display:grid; grid-template-columns:27mm 1fr; gap:3mm; align-items:baseline;
+  padding:1.4mm 0; border-top:.5pt solid #dde3e5; }
+.cats .r:first-child{ border-top:none; padding-top:0; }
+.cats .r:last-child{ padding-bottom:0; }
+.cats .k{ font-size:6.8pt; font-weight:700; letter-spacing:.12em; text-transform:uppercase;
+  color:var(--navy); }
+.cats .v{ font-size:8pt; line-height:1.38; color:var(--ink); }
+/* ===== Extensión ejecutiva del sistema neutro interno =====
+   Misma paleta (#1b1e42 · #4f6566 · #799495 · #f3f5f6). Sin Cyan, Aqua ni Yellow.  */
+
+body{ font-size:9.1pt; }
+h2{ font-size:17.5pt; }
+h3{ font-size:11pt; }
+
+/* portada compacta */
+.cover-top h1{ font-size:28pt; max-width:165mm; margin-bottom:6mm; }
+.cover{ height:auto; min-height:0; break-after:page; }
+.cover-body{ padding-top:9mm; }
+
+/* banda de unidad */
+.unit{ break-before:page; }
+.unit-head{ background:var(--navy); color:#fff; padding:4.5mm 5.5mm 4mm; margin:0 0 4mm;
+  display:grid; grid-template-columns:1fr auto; gap:6mm; align-items:end; }
+.unit-head .brand{ font-size:6.6pt; letter-spacing:.18em; text-transform:uppercase; color:rgba(255,255,255,.62); margin:0 0 1.2mm; }
+.unit-head h2{ color:#fff; font-size:16pt; margin:0; line-height:1.1; }
+.unit-head .sub{ color:rgba(255,255,255,.72); font-size:7.8pt; margin:1.5mm 0 0; }
+.kpis{ display:flex; gap:5mm; }
+.kpi{ display:flex; flex-direction:column; align-items:flex-end; min-width:20mm; }
+.kpi .kn{ font-size:15pt; font-weight:700; color:#fff; line-height:1; letter-spacing:-.02em; font-variant-numeric:tabular-nums; }
+.kpi .kl{ font-size:6.2pt; letter-spacing:.14em; text-transform:uppercase; color:rgba(255,255,255,.6); margin-top:1mm; white-space:nowrap; }
+
+/* fila pain → solución */
+.pain{ display:grid; grid-template-columns:44mm 1fr 1fr 19mm; gap:4mm; padding:2.6mm 0; border-top:.5pt solid var(--hair);
+  break-inside:avoid; font-size:8.3pt; line-height:1.42; }
+.pain:first-of-type{ border-top:none; }
+.pain .h{ font-weight:700; color:var(--navy); font-size:8.8pt; line-height:1.25; }
+.pain .h span{ display:block; font-weight:400; color:var(--grey); font-size:7pt; letter-spacing:.08em; text-transform:uppercase; margin-top:1mm; }
+.pain .lab{ font-size:6.4pt; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--grey); display:block; margin-bottom:.8mm; }
+.pain p{ margin:0; }
+.pain-head{ display:grid; grid-template-columns:44mm 1fr 1fr 19mm; gap:4mm; padding:0 0 1.5mm; border-bottom:1.2pt solid var(--navy);
+  font-size:6.4pt; font-weight:700; letter-spacing:.14em; text-transform:uppercase; color:var(--grey); }
+
+/* chips de estado */
+.chip{ display:inline-block; font-size:6.4pt; font-weight:700; letter-spacing:.1em; text-transform:uppercase; padding:1mm 2mm;
+  border:.75pt solid var(--navy); color:var(--navy); border-radius:1pt; white-space:nowrap; }
+.chip.ok{ background:var(--navy); color:#fff; }
+.chip.prop{ background:#fff; }
+.chip.open{ border-style:dashed; color:var(--ink); border-color:var(--grey); }
+.chip.new{ background:var(--tint2); border-color:var(--tint2); color:var(--navy); }
+
+/* barras inline */
+.bar{ display:inline-block; height:3.2pt; background:var(--tint2); vertical-align:middle; margin-right:2mm; }
+.bar span{ display:block; height:3.2pt; background:var(--navy); }
+.dem{ font-size:8pt; }
+.dem .r{ display:grid; grid-template-columns:1fr 30mm 16mm 10mm; gap:2mm; align-items:center; padding:1mm 0; border-top:.5pt solid var(--hair); }
+.dem .r.head{ border-top:none; font-size:6.4pt; font-weight:700; letter-spacing:.13em; text-transform:uppercase; color:var(--grey); }
+.dem b{ color:var(--navy); font-weight:700; }
+.dem .num{ text-align:right; font-variant-numeric:tabular-nums; }
+
+/* bloques de propiedad (SEO) */
+.prop{ break-inside:avoid; margin-bottom:5mm; }
+.prop-head{ display:grid; grid-template-columns:1fr auto; align-items:end; border-bottom:1.6pt solid var(--navy); padding-bottom:1.6mm; margin-bottom:2.5mm; }
+.prop-head h3{ margin:0; font-size:12pt; }
+.prop-head .meta{ font-size:7.2pt; color:var(--grey); font-variant-numeric:tabular-nums; }
+.prop-head .meta b{ color:var(--navy); }
+.acc{ margin:0; padding:0; list-style:none; }
+.acc li{ padding:1.3mm 0 1.3mm 18mm; text-indent:-18mm; border-top:.5pt solid var(--hair); font-size:8.2pt; line-height:1.4; }
+.acc li:first-child{ border-top:none; }
+.acc .tag{ display:inline-block; width:16mm; text-indent:0; font-size:6.3pt; font-weight:700; letter-spacing:.12em;
+  text-transform:uppercase; color:var(--navy); }
+.mini{ font-size:7.6pt; }
+.mini td{ padding:1.1mm 2mm; }
+.mini th{ padding:1.6mm 2mm; font-size:6.6pt; }
+.num-ok{ color:var(--navy); font-weight:700; }
+
+/* tarjetas de hallazgo estructural */
+.find{ border-top:2.2pt solid var(--navy); padding-top:2.2mm; break-inside:avoid; }
+.find .k{ font-size:20pt; font-weight:700; color:var(--navy); line-height:.95; letter-spacing:-.03em; margin:0 0 1.5mm; }
+.find h4{ font-size:9.6pt; margin:0 0 1.5mm; }
+.find p{ font-size:8.1pt; line-height:1.42; margin:0 0 1.5mm; }
+.find .small{ font-size:7.2pt; }
+
+/* plan */
+.plan{ display:grid; grid-template-columns:repeat(3,1fr); gap:5mm; }
+.plan .ph{ background:var(--tint); padding:3.5mm 4mm; }
+.plan .ph h4{ margin:0 0 2mm; font-size:9.6pt; }
+.plan .ph .when{ font-size:6.4pt; letter-spacing:.14em; text-transform:uppercase; color:var(--grey); font-weight:700; margin:0 0 1mm; }
+.plan .ph ul{ margin:0; padding-left:3.5mm; font-size:8pt; line-height:1.45; }
+.plan .ph li{ margin-bottom:1mm; }
+
+/* ajustes de densidad */
+.stat .n{ font-size:21pt; letter-spacing:-.03em; }
+.stat{ padding-top:2mm; }
+.stat .d{ font-size:7.5pt; }
+.pain{ padding:2.1mm 0; font-size:8pt; line-height:1.4; }
+.pain .h{ font-size:8.5pt; }
+.cover-foot{ margin-top:7mm; }
+.acc li{ padding-left:21mm; text-indent:-21mm; }
+.acc .tag{ width:19mm; overflow:hidden; white-space:nowrap; text-overflow:ellipsis; vertical-align:top; padding-right:1mm; }
+
+.propwrap{ break-inside:avoid; }
+.prop{ break-inside:auto; }
+
+.pain, .pain-head{ grid-template-columns:44mm 1fr 1fr 22mm; }
+.chip{ white-space:normal; line-height:1.25; text-align:center; }
+
+.pain{ font-size:7.8pt; line-height:1.38; padding:2mm 0; }
+
+.site{ break-inside:avoid; border-top:2.4pt solid var(--navy); padding-top:2.5mm; margin-bottom:5mm; }
+.site h3{ font-size:12pt; margin-bottom:.5mm; }
+.site .meta{ font-size:7.4pt; color:var(--grey); margin:0 0 2mm; font-variant-numeric:tabular-nums; }
+.site .meta b{ color:var(--navy); }
+.site table{ font-size:7.2pt; table-layout:fixed; } .site td{ padding:1.1mm 1.2mm; overflow:hidden; } .site th{ padding:1.3mm 1.2mm; font-size:6pt; letter-spacing:.03em; white-space:nowrap; }
+.site td.num{ padding-left:.5mm; }
+.site .top{ font-size:7.3pt; line-height:1.4; margin:2mm 0 0; color:var(--ink); }
+.site .top b{ color:var(--navy); }
+.matrix td, .matrix th{ padding:1.5mm 1.6mm; font-size:7.6pt; }
+.verdict{ display:grid; grid-template-columns:34mm 1fr; gap:5mm; padding:2.8mm 0; border-top:.5pt solid var(--hair); break-inside:avoid; }
+.lim{ margin:0; padding:0 0 0 4mm; font-size:8.3pt; line-height:1.45; } .lim li{ margin-bottom:1.6mm; }
+.verdict .lvl{ font-size:15pt; font-weight:700; color:var(--navy); line-height:1; letter-spacing:-.02em; }
+.verdict .lvl span{ display:block; font-size:6.6pt; letter-spacing:.14em; text-transform:uppercase; color:var(--grey); font-weight:700; margin-top:1.5mm; }
+.verdict p{ font-size:8.6pt; line-height:1.46; margin:0; }
+</style></head><body>
+
+<section class="cover">
+ <div class="cover-top">
+  <p class="kick">Control Union · MarComms · Análisis de tráfico web</p>
+  <h1>Tráfico de las landings de industrias y de programas de certificación</h1>
+  <div class="cover-meta">
+   <div class="c3"><p class="lbl">Sitios</p><p class="val">8 subdominios de controlunion.com</p></div>
+   <div class="c3"><p class="lbl">Fuente</p><p class="val">Google Analytics 4 · vistas de página</p></div>
+   <div class="c3"><p class="lbl">Período</p><p class="val">1 dic 2025 – 22 oct 2026 (10.7 meses)</p></div>
+   <div class="c3"><p class="lbl">Fecha</p><p class="val">23/10/2026 · documento interno</p></div>
+  </div>
+ </div>
+ <div class="cover-body">
+  <p class="lede" style="max-width:160mm;margin-bottom:9mm">La pregunta es si vale la pena sumar un formulario de contacto de HubSpot a cada landing de industria y a cada landing de programa de certificación. Para responderla medimos cuánto tráfico recibe cada una frente a las landings principales del sitio (home, nosotros, contacto, servicios, certificaciones, etc.) y frente al resto de las páginas.</p>
+  <div class="g">
+   <div class="c3 stat"><p class="t">Landings medidas</p><p class="n">495</p><p class="d">94 de industrias y 401 de programas, en idioma local, según el sitemap del 22 oct 2026.</p></div>
+   <div class="c3 stat"><p class="t">Una landing típica recibe</p><p class="n">3<small>–13%</small></p><p class="d">de lo que recibe una landing principal del mismo sitio. Por página, el tráfico es bajo.</p></div>
+   <div class="c3 stat"><p class="t">Programas, en bloque</p><p class="n">1.852</p><p class="d">vistas/mes en los 8 sitios: entre el 8% y el 27% de cada sitio. Medio-alto.</p></div>
+   <div class="c3 stat"><p class="t">Industrias, en bloque</p><p class="n">484</p><p class="d">vistas/mes en los 8 sitios: entre el 2% y el 8% de cada sitio. Bajo.</p></div>
+  </div>
+  <div class="hair" style="margin:9mm 0 5mm"></div>
+  <div class="g">
+   <div class="c4"><p class="kick">Respuesta corta</p><p style="font-size:8.8pt;line-height:1.46">Por landing, bajo: la mitad de las páginas de programas no llega a 2–4 vistas por mes y solo 93 de 401 superan las 5. En bloque, los programas pesan tanto como la home en varios sitios. Las industrias son bajas en los dos sentidos.</p></div>
+   <div class="c4"><p class="kick">Recomendación</p><p style="font-size:8.8pt;line-height:1.46">Formulario en todas las landings de programas si se implementa por plantilla (un cambio cubre las 401); si es página por página, solo en las 93 con 5 o más vistas/mes, empezando por las 11 que superan 20. Industrias: por plantilla sí, a mano no.</p></div>
+   <div class="c4"><p class="kick">Cómo leer los números</p><p style="font-size:8.8pt;line-height:1.46">Todo está en vistas de página por mes. Cerca del 45% de las vistas no tienen interacción (bots, visitas de segundos); el ranking se mantiene midiendo solo sesiones con interacción, pero los valores absolutos son más chicos.</p></div>
+  </div>
+ </div>
+</section>
+
+<section>
+ <div class="sec-head"><div class="rule"></div><p class="kick"><span class="kick-n">01</span> &nbsp; Qué se midió</p><h2>Tres conjuntos de páginas por sitio, misma métrica</h2></div>
+ <div class="g">
+  <div class="c4 panel-line"><h4>Landings principales</h4><p style="font-size:8.4pt">Las once que estructuran el sitio: home, nosotros, el listado de industrias, el listado de programas, academy, vacantes, contacto, el listado de servicios, certificaciones y verificaciones, gestión de garantías e inspecciones de commodities. No todos los sitios tienen las once (España, Perú, Portugal y México no tienen gestión de garantías). Su promedio es la vara de comparación.</p></div>
+  <div class="c4 panel-line"><h4>Landings de industrias y de programas</h4><p style="font-size:8.4pt">Las sublandings que cuelgan de los dos listados, identificadas por el sitemap de cada sitio el 22 oct 2026 (tipos de contenido <code>industry</code> y <code>certi_program</code>). Se cuentan en idioma local; las copias en inglés (<code>/en/</code>) se midieron aparte y no llegan a 1–2 vistas/mes de mediana.</p></div>
+  <div class="c4 panel-line"><h4>Resto del sitio</h4><p style="font-size:8.4pt">Todas las demás rutas con tráfico: insights, vacantes individuales, páginas de servicio, gracias, etc. Sirve para saber si industrias y programas están por encima o por debajo de la página típica del sitio.</p></div>
+ </div>
+ <div class="hair"></div>
+ <p style="font-size:8.6pt">Fuente: API de Google Analytics 4, dimensión <code>pagePath</code>, métrica <code>screenPageViews</code>, del 1 dic 2025 (inicio del histórico disponible) al 22 oct 2026. Las vistas se dividen por 10.7 meses para expresarlas por mes. Scripts: <code>ga4_paginas.py</code> (extracción) y <code>analisis_trafico_landings.py</code> (clasificación).</p>
+ <h3 style="margin:5mm 0 2.5mm">Landings por sitio</h3>
+ <table class="tight"><thead><tr><th>Sitio</th><th class="num">Vistas/mes del sitio</th><th class="num">Rutas con tráfico</th><th class="num">Industrias</th><th class="num">Programas</th><th class="num">Prom. de una principal</th><th class="num">Home</th><th class="num">Contacto</th></tr></thead><tbody>
+<tr><td><strong>Norteamérica</strong></td><td class='num'>1.371</td><td class='num'>242</td><td class='num'>13</td><td class='num'>57</td><td class='num'>68,3</td><td class='num'>346,2</td><td class='num'>68,7</td></tr>
+<tr><td><strong>España</strong></td><td class='num'>1.422</td><td class='num'>471</td><td class='num'>13</td><td class='num'>68</td><td class='num'>43,0</td><td class='num'>168,3</td><td class='num'>40,1</td></tr>
+<tr><td><strong>Perú</strong></td><td class='num'>2.738</td><td class='num'>463</td><td class='num'>9</td><td class='num'>56</td><td class='num'>141,0</td><td class='num'>643,1</td><td class='num'>66,7</td></tr>
+<tr><td><strong>Argentina</strong></td><td class='num'>1.959</td><td class='num'>408</td><td class='num'>18</td><td class='num'>50</td><td class='num'>91,6</td><td class='num'>394,1</td><td class='num'>74,2</td></tr>
+<tr><td><strong>Portugal</strong></td><td class='num'>716</td><td class='num'>337</td><td class='num'>13</td><td class='num'>68</td><td class='num'>28,8</td><td class='num'>119,7</td><td class='num'>23,4</td></tr>
+<tr><td><strong>Brasil</strong></td><td class='num'>1.486</td><td class='num'>344</td><td class='num'>11</td><td class='num'>42</td><td class='num'>92,7</td><td class='num'>428,1</td><td class='num'>105,7</td></tr>
+<tr><td><strong>México</strong></td><td class='num'>904</td><td class='num'>269</td><td class='num'>10</td><td class='num'>37</td><td class='num'>47,8</td><td class='num'>229,1</td><td class='num'>48,4</td></tr>
+<tr><td><strong>Chile</strong></td><td class='num'>556</td><td class='num'>259</td><td class='num'>7</td><td class='num'>23</td><td class='num'>24,9</td><td class='num'>122,9</td><td class='num'>27,9</td></tr>
+<tr class='total'><td>8 sitios</td><td class='num'>11.152</td><td class='num'>2793</td><td class='num'>94</td><td class='num'>401</td><td></td><td></td><td></td></tr></tbody></table>
+<p class='small' style='margin-top:2mm'>Programas: Perú tiene 57 en el listado del sitio y 56 en el sitemap en español (falta la versión en español de ISO 22000); se midieron 56. Brasil: 42 en portugués de Brasil; el sitemap suma 33 copias <code>/pt-pt/</code> de Portugal que no se cuentan.</p></section>
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick"><span class="kick-n">02</span> &nbsp; Resultado</p><h2>Por landing es bajo; en bloque, los programas son medio-alto</h2></div>
+ <table><thead><tr><th>Grupo · sitio</th><th class="num">Prom. principal</th><th class="num">Industria: prom. / pág.</th><th class="num">mediana</th><th class="num">total /mes</th><th class="num">Programa: prom. / pág.</th><th class="num">mediana</th><th class="num">total /mes</th><th class="num">Ind. ≥5</th><th class="num">Prog. ≥5</th></tr></thead><tbody>
+<tr class='total'><td>1 · NA + España + Perú</td><td class='num'>84</td><td class='num'>7,8</td><td></td><td class='num'>273</td><td class='num'>6,1</td><td></td><td class='num'>1.107</td><td class='num'>16/35</td><td class='num'>55/181</td></tr>
+<tr><td style='padding-left:6mm'><strong>Norteamérica</strong></td><td class='num'>68</td><td class='num'>8,2 <span class='small'>(12%)</span></td><td class='num'>3,8</td><td class='num'>106</td><td class='num'>4,7 <span class='small'>(7%)</span></td><td class='num'>1,6</td><td class='num'>267</td><td class='num'>5/13</td><td class='num'>15/57</td></tr>
+<tr><td style='padding-left:6mm'><strong>España</strong></td><td class='num'>43</td><td class='num'>4,8 <span class='small'>(11%)</span></td><td class='num'>2,1</td><td class='num'>62</td><td class='num'>5,7 <span class='small'>(13%)</span></td><td class='num'>2,2</td><td class='num'>388</td><td class='num'>3/13</td><td class='num'>16/68</td></tr>
+<tr><td style='padding-left:6mm'><strong>Perú</strong></td><td class='num'>141</td><td class='num'>11,7 <span class='small'>(8%)</span></td><td class='num'>10,7</td><td class='num'>105</td><td class='num'>8,1 <span class='small'>(6%)</span></td><td class='num'>4,5</td><td class='num'>452</td><td class='num'>8/9</td><td class='num'>24/56</td></tr>
+<tr class='total'><td>2 · Argentina + Portugal + Brasil</td><td class='num'>71</td><td class='num'>3,7</td><td></td><td class='num'>156</td><td class='num'>3,4</td><td></td><td class='num'>536</td><td class='num'>9/42</td><td class='num'>27/160</td></tr>
+<tr><td style='padding-left:6mm'><strong>Argentina</strong></td><td class='num'>92</td><td class='num'>5,6 <span class='small'>(6%)</span></td><td class='num'>4,7</td><td class='num'>101</td><td class='num'>5,1 <span class='small'>(6%)</span></td><td class='num'>4,2</td><td class='num'>256</td><td class='num'>8/18</td><td class='num'>13/50</td></tr>
+<tr><td style='padding-left:6mm'><strong>Portugal</strong></td><td class='num'>29</td><td class='num'>1,8 <span class='small'>(6%)</span></td><td class='num'>1,3</td><td class='num'>24</td><td class='num'>2,3 <span class='small'>(8%)</span></td><td class='num'>1,5</td><td class='num'>158</td><td class='num'>1/13</td><td class='num'>6/68</td></tr>
+<tr><td style='padding-left:6mm'><strong>Brasil</strong></td><td class='num'>93</td><td class='num'>2,9 <span class='small'>(3%)</span></td><td class='num'>3,0</td><td class='num'>32</td><td class='num'>2,9 <span class='small'>(3%)</span></td><td class='num'>2,1</td><td class='num'>121</td><td class='num'>0/11</td><td class='num'>8/42</td></tr>
+<tr class='total'><td>3 · México + Chile</td><td class='num'>36</td><td class='num'>3,2</td><td></td><td class='num'>55</td><td class='num'>3,5</td><td></td><td class='num'>209</td><td class='num'>1/17</td><td class='num'>11/60</td></tr>
+<tr><td style='padding-left:6mm'><strong>México</strong></td><td class='num'>48</td><td class='num'>3,6 <span class='small'>(8%)</span></td><td class='num'>2,9</td><td class='num'>36</td><td class='num'>3,6 <span class='small'>(8%)</span></td><td class='num'>2,3</td><td class='num'>133</td><td class='num'>1/10</td><td class='num'>6/37</td></tr>
+<tr><td style='padding-left:6mm'><strong>Chile</strong></td><td class='num'>25</td><td class='num'>2,7 <span class='small'>(11%)</span></td><td class='num'>2,5</td><td class='num'>19</td><td class='num'>3,3 <span class='small'>(13%)</span></td><td class='num'>2,0</td><td class='num'>75</td><td class='num'>0/7</td><td class='num'>5/23</td></tr>
+</tbody></table><p class='small' style='margin-top:2mm'>Vistas de página por mes. La fila azul de cada grupo lleva los totales del grupo. Entre paréntesis, el promedio de una landing como porcentaje del promedio de una landing principal del mismo sitio. «≥5»: landings con 5 o más vistas por mes.</p>
+
+ <div class="g" style="margin-top:6mm">
+  <div class="c12">
+   <div class="verdict"><div class="lvl">Bajo<span>una landing frente a una principal</span></div><p>Una landing de industria o de programa recibe entre el 3% y el 13% de lo que recibe una landing principal del mismo sitio. Frente a la página de contacto, la referencia natural para un formulario, la relación es parecida: Argentina 74 vistas/mes en Contacto contra 5 en un programa típico; Perú 67 contra 8; España 40 contra 6. La mitad de las landings de programas recibe menos de 2 a 4 vistas por mes. De las 401 landings de programas, 93 superan las 5 vistas/mes y 11 superan las 20; de las 94 industrias, 26 superan las 5 y 4 las 20.</p></div>
+   <div class="verdict"><div class="lvl">Medio-alto<span>los programas, sumados</span></div><p>Las landings de programas pesan entre el 8% y el 27% de todas las vistas de cada sitio: 1.852 vistas/mes en los 8 sitios. En España los programas juntos reciben 388 vistas/mes, más del doble que la home (168); en Perú 452 contra una home de 643; en Norteamérica 267 contra 346.</p></div>
+   <div class="verdict"><div class="lvl">Bajo<span>las industrias, sumadas</span></div><p>Las industrias pesan entre el 2% y el 8% del sitio: 484 vistas/mes en total, un cuarto de lo que reciben los programas. Ninguna industria de Brasil, Chile ni Portugal pasa de 6 vistas/mes. Son páginas de navegación, no de intención de compra.</p></div>
+   <div class="verdict"><div class="lvl">Medio<span>frente al resto del sitio</span></div><p>Comparadas con las demás páginas (insights, vacantes, servicios), cuya mediana es de 0,5 vistas/mes, las landings de industrias y programas están por encima: no son las páginas olvidadas del sitio. Son medias dentro del sitio y bajas frente a las principales.</p></div>
+  </div>
+ </div>
+</section>
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick"><span class="kick-n">03</span> &nbsp; Concentración</p><h2>Pocas landings cargan casi todo el tráfico</h2></div>
+ <div class="g"><div class="c7">
+ <table class="tight"><thead><tr><th class="num">Vistas/mes</th><th>Sitio</th><th>Tipo</th><th>Landing</th></tr></thead><tbody>
+<tr><td class='num'><strong>101,9</strong></td><td>España</td><td>Programa</td><td><code>certification-program-iso-27001-certification</code></td></tr>
+<tr><td class='num'><strong>67,7</strong></td><td>Perú</td><td>Programa</td><td><code>organic-certification</code></td></tr>
+<tr><td class='num'><strong>51,1</strong></td><td>Perú</td><td>Programa</td><td><code>input-review-program</code></td></tr>
+<tr><td class='num'><strong>45,3</strong></td><td>España</td><td>Programa</td><td><code>iso-9001</code></td></tr>
+<tr><td class='num'><strong>38,0</strong></td><td>Norteamérica</td><td>Programa</td><td><code>usda-organic-nop-certification</code></td></tr>
+<tr><td class='num'><strong>34,3</strong></td><td>Argentina</td><td>Programa</td><td><code>iso-27001</code></td></tr>
+<tr><td class='num'><strong>31,5</strong></td><td>Norteamérica</td><td>Industria</td><td><code>forestry</code></td></tr>
+<tr><td class='num'><strong>30,8</strong></td><td>Argentina</td><td>Programa</td><td><code>visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion</code></td></tr>
+<tr><td class='num'><strong>29,1</strong></td><td>Perú</td><td>Programa</td><td><code>globalg-a-p</code></td></tr>
+<tr><td class='num'><strong>28,9</strong></td><td>España</td><td>Industria</td><td><code>seguridad-alimentaria</code></td></tr>
+<tr><td class='num'><strong>28,4</strong></td><td>Perú</td><td>Programa</td><td><code>ras-responsible-alpaca-standard</code></td></tr>
+<tr><td class='num'><strong>28,2</strong></td><td>Perú</td><td>Industria</td><td><code>organico</code></td></tr>
+<tr><td class='num'><strong>24,0</strong></td><td>España</td><td>Programa</td><td><code>iso-21401</code></td></tr>
+<tr><td class='num'><strong>23,1</strong></td><td>Argentina</td><td>Industria</td><td><code>huella-de-carbono</code></td></tr>
+<tr><td class='num'><strong>22,1</strong></td><td>México</td><td>Programa</td><td><code>organico-mexico</code></td></tr>
+<tr><td class='num'><strong>19,7</strong></td><td>Perú</td><td>Industria</td><td><code>agri-gap</code></td></tr>
+<tr><td class='num'><strong>19,3</strong></td><td>Norteamérica</td><td>Programa</td><td><code>grs-global-recycled-standard</code></td></tr>
+<tr><td class='num'><strong>19,0</strong></td><td>Norteamérica</td><td>Programa</td><td><code>canadagap</code></td></tr>
+<tr><td class='num'><strong>17,6</strong></td><td>Perú</td><td>Programa</td><td><code>rainforest-alliance</code></td></tr>
+<tr><td class='num'><strong>17,5</strong></td><td>Argentina</td><td>Programa</td><td><code>smeta</code></td></tr>
+<tr><td class='num'><strong>16,8</strong></td><td>Norteamérica</td><td>Programa</td><td><code>plant-based-claim-verification</code></td></tr>
+<tr><td class='num'><strong>15,9</strong></td><td>Norteamérica</td><td>Programa</td><td><code>primusgfs-certification</code></td></tr>
+<tr><td class='num'><strong>15,2</strong></td><td>España</td><td>Programa</td><td><code>certificado-ahorro-energetico-cae</code></td></tr>
+</tbody></table><p class="small" style="margin-top:2mm">Landings de industrias y programas con 15 o más vistas por mes, los 8 sitios.</p></div>
+ <div class="c5">
+  <p style="font-size:8.8pt;line-height:1.48">Las que mandan son landings de campaña o de programas con demanda real: ISO 27001 en España (la landing de la campaña de Search), Orgánico en Perú, USDA Organic en Norteamérica, ISO 27001 y VISEC en Argentina, Orgánico en México. Sin ellas, el promedio por página de los programas cae a la mitad.</p>
+  <p style="font-size:8.8pt;line-height:1.48">Eso tiene dos lecturas. La primera: un formulario en una landing de 2 vistas/mes genera, con suerte, un contacto cada dos años. La segunda: las landings de campaña ya reciben visitas con intención y hoy mandan a la persona a Contacto, donde se pierde el dato de qué programa le interesaba.</p>
+  <div class="panel" style="margin-top:4mm"><p class="kick">Distribución de las 401 landings de programas</p>
+  <table class="tight" style="font-size:7.8pt"><tbody>
+   <tr><td>Menos de 1 vista/mes</td><td class="num"><strong>45</strong></td></tr>
+   <tr><td>Entre 1 y 5</td><td class="num"><strong>263</strong></td></tr>
+   <tr><td>Entre 5 y 20</td><td class="num"><strong>82</strong></td></tr>
+   <tr><td>20 o más</td><td class="num"><strong>11</strong></td></tr></tbody></table>
+  <p class="kick" style="margin-top:3mm">Las 94 de industrias</p>
+  <table class="tight" style="font-size:7.8pt"><tbody>
+   <tr><td>Menos de 1 vista/mes</td><td class="num"><strong>2</strong></td></tr>
+   <tr><td>Entre 1 y 5</td><td class="num"><strong>66</strong></td></tr>
+   <tr><td>Entre 5 y 20</td><td class="num"><strong>22</strong></td></tr>
+   <tr><td>20 o más</td><td class="num"><strong>4</strong></td></tr></tbody></table></div>
+ </div></div>
+</section>
+<section class="newpage">
+ <div class="sec-head"><div class="rule"></div><p class="kick"><span class="kick-n">04</span> &nbsp; Sitio por sitio</p><h2>Industrias y programas frente al resto de cada sitio</h2></div>
+ <div class="g">
+<div class="c6 site"><h3>Norteamérica</h3>
+    <p class="meta"><b>1.371</b> vistas/mes · promedio de una principal <b>68,3</b> · home 346 · contacto 69 · listado de programas 125</p>
+    <table><thead><tr><th style="width:25mm"></th><th class="num">Total</th><th class="num">Prom.</th><th class="num">Med.</th><th class="num">&lt;1</th><th class="num">1–5</th><th class="num">5–20</th><th class="num">≥20</th><th class="num">%</th></tr></thead><tbody>
+    <tr><td>Industrias <span class='small'>(13 pág.)</span></td><td class='num'>106</td><td class='num'>8,2</td><td class='num'>3,8</td><td class='num'>0</td><td class='num'>8</td><td class='num'>4</td><td class='num'>1</td><td class='num'>8%</td></tr><tr><td>Programas <span class='small'>(57 pág.)</span></td><td class='num'>267</td><td class='num'>4,7</td><td class='num'>1,6</td><td class='num'>11</td><td class='num'>31</td><td class='num'>14</td><td class='num'>1</td><td class='num'>20%</td></tr>
+    <tr><td>Resto <span class='small'>(156 pág.)</span></td><td class='num'></td><td class='num'>1,6</td><td class='num'>0,6</td><td colspan='5'></td></tr></tbody></table>
+    <p class="top"><b>Industrias:</b> forestry 31,5 · organic-agriculture 14,5 · aquaculture-and-fisheries 14,2<br><b>Programas:</b> usda-organic-nop-certification 38,0 · grs-global-recycled-standard 19,3 · canadagap 19,0</p></div>
+<div class="c6 site"><h3>España</h3>
+    <p class="meta"><b>1.422</b> vistas/mes · promedio de una principal <b>43,0</b> · home 168 · contacto 40 · listado de programas 77</p>
+    <table><thead><tr><th style="width:25mm"></th><th class="num">Total</th><th class="num">Prom.</th><th class="num">Med.</th><th class="num">&lt;1</th><th class="num">1–5</th><th class="num">5–20</th><th class="num">≥20</th><th class="num">%</th></tr></thead><tbody>
+    <tr><td>Industrias <span class='small'>(13 pág.)</span></td><td class='num'>62</td><td class='num'>4,8</td><td class='num'>2,1</td><td class='num'>1</td><td class='num'>9</td><td class='num'>2</td><td class='num'>1</td><td class='num'>4%</td></tr><tr><td>Programas <span class='small'>(68 pág.)</span></td><td class='num'>388</td><td class='num'>5,7</td><td class='num'>2,2</td><td class='num'>10</td><td class='num'>42</td><td class='num'>13</td><td class='num'>3</td><td class='num'>27%</td></tr>
+    <tr><td>Resto <span class='small'>(299 pág.)</span></td><td class='num'></td><td class='num'>1,4</td><td class='num'>0,7</td><td colspan='5'></td></tr></tbody></table>
+    <p class="top"><b>Industrias:</b> seguridad-alimentaria 28,9 · textiles 8,2 · plastico-reciclado 6,2<br><b>Programas:</b> certification-program-iso-27001-certification 101,9 · iso-9001 45,3 · iso-21401 24,0</p></div>
+<div class="c6 site"><h3>Perú</h3>
+    <p class="meta"><b>2.738</b> vistas/mes · promedio de una principal <b>141,0</b> · home 643 · contacto 67 · listado de programas 161</p>
+    <table><thead><tr><th style="width:25mm"></th><th class="num">Total</th><th class="num">Prom.</th><th class="num">Med.</th><th class="num">&lt;1</th><th class="num">1–5</th><th class="num">5–20</th><th class="num">≥20</th><th class="num">%</th></tr></thead><tbody>
+    <tr><td>Industrias <span class='small'>(9 pág.)</span></td><td class='num'>105</td><td class='num'>11,7</td><td class='num'>10,7</td><td class='num'>0</td><td class='num'>1</td><td class='num'>7</td><td class='num'>1</td><td class='num'>4%</td></tr><tr><td>Programas <span class='small'>(56 pág.)</span></td><td class='num'>452</td><td class='num'>8,1</td><td class='num'>4,5</td><td class='num'>2</td><td class='num'>30</td><td class='num'>20</td><td class='num'>4</td><td class='num'>16%</td></tr>
+    <tr><td>Resto <span class='small'>(323 pág.)</span></td><td class='num'></td><td class='num'>2,4</td><td class='num'>0,6</td><td colspan='5'></td></tr></tbody></table>
+    <p class="top"><b>Industrias:</b> organico 28,2 · agri-gap 19,7 · textiles 14,3<br><b>Programas:</b> organic-certification 67,7 · input-review-program 51,1 · globalg-a-p 29,1</p></div>
+<div class="c6 site"><h3>Argentina</h3>
+    <p class="meta"><b>1.959</b> vistas/mes · promedio de una principal <b>91,6</b> · home 394 · contacto 74 · listado de programas 96</p>
+    <table><thead><tr><th style="width:25mm"></th><th class="num">Total</th><th class="num">Prom.</th><th class="num">Med.</th><th class="num">&lt;1</th><th class="num">1–5</th><th class="num">5–20</th><th class="num">≥20</th><th class="num">%</th></tr></thead><tbody>
+    <tr><td>Industrias <span class='small'>(18 pág.)</span></td><td class='num'>101</td><td class='num'>5,6</td><td class='num'>4,7</td><td class='num'>0</td><td class='num'>10</td><td class='num'>7</td><td class='num'>1</td><td class='num'>5%</td></tr><tr><td>Programas <span class='small'>(50 pág.)</span></td><td class='num'>256</td><td class='num'>5,1</td><td class='num'>4,2</td><td class='num'>3</td><td class='num'>34</td><td class='num'>11</td><td class='num'>2</td><td class='num'>13%</td></tr>
+    <tr><td>Resto <span class='small'>(260 pág.)</span></td><td class='num'></td><td class='num'>1,9</td><td class='num'>0,6</td><td colspan='5'></td></tr></tbody></table>
+    <p class="top"><b>Industrias:</b> huella-de-carbono 23,1 · agricultura 9,3 · ganaderia-y-productos-animales 6,3<br><b>Programas:</b> iso-27001 34,3 · visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion 30,8 · smeta 17,5</p></div>
+<div class="c6 site"><h3>Portugal</h3>
+    <p class="meta"><b>716</b> vistas/mes · promedio de una principal <b>28,8</b> · home 120 · contacto 23 · listado de programas 49</p>
+    <table><thead><tr><th style="width:25mm"></th><th class="num">Total</th><th class="num">Prom.</th><th class="num">Med.</th><th class="num">&lt;1</th><th class="num">1–5</th><th class="num">5–20</th><th class="num">≥20</th><th class="num">%</th></tr></thead><tbody>
+    <tr><td>Industrias <span class='small'>(13 pág.)</span></td><td class='num'>24</td><td class='num'>1,8</td><td class='num'>1,3</td><td class='num'>1</td><td class='num'>11</td><td class='num'>1</td><td class='num'>0</td><td class='num'>3%</td></tr><tr><td>Programas <span class='small'>(68 pág.)</span></td><td class='num'>158</td><td class='num'>2,3</td><td class='num'>1,5</td><td class='num'>11</td><td class='num'>51</td><td class='num'>6</td><td class='num'>0</td><td class='num'>22%</td></tr>
+    <tr><td>Resto <span class='small'>(165 pág.)</span></td><td class='num'></td><td class='num'>1,0</td><td class='num'>0,5</td><td colspan='5'></td></tr></tbody></table>
+    <p class="top"><b>Industrias:</b> texteis 5,7 · biomassa-e-biocombustiveis 2,8 · plasticos-e-embalagens 2,1<br><b>Programas:</b> gmp 10,1 · grs-global-recycled-standard 9,5 · smeta 8,5</p></div>
+<div class="c6 site"><h3>Brasil</h3>
+    <p class="meta"><b>1.486</b> vistas/mes · promedio de una principal <b>92,7</b> · home 428 · contacto 106 · listado de programas 100</p>
+    <table><thead><tr><th style="width:25mm"></th><th class="num">Total</th><th class="num">Prom.</th><th class="num">Med.</th><th class="num">&lt;1</th><th class="num">1–5</th><th class="num">5–20</th><th class="num">≥20</th><th class="num">%</th></tr></thead><tbody>
+    <tr><td>Industrias <span class='small'>(11 pág.)</span></td><td class='num'>32</td><td class='num'>2,9</td><td class='num'>3,0</td><td class='num'>0</td><td class='num'>11</td><td class='num'>0</td><td class='num'>0</td><td class='num'>2%</td></tr><tr><td>Programas <span class='small'>(42 pág.)</span></td><td class='num'>121</td><td class='num'>2,9</td><td class='num'>2,1</td><td class='num'>3</td><td class='num'>31</td><td class='num'>8</td><td class='num'>0</td><td class='num'>8%</td></tr>
+    <tr><td>Resto <span class='small'>(194 pág.)</span></td><td class='num'></td><td class='num'>1,3</td><td class='num'>0,5</td><td colspan='5'></td></tr></tbody></table>
+    <p class="top"><b>Industrias:</b> agricultura-organica 4,4 · florestal 3,8 · sustentabilidade 3,6<br><b>Programas:</b> gmp 14,1 · regenagri 7,4 · rtrs-round-table-on-responsible-soy 6,0</p></div>
+<div class="c6 site"><h3>México</h3>
+    <p class="meta"><b>904</b> vistas/mes · promedio de una principal <b>47,8</b> · home 229 · contacto 48 · listado de programas 58</p>
+    <table><thead><tr><th style="width:25mm"></th><th class="num">Total</th><th class="num">Prom.</th><th class="num">Med.</th><th class="num">&lt;1</th><th class="num">1–5</th><th class="num">5–20</th><th class="num">≥20</th><th class="num">%</th></tr></thead><tbody>
+    <tr><td>Industrias <span class='small'>(10 pág.)</span></td><td class='num'>36</td><td class='num'>3,6</td><td class='num'>2,9</td><td class='num'>0</td><td class='num'>9</td><td class='num'>1</td><td class='num'>0</td><td class='num'>4%</td></tr><tr><td>Programas <span class='small'>(37 pág.)</span></td><td class='num'>133</td><td class='num'>3,6</td><td class='num'>2,3</td><td class='num'>4</td><td class='num'>27</td><td class='num'>5</td><td class='num'>1</td><td class='num'>15%</td></tr>
+    <tr><td>Resto <span class='small'>(166 pág.)</span></td><td class='num'></td><td class='num'>1,3</td><td class='num'>0,5</td><td colspan='5'></td></tr></tbody></table>
+    <p class="top"><b>Industrias:</b> textiles 10,0 · agricultura-organica 4,8 · buenas-practicas-agricolas 3,7<br><b>Programas:</b> organico-mexico 22,1 · primusgfs 14,6 · grs-global-recycled-standard 9,3</p></div>
+<div class="c6 site"><h3>Chile</h3>
+    <p class="meta"><b>556</b> vistas/mes · promedio de una principal <b>24,9</b> · home 123 · contacto 28 · listado de programas 37</p>
+    <table><thead><tr><th style="width:25mm"></th><th class="num">Total</th><th class="num">Prom.</th><th class="num">Med.</th><th class="num">&lt;1</th><th class="num">1–5</th><th class="num">5–20</th><th class="num">≥20</th><th class="num">%</th></tr></thead><tbody>
+    <tr><td>Industrias <span class='small'>(7 pág.)</span></td><td class='num'>19</td><td class='num'>2,7</td><td class='num'>2,5</td><td class='num'>0</td><td class='num'>7</td><td class='num'>0</td><td class='num'>0</td><td class='num'>3%</td></tr><tr><td>Programas <span class='small'>(23 pág.)</span></td><td class='num'>75</td><td class='num'>3,3</td><td class='num'>2,0</td><td class='num'>1</td><td class='num'>17</td><td class='num'>5</td><td class='num'>0</td><td class='num'>14%</td></tr>
+    <tr><td>Resto <span class='small'>(188 pág.)</span></td><td class='num'></td><td class='num'>0,8</td><td class='num'>0,5</td><td colspan='5'></td></tr></tbody></table>
+    <p class="top"><b>Industrias:</b> acuicultura-y-pesca 4,5 · textiles 3,6 · seguridad-alimentaria 2,9<br><b>Programas:</b> bap-best-aquaculture-practice 11,1 · ifs-food 7,8 · grasp 6,4</p></div>
+</div><p class='small'>Total, promedio y mediana en vistas por mes. Columnas &lt;1, 1–5, 5–20 y ≥20: cantidad de landings por tramo de vistas por mes. «%»: participación del grupo en todas las vistas del sitio. Top 3 por grupo con sus vistas/mes.</p></section>
+<section style="margin-top:8mm">
+ <div class="sec-head"><div class="rule"></div><p class="kick"><span class="kick-n">05</span> &nbsp; Referencia</p><h2>Las landings principales, sitio por sitio</h2></div>
+ <table class="matrix" style="break-inside:avoid"><thead><tr><th>Landing</th><th class='num'>Norteamérica</th><th class='num'>España</th><th class='num'>Perú</th><th class='num'>Argentina</th><th class='num'>Portugal</th><th class='num'>Brasil</th><th class='num'>México</th><th class='num'>Chile</th></tr></thead><tbody>
+<tr><td><strong>home</strong></td><td class='num'>346,2</td><td class='num'>168,3</td><td class='num'>643,1</td><td class='num'>394,1</td><td class='num'>119,7</td><td class='num'>428,1</td><td class='num'>229,1</td><td class='num'>122,9</td></tr>
+<tr><td><strong>nosotros</strong></td><td class='num'>41,5</td><td class='num'>36,1</td><td class='num'>99,0</td><td class='num'>129,9</td><td class='num'>20,5</td><td class='num'>86,9</td><td class='num'>31,0</td><td class='num'>19,9</td></tr>
+<tr><td><strong>industrias (hub)</strong></td><td class='num'>31,0</td><td class='num'>11,9</td><td class='num'>35,0</td><td class='num'>34,9</td><td class='num'>9,6</td><td class='num'>24,9</td><td class='num'>15,5</td><td class='num'>9,4</td></tr>
+<tr><td><strong>programas (hub)</strong></td><td class='num'>125,4</td><td class='num'>76,8</td><td class='num'>160,8</td><td class='num'>96,1</td><td class='num'>49,4</td><td class='num'>100,1</td><td class='num'>57,9</td><td class='num'>36,7</td></tr>
+<tr><td><strong>academy</strong></td><td class='num'>12,5</td><td class='num'>17,7</td><td class='num'>37,4</td><td class='num'>26,1</td><td class='num'>14,2</td><td class='num'>28,9</td><td class='num'>15,0</td><td class='num'>13,0</td></tr>
+<tr><td><strong>vacantes</strong></td><td class='num'>55,7</td><td class='num'>28,6</td><td class='num'>101,9</td><td class='num'>124,2</td><td class='num'>15,8</td><td class='num'>109,7</td><td class='num'>34,5</td><td class='num'>16,5</td></tr>
+<tr><td><strong>contacto</strong></td><td class='num'>68,7</td><td class='num'>40,1</td><td class='num'>66,7</td><td class='num'>74,2</td><td class='num'>23,4</td><td class='num'>105,7</td><td class='num'>48,4</td><td class='num'>27,9</td></tr>
+<tr><td><strong>servicios (hub)</strong></td><td class='num'>8,8</td><td class='num'>2,1</td><td class='num'>—</td><td class='num'>8,0</td><td class='num'>1,0</td><td class='num'>4,9</td><td class='num'>3,3</td><td class='num'>2,3</td></tr>
+<tr><td><strong>certificaciones</strong></td><td class='num'>46,8</td><td class='num'>43,6</td><td class='num'>112,3</td><td class='num'>65,2</td><td class='num'>28,4</td><td class='num'>61,9</td><td class='num'>38,4</td><td class='num'>23,2</td></tr>
+<tr><td><strong>gestión de garantías</strong></td><td class='num'>6,8</td><td class='num'>—</td><td class='num'>—</td><td class='num'>33,1</td><td class='num'>—</td><td class='num'>38,9</td><td class='num'>—</td><td class='num'>0,6</td></tr>
+<tr><td><strong>inspecciones de commodities</strong></td><td class='num'>7,8</td><td class='num'>4,8</td><td class='num'>12,8</td><td class='num'>22,2</td><td class='num'>6,0</td><td class='num'>30,2</td><td class='num'>4,9</td><td class='num'>1,8</td></tr>
+<tr class='total'><td>Promedio</td><td class='num'>68,3</td><td class='num'>43,0</td><td class='num'>141,0</td><td class='num'>91,6</td><td class='num'>28,8</td><td class='num'>92,7</td><td class='num'>47,8</td><td class='num'>24,9</td></tr>
+<tr><td>Promedio sin home</td><td class='num'>40,5</td><td class='num'>29,1</td><td class='num'>78,2</td><td class='num'>61,4</td><td class='num'>18,7</td><td class='num'>59,2</td><td class='num'>27,7</td><td class='num'>15,1</td></tr>
+<tr><td>Una industria típica (promedio)</td><td class='num'>8,2</td><td class='num'>4,8</td><td class='num'>11,7</td><td class='num'>5,6</td><td class='num'>1,8</td><td class='num'>2,9</td><td class='num'>3,6</td><td class='num'>2,7</td></tr>
+<tr><td>Un programa típico (promedio)</td><td class='num'>4,7</td><td class='num'>5,7</td><td class='num'>8,1</td><td class='num'>5,1</td><td class='num'>2,3</td><td class='num'>2,9</td><td class='num'>3,6</td><td class='num'>3,3</td></tr>
+</tbody></table><p class='small' style='margin-top:2mm'>Vistas de página por mes. «—»: el sitio no tiene esa landing. En Portugal la landing viva de certificaciones es <code>/certificacoes</code>; <code>/service/certification</code> quedó huérfana con 1 vista/mes.</p>
+<div style='break-inside:avoid'><h3 style='margin:6mm 0 2mm'>Rutas por sitio</h3><table class='tight'><thead><tr><th>Sitio</th><th>Listado de industrias</th><th>Listado de programas</th><th>Contacto</th><th>Certificaciones</th></tr></thead><tbody>
+<tr><td><strong>Norteamérica</strong></td><td><code>/industries</code></td><td><code>/certification-programs</code></td><td><code>/contact</code></td><td><code>/service/certification</code></td></tr>
+<tr><td><strong>España</strong></td><td><code>/industries</code></td><td><code>/programas-de-certificacion</code></td><td><code>/contacto</code></td><td><code>/service/certificaciones</code></td></tr>
+<tr><td><strong>Perú</strong></td><td><code>/industries</code></td><td><code>/programas-de-certificacion</code></td><td><code>/contacto</code></td><td><code>/service/certificaciones</code></td></tr>
+<tr><td><strong>Argentina</strong></td><td><code>/industrias</code></td><td><code>/programas-de-certificacion</code></td><td><code>/contacto</code></td><td><code>/service/certificaciones</code></td></tr>
+<tr><td><strong>Portugal</strong></td><td><code>/industrias</code></td><td><code>/esquemas-de-certificacao</code></td><td><code>/contacto</code></td><td><code>/certificacoes</code></td></tr>
+<tr><td><strong>Brasil</strong></td><td><code>/industrias</code></td><td><code>/programas-de-certificacao</code></td><td><code>/contato</code></td><td><code>/service/certificacoes</code></td></tr>
+<tr><td><strong>México</strong></td><td><code>/industries</code></td><td><code>/programas-de-certificacion</code></td><td><code>/contacto-mexico</code></td><td><code>/service/certificaciones</code></td></tr>
+<tr><td><strong>Chile</strong></td><td><code>/industries</code></td><td><code>/programas-de-certificacion</code></td><td><code>/contacto</code></td><td><code>/service/certificaciones</code></td></tr>
+</tbody></table></div></section>
+<section style="margin-top:9mm">
+ <div class="sec-head"><div class="rule"></div><p class="kick"><span class="kick-n">06</span> &nbsp; Conclusión</p><h2>Qué hacer con los formularios de HubSpot</h2></div>
+ <div class="dec"><div class="g">
+  <div class="c3"><p class="dec-num">1</p><h3>Programas: sí, a todos, si va por plantilla</h3></div>
+  <div class="c9"><p>En WordPress los programas son un tipo de contenido propio (<code>certi_program</code>). Si el formulario se incorpora a la plantilla, es un solo cambio que cubre las 401 landings y el costo por página es cero. Con 1.852 vistas/mes agregadas y una conversión conservadora del 1–2%, el potencial es de 19 a 37 contactos por mes en los 8 sitios. Para dimensionarlo: en el tercer trimestre de 2026 Control Union midió 600 conversiones web en el trimestre, unas 200 por mes.</p>
+  <p>El programa es además el punto de mayor intención: quien llega a «certificación ISO 27001» sabe qué quiere, y hoy lo mandamos a Contacto, donde se pierde el dato de qué programa le interesaba. Un solo formulario de HubSpot con un campo oculto con el nombre del programa resuelve atribución y contacto en un paso. Las landings de campaña (ISO 27001 en España y Argentina, VISEC, Orgánico en Perú y México) lo necesitan primero.</p></div>
+ </div></div>
+ <div class="dec"><div class="g">
+  <div class="c3"><p class="dec-num">2</p><h3>Si es página por página, no en las 401</h3></div>
+  <div class="c9"><p>Una landing con 2 vistas por mes no justifica trabajo manual. En ese caso la prioridad son las 93 landings de programas con 5 o más vistas/mes, y antes que nada las 11 que superan las 20, que incluyen las landings de campaña. Por grupo: el 1 (Norteamérica, España, Perú) es donde más sentido tiene, con 1.107 vistas/mes en programas; el 2 (Argentina, Portugal, Brasil) tiene 536, con Argentina cargando casi la mitad; el 3 (México, Chile) 209, y Chile tiene una sola landing de programa por encima de 10 vistas/mes.</p></div>
+ </div></div>
+ <div class="dec"><div class="g">
+  <div class="c3"><p class="dec-num">3</p><h3>Industrias: por plantilla sí, a mano no</h3></div>
+  <div class="c9"><p>Son páginas de navegación, no de intención, con un cuarto del tráfico de los programas (484 vistas/mes en total). Las únicas que justificarían el esfuerzo manual son Forestry en Norteamérica (32/mes), Seguridad alimentaria en España (29), Orgánico y Agri-GAP en Perú (28 y 20) y Huella de carbono en Argentina (23). Las versiones en inglés de los sitios en español y portugués no justifican nada: mediana de 1 vista/mes.</p></div>
+ </div></div>
+ <div class="hair" style="margin:6mm 0 4mm"></div>
+ <p class="kick">Límites de los datos</p>
+ <ul class="lim">
+  <li>Cerca del 45% de las vistas no tienen interacción (bots, visitas de segundos, revisiones internas). El ranking se rehízo con sesiones con interacción y el orden se mantiene; los valores absolutos son, de mínima, un 40% más chicos.</li>
+  <li>Las landings creadas después de diciembre de 2025 están subestimadas: sus vistas se dividen por los 10.7 meses del período completo.</li>
+  <li>GA4 no ve el envío de un formulario de HubSpot embebido en iframe. Si se implementan, se miden por las páginas de gracias, como ya está definido para el reporte trimestral.</li>
+  <li>El sitemap lista lo publicado; no confirma que Google tenga indexada cada página.</li>
+ </ul>
+</section>
+</body></html>

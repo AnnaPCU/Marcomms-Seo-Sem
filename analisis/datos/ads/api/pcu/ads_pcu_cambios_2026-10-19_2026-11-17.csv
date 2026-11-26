@@ -1,0 +1,3 @@
+﻿evento_id,ads_id,campana,grupo,fecha,recurso,operacion,origen,campos,detalle,resumen
+customers/1606422184/changeEvents/1793643831172008~0~0,24231149731,PCU - España - Competidores ISO 27001 - Search,,2026-11-02 15:23:51,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,"campaign,criterionId,negative,resourceName","{""negativa"": false}","Segmentación de la campaña editada (ubicación, idioma u otro criterio)"
+customers/1606422184/changeEvents/1793643858913001~0~0,24231149728,PCU - España - ISO 27001 - Search,,2026-11-02 15:24:18,CAMPAIGN_CRITERION,CREATE,GOOGLE_ADS_WEB_CLIENT,"campaign,criterionId,negative,resourceName","{""negativa"": false}","Segmentación de la campaña editada (ubicación, idioma u otro criterio)"

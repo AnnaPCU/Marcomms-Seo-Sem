@@ -1,0 +1,43 @@
+Create a Typeform called "Control Union | Fresh Produce Certification Check" for attendees of The Global Produce & Floral Show (Orlando, Oct 14-16, 2026). In 2 minutes, produce and flower businesses see which certification programs match their operation.
+
+BRAND AND TONE
+- Control Union: accredited certification body, 100+ years, 80+ countries, 200+ programs. Always "Control Union", never a country office.
+- Formal, technical, clear. No emojis or exclamation marks.
+- Use certify, audit, inspect, verify. Never: advise, consult, prepare, implement, gap analysis, readiness score, guaranteed.
+- Buttons #3eb2ed, text #1b1e42, accents #799495, white background, Ubuntu font.
+- English, one question per screen, progress bar on.
+
+WELCOME
+Title: "Which certifications does your produce business need?"
+Text: "Answer 10 quick questions and see the programs that match your operation."
+Button: "Start the check"
+
+QUESTIONS
+1. Which best describes your operation? (single) Grower or farm / Packer or packinghouse / Cooler or distribution / Exporter or importer / Processor / Flower grower / Other
+2. What do you grow or handle? (multiple) Fruit / Vegetables / Flowers and plants / Organic products / Other
+3. Where do you sell? (multiple) North America / Europe / UK / Asia / Latin America / Domestic only
+4. What are your buyers asking for? (multiple) Food safety audit (GFSI) / Good agricultural practices / Organic / Social or ethical audit / Sustainable flowers / Packaging / Fair trade / Not sure yet
+5. Which certifications do you hold today? (multiple) PrimusGFS / GLOBALG.A.P. / USDA Organic (NOP) / SMETA / GRASP / BRCGS / Florverde / Fair Trade USA / IFS / None yet
+6. How many audits do you have each year? (single) None / 1-2 / 3-4 / 5 or more
+7. Main priority right now? (single) A new buyer requirement / Fewer audits / A new market / Renewing or changing certification body
+8. When do you need a certificate? (single) Within 3 months / 3-6 months / 6-12 months / Just exploring
+9. Will you be at the show in Orlando? (single) Thursday Oct 15 / Friday Oct 16 / Both days / Not this year
+10. Contact: first name, last name, company, job title, business email (required), country, phone (optional).
+11. Required checkbox: "I agree that Control Union may contact me about this request." Link: https://northamerica.controlunion.com/privacy-policy-usa/
+
+LOGIC (first match wins)
+1) Q6 is 3-4 or 5 or more -> Several audits
+2) Q4 includes Organic -> Organic
+3) Q4 includes Social or Fair trade -> Social
+4) Q4 includes Sustainable flowers, or Q1 is Flower grower -> Flowers
+5) Q4 includes Food safety, Good agricultural practices or Packaging -> Food safety
+6) Otherwise -> General
+
+ENDINGS
+All endings: button "See our fresh produce programs" to https://northamerica.controlunion.com/fresh-produce-certification-expertise/ plus two lines: "Visit Control Union at Booth #851. Expo floor open Oct 15-16, 10 am-5 pm." and "This check is informational. Certification is granted only through an accredited audit."
+- Several audits: "Several programs, one certification body." / "Control Union certifies PrimusGFS, GLOBALG.A.P., USDA NOP, SMETA, BRCGS and more, so your audits can follow one plan."
+- Organic: "Organic certification." / "Control Union certifies organic production and handling under USDA NOP, alongside your food safety audits."
+- Social: "Social compliance and fair trade." / "Control Union audits SMETA and GRASP and certifies Fair Trade USA."
+- Flowers: "Certification for flower growers." / "Control Union certifies Florverde Sustainable Flowers and audits social programs for floriculture."
+- Food safety: "Food safety programs for fresh produce." / "Buyers most often request PrimusGFS, GLOBALG.A.P., BRCGS and IFS. Control Union audits and certifies them."
+- General: "Explore the programs that fit you." / "Control Union certifies 200+ programs in food safety, organic, social compliance, packaging and flowers."

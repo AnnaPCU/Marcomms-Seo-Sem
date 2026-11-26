@@ -1,0 +1,15 @@
+Plan: C:\Users\tmisrahi\OneDrive - Peterson and Control Union\Documentos\Optimizaciónes SEO-SEM\proyecto\campanas\gpfs-2026\final\plan.json
+Marca: Control Union
+
+campanas.csv: 1 filas
+ubicaciones.csv: 3 filas
+grupos.csv: 4 filas
+keywords.csv: 39 filas
+negativas.csv: 78 filas
+anuncios.csv: 8 filas
+sitelinks.csv: 8 filas
+todo-junto.csv: 141 filas
+
+Advertencias (0):
+
+Todo se genera en estado Paused. Revisar en la previsualización de Editor que los anuncios se creen como 'Responsive search ad' antes de aceptar.

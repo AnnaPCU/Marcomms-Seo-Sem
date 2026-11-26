@@ -1,0 +1,15 @@
+{
+  "mcc": "3416977100",
+  "cuentas": {
+    "principal": "1606422184"
+  },
+  "historicas": [
+    {
+      "id": "6527967282",
+      "nombre": "Peterson Technologies",
+      "login": "6527967282",
+      "cuenta": "anterior",
+      "nota": "cuenta anterior en EUR: campañas CU y PS de feb a jul 2026; Growr y campañas sin prefijo de marca no entran al tablero"
+    }
+  ]
+}

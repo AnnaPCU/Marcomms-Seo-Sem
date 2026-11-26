@@ -1,7 +1,8 @@
 # Marcomms SEO-SEM — guía para trabajar en este repo
 
 Tablero interno de MarComms (la agencia interna del grupo Peterson Control Union) para seguir las
-recomendaciones SEM y SEO que salen del proyecto de análisis `../Optimizaciónes SEO-SEM/proyecto`.
+recomendaciones SEM y SEO que salen del proyecto de análisis, en `analisis/` de este mismo repo (su brief es
+`analisis/CLAUDE.md`; para sesiones en la nube, `analisis/nube/LEEME.md`).
 Leé también `PROJECT_CONTEXT.md` (qué es y por qué) y `DEPLOY.md` (cómo se publica).
 
 ## Identidad y marca

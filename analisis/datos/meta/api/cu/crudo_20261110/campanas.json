@@ -1,0 +1,102 @@
+[
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "id": "52622618690977",
+  "name": "CU USA - IFPA - GEO - Excluyendo participantes - Ocubre 2026 - Copia",
+  "objective": "OUTCOME_LEADS",
+  "status": "PAUSED",
+  "configured_status": "PAUSED",
+  "effective_status": "PAUSED",
+  "buying_type": "AUCTION",
+  "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+  "daily_budget": "2000000",
+  "budget_remaining": "2000000",
+  "special_ad_categories": [],
+  "start_time": "2026-10-13T17:45:09-0300",
+  "created_time": "2026-10-13T17:45:08-0300",
+  "updated_time": "2026-10-18T18:10:44-0300",
+  "pacing_type": [
+   "standard"
+  ],
+  "smart_promotion_type": "GUIDED_CREATION",
+  "is_budget_schedule_enabled": false,
+  "source_campaign_id": "52622595294977"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "id": "52622595294977",
+  "name": "CU USA - IFPA - GEO - BBDD Registrados - Ocubre 2026",
+  "objective": "OUTCOME_LEADS",
+  "status": "PAUSED",
+  "configured_status": "PAUSED",
+  "effective_status": "PAUSED",
+  "buying_type": "AUCTION",
+  "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+  "daily_budget": "7000000",
+  "budget_remaining": "7000000",
+  "special_ad_categories": [],
+  "start_time": "2026-10-13T15:46:53-0300",
+  "created_time": "2026-10-13T15:46:52-0300",
+  "updated_time": "2026-10-18T18:10:50-0300",
+  "pacing_type": [
+   "standard"
+  ],
+  "smart_promotion_type": "GUIDED_CREATION",
+  "is_budget_schedule_enabled": false,
+  "source_campaign_id": "0"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "id": "52601233554777",
+  "name": "CU ARG - Aapresid - GEO - Agosto 2026 - Whatsapp",
+  "objective": "OUTCOME_LEADS",
+  "status": "PAUSED",
+  "configured_status": "PAUSED",
+  "effective_status": "PAUSED",
+  "buying_type": "AUCTION",
+  "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+  "daily_budget": "11000000",
+  "budget_remaining": "11000000",
+  "special_ad_categories": [],
+  "start_time": "2026-08-04T16:28:56-0300",
+  "created_time": "2026-08-04T16:28:55-0300",
+  "updated_time": "2026-08-06T20:08:43-0300",
+  "pacing_type": [
+   "standard"
+  ],
+  "smart_promotion_type": "GUIDED_CREATION",
+  "is_budget_schedule_enabled": false,
+  "source_campaign_id": "52600485825977"
+ },
+ {
+  "cuenta_id": "act_1045510044627021",
+  "cuenta_nombre": "Control union",
+  "moneda": "ARS",
+  "id": "52600485825977",
+  "name": "CU ARG - Aapresid - GEO - Agosto 2026",
+  "objective": "OUTCOME_LEADS",
+  "status": "PAUSED",
+  "configured_status": "PAUSED",
+  "effective_status": "PAUSED",
+  "buying_type": "AUCTION",
+  "bid_strategy": "LOWEST_COST_WITHOUT_CAP",
+  "daily_budget": "5000000",
+  "budget_remaining": "5000000",
+  "special_ad_categories": [],
+  "start_time": "2026-08-03T14:50:54-0300",
+  "created_time": "2026-08-03T14:49:54-0300",
+  "updated_time": "2026-08-06T20:08:41-0300",
+  "pacing_type": [
+   "standard"
+  ],
+  "smart_promotion_type": "GUIDED_CREATION",
+  "is_budget_schedule_enabled": true,
+  "source_campaign_id": "0"
+ }
+]

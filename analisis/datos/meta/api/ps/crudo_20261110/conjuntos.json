@@ -1,0 +1,470 @@
+[
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "id": "120252496494730577",
+  "name": "Peterson - Aapresid - Hubspot Form",
+  "campaign_id": "120252496494710577",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 18,
+   "age_range": [
+    18,
+    65
+   ],
+   "excluded_geo_locations": {
+    "custom_locations": [
+     {
+      "distance_unit": "kilometer",
+      "latitude": -32.915665,
+      "longitude": -60.67141,
+      "radius": 1,
+      "primary_city_id": 89720,
+      "region_id": 117,
+      "country": "AR"
+     },
+     {
+      "distance_unit": "kilometer",
+      "latitude": -32.925522,
+      "longitude": -60.688919,
+      "radius": 1,
+      "primary_city_id": 89720,
+      "region_id": 117,
+      "country": "AR"
+     },
+     {
+      "distance_unit": "kilometer",
+      "latitude": -32.941365,
+      "longitude": -60.670552,
+      "radius": 1,
+      "primary_city_id": 89720,
+      "region_id": 117,
+      "country": "AR"
+     }
+    ],
+    "location_types": [
+     "home",
+     "recent"
+    ]
+   },
+   "geo_locations": {
+    "places": [
+     {
+      "key": "301450939947191",
+      "name": "Metropolitano Rosario",
+      "distance_unit": "kilometer",
+      "latitude": -32.928907737554,
+      "longitude": -60.670120402763,
+      "radius": 1,
+      "primary_city_id": 89720,
+      "region_id": 117,
+      "country": "AR"
+     }
+    ],
+    "location_types": [
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1,
+    "individual_setting": {
+     "age": 1,
+     "gender": 1
+    }
+   },
+   "user_age_unknown": false
+  },
+  "promoted_object": {
+   "pixel_id": "1153674240189701",
+   "custom_event_type": "LEAD",
+   "smart_pse_enabled": false
+  },
+  "destination_type": "UNDEFINED",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 7
+   },
+   {
+    "event_type": "VIEW_THROUGH",
+    "window_days": 1
+   },
+   {
+    "event_type": "ENGAGED_VIDEO_VIEW",
+    "window_days": 1
+   }
+  ],
+  "start_time": "2026-08-03T16:09:56-0300",
+  "is_dynamic_creative": false,
+  "created_time": "2026-08-03T16:09:56-0300",
+  "updated_time": "2026-08-11T09:35:13-0300"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "id": "120246376143720577",
+  "name": "Nuevo conjunto de anuncios de Tráfico - sin segmentar",
+  "campaign_id": "120246321789290577",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 25,
+   "age_range": [
+    25,
+    60
+   ],
+   "flexible_spec": [
+    {
+     "interests": [
+      {
+       "id": "6002898157162",
+       "name": "Agribusiness"
+      }
+     ]
+    }
+   ],
+   "geo_locations": {
+    "custom_locations": [
+     {
+      "distance_unit": "kilometer",
+      "latitude": -34.54488,
+      "longitude": -58.431035,
+      "radius": 1,
+      "primary_city_id": 90988,
+      "region_id": 97,
+      "country": "AR"
+     }
+    ],
+    "location_types": [
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1
+   },
+   "user_age_unknown": true
+  },
+  "destination_type": "UNDEFINED",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 1
+   }
+  ],
+  "start_time": "2026-04-21T12:51:53-0300",
+  "end_time": "2026-05-21T17:00:00-0300",
+  "is_dynamic_creative": false,
+  "created_time": "2026-04-21T12:51:53-0300",
+  "updated_time": "2026-04-21T12:52:09-0300"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "id": "120246321789370577",
+  "name": "Nuevo conjunto de anuncios de Tráfico",
+  "campaign_id": "120246321789290577",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 25,
+   "age_range": [
+    25,
+    60
+   ],
+   "flexible_spec": [
+    {
+     "interests": [
+      {
+       "id": "6002898157162",
+       "name": "Agribusiness"
+      },
+      {
+       "id": "6002951571355",
+       "name": "Agricultural engineering"
+      },
+      {
+       "id": "6003077380539",
+       "name": "Agronomy"
+      },
+      {
+       "id": "6003193929872",
+       "name": "Sustainable agriculture"
+      },
+      {
+       "id": "6003254673882",
+       "name": "Renewable energy"
+      },
+      {
+       "id": "6003322650741",
+       "name": "Organic farming"
+      },
+      {
+       "id": "6003339219456",
+       "name": "Field (agriculture)"
+      },
+      {
+       "id": "6003428028912",
+       "name": "Sustainable energy"
+      }
+     ]
+    }
+   ],
+   "geo_locations": {
+    "custom_locations": [
+     {
+      "distance_unit": "kilometer",
+      "latitude": -34.54488,
+      "longitude": -58.431035,
+      "radius": 1,
+      "primary_city_id": 90988,
+      "region_id": 97,
+      "country": "AR"
+     }
+    ],
+    "location_types": [
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1
+   },
+   "user_age_unknown": true
+  },
+  "destination_type": "UNDEFINED",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 1
+   }
+  ],
+  "start_time": "2026-04-21T07:55:00-0300",
+  "end_time": "2026-05-21T17:00:00-0300",
+  "is_dynamic_creative": false,
+  "created_time": "2026-04-21T01:01:15-0300",
+  "updated_time": "2026-04-21T01:23:40-0300"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "id": "120244315822130577",
+  "name": "CONJUNTO 1 - Segmentacion por intereses",
+  "campaign_id": "120244315822150577",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 18,
+   "age_range": [
+    25,
+    65
+   ],
+   "flexible_spec": [
+    {
+     "interests": [
+      {
+       "id": "6003193929872",
+       "name": "Sustainable agriculture"
+      },
+      {
+       "id": "6003254673882",
+       "name": "Renewable energy"
+      },
+      {
+       "id": "6003736023953",
+       "name": "Renewable fuels"
+      }
+     ],
+     "education_majors": [
+      {
+       "id": "103148799725884",
+       "name": "Supply chain management"
+      },
+      {
+       "id": "108391012515814",
+       "name": "Supply chain"
+      }
+     ],
+     "work_positions": [
+      {
+       "id": "103140036393150",
+       "name": "Chief compliance officer"
+      },
+      {
+       "id": "108391012515814",
+       "name": "Supply chain"
+      },
+      {
+       "id": "1380449798938728",
+       "name": "Compliance Analyst"
+      },
+      {
+       "id": "1404610879845585",
+       "name": "Compliance Coordinator"
+      },
+      {
+       "id": "1460327917539144",
+       "name": "Compliance Director"
+      },
+      {
+       "id": "676240899155024",
+       "name": "Compliance Auditor"
+      },
+      {
+       "id": "717432675043794",
+       "name": "Risk Management Specialist"
+      },
+      {
+       "id": "730000063788195",
+       "name": "Compliance Specialist"
+      }
+     ]
+    }
+   ],
+   "geo_locations": {
+    "countries": [
+     "ES"
+    ],
+    "location_types": [
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1,
+    "individual_setting": {
+     "age": 1,
+     "gender": 1
+    }
+   }
+  },
+  "promoted_object": {
+   "pixel_id": "1153674240189701",
+   "custom_event_type": "LEAD",
+   "smart_pse_enabled": false
+  },
+  "destination_type": "UNDEFINED",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 7
+   },
+   {
+    "event_type": "VIEW_THROUGH",
+    "window_days": 1
+   },
+   {
+    "event_type": "ENGAGED_VIDEO_VIEW",
+    "window_days": 1
+   }
+  ],
+  "start_time": "2026-03-19T17:30:51-0300",
+  "end_time": "2026-03-24T00:00:00-0300",
+  "is_dynamic_creative": false,
+  "dsa_beneficiary": "Peterson Solution Hub",
+  "dsa_payor": "Peterson Solution Hub",
+  "created_time": "2026-03-19T17:30:50-0300",
+  "updated_time": "2026-03-19T17:39:17-0300"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "id": "120243856824800577",
+  "name": "Nuevo conjunto de anuncios de Tráfico",
+  "campaign_id": "120243856824810577",
+  "status": "ACTIVE",
+  "configured_status": "ACTIVE",
+  "effective_status": "CAMPAIGN_PAUSED",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "billing_event": "IMPRESSIONS",
+  "budget_remaining": "0",
+  "targeting": {
+   "age_max": 65,
+   "age_min": 18,
+   "geo_locations": {
+    "custom_locations": [
+     {
+      "distance_unit": "kilometer",
+      "latitude": -33.39661,
+      "longitude": -60.203657,
+      "radius": 2,
+      "primary_city_id": 90105,
+      "region_id": 97,
+      "country": "AR"
+     }
+    ],
+    "location_types": [
+     "home",
+     "recent"
+    ]
+   },
+   "brand_safety_content_filter_levels": [
+    "FACEBOOK_RELAXED",
+    "AN_RELAXED"
+   ],
+   "targeting_automation": {
+    "advantage_audience": 1
+   }
+  },
+  "destination_type": "UNDEFINED",
+  "attribution_spec": [
+   {
+    "event_type": "CLICK_THROUGH",
+    "window_days": 1
+   }
+  ],
+  "start_time": "2026-03-10T16:25:26-0300",
+  "end_time": "2026-03-14T00:00:00-0300",
+  "is_dynamic_creative": false,
+  "created_time": "2026-03-10T16:25:26-0300",
+  "updated_time": "2026-03-10T16:25:43-0300"
+ }
+]

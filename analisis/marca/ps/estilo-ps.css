@@ -1,0 +1,115 @@
+/* ===== Peterson Solutions · hoja de estilo de marca para informes =====
+   Brand Guide 2024: Sansa Soft (primaria) · Calibri (respaldo) · Dark Blue #1b1e42 (definitorio) ·
+   Aqua #44cbce (resalte principal) · Yellow #f1e747 (resalte secundario) · Wheat #eae3d2 (fondo) ·
+   Grey #799495 · Dark Grey #4f6566 (texto). Logo = nombre + globo, zona de exclusión = alto del globo.
+   Tagline «For the world, for ourselves, for our families» al pie. Tono personal, «nosotros».
+   Nunca Cyan #3eb2ed.                                                                              */
+@font-face{ font-family:"Sansa Soft"; src:url("fuentes/SansaSoft-Normal.otf") format("opentype"); font-weight:400; }
+@font-face{ font-family:"Sansa Soft"; src:url("fuentes/SansaSoft-SemiBold.otf") format("opentype"); font-weight:600; }
+@font-face{ font-family:"Sansa Soft"; src:url("fuentes/SansaSoft-Bold.otf") format("opentype"); font-weight:700; }
+
+:root{ --navy:#1b1e42; --aqua:#44cbce; --yellow:#f1e747; --wheat:#eae3d2; --grey:#799495; --ink:#4f6566; --tint:#f4f1e8; --tint2:#f3f5f6; --hair:#d7dee0; --accent:var(--aqua); }
+@page{ size:A4; margin:20mm 15mm 20mm 15mm; }
+*{ box-sizing:border-box; }
+html,body{ margin:0; padding:0; }
+body{ font-family:"Sansa Soft","Calibri","Carlito",sans-serif; font-size:9.4pt; line-height:1.5; color:var(--ink);
+  -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+h1,h2,h3,h4{ font-family:"Sansa Soft","Calibri",sans-serif; font-weight:600; color:var(--navy); margin:0; }
+p{ margin:0; }
+strong,b{ color:var(--navy); font-weight:700; }
+
+.brandhead{ display:flex; justify-content:space-between; align-items:flex-start; margin:0 0 8mm; }
+.brandhead img{ height:13mm; width:auto; }
+.brandhead .doc{ font-size:7.2pt; letter-spacing:.18em; text-transform:uppercase; color:var(--grey); text-align:right; padding-top:2mm; }
+
+/* portada: bloque azul con acento aqua y detalle amarillo */
+.cover{ break-after:page; }
+.hero{ background:var(--navy); color:#fff; padding:10mm 12mm 10mm; position:relative; }
+.hero:after{ content:""; position:absolute; left:12mm; bottom:0; width:38mm; height:2.4mm; background:var(--yellow); }
+.hero .eyebrow{ font-size:7.2pt; letter-spacing:.22em; text-transform:uppercase; color:var(--aqua); font-weight:700; margin-bottom:6mm; }
+.hero h1{ font-size:32pt; line-height:1.05; letter-spacing:-.015em; margin:0 0 5mm; max-width:150mm; color:#fff; font-weight:700; }
+.hero .sub{ font-size:11pt; line-height:1.45; color:rgba(255,255,255,.82); max-width:140mm; }
+.hero-nums{ display:grid; grid-template-columns:repeat(4,1fr); gap:6mm; margin-top:12mm; border-top:.75pt solid rgba(255,255,255,.25); padding-top:5mm; }
+.hero-nums .n{ font-size:22pt; font-weight:700; letter-spacing:-.02em; line-height:1; color:var(--aqua); font-variant-numeric:tabular-nums; }
+.hero-nums .l{ font-size:6.8pt; letter-spacing:.16em; text-transform:uppercase; color:rgba(255,255,255,.65); margin-top:1.8mm; }
+.top5{ padding:12mm 0 0; }
+.top5 h2{ font-size:8.6pt; letter-spacing:.2em; text-transform:uppercase; color:var(--grey); margin:0 0 5mm; font-weight:700; }
+.move{ display:grid; grid-template-columns:12mm 1fr; gap:4mm; padding:3.6mm 0; border-top:.5pt solid var(--hair); align-items:start; }
+.move .num{ font-size:20pt; font-weight:700; color:var(--aqua); line-height:.9; }
+.move h3{ font-size:11.5pt; margin:0 0 1mm; line-height:1.2; }
+.move p{ font-size:9.2pt; }
+
+/* unidades */
+.page{ break-before:page; }
+.unit{ margin-bottom:6mm; }
+.unit-bar{ display:grid; grid-template-columns:1fr auto; align-items:end; gap:6mm; border-bottom:2pt solid var(--navy); padding-bottom:2mm; margin-bottom:3mm; break-after:avoid; }
+.unit-bar .brand{ font-size:6.8pt; letter-spacing:.2em; text-transform:uppercase; color:var(--grey); margin-bottom:1mm; }
+.unit-bar h2{ font-size:19pt; letter-spacing:-.01em; line-height:1.05; }
+.unit-bar .nums{ display:flex; gap:7mm; }
+.unit-bar .nums div{ text-align:right; }
+.unit-bar .nums .v{ font-size:13pt; font-weight:700; color:var(--navy); line-height:1; font-variant-numeric:tabular-nums; }
+.unit-bar .nums .k{ font-size:6.4pt; letter-spacing:.14em; text-transform:uppercase; color:var(--grey); margin-top:1.2mm; }
+.unit .lead{ font-size:9.2pt; color:var(--navy); margin:0 0 2.5mm; line-height:1.45; }
+.row{ display:grid; grid-template-columns:1fr 1fr; break-inside:avoid; margin-bottom:1.6mm; }
+.row .pp{ padding:2.4mm 4mm 2.4mm 0; border-top:.5pt solid var(--hair); }
+.row .fix{ background:var(--tint); padding:2.4mm 4mm; position:relative; }
+.row .fix:before{ content:""; position:absolute; left:0; top:0; bottom:0; width:1.6pt; background:var(--aqua); }
+.row .t{ font-size:6.4pt; letter-spacing:.16em; text-transform:uppercase; color:var(--grey); font-weight:700; margin-bottom:1.2mm; }
+.row h4{ font-size:9.6pt; margin:0 0 1mm; line-height:1.25; }
+.row p{ font-size:8.2pt; line-height:1.4; }
+.row .fix p{ color:var(--navy); }
+.tag{ display:inline-block; font-size:6.2pt; letter-spacing:.12em; text-transform:uppercase; font-weight:700; color:var(--grey); border:.6pt solid var(--hair); padding:.6mm 1.6mm; margin-left:2mm; vertical-align:middle; }
+.tag.dec{ color:var(--navy); border-color:var(--navy); background:var(--yellow); }
+
+/* mercados, orden, gráfico */
+.mk{ display:grid; grid-template-columns:repeat(4,1fr); gap:4mm; margin-top:3mm; }
+.mk div{ border-top:1.6pt solid var(--aqua); padding-top:2.5mm; }
+.mk h4{ font-size:10pt; margin:0 0 1mm; }
+.mk .d{ font-size:7.8pt; line-height:1.4; }
+.mk .d b{ display:block; margin-bottom:1mm; font-size:8.2pt; }
+.steps{ display:grid; grid-template-columns:repeat(3,1fr); gap:5mm; margin-top:4mm; }
+.steps div{ background:var(--tint); padding:4mm 4.5mm; }
+.steps .w{ font-size:6.4pt; letter-spacing:.16em; text-transform:uppercase; color:var(--navy); font-weight:700; margin-bottom:1.5mm; }
+.steps h4{ font-size:10.5pt; margin:0 0 2mm; }
+.steps ul{ margin:0; padding-left:3.5mm; font-size:8.4pt; line-height:1.45; }
+.steps li{ margin-bottom:1.2mm; }
+.sec-title{ font-size:19pt; letter-spacing:-.01em; margin:0 0 1.5mm; }
+.sec-sub{ font-size:9.4pt; color:var(--ink); margin:0 0 4mm; }
+.navy-box{ background:var(--navy); color:#fff; padding:5mm 6mm; margin-top:6mm; }
+.navy-box h4{ color:#fff; font-size:11pt; margin:0 0 2mm; }
+.navy-box p{ color:rgba(255,255,255,.85); font-size:8.8pt; }
+.navy-box b{ color:var(--aqua); }
+.chart{ margin:3mm 0 6mm; }
+.chart h3{ font-size:10pt; margin:0 0 1mm; }
+.chart .cap{ font-size:7.4pt; color:var(--grey); margin-bottom:2mm; }
+.chart svg{ width:100%; height:auto; display:block; }
+.foot{ margin-top:8mm; font-size:7.2pt; color:var(--grey); line-height:1.4; border-top:.5pt solid var(--hair); padding-top:3mm; }
+
+/* densidad y ritmo de página */
+.brandhead{ margin-bottom:5mm; }
+.hero{ padding-top:8mm; }
+.hero h1{ font-size:30pt; }
+.hero-nums{ margin-top:8mm; }
+.top5{ padding-top:8mm; }
+.move{ padding:2.6mm 0; }
+.move p{ font-size:8.8pt; }
+.unit{ margin-bottom:5mm; }
+.row .pp{ padding:2mm 4mm 2mm 0; }
+.row .fix{ padding:2mm 4mm; }
+.row p{ font-size:8pt; line-height:1.38; }
+.row h4{ font-size:9.3pt; }
+.chart{ margin:2mm 0 4mm; }
+.chart svg{ max-height:78mm; }
+.sec-title{ font-size:17pt; }
+.sec-sub{ margin-bottom:3mm; }
+.steps div{ padding:3.2mm 3.8mm; }
+.steps ul{ font-size:8pt; }
+.navy-box{ margin-top:4mm; padding:4mm 5mm; }
+.foot{ margin-top:5mm; }
+
+.chart svg{ max-height:66mm; }
+.chart{ margin-bottom:2mm; }
+.steps ul{ font-size:7.8pt; }
+.steps div{ padding:3mm 3.5mm; }
+.navy-box{ padding:3.5mm 5mm; margin-top:3.5mm; }
+.mk .d{ font-size:7.6pt; }

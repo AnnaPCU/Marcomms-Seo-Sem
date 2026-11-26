@@ -1,0 +1,277 @@
+{
+  "marca": "cu",
+  "slug": "na-primusgfs-20261117",
+  "nombre": "Certificación PrimusGFS",
+  "url": "https://northamerica.controlunion.com/certification-program/primusgfs-certification/",
+  "kpis": [
+    {
+      "valor": "4.677",
+      "etiqueta": "Impresiones",
+      "nota": "24 clics · CTR 0,5%"
+    },
+    {
+      "valor": "31,1",
+      "etiqueta": "Posición landing",
+      "nota": "artículo v4.0: 15,5 (oct–nov)"
+    },
+    {
+      "valor": "1",
+      "etiqueta": "Conversión GA4",
+      "nota": "81 sesiones en 5,5 meses"
+    },
+    {
+      "valor": "227.962",
+      "etiqueta": "Gasto SEM total · ARS",
+      "nota": "9 clics · 0 conversiones"
+    }
+  ],
+  "diag_sub": "Tendencia orgánica y competencia interna por la misma búsqueda",
+  "grafico_mes": {
+    "titulo": "Impresiones orgánicas por mes",
+    "cap": "La landing entera y solo Estados Unidos. Noviembre al día 14.",
+    "meses": [
+      "jul",
+      "ago",
+      "sep",
+      "oct",
+      "nov"
+    ],
+    "ultimo_parcial": true,
+    "series": [
+      {
+        "nombre": "Impresiones totales",
+        "valores": [
+          1042,
+          1117,
+          1502,
+          627,
+          318
+        ]
+      },
+      {
+        "nombre": "Solo EE. UU.",
+        "valores": [
+          409,
+          454,
+          296,
+          219,
+          163
+        ]
+      }
+    ]
+  },
+  "competencia": {
+    "titulo": "Landing contra artículo v4.0",
+    "cap": "Posición media del 1 oct al 14 nov 2026 para las dos búsquedas principales.",
+    "a": "Artículo /insight/primusgfs-v4-changes/",
+    "b": "Landing PrimusGFS",
+    "filas": [
+      {
+        "query": "primusgfs certification",
+        "a": 15.5,
+        "b": 31.1
+      },
+      {
+        "query": "primusgfs",
+        "a": 14.9,
+        "b": 36.3
+      }
+    ]
+  },
+  "pasos": [
+    {
+      "titulo": "Title y meta description de la landing",
+      "donde": "WordPress › página «PrimusGFS Certification» › SEO",
+      "tipo": "SEO",
+      "cambios": [
+        {
+          "campo": "Title",
+          "hoy": "PrimusGFS Certification for Fresh Produce Suppliers | Control Union",
+          "cargar": "PrimusGFS Certification & Audits for Fresh Produce | CUC USA",
+          "max": 60
+        },
+        {
+          "campo": "Meta description",
+          "hoy": "Access U.S. retailers, distributors, and foodservice buyers with PrimusGFS certification. A GFSI-recognized food safety program designed for fresh produce operations. Get certified with Control Union.",
+          "cargar": "PrimusGFS certification and audits for growers, packers, cold storage and distribution. GFSI-recognized and accepted by major U.S. retailers.",
+          "max": 155
+        }
+      ],
+      "por_que": [
+        "El title actual tiene 67 caracteres y la meta 200: Google corta los dos.",
+        "«audit» no aparece en el title y «primus audit» crece: 0 → 0 → 4 → 4 → 11 impresiones de julio a noviembre, en posición 30.",
+        "En Google Ads, las búsquedas reales que activaron el anuncio de PrimusGFS en noviembre fueron «primus audit», «primus certification» y «primus certificacion»: la demanda habla de auditoría tanto como de certificación."
+      ]
+    },
+    {
+      "titulo": "H1 y párrafo de entrada",
+      "donde": "Landing › cabecera",
+      "tipo": "SEO",
+      "cambios": [
+        {
+          "campo": "H1",
+          "hoy": "PrimusGFS Certification for Fresh Produce Suppliers",
+          "cargar": "PrimusGFS Certification and Audits for Fresh Produce Operations"
+        },
+        {
+          "campo": "Párrafo bajo el H1",
+          "hoy": "Access U.S. retailers, distributors, and foodservice buyers with PrimusGFS certification. A GFSI-recognized food safety program designed for fresh produce operations. Get certified with Control Union.",
+          "cargar": "CUC USA certifies growers, packers, cold storage and distribution operations under PrimusGFS (also written Primus GFS), the GFSI-recognized food safety program built for fresh produce. Our auditors inspect your operation against the applicable PrimusGFS modules and issue a certificate accepted by major U.S. retailers, distributors and foodservice buyers."
+        }
+      ],
+      "por_que": [
+        "Dice qué hace CUC USA (certifica, audita, inspecciona) y suma las dos formas de búsqueda: «primus gfs» tuvo 176 impresiones en posición 26 y «primusgfs» 193 en posición 34.",
+        "Hoy la página nunca escribe «Primus GFS» separado."
+      ]
+    },
+    {
+      "titulo": "Sección nueva: versiones v3.2 y v4.0",
+      "donde": "Landing › después de «What Does PrimusGFS Certification Evaluate?»",
+      "tipo": "SEO",
+      "cambios": [
+        {
+          "campo": "H2",
+          "cargar": "PrimusGFS v3.2 and v4.0: Which Version Applies to Your Audit?"
+        },
+        {
+          "campo": "Párrafo",
+          "cargar": "PrimusGFS audits are conducted against the version in force on your audit date. Version 4.0 keeps the modular structure and audit duration of v3.2 and adds requirements on food safety culture, crisis management, agricultural water, harvest equipment sanitation and FSMA 204 traceability. The date when v4.0 becomes mandatory depends on GFSI benchmarking; CUC USA confirms the applicable version when scheduling your audit."
+        },
+        {
+          "campo": "Enlace",
+          "accion": "Texto del enlace → /insight/primusgfs-v4-changes/",
+          "cargar": "See what changes in PrimusGFS v4.0"
+        }
+      ],
+      "por_que": [
+        "«primus 3.2 certification» tuvo 148 impresiones y subió de la posición 33 (jul) a la 16 (nov), pero la landing no menciona ninguna versión.",
+        "El párrafo usa los mismos datos que el artículo del sitio: no agrega nada sin verificar."
+      ]
+    },
+    {
+      "titulo": "Quitar el texto que Control Union no puede decir",
+      "donde": "Landing › sección «More Than Certification»",
+      "tipo": "SEO",
+      "nota": "Regla de marca: un organismo certificador no ofrece estrategias de certificación (asesoramiento, conflicto de interés).",
+      "cambios": [
+        {
+          "campo": "Párrafo",
+          "accion": "Quitar",
+          "cargar": "Most certification bodies conduct audits. Control Union helps organizations build long-term certification strategies that support market access, customer requirements, and business growth. From your first audit to future expansions, our team is focused on helping you stay compliant, competitive, and ready for what buyers require next."
+        },
+        {
+          "campo": "H2",
+          "hoy": "More Than Certification",
+          "cargar": "Certification You Can Plan Around"
+        },
+        {
+          "campo": "Párrafo nuevo",
+          "cargar": "CUC USA schedules your initial audit, coordinates PrimusGFS with your USDA Organic inspection and plans renewals before your certificate expires. One certification body, one audit calendar, every site in scope."
+        }
+      ],
+      "por_que": [
+        "El texto nuevo se limita a lo que hace un certificador: programar, coordinar inspecciones y renovar."
+      ]
+    },
+    {
+      "titulo": "Enlaces internos desde la landing",
+      "donde": "Landing › antes de «Ready to Demonstrate Food Safety…» y bloque «Combined USDA Organic & PrimusGFS Inspections»",
+      "tipo": "SEO",
+      "cambios": [
+        {
+          "campo": "H2 del bloque",
+          "cargar": "PrimusGFS Insights"
+        },
+        {
+          "campo": "Enlace 1",
+          "accion": "Texto → /insight/primusgfs-v4-changes/",
+          "cargar": "What changes in PrimusGFS v4.0"
+        },
+        {
+          "campo": "Enlace 2",
+          "accion": "Texto → /insight/primusgfs-audit-checklist/",
+          "cargar": "PrimusGFS audit checklist: how to prepare"
+        },
+        {
+          "campo": "Enlace 3",
+          "accion": "Texto → /insight/usda-organic-primusgfs-combined-audit/",
+          "cargar": "Combined USDA Organic and PrimusGFS audit"
+        },
+        {
+          "campo": "Enlace 4",
+          "accion": "Texto → /certification-program/usda-organic-nop-certification/",
+          "cargar": "USDA Organic"
+        }
+      ],
+      "por_que": [
+        "Los tres artículos ya enlazan a la landing; la landing no enlaza a ninguno. Con los enlaces en las dos direcciones Google entiende cuál es la página principal del tema."
+      ]
+    },
+    {
+      "titulo": "Que el artículo v4.0 le ceda la búsqueda comercial",
+      "donde": "/insight/primusgfs-v4-changes/ y /insight/primusgfs-audit-checklist/",
+      "tipo": "SEO",
+      "cambios": [
+        {
+          "campo": "H2 · v4-changes",
+          "hoy": "PrimusGFS certification with Control Union",
+          "cargar": "Preparing for a v4.0 Audit with CUC USA"
+        },
+        {
+          "campo": "H2 · audit-checklist",
+          "hoy": "PrimusGFS certification with Control Union",
+          "cargar": "Booking Your PrimusGFS Audit with CUC USA"
+        },
+        {
+          "campo": "Frase · v4-changes",
+          "accion": "Agregar al final del primer párrafo y enlazar «PrimusGFS certification» → landing",
+          "cargar": "Planning your first audit? See PrimusGFS certification with CUC USA."
+        }
+      ],
+      "por_que": [
+        "Del 1 oct al 14 nov el artículo quedó en la posición 15,5 para «primusgfs certification» y la landing en la 31,1; para «primusgfs», 14,9 contra 36,3.",
+        "Los dos artículos tienen un H2 casi igual a la búsqueda principal de la landing, y el enlace a la landing aparece recién en la palabra 571.",
+        "Sin 301: el artículo gana su propia intención («primus gfs 4.0» en posición 6,3 y «nsf primusgfs certification» en 6,0)."
+      ]
+    },
+    {
+      "titulo": "GLOBALG.A.P. enlaza a PrimusGFS",
+      "donde": "/certification-program/globalg-a-p/ › final del texto",
+      "tipo": "SEO",
+      "cambios": [
+        {
+          "campo": "Frase",
+          "accion": "Agregar y enlazar «PrimusGFS certification» → landing",
+          "cargar": "Packing, cold storage or distribution operations supplying U.S. retailers? See PrimusGFS certification."
+        }
+      ],
+      "por_que": [
+        "La landing de PrimusGFS presenta a GLOBALG.A.P. como el paso anterior, pero la página de GLOBALG.A.P. no enlaza a PrimusGFS."
+      ]
+    }
+  ],
+  "medir_sub": "Contando desde el día en que se publiquen los pasos",
+  "medir": [
+    {
+      "cuando": "A las 4 semanas · Search Console",
+      "items": [
+        "Posición de la landing para «primusgfs certification»: base 31,1; objetivo, por delante del artículo (15,5) y en 20 o menos.",
+        "«primus audit» (base 30,3) y «primus 3.2 certification» (base 21,2).",
+        "Impresiones en EE. UU. (base 219 en octubre) y CTR (base 0,5%)."
+      ]
+    },
+    {
+      "cuando": "A las 8 semanas · GA4",
+      "items": [
+        "Sesiones orgánicas que entran por la landing: base 24 en cinco meses y medio.",
+        "Vistas a /thank-you-page/ con origen en la landing: base 1."
+      ]
+    },
+    {
+      "cuando": "Antes de medir",
+      "items": [
+        "El proyecto de Google Cloud de las extracciones vence hacia el 15 dic 2026: confirmar que las APIs sigan respondiendo."
+      ]
+    }
+  ]
+}

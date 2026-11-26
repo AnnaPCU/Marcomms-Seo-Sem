@@ -1,0 +1,12 @@
+{"reporte": "test", "status": "ok", "filas": 1, "ts": "2026-11-10T18:00:33"}
+{"reporte": "terminos", "desde": "2026-10-01", "hasta": "2026-10-31", "status": "ok", "filas": 7875, "ts": "2026-11-10T18:01:32"}
+{"reporte": "keywords", "desde": "2026-10-01", "hasta": "2026-10-31", "status": "ok", "filas": 1695, "ts": "2026-11-10T18:01:34"}
+{"reporte": "anuncios", "desde": "2026-10-01", "hasta": "2026-10-31", "status": "ok", "filas": 161, "ts": "2026-11-10T18:01:36"}
+{"reporte": "recursos", "desde": "2026-10-01", "hasta": "2026-10-31", "status": "ok", "filas": 3488, "ts": "2026-11-10T18:01:39"}
+{"status": "ok", "filas": 2015, "reporte": "diario", "desde": "2026-09-01", "hasta": "2026-10-31", "ts": "2026-11-10T18:01:43"}
+{"status": "ok", "filas": 134, "reporte": "historico", "cuenta": "1606422184", "desde": "2024-01-01", "hasta": "2026-10-31", "ts": "2026-11-10T18:01:47"}
+{"status": "ok", "filas": 287, "reporte": "historico", "cuenta": "1606422184", "desde": "2024-01-01", "hasta": "2026-10-31", "ts": "2026-11-10T18:01:48"}
+{"status": "ok", "filas": 170, "reporte": "historico", "cuenta": "6527967282", "desde": "2024-01-01", "hasta": "2026-10-31", "ts": "2026-11-10T18:01:49"}
+{"status": "ok", "filas": 290, "reporte": "historico", "cuenta": "6527967282", "desde": "2024-01-01", "hasta": "2026-10-31", "ts": "2026-11-10T18:01:50"}
+{"status": "ok", "filas": 267, "reporte": "diario", "desde": "2026-11-01", "hasta": "2026-11-09", "ts": "2026-11-10T18:28:14"}
+{"status": "ok", "filas": 267, "reporte": "diario", "desde": "2026-11-01", "hasta": "2026-11-09", "ts": "2026-11-10T18:28:22"}

@@ -1,0 +1,3730 @@
+[
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243856824790577",
+  "ad_name": "Cuestionario expoagro 1",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-10",
+  "date_stop": "2026-03-10",
+  "spend": "1.81",
+  "impressions": "2452",
+  "reach": "1980",
+  "frequency": "1.238384",
+  "clicks": "66",
+  "unique_clicks": "63",
+  "inline_link_clicks": "56",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "56"
+   }
+  ],
+  "ctr": "2.69168",
+  "inline_link_click_ctr": "2.28385",
+  "cpc": "0.027424",
+  "cpm": "0.738173",
+  "cpp": "0.914141",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "56"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "2"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "44"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "44"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "58"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "58"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "2"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.031207"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.905"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.032321"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.031207"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.041136"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.041136"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243857479410577",
+  "ad_name": "Cuestionario expoagro 2",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-10",
+  "date_stop": "2026-03-10",
+  "spend": "1.21",
+  "impressions": "1639",
+  "reach": "1370",
+  "frequency": "1.19635",
+  "clicks": "23",
+  "unique_clicks": "21",
+  "inline_link_clicks": "22",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "22"
+   }
+  ],
+  "ctr": "1.403295",
+  "inline_link_click_ctr": "1.342282",
+  "cpc": "0.052609",
+  "cpm": "0.738255",
+  "cpp": "0.883212",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "22"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "15"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "15"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "22"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "22"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.055"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.055"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.055"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.080667"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.080667"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243857618290577",
+  "ad_name": "Cuestionario expoagro 3",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-10",
+  "date_stop": "2026-03-10",
+  "spend": "2.6",
+  "impressions": "3480",
+  "reach": "2912",
+  "frequency": "1.195055",
+  "clicks": "60",
+  "unique_clicks": "56",
+  "inline_link_clicks": "49",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "49"
+   }
+  ],
+  "ctr": "1.724138",
+  "inline_link_click_ctr": "1.408046",
+  "cpc": "0.043333",
+  "cpm": "0.747126",
+  "cpp": "0.892857",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "49"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "5"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "37"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "37"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "55"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "6"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "55"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "5"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "4"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.047273"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.433333"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.053061"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.047273"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.07027"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.07027"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243857752460577",
+  "ad_name": "Cuestionario expoagro 4",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-10",
+  "date_stop": "2026-03-10",
+  "spend": "1.28",
+  "impressions": "1630",
+  "reach": "1345",
+  "frequency": "1.211896",
+  "clicks": "28",
+  "unique_clicks": "26",
+  "inline_link_clicks": "23",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "23"
+   }
+  ],
+  "ctr": "1.717791",
+  "inline_link_click_ctr": "1.411043",
+  "cpc": "0.045714",
+  "cpm": "0.785276",
+  "cpp": "0.951673",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "23"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "3"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "18"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "18"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "26"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "3"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "26"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "2"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.049231"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.426667"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.055652"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.049231"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.071111"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.071111"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243856824790577",
+  "ad_name": "Cuestionario expoagro 1",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-11",
+  "date_stop": "2026-03-11",
+  "spend": "9.09",
+  "impressions": "11499",
+  "reach": "7546",
+  "frequency": "1.523854",
+  "clicks": "213",
+  "unique_clicks": "202",
+  "inline_link_clicks": "185",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "185"
+   }
+  ],
+  "ctr": "1.852335",
+  "inline_link_click_ctr": "1.608836",
+  "cpc": "0.042676",
+  "cpm": "0.790504",
+  "cpp": "1.204612",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "185"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "16"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "137"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "137"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "203"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "18"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "203"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "16"
+   },
+   {
+    "action_type": "post",
+    "value": "2"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "14"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.044778"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.505"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.049135"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.044778"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.06635"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.06635"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243857479410577",
+  "ad_name": "Cuestionario expoagro 2",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-11",
+  "date_stop": "2026-03-11",
+  "spend": "3.23",
+  "impressions": "3588",
+  "reach": "2646",
+  "frequency": "1.356009",
+  "clicks": "73",
+  "unique_clicks": "72",
+  "inline_link_clicks": "63",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "63"
+   }
+  ],
+  "ctr": "2.03456",
+  "inline_link_click_ctr": "1.755853",
+  "cpc": "0.044247",
+  "cpm": "0.900223",
+  "cpp": "1.220711",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "63"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "4"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "41"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "41"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "67"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "4"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "67"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "4"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "4"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.048209"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.8075"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.05127"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.048209"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.07878"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.07878"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243857618290577",
+  "ad_name": "Cuestionario expoagro 3",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-11",
+  "date_stop": "2026-03-11",
+  "spend": "1.93",
+  "impressions": "2341",
+  "reach": "1869",
+  "frequency": "1.252541",
+  "clicks": "43",
+  "unique_clicks": "42",
+  "inline_link_clicks": "39",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "39"
+   }
+  ],
+  "ctr": "1.836822",
+  "inline_link_click_ctr": "1.665955",
+  "cpc": "0.044884",
+  "cpm": "0.824434",
+  "cpp": "1.032638",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "39"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "3"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "26"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "26"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "42"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "3"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "42"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "3"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "3"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.045952"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.643333"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.049487"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.045952"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.074231"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.074231"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243857752460577",
+  "ad_name": "Cuestionario expoagro 4",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-11",
+  "date_stop": "2026-03-11",
+  "spend": "1.32",
+  "impressions": "1631",
+  "reach": "1157",
+  "frequency": "1.40968",
+  "clicks": "39",
+  "unique_clicks": "38",
+  "inline_link_clicks": "34",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "34"
+   }
+  ],
+  "ctr": "2.391171",
+  "inline_link_click_ctr": "2.084611",
+  "cpc": "0.033846",
+  "cpm": "0.809319",
+  "cpp": "1.140882",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "34"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "27"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "27"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "35"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "35"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.037714"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1.32"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.038824"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.037714"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.048889"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.048889"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243903418820577",
+  "ad_name": "Cuestionario expoagro 5",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-11",
+  "date_stop": "2026-03-11",
+  "spend": "6.35",
+  "impressions": "7152",
+  "reach": "5360",
+  "frequency": "1.334328",
+  "clicks": "130",
+  "unique_clicks": "127",
+  "inline_link_clicks": "111",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "111"
+   }
+  ],
+  "ctr": "1.817673",
+  "inline_link_click_ctr": "1.552013",
+  "cpc": "0.048846",
+  "cpm": "0.887864",
+  "cpp": "1.184701",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "111"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "8"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "85"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "85"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "119"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "8"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "119"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "7"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "7"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.053361"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.79375"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.057207"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.053361"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.074706"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.074706"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243903570750577",
+  "ad_name": "Cuestionario expoagro 6",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-11",
+  "date_stop": "2026-03-11",
+  "spend": "0.41",
+  "impressions": "612",
+  "reach": "476",
+  "frequency": "1.285714",
+  "clicks": "17",
+  "unique_clicks": "14",
+  "inline_link_clicks": "14",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "14"
+   }
+  ],
+  "ctr": "2.777778",
+  "inline_link_click_ctr": "2.287582",
+  "cpc": "0.024118",
+  "cpm": "0.669935",
+  "cpp": "0.861345",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "14"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "9"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "9"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "14"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "14"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.029286"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.029286"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.029286"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.045556"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.045556"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243903745040577",
+  "ad_name": "Cuestionario expoagro 7",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-11",
+  "date_stop": "2026-03-11",
+  "spend": "0.17",
+  "impressions": "299",
+  "reach": "238",
+  "frequency": "1.256303",
+  "clicks": "6",
+  "unique_clicks": "6",
+  "inline_link_clicks": "5",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "5"
+   }
+  ],
+  "ctr": "2.006689",
+  "inline_link_click_ctr": "1.672241",
+  "cpc": "0.028333",
+  "cpm": "0.568562",
+  "cpp": "0.714286",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "4"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "4"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.034"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.034"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.034"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.0425"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.0425"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243856824790577",
+  "ad_name": "Cuestionario expoagro 1",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-12",
+  "date_stop": "2026-03-12",
+  "spend": "10.82",
+  "impressions": "11847",
+  "reach": "8258",
+  "frequency": "1.434609",
+  "clicks": "244",
+  "unique_clicks": "235",
+  "inline_link_clicks": "215",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "214"
+   }
+  ],
+  "ctr": "2.059593",
+  "inline_link_click_ctr": "1.814805",
+  "cpc": "0.044344",
+  "cpm": "0.913311",
+  "cpp": "1.310245",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "215"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "18"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "147"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "147"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "234"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "19"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "234"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "17"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "16"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.046239"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.569474"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.050326"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.046239"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.073605"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.073605"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243857479410577",
+  "ad_name": "Cuestionario expoagro 2",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-12",
+  "date_stop": "2026-03-12",
+  "spend": "0.32",
+  "impressions": "415",
+  "reach": "367",
+  "frequency": "1.13079",
+  "clicks": "4",
+  "unique_clicks": "4",
+  "inline_link_clicks": "2",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "2"
+   }
+  ],
+  "ctr": "0.963855",
+  "inline_link_click_ctr": "0.481928",
+  "cpc": "0.08",
+  "cpm": "0.771084",
+  "cpp": "0.871935",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.16"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.16"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.16"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.32"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.32"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243857618290577",
+  "ad_name": "Cuestionario expoagro 3",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-12",
+  "date_stop": "2026-03-12",
+  "spend": "0.19",
+  "impressions": "151",
+  "reach": "141",
+  "frequency": "1.070922",
+  "clicks": "6",
+  "unique_clicks": "6",
+  "inline_link_clicks": "5",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "5"
+   }
+  ],
+  "ctr": "3.97351",
+  "inline_link_click_ctr": "3.311258",
+  "cpc": "0.031667",
+  "cpm": "1.258278",
+  "cpp": "1.347518",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "3"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "3"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.038"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.038"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.038"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.063333"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.063333"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243857752460577",
+  "ad_name": "Cuestionario expoagro 4",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-12",
+  "date_stop": "2026-03-12",
+  "spend": "0.09",
+  "impressions": "122",
+  "reach": "111",
+  "frequency": "1.099099",
+  "clicks": "1",
+  "unique_clicks": "1",
+  "inline_link_clicks": "0",
+  "ctr": "0.819672",
+  "cpc": "0.09",
+  "cpm": "0.737705",
+  "cpp": "0.810811",
+  "actions": [
+   {
+    "action_type": "landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.09"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.09"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243903418820577",
+  "ad_name": "Cuestionario expoagro 5",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-12",
+  "date_stop": "2026-03-12",
+  "spend": "17.13",
+  "impressions": "19601",
+  "reach": "12263",
+  "frequency": "1.598385",
+  "clicks": "317",
+  "unique_clicks": "294",
+  "inline_link_clicks": "277",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "277"
+   }
+  ],
+  "ctr": "1.617264",
+  "inline_link_click_ctr": "1.413193",
+  "cpc": "0.054038",
+  "cpm": "0.873935",
+  "cpp": "1.396885",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "277"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "25"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "215"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "215"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "5"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "304"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "27"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "304"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "22"
+   },
+   {
+    "action_type": "post",
+    "value": "2"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "20"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.056349"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.634444"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.061841"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.056349"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.079674"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.079674"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243903570750577",
+  "ad_name": "Cuestionario expoagro 6",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-12",
+  "date_stop": "2026-03-12",
+  "spend": "0.1",
+  "impressions": "148",
+  "reach": "129",
+  "frequency": "1.147287",
+  "clicks": "1",
+  "unique_clicks": "1",
+  "inline_link_clicks": "1",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "1"
+   }
+  ],
+  "ctr": "0.675676",
+  "inline_link_click_ctr": "0.675676",
+  "cpc": "0.1",
+  "cpm": "0.675676",
+  "cpp": "0.775194",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.1"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.1"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243903745040577",
+  "ad_name": "Cuestionario expoagro 7",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-12",
+  "date_stop": "2026-03-12",
+  "spend": "0.11",
+  "impressions": "88",
+  "reach": "84",
+  "frequency": "1.047619",
+  "clicks": "2",
+  "unique_clicks": "1",
+  "inline_link_clicks": "1",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "1"
+   }
+  ],
+  "ctr": "2.272727",
+  "inline_link_click_ctr": "1.136364",
+  "cpc": "0.055",
+  "cpm": "1.25",
+  "cpp": "1.309524",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.11"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.11"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.11"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243856824790577",
+  "ad_name": "Cuestionario expoagro 1",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-13",
+  "date_stop": "2026-03-13",
+  "spend": "5.17",
+  "impressions": "5485",
+  "reach": "4086",
+  "frequency": "1.342389",
+  "clicks": "116",
+  "unique_clicks": "111",
+  "inline_link_clicks": "95",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "95"
+   }
+  ],
+  "ctr": "2.114859",
+  "inline_link_click_ctr": "1.731996",
+  "cpc": "0.044569",
+  "cpm": "0.942571",
+  "cpp": "1.265296",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "95"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "7"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "81"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "81"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "102"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "7"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "102"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "6"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "6"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.050686"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.738571"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.054421"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.050686"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.063827"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.063827"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243857479410577",
+  "ad_name": "Cuestionario expoagro 2",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-13",
+  "date_stop": "2026-03-13",
+  "spend": "0",
+  "impressions": "5",
+  "reach": "5",
+  "frequency": "1",
+  "clicks": "0",
+  "unique_clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0",
+  "cpp": "0",
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120243856824810577",
+  "campaign_name": "Expoagro - 2026 - peterson",
+  "adset_id": "120243856824800577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120243903418820577",
+  "ad_name": "Cuestionario expoagro 5",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-03-13",
+  "date_stop": "2026-03-13",
+  "spend": "11.48",
+  "impressions": "12574",
+  "reach": "8601",
+  "frequency": "1.461923",
+  "clicks": "223",
+  "unique_clicks": "209",
+  "inline_link_clicks": "195",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "195"
+   }
+  ],
+  "ctr": "1.773501",
+  "inline_link_click_ctr": "1.550819",
+  "cpc": "0.05148",
+  "cpm": "0.912995",
+  "cpp": "1.334729",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "195"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "14"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "128"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "128"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "211"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "16"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "211"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "16"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "14"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.054408"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "0.7175"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.058872"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.054408"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.089688"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.089688"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "adset_id": "120244315822130577",
+  "adset_name": "CONJUNTO 1 - Segmentacion por intereses",
+  "ad_id": "120244315822120577",
+  "ad_name": "anuncio 1",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-03-19",
+  "date_stop": "2026-03-19",
+  "spend": "4.24",
+  "impressions": "941",
+  "reach": "881",
+  "frequency": "1.068104",
+  "clicks": "12",
+  "unique_clicks": "11",
+  "inline_link_clicks": "10",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "10"
+   }
+  ],
+  "ctr": "1.275239",
+  "inline_link_click_ctr": "1.062699",
+  "cpc": "0.353333",
+  "cpm": "4.505845",
+  "cpp": "4.812713",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "10"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "11"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "11"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.385455"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "4.24"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.424"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.385455"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "adset_id": "120244315822130577",
+  "adset_name": "CONJUNTO 1 - Segmentacion por intereses",
+  "ad_id": "120244316129290577",
+  "ad_name": "anuncio 2",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-03-19",
+  "date_stop": "2026-03-19",
+  "spend": "0.06",
+  "impressions": "30",
+  "reach": "29",
+  "frequency": "1.034483",
+  "clicks": "0",
+  "unique_clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "2",
+  "cpp": "2.068966",
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "adset_id": "120244315822130577",
+  "adset_name": "CONJUNTO 1 - Segmentacion por intereses",
+  "ad_id": "120244315822120577",
+  "ad_name": "anuncio 1",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-03-20",
+  "date_stop": "2026-03-20",
+  "spend": "11.73",
+  "impressions": "1268",
+  "reach": "912",
+  "frequency": "1.390351",
+  "clicks": "10",
+  "unique_clicks": "9",
+  "inline_link_clicks": "9",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "9"
+   }
+  ],
+  "ctr": "0.788644",
+  "inline_link_click_ctr": "0.709779",
+  "cpc": "1.173",
+  "cpm": "9.250789",
+  "cpp": "12.861842",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "9"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "10"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "10"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.173"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "11.73"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.303333"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.173"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "adset_id": "120244315822130577",
+  "adset_name": "CONJUNTO 1 - Segmentacion por intereses",
+  "ad_id": "120244316129290577",
+  "ad_name": "anuncio 2",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-03-20",
+  "date_stop": "2026-03-20",
+  "spend": "6.18",
+  "impressions": "693",
+  "reach": "475",
+  "frequency": "1.458947",
+  "clicks": "3",
+  "unique_clicks": "2",
+  "inline_link_clicks": "1",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "1"
+   }
+  ],
+  "ctr": "0.4329",
+  "inline_link_click_ctr": "0.1443",
+  "cpc": "2.06",
+  "cpm": "8.917749",
+  "cpp": "13.010526",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "6.18"
+   },
+   {
+    "action_type": "link_click",
+    "value": "6.18"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "6.18"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "adset_id": "120244315822130577",
+  "adset_name": "CONJUNTO 1 - Segmentacion por intereses",
+  "ad_id": "120244315822120577",
+  "ad_name": "anuncio 1",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-03-21",
+  "date_stop": "2026-03-21",
+  "spend": "18.51",
+  "impressions": "2046",
+  "reach": "1483",
+  "frequency": "1.379636",
+  "clicks": "12",
+  "unique_clicks": "12",
+  "inline_link_clicks": "11",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "10"
+   }
+  ],
+  "ctr": "0.58651",
+  "inline_link_click_ctr": "0.537634",
+  "cpc": "1.5425",
+  "cpm": "9.046921",
+  "cpp": "12.481457",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "11"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "11"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "11"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.682727"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.682727"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.682727"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "adset_id": "120244315822130577",
+  "adset_name": "CONJUNTO 1 - Segmentacion por intereses",
+  "ad_id": "120244316129290577",
+  "ad_name": "anuncio 2",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-03-21",
+  "date_stop": "2026-03-21",
+  "spend": "3.14",
+  "impressions": "528",
+  "reach": "347",
+  "frequency": "1.521614",
+  "clicks": "18",
+  "unique_clicks": "18",
+  "inline_link_clicks": "18",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "18"
+   }
+  ],
+  "ctr": "3.409091",
+  "inline_link_click_ctr": "3.409091",
+  "cpc": "0.174444",
+  "cpm": "5.94697",
+  "cpp": "9.048991",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "18"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "18"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "18"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.174444"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.174444"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.174444"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "adset_id": "120244315822130577",
+  "adset_name": "CONJUNTO 1 - Segmentacion por intereses",
+  "ad_id": "120244315822120577",
+  "ad_name": "anuncio 1",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-03-22",
+  "date_stop": "2026-03-22",
+  "spend": "8.96",
+  "impressions": "492",
+  "reach": "357",
+  "frequency": "1.378151",
+  "clicks": "1",
+  "unique_clicks": "1",
+  "inline_link_clicks": "1",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "1"
+   }
+  ],
+  "ctr": "0.203252",
+  "inline_link_click_ctr": "0.203252",
+  "cpc": "8.96",
+  "cpm": "18.211382",
+  "cpp": "25.098039",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "8.96"
+   },
+   {
+    "action_type": "link_click",
+    "value": "8.96"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "8.96"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "adset_id": "120244315822130577",
+  "adset_name": "CONJUNTO 1 - Segmentacion por intereses",
+  "ad_id": "120244316129290577",
+  "ad_name": "anuncio 2",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-03-22",
+  "date_stop": "2026-03-22",
+  "spend": "3.46",
+  "impressions": "161",
+  "reach": "126",
+  "frequency": "1.277778",
+  "clicks": "1",
+  "unique_clicks": "1",
+  "inline_link_clicks": "2",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "2"
+   }
+  ],
+  "ctr": "0.621118",
+  "inline_link_click_ctr": "1.242236",
+  "cpc": "3.46",
+  "cpm": "21.490683",
+  "cpp": "27.460317",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.73"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.73"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.73"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "adset_id": "120244315822130577",
+  "adset_name": "CONJUNTO 1 - Segmentacion por intereses",
+  "ad_id": "120244315822120577",
+  "ad_name": "anuncio 1",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-03-23",
+  "date_stop": "2026-03-23",
+  "spend": "0.91",
+  "impressions": "79",
+  "reach": "71",
+  "frequency": "1.112676",
+  "clicks": "1",
+  "unique_clicks": "1",
+  "inline_link_clicks": "0",
+  "ctr": "1.265823",
+  "cpc": "0.91",
+  "cpm": "11.518987",
+  "cpp": "12.816901",
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120244315822150577",
+  "campaign_name": "ESPAÑA - Invitacion a Webinar ISCC - Peterson",
+  "adset_id": "120244315822130577",
+  "adset_name": "CONJUNTO 1 - Segmentacion por intereses",
+  "ad_id": "120244316129290577",
+  "ad_name": "anuncio 2",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-03-23",
+  "date_stop": "2026-03-23",
+  "spend": "25.75",
+  "impressions": "2361",
+  "reach": "1789",
+  "frequency": "1.319732",
+  "clicks": "47",
+  "unique_clicks": "45",
+  "inline_link_clicks": "49",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "49"
+   }
+  ],
+  "ctr": "1.990682",
+  "inline_link_click_ctr": "2.075392",
+  "cpc": "0.547872",
+  "cpm": "10.906396",
+  "cpp": "14.393516",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "49"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "2"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "51"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "51"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.504902"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "12.875"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.52551"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.504902"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "adset_id": "120246321789370577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120246321789360577",
+  "ad_name": "Anuncio 1 - Goldencenter",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-04-21",
+  "date_stop": "2026-04-21",
+  "spend": "0.49",
+  "impressions": "759",
+  "reach": "667",
+  "frequency": "1.137931",
+  "clicks": "8",
+  "unique_clicks": "8",
+  "inline_link_clicks": "8",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "8"
+   }
+  ],
+  "ctr": "1.054018",
+  "inline_link_click_ctr": "1.054018",
+  "cpc": "0.06125",
+  "cpm": "0.645586",
+  "cpp": "0.734633",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "8"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "3"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "3"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "8"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "8"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.06125"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.06125"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.06125"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.163333"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.163333"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "adset_id": "120246321789370577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120246322635990577",
+  "ad_name": "Anuncio 2 - Goldencenter",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-04-21",
+  "date_stop": "2026-04-21",
+  "spend": "0.17",
+  "impressions": "465",
+  "reach": "420",
+  "frequency": "1.107143",
+  "clicks": "3",
+  "unique_clicks": "3",
+  "inline_link_clicks": "3",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "3"
+   }
+  ],
+  "ctr": "0.645161",
+  "inline_link_click_ctr": "0.645161",
+  "cpc": "0.056667",
+  "cpm": "0.365591",
+  "cpp": "0.404762",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "3"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "2"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "3"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "3"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.056667"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.056667"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.056667"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.085"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.085"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "adset_id": "120246321789370577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico",
+  "ad_id": "120246323030300577",
+  "ad_name": "Anuncio 1  (2.0) - Goldencenter",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-04-21",
+  "date_stop": "2026-04-21",
+  "spend": "0.02",
+  "impressions": "174",
+  "reach": "169",
+  "frequency": "1.029586",
+  "clicks": "5",
+  "unique_clicks": "5",
+  "inline_link_clicks": "5",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "5"
+   }
+  ],
+  "ctr": "2.873563",
+  "inline_link_click_ctr": "2.873563",
+  "cpc": "0.004",
+  "cpm": "0.114943",
+  "cpp": "0.118343",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.004"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.004"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.004"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.02"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.02"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "adset_id": "120246376143720577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico - sin segmentar",
+  "ad_id": "120246376143730577",
+  "ad_name": "Anuncio 1  (2.0) - Goldencenter",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-04-21",
+  "date_stop": "2026-04-21",
+  "spend": "0.02",
+  "impressions": "144",
+  "reach": "137",
+  "frequency": "1.051095",
+  "clicks": "5",
+  "unique_clicks": "5",
+  "inline_link_clicks": "5",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "5"
+   }
+  ],
+  "ctr": "3.472222",
+  "inline_link_click_ctr": "3.472222",
+  "cpc": "0.004",
+  "cpm": "0.138889",
+  "cpp": "0.145985",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.004"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.004"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.004"
+   },
+   {
+    "action_type": "omni_landing_page_view",
+    "value": "0.02"
+   },
+   {
+    "action_type": "landing_page_view",
+    "value": "0.02"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "adset_id": "120246376143720577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico - sin segmentar",
+  "ad_id": "120246376143740577",
+  "ad_name": "Anuncio 1 - Goldencenter",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-04-21",
+  "date_stop": "2026-04-21",
+  "spend": "0.03",
+  "impressions": "52",
+  "reach": "46",
+  "frequency": "1.130435",
+  "clicks": "0",
+  "unique_clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0.576923",
+  "cpp": "0.652174",
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120246321789290577",
+  "campaign_name": "Peterson Argentina - Evento goldencenter",
+  "adset_id": "120246376143720577",
+  "adset_name": "Nuevo conjunto de anuncios de Tráfico - sin segmentar",
+  "ad_id": "120246376143750577",
+  "ad_name": "Formulario instantaneo - Anuncio 3",
+  "objective": "LINK_CLICKS",
+  "optimization_goal": "LANDING_PAGE_VIEWS",
+  "date_start": "2026-04-21",
+  "date_stop": "2026-04-21",
+  "spend": "0",
+  "impressions": "3",
+  "reach": "3",
+  "frequency": "1",
+  "clicks": "0",
+  "unique_clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "0",
+  "cpp": "0",
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252496494720577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form - Carbono",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-04",
+  "date_stop": "2026-08-04",
+  "spend": "2.26",
+  "impressions": "319",
+  "reach": "142",
+  "frequency": "2.246479",
+  "clicks": "2",
+  "unique_clicks": "2",
+  "inline_link_clicks": "2",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "2"
+   }
+  ],
+  "ctr": "0.626959",
+  "inline_link_click_ctr": "0.626959",
+  "cpc": "1.13",
+  "cpm": "7.08464",
+  "cpp": "15.915493",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.13"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.13"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.13"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252497140900577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form- Certificaciones",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-04",
+  "date_stop": "2026-08-04",
+  "spend": "0.53",
+  "impressions": "116",
+  "reach": "70",
+  "frequency": "1.657143",
+  "clicks": "1",
+  "unique_clicks": "1",
+  "inline_link_clicks": "1",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "1"
+   }
+  ],
+  "ctr": "0.862069",
+  "inline_link_click_ctr": "0.862069",
+  "cpc": "0.53",
+  "cpm": "4.568966",
+  "cpp": "7.571429",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.53"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.53"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.53"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252497357200577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form- Claims",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-04",
+  "date_stop": "2026-08-04",
+  "spend": "0.96",
+  "impressions": "159",
+  "reach": "97",
+  "frequency": "1.639175",
+  "clicks": "0",
+  "unique_clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "6.037736",
+  "cpp": "9.896907",
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252497654340577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form- Sourcing y supply chain",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-04",
+  "date_stop": "2026-08-04",
+  "spend": "0.7",
+  "impressions": "112",
+  "reach": "68",
+  "frequency": "1.647059",
+  "clicks": "1",
+  "unique_clicks": "1",
+  "inline_link_clicks": "1",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "1"
+   }
+  ],
+  "ctr": "0.892857",
+  "inline_link_click_ctr": "0.892857",
+  "cpc": "0.7",
+  "cpm": "6.25",
+  "cpp": "10.294118",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.7"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.7"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.7"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252496494720577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form - Carbono",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-05",
+  "date_stop": "2026-08-05",
+  "spend": "9.09",
+  "impressions": "1898",
+  "reach": "498",
+  "frequency": "3.811245",
+  "clicks": "12",
+  "unique_clicks": "11",
+  "inline_link_clicks": "9",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "9"
+   }
+  ],
+  "ctr": "0.632244",
+  "inline_link_click_ctr": "0.474183",
+  "cpc": "0.7575",
+  "cpm": "4.789252",
+  "cpp": "18.253012",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "9"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "9"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "9"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.01"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.01"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.01"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252497140900577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form- Certificaciones",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-05",
+  "date_stop": "2026-08-05",
+  "spend": "1.95",
+  "impressions": "374",
+  "reach": "159",
+  "frequency": "2.352201",
+  "clicks": "2",
+  "unique_clicks": "2",
+  "inline_link_clicks": "2",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "2"
+   }
+  ],
+  "ctr": "0.534759",
+  "inline_link_click_ctr": "0.534759",
+  "cpc": "0.975",
+  "cpm": "5.213904",
+  "cpp": "12.264151",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.975"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.975"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.975"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252497357200577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form- Claims",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-05",
+  "date_stop": "2026-08-05",
+  "spend": "3.07",
+  "impressions": "614",
+  "reach": "253",
+  "frequency": "2.426877",
+  "clicks": "4",
+  "unique_clicks": "3",
+  "inline_link_clicks": "4",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "4"
+   }
+  ],
+  "ctr": "0.651466",
+  "inline_link_click_ctr": "0.651466",
+  "cpc": "0.7675",
+  "cpm": "5",
+  "cpp": "12.134387",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "4"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "4"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "4"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.7675"
+   },
+   {
+    "action_type": "link_click",
+    "value": "0.7675"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.7675"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252497654340577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form- Sourcing y supply chain",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-05",
+  "date_stop": "2026-08-05",
+  "spend": "2.69",
+  "impressions": "734",
+  "reach": "308",
+  "frequency": "2.383117",
+  "clicks": "2",
+  "unique_clicks": "2",
+  "inline_link_clicks": "2",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "2"
+   }
+  ],
+  "ctr": "0.27248",
+  "inline_link_click_ctr": "0.27248",
+  "cpc": "1.345",
+  "cpm": "3.66485",
+  "cpp": "8.733766",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_unlike",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "3"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "1"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "3"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "0"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "0"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.896667"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "2.69"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.345"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.896667"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252496494720577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form - Carbono",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-06",
+  "date_stop": "2026-08-06",
+  "spend": "10.4",
+  "impressions": "2022",
+  "reach": "553",
+  "frequency": "3.65642",
+  "clicks": "11",
+  "unique_clicks": "11",
+  "inline_link_clicks": "9",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "9"
+   }
+  ],
+  "ctr": "0.544016",
+  "inline_link_click_ctr": "0.445104",
+  "cpc": "0.945455",
+  "cpm": "5.143422",
+  "cpp": "18.80651",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "9"
+   },
+   {
+    "action_type": "post_reaction",
+    "value": "1"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "12"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "3"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "12"
+   },
+   {
+    "action_type": "post_interaction_net",
+    "value": "2"
+   },
+   {
+    "action_type": "post",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_unsave",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_save",
+    "value": "1"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_save",
+    "value": "0"
+   },
+   {
+    "action_type": "onsite_conversion.post_net_like",
+    "value": "1"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "0.866667"
+   },
+   {
+    "action_type": "post_interaction_gross",
+    "value": "3.466667"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.155556"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "0.866667"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252497140900577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form- Certificaciones",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-06",
+  "date_stop": "2026-08-06",
+  "spend": "2.07",
+  "impressions": "359",
+  "reach": "182",
+  "frequency": "1.972527",
+  "clicks": "2",
+  "unique_clicks": "2",
+  "inline_link_clicks": "2",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "2"
+   }
+  ],
+  "ctr": "0.557103",
+  "inline_link_click_ctr": "0.557103",
+  "cpc": "1.035",
+  "cpm": "5.766017",
+  "cpp": "11.373626",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "2"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "2"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "2"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.035"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.035"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.035"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252497357200577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form- Claims",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-06",
+  "date_stop": "2026-08-06",
+  "spend": "5.1",
+  "impressions": "906",
+  "reach": "347",
+  "frequency": "2.610951",
+  "clicks": "7",
+  "unique_clicks": "6",
+  "inline_link_clicks": "5",
+  "outbound_clicks": [
+   {
+    "action_type": "outbound_click",
+    "value": "5"
+   }
+  ],
+  "ctr": "0.772627",
+  "inline_link_click_ctr": "0.551876",
+  "cpc": "0.728571",
+  "cpm": "5.629139",
+  "cpp": "14.697406",
+  "actions": [
+   {
+    "action_type": "link_click",
+    "value": "5"
+   },
+   {
+    "action_type": "post_engagement",
+    "value": "5"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "5"
+   }
+  ],
+  "cost_per_action_type": [
+   {
+    "action_type": "post_engagement",
+    "value": "1.02"
+   },
+   {
+    "action_type": "link_click",
+    "value": "1.02"
+   },
+   {
+    "action_type": "page_engagement",
+    "value": "1.02"
+   }
+  ],
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ },
+ {
+  "cuenta_id": "act_1691926654833918",
+  "cuenta_nombre": "Peterson - Argentina",
+  "moneda": "USD",
+  "account_currency": "USD",
+  "campaign_id": "120252496494710577",
+  "campaign_name": "Peterson ARG - Aapresid - GEO - Agosto 2026",
+  "adset_id": "120252496494730577",
+  "adset_name": "Peterson - Aapresid - Hubspot Form",
+  "ad_id": "120252497654340577",
+  "ad_name": "Peterson - Aapresid - Hubspot Form- Sourcing y supply chain",
+  "objective": "OUTCOME_LEADS",
+  "optimization_goal": "OFFSITE_CONVERSIONS",
+  "date_start": "2026-08-06",
+  "date_stop": "2026-08-06",
+  "spend": "3.54",
+  "impressions": "597",
+  "reach": "281",
+  "frequency": "2.124555",
+  "clicks": "0",
+  "unique_clicks": "0",
+  "inline_link_clicks": "0",
+  "ctr": "0",
+  "cpm": "5.929648",
+  "cpp": "12.597865",
+  "quality_ranking": "UNKNOWN",
+  "engagement_rate_ranking": "UNKNOWN",
+  "conversion_rate_ranking": "UNKNOWN",
+  "account_id": "1691926654833918"
+ }
+]

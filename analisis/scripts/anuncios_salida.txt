@@ -1,0 +1,335 @@
+
+### PCU España - ISO 27001 - Search › Compra  · ARS 149,247 · fuerza ['AVERAGE', 'AVERAGE'] · 2 anuncio(s)
+  TÍTULOS: Certificación ISO 27001 | Entidad de certificación | Auditoría ISO 27001 | Certificamos ISO 27001 | Auditores en España | Solicita tu presupuesto | Habla con un auditor | Más de 100 años certificando | Presencia en más de 80 países | Más de 274 oficinas | Alcance acreditado | Certificación de tu SGSI | ISO 27001 en España | Entidad certificadora | Auditoría de certificación | Presupuesto de audito
+  DESC: Auditamos y certificamos ISO 27001 con alcance acreditado. Solicita presupuesto. | Entidad de certificación con más de 100 años y presencia en más de 80 países. | Cuéntanos el alcance de tu SGSI y coordinamos la auditoría con el equipo local. | Certificación de seguridad de la información para empre
+  LOW: [] | BEST: []
+  TÉRMINOS: iso 27001 (f, 83493); iso27001 (f, 7442); que dice la iso 27001 (p, 7286); certificacion iso 27001 (f, 6111); dominios iso 27001 2022 (p, 6021); iso 27 (n, 5895); certificarse en iso 27001 (f, 5653)
+  FALTAN (pago): [('2022', 9515), ('dice', 7286), ('iec', 6363), ('dominio', 6021), ('colombia', 1484), ('sirve', 1384)] | tema: ['27001', 'enac', 'madrid']
+  ORGÁNICO: certificación iso 27001 (59, 42); certificación iso 27001 para empresas (46, 53); certificaciones iso 27001 (36, 39); certificación iso 27001 en españa (18, 35); certificado iso 27001 (7, 32); certificacion iso 27001 (6, 43)
+  FALTAN (orgánico): [('certificada', 5), ('software', 4), ('registro', 4), ('cumplimiento', 3), ('agricultura', 2), ('accreditation', 2)]
+
+### PCU Argentina - ISO 27001 - Search › Compra  · ARS 146,405 · fuerza ['AVERAGE', 'AVERAGE'] · 2 anuncio(s)
+  TÍTULOS: Certificación ISO 27001 | Organismo acreditado | Auditoría ISO 27001 | Certificamos ISO 27001 | Auditores en Argentina | Pedí tu cotización | Hablá con un auditor | Más de 100 años certificando | Presencia en más de 80 países | Más de 274 oficinas | Alcance acreditado ISO 27001 | SGSI: auditoría y certificado | ISO 27001 en Argentina | Certificadora ISO 27001 | Auditoría de certificación | Cotizac
+  DESC: Auditamos y certificamos ISO 27001 con alcance acreditado. Pedí tu cotización. | Organismo de certificación con más de 100 años y presencia en más de 80 países. | Contanos el alcance de tu SGSI y coordinamos la auditoría con el equipo local. | Certificación de seguridad de la información para empres
+  LOW: [] | BEST: []
+  TÉRMINOS: iso 27001 (f, 74673); iso iec 27001 (p, 12982); norma iso 27001 (f, 7634); iso27001 (f, 7121); certificacion 27001 (f, 6951); iso 27001 2022 (p, 6384); iso iec 27001 2022 (p, 5684)
+  FALTAN (pago): [('iec', 23011), ('2022', 14691), ('presentacion', 3955), ('ciberseguridad', 1923), ('dice', 1502), ('certificada', 1303)] | tema: ['27001', 'certificadora', 'sgsi']
+  ORGÁNICO: certificadora (12, 7); certificadoras en argentina (4, 24); apoyo iso 27001 (3, 9); certificadora organica (3, 11); certificacion iso 27001 para personas (3, 21); control union certificadora (2, 1)
+  FALTAN (orgánico): [('apoyo', 3), ('organica', 3), ('persona', 3), ('documento', 1), ('registro', 1)]
+
+### CU United States - Organic - USDA NOP - Search › Switch & Get Certified  · ARS 104,379 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: CUC USA Organic Certification | USDA Organic Certification | Get USDA Organic Certified | Switch Organic Certifiers | Change Your Organic Certifier | CUC USA: 80+ Countries | USDA-Accredited Certifier | No Lapse When You Switch | Transfer Your Organic Cert | Organic Cert by CUC USA | Request an Organic Cert Quote | Named Contact, Every Time | Global Organic Certifier | Talk to a Certification Expe
+  DESC: CUC USA: USDA NOP Approved-organic certification for U.S. businesses. | Switch certifiers with no lapse in status. CUC USA manages the transfer. | Global network, multi-scheme bundling, and a certifier that knows trade. | Request a quote and talk to a U.S.-based organic certification expert.
+  LOW: [] | BEST: []
+  TÉRMINOS: what does certified organic mean (f, 18726); organic chicken certification (p, 11056); what is certified organic (f, 8733); how to get certified organic (f, 8327); how to get certified as organic (f, 8063); organic certification (f, 7843); national organic program (p, 7516)
+  FALTAN (pago): [('chicken', 11056), ('national', 7516), ('program', 7516), ('nop', 6930), ('food', 6487), ('land', 1991)] | tema: ['organic', 'usda', 'nop']
+  ORGÁNICO: control union organic certification (40, 36); organic content standard (32, 64); what are the best testing services for verifying organic and non-gmo claims? (4, 9); ocs organic (2, 38); site:controlunion.com global organic latex standard gols official (2, 9); site:controlunion.com gols global organic latex standard official (2, 2)
+  FALTAN (orgánico): [('content', 35), ('ocs', 6), ('site', 5), ('controlunion.com', 5), ('latex', 5), ('gols', 5)]
+
+### CU Canada - Forestry - Search › FSC  · ARS 103,110 · fuerza ['GOOD'] · 1 anuncio(s)
+  TÍTULOS: Forestry Certification | FSC Certification | PEFC Certification | Forest Chain Of Custody | Legal Sourcing Support | Biomass Certification | Timber Traceability | Wood Compliance | Request Certification | Forest Audit Support | Market Access Support | Sustainable Forestry | Wood Pellet Certification | Verification Services
+  DESC: Support forest product certification, traceability and compliance needs. | Prepare for FSC, PEFC, chain of custody or biomass certification. | Contact Control Union to discuss forestry certification requirements.
+  LOW: [] | BEST: []
+  TÉRMINOS: fsc (f, 19201); fsc canada (f, 9048); fsc chain of custody (f, 8745); normes fsc (p, 8498); fsc certified (f, 8153); how to get fsc certification (f, 7596); fsc certification (f, 6817)
+  FALTAN (pago): [('norm', 8498), ('record', 6049), ('org', 3875), ('search', 3274)] | tema: ['fsc', 'chain', 'custody']
+  ORGÁNICO: supply chain inspection services (2, 6); supply chain union (2, 16)
+  FALTAN (orgánico): [('supply', 4), ('inspection', 2)]
+
+### CU Canada - Canada Gap - Search › CanadaGAP cert  · ARS 93,875 · fuerza ['GOOD'] · 1 anuncio(s)
+  TÍTULOS: CanadaGAP Certification | CanadaGAP Audit Support | Fresh Produce Safety | Produce Certification | Food Safety Audits | Don't Risk It, Get Certified | Audit Readiness | Produce Handling Audit | Greenhouse Food Safety | Packing House Support | Strengthen Traceability | Contact Our Experts | Transparent and consistent | Fresh Produce Compliance | Request A Quote
+  DESC: Certification to fit your needs by the CanadianGAP certification program. | Prepare producers, packers, handlers and brokers for audit requirements. | Improve procedures, records and traceability across produce operations. | Contact Control Union to discuss CanadaGAP certification support.
+  LOW: [] | BEST: []
+  TÉRMINOS: canada gap (f, 26174); canadagap (f, 13783); gap certification canada (f, 11557); cargill canada (n, 8178); supply chain management in canada (n, 7753); canadagap certification (f, 7375); canadagap 2026 (p, 3325)
+  FALTAN (pago): [('cargill', 8178), ('supply', 7753), ('chain', 7753), ('2026', 3325), ('indocert', 2766), ('inc', 2766)] | tema: ['gap', 'canadagap', 'body']
+  ORGÁNICO: imc gap (2, 8); primus gap (1, 1)
+  FALTAN (orgánico): [('imc', 2), ('primu', 1)]
+
+### PS Argentina - SuSo - Agricultura regenerativa- Search › Regenerativa  · ARS 68,295 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Agricultura Regenerativa | Transicion Regenerativa | Programas Regenerativos | Suelo Y Carbono | Monitoreo En Campo | Consultoria Peterson | Hable Con Peterson | Soporte en Regenagri | Cadena Agricola | Practicas Regenerativas | Medicion De Impacto | Carbono En Suelo | Agenda Una Reunion | Impacto Agricola
+  DESC: Implemente programas regenerativos con foco en suelo, datos e impacto. | Acompanamos diagnostico, monitoreo y transicion en cadenas agricolas. | Conecte sostenibilidad, abastecimiento y productividad en campo. | Hable con Peterson para definir alcance y plan de implementacion.
+  LOW: [] | BEST: []
+  TÉRMINOS: tecnologia agricola (p, 4871); argenbio (n, 4701); tecnologia para la agricultura (p, 4002); fragaria srl (n, 2828); agricultura innovadora (p, 2701); corteva argentina (n, 2599); pools de siembra en argentina (n, 2498)
+  FALTAN (pago): [('tecnologia', 13204), ('argenbio', 5208), ('agro', 4600), ('siembra', 3716), ('srl', 3367), ('fragaria', 2828)] | tema: ['agricultura', 'regenerativa', 'programa']
+  ORGÁNICO: 
+  FALTAN (orgánico): []
+
+### CU España - Smeta - Search › Social  · ARS 61,792 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificación SMETA | Auditoría SMETA | SMETA 2 Y 4 Pilares | SEDEX Y SMETA | SMETA España | Solicita Información | Prepara Tu Auditoría
+  DESC: Auditorías SMETA 2 y 4 pilares para proveedores y cadenas de suministro. | Evalúa prácticas laborales, ambientales y éticas con un equipo experto. | Contacta con Control Union y prepara tu auditoría SMETA con soporte local. | Habla con Control Union para definir alcance, tiempos y próximos pasos.
+  LOW: [] | BEST: []
+  TÉRMINOS: smeta (f, 14283); sedex (f, 6895); intertek ibérica spain s l u (n, 4493); tüv sud (n, 3272); auditoria smeta (f, 3085); sedex certification (f, 2873); veolia (n, 2807)
+  FALTAN (pago): [('intertek', 4493), ('iberica', 4493), ('9001', 4381), ('aenor', 3508), ('tuv', 3272), ('sud', 3272)] | tema: ['smeta', 'pilar', '4']
+  ORGÁNICO: smeta (1757, 8); smeta certified (199, 29); auditoria smeta (172, 10); smeta auditoria (105, 8); smeta 4 pilares (101, 8); certificacion smeta (86, 10)
+  FALTAN (orgánico): [('eti', 53), ('pillar', 36)]
+
+### PS Argentina - Bioenergia / Biocombustibles - Search › Bioenergia  · ARS 60,028 · fuerza ['GOOD'] · 1 anuncio(s)
+  TÍTULOS: Bioenergia Sostenible | Biocombustibles | Biomasa Certificacion | ISCC Biocombustibles | 2BSvs Biocombustibles | RED II Support | Mass Balance | Trazabilidad Biomasa | Consultoria Peterson | Biofuels Compliance | Cadena Bioenergia | Certificacion Biomasa | Mercado Bioenergia | Agenda Una Reunion
+  DESC: Prepare cadenas de bioenergia y biocombustibles para certificacion. | Soporte en ISCC, 2BSvs, biomasa, trazabilidad y mass balance. | Mejore cumplimiento, evidencias y gestion de datos en la cadena. | Hable con Peterson para definir requisitos, alcance y proximos pasos.
+  LOW: [] | BEST: []
+  TÉRMINOS: biogas (n, 13328); energia biomasa (f, 8101); fenix bioenergy (n, 7753); biomasa energia (f, 5058); bio gas (p, 4826); dosbio (n, 3080); biogas y biomasa (p, 2841)
+  FALTAN (pago): [('bioga', 22318), ('fenix', 7753), ('bioenergy', 7753), ('gas', 4826), ('dosbio', 3080), ('electricidad', 2957)] | tema: ['bioenergia', 'consultoria', 'sostenibilidad']
+  ORGÁNICO: 
+  FALTAN (orgánico): []
+
+### CU España - CAEs - Search › Certificados y Sistema CAE  · ARS 58,838 · fuerza ['POOR'] · 1 anuncio(s)
+  TÍTULOS: Certificado Ahorro Energético | Control Union | Control Union España | Verificación CAE Certificada | Organismo Acreditado por ENAC | Entidad Verificadora | Rigor Técnico en Cada Proyecto
+  DESC: Organismo verificador acreditado por ENAC. Verificamos actuaciones CAE | Convierta sus ahorros energéticos en valor certificado, con soporte técnico continuo.
+  LOW: [] | BEST: []
+  TÉRMINOS: certificado energetico vivienda (p, 6368); cae (f, 4989); que es el certificado energetico (f, 3544); ce3 descargar (n, 2889); registro certificado energético euskadi (p, 2661); precio cae 2026 (p, 2501); certificado energético vivienda precio (p, 2483)
+  FALTAN (pago): [('energetica', 11940), ('vivienda', 10073), ('eficiencia', 9943), ('registro', 5473), ('ce3', 2889), ('descargar', 2889)] | tema: ['cae', 'energetico', 'ahorro']
+  ORGÁNICO: verificacion cae (239, 10); verificador cae (123, 13); cae verificacion (104, 11); verificacion de cae (103, 10); certificados de ahorro energético (69, 30); verificador de ahorro energético (52, 19)
+  FALTAN (orgánico): [('validacion', 35), ('espagne', 13), ('comprobar', 10), ('programa', 7), ('constancia', 6), ('gipuzkoa', 6)]
+
+### CU España - Forestal - Search › PEFC  · ARS 55,658 · fuerza ['POOR'] · 1 anuncio(s)
+  TÍTULOS: Certificación PEFC | Auditoría PEFC | Cadena Custodia PEFC | Certificación Forestal | Forestal Sostenible | PEFC España | Solicita Información
+  DESC: Certificación PEFC de cadena de custodia para productos forestales. | Demuestra origen responsable, trazabilidad y cumplimiento forestal. | Solicita información para iniciar tu proceso de certificación PEFC. | Habla con Control Union para definir alcance, tiempos y próximos pasos.
+  LOW: [] | BEST: []
+  TÉRMINOS: pefc españa (f, 17221); pefc (f, 11945); empresa de forestal (f, 4277); sostenibilidad aplicada al sistema productivo (n, 3856); asociación para la certificación española forestal pefc españa (p, 2782); certificado madera pefc (p, 2504); sostenibilidad (n, 2428)
+  FALTAN (pago): [('sostenibilidad', 6580), ('fsc', 4134), ('aplicada', 3856), ('productivo', 3856), ('madera', 3711), ('asociacion', 2782)] | tema: ['pefc', 'forestal', 'chain']
+  ORGÁNICO: pefc (261, 20); certificado pefc (100, 53); control forestal (85, 13); certificaciones forestales (77, 63); implantación pefc (63, 35); certificación fsc forestal (50, 25)
+  FALTAN (orgánico): [('fsc', 115), ('implantacion', 63), ('consultor', 50), ('logo', 28), ('buscador', 7), ('programme', 7)]
+
+### CU Portugal - Forestal - Search › PEFC  · ARS 52,954 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificação PEFC | Auditoria PEFC | Cadeia Custódia PEFC | Certificação Florestal | Florestal Sustentável | PEFC Portugal | Peça Informação
+  DESC: Certificação PEFC de cadeia de custódia para produtos florestais. | Demonstre origem responsável, rastreabilidade e conformidade florestal. | Peça informação para iniciar o processo de certificação PEFC. | Fale com a Control Union para definir escopo, prazos e próximos passos.
+  LOW: [] | BEST: []
+  TÉRMINOS: pefc (f, 15536); pefc portugal (f, 11185); pefc o que é (f, 6112); pefc certification (f, 3692); grasp certificação (n, 3407); p e f c (s, 3116); certificação florestal fsc (p, 3069)
+  FALTAN (pago): [('grasp', 3407), ('fsc', 3069), ('org', 2104), ('find', 2104)] | tema: ['pefc', 'cadeia', 'custodia']
+  ORGÁNICO: pefc (525, 9); certificação pefc (133, 13); pefc search (117, 9); pefc certification (79, 8); pefc certificate search (33, 8); pefc certificados (24, 10)
+  FALTAN (orgánico): [('search', 167), ('find', 9), ('significado', 6), ('label', 3), ('database', 2), ('international', 2)]
+
+### CU Canada - Forestry - Search › Forestry cert  · ARS 50,721 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Forestry Certification | FSC Certification | PEFC Certification | Forest Chain Of Custody | Legal Sourcing Support | Biomass Certification | Timber Traceability | Wood Compliance | Request Certification | Forest Audit Support | Market Access Support | Sustainable Forestry | Wood Pellet Certification | Verification Services
+  DESC: Support forest product certification, traceability and compliance needs. | Prepare for FSC, PEFC, chain of custody or biomass certification. | Contact Control Union to discuss forestry certification requirements.
+  LOW: [] | BEST: []
+  TÉRMINOS: forestry consulting (p, 8939); canadian forestry accreditation board (p, 6115); enform falling ticket (n, 5426); fsc certificate (f, 4548); fsc in canada (f, 4524); www fsc org mix (p, 3980); fsc wood certification (f, 3866)
+  FALTAN (pago): [('consulting', 8939), ('canadian', 6115), ('accreditation', 6115), ('board', 6115), ('enform', 5426), ('falling', 5426)] | tema: ['forest', 'forestry', 'sustainable']
+  ORGÁNICO: programme for the endorsement of forest certification (1, 33)
+  FALTAN (orgánico): [('programme', 1), ('endorsement', 1)]
+
+### CU España - Textile - Search › GOTS  · ARS 49,259 · fuerza ['POOR'] · 1 anuncio(s)
+  TÍTULOS: Certificación GOTS | Auditoría GOTS | Textiles Orgánicos | Global Organic Textile | GOTS España | Solicita Información | Auditoría Independiente | Prepara Tu Auditoría
+  DESC: Certificación GOTS para textiles orgánicos y cadenas sostenibles. | Control Union acompaña marcas, fabricantes y proveedores textiles. | Solicita tu certificación textil y conoce los requisitos del proceso. | Habla con Control Union para definir alcance, tiempos y próximos pasos.
+  LOW: [] | BEST: []
+  TÉRMINOS: certificado gots (f, 10604); www oeko tex com standard 100 (p, 6821); oeko tex standard 100 (p, 6348); www global standard org (p, 4390); certified gots organic cotton (p, 4191); organic cotton standard (p, 3411); gots global organic textile standard (f, 2944)
+  FALTAN (pago): [('oeko', 16038), ('100', 13168), ('www', 11211), ('cotton', 7602), ('sello', 1909), ('algodon', 985)] | tema: ['gots', 'organic', 'global']
+  ORGÁNICO: gots (1002, 19); gots en español (78, 11); global organic textile standard (65, 9); gots certification (47, 17); gots (global organic textile standard) (46, 7); que es gots (45, 14)
+  FALTAN (orgánico): [('content', 106), ('espanol', 78), ('ocs', 40), ('logo', 25), ('100', 10), ('blended', 7)]
+
+### CU Portugal - Bioenergia - Search › ISCC  · ARS 48,563 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificação ISCC | Auditoria ISCC | ISCC EU E ISCC Plus | Bioenergia Sustentável | Rastreabilidade Biomassa | ISCC Portugal | Peça Informação
+  DESC: Certificação ISCC para biomassa, biocombustíveis e cadeias sustentáveis. | Demonstre rastreabilidade e conformidade com auditorias Control Union. | Fale com um especialista sobre ISCC EU ou ISCC Plus. | Fale com a Control Union para definir escopo, prazos e próximos passos.
+  LOW: [] | BEST: []
+  TÉRMINOS: iscc certificates (f, 13805); iscc (f, 11474); iscc plus (f, 6118); iscc plus standard (f, 4252); iscc eu certificate (f, 4203); isccplus (f, 3087); iscc certificação (f, 1602)
+  FALTAN (pago): [] | tema: ['iscc', 'plus', 'biomassa']
+  ORGÁNICO: iscc (299, 9); iscc certificates (242, 7); iscc plus (181, 4); certificação iscc (30, 8); iscc eu (28, 4); en plus (23, 6)
+  FALTAN (orgánico): [('din', 12), ('issc', 9), ('icss', 8), ('pellet', 3), ('hub', 1), ('material', 1)]
+
+### PS Argentina - SuSe - ESG / Reportes - Search › Reportes ESG  · ARS 39,483 · fuerza ['GOOD'] · 1 anuncio(s)
+  TÍTULOS: Consultoria ESG | Estrategia ESG | Reportes ESG | Reporte GRI | Reporte CSRD | Materialidad ESG | Datos ESG | Finanzas Sostenibles | Gestion Sostenible | Consultoria Peterson | Plan ESG Empresa | Reporte Sostenibilidad | Impacto ESG | Agenda Una Reunion
+  DESC: Defina estrategia ESG, reportes y materialidad con soporte experto. | Ordene datos, indicadores y prioridades para sostenibilidad corporativa. | Prepare reportes GRI, CSRD o internos con una hoja de ruta clara. | Hable con Peterson para transformar objetivos ESG en acciones.
+  LOW: [] | BEST: []
+  TÉRMINOS: indicadores gri (p, 4173); csrd (f, 3864); standard gri (f, 3086); estandar gri (f, 2812); gri sectoriales (p, 2739); estándares gri en español (p, 2477); gri sostenibilidad (f, 2122)
+  FALTAN (pago): [('indicador', 4173), ('espanol', 3328), ('sectorial', 2739), ('global', 1814), ('elaborar', 1559), ('inform', 1559)] | tema: ['reporte', 'gri', 'soporte']
+  ORGÁNICO: 
+  FALTAN (orgánico): []
+
+### CU España - IFS - SEARCH › Food Safety  · ARS 37,135 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Seguridad Alimentaria | Certificación Food Safety | Auditorías Seguridad Alim. | Gestión Inocuidad Aliment. | Auditoría Inocuidad | Equipo técnico experto | Control Union España | Soporte técnico completo | Auditorías para empresas
+  DESC: Auditorías y certificaciones de seguridad alimentaria. Equipo técnico y respuesta rápida. | Soporte para sistemas de inocuidad. Pedí propuesta y coordinamos auditoría.
+  LOW: [] | BEST: []
+  TÉRMINOS: ifs food (p, 5990); iso 22000 (n, 5009); iso 22000 2018 (n, 4044); food safety test (p, 3968); certificaciones brcgs (n, 2403); certificado brc que significa (n, 2294); gfsi que es (n, 2049)
+  FALTAN (pago): [('22000', 10523), ('ifs', 8064), ('2018', 4044), ('brc', 3982), ('test', 3968), ('brcg', 2403)] | tema: ['alimentaria', 'haccp', 'seguridad']
+  ORGÁNICO: haccp (575, 13); certificaciones de seguridad alimentaria (256, 9); control y seguridad alimentaria (230, 17); protección alimentaria alimentación animal (163, 9); iso 22000 seguridad alimentaria (147, 45); certificaciones alimentarias (139, 24)
+  FALTAN (orgánico): [('22000', 168), ('proteccion', 163), ('alimentacion', 163), ('animal', 163), ('solucion', 124), ('madrid', 87)]
+
+### CU Portugal - Smeta - Search › Smeta  · ARS 36,540 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificação SMETA | Auditoria SMETA | SMETA 2 E 4 Pilares | Auditoria Social | SEDEX E SMETA | SMETA Portugal | Peça Informação
+  DESC: Auditorias SMETA 2 e 4 pilares para fornecedores e cadeias de abastecimento. | Avalie práticas laborais, ambientais e éticas com uma equipa experiente. | Prepare a sua auditoria SMETA com acompanhamento local. | Fale com a Control Union para definir escopo, prazos e próximos passos.
+  LOW: [] | BEST: []
+  TÉRMINOS: smeta (f, 19460); auditoria smeta (f, 7219); kiwa com (n, 3858); politica ambiental da empresa (n, 2938); sedex smeta (f, 1809); smeta sedex (f, 657); smeta 4p (f, 598)
+  FALTAN (pago): [('kiwa', 3858), ('politica', 2938), ('ambiental', 2938)] | tema: ['smeta', 'sedex', 'pilar']
+  ORGÁNICO: smeta (885, 6); auditoria smeta (92, 6); smeta certificação (84, 3); smeta 4 pilares (60, 3); certificação smeta (49, 3); sedex smeta (38, 7)
+  FALTAN (orgánico): [('pillar', 18), ('significado', 6), ('extension', 3), ('pdf', 3)]
+
+### PS Argentina - SuSe - Huella de carbono / GEI - Search › Huella producto  · ARS 35,832 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Huella De Carbono | Inventario GEI | Scope 1 2 3 | Emisiones Scope 3 | Huella De Producto | AFOLU Agro | ISO 14064 | Consultoria Peterson | Medicion De Emisiones | Gestion GEI | Reporte De Emisiones | Carbono Corporativo | Agenda Una Reunion
+  DESC: Mida y gestione emisiones corporativas, producto y cadena de valor. | Prepare inventarios GEI, Scope 1, 2 y 3 con soporte experto. | Conecte huella de carbono con decisiones ESG y comerciales. | Hable con Peterson para definir alcance, datos y metodologia.
+  LOW: [] | BEST: []
+  TÉRMINOS: verra carbono (p, 4988); gestión empresarial para la sostenibilidad de pymes (n, 3192); sustainability company (n, 2840); bonos de carbono (f, 2566); iso 14040 44 (n, 2009); consultoria ambiental (p, 2003); carbono neutral (p, 2000)
+  FALTAN (pago): [('verra', 4988), ('ambiental', 4253), ('14040', 3464), ('empresarial', 3192), ('sostenibilidad', 3192), ('pym', 3192)] | tema: ['producto', 'huella', 'carbono']
+  ORGÁNICO: 
+  FALTAN (orgánico): []
+
+### CU España - Bioenergia - Search › ISCC  · ARS 35,369 · fuerza ['POOR'] · 1 anuncio(s)
+  TÍTULOS: Certificación ISCC | Auditoría ISCC | ISCC EU E ISCC Plus | Bioenergía Sostenible | Trazabilidad Biomasa | ISCC España | Solicita Información
+  DESC: Certificación ISCC para biomasa, biocombustibles y cadenas sostenibles. | Demuestra trazabilidad y cumplimiento con auditorías de Control Union. | Habla con un experto y prepara tu certificación ISCC EU o ISCC Plus. | Habla con Control Union para definir alcance, tiempos y próximos pasos.
+  LOW: [] | BEST: []
+  TÉRMINOS: iscc (f, 23310); iscc certificates (f, 3757); iscc plus (f, 2237); iscc system (f, 2122); certificado iscc (f, 1961); iscc certificado (f, 1681); certificacion iscc (f, 302)
+  FALTAN (pago): [] | tema: ['iscc', 'plus', 'bioenergia']
+  ORGÁNICO: iscc (1876, 7); iscc plus (444, 8); cómo computar la reducción de emisiones del alcance 3 mediante el uso de combustibles renovables certificados bajo la directiva csrd: validez administrativa de los certificados de sostenibilidad iscc. (186, 5); iscc eu (161, 8); certificados iscc (121, 14); certificacion iscc (91, 22)
+  FALTAN (orgánico): [('computar', 186), ('reduccion', 186), ('emision', 186), ('alcance', 186), ('3', 186), ('mediante', 186)]
+
+### CU Portugal - Textile - Search › GOTS  · ARS 33,149 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificação GOTS | Auditoria GOTS | Têxteis Orgânicos | Global Organic Textile | Cadeia Têxtil Sustentável | GOTS Portugal | Peça Informação
+  DESC: Certificação GOTS para têxteis orgânicos e cadeias sustentáveis. | Apoio a marcas, fabricantes e fornecedores têxteis em Portugal. | Peça informação e conheça os requisitos da certificação têxtil. | Fale com a Control Union para definir escopo, prazos e próximos passos.
+  LOW: [] | BEST: []
+  TÉRMINOS: gots (f, 7542); gots certification (f, 5531); gots 8.0 (p, 4468); gots database (p, 4071); certificado gots (f, 3301); gots symbol (p, 2330); norma gots (f, 2090)
+  FALTAN (pago): [('8.0', 4468), ('database', 4071), ('symbol', 2330), ('oeko', 1730), ('100', 1730), ('ggmbh', 783)] | tema: ['gots', 'global', 'organic']
+  ORGÁNICO: gots (1310, 6); certificação gots (120, 4); global recycled standard (101, 5); certificado gots (85, 4); gots certification (41, 7); global sustainable tourism council (29, 8)
+  FALTAN (orgánico): [('recycled', 126), ('gap', 60), ('sustainable', 35), ('tourism', 35), ('council', 35), ('grs', 28)]
+
+### CU España - Textile - Search › GRS  · ARS 32,970 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificación GRS | Auditoría GRS | Global Recycled Standard | Textiles Reciclados | Cadena Textil Sostenible | GRS España | Prepara Tu Auditoría | grs textile certification
+  DESC: Certificación GRS para contenido reciclado, trazabilidad y cadena textil. | Control Union acompaña marcas, fabricantes y proveedores textiles. | Solicita tu certificación textil y conoce los requisitos del proceso. | Habla con Control Union para definir alcance, tiempos y próximos pasos.
+  LOW: [] | BEST: []
+  TÉRMINOS: global recycled standard (f, 23029); grs textile exchange (p, 4333); control union certifications (s, 1848); grs global recycled standard (f, 1605); grs certificate (f, 1183); global recycled standard grs (f, 903); control union grs (f, 70)
+  FALTAN (pago): [('exchange', 4333)] | tema: ['grs', 'global', 'recycled']
+  ORGÁNICO: grs (7658, 9); global recycled standard (386, 7); certificado grs (126, 14); global sustainable tourism council (113, 6); global recycled standard (grs) (66, 7); global organic textile standard (65, 9)
+  FALTAN (orgánico): [('sustainable', 199), ('tourism', 199), ('council', 199), ('organic', 134), ('gstc', 86), ('gots', 69)]
+
+### PS Argentina - SuSe - Huella de carbono / GEI - Search › Huella carbono  · ARS 29,521 · fuerza ['POOR'] · 1 anuncio(s)
+  TÍTULOS: Huella De Carbono | Inventario GEI | Scope 1 2 3 | Emisiones Scope 3 | Huella De Producto | AFOLU Agro | ISO 14064 | Consultoria Peterson | Medicion De Emisiones | Gestion GEI | Reporte De Emisiones | Carbono Corporativo | Agenda Una Reunion
+  DESC: Mida y gestione emisiones corporativas, producto y cadena de valor. | Prepare inventarios GEI, Scope 1, 2 y 3 con soporte experto. | Conecte huella de carbono con decisiones ESG y comerciales. | Hable con Peterson para definir alcance, datos y metodologia.
+  LOW: [] | BEST: []
+  TÉRMINOS: inventario gei argentina (f, 2817); consultoria medioambiental (p, 1961); consultora ambiental (n, 1882); iso 14001 (n, 1856); como medir la huella de carbono de una empresa (p, 1795); inventario nacional de gases de efecto invernadero (p, 1695); indicadores ambientales empresa (n, 1663)
+  FALTAN (pago): [('ambiental', 8934), ('14001', 3066), ('medioambiental', 1961), ('consultora', 1882), ('medir', 1795), ('nacional', 1695)] | tema: ['huella', 'carbono', 'inventario']
+  ORGÁNICO: 
+  FALTAN (orgánico): []
+
+### CU Canada - Smeta - Search › Smeta  · ARS 28,913 · fuerza ['GOOD'] · 1 anuncio(s)
+  TÍTULOS: Control Union | SMETA 4 Pillar Audit | Sedex Audits Requirements | Supply Chain Management | SMETA Certification | SMETA Standard | Social Audit | SMETA 2 Pillar Audit | Trusted Audit Partner | Improve Supplier Compliance | Strengthen Ethical Standards | Prioritize High Risk | Confident in Your Compliance | Contact Us Today | Learn More
+  DESC: Control Union provides practical tools, services and a community network. | Improve supplier compliance with SMETA audit services tailored to your business needs. | Assess labor, safety, environment and ethics with support from Control Union | Control Union helps companies maintain effective food sa
+  LOW: [] | BEST: []
+  TÉRMINOS: smeta (f, 7798); smeta audit (f, 5147); operation and supply chain management (p, 4469); supply chain terms (p, 4064); dp world logistics canada inc (n, 3482); supply chain risk mitigation (p, 2208); smeta certification (f, 1218)
+  FALTAN (pago): [('operation', 4469), ('term', 4064), ('world', 3482), ('logistic', 3482), ('inc', 3482), ('mitigation', 2208)] | tema: ['smeta', 'sedex', 'pillar']
+  ORGÁNICO: 
+  FALTAN (orgánico): []
+
+### CU Canada- Aqua / Fisheries - Search › MSC  · ARS 27,491 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Control Union | Aqua Certification | Aquaculture Audits | ASC Certification | MSC Certification | BAP Certification | Seafood Traceability | Chain Of Custody | Fisheries Certification | Request Certification | Responsible Aquaculture | Seafood Audit Support | Sustainable Fisheries | Canada Aqua Support | Certification Partner
+  DESC: Support aquaculture and fisheries certification with Control Union. | Prepare for ASC, MSC, BAP or chain of custody audit requirements. | Improve seafood traceability, responsible sourcing and market confidence. | Contact Control Union to discuss aqua certification scope and next steps.
+  LOW: [] | BEST: []
+  TÉRMINOS: msc certification (f, 12836); msc certified (f, 4912); msc certified fisheries (f, 3308); msc chain of custody (f, 3278); msc seafood certification (f, 3159)
+  FALTAN (pago): [] | tema: ['msc', 'marine', 'stewardship']
+  ORGÁNICO: 
+  FALTAN (orgánico): []
+
+### CU United States - Organic - PrimusGFS - Search › PrimusGFS Core Generic  · ARS 25,941 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: CUC USA: PrimusGFS Cert | PrimusGFS Certification | Get PrimusGFS Certified | PrimusGFS for Fresh Produce | CUC USA Food Safety Cert | Meet Buyer Food Safety Rules | Request a PrimusGFS Quote | Does PrimusGFS Apply to You? | Global PrimusGFS Certifier | Fresh Produce Audit Experts | Certify With CUC USA | PrimusGFS + Organic, One Audit | Talk to a Food Safety Expert
+  DESC: CUC USA: PrimusGFS-recognized food safety certification for fresh produce. | Growers, packers, cold storage & distribution. One certifier, every stage. | Not sure if PrimusGFS applies to you? Take our free 2-minute assessment. | 80+ country network, fresh produce expertise, U.S.-based client support
+  LOW: [] | BEST: []
+  TÉRMINOS: gfsi consultant (n, 20951); gfsi certification (n, 4991)
+  FALTAN (pago): [('gfsi', 25941), ('consultant', 20951)] | tema: ['primusgf', 'sqf', 'globalg.a.p']
+  ORGÁNICO: primusgfs certification (757, 21); primusgfs (585, 19); nsf primusgfs certification (216, 26); primusgfs login (189, 9); primusgfs program (31, 12); primusgfs certification programs (29, 10)
+  FALTAN (orgánico): [('nsf', 216), ('login', 195), ('program', 60), ('fee', 43), ('annual', 32), ('application', 32)]
+
+### CU España - Plasticos - Search › RecyClass  · ARS 24,841 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificación RecyClass | RecyClass Para Plásticos | Auditoría RecyClass | Trazabilidad Reciclado | Solicita Certificación | Prepara Tu Auditoría | Equipo Auditor Local
+  DESC: Certifica contenido reciclado y trazabilidad en productos plásticos con Control Union. | Auditorías RecyClass para demostrar sostenibilidad y evitar greenwashing. | Solicita información y recibe orientación para iniciar tu certificación. | Habla con Control Union para definir alcance, tiempos y próx
+  LOW: [] | BEST: []
+  TÉRMINOS: recyclass (f, 24330); recyclass certification (f, 511)
+  FALTAN (pago): [] | tema: ['recyclass', 'plastico', 'reciclado']
+  ORGÁNICO: recyclass (1108, 6); certificación de reutilización de plásticos (830, 36); certificación recyclass (760, 7); certificación recyclass de contenido reciclado (567, 7); certificación de reciclabilidad recyclass (542, 8); certificación recyclass para plásticos (522, 8)
+  FALTAN (orgánico): [('contenido', 928), ('reutilizacion', 830), ('reciclabilidad', 542), ('reciclaje', 428), ('reutilizable', 384), ('laboratorio', 384)]
+
+### CU Portugal - Plasticos - Search › RecyClass  · ARS 23,790 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificação RecyClass | RecyClass Para Plásticos | Auditoria RecyClass | Rastreabilidade Plástica | Peça Informação | RecyClass Portugal | Equipo Auditor Local
+  DESC: Certifique conteúdo reciclado e rastreabilidade em produtos plásticos. | Auditorias RecyClass para demonstrar sustentabilidade e evitar greenwashing. | Peça informação e receba orientação para iniciar a certificação. | Fale com a Control Union para definir escopo, prazos e próximos passos.
+  LOW: [] | BEST: []
+  TÉRMINOS: recyclass (f, 14848); recyclass certification (f, 6549); recyclass audit tool (p, 2393)
+  FALTAN (pago): [('tool', 2393)] | tema: ['recyclass', 'plastico', 'reciclado']
+  ORGÁNICO: recyclass (421, 3); plástico reciclado certificado (234, 9); certificação de plásticos compostáveis (196, 14); residuos plástico industriais (41, 58); residuos plasticos industriais (36, 70); creditos de plastico (25, 4)
+  FALTAN (orgánico): [('compostavei', 196), ('residuo', 77), ('industriai', 77), ('credito', 25), ('logo', 8), ('academy', 3)]
+
+### CU Canada - GLOBALG.A.P. - Search › GLOBALG.A.P cert  · ARS 22,480 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: GLOBALG.A.P. Certification | GLOBALG.A.P. Audit | IFA Certification | Chain Of Custody | Farm Assurance Support | Don't Risk It, Get Certified | Food Safety Standards | Sustainable Production | Greenhouse Food Safety | Request Certification | Strengthen Traceability | Contact Our Experts | Market Access Support | Improve Farm Compliance | COC Certification
+  DESC: Support food safety, traceability and farm assurance certification needs. | Prepare for GLOBALG.A.P. audits with a practical certification partner. | Improve production practices and buyer confidence across operations. | Contact Control Union to discuss certification scope and next steps.
+  LOW: [] | BEST: []
+  TÉRMINOS: global gap (f, 15523); food safety consultant (p, 4499); global gap certification (f, 2458)
+  FALTAN (pago): [('consultant', 4499)] | tema: ['global', 'gap', 'globalg.a.p']
+  ORGÁNICO: control union global (2, 3); imc gap (2, 8); global cannabis partnership (1, 47); primus gap (1, 1); site:controlunion.com global organic latex standard gols official (1, 9)
+  FALTAN (orgánico): [('imc', 2), ('cannabi', 1), ('partnership', 1), ('primu', 1), ('site', 1), ('controlunion.com', 1)]
+
+### CU España - CAEs - Search › Verificación y Actuaciones CAE  · ARS 16,175 · fuerza ['POOR'] · 1 anuncio(s)
+  TÍTULOS: Certificado Ahorro Energético | Control Union | Control Union España | Verificación CAE Certificada | Organismo Acreditado por ENAC | Entidad Verificadora | Rigor Técnico en Cada Proyecto
+  DESC: Organismo verificador acreditado por ENAC. Verificamos actuaciones CAE | Convierta sus ahorros energéticos en valor certificado, con soporte técnico continuo.
+  LOW: [] | BEST: []
+  TÉRMINOS: certificados cae (f, 3647); gestión caes particulares (n, 3498); gestion de caes (n, 2962); gestionar cae coche electrico (p, 2419); caes para particulares (n, 2087); endesa cae (p, 1561)
+  FALTAN (pago): [('caes', 8548), ('particular', 5585), ('gestionar', 2419), ('coche', 2419), ('electrico', 2419), ('endesa', 1561)] | tema: ['cae', 'actuacion', 'verificacion']
+  ORGÁNICO: verificacion cae (239, 10); verificador cae (123, 13); cae verificacion (104, 11); verificacion de cae (103, 10); auditoría cae (40, 15); cae (25, 15)
+  FALTAN (orgánico): [('validacion', 35), ('espagne', 13), ('comprobar', 10), ('programa', 7), ('verificar', 6), ('gipuzkoa', 6)]
+
+### CU United States - Organic - USDA NOP - Search › SOE & Import Compliance  · ARS 15,818 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: CUC USA: SOE Experts | NOP Import Certificate Help | SOE Organic Compliance Experts | Fast Organic Import Certs | New to SOE? We Can Help | Organic Fraud Prevention Plans | SOE Compliance, Made Easy | Import Certificate Support | Organic Traceability Help | CUC USA: Organic Certification | Get SOE-Compliant, Fast | Avoid Shipment Delays | Organic Supply Chain Docs | SOE Rules Changed. We Adapted. 
+  DESC: CUC USA helps importers, exporters & brokers manage SOE compliance. | NOP Import Certificates, traceability & fraud-prevention plans, handled for you. | A certifier fluent in SOE, import certificates & organic trade documentation. | Don't let paperwork hold a shipment. Get organic-certified with Con
+  LOW: [] | BEST: []
+  TÉRMINOS: organic integrity learning center (p, 15818)
+  FALTAN (pago): [('integrity', 15818), ('learning', 15818), ('center', 15818)] | tema: ['organic', 'import', 'nop']
+  ORGÁNICO: control union organic certification (40, 36); organic content standard (32, 64); what are the best testing services for verifying organic and non-gmo claims? (4, 9); ocs organic (2, 38); site:controlunion.com global organic latex standard gols official (2, 9); site:controlunion.com gols global organic latex standard official (2, 2)
+  FALTAN (orgánico): [('content', 35), ('site', 5), ('controlunion.com', 5), ('global', 5), ('latex', 5), ('gols', 5)]
+
+### CU Portugal - Plasticos - Search › UNE 15343  · ARS 13,702 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificação UNE 15343 | Plásticos Reciclados | Auditoria EN 15343 | Cumprir EN 15343 | Peça Informação | Certificação EN 15343 | EN 15343 Portugal
+  DESC: Certifique processos de plástico reciclado com apoio local e alcance internacional. | A Control Union apoia a certificação UNE-EN 15343 de ponta a ponta. | Peça informação e receba orientação para iniciar a certificação. | Fale com a Control Union para definir escopo, prazos e próximos passos.
+  LOW: [] | BEST: []
+  TÉRMINOS: une en 15343 2008 (p, 4447); bso consulting (n, 4418); como reduzir a produção de resíduos (n, 2767); une en 15343 (f, 2070)
+  FALTAN (pago): [('2008', 4447), ('bso', 4418), ('consulting', 4418), ('reduzir', 2767), ('producao', 2767), ('residuo', 2767)] | tema: ['15343', 'une', 'plastico']
+  ORGÁNICO: en 15343 (45, 3); 15343 (12, 4); une-en 15343:2008 (6, 4); une 15343 (5, 2); en 15343 pdf (5, 4); iso 15343 (4, 8)
+  FALTAN (orgánico): [('2008', 10), ('pdf', 5), ('din', 2), ('2007', 2), ('22000', 1)]
+
+### CU Canada - Forestry - Search › PEFC  · ARS 13,438 · fuerza ['GOOD'] · 1 anuncio(s)
+  TÍTULOS: Forestry Certification | FSC Certification | PEFC Certification | Forest Chain Of Custody | Legal Sourcing Support | Biomass Certification | Timber Traceability | Wood Compliance | Request Certification | Forest Audit Support | Market Access Support | Sustainable Forestry | Wood Pellet Certification | Verification Services
+  DESC: Support forest product certification, traceability and compliance needs. | Prepare for FSC, PEFC, chain of custody or biomass certification. | Contact Control Union to discuss forestry certification requirements.
+  LOW: [] | BEST: []
+  TÉRMINOS: pefc certification (f, 11255); pefc (f, 2183)
+  FALTAN (pago): [] | tema: ['pefc', 'forest', 'chain']
+  ORGÁNICO: pefc (3, 68); pefc certification (1, 68); pefc certified (1, 77); programme for the endorsement of forest certification (1, 33); what is pefc (1, 42)
+  FALTAN (orgánico): [('programme', 1), ('endorsement', 1)]
+
+### PS Argentina - SuSe - Huella de agua - Search › Gestion agua  · ARS 12,976 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Huella Hidrica | Gestion Del Agua | Riesgo Hidrico | Agua En Industria | Consumo De Agua | Agua Y Sostenibilidad | Gestión de Riesgo Hídrico | Huella De Agua | Consultoria Peterson | Agua Agroindustrial | Medicion De Consumo | Diagnostico Hidrico | Gestion Hidrica | Agenda Una Reunion
+  DESC: Evalue huella de agua, consumo y riesgos hidricos en operaciones. | Testee demanda en sectores con alto consumo de agua y presion ESG. | Priorice acciones con datos claros para calidad y sostenibilidad. | Hable con Peterson para definir alcance y viabilidad del servicio.
+  LOW: [] | BEST: []
+  TÉRMINOS: planta de tratamiento de efluentes industriales (p, 4363); tratamiento de efluentes industriales argentina (p, 4311); tratamiento de aguas industriales (p, 4301)
+  FALTAN (pago): [('tratamiento', 12976), ('efluent', 8675), ('planta', 4363)] | tema: ['agua', 'industrial', 'industria']
+  ORGÁNICO: 
+  FALTAN (orgánico): []
+
+### CU Portugal - Biomasa - Search › SURE  · ARS 12,083 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificação SURE | SURE Para Biomassa | Auditoria SURE | Biomassa Sustentável | Peritos Em Bioenergia | SURE Portugal | Peça Informação
+  DESC: Auditorias SURE para biomassa sustentável com equipa local em Portugal. | Demonstre conformidade RED e rastreabilidade na sua cadeia de biomassa. | Fale com a Control Union para planear a sua auditoria SURE. | Fale com a Control Union para definir escopo, prazos e próximos passos.
+  LOW: [] | BEST: []
+  TÉRMINOS: certificado sur (f, 12083)
+  FALTAN (pago): [] | tema: ['sure', 'biomassa', 'sustentavel']
+  ORGÁNICO: sure (84, 10); sure madeira (60, 10); biomassa (14, 25); certificado sure (12, 3); sure sustainable resources (8, 5); biogás e biomassa (7, 20)
+  FALTAN (orgánico): [('madeira', 60), ('sustainable', 8), ('resourc', 8), ('bioga', 7), ('renovavel', 7), ('nao', 7)]
+
+### CU Portugal - Textile - Search › GRS  · ARS 11,324 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Certificação GRS | Auditoria GRS | Global Recycled Standard | Cadeia Têxtil Sustentável | Têxteis Reciclados | GRS Portugal | Peça Informação
+  DESC: Certificação GRS para conteúdo reciclado, rastreabilidade e cadeia têxtil. | Apoio a marcas, fabricantes e fornecedores têxteis em Portugal. | Peça informação e conheça os requisitos da certificação têxtil. | Fale com a Control Union para definir escopo, prazos e próximos passos.
+  LOW: [] | BEST: []
+  TÉRMINOS: ppwr (n, 2951); grs portugal (f, 2656); global recycled standard grs version 4.0 (p, 2538); grs certificate (f, 1827); grs (f, 1108); control union (s, 243)
+  FALTAN (pago): [('ppwr', 2951), ('version', 2538), ('4.0', 2538)] | tema: ['grs', 'global', 'recycled']
+  ORGÁNICO: grs (1383, 2); global recycled standard (101, 5); grs portugal (89, 2); certificado grs (71, 2); grs certificate (64, 4); grs certification (62, 4)
+  FALTAN (orgánico): [('organic', 62), ('gap', 55), ('textile', 52), ('sustainable', 35), ('tourism', 35), ('council', 35)]
+
+### PCU España - Competidores ISO 27001 - Search › Comparación  · ARS 10,752 · fuerza ['AVERAGE', 'AVERAGE'] · 2 anuncio(s)
+  TÍTULOS: Certificación ISO 27001 | Compara entidades | Entidad acreditada | Auditores en España | Solicita tu presupuesto | Cambio de entidad | Más de 100 años certificando | Presencia en más de 80 países | Más de 274 oficinas | Alcance acreditado | Habla con un auditor | Auditoría ISO 27001 | Certificamos ISO 27001 | Auditoría de certificación | Entidad acreditada | Equipo auditor en España | Presupuesto 
+  DESC: Auditamos y certificamos ISO 27001 con alcance acreditado en España. | Cuéntanos tu alcance y te enviamos una propuesta de auditoría. | Entidad de certificación con red propia en más de 80 países. | Equipo auditor local con respaldo de más de 274 oficinas y laboratorios. | Auditamos tu sistema de ge
+  LOW: [] | BEST: []
+  TÉRMINOS: bureau veritas iso 27001 (p, 5819); aenor iso 27001 (p, 4933)
+  FALTAN (pago): [('bureau', 5819), ('verita', 5819), ('aenor', 4933)] | tema: ['27001', 'aenor', 'sgs']
+  ORGÁNICO: certificación iso 27001 (59, 42); certificación iso 27001 para empresas (46, 53); certificaciones iso 27001 (36, 39); certificación iso 27001 en españa (18, 35); certificado iso 27001 (7, 32); certificacion iso 27001 (6, 43)
+  FALTAN (orgánico): [('certificadora', 6), ('certificada', 5), ('software', 4), ('registro', 4), ('cumplimiento', 3), ('agricultura', 2)]
+
+### PS Argentina - SuSe - ESG / Reportes - Search › Materialidad  · ARS 9,321 · fuerza ['AVERAGE'] · 1 anuncio(s)
+  TÍTULOS: Consultoria ESG | Estrategia ESG | Reportes ESG | Reporte GRI | Reporte CSRD | Materialidad ESG | Datos ESG | Finanzas Sostenibles | Gestion Sostenible | Consultoria Peterson | Plan ESG Empresa | Reporte Sostenibilidad | Impacto ESG | Agenda Una Reunion
+  DESC: Defina estrategia ESG, reportes y materialidad con soporte experto. | Ordene datos, indicadores y prioridades para sostenibilidad corporativa. | Prepare reportes GRI, CSRD o internos con una hoja de ruta clara. | Hable con Peterson para transformar objetivos ESG en acciones.
+  LOW: [] | BEST: []
+  TÉRMINOS: matriz de materialidad ejemplos (p, 4100); como hacer un analisis de materialidad (p, 2718); qué es la doble materialidad (p, 2503)
+  FALTAN (pago): [('matriz', 4100), ('ejemplo', 4100), ('hacer', 2718), ('analisi', 2718), ('doble', 2503)] | tema: ['materialidad', 'esg', 'doble']
+  ORGÁNICO: 
+  FALTAN (orgánico): []
+
+37 grupos con 8.000+ de gasto -> informe/datos_anuncios.json

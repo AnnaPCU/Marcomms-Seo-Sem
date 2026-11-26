@@ -1,0 +1,2899 @@
+{
+ "tarjetas": [
+  {
+   "clave": "CU:SEM:anuncio:cu-portugal-forestal:pefc",
+   "marca": "CU",
+   "campana": "CU Portugal - Forestal - Search",
+   "grupo": "PEFC",
+   "titulo": "CU Portugal - Forestal: crear el grupo «FSC», pausar la amplia «pefc certificação» (ARS 34.980) y sumar 13 negativas",
+   "detalle": "Las búsquedas de FSC (65 impresiones en el período) caen en el anuncio de PEFC y no hacen clic, aunque Control Union Portugal tiene página de FSC. La amplia «pefc certificação» se lleva el 38% del gasto y trae ayudas públicas, competidores y GRASP. Pausarla, crear el grupo «FSC» con 6 keywords y su anuncio, sumar negativas y ajustar el anuncio de PEFC.",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Portugal",
+    "campana": "CU Portugal - Forestal - Search",
+    "acciones": [
+     "pausa",
+     "negativas",
+     "estructura",
+     "keywords",
+     "anuncio"
+    ],
+    "resumen": "Que FSC tenga grupo, anuncio y página propios, y que PEFC deje de pagar búsquedas ajenas.",
+    "por_que": "1 sep – 20 oct 2026: 49 clics y ARS 90.990, sin conversiones; un solo grupo, «PEFC». La amplia «pefc certificação» se lleva 16 clics y ARS 34.980 (38%): en lo visible trae «grasp certificação» (ARS 3.407), «programa mais floresta reforço de capacidade de atuação» (ARS 2.596), «ecocert», «icnf apoios 2026», «2bforest». Entran 65 impresiones de FSC («certificação fsc» 17, «certificação fsc portugal» 5, «fsc certificação» 5) que ven el anuncio de PEFC y no hacen ningún clic. En orgánico (portugal.controlunion.com, histórico al 14 sep 2026) FSC tiene 2.566 impresiones repartidas en su página en portugués (1.356) y en inglés (948); PEFC, 1.254.",
+    "ya_hecho": "Nada de lo propuesto en septiembre: no hay grupo FSC, el anuncio de PEFC sigue con los mismos 7 títulos y la campaña solo tiene negativas de empleo, cursos y descargas.",
+    "pasos": [
+     {
+      "accion": "pausa",
+      "titulo": "Pausar la amplia «pefc certificação»",
+      "donde": "CU Portugal - Forestal - Search › grupo «PEFC» · keyword amplia",
+      "detalle": "El grupo queda con «certificação pefc» (frase y exacta), «pefc portugal» (frase y exacta) y las de cadeia de custódia y auditoria.",
+      "items": [
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "pefc certificação",
+        "concordancia": "amplia",
+        "destino": "Grupo «PEFC»",
+        "prioritario": true,
+        "motivo": "16 clics y ARS 34.980 (38% de la campaña). En los términos visibles trae «grasp certificação» (ARS 3.407), «programa mais floresta reforço de capacidade de atuação» (ARS 2.596), «ecocert», «icnf apoios 2026», «2bforest» y todas las búsquedas de FSC. Las de PEFC ya las cubren «certificação pefc» en frase (14 clics) y en exacta (11 clics)."
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 12 negativas de campaña y 1 de grupo",
+      "donde": "CU Portugal - Forestal - Search › toda la campaña (12) y grupo «PEFC» (1)",
+      "detalle": "Las de campaña sacan ayudas públicas, competidores, verificación de certificados y definiciones. La de grupo («fsc» en PEFC) se carga después del paso 3.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "grasp",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«grasp certificação»: 1 clic, ARS 3.407. GRASP es un módulo de GLOBALG.A.P., no forestal."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "mais floresta",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«programa mais floresta reforço de capacidade de atuação»: 1 clic, ARS 2.596. Es un programa de ayudas públicas."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "icnf",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«icnf apoios 2026»: 10 impresiones. Busca subsidios del Instituto da Conservação da Natureza e das Florestas."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "ecocert",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«ecocert» (11 impresiones) y «ecocert portugal» (2): buscan a otro organismo certificador."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "search",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«pefc org find certified» (1 clic, ARS 2.104), «pefc certificate search» (5), «pefc search» (4), «pefc public search» (2): verifican un certificado en la base de PEFC, no lo quieren obtener."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "find",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "Misma intención que «search»: «pefc org find certified» (ARS 2.104)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "o que é",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«pefc o que é» (10 impresiones en el período; en sep le costó ARS 6.112 por 1 clic), «certificação fsc o que é» (2): definición, no compra. La campaña no tiene ninguna negativa de definición."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "o que significa",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«o que significa o selo fsc» (2 impresiones): definición."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "2bforest",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«2bforest»: 8 impresiones. Es una empresa de gestión forestal."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "kiwa",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«sativa kiwa»: 3 impresiones; otros organismos certificadores."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "sativa",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«sativa kiwa»: organismo certificador portugués."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "bcsd",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«bcsd»: 4 impresiones; es el consejo empresarial para el desarrollo sostenible."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "fsc",
+        "concordancia": "amplia",
+        "destino": "Grupo «PEFC»",
+        "prioritario": true,
+        "motivo": "Para que las búsquedas de FSC (65 impresiones en el período, 0 clics con el anuncio de PEFC) vayan al grupo «FSC» del paso 3. Cargarla recién cuando el grupo «FSC» esté activo."
+       }
+      ]
+     },
+     {
+      "accion": "estructura",
+      "titulo": "Crear el grupo «FSC»",
+      "donde": "CU Portugal - Forestal - Search › grupo nuevo «FSC»",
+      "detalle": "Crear el grupo con URL final https://portugal.controlunion.com/programas-de-certificacao/fsc-forest-stewardship-council/, cargarle las 6 keywords y el anuncio de este paso.",
+      "items": [
+       {
+        "accion": "crear",
+        "tipo": "grupo",
+        "texto": "FSC",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "URL final: https://portugal.controlunion.com/programas-de-certificacao/fsc-forest-stewardship-council/ · Control Union Portugal certifica FSC (decidido en septiembre: página de programa propia)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificação fsc",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC»",
+        "prioritario": true,
+        "motivo": "17 impresiones en el período, todas con el anuncio de PEFC y sin clic. Orgánico: 38 impresiones en posición 41: el sitio no la cubre."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificação fsc",
+        "concordancia": "frase",
+        "destino": "Grupo «FSC»",
+        "prioritario": true,
+        "motivo": "Cubre «certificação fsc portugal» (5), «certificação florestal fsc» (2) y «certificacao fsc» sin tilde."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "fsc portugal",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC»",
+        "prioritario": true,
+        "motivo": "4 impresiones pagas; orgánico 60 impresiones en posición 10,9."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "fsc certificação",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC»",
+        "opcional": true,
+        "motivo": "5 impresiones en el período con el anuncio de PEFC."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "cadeia de custódia fsc",
+        "concordancia": "frase",
+        "destino": "Grupo «FSC»",
+        "opcional": true,
+        "motivo": "«fsc cadeia de custódia» (2) y «norma fsc cadeia de custódia» (2). Mismo armado que el grupo PEFC, que tiene «cadeia de custódia pefc»."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificado fsc",
+        "concordancia": "exacta",
+        "destino": "Grupo «FSC»",
+        "opcional": true,
+        "motivo": "«certificado fsc» (1) y «certificações fsc» (1); orgánico «fsc certificate» 58 impresiones en posición 8,4."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificação FSC",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "prioritario": true,
+        "motivo": "Repite la búsqueda principal («certificação fsc», 17 impresiones)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificação FSC em Portugal",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "prioritario": true,
+        "motivo": "Norma y país: «certificação fsc portugal», «fsc portugal»."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Cadeia de Custódia FSC",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "prioritario": true,
+        "motivo": "El certificado que pide la industria de madera y papel."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Certificamos FSC de cadeia de custódia para madeira, papel e produtos florestais.",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "prioritario": true,
+        "motivo": "Norma, verbo de Control Union y para quién es."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Diga-nos o seu produto e a sua cadeia: indicamos âmbito, requisitos e prazos.",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "prioritario": true,
+        "motivo": "Pedido concreto, en portugués europeo («âmbito», no «escopo»)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificado FSC",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "«certificado fsc»; orgánico «fsc certificate» 58 impresiones."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Auditoria FSC",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "Variante con «auditoria»."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificamos FSC e PEFC",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "El verbo de Control Union; «fsc pefc», «fsc e pefc», «fsc ou pefc» suman 11 impresiones."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Organismo de Certificação",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "Dice qué es Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union Portugal",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "Marca."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Peça a Sua Auditoria FSC",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "Llamado a la acción con la norma."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Mais de 100 anos a certificar. Presença em mais de 80 países.",
+        "destino": "Anuncio nuevo · grupo «FSC»",
+        "opcional": true,
+        "motivo": "Respaldo."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Ajustar el anuncio de PEFC",
+      "donde": "CU Portugal - Forestal - Search › grupo «PEFC» · anuncio id 817970221373",
+      "detalle": "Tiene 7 títulos (lugar para 8 más) y 4 descripciones (lleno: la nueva reemplaza a una).",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificado PEFC",
+        "destino": "Anuncio id 817970221373 · grupo «PEFC»",
+        "prioritario": true,
+        "motivo": "«pefc certificados» (4 clics, ARS 5.894), «certificados pefc» (1 clic, ARS 2.083) y «certificado pefc» (6 impresiones): ningún título dice «certificado»."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Certificação PEFC em Portugal",
+        "destino": "Anuncio id 817970221373 · grupo «PEFC»",
+        "reemplaza": "Florestal Sustentável",
+        "prioritario": true,
+        "motivo": "«pefc portugal»: 8 clics y ARS 13.464, el segundo término más caro. Hoy solo lo dice «PEFC Portugal»; este lo junta con «certificação»."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Diga-nos o seu produto e a sua cadeia: indicamos âmbito, requisitos e prazos.",
+        "destino": "Anuncio id 817970221373 · grupo «PEFC»",
+        "reemplaza": "Fale com a Control Union para definir escopo, prazos e próximos passos.",
+        "prioritario": true,
+        "motivo": "La actual usa «escopo» (portugués de Brasil); en Portugal se dice «âmbito»."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Peça a Sua Auditoria PEFC",
+        "destino": "Anuncio id 817970221373 · grupo «PEFC»",
+        "reemplaza": "Peça Informação",
+        "opcional": true,
+        "motivo": "Llamado a la acción con la norma, en lugar de uno genérico."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Organismo de Certificação",
+        "destino": "Anuncio id 817970221373 · grupo «PEFC»",
+        "opcional": true,
+        "motivo": "Dice qué es Control Union."
+       }
+      ]
+     }
+    ],
+    "keywords": [
+     {
+      "texto": "certificação fsc",
+      "concordancia": "exacta",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "17 impresiones en el período, todas con el anuncio de PEFC y sin clic. Orgánico: 38 impresiones en posición 41: el sitio no la cubre."
+     },
+     {
+      "texto": "certificação fsc",
+      "concordancia": "frase",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "Cubre «certificação fsc portugal» (5), «certificação florestal fsc» (2) y «certificacao fsc» sin tilde."
+     },
+     {
+      "texto": "fsc portugal",
+      "concordancia": "exacta",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "4 impresiones pagas; orgánico 60 impresiones en posición 10,9."
+     },
+     {
+      "texto": "fsc certificação",
+      "concordancia": "exacta",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "5 impresiones en el período con el anuncio de PEFC."
+     },
+     {
+      "texto": "cadeia de custódia fsc",
+      "concordancia": "frase",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "«fsc cadeia de custódia» (2) y «norma fsc cadeia de custódia» (2). Mismo armado que el grupo PEFC, que tiene «cadeia de custódia pefc»."
+     },
+     {
+      "texto": "certificado fsc",
+      "concordancia": "exacta",
+      "grupo": "FSC",
+      "accion": "agregar",
+      "motivo": "«certificado fsc» (1) y «certificações fsc» (1); orgánico «fsc certificate» 58 impresiones en posición 8,4."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "grasp",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«grasp certificação»: 1 clic, ARS 3.407. GRASP es un módulo de GLOBALG.A.P., no forestal."
+     },
+     {
+      "texto": "mais floresta",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«programa mais floresta reforço de capacidade de atuação»: 1 clic, ARS 2.596. Es un programa de ayudas públicas."
+     },
+     {
+      "texto": "icnf",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«icnf apoios 2026»: 10 impresiones. Busca subsidios del Instituto da Conservação da Natureza e das Florestas."
+     },
+     {
+      "texto": "ecocert",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«ecocert» (11 impresiones) y «ecocert portugal» (2): buscan a otro organismo certificador."
+     },
+     {
+      "texto": "search",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«pefc org find certified» (1 clic, ARS 2.104), «pefc certificate search» (5), «pefc search» (4), «pefc public search» (2): verifican un certificado en la base de PEFC, no lo quieren obtener."
+     },
+     {
+      "texto": "find",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Misma intención que «search»: «pefc org find certified» (ARS 2.104)."
+     },
+     {
+      "texto": "o que é",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«pefc o que é» (10 impresiones en el período; en sep le costó ARS 6.112 por 1 clic), «certificação fsc o que é» (2): definición, no compra. La campaña no tiene ninguna negativa de definición."
+     },
+     {
+      "texto": "o que significa",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«o que significa o selo fsc» (2 impresiones): definición."
+     },
+     {
+      "texto": "2bforest",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«2bforest»: 8 impresiones. Es una empresa de gestión forestal."
+     },
+     {
+      "texto": "kiwa",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«sativa kiwa»: 3 impresiones; otros organismos certificadores."
+     },
+     {
+      "texto": "sativa",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«sativa kiwa»: organismo certificador portugués."
+     },
+     {
+      "texto": "bcsd",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«bcsd»: 4 impresiones; es el consejo empresarial para el desarrollo sostenible."
+     },
+     {
+      "texto": "fsc",
+      "concordancia": "amplia",
+      "nivel": "grupo",
+      "grupo": "PEFC",
+      "motivo": "Para que las búsquedas de FSC (65 impresiones en el período, 0 clics con el anuncio de PEFC) vayan al grupo «FSC» del paso 3. Cargarla recién cuando el grupo «FSC» esté activo."
+     }
+    ],
+    "negativas_decision": "Sí: 12 de campaña (ayudas públicas, competidores, verificación de certificados, definiciones) y «fsc» en el grupo PEFC para mandar FSC a su grupo. El grupo «FSC» no necesita negativas propias: hereda las de campaña.",
+    "anuncios": [
+     {
+      "grupo": "PEFC",
+      "anuncio_id": "817970221373",
+      "anuncio_desc": "fuerza Promedio, 49 clics y ARS 90.990 del 1 sep – 20 oct 2026",
+      "accion": "Ajustar",
+      "motivo": "El anuncio no dice «certificado» ni junta PEFC con Portugal, que son las dos formas más caras en que se busca; y una descripción usa portugués de Brasil.",
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/pefc/",
+      "gasto_ars": 90990,
+      "clics": 49,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificação PEFC",
+       "Auditoria PEFC",
+       "Cadeia Custódia PEFC",
+       "Certificação Florestal",
+       "Florestal Sustentável",
+       "PEFC Portugal",
+       "Peça Informação"
+      ],
+      "descripciones_hoy": [
+       "Certificação PEFC de cadeia de custódia para produtos florestais.",
+       "Demonstre origem responsável, rastreabilidade e conformidade florestal.",
+       "Peça informação para iniciar o processo de certificação PEFC.",
+       "Fale com a Control Union para definir escopo, prazos e próximos passos."
+      ],
+      "quitar": [
+       {
+        "texto": "Florestal Sustentável",
+        "motivo": "Genérico: no dice qué se certifica."
+       },
+       {
+        "texto": "Fale com a Control Union para definir escopo, prazos e próximos passos.",
+        "motivo": "«Escopo» es portugués de Brasil."
+       },
+       {
+        "texto": "Peça Informação",
+        "motivo": "Genérico."
+       }
+      ],
+      "titulos_propuestos": [
+       {
+        "texto": "Certificado PEFC",
+        "motivo": "«pefc certificados» (4 clics, ARS 5.894), «certificados pefc» (1 clic, ARS 2.083) y «certificado pefc» (6 impresiones): ningún título dice «certificado».",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificação PEFC em Portugal",
+        "motivo": "«pefc portugal»: 8 clics y ARS 13.464, el segundo término más caro. Hoy solo lo dice «PEFC Portugal»; este lo junta con «certificação».",
+        "prioritario": true,
+        "reemplaza": "Florestal Sustentável"
+       },
+       {
+        "texto": "Peça a Sua Auditoria PEFC",
+        "motivo": "Llamado a la acción con la norma, en lugar de uno genérico.",
+        "prioritario": false,
+        "reemplaza": "Peça Informação"
+       },
+       {
+        "texto": "Organismo de Certificação",
+        "motivo": "Dice qué es Control Union.",
+        "prioritario": false
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Diga-nos o seu produto e a sua cadeia: indicamos âmbito, requisitos e prazos.",
+        "motivo": "La actual usa «escopo» (portugués de Brasil); en Portugal se dice «âmbito».",
+        "prioritario": true,
+        "reemplaza": "Fale com a Control Union para definir escopo, prazos e próximos passos."
+       }
+      ],
+      "terminos": [
+       {
+        "termino": "pefc",
+        "relacion": "fuerte",
+        "coste": 21990,
+        "clics": 11
+       },
+       {
+        "termino": "pefc portugal",
+        "relacion": "fuerte",
+        "coste": 13464,
+        "clics": 8
+       },
+       {
+        "termino": "pefc certificados",
+        "relacion": "fuerte",
+        "coste": 5894,
+        "clics": 4
+       },
+       {
+        "termino": "grasp certificação",
+        "relacion": "nula",
+        "coste": 3407,
+        "clics": 1
+       },
+       {
+        "termino": "certificação pefc",
+        "relacion": "fuerte",
+        "coste": 2838,
+        "clics": 2
+       },
+       {
+        "termino": "programa mais floresta reforço de capacidade de atuação",
+        "relacion": "nula",
+        "coste": 2596,
+        "clics": 1
+       },
+       {
+        "termino": "pefc org find certified",
+        "relacion": "parcial",
+        "coste": 2104,
+        "clics": 1
+       },
+       {
+        "termino": "certificação fsc",
+        "relacion": "parcial",
+        "coste": 0,
+        "clics": 0
+       }
+      ]
+     },
+     {
+      "grupo": "FSC",
+      "accion": "Anuncio nuevo",
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/fsc-forest-stewardship-council/",
+      "motivo": "El grupo nuevo necesita su anuncio: hoy quien busca FSC ve un anuncio de PEFC (65 impresiones, 0 clics).",
+      "titulos_propuestos": [
+       {
+        "texto": "Certificação FSC",
+        "motivo": "Repite la búsqueda principal («certificação fsc», 17 impresiones).",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificação FSC em Portugal",
+        "motivo": "Norma y país: «certificação fsc portugal», «fsc portugal».",
+        "prioritario": true
+       },
+       {
+        "texto": "Cadeia de Custódia FSC",
+        "motivo": "El certificado que pide la industria de madera y papel.",
+        "prioritario": true
+       },
+       {
+        "texto": "Certificado FSC",
+        "motivo": "«certificado fsc»; orgánico «fsc certificate» 58 impresiones.",
+        "prioritario": false
+       },
+       {
+        "texto": "Auditoria FSC",
+        "motivo": "Variante con «auditoria».",
+        "prioritario": false
+       },
+       {
+        "texto": "Certificamos FSC e PEFC",
+        "motivo": "El verbo de Control Union; «fsc pefc», «fsc e pefc», «fsc ou pefc» suman 11 impresiones.",
+        "prioritario": false
+       },
+       {
+        "texto": "Organismo de Certificação",
+        "motivo": "Dice qué es Control Union.",
+        "prioritario": false
+       },
+       {
+        "texto": "Control Union Portugal",
+        "motivo": "Marca.",
+        "prioritario": false
+       },
+       {
+        "texto": "Peça a Sua Auditoria FSC",
+        "motivo": "Llamado a la acción con la norma.",
+        "prioritario": false
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos FSC de cadeia de custódia para madeira, papel e produtos florestais.",
+        "motivo": "Norma, verbo de Control Union y para quién es.",
+        "prioritario": true
+       },
+       {
+        "texto": "Diga-nos o seu produto e a sua cadeia: indicamos âmbito, requisitos e prazos.",
+        "motivo": "Pedido concreto, en portugués europeo («âmbito», no «escopo»).",
+        "prioritario": true
+       },
+       {
+        "texto": "Mais de 100 anos a certificar. Presença em mais de 80 países.",
+        "motivo": "Respaldo.",
+        "prioritario": false
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "fsc",
+      "impr": 427,
+      "pos": 16.9
+     },
+     {
+      "query": "pefc",
+      "impr": 622,
+      "pos": 16.2
+     },
+     {
+      "query": "certificação pefc",
+      "impr": 138,
+      "pos": 34.5
+     },
+     {
+      "query": "pefc search",
+      "impr": 117,
+      "pos": 9.1
+     },
+     {
+      "query": "fsc portugal",
+      "impr": 60,
+      "pos": 10.9
+     },
+     {
+      "query": "fsc certificate",
+      "impr": 58,
+      "pos": 8.4
+     },
+     {
+      "query": "pefc portugal",
+      "impr": 56,
+      "pos": 8.2
+     },
+     {
+      "query": "certificação fsc",
+      "impr": 38,
+      "pos": 40.9
+     }
+    ],
+    "organico_desde": "Portugal",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEM:plan:portugal:fsc-entra-por-pefc-gmp-vacia-biomasa-desperto",
+   "marca": "CU",
+   "campana": "CU Portugal - GMP+ - SEARCH",
+   "grupo": "Certificación",
+   "titulo": "CU Portugal - GMP+: 6 impresiones en 50 días · recuperar las keywords que convertían, sumar [gmp+] y «gmp fsa», corregir el anuncio",
+   "detalle": "La campaña no publica: 6 impresiones y 0 clics del 1 sep al 20 oct, con 14 de sus 24 keywords en «pocas búsquedas» y las otras con nivel de calidad 3 a 5. La versión anterior (cuenta en euros) sí funcionaba: 145 clics y 2 conversiones en marzo. Recuperar esas keywords, sumar las formas en que se busca en orgánico ([gmp+], «gmp fsa») y corregir el anuncio, que tiene un título en español y vocabulario de acompañamiento. Las partes de FSC y Biomasa de la tarjeta de septiembre pasan a las tarjetas de «CU Portugal - Forestal - Search» y «CU Portugal - Biomasa - Search».",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Portugal",
+    "campana": "CU Portugal - GMP+ - SEARCH",
+    "acciones": [
+     "keywords",
+     "anuncio",
+     "revisar"
+    ],
+    "resumen": "Que la campaña de GMP+ vuelva a publicar con las palabras que la gente usa.",
+    "por_que": "1 sep – 20 oct 2026: 6 impresiones, 0 clics, ARS 0, con presupuesto de ARS 3.402/día. En esta cuenta nunca gastó (jul 2, sep 4, oct 1 impresiones). 24 keywords activas: 14 en «pocas búsquedas» (todo el grupo «Renovacion / Transferencia» y las de «certificadora», «organismo certificador», «certification body») y 10 elegibles con nivel de calidad 3 a 5. La versión anterior en la cuenta en euros (id 23556159815, pausada) hizo 343 clics feb–jul 2026 y 3 conversiones (2 en marzo, 1 en abril). En orgánico (portugal.controlunion.com, histórico al 14 sep 2026) se busca «gmp+» (184, posición 8,6) y «gmp fsa» (183), formas que la campaña no tiene. Los 3 anuncios son el mismo, con «Certificación GMP+» en español y «Suporte técnico completo»; dos tienen fuerza Mala.",
+    "ya_hecho": "Nada: la campaña sigue con las mismas 24 keywords (sin [gmp+] ni [gmp plus], propuestas en septiembre) y los mismos anuncios.",
+    "pasos": [
+     {
+      "accion": "revisar",
+      "titulo": "Recuperar las keywords de la versión anterior",
+      "donde": "CU Portugal - GMP+ - SEARCH (cuenta anterior en euros, id 23556159815)",
+      "detalle": "Es la fuente más concreta de qué funcionaba: 3 conversiones entre marzo y abril.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Qué keywords tenía la versión anterior de la campaña?",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "La «CU Portugal - GMP+ - SEARCH» de la cuenta anterior (en euros, id 23556159815, pausada) hizo 343 clics entre feb y jul 2026, con 145 clics y 2 conversiones en marzo y 1 conversión en abril: es la única versión de GMP+ que convirtió. Abrirla en Google Ads, exportar las keywords con clics y cargar acá las que sean de GMP+ (no de GMP farmacéutica). Si no se puede abrir, seguir con el paso 2."
+       }
+      ]
+     },
+     {
+      "accion": "keywords",
+      "titulo": "Sumar 5 keywords con las formas que se buscan",
+      "donde": "CU Portugal - GMP+ - SEARCH › grupos «Certificación» y «Feed Safety»",
+      "detalle": "Las dos primeras son las que tienen más demanda orgánica; las otras tres, opcionales.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "gmp+",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación»",
+        "prioritario": true,
+        "motivo": "Orgánico: 184 impresiones en posición 8,6, la búsqueda de GMP+ más frecuente del sitio. Después de cargarla, verificar que quede guardada como «gmp+»: si Google Ads la guarda como «gmp», pausarla (sin el «+» es la GMP farmacéutica)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "gmp fsa",
+        "concordancia": "frase",
+        "destino": "Grupo «Feed Safety»",
+        "prioritario": true,
+        "motivo": "Orgánico: «gmp fsa» 183, «gmp fsa 2020» 39 y «gmp fsa assured» 26 impresiones. El grupo solo tiene la variante con «+» («gmp+ fsa», nivel de calidad 3), que tuvo 1 impresión."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "gmp feed",
+        "concordancia": "frase",
+        "destino": "Grupo «Feed Safety»",
+        "opcional": true,
+        "motivo": "Orgánico: «gmp feed certification scheme» 64, «gmp feed safety assurance module 2020» 28 y «gmp feed» 24 impresiones."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "gmp plus",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación»",
+        "opcional": true,
+        "motivo": "Propuesta de septiembre; orgánico «gmp plus certification» 15 impresiones."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "certificado gmp",
+        "concordancia": "exacta",
+        "destino": "Grupo «Certificación»",
+        "opcional": true,
+        "motivo": "Orgánico: 27 impresiones en posición 5,8. Sin «+» puede traer GMP farmacéutica: revisar los términos a los 14 días y pausarla si aparecen medicamentos o cosmética."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Corregir el anuncio (los 3 grupos tienen el mismo)",
+      "donde": "CU Portugal - GMP+ - SEARCH › grupos «Certificación» (id 817970220935), «Feed Safety» (id 817970220938) y «Renovacion / Transferencia» (id 817970220941)",
+      "detalle": "Los tres anuncios tienen exactamente los mismos 9 títulos y 2 descripciones: aplicar los mismos cambios en los tres ids.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Certificação GMP+",
+        "destino": "Anuncio id 817970220935 · grupo «Certificación»",
+        "reemplaza": "Certificación GMP+",
+        "prioritario": true,
+        "motivo": "El título actual está en español («Certificación»): error en un anuncio para Portugal."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Organismo de Certificação",
+        "destino": "Anuncio id 817970220935 · grupo «Certificación»",
+        "reemplaza": "Suporte técnico completo",
+        "prioritario": true,
+        "motivo": "«Suporte técnico» es vocabulario de quien acompaña, no de un organismo certificador."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos GMP+ FSA para produção, comércio e transporte de rações.",
+        "destino": "Anuncio id 817970220935 · grupo «Certificación»",
+        "reemplaza": "Certificação GMP+ com equipa técnica experiente. Proposta rápida e suporte completo.",
+        "prioritario": true,
+        "motivo": "Saca «suporte completo» y nombra el módulo (FSA) que más se busca («gmp fsa», 183 impresiones orgánicas)."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Certificamos GMP+ FSA",
+        "destino": "Anuncio id 817970220935 · grupo «Certificación»",
+        "reemplaza": "Equipa técnica especializada",
+        "opcional": true,
+        "motivo": "Verbo de Control Union y el módulo."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Peça a Sua Auditoria GMP+",
+        "destino": "Anuncio id 817970220935 · grupo «Certificación»",
+        "reemplaza": "Agende uma chamada",
+        "opcional": true,
+        "motivo": "Llamado a la acción con la norma."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Transferência de GMP+",
+        "destino": "Anuncio id 817970220935 · grupo «Certificación»",
+        "reemplaza": "Transfira o GMP+ sem dor",
+        "opcional": true,
+        "motivo": "Dice lo mismo sin «sem dor», que suena informal para un organismo certificador."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Certificado GMP+",
+        "destino": "Anuncio id 817970220935 · grupo «Certificación»",
+        "opcional": true,
+        "motivo": "Orgánico: «certificado gmp» 27 impresiones en posición 5,8."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "descripcion",
+        "texto": "Mais de 100 anos a certificar. Presença em mais de 80 países.",
+        "destino": "Anuncio id 817970220935 · grupo «Certificación»",
+        "opcional": true,
+        "motivo": "Respaldo; el anuncio tiene solo 2 descripciones (fuerza Mala)."
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "A los 30 días, decidir si sigue",
+      "donde": "CU Portugal - GMP+ - SEARCH › la campaña",
+      "detalle": "Con los pasos 1 a 3 hechos.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Llegó a 50 impresiones en 30 días?",
+        "destino": "La campaña",
+        "opcional": true,
+        "motivo": "Sí → seguir y revisar términos. No → pausar la campaña: el presupuesto de ARS 3.402/día está reservado y no se usa (1 sep – 20 oct: 6 impresiones, 0 clics)."
+       }
+      ]
+     }
+    ],
+    "keywords": [
+     {
+      "texto": "gmp+",
+      "concordancia": "exacta",
+      "grupo": "Certificación",
+      "accion": "agregar",
+      "motivo": "Orgánico: 184 impresiones en posición 8,6, la búsqueda de GMP+ más frecuente del sitio. Después de cargarla, verificar que quede guardada como «gmp+»: si Google Ads la guarda como «gmp», pausarla (sin el «+» es la GMP farmacéutica)."
+     },
+     {
+      "texto": "gmp fsa",
+      "concordancia": "frase",
+      "grupo": "Feed Safety",
+      "accion": "agregar",
+      "motivo": "Orgánico: «gmp fsa» 183, «gmp fsa 2020» 39 y «gmp fsa assured» 26 impresiones. El grupo solo tiene la variante con «+» («gmp+ fsa», nivel de calidad 3), que tuvo 1 impresión."
+     },
+     {
+      "texto": "gmp feed",
+      "concordancia": "frase",
+      "grupo": "Feed Safety",
+      "accion": "agregar",
+      "motivo": "Orgánico: «gmp feed certification scheme» 64, «gmp feed safety assurance module 2020» 28 y «gmp feed» 24 impresiones."
+     },
+     {
+      "texto": "gmp plus",
+      "concordancia": "exacta",
+      "grupo": "Certificación",
+      "accion": "agregar",
+      "motivo": "Propuesta de septiembre; orgánico «gmp plus certification» 15 impresiones."
+     },
+     {
+      "texto": "certificado gmp",
+      "concordancia": "exacta",
+      "grupo": "Certificación",
+      "accion": "agregar",
+      "motivo": "Orgánico: 27 impresiones en posición 5,8. Sin «+» puede traer GMP farmacéutica: revisar los términos a los 14 días y pausarla si aparecen medicamentos o cosmética."
+     }
+    ],
+    "negativas_decision": "No por ahora: con 6 impresiones no hay términos que negativizar. Las negativas actuales (gratis, curso, pdf, o que é, definição y otras) están bien. Si [certificado gmp] trae GMP farmacéutica, sumar las palabras que aparezcan.",
+    "anuncios": [
+     {
+      "grupo": "Certificación",
+      "anuncio_id": "817970220935",
+      "anuncio_desc": "fuerza Mala, 0 clics del 1 sep – 20 oct 2026 (4 impresiones)",
+      "accion": "Ajustar",
+      "motivo": "Título en español en un anuncio para Portugal, vocabulario de acompañamiento («suporte», «equipa técnica especializada») y solo 2 descripciones.",
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/gmp/",
+      "gasto_ars": 0,
+      "clics": 0,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificación GMP+",
+       "Auditoria GMP+",
+       "GMP+ para Feed Safety",
+       "Renove o seu GMP+ hoje",
+       "Transfira o GMP+ sem dor",
+       "Equipa técnica especializada",
+       "Especialistas em GMP+",
+       "Agende uma chamada",
+       "Suporte técnico completo"
+      ],
+      "descripciones_hoy": [
+       "Certificação GMP+ com equipa técnica experiente. Proposta rápida e suporte completo.",
+       "Renovação ou transferência GMP+ sem fricção. Fale connosco e avançamos já."
+      ],
+      "quitar": [
+       {
+        "texto": "Certificación GMP+",
+        "motivo": "Está en español."
+       },
+       {
+        "texto": "Suporte técnico completo",
+        "motivo": "«Suporte»: vocabulario de acompañamiento."
+       },
+       {
+        "texto": "Certificação GMP+ com equipa técnica experiente. Proposta rápida e suporte completo.",
+        "motivo": "«Suporte completo»: vocabulario de acompañamiento."
+       },
+       {
+        "texto": "Equipa técnica especializada",
+        "motivo": "Genérico."
+       },
+       {
+        "texto": "Agende uma chamada",
+        "motivo": "Genérico."
+       },
+       {
+        "texto": "Transfira o GMP+ sem dor",
+        "motivo": "Informal."
+       }
+      ],
+      "titulos_propuestos": [
+       {
+        "texto": "Certificação GMP+",
+        "motivo": "El título actual está en español («Certificación»): error en un anuncio para Portugal.",
+        "prioritario": true,
+        "reemplaza": "Certificación GMP+"
+       },
+       {
+        "texto": "Organismo de Certificação",
+        "motivo": "«Suporte técnico» es vocabulario de quien acompaña, no de un organismo certificador.",
+        "prioritario": true,
+        "reemplaza": "Suporte técnico completo"
+       },
+       {
+        "texto": "Certificamos GMP+ FSA",
+        "motivo": "Verbo de Control Union y el módulo.",
+        "prioritario": false,
+        "reemplaza": "Equipa técnica especializada"
+       },
+       {
+        "texto": "Peça a Sua Auditoria GMP+",
+        "motivo": "Llamado a la acción con la norma.",
+        "prioritario": false,
+        "reemplaza": "Agende uma chamada"
+       },
+       {
+        "texto": "Transferência de GMP+",
+        "motivo": "Dice lo mismo sin «sem dor», que suena informal para un organismo certificador.",
+        "prioritario": false,
+        "reemplaza": "Transfira o GMP+ sem dor"
+       },
+       {
+        "texto": "Certificado GMP+",
+        "motivo": "Orgánico: «certificado gmp» 27 impresiones en posición 5,8.",
+        "prioritario": false
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos GMP+ FSA para produção, comércio e transporte de rações.",
+        "motivo": "Saca «suporte completo» y nombra el módulo (FSA) que más se busca («gmp fsa», 183 impresiones orgánicas).",
+        "prioritario": true,
+        "reemplaza": "Certificação GMP+ com equipa técnica experiente. Proposta rápida e suporte completo."
+       },
+       {
+        "texto": "Mais de 100 anos a certificar. Presença em mais de 80 países.",
+        "motivo": "Respaldo; el anuncio tiene solo 2 descripciones (fuerza Mala).",
+        "prioritario": false
+       }
+      ],
+      "terminos": [
+       {
+        "termino": "certificação gmp+",
+        "relacion": "fuerte",
+        "coste": 0,
+        "clics": 0
+       },
+       {
+        "termino": "gmp+ fsa",
+        "relacion": "fuerte",
+        "coste": 0,
+        "clics": 0
+       }
+      ],
+      "nota": "Los anuncios id 817970220938 (Feed Safety) e id 817970220941 (Renovacion / Transferencia) tienen los mismos textos: aplicar los mismos cambios."
+     }
+    ],
+    "organico": [
+     {
+      "query": "gmp+",
+      "impr": 184,
+      "pos": 8.6
+     },
+     {
+      "query": "gmp fsa",
+      "impr": 183,
+      "pos": 57.2
+     },
+     {
+      "query": "gmp+ 2020",
+      "impr": 68,
+      "pos": 14.8
+     },
+     {
+      "query": "gmp feed certification scheme",
+      "impr": 64,
+      "pos": 21.4
+     },
+     {
+      "query": "certificação gmp",
+      "impr": 57,
+      "pos": 6.3
+     },
+     {
+      "query": "gmp fsa 2020",
+      "impr": 39,
+      "pos": 8.0
+     },
+     {
+      "query": "certificado gmp",
+      "impr": 27,
+      "pos": 5.8
+     },
+     {
+      "query": "certificação gmp+",
+      "impr": 15,
+      "pos": 4.8
+     }
+    ],
+    "organico_desde": "Portugal",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026 (estructura); 18 oct 2026 (histórico mensual de la cuenta anterior)"
+   }
+  },
+  {
+   "clave": "CU:SEM:anuncio:cu-portugal-biomasa:sure",
+   "marca": "CU",
+   "campana": "CU Portugal - Biomasa - Search",
+   "grupo": "SURE",
+   "titulo": "CU Portugal - Biomasa: ajustar el anuncio de SURE para que diga «certificado» y «madeira» (los términos visibles ya son todos de SURE)",
+   "detalle": "La campaña gasta ARS 31.368 en 13 clics y los 5 términos visibles son de SURE: no hacen falta negativas. El anuncio no dice «certificado» (lo que más gasta) ni «madeira» (lo que más se busca en orgánico), tiene un título de «peritos» y una descripción con «escopo». Reemplazar 3 textos y sumar 3 títulos.",
+   "prioridad": "media",
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Portugal",
+    "campana": "CU Portugal - Biomasa - Search",
+    "acciones": [
+     "anuncio"
+    ],
+    "resumen": "Que el anuncio de SURE repita las palabras con que se busca.",
+    "por_que": "1 sep – 20 oct 2026: 13 clics y ARS 31.368, sin conversiones (ARS 627/día con presupuesto de ARS 2.268). Términos visibles: 5, todos de SURE; «certificado sur» se lleva 3 clics y ARS 12.083. En orgánico (portugal.controlunion.com, histórico al 14 sep 2026): «sure» 101 impresiones, «sure madeira» 60, «certificado sure» 13 en posición 2,9.",
+    "ya_hecho": "Revisión de términos pedida en septiembre: hecha en esta tarjeta, los 5 son de SURE y no hay negativas que sumar. El anuncio sigue igual que en septiembre.",
+    "pasos": [
+     {
+      "accion": "anuncio",
+      "titulo": "Ajustar el anuncio de SURE",
+      "donde": "CU Portugal - Biomasa - Search › grupo «SURE» · anuncio id 817970221376",
+      "detalle": "Tiene 7 títulos (lugar para 8 más) y 4 descripciones (lleno: la nueva reemplaza a la de «escopo»).",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Certificado SURE",
+        "destino": "Anuncio id 817970221376 · grupo «SURE»",
+        "reemplaza": "Peritos Em Bioenergia",
+        "prioritario": true,
+        "motivo": "«certificado sur» (3 clics, ARS 12.083: el 73% del gasto visible) y «certificado sure» (1 clic). Orgánico «certificado sure»: posición 2,9."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "SURE para Biomassa de Madeira",
+        "destino": "Anuncio id 817970221376 · grupo «SURE»",
+        "prioritario": true,
+        "motivo": "Orgánico: «sure madeira» 60 impresiones en posición 9,8; ningún título dice «madeira»."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Certificamos SURE para biomassa sólida e madeira, com rastreabilidade na cadeia.",
+        "destino": "Anuncio id 817970221376 · grupo «SURE»",
+        "reemplaza": "Fale com a Control Union para definir escopo, prazos e próximos passos.",
+        "prioritario": true,
+        "motivo": "Verbo de Control Union, el material y la trazabilidad; la actual usa «escopo» (portugués de Brasil)."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Peça a Sua Auditoria SURE",
+        "destino": "Anuncio id 817970221376 · grupo «SURE»",
+        "reemplaza": "Peça Informação",
+        "opcional": true,
+        "motivo": "Llamado a la acción con la norma."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Organismo de Certificação",
+        "destino": "Anuncio id 817970221376 · grupo «SURE»",
+        "opcional": true,
+        "motivo": "Dice qué es Control Union."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "titulo",
+        "texto": "Control Union Portugal",
+        "destino": "Anuncio id 817970221376 · grupo «SURE»",
+        "opcional": true,
+        "motivo": "Marca."
+       }
+      ]
+     }
+    ],
+    "anuncios": [
+     {
+      "grupo": "SURE",
+      "anuncio_id": "817970221376",
+      "anuncio_desc": "fuerza Promedio, 13 clics y ARS 31.368 del 1 sep – 20 oct 2026",
+      "accion": "Ajustar",
+      "motivo": "No dice «certificado» ni «madeira», que son las formas de búsqueda con más gasto y más demanda orgánica; «Peritos» es vocabulario de acompañamiento y «escopo» es portugués de Brasil.",
+      "url": "https://portugal.controlunion.com/programas-de-certificacao/sure-verification-scheme/",
+      "gasto_ars": 31368,
+      "clics": 13,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "Certificação SURE",
+       "SURE Para Biomassa",
+       "Auditoria SURE",
+       "Biomassa Sustentável",
+       "Peritos Em Bioenergia",
+       "SURE Portugal",
+       "Peça Informação"
+      ],
+      "descripciones_hoy": [
+       "Auditorias SURE para biomassa sustentável com equipa local em Portugal.",
+       "Demonstre conformidade RED e rastreabilidade na sua cadeia de biomassa.",
+       "Fale com a Control Union para planear a sua auditoria SURE.",
+       "Fale com a Control Union para definir escopo, prazos e próximos passos."
+      ],
+      "quitar": [
+       {
+        "texto": "Peritos Em Bioenergia",
+        "motivo": "«Peritos»: vocabulario de acompañamiento; no dice qué se certifica."
+       },
+       {
+        "texto": "Fale com a Control Union para definir escopo, prazos e próximos passos.",
+        "motivo": "«Escopo» es portugués de Brasil; repite la descripción 3."
+       },
+       {
+        "texto": "Peça Informação",
+        "motivo": "Genérico."
+       }
+      ],
+      "titulos_propuestos": [
+       {
+        "texto": "Certificado SURE",
+        "motivo": "«certificado sur» (3 clics, ARS 12.083: el 73% del gasto visible) y «certificado sure» (1 clic). Orgánico «certificado sure»: posición 2,9.",
+        "prioritario": true,
+        "reemplaza": "Peritos Em Bioenergia"
+       },
+       {
+        "texto": "SURE para Biomassa de Madeira",
+        "motivo": "Orgánico: «sure madeira» 60 impresiones en posición 9,8; ningún título dice «madeira».",
+        "prioritario": true
+       },
+       {
+        "texto": "Peça a Sua Auditoria SURE",
+        "motivo": "Llamado a la acción con la norma.",
+        "prioritario": false,
+        "reemplaza": "Peça Informação"
+       },
+       {
+        "texto": "Organismo de Certificação",
+        "motivo": "Dice qué es Control Union.",
+        "prioritario": false
+       },
+       {
+        "texto": "Control Union Portugal",
+        "motivo": "Marca.",
+        "prioritario": false
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "Certificamos SURE para biomassa sólida e madeira, com rastreabilidade na cadeia.",
+        "motivo": "Verbo de Control Union, el material y la trazabilidad; la actual usa «escopo» (portugués de Brasil).",
+        "prioritario": true,
+        "reemplaza": "Fale com a Control Union para definir escopo, prazos e próximos passos."
+       }
+      ],
+      "terminos": [
+       {
+        "termino": "certificado sur",
+        "relacion": "parcial",
+        "coste": 12083,
+        "clics": 3
+       },
+       {
+        "termino": "sure portugal",
+        "relacion": "fuerte",
+        "coste": 2592,
+        "clics": 1
+       },
+       {
+        "termino": "certificado sure",
+        "relacion": "fuerte",
+        "coste": 1774,
+        "clics": 1
+       },
+       {
+        "termino": "sure certificate",
+        "relacion": "fuerte",
+        "coste": 0,
+        "clics": 0
+       },
+       {
+        "termino": "sure system org",
+        "relacion": "parcial",
+        "coste": 0,
+        "clics": 0
+       }
+      ],
+      "nota": "«certificado sur» se toma como SURE mal escrito (3 de 3 impresiones con clic)."
+     }
+    ],
+    "organico": [
+     {
+      "query": "sure",
+      "impr": 101,
+      "pos": 9.8
+     },
+     {
+      "query": "sure madeira",
+      "impr": 60,
+      "pos": 9.8
+     },
+     {
+      "query": "certificado sure",
+      "impr": 13,
+      "pos": 2.9
+     },
+     {
+      "query": "sistema sure",
+      "impr": 11,
+      "pos": 6.4
+     }
+    ],
+    "organico_desde": "Portugal",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEM:plan:canada:forestry-y-aqua-siguen-activas",
+   "marca": "CU",
+   "campana": null,
+   "grupo": null,
+   "titulo": "Pausar «CU Canada - Forestry» y «CU Canada- Aqua / Fisheries»: ARS 323.763 en 50 días, 0 conversiones y sin demanda orgánica en Canadá",
+   "detalle": "Las dos siguen activas. Del 1 sep al 20 oct gastaron ARS 323.763 en 93 clics sin ninguna conversión, y el sitio casi no recibe búsquedas de Canadá sobre estos temas (7 impresiones forestales y ninguna acuícola en 16 meses). Pausar las dos libera ARS 6.804/día. La reescritura del anuncio de FSC de Forestry se descarta porque la campaña se pausa.",
+   "prioridad": "alta",
+   "unifica": [
+    "CU:SEM:anuncio:cu-canada-forestry:fsc"
+   ],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Canadá",
+    "campanas": [
+     "CU Canada - Forestry - Search",
+     "CU Canada- Aqua / Fisheries - Search"
+    ],
+    "acciones": [
+     "pausa"
+    ],
+    "resumen": "Dejar de pagar dos campañas que no convierten y no tienen demanda en Canadá.",
+    "por_que": "1 sep – 20 oct 2026: Forestry 66 clics y ARS 235.969 (presupuesto ARS 4.536/día, gasta ARS 4.345/día en octubre); Aqua / Fisheries 27 clics y ARS 87.794 (presupuesto ARS 2.268/día). Ninguna conversión en el período. Search Console (northamerica.controlunion.com, histórico al 14 sep 2026): las búsquedas de FSC, PEFC o forestal vienen de EE. UU. (224 impresiones) y casi nada de Canadá (7); de MSC, ASC, BAP o acuicultura, ninguna de Canadá. Las dos campañas llevan a páginas de industria genéricas (/industry/forestry/ y /industry/aquaculture-and-fisheries/). Ya decidido en el análisis de septiembre (CLAUDE.md §7): se pausan.",
+    "ya_hecho": "Nada: las dos campañas siguen ENABLED y publicando al 21 oct 2026.",
+    "pasos": [
+     {
+      "accion": "pausa",
+      "titulo": "Pausar las dos campañas",
+      "donde": "CU Canada - Forestry - Search y CU Canada- Aqua / Fisheries - Search › la campaña",
+      "detalle": "Pausar (no eliminar), para conservar el histórico. El presupuesto que se libera (ARS 4.536 + ARS 2.268 = ARS 6.804/día) puede ir a «CU Canada - Canada Gap - Search», que gasta su tope diario; la decisión está como paso en la tarjeta de esa campaña.",
+      "items": [
+       {
+        "accion": "pausar",
+        "tipo": "texto",
+        "texto": "CU Canada - Forestry - Search",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "1 sep – 20 oct 2026: 66 clics, ARS 235.969 y 0 conversiones (la última, 1 en agosto). Búsquedas de Canadá sobre FSC, PEFC o forestal en Search Console: 7 impresiones en 16 meses. En lo visible paga «forestry consulting» (ARS 8.939), «enform falling ticket» (ARS 5.426), «forestry permit» (ARS 4.431) y otras 5 ajenas: ARS 32.564."
+       },
+       {
+        "accion": "pausar",
+        "tipo": "texto",
+        "texto": "CU Canada- Aqua / Fisheries - Search",
+        "destino": "La campaña",
+        "prioritario": true,
+        "motivo": "1 sep – 20 oct 2026: 27 clics, ARS 87.794 y 0 conversiones (nunca convirtió). Search Console no registra ninguna búsqueda de MSC, ASC, BAP ni acuicultura desde Canadá en 16 meses."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Se mantiene Forestry por alguna razón comercial?",
+        "destino": "La campaña",
+        "opcional": true,
+        "motivo": "No → pausar y listo. Sí → el grupo «FSC» (28 clics, ARS 97.546) necesita un anuncio propio: hoy usa el genérico «Forestry Certification», con «Legal Sourcing Support» y «Forest Audit Support», que suenan a acompañamiento."
+       }
+      ]
+     }
+    ],
+    "organico": [
+     {
+      "query": "pefc",
+      "impr": 3,
+      "pos": 68.3
+     },
+     {
+      "query": "pefc certification",
+      "impr": 1,
+      "pos": 68.0
+     }
+    ],
+    "organico_desde": "Canadá",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEM:plan:canada:canadagap-y-globalg-a-p-sin-los-negativos",
+   "marca": "CU",
+   "campana": "CU Canada - Canada Gap - Search",
+   "grupo": "CanadaGAP cert",
+   "titulo": "CU Canada - Canada Gap: 13 negativas (cargill, indocert, consultant), exactas [canada gap] y [canadagap] y corregir «CanadianGAP»",
+   "detalle": "Ninguna de las negativas de septiembre se cargó y la amplia «canada gap certification» sigue trayendo Cargill, competidores y HACCP. Sumar 13 negativas, agregar las exactas de las dos formas en que se busca el programa, pausar las amplias y corregir el anuncio, que nombra mal el programa («CanadianGAP») y habla de «support». La parte de GLOBALG.A.P. de la tarjeta de septiembre va en la tarjeta de «CU Canada - GLOBALG.A.P. - Search».",
+   "prioridad": "alta",
+   "unifica": [
+    "CU:SEM:anuncio:cu-canada-canada-gap:canadagap-cert"
+   ],
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Canadá",
+    "campana": "CU Canada - Canada Gap - Search",
+    "acciones": [
+     "negativas",
+     "keywords",
+     "pausa",
+     "anuncio"
+    ],
+    "resumen": "Que CanadaGAP pague solo búsquedas del programa y que el anuncio lo nombre bien.",
+    "por_que": "1 sep – 20 oct 2026: 51 clics y ARS 117.431, sin conversiones; gasta su tope (ARS 2.445/día en octubre, presupuesto ARS 2.268). «canada gap» es el término más caro (197 impresiones, 15 clics, ARS 32.731) y «canadagap» le sigue (86, 6 clics, ARS 17.110): ninguno es keyword. La amplia «canada gap certification» (25 clics, ARS 53.978) trae en lo visible «cargill canada» (ARS 8.178), «indocert inc» (ARS 2.766), «food safety consultant canada» (ARS 1.537), «qsi cert canada» (ARS 1.450) y 56 impresiones de HACCP. El anuncio dice «CanadianGAP» y tiene 3 títulos con «Support». Search Console no registra búsquedas de CanadaGAP en northamerica.controlunion.com (hasta 14 sep 2026); GA4 muestra 204 vistas de /certification-program/canadagap/.",
+    "ya_hecho": "Nada: ninguna de las 4 negativas de septiembre (supply chain management, indocert, consultant, cargill) está cargada y no hay exactas de «canada gap» ni «canadagap». La exacta [canadagap certification] ya existía.",
+    "pasos": [
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 13 negativas de campaña",
+      "donde": "CU Canada - Canada Gap - Search › toda la campaña",
+      "detalle": "Las 5 primeras tienen clics pagados en el período y «supply chain management» costó ARS 7.753 en septiembre; las otras 7 son normas, empresas o búsquedas ajenas con impresiones sin clic.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "cargill",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«cargill canada» (2 clics, ARS 8.178) y «cargill limited canada»: buscan a la empresa."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "indocert",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«indocert inc»: 1 clic, ARS 2.766. Otro organismo certificador."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "consultant",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«food safety consultant canada»: 1 clic, ARS 1.537. Control Union certifica; no es lo que busca."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "qsi",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«qsi cert canada»: 1 clic, ARS 1.450. Otro organismo certificador."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "supply chain management",
+        "concordancia": "frase",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«supply chain management canada» (2 impresiones; en septiembre «supply chain management in canada» costó ARS 7.753 por 1 clic)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "business",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«business in canada»: 1 clic, ARS 1.052; «canada business»: 2 impresiones."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "haccp",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "56 impresiones sin clic («haccp certification» 17, «haccp» 7, «haccp canada» 8): otra norma, baja el CTR."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "sqf",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«sqf certification» 10, «sqf» 4: otra norma."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "brc",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«brc certification» 3, «brc certification canada» 3: otra norma."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "brcgs",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«brcgs certification»: 8 impresiones."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "steritech",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«steritech» 9 y «steritech audit» 3: empresa de auditorías de terceros."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "nsf",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«nsf canada»: 4 impresiones. Otro organismo."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "forms",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«canadagap forms» 8 y «canada gap forms» 3: productores ya certificados que buscan formularios."
+       }
+      ]
+     },
+     {
+      "accion": "keywords",
+      "titulo": "Agregar 3 keywords y pausar 4 amplias",
+      "donde": "CU Canada - Canada Gap - Search › grupo «CanadaGAP cert»",
+      "detalle": "Primero agregar, después pausar: las tres nuevas cubren lo que hoy entra por las amplias.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "canada gap",
+        "concordancia": "exacta",
+        "destino": "Grupo «CanadaGAP cert»",
+        "prioritario": true,
+        "motivo": "El término que más gasta: 197 impresiones, 15 clics y ARS 32.731, hoy por variante de la exacta «canadagap certification» y de la amplia."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "canadagap",
+        "concordancia": "exacta",
+        "destino": "Grupo «CanadaGAP cert»",
+        "prioritario": true,
+        "motivo": "86 impresiones, 6 clics y ARS 17.110 (entre los grupos «CanadaGAP cert» y «CanadaGAP audit»)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "canada gap",
+        "concordancia": "frase",
+        "destino": "Grupo «CanadaGAP cert»",
+        "prioritario": true,
+        "motivo": "Cubre «canada gap food safety» (33 impresiones, 5 clics, ARS 8.220) y «canada gap certification» cuando se pause la amplia."
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "canada gap certification",
+        "concordancia": "amplia",
+        "destino": "Grupo «CanadaGAP cert»",
+        "prioritario": true,
+        "motivo": "Amplia: 25 clics y ARS 53.978. En lo visible trae «cargill canada» (ARS 8.178), «control union certification organic» (ARS 3.194), «indocert inc», «qsi cert canada», «business in canada» y 56 impresiones de HACCP. La reemplazan las del punto anterior."
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "canada gap consultant",
+        "concordancia": "amplia",
+        "destino": "Grupo «CanadaGAP cert»",
+        "prioritario": true,
+        "motivo": "Amplia con «consultant»: Control Union certifica, no ofrece ese servicio. Trajo «haccp canada»."
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "gap certification canada",
+        "concordancia": "amplia",
+        "destino": "Grupo «CanadaGAP cert»",
+        "opcional": true,
+        "motivo": "Amplia con nivel de calidad 1: 1 clic (ARS 1.759); trae «canadagap forms»."
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "canada gap audit",
+        "concordancia": "amplia",
+        "destino": "Grupo «CanadaGAP cert»",
+        "opcional": true,
+        "motivo": "Amplia con nivel de calidad 2 y 0 clics; la frase «canada gap» la cubre."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Corregir el anuncio de «CanadaGAP cert»",
+      "donde": "CU Canada - Canada Gap - Search › grupo «CanadaGAP cert» · anuncio id 817970221088",
+      "detalle": "Está lleno (15 títulos y 4 descripciones): cada texto nuevo reemplaza a uno. Los anuncios de los otros 5 grupos tienen los mismos textos: aplicar los mismos cambios en los ids 817970221091, 817970221085, 817970220959, 817970221082 y 817970221094.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "We certify CanadaGAP for fruit and vegetable growers, packers and brokers.",
+        "destino": "Anuncio id 817970221088 · grupo «CanadaGAP cert»",
+        "reemplaza": "Certification to fit your needs by the CanadianGAP certification program.",
+        "prioritario": true,
+        "motivo": "La actual dice «CanadianGAP», nombre equivocado del programa."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "CanadaGAP audits for farms, packing, storage, wholesale and brokerage.",
+        "destino": "Anuncio id 817970221088 · grupo «CanadaGAP cert»",
+        "reemplaza": "Prepare producers, packers, handlers and brokers for audit requirements.",
+        "prioritario": true,
+        "motivo": "«Prepare producers» es vocabulario de acompañamiento; esta nombra las operaciones que cubren los grupos de la campaña."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Canada GAP Certification",
+        "destino": "Anuncio id 817970221088 · grupo «CanadaGAP cert»",
+        "reemplaza": "Audit Readiness",
+        "prioritario": true,
+        "motivo": "«canada gap» separado es como más se busca (197 impresiones, ARS 32.731) y ningún título lo dice así."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "CanadaGAP Audit",
+        "destino": "Anuncio id 817970221088 · grupo «CanadaGAP cert»",
+        "reemplaza": "CanadaGAP Audit Support",
+        "prioritario": true,
+        "motivo": "Saca «Support» (acompañamiento) y queda la keyword «canadagap audit» (2 clics)."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "CanadaGAP for Packers",
+        "destino": "Anuncio id 817970221088 · grupo «CanadaGAP cert»",
+        "reemplaza": "Packing House Support",
+        "opcional": true,
+        "motivo": "Saca «Support» y nombra al cliente del grupo «Packing storage»."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Request a CanadaGAP Audit",
+        "destino": "Anuncio id 817970221088 · grupo «CanadaGAP cert»",
+        "reemplaza": "Contact Our Experts",
+        "opcional": true,
+        "motivo": "Llamado a la acción con la norma."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Fresh Produce Food Safety",
+        "destino": "Anuncio id 817970221088 · grupo «CanadaGAP cert»",
+        "reemplaza": "Don't Risk It, Get Certified",
+        "opcional": true,
+        "motivo": "Dice qué certifica en lugar de un eslogan."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Control Union Canada",
+        "destino": "Anuncio id 817970221088 · grupo «CanadaGAP cert»",
+        "reemplaza": "Transparent and consistent",
+        "opcional": true,
+        "motivo": "Marca y país."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Tell us your operation and crops. We confirm scope and audit dates.",
+        "destino": "Anuncio id 817970221088 · grupo «CanadaGAP cert»",
+        "reemplaza": "Contact Control Union to discuss CanadaGAP certification support.",
+        "opcional": true,
+        "motivo": "Pedido concreto en lugar de «certification support»."
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "Decidir el presupuesto",
+      "donde": "CU Canada - Canada Gap - Search › Configuración › Presupuesto",
+      "detalle": "Depende de la pausa de Forestry y Aqua.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Subir el presupuesto de ARS 2.268 a ARS 4.536/día?",
+        "destino": "Configuración de la campaña › Presupuesto",
+        "opcional": true,
+        "motivo": "Solo si se pausan Forestry y Aqua (liberan ARS 6.804/día) y, 14 días después de cargar las negativas y pausar la amplia, la campaña sigue gastando su tope diario (hoy: ARS 2.445/día en octubre contra ARS 2.268 de presupuesto). Si gasta menos, no hace falta."
+       }
+      ]
+     }
+    ],
+    "keywords": [
+     {
+      "texto": "canada gap",
+      "concordancia": "exacta",
+      "grupo": "CanadaGAP cert",
+      "accion": "agregar",
+      "motivo": "El término que más gasta: 197 impresiones, 15 clics y ARS 32.731, hoy por variante de la exacta «canadagap certification» y de la amplia."
+     },
+     {
+      "texto": "canadagap",
+      "concordancia": "exacta",
+      "grupo": "CanadaGAP cert",
+      "accion": "agregar",
+      "motivo": "86 impresiones, 6 clics y ARS 17.110 (entre los grupos «CanadaGAP cert» y «CanadaGAP audit»)."
+     },
+     {
+      "texto": "canada gap",
+      "concordancia": "frase",
+      "grupo": "CanadaGAP cert",
+      "accion": "agregar",
+      "motivo": "Cubre «canada gap food safety» (33 impresiones, 5 clics, ARS 8.220) y «canada gap certification» cuando se pause la amplia."
+     },
+     {
+      "texto": "canada gap certification",
+      "concordancia": "amplia",
+      "grupo": "CanadaGAP cert",
+      "accion": "pausar",
+      "motivo": "Amplia: 25 clics y ARS 53.978. En lo visible trae «cargill canada» (ARS 8.178), «control union certification organic» (ARS 3.194), «indocert inc», «qsi cert canada», «business in canada» y 56 impresiones de HACCP. La reemplazan las del punto anterior."
+     },
+     {
+      "texto": "canada gap consultant",
+      "concordancia": "amplia",
+      "grupo": "CanadaGAP cert",
+      "accion": "pausar",
+      "motivo": "Amplia con «consultant»: Control Union certifica, no ofrece ese servicio. Trajo «haccp canada»."
+     },
+     {
+      "texto": "gap certification canada",
+      "concordancia": "amplia",
+      "grupo": "CanadaGAP cert",
+      "accion": "pausar",
+      "motivo": "Amplia con nivel de calidad 1: 1 clic (ARS 1.759); trae «canadagap forms»."
+     },
+     {
+      "texto": "canada gap audit",
+      "concordancia": "amplia",
+      "grupo": "CanadaGAP cert",
+      "accion": "pausar",
+      "motivo": "Amplia con nivel de calidad 2 y 0 clics; la frase «canada gap» la cubre."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "cargill",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«cargill canada» (2 clics, ARS 8.178) y «cargill limited canada»: buscan a la empresa."
+     },
+     {
+      "texto": "indocert",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«indocert inc»: 1 clic, ARS 2.766. Otro organismo certificador."
+     },
+     {
+      "texto": "consultant",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«food safety consultant canada»: 1 clic, ARS 1.537. Control Union certifica; no es lo que busca."
+     },
+     {
+      "texto": "qsi",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«qsi cert canada»: 1 clic, ARS 1.450. Otro organismo certificador."
+     },
+     {
+      "texto": "supply chain management",
+      "concordancia": "frase",
+      "nivel": "campaña",
+      "motivo": "«supply chain management canada» (2 impresiones; en septiembre «supply chain management in canada» costó ARS 7.753 por 1 clic)."
+     },
+     {
+      "texto": "business",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«business in canada»: 1 clic, ARS 1.052; «canada business»: 2 impresiones."
+     },
+     {
+      "texto": "haccp",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "56 impresiones sin clic («haccp certification» 17, «haccp» 7, «haccp canada» 8): otra norma, baja el CTR."
+     },
+     {
+      "texto": "sqf",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«sqf certification» 10, «sqf» 4: otra norma."
+     },
+     {
+      "texto": "brc",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«brc certification» 3, «brc certification canada» 3: otra norma."
+     },
+     {
+      "texto": "brcgs",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«brcgs certification»: 8 impresiones."
+     },
+     {
+      "texto": "steritech",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«steritech» 9 y «steritech audit» 3: empresa de auditorías de terceros."
+     },
+     {
+      "texto": "nsf",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«nsf canada»: 4 impresiones. Otro organismo."
+     },
+     {
+      "texto": "forms",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«canadagap forms» 8 y «canada gap forms» 3: productores ya certificados que buscan formularios."
+     }
+    ],
+    "negativas_decision": "Sí: 13 de campaña. Las 6 prioritarias son las 4 de septiembre más «qsi» y «business»; las 7 opcionales sacan otras normas (HACCP, SQF, BRC, BRCGS), empresas (Steritech, NSF) y búsquedas de formularios.",
+    "anuncios": [
+     {
+      "grupo": "CanadaGAP cert",
+      "anuncio_id": "817970221088",
+      "anuncio_desc": "fuerza Buena, 49 clics y ARS 111.017 del 1 sep – 20 oct 2026",
+      "accion": "Ajustar",
+      "motivo": "Nombra mal el programa («CanadianGAP»), no dice «canada gap» como se busca y tiene vocabulario de acompañamiento («Support», «Prepare», «Contact Our Experts»).",
+      "url": "https://northamerica.controlunion.com/certification-program/canadagap/",
+      "gasto_ars": 111017,
+      "clics": 49,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "CanadaGAP Certification",
+       "CanadaGAP Audit Support",
+       "Fresh Produce Safety",
+       "Produce Certification",
+       "Food Safety Audits",
+       "Don't Risk It, Get Certified",
+       "Audit Readiness",
+       "Produce Handling Audit",
+       "Greenhouse Food Safety",
+       "Packing House Support",
+       "Strengthen Traceability",
+       "Contact Our Experts",
+       "Transparent and consistent",
+       "Fresh Produce Compliance",
+       "Request A Quote"
+      ],
+      "descripciones_hoy": [
+       "Certification to fit your needs by the CanadianGAP certification program.",
+       "Prepare producers, packers, handlers and brokers for audit requirements.",
+       "Improve procedures, records and traceability across produce operations.",
+       "Contact Control Union to discuss CanadaGAP certification support."
+      ],
+      "quitar": [
+       {
+        "texto": "Certification to fit your needs by the CanadianGAP certification program.",
+        "motivo": "Nombre del programa equivocado."
+       },
+       {
+        "texto": "Prepare producers, packers, handlers and brokers for audit requirements.",
+        "motivo": "«Prepare»: vocabulario de acompañamiento."
+       },
+       {
+        "texto": "Audit Readiness",
+        "motivo": "Vocabulario de acompañamiento."
+       },
+       {
+        "texto": "CanadaGAP Audit Support",
+        "motivo": "«Support»: vocabulario de acompañamiento."
+       },
+       {
+        "texto": "Packing House Support",
+        "motivo": "«Support»."
+       },
+       {
+        "texto": "Contact Our Experts",
+        "motivo": "Genérico."
+       },
+       {
+        "texto": "Don't Risk It, Get Certified",
+        "motivo": "Eslogan sin dato."
+       },
+       {
+        "texto": "Transparent and consistent",
+        "motivo": "Genérico, en minúsculas."
+       },
+       {
+        "texto": "Contact Control Union to discuss CanadaGAP certification support.",
+        "motivo": "«Support»."
+       }
+      ],
+      "titulos_propuestos": [
+       {
+        "texto": "Canada GAP Certification",
+        "motivo": "«canada gap» separado es como más se busca (197 impresiones, ARS 32.731) y ningún título lo dice así.",
+        "prioritario": true,
+        "reemplaza": "Audit Readiness"
+       },
+       {
+        "texto": "CanadaGAP Audit",
+        "motivo": "Saca «Support» (acompañamiento) y queda la keyword «canadagap audit» (2 clics).",
+        "prioritario": true,
+        "reemplaza": "CanadaGAP Audit Support"
+       },
+       {
+        "texto": "CanadaGAP for Packers",
+        "motivo": "Saca «Support» y nombra al cliente del grupo «Packing storage».",
+        "prioritario": false,
+        "reemplaza": "Packing House Support"
+       },
+       {
+        "texto": "Request a CanadaGAP Audit",
+        "motivo": "Llamado a la acción con la norma.",
+        "prioritario": false,
+        "reemplaza": "Contact Our Experts"
+       },
+       {
+        "texto": "Fresh Produce Food Safety",
+        "motivo": "Dice qué certifica en lugar de un eslogan.",
+        "prioritario": false,
+        "reemplaza": "Don't Risk It, Get Certified"
+       },
+       {
+        "texto": "Control Union Canada",
+        "motivo": "Marca y país.",
+        "prioritario": false,
+        "reemplaza": "Transparent and consistent"
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "We certify CanadaGAP for fruit and vegetable growers, packers and brokers.",
+        "motivo": "La actual dice «CanadianGAP», nombre equivocado del programa.",
+        "prioritario": true,
+        "reemplaza": "Certification to fit your needs by the CanadianGAP certification program."
+       },
+       {
+        "texto": "CanadaGAP audits for farms, packing, storage, wholesale and brokerage.",
+        "motivo": "«Prepare producers» es vocabulario de acompañamiento; esta nombra las operaciones que cubren los grupos de la campaña.",
+        "prioritario": true,
+        "reemplaza": "Prepare producers, packers, handlers and brokers for audit requirements."
+       },
+       {
+        "texto": "Tell us your operation and crops. We confirm scope and audit dates.",
+        "motivo": "Pedido concreto en lugar de «certification support».",
+        "prioritario": false,
+        "reemplaza": "Contact Control Union to discuss CanadaGAP certification support."
+       }
+      ],
+      "terminos": [
+       {
+        "termino": "canada gap",
+        "relacion": "fuerte",
+        "coste": 32731,
+        "clics": 15
+       },
+       {
+        "termino": "canadagap",
+        "relacion": "fuerte",
+        "coste": 17110,
+        "clics": 6
+       },
+       {
+        "termino": "canadagap certification",
+        "relacion": "fuerte",
+        "coste": 11095,
+        "clics": 5
+       },
+       {
+        "termino": "cargill canada",
+        "relacion": "nula",
+        "coste": 8178,
+        "clics": 2
+       },
+       {
+        "termino": "canada gap food safety",
+        "relacion": "fuerte",
+        "coste": 8220,
+        "clics": 5
+       },
+       {
+        "termino": "canadagap 2026",
+        "relacion": "fuerte",
+        "coste": 3325,
+        "clics": 1
+       },
+       {
+        "termino": "control union certification organic",
+        "relacion": "parcial",
+        "coste": 3194,
+        "clics": 1
+       },
+       {
+        "termino": "indocert inc",
+        "relacion": "nula",
+        "coste": 2766,
+        "clics": 1
+       }
+      ],
+      "nota": "Mismos textos en los anuncios de los grupos «CanadaGAP audit», «Fresh produce», «Greenhouse», «Handling brokerage» y «Packing storage»."
+     }
+    ],
+    "organico": [],
+    "organico_desde": "Canadá",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEM:anuncio:cu-canada-globalg-a-p:globalg-a-p-cert",
+   "marca": "CU",
+   "campana": "CU Canada - GLOBALG.A.P. - Search",
+   "grupo": "GLOBALG.A.P cert",
+   "titulo": "CU Canada - GLOBALG.A.P.: pausar las amplias «global gap» y «global g a p» (67% del gasto visible es ajeno) y sumar 12 negativas",
+   "detalle": "La amplia «global gap» se lleva el 82% del gasto y la mayor parte va a HACCP, FAO, orgánico y regulaciones de alimentos. Pasarla a exacta y frase, pausar las dos amplias, sumar 12 negativas y sacar del anuncio los títulos de «support» y «partner». La única conversión vino de «global gap audit»: ese grupo no se toca.",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Canadá",
+    "campana": "CU Canada - GLOBALG.A.P. - Search",
+    "acciones": [
+     "keywords",
+     "pausa",
+     "negativas",
+     "anuncio"
+    ],
+    "resumen": "Que GLOBALG.A.P. deje de pagar búsquedas de HACCP, FAO y orgánico.",
+    "por_que": "1 sep – 20 oct 2026: 34 clics y ARS 94.219, 1 conversión (grupo «GLOBALG.A.P audit», keyword «global gap audit» en frase, ARS 3.015). Gasta su tope (ARS 2.240/día en octubre, presupuesto ARS 2.268). La amplia «global gap» se lleva 28 clics y ARS 77.510 (82%). De los ARS 55.987 visibles en términos, solo ARS 18.263 (33%) son búsquedas de GLOBALG.A.P.; el resto: «fao united nations» (ARS 5.381), «food safety consultant» (ARS 4.499), «organic integrity database» (ARS 3.825), «who created haccp» (ARS 3.791), «regenerative farming» (ARS 3.590), «food certification labels» (ARS 3.385) y más. Search Console (northamerica.controlunion.com, al 14 sep 2026): 58 impresiones de GLOBALG.A.P., todas desde EE. UU.",
+    "ya_hecho": "La exacta [global gap certification] propuesta en septiembre ya existe (2 clics, ARS 4.968). El resto no: la amplia sigue, «food safety consultant» no es negativa y el anuncio no cambió.",
+    "pasos": [
+     {
+      "accion": "keywords",
+      "titulo": "Agregar 3 keywords y pausar las 2 amplias",
+      "donde": "CU Canada - GLOBALG.A.P. - Search › grupo «GLOBALG.A.P cert»",
+      "detalle": "Primero agregar [global gap] y «global gap»; después pausar las amplias. El grupo «GLOBALG.A.P audit», que trajo la conversión, queda igual.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "global gap",
+        "concordancia": "exacta",
+        "destino": "Grupo «GLOBALG.A.P cert»",
+        "prioritario": true,
+        "motivo": "La búsqueda buena de la amplia: «global gap» 22 impresiones, 4 clics, ARS 13.295."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "global gap",
+        "concordancia": "frase",
+        "destino": "Grupo «GLOBALG.A.P cert»",
+        "prioritario": true,
+        "motivo": "Cubre «global gap certification», «certification global gap», «global gap v6» sin abrir a temas sueltos."
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "global gap",
+        "concordancia": "amplia",
+        "destino": "Grupo «GLOBALG.A.P cert»",
+        "prioritario": true,
+        "motivo": "Amplia: 28 clics y ARS 77.510 (82% de la campaña). De sus ARS 47.430 visibles, solo ARS 13.295 son de GLOBALG.A.P.; el resto es «fao united nations» (ARS 5.381), «food safety consultant» (ARS 4.499), «organic integrity database» (ARS 3.825), «who created haccp» (ARS 3.791) y otras"
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "global g a p",
+        "concordancia": "amplia",
+        "destino": "Grupo «GLOBALG.A.P cert»",
+        "prioritario": true,
+        "motivo": "Amplia: 3 clics y ARS 8.726; en lo visible, 112 impresiones de «food safety», «haccp», «agriculture» y «regenerative farming» (ARS 3.590)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "global g a p",
+        "concordancia": "frase",
+        "destino": "Grupo «GLOBALG.A.P cert»",
+        "opcional": true,
+        "motivo": "Reemplaza a la amplia para la forma con espacios («global g a p certified»)."
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 12 negativas de campaña",
+      "donde": "CU Canada - GLOBALG.A.P. - Search › toda la campaña",
+      "detalle": "Las 8 primeras tienen clics pagados en el período; las 4 restantes son otras normas.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "haccp",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "112 impresiones, 2 clics, ARS 5.274: «who created haccp» (ARS 3.791), «haccp principles» (ARS 1.483), «haccp stands for» (12)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "consultant",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«food safety consultant»: 1 clic, ARS 4.499. Control Union certifica."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "fao",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«fao united nations»: 2 clics, ARS 5.381."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "organic",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«organic integrity database» (ARS 3.825) y «how to become certified organic farm» (ARS 2.180): orgánico, no GLOBALG.A.P."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "regenerative",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«regenerative farming»: 1 clic, ARS 3.590."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "labels",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«food certification labels»: 1 clic, ARS 3.385."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "fda",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«fda standards for food»: 1 clic, ARS 2.308."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "codex",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "«codex alimentarius»: 1 clic, ARS 1.366."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "gfsi",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«gfsi certification» (1 clic, ARS 2.539), «gfsi» 5, «gfsi certificate» 2: busca el esquema general."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "sqf",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "16 impresiones sin clic: otra norma."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "brc",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«brc certification», «brc global market»: otra norma."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "brcgs",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "opcional": true,
+        "motivo": "«brcgs certification», «brcgs food safety»: otra norma."
+       }
+      ]
+     },
+     {
+      "accion": "anuncio",
+      "titulo": "Ajustar el anuncio de «GLOBALG.A.P cert»",
+      "donde": "CU Canada - GLOBALG.A.P. - Search › grupo «GLOBALG.A.P cert» · anuncio id 817970221130",
+      "detalle": "Está lleno (15 títulos y 4 descripciones): cada texto nuevo reemplaza a uno. Los anuncios de los grupos «Chain of Custody» (id 817970221124), «Farm assurance» (id 817970221121), «GLOBALG.A.P audit» (id 817970221133) e «IFA» (id 817970221127) tienen los mismos textos: aplicar los mismos cambios.",
+      "items": [
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Global GAP Certification",
+        "destino": "Anuncio id 817970221130 · grupo «GLOBALG.A.P cert»",
+        "reemplaza": "Farm Assurance Support",
+        "prioritario": true,
+        "motivo": "«global gap» es como se busca (el término con más gasto relevante: ARS 13.295) y ningún título lo escribe así."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "We certify GLOBALG.A.P. IFA and chain of custody for farms and handlers in Canada.",
+        "destino": "Anuncio id 817970221130 · grupo «GLOBALG.A.P cert»",
+        "reemplaza": "Prepare for GLOBALG.A.P. audits with a practical certification partner.",
+        "prioritario": true,
+        "motivo": "La actual dice «practical certification partner» y «Prepare»: vocabulario de acompañamiento."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Global GAP Audit in Canada",
+        "destino": "Anuncio id 817970221130 · grupo «GLOBALG.A.P cert»",
+        "reemplaza": "Market Access Support",
+        "prioritario": true,
+        "motivo": "La única conversión de la campaña vino por «global gap audit» (grupo «GLOBALG.A.P audit», ARS 3.015)."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "GLOBALG.A.P. IFA Audit",
+        "destino": "Anuncio id 817970221130 · grupo «GLOBALG.A.P cert»",
+        "reemplaza": "Don't Risk It, Get Certified",
+        "opcional": true,
+        "motivo": "Nombra el módulo principal."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Request a Global GAP Audit",
+        "destino": "Anuncio id 817970221130 · grupo «GLOBALG.A.P cert»",
+        "reemplaza": "Contact Our Experts",
+        "opcional": true,
+        "motivo": "Llamado a la acción con la norma."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "titulo",
+        "texto": "Control Union Canada",
+        "destino": "Anuncio id 817970221130 · grupo «GLOBALG.A.P cert»",
+        "reemplaza": "Improve Farm Compliance",
+        "opcional": true,
+        "motivo": "Marca y país."
+       },
+       {
+        "accion": "reemplazar",
+        "tipo": "descripcion",
+        "texto": "Tell us your farm and crops. We confirm scope, requirements and audit dates.",
+        "destino": "Anuncio id 817970221130 · grupo «GLOBALG.A.P cert»",
+        "reemplaza": "Support food safety, traceability and farm assurance certification needs.",
+        "opcional": true,
+        "motivo": "Pedido concreto en lugar de «Support certification needs»."
+       }
+      ]
+     }
+    ],
+    "keywords": [
+     {
+      "texto": "global gap",
+      "concordancia": "exacta",
+      "grupo": "GLOBALG.A.P cert",
+      "accion": "agregar",
+      "motivo": "La búsqueda buena de la amplia: «global gap» 22 impresiones, 4 clics, ARS 13.295."
+     },
+     {
+      "texto": "global gap",
+      "concordancia": "frase",
+      "grupo": "GLOBALG.A.P cert",
+      "accion": "agregar",
+      "motivo": "Cubre «global gap certification», «certification global gap», «global gap v6» sin abrir a temas sueltos."
+     },
+     {
+      "texto": "global gap",
+      "concordancia": "amplia",
+      "grupo": "GLOBALG.A.P cert",
+      "accion": "pausar",
+      "motivo": "Amplia: 28 clics y ARS 77.510 (82% de la campaña). De sus ARS 47.430 visibles, solo ARS 13.295 son de GLOBALG.A.P.; el resto es «fao united nations» (ARS 5.381), «food safety consultant» (ARS 4.499), «organic integrity database» (ARS 3.825), «who created haccp» (ARS 3.791) y otras"
+     },
+     {
+      "texto": "global g a p",
+      "concordancia": "amplia",
+      "grupo": "GLOBALG.A.P cert",
+      "accion": "pausar",
+      "motivo": "Amplia: 3 clics y ARS 8.726; en lo visible, 112 impresiones de «food safety», «haccp», «agriculture» y «regenerative farming» (ARS 3.590)."
+     },
+     {
+      "texto": "global g a p",
+      "concordancia": "frase",
+      "grupo": "GLOBALG.A.P cert",
+      "accion": "agregar",
+      "motivo": "Reemplaza a la amplia para la forma con espacios («global g a p certified»)."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "haccp",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "112 impresiones, 2 clics, ARS 5.274: «who created haccp» (ARS 3.791), «haccp principles» (ARS 1.483), «haccp stands for» (12)."
+     },
+     {
+      "texto": "consultant",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«food safety consultant»: 1 clic, ARS 4.499. Control Union certifica."
+     },
+     {
+      "texto": "fao",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«fao united nations»: 2 clics, ARS 5.381."
+     },
+     {
+      "texto": "organic",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«organic integrity database» (ARS 3.825) y «how to become certified organic farm» (ARS 2.180): orgánico, no GLOBALG.A.P."
+     },
+     {
+      "texto": "regenerative",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«regenerative farming»: 1 clic, ARS 3.590."
+     },
+     {
+      "texto": "labels",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«food certification labels»: 1 clic, ARS 3.385."
+     },
+     {
+      "texto": "fda",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«fda standards for food»: 1 clic, ARS 2.308."
+     },
+     {
+      "texto": "codex",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«codex alimentarius»: 1 clic, ARS 1.366."
+     },
+     {
+      "texto": "gfsi",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«gfsi certification» (1 clic, ARS 2.539), «gfsi» 5, «gfsi certificate» 2: busca el esquema general."
+     },
+     {
+      "texto": "sqf",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "16 impresiones sin clic: otra norma."
+     },
+     {
+      "texto": "brc",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«brc certification», «brc global market»: otra norma."
+     },
+     {
+      "texto": "brcgs",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "«brcgs certification», «brcgs food safety»: otra norma."
+     }
+    ],
+    "negativas_decision": "Sí: 12 de campaña. Con la amplia pausada entra menos basura, pero las 8 con clic ya costaron ARS 31.808 y conviene cerrarlas igual.",
+    "anuncios": [
+     {
+      "grupo": "GLOBALG.A.P cert",
+      "anuncio_id": "817970221130",
+      "anuncio_desc": "fuerza Promedio, 33 clics y ARS 91.204 del 1 sep – 20 oct 2026",
+      "accion": "Ajustar",
+      "motivo": "Ningún título dice «global gap» como se busca, y 5 textos hablan de «support», «partner» o «prepare», vocabulario de acompañamiento.",
+      "url": "https://northamerica.controlunion.com/certification-program/globalg-a-p/",
+      "gasto_ars": 91204,
+      "clics": 33,
+      "ventanas": "1 sep – 20 oct 2026",
+      "titulos_hoy": [
+       "GLOBALG.A.P. Certification",
+       "GLOBALG.A.P. Audit",
+       "IFA Certification",
+       "Chain Of Custody",
+       "Farm Assurance Support",
+       "Don't Risk It, Get Certified",
+       "Food Safety Standards",
+       "Sustainable Production",
+       "Greenhouse Food Safety",
+       "Request Certification",
+       "Strengthen Traceability",
+       "Contact Our Experts",
+       "Market Access Support",
+       "Improve Farm Compliance",
+       "COC Certification"
+      ],
+      "descripciones_hoy": [
+       "Support food safety, traceability and farm assurance certification needs.",
+       "Prepare for GLOBALG.A.P. audits with a practical certification partner.",
+       "Improve production practices and buyer confidence across operations.",
+       "Contact Control Union to discuss certification scope and next steps."
+      ],
+      "quitar": [
+       {
+        "texto": "Farm Assurance Support",
+        "motivo": "«Support»."
+       },
+       {
+        "texto": "Prepare for GLOBALG.A.P. audits with a practical certification partner.",
+        "motivo": "«Prepare» y «partner»: vocabulario de acompañamiento."
+       },
+       {
+        "texto": "Market Access Support",
+        "motivo": "«Support»."
+       },
+       {
+        "texto": "Don't Risk It, Get Certified",
+        "motivo": "Eslogan sin dato."
+       },
+       {
+        "texto": "Contact Our Experts",
+        "motivo": "Genérico."
+       },
+       {
+        "texto": "Improve Farm Compliance",
+        "motivo": "Genérico."
+       },
+       {
+        "texto": "Support food safety, traceability and farm assurance certification needs.",
+        "motivo": "«Support»."
+       }
+      ],
+      "titulos_propuestos": [
+       {
+        "texto": "Global GAP Certification",
+        "motivo": "«global gap» es como se busca (el término con más gasto relevante: ARS 13.295) y ningún título lo escribe así.",
+        "prioritario": true,
+        "reemplaza": "Farm Assurance Support"
+       },
+       {
+        "texto": "Global GAP Audit in Canada",
+        "motivo": "La única conversión de la campaña vino por «global gap audit» (grupo «GLOBALG.A.P audit», ARS 3.015).",
+        "prioritario": true,
+        "reemplaza": "Market Access Support"
+       },
+       {
+        "texto": "GLOBALG.A.P. IFA Audit",
+        "motivo": "Nombra el módulo principal.",
+        "prioritario": false,
+        "reemplaza": "Don't Risk It, Get Certified"
+       },
+       {
+        "texto": "Request a Global GAP Audit",
+        "motivo": "Llamado a la acción con la norma.",
+        "prioritario": false,
+        "reemplaza": "Contact Our Experts"
+       },
+       {
+        "texto": "Control Union Canada",
+        "motivo": "Marca y país.",
+        "prioritario": false,
+        "reemplaza": "Improve Farm Compliance"
+       }
+      ],
+      "descripciones_propuestas": [
+       {
+        "texto": "We certify GLOBALG.A.P. IFA and chain of custody for farms and handlers in Canada.",
+        "motivo": "La actual dice «practical certification partner» y «Prepare»: vocabulario de acompañamiento.",
+        "prioritario": true,
+        "reemplaza": "Prepare for GLOBALG.A.P. audits with a practical certification partner."
+       },
+       {
+        "texto": "Tell us your farm and crops. We confirm scope, requirements and audit dates.",
+        "motivo": "Pedido concreto en lugar de «Support certification needs».",
+        "prioritario": false,
+        "reemplaza": "Support food safety, traceability and farm assurance certification needs."
+       }
+      ],
+      "terminos": [
+       {
+        "termino": "global gap",
+        "relacion": "fuerte",
+        "coste": 13295,
+        "clics": 4
+       },
+       {
+        "termino": "fao united nations",
+        "relacion": "nula",
+        "coste": 5381,
+        "clics": 2
+       },
+       {
+        "termino": "global gap certification",
+        "relacion": "fuerte",
+        "coste": 4968,
+        "clics": 2
+       },
+       {
+        "termino": "food safety consultant",
+        "relacion": "nula",
+        "coste": 4499,
+        "clics": 1
+       },
+       {
+        "termino": "organic integrity database",
+        "relacion": "nula",
+        "coste": 3825,
+        "clics": 1
+       },
+       {
+        "termino": "who created haccp",
+        "relacion": "nula",
+        "coste": 3791,
+        "clics": 1
+       },
+       {
+        "termino": "regenerative farming",
+        "relacion": "nula",
+        "coste": 3590,
+        "clics": 1
+       },
+       {
+        "termino": "food certification labels",
+        "relacion": "nula",
+        "coste": 3385,
+        "clics": 1
+       }
+      ],
+      "nota": "Mismos textos en los anuncios de los grupos «Chain of Custody», «Farm assurance», «GLOBALG.A.P audit» e «IFA»."
+     }
+    ],
+    "organico": [],
+    "organico_desde": "Canadá",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026"
+   }
+  },
+  {
+   "clave": "CU:SEM:plan:estados-unidos:primusgfs-sin-gasto-con-la-exacta-puesta",
+   "marca": "CU",
+   "campana": "CU United States - Organic - PrimusGFS - Search",
+   "grupo": "PrimusGFS Core Generic",
+   "titulo": "CU United States - PrimusGFS: 3 impresiones en 50 días con ARS 15.000/día · revisar el tope de CPC y sumar «primus gfs»",
+   "detalle": "No es el anuncio: los 5 están aprobados. Gastaba en agosto por las keywords de GFSI, que se eliminaron; desde el 12 sep no tiene ni una impresión. De sus 28 keywords, 24 están en «pocas búsquedas» y «what is PrimusGFS» la bloquea la propia negativa «what is»; las 3 que quedan (con «primusgfs» junto) tuvieron 3 impresiones. Revisar si un tope de CPC frena la puja, sumar «primus gfs» separado y la frase «primusgfs certification», y cargar «consultant» y «nsf» como negativas.",
+   "prioridad": "alta",
+   "evidencia": {
+    "ficha": "campana",
+    "unidad": "Estados Unidos",
+    "campana": "CU United States - Organic - PrimusGFS - Search",
+    "acciones": [
+     "revisar",
+     "keywords",
+     "pausa",
+     "negativas"
+    ],
+    "resumen": "Destrabar la campaña de PrimusGFS, que tiene presupuesto reservado y no publica.",
+    "por_que": "1 sep – 20 oct 2026: 3 impresiones (4 y 11 sep, keyword [PrimusGFS]), 0 clics, ARS 0, con presupuesto de ARS 15.000/día y estrategia Maximizar clics. En agosto gastó ARS 25.941 (4 clics): ARS 20.951 en «gfsi consultant» y ARS 4.991 en «gfsi certification», por las keywords «GFSI certification» y «GFSI certified», que hoy están eliminadas. Estructura al 21 oct: 5 grupos, 28 keywords activas; 24 en «pocas búsquedas» (los grupos «Cold Storage Distribution», «Combined Organic PrimusGFS», «Growers & Packers» y «Switcher Competitor» completos) y 4 elegibles: [PrimusGFS], [PrimusGFS certification], «PrimusGFS audit» y «what is PrimusGFS», esta última bloqueada por la negativa de campaña «what is». Los 5 anuncios están aprobados (fuerza Buena o Promedio): el anuncio no es el problema. En orgánico (northamerica.controlunion.com, EE. UU., histórico al 14 sep 2026) hay demanda: «primusgfs certification» 757, «primusgfs» 585, «primus gfs» 393 impresiones.",
+    "ya_hecho": "Se sumó la exacta [primusgfs] (la de septiembre) y se eliminaron las keywords de GFSI. La negativa «consultant» pedida en septiembre sigue sin estar; las otras dos de septiembre («advisor» y su equivalente en español) no aparecen en ningún término, así que no se proponen.",
+    "pasos": [
+     {
+      "accion": "revisar",
+      "titulo": "Encontrar qué frena la puja",
+      "donde": "CU United States - Organic - PrimusGFS - Search › Configuración y Keywords",
+      "detalle": "La API no trae el límite de CPC, la ubicación ni la programación: se miran en Google Ads. Presupuesto (ARS 15.000/día) y anuncios (aprobados) quedan descartados como causa.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "Configuración › Ofertas: ¿hay «Límite de oferta de CPC máximo»?",
+        "destino": "Configuración de la campaña › Ofertas",
+        "prioritario": true,
+        "motivo": "Las 3 keywords elegibles con «primusgfs» tuvieron 3 impresiones en 50 días con ARS 15.000/día disponibles: lo más probable es que la oferta no alcance. Si hay límite y es menor a ARS 8.769 (CPC medio de «CU United States - Organic - USDA NOP - Search», misma cuenta y país, 1 sep – 20 oct), subirlo a ARS 9.000 o quitarlo. Si no hay límite, seguir al ítem siguiente."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "Keywords › columna «Estado» de [PrimusGFS] y [PrimusGFS certification]",
+        "destino": "Grupo «PrimusGFS Core Generic»",
+        "prioritario": true,
+        "motivo": "Si dice «Por debajo de la oferta para la primera página» o «Nivel de calidad bajo», es la oferta (ítem anterior). Si dice «Pocas búsquedas», la demanda está en las formas del paso 2."
+       },
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "Configuración › Ubicaciones y Programación de anuncios",
+        "destino": "Configuración de la campaña › Ubicaciones",
+        "prioritario": true,
+        "motivo": "Comparar con «CU United States - Organic - USDA NOP - Search», que sí publica (1.087 impresiones en el período): misma ubicación (Estados Unidos, «Presencia») y sin franjas horarias que la recorten."
+       }
+      ]
+     },
+     {
+      "accion": "keywords",
+      "titulo": "Sumar 5 keywords con las formas que se buscan y pausar 1",
+      "donde": "CU United States - Organic - PrimusGFS - Search › grupo «PrimusGFS Core Generic»",
+      "detalle": "Las tres primeras son las de más demanda orgánica.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "primus gfs",
+        "concordancia": "exacta",
+        "destino": "Grupo «PrimusGFS Core Generic»",
+        "prioritario": true,
+        "motivo": "Orgánico: «primus gfs» 393 impresiones en posición 20,4. Se escribe separado y la campaña solo tiene «PrimusGFS» junto."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "primus gfs",
+        "concordancia": "frase",
+        "destino": "Grupo «PrimusGFS Core Generic»",
+        "prioritario": true,
+        "motivo": "Cubre «primus gfs certification» (32), «primus gfs certificate» (26), «primus gfs food safety certification» (5)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "primusgfs certification",
+        "concordancia": "frase",
+        "destino": "Grupo «PrimusGFS Core Generic»",
+        "prioritario": true,
+        "motivo": "La búsqueda orgánica más grande: 757 impresiones en posición 21,2; hoy solo está en exacta. Cubre «primusgfs certification programs» (29) y «primusgfs certification company» (23)."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "primus certification",
+        "concordancia": "frase",
+        "destino": "Grupo «PrimusGFS Core Generic»",
+        "opcional": true,
+        "motivo": "Orgánico: 55 impresiones; «primus 3.2 certification» 101."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "keyword",
+        "texto": "primus audit",
+        "concordancia": "frase",
+        "destino": "Grupo «PrimusGFS Core Generic»",
+        "opcional": true,
+        "motivo": "Orgánico: 48 impresiones en posición 29,7."
+       },
+       {
+        "accion": "pausar",
+        "tipo": "keyword",
+        "texto": "what is PrimusGFS",
+        "concordancia": "frase",
+        "destino": "Grupo «PrimusGFS Core Generic»",
+        "opcional": true,
+        "motivo": "Nunca puede publicar: la campaña tiene «what is» como negativa amplia."
+       }
+      ]
+     },
+     {
+      "accion": "negativas",
+      "titulo": "Sumar 2 negativas de campaña",
+      "donde": "CU United States - Organic - PrimusGFS - Search › toda la campaña",
+      "detalle": "Antes de que la campaña vuelva a gastar.",
+      "items": [
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "consultant",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "En agosto, lo único que gastó la campaña fue «gfsi consultant»: 3 clics y ARS 20.951 de ARS 25.941. Pedida en septiembre y sin cargar."
+       },
+       {
+        "accion": "agregar",
+        "tipo": "negativa",
+        "texto": "nsf",
+        "concordancia": "amplia",
+        "destino": "Toda la campaña",
+        "prioritario": true,
+        "motivo": "Orgánico: «nsf primusgfs certification» 216 impresiones: buscan a otro organismo certificador; la frase «primusgfs certification» del paso 2 la traería."
+       }
+      ]
+     },
+     {
+      "accion": "revisar",
+      "titulo": "A los 14 días, decidir si sigue sola",
+      "donde": "CU United States - Organic - PrimusGFS - Search › la campaña",
+      "detalle": "Con los pasos 1 a 3 hechos.",
+      "items": [
+       {
+        "accion": "decidir",
+        "tipo": "texto",
+        "texto": "¿Llegó a 100 impresiones en 14 días?",
+        "destino": "La campaña",
+        "opcional": true,
+        "motivo": "Sí → seguir. No → pausar la campaña y dejar PrimusGFS como grupo dentro de «CU United States - Organic - USDA NOP - Search», que sí publica, con las keywords de los pasos 2 y la URL https://northamerica.controlunion.com/certification-program/primusgfs-certification/."
+       }
+      ]
+     }
+    ],
+    "keywords": [
+     {
+      "texto": "primus gfs",
+      "concordancia": "exacta",
+      "grupo": "PrimusGFS Core Generic",
+      "accion": "agregar",
+      "motivo": "Orgánico: «primus gfs» 393 impresiones en posición 20,4. Se escribe separado y la campaña solo tiene «PrimusGFS» junto."
+     },
+     {
+      "texto": "primus gfs",
+      "concordancia": "frase",
+      "grupo": "PrimusGFS Core Generic",
+      "accion": "agregar",
+      "motivo": "Cubre «primus gfs certification» (32), «primus gfs certificate» (26), «primus gfs food safety certification» (5)."
+     },
+     {
+      "texto": "primusgfs certification",
+      "concordancia": "frase",
+      "grupo": "PrimusGFS Core Generic",
+      "accion": "agregar",
+      "motivo": "La búsqueda orgánica más grande: 757 impresiones en posición 21,2; hoy solo está en exacta. Cubre «primusgfs certification programs» (29) y «primusgfs certification company» (23)."
+     },
+     {
+      "texto": "primus certification",
+      "concordancia": "frase",
+      "grupo": "PrimusGFS Core Generic",
+      "accion": "agregar",
+      "motivo": "Orgánico: 55 impresiones; «primus 3.2 certification» 101."
+     },
+     {
+      "texto": "primus audit",
+      "concordancia": "frase",
+      "grupo": "PrimusGFS Core Generic",
+      "accion": "agregar",
+      "motivo": "Orgánico: 48 impresiones en posición 29,7."
+     },
+     {
+      "texto": "what is PrimusGFS",
+      "concordancia": "frase",
+      "grupo": "PrimusGFS Core Generic",
+      "accion": "pausar",
+      "motivo": "Nunca puede publicar: la campaña tiene «what is» como negativa amplia."
+     }
+    ],
+    "negativas": [
+     {
+      "texto": "consultant",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "En agosto, lo único que gastó la campaña fue «gfsi consultant»: 3 clics y ARS 20.951 de ARS 25.941. Pedida en septiembre y sin cargar."
+     },
+     {
+      "texto": "nsf",
+      "concordancia": "amplia",
+      "nivel": "campaña",
+      "motivo": "Orgánico: «nsf primusgfs certification» 216 impresiones: buscan a otro organismo certificador; la frase «primusgfs certification» del paso 2 la traería."
+     }
+    ],
+    "negativas_decision": "Sí: «consultant» (lo único que gastó en agosto) y «nsf» (competidor, 216 impresiones orgánicas). «login» y «portal» ya están (cubren «primus gfs login», 229, y «primusgfs login», 189).",
+    "organico": [
+     {
+      "query": "primusgfs certification",
+      "impr": 757,
+      "pos": 21.2
+     },
+     {
+      "query": "primusgfs",
+      "impr": 585,
+      "pos": 18.9
+     },
+     {
+      "query": "primus gfs",
+      "impr": 393,
+      "pos": 20.4
+     },
+     {
+      "query": "nsf primusgfs certification",
+      "impr": 216,
+      "pos": 25.6
+     },
+     {
+      "query": "primus 3.2 certification",
+      "impr": 101,
+      "pos": 32.1
+     },
+     {
+      "query": "primus certification",
+      "impr": 55,
+      "pos": 17.4
+     },
+     {
+      "query": "primus audit",
+      "impr": 48,
+      "pos": 29.7
+     },
+     {
+      "query": "primus gfs certification",
+      "impr": 32,
+      "pos": 9.8
+     }
+    ],
+    "organico_desde": "Estados Unidos",
+    "organico_hasta": "14 sep 2026",
+    "datos_hasta": "21 oct 2026"
+   }
+  }
+ ],
+ "descartes": [
+  {
+   "clave": "CU:SEM:plan:canada:cannabis-se-retiro-cumcs-rankea-2o-sin-campana",
+   "motivo": "No conviene una campaña de defensa de «cumcs». (1) «CU Canada - Cannabis - Search» está eliminada y sus 6 anuncios figuraban rechazados (DISAPPROVED) en la estructura al 21 oct 2026, con la misma landing de cannabis que se proponía reusar: una campaña nueva hacia la página del estándar corre el mismo riesgo de rechazo (el motivo exacto se ve en la columna «Estado» del anuncio; no está en los datos). (2) CUMCS es el estándar propio de Control Union y ya rankea solo: «cumcs» 1.107 impresiones en posición 1,9 y «cumcs-g.a.p» 89 en posición 1,1, las dos hacia /certification-program/control-union-medical-cannabis-standard/; pagarlo sería canibalización. (3) La demanda casi no es canadiense: de las búsquedas con «cumcs», 239 vienen de EE. UU., 202 de Bulgaria, 88 de India, 81 del Reino Unido y solo 65 de Canadá (Search Console, histórico al 14 sep 2026)."
+  }
+ ]
+}

@@ -1,0 +1,1598 @@
+{
+ "periodo": "2025-12-01 a 2026-10-22",
+ "dias": 326,
+ "meses": 10.71,
+ "sitios": {
+  "northamerica": {
+   "nombre": "Norteamérica",
+   "vistas_mes_sitio": 1370.8,
+   "rutas_con_trafico": 242,
+   "mediana_sitio": 0.93,
+   "principales": {
+    "home": {
+     "ruta": "/",
+     "vistas_mes": 346.2
+    },
+    "nosotros": {
+     "ruta": "/about-us",
+     "vistas_mes": 41.5
+    },
+    "industrias (hub)": {
+     "ruta": "/industries",
+     "vistas_mes": 31.0
+    },
+    "programas (hub)": {
+     "ruta": "/certification-programs",
+     "vistas_mes": 125.4
+    },
+    "academy": {
+     "ruta": "/academy",
+     "vistas_mes": 12.5
+    },
+    "vacantes": {
+     "ruta": "/vacancies",
+     "vistas_mes": 55.7
+    },
+    "contacto": {
+     "ruta": "/contact",
+     "vistas_mes": 68.7
+    },
+    "servicios (hub)": {
+     "ruta": "/services",
+     "vistas_mes": 8.8
+    },
+    "certificaciones": {
+     "ruta": "/service/certification",
+     "vistas_mes": 46.8
+    },
+    "gestión de garantías": {
+     "ruta": "/service/collateral-management",
+     "vistas_mes": 6.8
+    },
+    "inspecciones de commodities": {
+     "ruta": "/service/commodity-inspections",
+     "vistas_mes": 7.8
+    }
+   },
+   "promedio_principales": 68.3,
+   "promedio_principales_sin_home": 40.5,
+   "industrias": {
+    "paginas": 13,
+    "total_mes": 105.9,
+    "promedio": 8.15,
+    "mediana": 3.83,
+    "max": 31.5,
+    "con_0_vistas": 0,
+    "menos_1_mes": 0,
+    "1_a_5_mes": 8,
+    "5_a_20_mes": 4,
+    "20_o_mas_mes": 1,
+    "top": [
+     [
+      "/industry/forestry",
+      31.5
+     ],
+     [
+      "/industry/organic-agriculture",
+      14.5
+     ],
+     [
+      "/industry/aquaculture-and-fisheries",
+      14.2
+     ],
+     [
+      "/industry/medical-cannabis",
+      13.0
+     ],
+     [
+      "/industry/textile",
+      9.1
+     ]
+    ]
+   },
+   "programas": {
+    "paginas": 57,
+    "total_mes": 267.1,
+    "promedio": 4.69,
+    "mediana": 1.59,
+    "max": 38.0,
+    "con_0_vistas": 0,
+    "menos_1_mes": 11,
+    "1_a_5_mes": 31,
+    "5_a_20_mes": 14,
+    "20_o_mas_mes": 1,
+    "top": [
+     [
+      "/certification-program/usda-organic-nop-certification",
+      38.0
+     ],
+     [
+      "/certification-program/grs-global-recycled-standard",
+      19.3
+     ],
+     [
+      "/certification-program/canadagap",
+      19.0
+     ],
+     [
+      "/certification-program/plant-based-claim-verification",
+      16.8
+     ],
+     [
+      "/certification-program/primusgfs-certification",
+      15.9
+     ]
+    ]
+   },
+   "industrias_en": {},
+   "programas_en": {},
+   "resto": {
+    "paginas": 156,
+    "promedio": 1.57,
+    "mediana": 0.56
+   },
+   "participacion": {
+    "industrias": 7.7,
+    "programas": 19.5,
+    "industrias_en": 0,
+    "programas_en": 0,
+    "principales": 54.8
+   }
+  },
+  "espana": {
+   "nombre": "España",
+   "vistas_mes_sitio": 1422.3,
+   "rutas_con_trafico": 471,
+   "mediana_sitio": 0.84,
+   "principales": {
+    "home": {
+     "ruta": "/",
+     "vistas_mes": 168.3
+    },
+    "nosotros": {
+     "ruta": "/nosotros",
+     "vistas_mes": 36.1
+    },
+    "industrias (hub)": {
+     "ruta": "/industries",
+     "vistas_mes": 11.9
+    },
+    "programas (hub)": {
+     "ruta": "/programas-de-certificacion",
+     "vistas_mes": 76.8
+    },
+    "academy": {
+     "ruta": "/academy",
+     "vistas_mes": 17.7
+    },
+    "vacantes": {
+     "ruta": "/vacantes",
+     "vistas_mes": 28.6
+    },
+    "contacto": {
+     "ruta": "/contacto",
+     "vistas_mes": 40.1
+    },
+    "servicios (hub)": {
+     "ruta": "/servicios",
+     "vistas_mes": 2.1
+    },
+    "certificaciones": {
+     "ruta": "/service/certificaciones",
+     "vistas_mes": 43.6
+    },
+    "inspecciones de commodities": {
+     "ruta": "/service/inspecciones-de-commodities",
+     "vistas_mes": 4.8
+    }
+   },
+   "promedio_principales": 43.0,
+   "promedio_principales_sin_home": 29.1,
+   "industrias": {
+    "paginas": 13,
+    "total_mes": 62.2,
+    "promedio": 4.78,
+    "mediana": 2.15,
+    "max": 28.9,
+    "con_0_vistas": 0,
+    "menos_1_mes": 1,
+    "1_a_5_mes": 9,
+    "5_a_20_mes": 2,
+    "20_o_mas_mes": 1,
+    "top": [
+     [
+      "/industry/seguridad-alimentaria",
+      28.9
+     ],
+     [
+      "/industry/textiles",
+      8.2
+     ],
+     [
+      "/industry/plastico-reciclado",
+      6.2
+     ],
+     [
+      "/industry/biomasa-y-biocombustible",
+      3.0
+     ],
+     [
+      "/industry/bioenergia",
+      2.7
+     ]
+    ]
+   },
+   "programas": {
+    "paginas": 68,
+    "total_mes": 387.7,
+    "promedio": 5.7,
+    "mediana": 2.19,
+    "max": 101.9,
+    "con_0_vistas": 0,
+    "menos_1_mes": 10,
+    "1_a_5_mes": 42,
+    "5_a_20_mes": 13,
+    "20_o_mas_mes": 3,
+    "top": [
+     [
+      "/programa-de-certificacion/certification-program-iso-27001-certification",
+      101.9
+     ],
+     [
+      "/programa-de-certificacion/iso-9001",
+      45.3
+     ],
+     [
+      "/programa-de-certificacion/iso-21401",
+      24.0
+     ],
+     [
+      "/programa-de-certificacion/certificado-ahorro-energetico-cae",
+      15.2
+     ],
+     [
+      "/programa-de-certificacion/gmp",
+      14.1
+     ]
+    ]
+   },
+   "industrias_en": {
+    "paginas": 13,
+    "total_mes": 16.5,
+    "promedio": 1.27,
+    "mediana": 1.12,
+    "max": 2.6,
+    "con_0_vistas": 0,
+    "menos_1_mes": 3,
+    "1_a_5_mes": 10,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/industry/recycled-plastic",
+      2.6
+     ],
+     [
+      "/en/industry/textile",
+      1.9
+     ],
+     [
+      "/en/industry/biomass-and-biofuels",
+      1.8
+     ],
+     [
+      "/en/industry/sustainability",
+      1.4
+     ],
+     [
+      "/en/industry/bioenergy",
+      1.4
+     ]
+    ]
+   },
+   "programas_en": {
+    "paginas": 68,
+    "total_mes": 117.2,
+    "promedio": 1.72,
+    "mediana": 1.21,
+    "max": 18.6,
+    "con_0_vistas": 0,
+    "menos_1_mes": 26,
+    "1_a_5_mes": 40,
+    "5_a_20_mes": 2,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/certification-program/une-en-15343",
+      18.6
+     ],
+     [
+      "/en/certification-program/sustainable-bioenergy-standard",
+      6.9
+     ],
+     [
+      "/en/certification-program/rws-responsible-wool-standard",
+      4.5
+     ],
+     [
+      "/en/certification-program/gmp",
+      4.3
+     ],
+     [
+      "/en/certification-program/certification-program-iso-27001-certification",
+      4.0
+     ]
+    ]
+   },
+   "resto": {
+    "paginas": 299,
+    "promedio": 1.37,
+    "mediana": 0.65
+   },
+   "participacion": {
+    "industrias": 4.4,
+    "programas": 27.3,
+    "industrias_en": 1.2,
+    "programas_en": 8.2,
+    "principales": 30.2
+   }
+  },
+  "peru": {
+   "nombre": "Perú",
+   "vistas_mes_sitio": 2737.9,
+   "rutas_con_trafico": 463,
+   "mediana_sitio": 0.84,
+   "principales": {
+    "home": {
+     "ruta": "/",
+     "vistas_mes": 643.1
+    },
+    "nosotros": {
+     "ruta": "/nosotros",
+     "vistas_mes": 99.0
+    },
+    "industrias (hub)": {
+     "ruta": "/industries",
+     "vistas_mes": 35.0
+    },
+    "programas (hub)": {
+     "ruta": "/programas-de-certificacion",
+     "vistas_mes": 160.8
+    },
+    "academy": {
+     "ruta": "/academy",
+     "vistas_mes": 37.4
+    },
+    "vacantes": {
+     "ruta": "/vacantes",
+     "vistas_mes": 101.9
+    },
+    "contacto": {
+     "ruta": "/contacto",
+     "vistas_mes": 66.7
+    },
+    "certificaciones": {
+     "ruta": "/service/certificaciones",
+     "vistas_mes": 112.3
+    },
+    "inspecciones de commodities": {
+     "ruta": "/service/inspecciones-de-commodities",
+     "vistas_mes": 12.8
+    }
+   },
+   "promedio_principales": 141.0,
+   "promedio_principales_sin_home": 78.2,
+   "industrias": {
+    "paginas": 9,
+    "total_mes": 105.1,
+    "promedio": 11.68,
+    "mediana": 10.74,
+    "max": 28.2,
+    "con_0_vistas": 0,
+    "menos_1_mes": 0,
+    "1_a_5_mes": 1,
+    "5_a_20_mes": 7,
+    "20_o_mas_mes": 1,
+    "top": [
+     [
+      "/industry/organico",
+      28.2
+     ],
+     [
+      "/industry/agri-gap",
+      19.7
+     ],
+     [
+      "/industry/textiles",
+      14.3
+     ],
+     [
+      "/industry/acuicultura-y-pesca",
+      10.7
+     ],
+     [
+      "/industry/seguridad-alimentaria",
+      10.7
+     ]
+    ]
+   },
+   "programas": {
+    "paginas": 56,
+    "total_mes": 452.0,
+    "promedio": 8.07,
+    "mediana": 4.48,
+    "max": 67.7,
+    "con_0_vistas": 0,
+    "menos_1_mes": 2,
+    "1_a_5_mes": 30,
+    "5_a_20_mes": 20,
+    "20_o_mas_mes": 4,
+    "top": [
+     [
+      "/programa-de-certificacion/organic-certification",
+      67.7
+     ],
+     [
+      "/programa-de-certificacion/input-review-program",
+      51.1
+     ],
+     [
+      "/programa-de-certificacion/globalg-a-p",
+      29.1
+     ],
+     [
+      "/programa-de-certificacion/ras-responsible-alpaca-standard",
+      28.4
+     ],
+     [
+      "/programa-de-certificacion/rainforest-alliance",
+      17.6
+     ]
+    ]
+   },
+   "industrias_en": {
+    "paginas": 9,
+    "total_mes": 13.8,
+    "promedio": 1.54,
+    "mediana": 1.31,
+    "max": 2.8,
+    "con_0_vistas": 0,
+    "menos_1_mes": 2,
+    "1_a_5_mes": 7,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/industry/aquaculture-and-fisheries",
+      2.8
+     ],
+     [
+      "/en/industry/organico",
+      2.7
+     ],
+     [
+      "/en/industry/agri-gap",
+      1.9
+     ],
+     [
+      "/en/industry/food",
+      1.6
+     ],
+     [
+      "/en/industry/textiles",
+      1.3
+     ]
+    ]
+   },
+   "programas_en": {
+    "paginas": 57,
+    "total_mes": 131.7,
+    "promedio": 2.31,
+    "mediana": 1.49,
+    "max": 9.1,
+    "con_0_vistas": 0,
+    "menos_1_mes": 15,
+    "1_a_5_mes": 37,
+    "5_a_20_mes": 5,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/certification-program/input-review-program",
+      9.1
+     ],
+     [
+      "/en/certification-program/organic-certification",
+      8.4
+     ],
+     [
+      "/en/certification-program/gots-global-organic-textile-standard",
+      7.8
+     ],
+     [
+      "/en/certification-program/brcgs",
+      6.8
+     ],
+     [
+      "/en/certification-program/ras-responsible-alpaca-standard",
+      6.0
+     ]
+    ]
+   },
+   "resto": {
+    "paginas": 323,
+    "promedio": 2.37,
+    "mediana": 0.56
+   },
+   "participacion": {
+    "industrias": 3.8,
+    "programas": 16.5,
+    "industrias_en": 0.5,
+    "programas_en": 4.8,
+    "principales": 46.3
+   }
+  },
+  "argentina": {
+   "nombre": "Argentina",
+   "vistas_mes_sitio": 1959.2,
+   "rutas_con_trafico": 408,
+   "mediana_sitio": 1.03,
+   "principales": {
+    "home": {
+     "ruta": "/",
+     "vistas_mes": 394.1
+    },
+    "nosotros": {
+     "ruta": "/nosotros",
+     "vistas_mes": 129.9
+    },
+    "industrias (hub)": {
+     "ruta": "/industrias",
+     "vistas_mes": 34.9
+    },
+    "programas (hub)": {
+     "ruta": "/programas-de-certificacion",
+     "vistas_mes": 96.1
+    },
+    "academy": {
+     "ruta": "/academy",
+     "vistas_mes": 26.1
+    },
+    "vacantes": {
+     "ruta": "/vacantes",
+     "vistas_mes": 124.2
+    },
+    "contacto": {
+     "ruta": "/contacto",
+     "vistas_mes": 74.2
+    },
+    "servicios (hub)": {
+     "ruta": "/servicios",
+     "vistas_mes": 8.0
+    },
+    "certificaciones": {
+     "ruta": "/service/certificaciones",
+     "vistas_mes": 65.2
+    },
+    "gestión de garantías": {
+     "ruta": "/service/gestion-de-garantias",
+     "vistas_mes": 33.1
+    },
+    "inspecciones de commodities": {
+     "ruta": "/service/inspecciones-de-commodities",
+     "vistas_mes": 22.2
+    }
+   },
+   "promedio_principales": 91.6,
+   "promedio_principales_sin_home": 61.4,
+   "industrias": {
+    "paginas": 18,
+    "total_mes": 100.7,
+    "promedio": 5.59,
+    "mediana": 4.72,
+    "max": 23.1,
+    "con_0_vistas": 0,
+    "menos_1_mes": 0,
+    "1_a_5_mes": 10,
+    "5_a_20_mes": 7,
+    "20_o_mas_mes": 1,
+    "top": [
+     [
+      "/industry/huella-de-carbono",
+      23.1
+     ],
+     [
+      "/industry/agricultura",
+      9.3
+     ],
+     [
+      "/industry/ganaderia-y-productos-animales",
+      6.3
+     ],
+     [
+      "/industry/organico",
+      5.8
+     ],
+     [
+      "/industry/plasticos",
+      5.8
+     ]
+    ]
+   },
+   "programas": {
+    "paginas": 50,
+    "total_mes": 256.5,
+    "promedio": 5.13,
+    "mediana": 4.16,
+    "max": 34.3,
+    "con_0_vistas": 0,
+    "menos_1_mes": 3,
+    "1_a_5_mes": 34,
+    "5_a_20_mes": 11,
+    "20_o_mas_mes": 2,
+    "top": [
+     [
+      "/programa-de-certificacion/iso-27001",
+      34.3
+     ],
+     [
+      "/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion",
+      30.8
+     ],
+     [
+      "/programa-de-certificacion/smeta",
+      17.5
+     ],
+     [
+      "/programa-de-certificacion/bienestar-animal",
+      11.5
+     ],
+     [
+      "/programa-de-certificacion/rws-responsible-wool-standard",
+      10.7
+     ]
+    ]
+   },
+   "industrias_en": {
+    "paginas": 18,
+    "total_mes": 21.9,
+    "promedio": 1.22,
+    "mediana": 1.12,
+    "max": 1.9,
+    "con_0_vistas": 0,
+    "menos_1_mes": 5,
+    "1_a_5_mes": 13,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/industry/organic",
+      1.9
+     ],
+     [
+      "/en/industry/agriculture",
+      1.8
+     ],
+     [
+      "/en/industry/sugar",
+      1.6
+     ],
+     [
+      "/en/industry/carbon-footprint",
+      1.4
+     ],
+     [
+      "/en/industry/social-compliance-safety",
+      1.4
+     ]
+    ]
+   },
+   "programas_en": {
+    "paginas": 51,
+    "total_mes": 78.6,
+    "promedio": 1.54,
+    "mediana": 1.21,
+    "max": 9.8,
+    "con_0_vistas": 0,
+    "menos_1_mes": 21,
+    "1_a_5_mes": 28,
+    "5_a_20_mes": 2,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/certification-program/visec-traceability-platform-for-deforestation-free-soy-and-beef",
+      9.8
+     ],
+     [
+      "/en/certification-program/rws-responsible-wool-standard",
+      5.2
+     ],
+     [
+      "/en/certification-program/smeta",
+      4.6
+     ],
+     [
+      "/en/certification-program/control-union-medical-cannabis-standard",
+      2.9
+     ],
+     [
+      "/en/certification-program/plant-based-claim-verification-for-food-beverage-products",
+      2.6
+     ]
+    ]
+   },
+   "resto": {
+    "paginas": 260,
+    "promedio": 1.9,
+    "mediana": 0.56
+   },
+   "participacion": {
+    "industrias": 5.1,
+    "programas": 13.1,
+    "industrias_en": 1.1,
+    "programas_en": 4.0,
+    "principales": 51.5
+   }
+  },
+  "portugal": {
+   "nombre": "Portugal",
+   "vistas_mes_sitio": 716.4,
+   "rutas_con_trafico": 337,
+   "mediana_sitio": 0.93,
+   "principales": {
+    "home": {
+     "ruta": "/",
+     "vistas_mes": 119.7
+    },
+    "nosotros": {
+     "ruta": "/quem-somos",
+     "vistas_mes": 20.5
+    },
+    "industrias (hub)": {
+     "ruta": "/industrias",
+     "vistas_mes": 9.6
+    },
+    "programas (hub)": {
+     "ruta": "/esquemas-de-certificacao",
+     "vistas_mes": 49.4
+    },
+    "academy": {
+     "ruta": "/academy",
+     "vistas_mes": 14.2
+    },
+    "vacantes": {
+     "ruta": "/vagas",
+     "vistas_mes": 15.8
+    },
+    "contacto": {
+     "ruta": "/contacto",
+     "vistas_mes": 23.4
+    },
+    "servicios (hub)": {
+     "ruta": "/services",
+     "vistas_mes": 1.0
+    },
+    "certificaciones": {
+     "ruta": "/certificacoes",
+     "vistas_mes": 28.4
+    },
+    "inspecciones de commodities": {
+     "ruta": "/service/servicos/inspeccoes",
+     "vistas_mes": 6.0
+    }
+   },
+   "promedio_principales": 28.8,
+   "promedio_principales_sin_home": 18.7,
+   "industrias": {
+    "paginas": 13,
+    "total_mes": 23.9,
+    "promedio": 1.84,
+    "mediana": 1.31,
+    "max": 5.7,
+    "con_0_vistas": 0,
+    "menos_1_mes": 1,
+    "1_a_5_mes": 11,
+    "5_a_20_mes": 1,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/industry/texteis",
+      5.7
+     ],
+     [
+      "/industry/biomassa-e-biocombustiveis",
+      2.8
+     ],
+     [
+      "/industry/plasticos-e-embalagens",
+      2.1
+     ],
+     [
+      "/industry/seguranca-de-alimentos",
+      2.1
+     ],
+     [
+      "/industry/florestal",
+      1.9
+     ]
+    ]
+   },
+   "programas": {
+    "paginas": 68,
+    "total_mes": 158.5,
+    "promedio": 2.33,
+    "mediana": 1.54,
+    "max": 10.1,
+    "con_0_vistas": 0,
+    "menos_1_mes": 11,
+    "1_a_5_mes": 51,
+    "5_a_20_mes": 6,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/programas-de-certificacao/gmp",
+      10.1
+     ],
+     [
+      "/programas-de-certificacao/grs-global-recycled-standard",
+      9.5
+     ],
+     [
+      "/programas-de-certificacao/smeta",
+      8.5
+     ],
+     [
+      "/programas-de-certificacao/gots-global-organic-textile-standard",
+      8.1
+     ],
+     [
+      "/programas-de-certificacao/iscc-certified-biomass-and-bioenergy",
+      8.0
+     ]
+    ]
+   },
+   "industrias_en": {
+    "paginas": 13,
+    "total_mes": 10.1,
+    "promedio": 0.78,
+    "mediana": 0.75,
+    "max": 1.2,
+    "con_0_vistas": 0,
+    "menos_1_mes": 12,
+    "1_a_5_mes": 1,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/industry/food-safety",
+      1.2
+     ],
+     [
+      "/en/industry/agriculture",
+      0.9
+     ],
+     [
+      "/en/industry/textiles",
+      0.9
+     ],
+     [
+      "/en/industry/sustainability",
+      0.8
+     ],
+     [
+      "/en/industry/social-compliance-safety",
+      0.8
+     ]
+    ]
+   },
+   "programas_en": {
+    "paginas": 68,
+    "total_mes": 73.2,
+    "promedio": 1.08,
+    "mediana": 0.93,
+    "max": 4.2,
+    "con_0_vistas": 0,
+    "menos_1_mes": 38,
+    "1_a_5_mes": 30,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/certification-program/grs-global-recycled-standard",
+      4.2
+     ],
+     [
+      "/en/certification-program/cumcs-control-union-medical-cannabis-standard",
+      3.0
+     ],
+     [
+      "/en/certification-program/smeta",
+      2.4
+     ],
+     [
+      "/en/certification-program/gmp",
+      1.9
+     ],
+     [
+      "/en/certification-program/zero-waste",
+      1.9
+     ]
+    ]
+   },
+   "resto": {
+    "paginas": 165,
+    "promedio": 0.99,
+    "mediana": 0.47
+   },
+   "participacion": {
+    "industrias": 3.3,
+    "programas": 22.1,
+    "industrias_en": 1.4,
+    "programas_en": 10.2,
+    "principales": 40.2
+   }
+  },
+  "brasil": {
+   "nombre": "Brasil",
+   "vistas_mes_sitio": 1485.8,
+   "rutas_con_trafico": 344,
+   "mediana_sitio": 0.65,
+   "principales": {
+    "home": {
+     "ruta": "/",
+     "vistas_mes": 428.1
+    },
+    "nosotros": {
+     "ruta": "/quem-somos",
+     "vistas_mes": 86.9
+    },
+    "industrias (hub)": {
+     "ruta": "/industrias",
+     "vistas_mes": 24.9
+    },
+    "programas (hub)": {
+     "ruta": "/programas-de-certificacao",
+     "vistas_mes": 100.1
+    },
+    "academy": {
+     "ruta": "/academy-home",
+     "vistas_mes": 28.9
+    },
+    "vacantes": {
+     "ruta": "/vagas",
+     "vistas_mes": 109.7
+    },
+    "contacto": {
+     "ruta": "/contato",
+     "vistas_mes": 105.7
+    },
+    "servicios (hub)": {
+     "ruta": "/servicos",
+     "vistas_mes": 4.9
+    },
+    "certificaciones": {
+     "ruta": "/service/certificacoes",
+     "vistas_mes": 61.9
+    },
+    "gestión de garantías": {
+     "ruta": "/service/gestao-de-garantias",
+     "vistas_mes": 38.9
+    },
+    "inspecciones de commodities": {
+     "ruta": "/service/servicos/inspeccoes",
+     "vistas_mes": 30.2
+    }
+   },
+   "promedio_principales": 92.7,
+   "promedio_principales_sin_home": 59.2,
+   "industrias": {
+    "paginas": 11,
+    "total_mes": 31.6,
+    "promedio": 2.87,
+    "mediana": 2.99,
+    "max": 4.4,
+    "con_0_vistas": 0,
+    "menos_1_mes": 0,
+    "1_a_5_mes": 11,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/industry/agricultura-organica",
+      4.4
+     ],
+     [
+      "/industry/florestal",
+      3.8
+     ],
+     [
+      "/industry/sustentabilidade",
+      3.6
+     ],
+     [
+      "/industry/seguranca-da-alimentacao-animal",
+      3.5
+     ],
+     [
+      "/industry/seguranca-de-alimentos",
+      3.4
+     ]
+    ]
+   },
+   "programas": {
+    "paginas": 42,
+    "total_mes": 121.2,
+    "promedio": 2.89,
+    "mediana": 2.1,
+    "max": 14.1,
+    "con_0_vistas": 0,
+    "menos_1_mes": 3,
+    "1_a_5_mes": 31,
+    "5_a_20_mes": 8,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/programas-de-certificacao/gmp",
+      14.1
+     ],
+     [
+      "/programas-de-certificacao/regenagri",
+      7.4
+     ],
+     [
+      "/programas-de-certificacao/rtrs-round-table-on-responsible-soy",
+      6.0
+     ],
+     [
+      "/programas-de-certificacao/grs-global-recycled-standard",
+      5.7
+     ],
+     [
+      "/programas-de-certificacao/2bsvs",
+      5.5
+     ]
+    ]
+   },
+   "industrias_en": {
+    "paginas": 11,
+    "total_mes": 9.7,
+    "promedio": 0.88,
+    "mediana": 0.93,
+    "max": 1.2,
+    "con_0_vistas": 0,
+    "menos_1_mes": 6,
+    "1_a_5_mes": 5,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/industry/food-safety",
+      1.2
+     ],
+     [
+      "/en/industry/quality-management-system",
+      1.2
+     ],
+     [
+      "/en/industry/biomass-and-biofuels",
+      1.1
+     ],
+     [
+      "/en/industry/organic-agriculture",
+      1.0
+     ],
+     [
+      "/en/industry/aquaculture-and-fisheries",
+      1.0
+     ]
+    ]
+   },
+   "programas_en": {
+    "paginas": 42,
+    "total_mes": 42.5,
+    "promedio": 1.01,
+    "mediana": 0.84,
+    "max": 2.6,
+    "con_0_vistas": 0,
+    "menos_1_mes": 26,
+    "1_a_5_mes": 16,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/certification-program/fsa-farm-sustainability-assessment",
+      2.6
+     ],
+     [
+      "/en/certification-program/grs-global-recycled-standard",
+      2.1
+     ],
+     [
+      "/en/certification-program/bonsucro",
+      2.1
+     ],
+     [
+      "/en/certification-program/rtrs-round-table-on-responsible-soy",
+      1.9
+     ],
+     [
+      "/en/certification-program/ifs-food",
+      1.9
+     ]
+    ]
+   },
+   "resto": {
+    "paginas": 194,
+    "promedio": 1.33,
+    "mediana": 0.47
+   },
+   "participacion": {
+    "industrias": 2.1,
+    "programas": 8.2,
+    "industrias_en": 0.7,
+    "programas_en": 2.9,
+    "principales": 68.7
+   }
+  },
+  "mexico": {
+   "nombre": "México",
+   "vistas_mes_sitio": 903.7,
+   "rutas_con_trafico": 269,
+   "mediana_sitio": 0.75,
+   "principales": {
+    "home": {
+     "ruta": "/",
+     "vistas_mes": 229.1
+    },
+    "nosotros": {
+     "ruta": "/nosotros",
+     "vistas_mes": 31.0
+    },
+    "industrias (hub)": {
+     "ruta": "/industries",
+     "vistas_mes": 15.5
+    },
+    "programas (hub)": {
+     "ruta": "/programas-de-certificacion",
+     "vistas_mes": 57.9
+    },
+    "academy": {
+     "ruta": "/academy",
+     "vistas_mes": 15.0
+    },
+    "vacantes": {
+     "ruta": "/vacantes",
+     "vistas_mes": 34.5
+    },
+    "contacto": {
+     "ruta": "/contacto-mexico",
+     "vistas_mes": 48.4
+    },
+    "servicios (hub)": {
+     "ruta": "/servicios",
+     "vistas_mes": 3.3
+    },
+    "certificaciones": {
+     "ruta": "/service/certificaciones",
+     "vistas_mes": 38.4
+    },
+    "inspecciones de commodities": {
+     "ruta": "/service/inspecciones-de-commodities",
+     "vistas_mes": 4.9
+    }
+   },
+   "promedio_principales": 47.8,
+   "promedio_principales_sin_home": 27.7,
+   "industrias": {
+    "paginas": 10,
+    "total_mes": 35.9,
+    "promedio": 3.59,
+    "mediana": 2.85,
+    "max": 10.0,
+    "con_0_vistas": 0,
+    "menos_1_mes": 0,
+    "1_a_5_mes": 9,
+    "5_a_20_mes": 1,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/industry/textiles",
+      10.0
+     ],
+     [
+      "/industry/agricultura-organica",
+      4.8
+     ],
+     [
+      "/industry/buenas-practicas-agricolas",
+      3.7
+     ],
+     [
+      "/industry/acuicultura-y-pesca",
+      3.4
+     ],
+     [
+      "/industry/seguridad-alimentaria",
+      3.0
+     ]
+    ]
+   },
+   "programas": {
+    "paginas": 37,
+    "total_mes": 133.3,
+    "promedio": 3.6,
+    "mediana": 2.33,
+    "max": 22.1,
+    "con_0_vistas": 0,
+    "menos_1_mes": 4,
+    "1_a_5_mes": 27,
+    "5_a_20_mes": 5,
+    "20_o_mas_mes": 1,
+    "top": [
+     [
+      "/programa-de-certificacion/organico-mexico",
+      22.1
+     ],
+     [
+      "/programa-de-certificacion/primusgfs",
+      14.6
+     ],
+     [
+      "/programa-de-certificacion/grs-global-recycled-standard",
+      9.3
+     ],
+     [
+      "/programa-de-certificacion/smeta",
+      8.3
+     ],
+     [
+      "/programa-de-certificacion/green-choice-certificacion-turismo-sostenible",
+      6.1
+     ]
+    ]
+   },
+   "industrias_en": {
+    "paginas": 10,
+    "total_mes": 7.5,
+    "promedio": 0.75,
+    "mediana": 0.65,
+    "max": 1.4,
+    "con_0_vistas": 0,
+    "menos_1_mes": 8,
+    "1_a_5_mes": 2,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/industry/organic-agriculture",
+      1.4
+     ],
+     [
+      "/en/industry/food",
+      1.1
+     ],
+     [
+      "/en/industry/textile",
+      0.9
+     ],
+     [
+      "/en/industry/biomass-and-biofuels",
+      0.8
+     ],
+     [
+      "/en/industry/aquaculture-and-fisheries",
+      0.7
+     ]
+    ]
+   },
+   "programas_en": {
+    "paginas": 37,
+    "total_mes": 37.1,
+    "promedio": 1.0,
+    "mediana": 0.84,
+    "max": 4.1,
+    "con_0_vistas": 1,
+    "menos_1_mes": 22,
+    "1_a_5_mes": 15,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/certification-program/organic-mexico",
+      4.1
+     ],
+     [
+      "/en/certification-program/green-choice",
+      2.3
+     ],
+     [
+      "/en/certification-program/iso-27001",
+      2.0
+     ],
+     [
+      "/en/certification-program/ursa-understanding-responsible-sourcing-audit",
+      1.7
+     ],
+     [
+      "/en/certification-program/primusgfs",
+      1.6
+     ]
+    ]
+   },
+   "resto": {
+    "paginas": 166,
+    "promedio": 1.28,
+    "mediana": 0.47
+   },
+   "participacion": {
+    "industrias": 4.0,
+    "programas": 14.8,
+    "industrias_en": 0.8,
+    "programas_en": 4.1,
+    "principales": 52.9
+   }
+  },
+  "chile": {
+   "nombre": "Chile",
+   "vistas_mes_sitio": 556.3,
+   "rutas_con_trafico": 259,
+   "mediana_sitio": 0.56,
+   "principales": {
+    "home": {
+     "ruta": "/",
+     "vistas_mes": 122.9
+    },
+    "nosotros": {
+     "ruta": "/nosotros",
+     "vistas_mes": 19.9
+    },
+    "industrias (hub)": {
+     "ruta": "/industries",
+     "vistas_mes": 9.4
+    },
+    "programas (hub)": {
+     "ruta": "/programas-de-certificacion",
+     "vistas_mes": 36.7
+    },
+    "academy": {
+     "ruta": "/academy",
+     "vistas_mes": 13.0
+    },
+    "vacantes": {
+     "ruta": "/vacantes-chile",
+     "vistas_mes": 16.5
+    },
+    "contacto": {
+     "ruta": "/contacto",
+     "vistas_mes": 27.9
+    },
+    "servicios (hub)": {
+     "ruta": "/servicios",
+     "vistas_mes": 2.3
+    },
+    "certificaciones": {
+     "ruta": "/service/certificaciones",
+     "vistas_mes": 23.2
+    },
+    "gestión de garantías": {
+     "ruta": "/servicios-garantias",
+     "vistas_mes": 0.6
+    },
+    "inspecciones de commodities": {
+     "ruta": "/service/inspecciones-de-commodities",
+     "vistas_mes": 1.8
+    }
+   },
+   "promedio_principales": 24.9,
+   "promedio_principales_sin_home": 15.1,
+   "industrias": {
+    "paginas": 7,
+    "total_mes": 18.7,
+    "promedio": 2.67,
+    "mediana": 2.52,
+    "max": 4.5,
+    "con_0_vistas": 0,
+    "menos_1_mes": 0,
+    "1_a_5_mes": 7,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/industry/acuicultura-y-pesca",
+      4.5
+     ],
+     [
+      "/industry/textiles",
+      3.6
+     ],
+     [
+      "/industry/seguridad-alimentaria",
+      2.9
+     ],
+     [
+      "/industry/agricultura-organica",
+      2.5
+     ],
+     [
+      "/industry/buenas-practicas-agricolas",
+      2.3
+     ]
+    ]
+   },
+   "programas": {
+    "paginas": 23,
+    "total_mes": 75.4,
+    "promedio": 3.28,
+    "mediana": 1.96,
+    "max": 11.1,
+    "con_0_vistas": 0,
+    "menos_1_mes": 1,
+    "1_a_5_mes": 17,
+    "5_a_20_mes": 5,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/programa-de-certificacion/bap-best-aquaculture-practice",
+      11.1
+     ],
+     [
+      "/programa-de-certificacion/ifs-food",
+      7.8
+     ],
+     [
+      "/programa-de-certificacion/grasp",
+      6.4
+     ],
+     [
+      "/programa-de-certificacion/brcgs",
+      6.4
+     ],
+     [
+      "/programa-de-certificacion/organico-chile",
+      6.1
+     ]
+    ]
+   },
+   "industrias_en": {
+    "paginas": 7,
+    "total_mes": 5.9,
+    "promedio": 0.84,
+    "mediana": 0.75,
+    "max": 1.3,
+    "con_0_vistas": 0,
+    "menos_1_mes": 6,
+    "1_a_5_mes": 1,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/industry/food-safety",
+      1.3
+     ],
+     [
+      "/en/industry/good-agricultural-practices",
+      0.9
+     ],
+     [
+      "/en/industry/aquaculture-and-fisheries",
+      0.9
+     ],
+     [
+      "/en/industry/organic-agriculture",
+      0.7
+     ],
+     [
+      "/en/industry/social-compliance-safety",
+      0.7
+     ]
+    ]
+   },
+   "programas_en": {
+    "paginas": 23,
+    "total_mes": 26.8,
+    "promedio": 1.17,
+    "mediana": 1.03,
+    "max": 3.7,
+    "con_0_vistas": 0,
+    "menos_1_mes": 10,
+    "1_a_5_mes": 13,
+    "5_a_20_mes": 0,
+    "20_o_mas_mes": 0,
+    "top": [
+     [
+      "/en/certification-program/organic-chile",
+      3.7
+     ],
+     [
+      "/en/certification-program/grasp",
+      1.9
+     ],
+     [
+      "/en/certification-program/ifs-food",
+      1.9
+     ],
+     [
+      "/en/certification-program/iso-27001",
+      1.6
+     ],
+     [
+      "/en/certification-program/green-choice-certificacion-de-turismo-sostenible",
+      1.6
+     ]
+    ]
+   },
+   "resto": {
+    "paginas": 188,
+    "promedio": 0.83,
+    "mediana": 0.47
+   },
+   "participacion": {
+    "industrias": 3.4,
+    "programas": 13.6,
+    "industrias_en": 1.1,
+    "programas_en": 4.8,
+    "principales": 49.3
+   }
+  }
+ },
+ "grupos": {
+  "1 · NA + España + Perú": {
+   "sitios": [
+    "northamerica",
+    "espana",
+    "peru"
+   ],
+   "promedio_principales": 84.1,
+   "industrias": {
+    "paginas": 35,
+    "total_mes": 273.2,
+    "promedio": 7.81,
+    "5_o_mas": 16
+   },
+   "programas": {
+    "paginas": 181,
+    "total_mes": 1106.8,
+    "promedio": 6.11,
+    "5_o_mas": 55
+   }
+  },
+  "2 · Argentina + Portugal + Brasil": {
+   "sitios": [
+    "argentina",
+    "portugal",
+    "brasil"
+   ],
+   "promedio_principales": 71.0,
+   "industrias": {
+    "paginas": 42,
+    "total_mes": 156.2,
+    "promedio": 3.72,
+    "5_o_mas": 9
+   },
+   "programas": {
+    "paginas": 160,
+    "total_mes": 536.2,
+    "promedio": 3.35,
+    "5_o_mas": 27
+   }
+  },
+  "3 · México + Chile": {
+   "sitios": [
+    "mexico",
+    "chile"
+   ],
+   "promedio_principales": 36.3,
+   "industrias": {
+    "paginas": 17,
+    "total_mes": 54.6,
+    "promedio": 3.21,
+    "5_o_mas": 1
+   },
+   "programas": {
+    "paginas": 60,
+    "total_mes": 208.7,
+    "promedio": 3.48,
+    "5_o_mas": 11
+   }
+  }
+ }
+}

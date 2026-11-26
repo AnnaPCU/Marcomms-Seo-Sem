@@ -1,0 +1,4927 @@
+{
+ "Argentina": {
+  "marca": "CU",
+  "paises": [
+   "arg"
+  ],
+  "tramos": [
+   "jun–ago 25",
+   "jun–ago 26"
+  ],
+  "impr": 294810,
+  "clics": 7968,
+  "queries": 13798,
+  "pos": 13.7,
+  "ctr": 2.7,
+  "primera": "2025-05-04",
+  "pct_pais": 47,
+  "impr_pais_sin_marca": 56567,
+  "top_queries": [
+   {
+    "query": "visec",
+    "impr": 5535,
+    "clics": 67,
+    "pos": 5.44,
+    "ctr": 1.21,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+    "page_path": "/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+    "norma": "VISEC"
+   },
+   {
+    "query": "fsa",
+    "impr": 4435,
+    "clics": 13,
+    "pos": 3.87,
+    "ctr": 0.29,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/fsa-farm-sustainability-assessment/",
+    "page_path": "/programa-de-certificacion/fsa-farm-sustainability-assessment/",
+    "norma": "FSA"
+   },
+   {
+    "query": "visec carne",
+    "impr": 4369,
+    "clics": 28,
+    "pos": 8.46,
+    "ctr": 0.64,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+    "page_path": "/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+    "norma": "VISEC"
+   },
+   {
+    "query": "asc",
+    "impr": 2549,
+    "clics": 1,
+    "pos": 5.58,
+    "ctr": 0.04,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/asc-agricultura-sustentable-certificada/",
+    "page_path": "/programa-de-certificacion/asc-agricultura-sustentable-certificada/",
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "deposito fiscal",
+    "impr": 1992,
+    "clics": 25,
+    "pos": 3.91,
+    "ctr": 1.26,
+    "page": "https://argentina.controlunion.com/service/deposito-fiscal/",
+    "page_path": "/service/deposito-fiscal/",
+    "norma": null
+   },
+   {
+    "query": "iscc",
+    "impr": 1934,
+    "clics": 13,
+    "pos": 6.81,
+    "ctr": 0.67,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/iscc-plus/",
+    "page_path": "/programa-de-certificacion/iscc-plus/",
+    "norma": "ISCC"
+   },
+   {
+    "query": "smeta",
+    "impr": 1607,
+    "clics": 15,
+    "pos": 5.16,
+    "ctr": 0.93,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "rtrs",
+    "impr": 1597,
+    "clics": 5,
+    "pos": 5.26,
+    "ctr": 0.31,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/rtrs-produccion-round-table-on-responsible-soy/",
+    "page_path": "/programa-de-certificacion/rtrs-produccion-round-table-on-responsible-soy/",
+    "norma": "RTRS"
+   },
+   {
+    "query": "cfr",
+    "impr": 1345,
+    "clics": 0,
+    "pos": 8.9,
+    "ctr": 0.0,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/cfr-clean-fuel-regulation/",
+    "page_path": "/programa-de-certificacion/cfr-clean-fuel-regulation/",
+    "norma": null
+   },
+   {
+    "query": "gots",
+    "impr": 911,
+    "clics": 1,
+    "pos": 3.97,
+    "ctr": 0.11,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/gots-global-organic-textile-standard/",
+    "page_path": "/programa-de-certificacion/gots-global-organic-textile-standard/",
+    "norma": "GOTS"
+   }
+  ],
+  "quick_wins": [
+   {
+    "query": "visec carne",
+    "impr": 4369,
+    "clics": 28,
+    "pos": 8.46,
+    "ctr": 0.64,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+    "page_path": "/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+    "norma": "VISEC"
+   },
+   {
+    "query": "cfr",
+    "impr": 1345,
+    "clics": 0,
+    "pos": 8.9,
+    "ctr": 0.0,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/cfr-clean-fuel-regulation/",
+    "page_path": "/programa-de-certificacion/cfr-clean-fuel-regulation/",
+    "norma": null
+   },
+   {
+    "query": "sedex argentina",
+    "impr": 724,
+    "clics": 1,
+    "pos": 8.8,
+    "ctr": 0.14,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "warrants",
+    "impr": 640,
+    "clics": 4,
+    "pos": 8.6,
+    "ctr": 0.62,
+    "page": "https://argentina.controlunion.com/service/gestion-de-garantias/warrants-cma/",
+    "page_path": "/service/gestion-de-garantias/warrants-cma/",
+    "norma": null
+   },
+   {
+    "query": "warrant",
+    "impr": 586,
+    "clics": 0,
+    "pos": 10.76,
+    "ctr": 0.0,
+    "page": "https://argentina.controlunion.com/service/gestion-de-garantias/",
+    "page_path": "/service/gestion-de-garantias/",
+    "norma": null
+   },
+   {
+    "query": "fair trade",
+    "impr": 476,
+    "clics": 2,
+    "pos": 8.75,
+    "ctr": 0.42,
+    "page": "https://argentina.controlunion.com/programa-de-certificacion/fair-trade-usa/",
+    "page_path": "/programa-de-certificacion/fair-trade-usa/",
+    "norma": null
+   },
+   {
+    "query": "fsc",
+    "impr": 391,
+    "clics": 0,
+    "pos": 8.65,
+    "ctr": 0.0,
+    "page": "https://argentina.controlunion.com/es/normas-internacionales/fsc-forest-stewardship-council",
+    "page_path": "/es/normas-internacionales/fsc-forest-stewardship-council",
+    "norma": "FSC"
+   },
+   {
+    "query": "eudr",
+    "impr": 315,
+    "clics": 1,
+    "pos": 7.93,
+    "ctr": 0.32,
+    "page": "https://argentina.controlunion.com/eudr-eu-deforestation-regulation/",
+    "page_path": "/eudr-eu-deforestation-regulation/",
+    "norma": "EUDR"
+   },
+   {
+    "query": "depositos fiscales",
+    "impr": 275,
+    "clics": 1,
+    "pos": 9.5,
+    "ctr": 0.36,
+    "page": "https://argentina.controlunion.com/service/deposito-fiscal/",
+    "page_path": "/service/deposito-fiscal/",
+    "norma": null
+   },
+   {
+    "query": "santiago, argentina title services",
+    "impr": 238,
+    "clics": 0,
+    "pos": 11.11,
+    "ctr": 0.0,
+    "page": "https://argentina.controlunion.com/contacto/",
+    "page_path": "/contacto/",
+    "norma": null
+   }
+  ],
+  "profundo": [],
+  "canibalizacion": [
+   {
+    "query": "smeta",
+    "impr": 8917,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/smeta/",
+      "impr": 6344,
+      "pos": 9.48
+     },
+     {
+      "path": "/en/certification-program/smeta/",
+      "impr": 2561,
+      "pos": 12.84
+     }
+    ]
+   },
+   {
+    "query": "visec",
+    "impr": 8812,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+      "impr": 6598,
+      "pos": 5.46
+     },
+     {
+      "path": "/en/certification-program/visec-traceability-platform-for-deforestation-free-soy-and-beef/",
+      "impr": 2214,
+      "pos": 5.6
+     }
+    ]
+   },
+   {
+    "query": "2bsvs",
+    "impr": 2263,
+    "paginas": [
+     {
+      "path": "/en/certification-program/2bsvs/",
+      "impr": 975,
+      "pos": 9.93
+     },
+     {
+      "path": "/programa-de-certificacion/2bsvs/",
+      "impr": 711,
+      "pos": 3.99
+     },
+     {
+      "path": "/en/international-standards/2bsvs-biomass-biofuel-sustainability-voluntary-scheme",
+      "impr": 511,
+      "pos": 4.31
+     }
+    ]
+   },
+   {
+    "query": "draft survey",
+    "impr": 1102,
+    "paginas": [
+     {
+      "path": "/service/inspecciones-de-commodities/draft-survey/",
+      "impr": 773,
+      "pos": 12.8
+     },
+     {
+      "path": "/en/services/draft-survey",
+      "impr": 247,
+      "pos": 29.54
+     }
+    ]
+   },
+   {
+    "query": "fsma certification",
+    "impr": 1039,
+    "paginas": [
+     {
+      "path": "/certification-service/fsma-readiness/",
+      "impr": 817,
+      "pos": 26.95
+     },
+     {
+      "path": "/en/certification-service/fsma-readiness/",
+      "impr": 222,
+      "pos": 28.57
+     }
+    ]
+   },
+   {
+    "query": "fsa certification",
+    "impr": 1009,
+    "paginas": [
+     {
+      "path": "/en/certification-program/fsa-sai-farm-sustainability-assessment/",
+      "impr": 642,
+      "pos": 6.45
+     },
+     {
+      "path": "/en/certification-program/fsa-farm-sustainability-assessment/",
+      "impr": 365,
+      "pos": 6.82
+     }
+    ]
+   }
+  ],
+  "low_ctr": [
+   {
+    "path": "/programa-de-certificacion/smeta/",
+    "impr": 22535,
+    "clics": 115,
+    "pos": 8.63,
+    "ctr": 0.51
+   },
+   {
+    "path": "/servicios-inspecciones/",
+    "impr": 11472,
+    "clics": 57,
+    "pos": 4.04,
+    "ctr": 0.5
+   },
+   {
+    "path": "/en/contact/",
+    "impr": 3967,
+    "clics": 18,
+    "pos": 9.07,
+    "ctr": 0.45
+   },
+   {
+    "path": "/industrias/",
+    "impr": 3472,
+    "clics": 9,
+    "pos": 3.11,
+    "ctr": 0.26
+   },
+   {
+    "path": "/en/certification-program/2bsvs/",
+    "impr": 2311,
+    "clics": 8,
+    "pos": 7.89,
+    "ctr": 0.35
+   }
+  ],
+  "top_pages": [
+   {
+    "path": "/",
+    "impr": 22981,
+    "clics": 3739,
+    "pos": 5.17,
+    "ctr": 16.27
+   },
+   {
+    "path": "/nosotros/",
+    "impr": 17277,
+    "clics": 498,
+    "pos": 4.82,
+    "ctr": 2.88
+   },
+   {
+    "path": "/contacto/",
+    "impr": 16019,
+    "clics": 271,
+    "pos": 4.54,
+    "ctr": 1.69
+   },
+   {
+    "path": "/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+    "impr": 19492,
+    "clics": 238,
+    "pos": 6.0,
+    "ctr": 1.22
+   },
+   {
+    "path": "/service/deposito-fiscal/",
+    "impr": 18817,
+    "clics": 179,
+    "pos": 7.47,
+    "ctr": 0.95
+   },
+   {
+    "path": "/en/",
+    "impr": 23049,
+    "clics": 141,
+    "pos": 7.15,
+    "ctr": 0.61
+   }
+  ],
+  "perdidas": [
+   {
+    "query": "deposito fiscal",
+    "antes": 801,
+    "despues": 1,
+    "page_path": "/service/deposito-fiscal/"
+   }
+  ],
+  "ganadas": [
+   {
+    "query": "visec",
+    "antes": 34,
+    "despues": 1942
+   },
+   {
+    "query": "fsa",
+    "antes": 191,
+    "despues": 1710
+   },
+   {
+    "query": "visec carne",
+    "antes": 9,
+    "despues": 1360
+   },
+   {
+    "query": "asc",
+    "antes": 0,
+    "despues": 1061
+   },
+   {
+    "query": "cfr",
+    "antes": 4,
+    "despues": 552
+   },
+   {
+    "query": "warrant",
+    "antes": 13,
+    "despues": 538
+   }
+  ],
+  "demanda": [
+   {
+    "query": "smeta",
+    "impr": 8890,
+    "clics": 22,
+    "pos": 10.33,
+    "page_path": "/programa-de-certificacion/smeta/",
+    "pos_page": 9.48,
+    "tiene_pagina": true,
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "visec",
+    "impr": 8803,
+    "clics": 85,
+    "pos": 5.5,
+    "page_path": "/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+    "pos_page": 5.46,
+    "tiene_pagina": true,
+    "norma": "VISEC"
+   },
+   {
+    "query": "fsa",
+    "impr": 5082,
+    "clics": 14,
+    "pos": 4.27,
+    "page_path": "/programa-de-certificacion/fsa-farm-sustainability-assessment/",
+    "pos_page": 3.82,
+    "tiene_pagina": true,
+    "norma": "FSA"
+   },
+   {
+    "query": "visec carne",
+    "impr": 4458,
+    "clics": 30,
+    "pos": 8.43,
+    "page_path": "/programa-de-certificacion/visec-plataforma-de-trazabilidad-para-soja-y-carne-sin-deforestacion/",
+    "pos_page": 8.45,
+    "tiene_pagina": true,
+    "norma": "VISEC"
+   },
+   {
+    "query": "deposito fiscal",
+    "impr": 3430,
+    "clics": 31,
+    "pos": 8.59,
+    "page_path": "/service/deposito-fiscal/",
+    "pos_page": 8.4,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "fsma",
+    "impr": 3407,
+    "clics": 8,
+    "pos": 9.86,
+    "page_path": "/certification-service/fsma-readiness/",
+    "pos_page": 9.83,
+    "tiene_pagina": true,
+    "norma": "FSMA"
+   },
+   {
+    "query": "asc",
+    "impr": 2567,
+    "clics": 2,
+    "pos": 5.62,
+    "page_path": "/programa-de-certificacion/asc-agricultura-sustentable-certificada/",
+    "pos_page": 5.59,
+    "tiene_pagina": true,
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "rtrs",
+    "impr": 2450,
+    "clics": 6,
+    "pos": 5.53,
+    "page_path": "/programa-de-certificacion/rtrs-produccion-round-table-on-responsible-soy/",
+    "pos_page": 5.5,
+    "tiene_pagina": true,
+    "norma": "RTRS"
+   }
+  ],
+  "movil": {
+   "pct": 32.9,
+   "ctr_m": 2.66,
+   "ctr_d": 2.73,
+   "pos_m": 8.79,
+   "pos_d": 11.16
+  },
+  "paginas_total": 630,
+  "paginas_con_clic": 280
+ },
+ "Brasil": {
+  "marca": "CU",
+  "paises": [
+   "bra"
+  ],
+  "tramos": [
+   "mar–may 26",
+   "jun–sep 26"
+  ],
+  "impr": 141775,
+  "clics": 3710,
+  "queries": 5589,
+  "pos": 13.0,
+  "ctr": 2.62,
+  "primera": "2026-03-03",
+  "pct_pais": 80,
+  "impr_pais_sin_marca": 54458,
+  "top_queries": [
+   {
+    "query": "obp",
+    "impr": 4622,
+    "clics": 1,
+    "pos": 6.8,
+    "ctr": 0.02,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/obp-ocean-bound-plastic-certification/",
+    "page_path": "/programas-de-certificacao/obp-ocean-bound-plastic-certification/",
+    "norma": null
+   },
+   {
+    "query": "grs",
+    "impr": 4010,
+    "clics": 3,
+    "pos": 5.09,
+    "ctr": 0.07,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/grs-global-recycled-standard/",
+    "page_path": "/programas-de-certificacao/grs-global-recycled-standard/",
+    "norma": "GRS"
+   },
+   {
+    "query": "gmp",
+    "impr": 3712,
+    "clics": 3,
+    "pos": 10.7,
+    "ctr": 0.08,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+    "page_path": "/programas-de-certificacao/gmp/",
+    "norma": "GMP+"
+   },
+   {
+    "query": "smeta",
+    "impr": 2257,
+    "clics": 4,
+    "pos": 7.58,
+    "ctr": 0.18,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/smeta/",
+    "page_path": "/programas-de-certificacao/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "rspo",
+    "impr": 1845,
+    "clics": 2,
+    "pos": 5.9,
+    "ctr": 0.11,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/rspo-roundtable-on-sustainable-palm-oil/",
+    "page_path": "/programas-de-certificacao/rspo-roundtable-on-sustainable-palm-oil/",
+    "norma": "RSPO"
+   },
+   {
+    "query": "iscc",
+    "impr": 1746,
+    "clics": 5,
+    "pos": 7.14,
+    "ctr": 0.29,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/iscc-certified-biomass-and-bioenergy/",
+    "page_path": "/programas-de-certificacao/iscc-certified-biomass-and-bioenergy/",
+    "norma": "ISCC"
+   },
+   {
+    "query": "gmp+",
+    "impr": 1550,
+    "clics": 12,
+    "pos": 4.94,
+    "ctr": 0.77,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+    "page_path": "/programas-de-certificacao/gmp/",
+    "norma": "GMP+"
+   },
+   {
+    "query": "warrants",
+    "impr": 1510,
+    "clics": 2,
+    "pos": 7.18,
+    "ctr": 0.13,
+    "page": "https://brasil.controlunion.com/service/gestao-de-garantias/warrants-cma/",
+    "page_path": "/service/gestao-de-garantias/warrants-cma/",
+    "norma": null
+   },
+   {
+    "query": "gots",
+    "impr": 1422,
+    "clics": 2,
+    "pos": 5.24,
+    "ctr": 0.14,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/gots-global-organic-textile-standard/",
+    "page_path": "/programas-de-certificacao/gots-global-organic-textile-standard/",
+    "norma": "GOTS"
+   },
+   {
+    "query": "pest control solutions",
+    "impr": 1403,
+    "clics": 0,
+    "pos": 8.34,
+    "ctr": 0.0,
+    "page": "https://brasil.controlunion.com/service/servicos/inspeccoes/pest-control/",
+    "page_path": "/service/servicos/inspeccoes/pest-control/",
+    "norma": null
+   }
+  ],
+  "quick_wins": [
+   {
+    "query": "gmp",
+    "impr": 3712,
+    "clics": 3,
+    "pos": 10.7,
+    "ctr": 0.08,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/gmp/",
+    "page_path": "/programas-de-certificacao/gmp/",
+    "norma": "GMP+"
+   },
+   {
+    "query": "smeta",
+    "impr": 2257,
+    "clics": 4,
+    "pos": 7.58,
+    "ctr": 0.18,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/smeta/",
+    "page_path": "/programas-de-certificacao/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "pest control solutions",
+    "impr": 1403,
+    "clics": 0,
+    "pos": 8.34,
+    "ctr": 0.0,
+    "page": "https://brasil.controlunion.com/service/servicos/inspeccoes/pest-control/",
+    "page_path": "/service/servicos/inspeccoes/pest-control/",
+    "norma": null
+   },
+   {
+    "query": "fsma",
+    "impr": 1324,
+    "clics": 1,
+    "pos": 8.28,
+    "ctr": 0.08,
+    "page": "https://brasil.controlunion.com/certification-service/fsma-readiness/",
+    "page_path": "/certification-service/fsma-readiness/",
+    "norma": "FSMA"
+   },
+   {
+    "query": "bonsucro",
+    "impr": 912,
+    "clics": 4,
+    "pos": 8.36,
+    "ctr": 0.44,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/bonsucro/",
+    "page_path": "/programas-de-certificacao/bonsucro/",
+    "norma": null
+   },
+   {
+    "query": "iso 22716",
+    "impr": 698,
+    "clics": 11,
+    "pos": 7.84,
+    "ctr": 1.58,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/iso-22716/",
+    "page_path": "/programas-de-certificacao/iso-22716/",
+    "norma": null
+   },
+   {
+    "query": "fssc 22000",
+    "impr": 634,
+    "clics": 0,
+    "pos": 12.18,
+    "ctr": 0.0,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/fssc-22000-food-safety-system-certification/",
+    "page_path": "/programas-de-certificacao/fssc-22000-food-safety-system-certification/",
+    "norma": "FSSC 22000"
+   },
+   {
+    "query": "fsc",
+    "impr": 341,
+    "clics": 0,
+    "pos": 13.05,
+    "ctr": 0.0,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/fsc-forest-stewardship-council/",
+    "page_path": "/programas-de-certificacao/fsc-forest-stewardship-council/",
+    "norma": "FSC"
+   },
+   {
+    "query": "iscc certificação",
+    "impr": 341,
+    "clics": 2,
+    "pos": 9.97,
+    "ctr": 0.59,
+    "page": "https://brasil.controlunion.com/programas-de-certificacao/iscc-plus/",
+    "page_path": "/programas-de-certificacao/iscc-plus/",
+    "norma": "ISCC"
+   },
+   {
+    "query": "pest control",
+    "impr": 334,
+    "clics": 2,
+    "pos": 10.76,
+    "ctr": 0.6,
+    "page": "https://brasil.controlunion.com/service/servicos/inspeccoes/pest-control/",
+    "page_path": "/service/servicos/inspeccoes/pest-control/",
+    "norma": null
+   }
+  ],
+  "profundo": [],
+  "canibalizacion": [
+   {
+    "query": "gmp+",
+    "impr": 1925,
+    "paginas": [
+     {
+      "path": "/programas-de-certificacao/gmp/",
+      "impr": 1525,
+      "pos": 5.62
+     },
+     {
+      "path": "/en/certification-program/gmp/",
+      "impr": 399,
+      "pos": 20.12
+     }
+    ]
+   },
+   {
+    "query": "iscc",
+    "impr": 1833,
+    "paginas": [
+     {
+      "path": "/programas-de-certificacao/iscc-certified-biomass-and-bioenergy/",
+      "impr": 1030,
+      "pos": 7.06
+     },
+     {
+      "path": "/programas-de-certificacao/iscc-plus/",
+      "impr": 775,
+      "pos": 7.43
+     }
+    ]
+   },
+   {
+    "query": "pefc",
+    "impr": 1147,
+    "paginas": [
+     {
+      "path": "/en/certification-program/pefc/",
+      "impr": 762,
+      "pos": 48.66
+     },
+     {
+      "path": "/programas-de-certificacao/pefc/",
+      "impr": 385,
+      "pos": 7.55
+     }
+    ]
+   },
+   {
+    "query": "gmp fsa",
+    "impr": 1007,
+    "paginas": [
+     {
+      "path": "/en/certification-program/gmp/",
+      "impr": 765,
+      "pos": 22.54
+     },
+     {
+      "path": "/programas-de-certificacao/gmp/",
+      "impr": 241,
+      "pos": 30.97
+     }
+    ]
+   },
+   {
+    "query": "control union santos",
+    "impr": 641,
+    "paginas": [
+     {
+      "path": "/quem-somos/",
+      "impr": 155,
+      "pos": 4.13
+     },
+     {
+      "path": "/contato/",
+      "impr": 154,
+      "pos": 2.29
+     }
+    ]
+   },
+   {
+    "query": "control trabalhe conosco",
+    "impr": 440,
+    "paginas": [
+     {
+      "path": "/vagas/",
+      "impr": 268,
+      "pos": 7.18
+     },
+     {
+      "path": "/carreiras/",
+      "impr": 171,
+      "pos": 5.91
+     }
+    ]
+   }
+  ],
+  "low_ctr": [
+   {
+    "path": "/programas-de-certificacao/grs-global-recycled-standard/",
+    "impr": 9940,
+    "clics": 33,
+    "pos": 5.22,
+    "ctr": 0.33
+   },
+   {
+    "path": "/en/contact/",
+    "impr": 7280,
+    "clics": 32,
+    "pos": 5.15,
+    "ctr": 0.44
+   },
+   {
+    "path": "/programas-de-certificacao/smeta/",
+    "impr": 5616,
+    "clics": 24,
+    "pos": 8.69,
+    "ctr": 0.43
+   },
+   {
+    "path": "/programas-de-certificacao/obp-ocean-bound-plastic-certification/",
+    "impr": 5300,
+    "clics": 6,
+    "pos": 6.73,
+    "ctr": 0.11
+   },
+   {
+    "path": "/programas-de-certificacao/",
+    "impr": 4072,
+    "clics": 19,
+    "pos": 4.39,
+    "ctr": 0.47
+   },
+   {
+    "path": "/programas-de-certificacao/rspo-roundtable-on-sustainable-palm-oil/",
+    "impr": 3276,
+    "clics": 11,
+    "pos": 6.78,
+    "ctr": 0.34
+   }
+  ],
+  "top_pages": [
+   {
+    "path": "/",
+    "impr": 12561,
+    "clics": 2058,
+    "pos": 2.65,
+    "ctr": 16.38
+   },
+   {
+    "path": "/vagas/",
+    "impr": 6269,
+    "clics": 282,
+    "pos": 4.69,
+    "ctr": 4.5
+   },
+   {
+    "path": "/contato/",
+    "impr": 11065,
+    "clics": 203,
+    "pos": 4.02,
+    "ctr": 1.83
+   },
+   {
+    "path": "/en/",
+    "impr": 5294,
+    "clics": 142,
+    "pos": 13.22,
+    "ctr": 2.68
+   },
+   {
+    "path": "/quem-somos/",
+    "impr": 7807,
+    "clics": 113,
+    "pos": 3.6,
+    "ctr": 1.45
+   },
+   {
+    "path": "/carreiras/",
+    "impr": 3405,
+    "clics": 106,
+    "pos": 3.05,
+    "ctr": 3.11
+   }
+  ],
+  "perdidas": [
+   {
+    "query": "pest control solutions",
+    "antes": 1403,
+    "despues": 0,
+    "page_path": "/service/servicos/inspeccoes/pest-control/"
+   },
+   {
+    "query": "fssc 22000",
+    "antes": 561,
+    "despues": 73,
+    "page_path": "/programas-de-certificacao/fssc-22000-food-safety-system-certification/"
+   },
+   {
+    "query": "rainforest alliance",
+    "antes": 442,
+    "despues": 40,
+    "page_path": "/programas-de-certificacao/rainforest-alliance/"
+   },
+   {
+    "query": "asc",
+    "antes": 431,
+    "despues": 23,
+    "page_path": "/programas-de-certificacao/asc-aquaculture-stewardship-council/"
+   }
+  ],
+  "ganadas": [],
+  "demanda": [
+   {
+    "query": "obp",
+    "impr": 4647,
+    "clics": 1,
+    "pos": 6.82,
+    "page_path": "/programas-de-certificacao/obp-ocean-bound-plastic-certification/",
+    "pos_page": 6.8,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "grs",
+    "impr": 4104,
+    "clics": 3,
+    "pos": 5.03,
+    "page_path": "/programas-de-certificacao/grs-global-recycled-standard/",
+    "pos_page": 5.03,
+    "tiene_pagina": true,
+    "norma": "GRS"
+   },
+   {
+    "query": "gmp",
+    "impr": 3722,
+    "clics": 3,
+    "pos": 10.71,
+    "page_path": "/programas-de-certificacao/gmp/",
+    "pos_page": 10.71,
+    "tiene_pagina": true,
+    "norma": "GMP+"
+   },
+   {
+    "query": "smeta",
+    "impr": 2306,
+    "clics": 4,
+    "pos": 8.35,
+    "page_path": "/programas-de-certificacao/smeta/",
+    "pos_page": 8.0,
+    "tiene_pagina": true,
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "gmp+",
+    "impr": 1924,
+    "clics": 12,
+    "pos": 8.63,
+    "page_path": "/programas-de-certificacao/gmp/",
+    "pos_page": 5.62,
+    "tiene_pagina": false,
+    "norma": "GMP+"
+   },
+   {
+    "query": "rspo",
+    "impr": 1870,
+    "clics": 2,
+    "pos": 6.37,
+    "page_path": "/programas-de-certificacao/rspo-roundtable-on-sustainable-palm-oil/",
+    "pos_page": 5.9,
+    "tiene_pagina": true,
+    "norma": "RSPO"
+   },
+   {
+    "query": "iscc",
+    "impr": 1763,
+    "clics": 5,
+    "pos": 7.57,
+    "page_path": "/programas-de-certificacao/iscc-certified-biomass-and-bioenergy/",
+    "pos_page": 7.06,
+    "tiene_pagina": true,
+    "norma": "ISCC"
+   },
+   {
+    "query": "gots",
+    "impr": 1513,
+    "clics": 2,
+    "pos": 8.74,
+    "page_path": "/programas-de-certificacao/gots-global-organic-textile-standard/",
+    "pos_page": 5.22,
+    "tiene_pagina": true,
+    "norma": "GOTS"
+   }
+  ],
+  "movil": {
+   "pct": 34.8,
+   "ctr_m": 2.37,
+   "ctr_d": 2.76,
+   "pos_m": 7.27,
+   "pos_d": 11.94
+  },
+  "paginas_total": 227,
+  "paginas_con_clic": 111
+ },
+ "Chile": {
+  "marca": "CU",
+  "paises": [
+   "chl"
+  ],
+  "tramos": [
+   "mar–may 26",
+   "jun–sep 26"
+  ],
+  "impr": 77192,
+  "clics": 1195,
+  "queries": 2676,
+  "pos": 13.5,
+  "ctr": 1.55,
+  "primera": "2026-03-03",
+  "pct_pais": 50,
+  "impr_pais_sin_marca": 22861,
+  "top_queries": [
+   {
+    "query": "bap",
+    "impr": 2492,
+    "clics": 22,
+    "pos": 6.45,
+    "ctr": 0.88,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/bap-best-aquaculture-practice/",
+    "page_path": "/programa-de-certificacion/bap-best-aquaculture-practice/",
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "grs",
+    "impr": 1884,
+    "clics": 2,
+    "pos": 6.65,
+    "ctr": 0.11,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "norma": "GRS"
+   },
+   {
+    "query": "asc",
+    "impr": 1383,
+    "clics": 6,
+    "pos": 6.92,
+    "ctr": 0.43,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/asc-aquaculture-stewardship-council/",
+    "page_path": "/programa-de-certificacion/asc-aquaculture-stewardship-council/",
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "ifs",
+    "impr": 1364,
+    "clics": 6,
+    "pos": 4.28,
+    "ctr": 0.44,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/ifs-food/",
+    "page_path": "/programa-de-certificacion/ifs-food/",
+    "norma": "IFS"
+   },
+   {
+    "query": "grasp",
+    "impr": 1349,
+    "clics": 21,
+    "pos": 5.85,
+    "ctr": 1.56,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/grasp/",
+    "page_path": "/programa-de-certificacion/grasp/",
+    "norma": "GLOBALG.A.P."
+   },
+   {
+    "query": "brcgs",
+    "impr": 994,
+    "clics": 1,
+    "pos": 8.19,
+    "ctr": 0.1,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/brcgs/",
+    "page_path": "/programa-de-certificacion/brcgs/",
+    "norma": "BRCGS"
+   },
+   {
+    "query": "smeta",
+    "impr": 800,
+    "clics": 0,
+    "pos": 7.92,
+    "ctr": 0.0,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "gots",
+    "impr": 394,
+    "clics": 1,
+    "pos": 6.5,
+    "ctr": 0.25,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/gots-global-organic-textile-standard/",
+    "page_path": "/programa-de-certificacion/gots-global-organic-textile-standard/",
+    "norma": "GOTS"
+   },
+   {
+    "query": "fair trade",
+    "impr": 381,
+    "clics": 0,
+    "pos": 6.41,
+    "ctr": 0.0,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/fair-trade-usa/",
+    "page_path": "/programa-de-certificacion/fair-trade-usa/",
+    "norma": null
+   },
+   {
+    "query": "auditoria smeta",
+    "impr": 231,
+    "clics": 0,
+    "pos": 8.46,
+    "ctr": 0.0,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   }
+  ],
+  "quick_wins": [
+   {
+    "query": "brcgs",
+    "impr": 994,
+    "clics": 1,
+    "pos": 8.19,
+    "ctr": 0.1,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/brcgs/",
+    "page_path": "/programa-de-certificacion/brcgs/",
+    "norma": "BRCGS"
+   },
+   {
+    "query": "smeta",
+    "impr": 800,
+    "clics": 0,
+    "pos": 7.92,
+    "ctr": 0.0,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "auditoria smeta",
+    "impr": 231,
+    "clics": 0,
+    "pos": 8.46,
+    "ctr": 0.0,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "smeta 4 pilares",
+    "impr": 211,
+    "clics": 1,
+    "pos": 7.59,
+    "ctr": 0.47,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "bap certification",
+    "impr": 207,
+    "clics": 3,
+    "pos": 7.91,
+    "ctr": 1.45,
+    "page": "https://chile.controlunion.com/en/certification-program/bap-best-aquaculture-practice/",
+    "page_path": "/en/certification-program/bap-best-aquaculture-practice/",
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "grs significado",
+    "impr": 193,
+    "clics": 0,
+    "pos": 7.64,
+    "ctr": 0.0,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "norma": "GRS"
+   },
+   {
+    "query": "certificaciones",
+    "impr": 170,
+    "clics": 1,
+    "pos": 12.6,
+    "ctr": 0.59,
+    "page": "https://chile.controlunion.com/service/certificaciones/",
+    "page_path": "/service/certificaciones/",
+    "norma": null
+   },
+   {
+    "query": "sedex smeta",
+    "impr": 163,
+    "clics": 1,
+    "pos": 8.55,
+    "ctr": 0.61,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "certificacion ifs",
+    "impr": 160,
+    "clics": 0,
+    "pos": 10.57,
+    "ctr": 0.0,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/ifs-food/",
+    "page_path": "/programa-de-certificacion/ifs-food/",
+    "norma": "IFS"
+   },
+   {
+    "query": "msc",
+    "impr": 152,
+    "clics": 0,
+    "pos": 9.39,
+    "ctr": 0.0,
+    "page": "https://chile.controlunion.com/programa-de-certificacion/msc-marine-stewardship-council/",
+    "page_path": "/programa-de-certificacion/msc-marine-stewardship-council/",
+    "norma": "MSC / ASC / BAP"
+   }
+  ],
+  "profundo": [],
+  "canibalizacion": [
+   {
+    "query": "nch 2861",
+    "impr": 179,
+    "paginas": [
+     {
+      "path": "/en/certification-program/norma-tecnica-chile-nch-2861-haccp/",
+      "impr": 79,
+      "pos": 6.8
+     },
+     {
+      "path": "/programa-de-certificacion/norma-tecnica-chile-nch-2861-haccp/",
+      "impr": 55,
+      "pos": 2.53
+     },
+     {
+      "path": "/programas-de-certificacion/",
+      "impr": 45,
+      "pos": 7.58
+     }
+    ]
+   },
+   {
+    "query": "aquaculture stewardship council",
+    "impr": 147,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/asc-aquaculture-stewardship-council/",
+      "impr": 86,
+      "pos": 6.98
+     },
+     {
+      "path": "/en/certification-program/asc-aquaculture-stewardship-council/",
+      "impr": 61,
+      "pos": 5.51
+     }
+    ]
+   },
+   {
+    "query": "ifs food",
+    "impr": 112,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/ifs-food/",
+      "impr": 60,
+      "pos": 7.1
+     },
+     {
+      "path": "/en/certification-program/ifs-food/",
+      "impr": 52,
+      "pos": 26.73
+     }
+    ]
+   }
+  ],
+  "low_ctr": [
+   {
+    "path": "/en/cis-login/",
+    "impr": 12005,
+    "clics": 17,
+    "pos": 7.94,
+    "ctr": 0.14
+   },
+   {
+    "path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "impr": 3386,
+    "clics": 7,
+    "pos": 6.43,
+    "ctr": 0.21
+   },
+   {
+    "path": "/programa-de-certificacion/fair-trade-usa/",
+    "impr": 1191,
+    "clics": 4,
+    "pos": 6.66,
+    "ctr": 0.34
+   },
+   {
+    "path": "/how-certifications-works/",
+    "impr": 1052,
+    "clics": 0,
+    "pos": 9.59,
+    "ctr": 0.0
+   },
+   {
+    "path": "/en/certification-program/grasp/",
+    "impr": 1044,
+    "clics": 3,
+    "pos": 9.05,
+    "ctr": 0.29
+   }
+  ],
+  "top_pages": [
+   {
+    "path": "/",
+    "impr": 3033,
+    "clics": 396,
+    "pos": 7.96,
+    "ctr": 13.06
+   },
+   {
+    "path": "/programa-de-certificacion/bap-best-aquaculture-practice/",
+    "impr": 7669,
+    "clics": 95,
+    "pos": 6.2,
+    "ctr": 1.24
+   },
+   {
+    "path": "/control-de-calidad/",
+    "impr": 8215,
+    "clics": 60,
+    "pos": 30.33,
+    "ctr": 0.73
+   },
+   {
+    "path": "/programa-de-certificacion/norma-tecnica-chile-nch-2861-haccp/",
+    "impr": 801,
+    "clics": 60,
+    "pos": 4.63,
+    "ctr": 7.49
+   },
+   {
+    "path": "/programa-de-certificacion/grasp/",
+    "impr": 2980,
+    "clics": 57,
+    "pos": 5.04,
+    "ctr": 1.91
+   },
+   {
+    "path": "/contacto/",
+    "impr": 1133,
+    "clics": 51,
+    "pos": 4.5,
+    "ctr": 4.5
+   }
+  ],
+  "perdidas": [],
+  "ganadas": [],
+  "demanda": [
+   {
+    "query": "bap",
+    "impr": 2631,
+    "clics": 22,
+    "pos": 6.63,
+    "page_path": "/programa-de-certificacion/bap-best-aquaculture-practice/",
+    "pos_page": 6.63,
+    "tiene_pagina": true,
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "grs",
+    "impr": 1891,
+    "clics": 2,
+    "pos": 6.64,
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "pos_page": 6.64,
+    "tiene_pagina": true,
+    "norma": "GRS"
+   },
+   {
+    "query": "asc",
+    "impr": 1660,
+    "clics": 6,
+    "pos": 7.93,
+    "page_path": "/programa-de-certificacion/asc-aquaculture-stewardship-council/",
+    "pos_page": 7.59,
+    "tiene_pagina": true,
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "control de calidad en frutas",
+    "impr": 1568,
+    "clics": 2,
+    "pos": 26.22,
+    "page_path": "/control-de-calidad/",
+    "pos_page": 26.22,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "brcgs",
+    "impr": 1493,
+    "clics": 1,
+    "pos": 12.55,
+    "page_path": "/programa-de-certificacion/brcgs/",
+    "pos_page": 9.48,
+    "tiene_pagina": true,
+    "norma": "BRCGS"
+   },
+   {
+    "query": "grasp",
+    "impr": 1377,
+    "clics": 21,
+    "pos": 6.12,
+    "page_path": "/programa-de-certificacion/grasp/",
+    "pos_page": 5.93,
+    "tiene_pagina": true,
+    "norma": "GLOBALG.A.P."
+   },
+   {
+    "query": "ifs",
+    "impr": 1364,
+    "clics": 6,
+    "pos": 4.28,
+    "page_path": "/programa-de-certificacion/ifs-food/",
+    "pos_page": 4.22,
+    "tiene_pagina": true,
+    "norma": "IFS"
+   },
+   {
+    "query": "control de calidad de frutas",
+    "impr": 1353,
+    "clics": 0,
+    "pos": 28.8,
+    "page_path": "/control-de-calidad/",
+    "pos_page": 28.8,
+    "tiene_pagina": true,
+    "norma": null
+   }
+  ],
+  "movil": {
+   "pct": 31.3,
+   "ctr_m": 1.39,
+   "ctr_d": 1.62,
+   "pos_m": 7.53,
+   "pos_d": 12.29
+  },
+  "paginas_total": 168,
+  "paginas_con_clic": 71
+ },
+ "España": {
+  "marca": "CU",
+  "paises": [
+   "esp"
+  ],
+  "tramos": [
+   "mar–may 26",
+   "jun–sep 26"
+  ],
+  "impr": 408582,
+  "clics": 3515,
+  "queries": 18311,
+  "pos": 15.0,
+  "ctr": 0.86,
+  "primera": "2026-03-03",
+  "pct_pais": 47,
+  "impr_pais_sin_marca": 120998,
+  "top_queries": [
+   {
+    "query": "iso 45001",
+    "impr": 7859,
+    "clics": 3,
+    "pos": 12.6,
+    "ctr": 0.04,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+    "page_path": "/programa-de-certificacion/iso-45001/",
+    "norma": "ISO 45001"
+   },
+   {
+    "query": "grs",
+    "impr": 7658,
+    "clics": 6,
+    "pos": 9.39,
+    "ctr": 0.08,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "norma": "GRS"
+   },
+   {
+    "query": "sure",
+    "impr": 5716,
+    "clics": 20,
+    "pos": 8.92,
+    "ctr": 0.35,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/sure/",
+    "page_path": "/programa-de-certificacion/sure/",
+    "norma": "SURE"
+   },
+   {
+    "query": "grasp",
+    "impr": 3846,
+    "clics": 17,
+    "pos": 8.67,
+    "ctr": 0.44,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/grasp-globalg-a-p-risk-assessment-on-practice/",
+    "page_path": "/programa-de-certificacion/grasp-globalg-a-p-risk-assessment-on-practice/",
+    "norma": "GLOBALG.A.P."
+   },
+   {
+    "query": "red española de servicios",
+    "impr": 3363,
+    "clics": 20,
+    "pos": 6.68,
+    "ctr": 0.59,
+    "page": "https://espana.controlunion.com/wp-content/uploads/sites/18/2024/08/RED-ESPANOLA-DE-SERVICIOS-S.A.U.-RESSA.pdf",
+    "page_path": "/wp-content/uploads/sites/18/2024/08/RED-ESPANOLA-DE-SERVICIOS-S.A.U.-RESSA.pdf",
+    "norma": null
+   },
+   {
+    "query": "rainforest alliance",
+    "impr": 2743,
+    "clics": 6,
+    "pos": 6.25,
+    "ctr": 0.22,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/rainforest-alliance/",
+    "page_path": "/programa-de-certificacion/rainforest-alliance/",
+    "norma": "Rainforest Alliance"
+   },
+   {
+    "query": "iscc",
+    "impr": 1876,
+    "clics": 2,
+    "pos": 7.18,
+    "ctr": 0.11,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/iscc-plus/",
+    "page_path": "/programa-de-certificacion/iscc-plus/",
+    "norma": "ISCC"
+   },
+   {
+    "query": "smeta",
+    "impr": 1757,
+    "clics": 4,
+    "pos": 7.76,
+    "ctr": 0.23,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "ocs",
+    "impr": 1434,
+    "clics": 3,
+    "pos": 10.06,
+    "ctr": 0.21,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/ocs-blended-organic-content-standard/",
+    "page_path": "/programa-de-certificacion/ocs-blended-organic-content-standard/",
+    "norma": null
+   },
+   {
+    "query": "certificado iso 45001",
+    "impr": 1149,
+    "clics": 0,
+    "pos": 13.19,
+    "ctr": 0.0,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+    "page_path": "/programa-de-certificacion/iso-45001/",
+    "norma": "ISO 45001"
+   }
+  ],
+  "quick_wins": [
+   {
+    "query": "iso 45001",
+    "impr": 7859,
+    "clics": 3,
+    "pos": 12.6,
+    "ctr": 0.04,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+    "page_path": "/programa-de-certificacion/iso-45001/",
+    "norma": "ISO 45001"
+   },
+   {
+    "query": "grs",
+    "impr": 7658,
+    "clics": 6,
+    "pos": 9.39,
+    "ctr": 0.08,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "norma": "GRS"
+   },
+   {
+    "query": "sure",
+    "impr": 5716,
+    "clics": 20,
+    "pos": 8.92,
+    "ctr": 0.35,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/sure/",
+    "page_path": "/programa-de-certificacion/sure/",
+    "norma": "SURE"
+   },
+   {
+    "query": "grasp",
+    "impr": 3846,
+    "clics": 17,
+    "pos": 8.67,
+    "ctr": 0.44,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/grasp-globalg-a-p-risk-assessment-on-practice/",
+    "page_path": "/programa-de-certificacion/grasp-globalg-a-p-risk-assessment-on-practice/",
+    "norma": "GLOBALG.A.P."
+   },
+   {
+    "query": "smeta",
+    "impr": 1757,
+    "clics": 4,
+    "pos": 7.76,
+    "ctr": 0.23,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "ocs",
+    "impr": 1434,
+    "clics": 3,
+    "pos": 10.06,
+    "ctr": 0.21,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/ocs-blended-organic-content-standard/",
+    "page_path": "/programa-de-certificacion/ocs-blended-organic-content-standard/",
+    "norma": null
+   },
+   {
+    "query": "certificado iso 45001",
+    "impr": 1149,
+    "clics": 0,
+    "pos": 13.19,
+    "ctr": 0.0,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+    "page_path": "/programa-de-certificacion/iso-45001/",
+    "norma": "ISO 45001"
+   },
+   {
+    "query": "red iii",
+    "impr": 992,
+    "clics": 10,
+    "pos": 9.05,
+    "ctr": 1.01,
+    "page": "https://espana.controlunion.com/insight/un-repaso-a-la-directiva-de-energias-renovables-iii-red-iii-y-el-papel-de-la-certificacion-iscc-eu/",
+    "page_path": "/insight/un-repaso-a-la-directiva-de-energias-renovables-iii-red-iii-y-el-papel-de-la-certificacion-iscc-eu/",
+    "norma": "RED II/III"
+   },
+   {
+    "query": "animal welfare",
+    "impr": 839,
+    "clics": 1,
+    "pos": 8.87,
+    "ctr": 0.12,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/certificacion-bienestar-animal-welfair-iaws/",
+    "page_path": "/programa-de-certificacion/certificacion-bienestar-animal-welfair-iaws/",
+    "norma": null
+   },
+   {
+    "query": "iso 20121",
+    "impr": 729,
+    "clics": 1,
+    "pos": 13.06,
+    "ctr": 0.14,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/iso-20121/",
+    "page_path": "/programa-de-certificacion/iso-20121/",
+    "norma": null
+   }
+  ],
+  "profundo": [
+   {
+    "query": "gots",
+    "impr": 1002,
+    "clics": 0,
+    "pos": 19.0,
+    "ctr": 0.0,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/gots-global-organic-textile-standard/",
+    "page_path": "/programa-de-certificacion/gots-global-organic-textile-standard/",
+    "norma": "GOTS"
+   },
+   {
+    "query": "certificacion iso 45001",
+    "impr": 936,
+    "clics": 0,
+    "pos": 22.68,
+    "ctr": 0.0,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+    "page_path": "/programa-de-certificacion/iso-45001/",
+    "norma": "ISO 45001"
+   },
+   {
+    "query": "control de unión industrial",
+    "impr": 719,
+    "clics": 0,
+    "pos": 24.26,
+    "ctr": 0.0,
+    "page": "https://espana.controlunion.com/nosotros/",
+    "page_path": "/nosotros/",
+    "norma": null
+   },
+   {
+    "query": "ifs",
+    "impr": 568,
+    "clics": 0,
+    "pos": 25.15,
+    "ctr": 0.0,
+    "page": "https://espana.controlunion.com/ifs-paso-a-paso/",
+    "page_path": "/ifs-paso-a-paso/",
+    "norma": "IFS"
+   },
+   {
+    "query": "certificación",
+    "impr": 517,
+    "clics": 1,
+    "pos": 18.06,
+    "ctr": 0.19,
+    "page": "https://espana.controlunion.com/how-certifications-works/",
+    "page_path": "/how-certifications-works/",
+    "norma": null
+   },
+   {
+    "query": "certificación recyclass de proceso de reciclaje",
+    "impr": 428,
+    "clics": 0,
+    "pos": 29.41,
+    "ctr": 0.0,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/recyclass/",
+    "page_path": "/programa-de-certificacion/recyclass/",
+    "norma": "RecyClass"
+   },
+   {
+    "query": "certificación iso 45001",
+    "impr": 412,
+    "clics": 0,
+    "pos": 17.91,
+    "ctr": 0.0,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/iso-45001/",
+    "page_path": "/programa-de-certificacion/iso-45001/",
+    "norma": "ISO 45001"
+   },
+   {
+    "query": "laboratorio acreditado recyclass",
+    "impr": 383,
+    "clics": 0,
+    "pos": 28.81,
+    "ctr": 0.0,
+    "page": "https://espana.controlunion.com/programa-de-certificacion/recyclass/",
+    "page_path": "/programa-de-certificacion/recyclass/",
+    "norma": "RecyClass"
+   }
+  ],
+  "canibalizacion": [
+   {
+    "query": "gmp+",
+    "impr": 2882,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/gmp/",
+      "impr": 1454,
+      "pos": 6.42
+     },
+     {
+      "path": "/en/certification-program/gmp/",
+      "impr": 1425,
+      "pos": 14.68
+     }
+    ]
+   },
+   {
+    "query": "iscc",
+    "impr": 1990,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/iscc-plus/",
+      "impr": 1094,
+      "pos": 7.84
+     },
+     {
+      "path": "/programa-de-certificacion/iscc_eu-international-sustainability-and-carbon-certification/",
+      "impr": 779,
+      "pos": 7.37
+     }
+    ]
+   },
+   {
+    "query": "gstc",
+    "impr": 1882,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/gstc-global-sustainable-tourism-council/",
+      "impr": 1354,
+      "pos": 5.38
+     },
+     {
+      "path": "/en/certification-program/gstc-global-sustainable-tourism-council/",
+      "impr": 528,
+      "pos": 15.25
+     }
+    ]
+   },
+   {
+    "query": "cumcs",
+    "impr": 1665,
+    "paginas": [
+     {
+      "path": "/en/certification-program/control-union-medical-cannabis-standard/",
+      "impr": 1093,
+      "pos": 3.08
+     },
+     {
+      "path": "/programa-de-certificacion/cumcs-control-union-medical-cannabis-standard/",
+      "impr": 523,
+      "pos": 2.94
+     }
+    ]
+   },
+   {
+    "query": "iso 21401",
+    "impr": 1499,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/iso-21401/",
+      "impr": 794,
+      "pos": 2.11
+     },
+     {
+      "path": "/en/certification-program/iso-21401/",
+      "impr": 705,
+      "pos": 5.65
+     }
+    ]
+   },
+   {
+    "query": "certificación de reutilización de plásticos",
+    "impr": 1417,
+    "paginas": [
+     {
+      "path": "/industry/plastico-reciclado/",
+      "impr": 777,
+      "pos": 36.31
+     },
+     {
+      "path": "/programa-de-certificacion/recyclass/",
+      "impr": 630,
+      "pos": 63.3
+     }
+    ]
+   }
+  ],
+  "low_ctr": [
+   {
+    "path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "impr": 15968,
+    "clics": 43,
+    "pos": 8.12,
+    "ctr": 0.27
+   },
+   {
+    "path": "/programa-de-certificacion/certificacion-bienestar-animal-welfair-iaws/",
+    "impr": 11232,
+    "clics": 35,
+    "pos": 8.3,
+    "ctr": 0.31
+   },
+   {
+    "path": "/en/certification-program/certificacion-bienestar-animal-welfair-iaws/",
+    "impr": 8877,
+    "clics": 41,
+    "pos": 6.59,
+    "ctr": 0.46
+   },
+   {
+    "path": "/programa-de-certificacion/grasp-globalg-a-p-risk-assessment-on-practice/",
+    "impr": 8821,
+    "clics": 43,
+    "pos": 7.07,
+    "ctr": 0.49
+   },
+   {
+    "path": "/en/insight/navigating-red-iii-the-impact-of-the-eus-latest-renewable-energy-legislation-on-biomass-certification/",
+    "impr": 5505,
+    "clics": 20,
+    "pos": 7.79,
+    "ctr": 0.36
+   },
+   {
+    "path": "/programa-de-certificacion/rainforest-alliance/",
+    "impr": 5333,
+    "clics": 14,
+    "pos": 8.48,
+    "ctr": 0.26
+   }
+  ],
+  "top_pages": [
+   {
+    "path": "/",
+    "impr": 6053,
+    "clics": 856,
+    "pos": 5.21,
+    "ctr": 14.14
+   },
+   {
+    "path": "/insight/un-repaso-a-la-directiva-de-energias-renovables-iii-red-iii-y-el-papel-de-la-certificacion-iscc-eu/",
+    "impr": 10264,
+    "clics": 290,
+    "pos": 5.63,
+    "ctr": 2.83
+   },
+   {
+    "path": "/programa-de-certificacion/iso-21401/",
+    "impr": 5260,
+    "clics": 263,
+    "pos": 10.71,
+    "ctr": 5.0
+   },
+   {
+    "path": "/en/certification-program/une-en-15343/",
+    "impr": 7301,
+    "clics": 146,
+    "pos": 6.75,
+    "ctr": 2.0
+   },
+   {
+    "path": "/programa-de-certificacion/sure/",
+    "impr": 10116,
+    "clics": 99,
+    "pos": 8.21,
+    "ctr": 0.98
+   },
+   {
+    "path": "/en/",
+    "impr": 2504,
+    "clics": 80,
+    "pos": 17.86,
+    "ctr": 3.19
+   }
+  ],
+  "perdidas": [
+   {
+    "query": "iscc",
+    "antes": 1504,
+    "despues": 253,
+    "page_path": "/programa-de-certificacion/iscc-plus/"
+   },
+   {
+    "query": "iso 20121",
+    "antes": 560,
+    "despues": 132,
+    "page_path": "/programa-de-certificacion/iso-20121/"
+   },
+   {
+    "query": "certificación",
+    "antes": 463,
+    "despues": 39,
+    "page_path": "/how-certifications-works/"
+   },
+   {
+    "query": "haccp",
+    "antes": 449,
+    "despues": 126,
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/"
+   },
+   {
+    "query": "normas iso para hoteles mallorca",
+    "antes": 306,
+    "despues": 0,
+    "page_path": "/programa-de-certificacion/iso-21401/"
+   }
+  ],
+  "ganadas": [
+   {
+    "query": "grs",
+    "antes": 1354,
+    "despues": 6163
+   }
+  ],
+  "demanda": [
+   {
+    "query": "iso 45001",
+    "impr": 62834,
+    "clics": 10,
+    "pos": 10.73,
+    "page_path": "/programa-de-certificacion/iso-45001/",
+    "pos_page": 10.73,
+    "tiene_pagina": true,
+    "norma": "ISO 45001"
+   },
+   {
+    "query": "welfair",
+    "impr": 5196,
+    "clics": 5,
+    "pos": 6.51,
+    "page_path": "/en/certification-program/certificacion-bienestar-animal-welfair-iaws/",
+    "pos_page": 6.2,
+    "tiene_pagina": true,
+    "norma": "Welfair / bienestar animal"
+   },
+   {
+    "query": "grasp",
+    "impr": 4553,
+    "clics": 18,
+    "pos": 8.35,
+    "page_path": "/programa-de-certificacion/grasp-globalg-a-p-risk-assessment-on-practice/",
+    "pos_page": 8.26,
+    "tiene_pagina": true,
+    "norma": "GLOBALG.A.P."
+   },
+   {
+    "query": "red española de servicios",
+    "impr": 3426,
+    "clics": 20,
+    "pos": 6.64,
+    "page_path": "/wp-content/uploads/sites/18/2024/08/RED-ESPANOLA-DE-SERVICIOS-S.A.U.-RESSA.pdf",
+    "pos_page": 6.64,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "iso 45000",
+    "impr": 2865,
+    "clics": 0,
+    "pos": 13.85,
+    "page_path": "/programa-de-certificacion/iso-45001/",
+    "pos_page": 13.85,
+    "tiene_pagina": false,
+    "norma": null
+   },
+   {
+    "query": "sbp",
+    "impr": 2152,
+    "clics": 0,
+    "pos": 7.75,
+    "page_path": "/programa-de-certificacion/sbp-sustainable-biomass-program/",
+    "pos_page": 6.68,
+    "tiene_pagina": true,
+    "norma": "SBP"
+   },
+   {
+    "query": "gstc",
+    "impr": 1880,
+    "clics": 11,
+    "pos": 8.16,
+    "page_path": "/programa-de-certificacion/gstc-global-sustainable-tourism-council/",
+    "pos_page": 5.38,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "cumcs",
+    "impr": 1587,
+    "clics": 9,
+    "pos": 2.91,
+    "page_path": "/en/certification-program/control-union-medical-cannabis-standard/",
+    "pos_page": 3.08,
+    "tiene_pagina": false,
+    "norma": "CUMCS"
+   }
+  ],
+  "movil": {
+   "pct": 31.4,
+   "ctr_m": 0.56,
+   "ctr_d": 1.0,
+   "pos_m": 10.24,
+   "pos_d": 13.22
+  },
+  "paginas_total": 416,
+  "paginas_con_clic": 210
+ },
+ "México": {
+  "marca": "CU",
+  "paises": [
+   "mex"
+  ],
+  "tramos": [
+   "jun–ago 25",
+   "jun–ago 26"
+  ],
+  "impr": 244056,
+  "clics": 3100,
+  "queries": 9893,
+  "pos": 14.7,
+  "ctr": 1.27,
+  "primera": "2025-05-04",
+  "pct_pais": 77,
+  "impr_pais_sin_marca": 104933,
+  "top_queries": [
+   {
+    "query": "grs",
+    "impr": 21761,
+    "clics": 24,
+    "pos": 7.62,
+    "ctr": 0.11,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "norma": "GRS"
+   },
+   {
+    "query": "fsa",
+    "impr": 6125,
+    "clics": 8,
+    "pos": 6.54,
+    "ctr": 0.13,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/fsa-farm-sustainability-assessment/",
+    "page_path": "/programa-de-certificacion/fsa-farm-sustainability-assessment/",
+    "norma": "FSA"
+   },
+   {
+    "query": "fsc",
+    "impr": 5276,
+    "clics": 5,
+    "pos": 8.48,
+    "ctr": 0.09,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/fsc-forest-stewardship-council/",
+    "page_path": "/programa-de-certificacion/fsc-forest-stewardship-council/",
+    "norma": "FSC"
+   },
+   {
+    "query": "smeta",
+    "impr": 5051,
+    "clics": 8,
+    "pos": 9.35,
+    "ctr": 0.16,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "ocs",
+    "impr": 3498,
+    "clics": 0,
+    "pos": 4.55,
+    "ctr": 0.0,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/ocs-blended-organic-content-standard/",
+    "page_path": "/programa-de-certificacion/ocs-blended-organic-content-standard/",
+    "norma": null
+   },
+   {
+    "query": "fair trade",
+    "impr": 3301,
+    "clics": 5,
+    "pos": 8.91,
+    "ctr": 0.15,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/fair-trade-usa/",
+    "page_path": "/programa-de-certificacion/fair-trade-usa/",
+    "norma": null
+   },
+   {
+    "query": "grs que es",
+    "impr": 3016,
+    "clics": 1,
+    "pos": 4.19,
+    "ctr": 0.03,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "norma": "GRS"
+   },
+   {
+    "query": "primusgfs",
+    "impr": 2791,
+    "clics": 15,
+    "pos": 7.33,
+    "ctr": 0.54,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/primusgfs/",
+    "page_path": "/programa-de-certificacion/primusgfs/",
+    "norma": "PrimusGFS"
+   },
+   {
+    "query": "primus gfs",
+    "impr": 2226,
+    "clics": 12,
+    "pos": 7.38,
+    "ctr": 0.54,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/primusgfs/",
+    "page_path": "/programa-de-certificacion/primusgfs/",
+    "norma": "PrimusGFS"
+   },
+   {
+    "query": "reserva de accion climatica",
+    "impr": 1610,
+    "clics": 0,
+    "pos": 4.69,
+    "ctr": 0.0,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/car-reserva-de-accion-climatica-pfm-programa-forestal-mexicano/",
+    "page_path": "/programa-de-certificacion/car-reserva-de-accion-climatica-pfm-programa-forestal-mexicano/",
+    "norma": null
+   }
+  ],
+  "quick_wins": [
+   {
+    "query": "grs",
+    "impr": 21761,
+    "clics": 24,
+    "pos": 7.62,
+    "ctr": 0.11,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "norma": "GRS"
+   },
+   {
+    "query": "fsc",
+    "impr": 5276,
+    "clics": 5,
+    "pos": 8.48,
+    "ctr": 0.09,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/fsc-forest-stewardship-council/",
+    "page_path": "/programa-de-certificacion/fsc-forest-stewardship-council/",
+    "norma": "FSC"
+   },
+   {
+    "query": "smeta",
+    "impr": 5051,
+    "clics": 8,
+    "pos": 9.35,
+    "ctr": 0.16,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "fair trade",
+    "impr": 3301,
+    "clics": 5,
+    "pos": 8.91,
+    "ctr": 0.15,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/fair-trade-usa/",
+    "page_path": "/programa-de-certificacion/fair-trade-usa/",
+    "norma": null
+   },
+   {
+    "query": "smeta certificacion",
+    "impr": 1182,
+    "clics": 0,
+    "pos": 7.91,
+    "ctr": 0.0,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "obp",
+    "impr": 1149,
+    "clics": 4,
+    "pos": 8.0,
+    "ctr": 0.35,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/obp-ocean-bound-plastic-certification/",
+    "page_path": "/programa-de-certificacion/obp-ocean-bound-plastic-certification/",
+    "norma": null
+   },
+   {
+    "query": "rspo",
+    "impr": 647,
+    "clics": 1,
+    "pos": 10.21,
+    "ctr": 0.15,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/rspo-roundtable-on-sustainable-palm-oil/",
+    "page_path": "/programa-de-certificacion/rspo-roundtable-on-sustainable-palm-oil/",
+    "norma": "RSPO"
+   },
+   {
+    "query": "bonsucro",
+    "impr": 599,
+    "clics": 0,
+    "pos": 9.34,
+    "ctr": 0.0,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/bonsucro/",
+    "page_path": "/programa-de-certificacion/bonsucro/",
+    "norma": null
+   },
+   {
+    "query": "quality control",
+    "impr": 530,
+    "clics": 2,
+    "pos": 10.67,
+    "ctr": 0.38,
+    "page": "https://mexico.controlunion.com/control-de-calidad/",
+    "page_path": "/control-de-calidad/",
+    "norma": null
+   },
+   {
+    "query": "certificacion smeta",
+    "impr": 480,
+    "clics": 2,
+    "pos": 7.84,
+    "ctr": 0.42,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/smeta/",
+    "page_path": "/programa-de-certificacion/smeta/",
+    "norma": "SMETA / Sedex"
+   }
+  ],
+  "profundo": [
+   {
+    "query": "certificación",
+    "impr": 681,
+    "clics": 0,
+    "pos": 21.45,
+    "ctr": 0.0,
+    "page": "https://mexico.controlunion.com/como-funcionan-las-certificaciones/",
+    "page_path": "/como-funcionan-las-certificaciones/",
+    "norma": null
+   },
+   {
+    "query": "certificadora mexico",
+    "impr": 614,
+    "clics": 0,
+    "pos": 25.83,
+    "ctr": 0.0,
+    "page": "https://mexico.controlunion.com/service/certificaciones/",
+    "page_path": "/service/certificaciones/",
+    "norma": null
+   },
+   {
+    "query": "global gap",
+    "impr": 567,
+    "clics": 0,
+    "pos": 25.89,
+    "ctr": 0.0,
+    "page": "https://mexico.controlunion.com/en/international-standards/global-gap",
+    "page_path": "/en/international-standards/global-gap",
+    "norma": "GLOBALG.A.P."
+   },
+   {
+    "query": "certificación rspo",
+    "impr": 309,
+    "clics": 0,
+    "pos": 20.64,
+    "ctr": 0.0,
+    "page": "https://mexico.controlunion.com/programa-de-certificacion/rspo-roundtable-on-sustainable-palm-oil/",
+    "page_path": "/programa-de-certificacion/rspo-roundtable-on-sustainable-palm-oil/",
+    "norma": "RSPO"
+   }
+  ],
+  "canibalizacion": [
+   {
+    "query": "fsa",
+    "impr": 6663,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/fsa-farm-sustainability-assessment/",
+      "impr": 4153,
+      "pos": 6.53
+     },
+     {
+      "path": "/es/normas-internacionales/fsa-farm-sustainability-assessment",
+      "impr": 2497,
+      "pos": 6.15
+     }
+    ]
+   },
+   {
+    "query": "obp",
+    "impr": 1898,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/obp-ocean-bound-plastic-certification/",
+      "impr": 1414,
+      "pos": 7.68
+     },
+     {
+      "path": "/en/certification-program/obp-ocean-bound-plastic-certification/",
+      "impr": 424,
+      "pos": 53.69
+     }
+    ]
+   },
+   {
+    "query": "global gap",
+    "impr": 1251,
+    "paginas": [
+     {
+      "path": "/en/international-standards/global-gap",
+      "impr": 566,
+      "pos": 22.51
+     },
+     {
+      "path": "/programa-de-certificacion/globalg-a-p/",
+      "impr": 524,
+      "pos": 43.63
+     }
+    ]
+   },
+   {
+    "query": "global recycled standard",
+    "impr": 986,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/grs-global-recycled-standard/",
+      "impr": 626,
+      "pos": 5.07
+     },
+     {
+      "path": "/en/certification-program/grs-global-recycled-standard/",
+      "impr": 327,
+      "pos": 68.4
+     }
+    ]
+   },
+   {
+    "query": "what is grs in mexico",
+    "impr": 855,
+    "paginas": [
+     {
+      "path": "/en/certification-program/grs-global-recycled-standard/",
+      "impr": 579,
+      "pos": 3.64
+     },
+     {
+      "path": "/programa-de-certificacion/grs-global-recycled-standard/",
+      "impr": 232,
+      "pos": 9.84
+     }
+    ]
+   },
+   {
+    "query": "leaf marque",
+    "impr": 796,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/leaf-marque/",
+      "impr": 528,
+      "pos": 7.23
+     },
+     {
+      "path": "/en/certification-program/leaf-marque/",
+      "impr": 268,
+      "pos": 36.94
+     }
+    ]
+   }
+  ],
+  "low_ctr": [
+   {
+    "path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "impr": 38407,
+    "clics": 102,
+    "pos": 6.57,
+    "ctr": 0.27
+   },
+   {
+    "path": "/programa-de-certificacion/smeta/",
+    "impr": 15880,
+    "clics": 80,
+    "pos": 9.68,
+    "ctr": 0.5
+   },
+   {
+    "path": "/programa-de-certificacion/fair-trade-usa/",
+    "impr": 7438,
+    "clics": 34,
+    "pos": 8.65,
+    "ctr": 0.46
+   },
+   {
+    "path": "/programa-de-certificacion/ocs-blended-organic-content-standard/",
+    "impr": 7023,
+    "clics": 8,
+    "pos": 4.61,
+    "ctr": 0.11
+   },
+   {
+    "path": "/es/normas-internacionales/fsa-farm-sustainability-assessment",
+    "impr": 3034,
+    "clics": 10,
+    "pos": 6.4,
+    "ctr": 0.33
+   },
+   {
+    "path": "/programa-de-certificacion/bonsucro/",
+    "impr": 2521,
+    "clics": 11,
+    "pos": 9.46,
+    "ctr": 0.44
+   }
+  ],
+  "top_pages": [
+   {
+    "path": "/",
+    "impr": 6146,
+    "clics": 924,
+    "pos": 6.72,
+    "ctr": 15.03
+   },
+   {
+    "path": "/programa-de-certificacion/organico-mexico/",
+    "impr": 13745,
+    "clics": 177,
+    "pos": 8.66,
+    "ctr": 1.29
+   },
+   {
+    "path": "/es",
+    "impr": 1138,
+    "clics": 165,
+    "pos": 6.92,
+    "ctr": 14.5
+   },
+   {
+    "path": "/nosotros/",
+    "impr": 5509,
+    "clics": 164,
+    "pos": 5.87,
+    "ctr": 2.98
+   },
+   {
+    "path": "/programa-de-certificacion/primusgfs/",
+    "impr": 14485,
+    "clics": 157,
+    "pos": 7.24,
+    "ctr": 1.08
+   },
+   {
+    "path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "impr": 38407,
+    "clics": 102,
+    "pos": 6.57,
+    "ctr": 0.27
+   }
+  ],
+  "perdidas": [
+   {
+    "query": "fair trade",
+    "antes": 1025,
+    "despues": 62,
+    "page_path": "/programa-de-certificacion/fair-trade-usa/"
+   },
+   {
+    "query": "obp",
+    "antes": 637,
+    "despues": 0,
+    "page_path": "/programa-de-certificacion/obp-ocean-bound-plastic-certification/"
+   }
+  ],
+  "ganadas": [
+   {
+    "query": "smeta",
+    "antes": 469,
+    "despues": 2203
+   },
+   {
+    "query": "primusgfs",
+    "antes": 76,
+    "despues": 917
+   },
+   {
+    "query": "primus gfs",
+    "antes": 37,
+    "despues": 894
+   },
+   {
+    "query": "asc",
+    "antes": 0,
+    "despues": 541
+   },
+   {
+    "query": "certificación",
+    "antes": 0,
+    "despues": 346
+   },
+   {
+    "query": "sedex smeta",
+    "antes": 15,
+    "despues": 301
+   }
+  ],
+  "demanda": [
+   {
+    "query": "grs",
+    "impr": 22617,
+    "clics": 24,
+    "pos": 7.51,
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "pos_page": 7.52,
+    "tiene_pagina": true,
+    "norma": "GRS"
+   },
+   {
+    "query": "fsa",
+    "impr": 6624,
+    "clics": 8,
+    "pos": 6.39,
+    "page_path": "/programa-de-certificacion/fsa-farm-sustainability-assessment/",
+    "pos_page": 6.53,
+    "tiene_pagina": true,
+    "norma": "FSA"
+   },
+   {
+    "query": "fsc",
+    "impr": 5433,
+    "clics": 5,
+    "pos": 8.61,
+    "page_path": "/programa-de-certificacion/fsc-forest-stewardship-council/",
+    "pos_page": 8.59,
+    "tiene_pagina": true,
+    "norma": "FSC"
+   },
+   {
+    "query": "smeta",
+    "impr": 5202,
+    "clics": 8,
+    "pos": 9.71,
+    "page_path": "/programa-de-certificacion/smeta/",
+    "pos_page": 9.71,
+    "tiene_pagina": true,
+    "norma": "SMETA / Sedex"
+   },
+   {
+    "query": "ocs",
+    "impr": 4341,
+    "clics": 0,
+    "pos": 4.13,
+    "page_path": "/programa-de-certificacion/ocs-blended-organic-content-standard/",
+    "pos_page": 4.1,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "fair trade",
+    "impr": 3374,
+    "clics": 5,
+    "pos": 9.03,
+    "page_path": "/programa-de-certificacion/fair-trade-usa/",
+    "pos_page": 8.96,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "grs que es",
+    "impr": 3232,
+    "clics": 1,
+    "pos": 4.44,
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "pos_page": 4.47,
+    "tiene_pagina": true,
+    "norma": "GRS"
+   },
+   {
+    "query": "primusgfs",
+    "impr": 3130,
+    "clics": 15,
+    "pos": 11.75,
+    "page_path": "/programa-de-certificacion/primusgfs/",
+    "pos_page": 7.4,
+    "tiene_pagina": true,
+    "norma": "PrimusGFS"
+   }
+  ],
+  "movil": {
+   "pct": 41.1,
+   "ctr_m": 0.95,
+   "ctr_d": 1.5,
+   "pos_m": 8.08,
+   "pos_d": 14.88
+  },
+  "paginas_total": 415,
+  "paginas_con_clic": 154
+ },
+ "Norteamérica": {
+  "marca": "CU",
+  "paises": [
+   "can",
+   "usa"
+  ],
+  "tramos": [
+   "mar–may 26",
+   "jun–sep 26"
+  ],
+  "impr": 75107,
+  "clics": 713,
+  "queries": 3254,
+  "pos": 16.0,
+  "ctr": 0.95,
+  "primera": "2026-03-03",
+  "pct_pais": 38,
+  "impr_pais_sin_marca": 12239,
+  "top_queries": [
+   {
+    "query": "temo",
+    "impr": 3425,
+    "clics": 0,
+    "pos": 15.14,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+    "page_path": "/service/commodity-inspections/temo-temperature-monitoring/",
+    "norma": "TEMO"
+   },
+   {
+    "query": "primusgfs certification",
+    "impr": 764,
+    "clics": 0,
+    "pos": 21.02,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/certification-program/primusgfs/",
+    "page_path": "/certification-program/primusgfs/",
+    "norma": "PrimusGFS"
+   },
+   {
+    "query": "primusgfs",
+    "impr": 734,
+    "clics": 2,
+    "pos": 17.04,
+    "ctr": 0.27,
+    "page": "https://northamerica.controlunion.com/certification-program/primusgfs/",
+    "page_path": "/certification-program/primusgfs/",
+    "norma": "PrimusGFS"
+   },
+   {
+    "query": "collateral management services",
+    "impr": 462,
+    "clics": 0,
+    "pos": 45.9,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/service/collateral-management/",
+    "page_path": "/service/collateral-management/",
+    "norma": null
+   },
+   {
+    "query": "primus gfs",
+    "impr": 455,
+    "clics": 0,
+    "pos": 18.87,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/certification-program/primusgfs/",
+    "page_path": "/certification-program/primusgfs/",
+    "norma": "PrimusGFS"
+   },
+   {
+    "query": "what is temo",
+    "impr": 384,
+    "clics": 0,
+    "pos": 7.54,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+    "page_path": "/service/commodity-inspections/temo-temperature-monitoring/",
+    "norma": "TEMO"
+   },
+   {
+    "query": "collateral management solutions",
+    "impr": 333,
+    "clics": 0,
+    "pos": 34.71,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/service/collateral-management/",
+    "page_path": "/service/collateral-management/",
+    "norma": null
+   },
+   {
+    "query": "cumcs",
+    "impr": 304,
+    "clics": 5,
+    "pos": 1.63,
+    "ctr": 1.64,
+    "page": "https://northamerica.controlunion.com/certification-program/control-union-medical-cannabis-standard/",
+    "page_path": "/certification-program/control-union-medical-cannabis-standard/",
+    "norma": "CUMCS"
+   },
+   {
+    "query": "collateral management service",
+    "impr": 227,
+    "clics": 0,
+    "pos": 55.55,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/service/collateral-management/",
+    "page_path": "/service/collateral-management/",
+    "norma": null
+   },
+   {
+    "query": "nsf primusgfs certification",
+    "impr": 216,
+    "clics": 0,
+    "pos": 25.55,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/certification-program/primusgfs/",
+    "page_path": "/certification-program/primusgfs/",
+    "norma": "PrimusGFS"
+   }
+  ],
+  "quick_wins": [
+   {
+    "query": "temo",
+    "impr": 3425,
+    "clics": 0,
+    "pos": 15.14,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+    "page_path": "/service/commodity-inspections/temo-temperature-monitoring/",
+    "norma": "TEMO"
+   },
+   {
+    "query": "what is temo",
+    "impr": 384,
+    "clics": 0,
+    "pos": 7.54,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/service/commodity-inspections/temo-temperature-monitoring/",
+    "page_path": "/service/commodity-inspections/temo-temperature-monitoring/",
+    "norma": "TEMO"
+   },
+   {
+    "query": "fslm",
+    "impr": 164,
+    "clics": 0,
+    "pos": 9.21,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/certification-program/higg-fslm-facility-social-labor-module/",
+    "page_path": "/certification-program/higg-fslm-facility-social-labor-module/",
+    "norma": "FSLM / Higg"
+   }
+  ],
+  "profundo": [
+   {
+    "query": "primusgfs certification",
+    "impr": 764,
+    "clics": 0,
+    "pos": 21.02,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/certification-program/primusgfs/",
+    "page_path": "/certification-program/primusgfs/",
+    "norma": "PrimusGFS"
+   },
+   {
+    "query": "primusgfs",
+    "impr": 734,
+    "clics": 2,
+    "pos": 17.04,
+    "ctr": 0.27,
+    "page": "https://northamerica.controlunion.com/certification-program/primusgfs/",
+    "page_path": "/certification-program/primusgfs/",
+    "norma": "PrimusGFS"
+   },
+   {
+    "query": "primus gfs",
+    "impr": 455,
+    "clics": 0,
+    "pos": 18.87,
+    "ctr": 0.0,
+    "page": "https://northamerica.controlunion.com/certification-program/primusgfs/",
+    "page_path": "/certification-program/primusgfs/",
+    "norma": "PrimusGFS"
+   }
+  ],
+  "canibalizacion": [
+   {
+    "query": "control union canada",
+    "impr": 803,
+    "paginas": [
+     {
+      "path": "/",
+      "impr": 252,
+      "pos": 1.5
+     },
+     {
+      "path": "/contact/",
+      "impr": 237,
+      "pos": 3.99
+     }
+    ]
+   },
+   {
+    "query": "control union usa",
+    "impr": 776,
+    "paginas": [
+     {
+      "path": "/",
+      "impr": 197,
+      "pos": 1.04
+     },
+     {
+      "path": "/contact/",
+      "impr": 196,
+      "pos": 1.87
+     }
+    ]
+   },
+   {
+    "query": "primusgfs certification",
+    "impr": 772,
+    "paginas": [
+     {
+      "path": "/certification-program/primusgfs/",
+      "impr": 484,
+      "pos": 18.62
+     },
+     {
+      "path": "/certification-program/primusgfs-certification/",
+      "impr": 288,
+      "pos": 25.03
+     }
+    ]
+   },
+   {
+    "query": "primus gfs",
+    "impr": 514,
+    "paginas": [
+     {
+      "path": "/certification-program/primusgfs/",
+      "impr": 401,
+      "pos": 16.59
+     },
+     {
+      "path": "/certification-program/primusgfs-certification/",
+      "impr": 113,
+      "pos": 23.09
+     }
+    ]
+   },
+   {
+    "query": "primus gfs login",
+    "impr": 392,
+    "paginas": [
+     {
+      "path": "/certification-program/primusgfs-certification/",
+      "impr": 214,
+      "pos": 7.93
+     },
+     {
+      "path": "/certification-program/primusgfs/",
+      "impr": 178,
+      "pos": 7.9
+     }
+    ]
+   },
+   {
+    "query": "control union certifications",
+    "impr": 322,
+    "paginas": [
+     {
+      "path": "/certification-programs/",
+      "impr": 205,
+      "pos": 15.86
+     },
+     {
+      "path": "/",
+      "impr": 92,
+      "pos": 29.73
+     }
+    ]
+   }
+  ],
+  "low_ctr": [
+   {
+    "path": "/service/commodity-inspections/temo-temperature-monitoring/",
+    "impr": 22485,
+    "clics": 14,
+    "pos": 8.95,
+    "ctr": 0.06
+   },
+   {
+    "path": "/certification-program/higg-fslm-facility-social-labor-module/",
+    "impr": 7132,
+    "clics": 33,
+    "pos": 8.24,
+    "ctr": 0.46
+   },
+   {
+    "path": "/certification-programs/",
+    "impr": 4061,
+    "clics": 21,
+    "pos": 7.96,
+    "ctr": 0.52
+   },
+   {
+    "path": "/certification-program/rcs-100-recycled-claim-standard/",
+    "impr": 2044,
+    "clics": 5,
+    "pos": 9.67,
+    "ctr": 0.24
+   },
+   {
+    "path": "/certification-program/enplus-whole-chain-certification-for-wood-pellets/",
+    "impr": 1172,
+    "clics": 1,
+    "pos": 7.13,
+    "ctr": 0.09
+   }
+  ],
+  "top_pages": [
+   {
+    "path": "/",
+    "impr": 10301,
+    "clics": 383,
+    "pos": 8.13,
+    "ctr": 3.72
+   },
+   {
+    "path": "/contact/",
+    "impr": 6652,
+    "clics": 86,
+    "pos": 6.9,
+    "ctr": 1.29
+   },
+   {
+    "path": "/certification-program/control-union-medical-cannabis-standard/",
+    "impr": 3968,
+    "clics": 44,
+    "pos": 5.22,
+    "ctr": 1.11
+   },
+   {
+    "path": "/certification-program/higg-fslm-facility-social-labor-module/",
+    "impr": 7132,
+    "clics": 33,
+    "pos": 8.24,
+    "ctr": 0.46
+   },
+   {
+    "path": "/certification-programs/",
+    "impr": 4061,
+    "clics": 21,
+    "pos": 7.96,
+    "ctr": 0.52
+   },
+   {
+    "path": "/certification-program/primusgfs-certification/",
+    "impr": 3162,
+    "clics": 18,
+    "pos": 11.72,
+    "ctr": 0.57
+   }
+  ],
+  "perdidas": [
+   {
+    "query": "temo",
+    "antes": 3165,
+    "despues": 249,
+    "page_path": "/service/commodity-inspections/temo-temperature-monitoring/"
+   }
+  ],
+  "ganadas": [
+   {
+    "query": "collateral management services",
+    "antes": 50,
+    "despues": 387
+   }
+  ],
+  "demanda": [
+   {
+    "query": "temo",
+    "impr": 19040,
+    "clics": 6,
+    "pos": 9.33,
+    "page_path": "/service/commodity-inspections/temo-temperature-monitoring/",
+    "pos_page": 9.33,
+    "tiene_pagina": true,
+    "norma": "TEMO"
+   },
+   {
+    "query": "collateral management services",
+    "impr": 1266,
+    "clics": 0,
+    "pos": 49.37,
+    "page_path": "/service/collateral-management/",
+    "pos_page": 49.37,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "fslm",
+    "impr": 1225,
+    "clics": 2,
+    "pos": 8.69,
+    "page_path": "/certification-program/higg-fslm-facility-social-labor-module/",
+    "pos_page": 8.68,
+    "tiene_pagina": true,
+    "norma": "FSLM / Higg"
+   },
+   {
+    "query": "cumcs",
+    "impr": 1107,
+    "clics": 5,
+    "pos": 1.94,
+    "page_path": "/certification-program/control-union-medical-cannabis-standard/",
+    "pos_page": 1.94,
+    "tiene_pagina": false,
+    "norma": "CUMCS"
+   },
+   {
+    "query": "collateral management solutions",
+    "impr": 946,
+    "clics": 0,
+    "pos": 37.2,
+    "page_path": "/service/collateral-management/",
+    "pos_page": 37.2,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "what is temo",
+    "impr": 596,
+    "clics": 0,
+    "pos": 6.24,
+    "page_path": "/service/commodity-inspections/temo-temperature-monitoring/",
+    "pos_page": 6.24,
+    "tiene_pagina": true,
+    "norma": "TEMO"
+   },
+   {
+    "query": "higg fslm",
+    "impr": 569,
+    "clics": 0,
+    "pos": 9.9,
+    "page_path": "/certification-program/higg-fslm-facility-social-labor-module/",
+    "pos_page": 9.18,
+    "tiene_pagina": true,
+    "norma": "FSLM / Higg"
+   },
+   {
+    "query": "iso 22716",
+    "impr": 545,
+    "clics": 1,
+    "pos": 39.19,
+    "page_path": "/certification-program/iso-22716-cosmetic-gmp/",
+    "pos_page": 39.19,
+    "tiene_pagina": true,
+    "norma": null
+   }
+  ],
+  "movil": {
+   "pct": 35.4,
+   "ctr_m": 0.74,
+   "ctr_d": 1.07,
+   "pos_m": 8.6,
+   "pos_d": 14.27
+  },
+  "paginas_total": 95,
+  "paginas_con_clic": 38
+ },
+ "Perú": {
+  "marca": "CU",
+  "paises": [
+   "per"
+  ],
+  "tramos": [
+   "mar–may 26",
+   "jun–sep 26"
+  ],
+  "impr": 792461,
+  "clics": 10773,
+  "queries": 22900,
+  "pos": 8.6,
+  "ctr": 1.36,
+  "primera": "2026-03-03",
+  "pct_pais": 55,
+  "impr_pais_sin_marca": 156326,
+  "top_queries": [
+   {
+    "query": "haccp",
+    "impr": 15252,
+    "clics": 31,
+    "pos": 7.9,
+    "ctr": 0.2,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "norma": null
+   },
+   {
+    "query": "rainforest alliance",
+    "impr": 10328,
+    "clics": 31,
+    "pos": 3.37,
+    "ctr": 0.3,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/rainforest-alliance/",
+    "page_path": "/programa-de-certificacion/rainforest-alliance/",
+    "norma": "Rainforest Alliance"
+   },
+   {
+    "query": "ras",
+    "impr": 6287,
+    "clics": 8,
+    "pos": 5.88,
+    "ctr": 0.13,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/ras-responsible-alpaca-standard/",
+    "page_path": "/programa-de-certificacion/ras-responsible-alpaca-standard/",
+    "norma": null
+   },
+   {
+    "query": "haccp que significa",
+    "impr": 6154,
+    "clics": 2,
+    "pos": 7.88,
+    "ctr": 0.03,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "norma": null
+   },
+   {
+    "query": "politica de privacidad para el tratamiento de datos personales",
+    "impr": 5009,
+    "clics": 29,
+    "pos": 3.57,
+    "ctr": 0.58,
+    "page": "https://peru.controlunion.com/politica-de-privacidad/",
+    "page_path": "/politica-de-privacidad/",
+    "norma": null
+   },
+   {
+    "query": "ocs",
+    "impr": 4407,
+    "clics": 20,
+    "pos": 3.56,
+    "ctr": 0.45,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/ocs-blended-organic-content-standard/",
+    "page_path": "/programa-de-certificacion/ocs-blended-organic-content-standard/",
+    "norma": null
+   },
+   {
+    "query": "leaf",
+    "impr": 3157,
+    "clics": 8,
+    "pos": 8.45,
+    "ctr": 0.25,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/leaf-marque/",
+    "page_path": "/programa-de-certificacion/leaf-marque/",
+    "norma": null
+   },
+   {
+    "query": "grs",
+    "impr": 3118,
+    "clics": 13,
+    "pos": 3.1,
+    "ctr": 0.42,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/grs-global-recycled-standard/",
+    "page_path": "/programa-de-certificacion/grs-global-recycled-standard/",
+    "norma": "GRS"
+   },
+   {
+    "query": "asc",
+    "impr": 3014,
+    "clics": 20,
+    "pos": 5.33,
+    "ctr": 0.66,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/asc-aquaculture-stewardship-council/",
+    "page_path": "/programa-de-certificacion/asc-aquaculture-stewardship-council/",
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "eti",
+    "impr": 2915,
+    "clics": 3,
+    "pos": 4.95,
+    "ctr": 0.1,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/eti-ethical-trading-initiative/",
+    "page_path": "/programa-de-certificacion/eti-ethical-trading-initiative/",
+    "norma": null
+   }
+  ],
+  "quick_wins": [
+   {
+    "query": "haccp",
+    "impr": 15252,
+    "clics": 31,
+    "pos": 7.9,
+    "ctr": 0.2,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "norma": null
+   },
+   {
+    "query": "haccp que significa",
+    "impr": 6154,
+    "clics": 2,
+    "pos": 7.88,
+    "ctr": 0.03,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "norma": null
+   },
+   {
+    "query": "leaf",
+    "impr": 3157,
+    "clics": 8,
+    "pos": 8.45,
+    "ctr": 0.25,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/leaf-marque/",
+    "page_path": "/programa-de-certificacion/leaf-marque/",
+    "norma": null
+   },
+   {
+    "query": "haccp que es",
+    "impr": 1158,
+    "clics": 3,
+    "pos": 9.18,
+    "ctr": 0.26,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "norma": null
+   },
+   {
+    "query": "rms",
+    "impr": 1008,
+    "clics": 1,
+    "pos": 7.99,
+    "ctr": 0.1,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/rms-responsible-mohair-standard/",
+    "page_path": "/programa-de-certificacion/rms-responsible-mohair-standard/",
+    "norma": null
+   },
+   {
+    "query": "que es haccp",
+    "impr": 933,
+    "clics": 2,
+    "pos": 9.51,
+    "ctr": 0.21,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "norma": null
+   },
+   {
+    "query": "sistema haccp",
+    "impr": 887,
+    "clics": 2,
+    "pos": 9.62,
+    "ctr": 0.23,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "norma": null
+   },
+   {
+    "query": "certificación",
+    "impr": 863,
+    "clics": 0,
+    "pos": 9.88,
+    "ctr": 0.0,
+    "page": "https://peru.controlunion.com/how-certifications-works/",
+    "page_path": "/how-certifications-works/",
+    "norma": null
+   },
+   {
+    "query": "academy",
+    "impr": 741,
+    "clics": 3,
+    "pos": 8.11,
+    "ctr": 0.4,
+    "page": "https://peru.controlunion.com/academy/",
+    "page_path": "/academy/",
+    "norma": null
+   },
+   {
+    "query": "rainforest",
+    "impr": 662,
+    "clics": 2,
+    "pos": 7.87,
+    "ctr": 0.3,
+    "page": "https://peru.controlunion.com/programa-de-certificacion/rainforest-alliance/",
+    "page_path": "/programa-de-certificacion/rainforest-alliance/",
+    "norma": "Rainforest Alliance"
+   }
+  ],
+  "profundo": [],
+  "canibalizacion": [
+   {
+    "query": "control union login",
+    "impr": 3460,
+    "paginas": [
+     {
+      "path": "/en/cis-login/",
+      "impr": 2320,
+      "pos": 8.26
+     },
+     {
+      "path": "/en/login/",
+      "impr": 975,
+      "pos": 7.61
+     }
+    ]
+   },
+   {
+    "query": "uebt",
+    "impr": 873,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/uebt-union-for-ethical-bio-trade/",
+      "impr": 563,
+      "pos": 4.02
+     },
+     {
+      "path": "/en/certification-program/uebt-union-for-ethical-bio-trade/",
+      "impr": 310,
+      "pos": 13.55
+     }
+    ]
+   },
+   {
+    "query": "vvgr",
+    "impr": 714,
+    "paginas": [
+     {
+      "path": "/wp-content/uploads/sites/5/2025/06/GEI.P12.CONTR_.A02-EN-VV-General-Rules-v.1.4.pdf",
+      "impr": 331,
+      "pos": 3.66
+     },
+     {
+      "path": "/wp-content/uploads/sites/5/2025/04/GEI.P12.CONTR_.A02-EN-VV-General-Rules-v.1.4.pdf",
+      "impr": 301,
+      "pos": 4.5
+     }
+    ]
+   },
+   {
+    "query": "non gmo",
+    "impr": 677,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/no-genetically-engineered-non-gmo/",
+      "impr": 393,
+      "pos": 7.38
+     },
+     {
+      "path": "/programa-de-certificacion/non-gmo/",
+      "impr": 273,
+      "pos": 6.6
+     }
+    ]
+   },
+   {
+    "query": "cafe practices",
+    "impr": 578,
+    "paginas": [
+     {
+      "path": "/en/certification-program/cafe-practices/",
+      "impr": 407,
+      "pos": 6.89
+     },
+     {
+      "path": "/programa-de-certificacion/cafe-practices/",
+      "impr": 171,
+      "pos": 8.84
+     }
+    ]
+   },
+   {
+    "query": "primus gfs",
+    "impr": 570,
+    "paginas": [
+     {
+      "path": "/programa-de-certificacion/primusgfs/",
+      "impr": 300,
+      "pos": 6.61
+     },
+     {
+      "path": "/en/certification-program/primusgfs/",
+      "impr": 268,
+      "pos": 31.57
+     }
+    ]
+   }
+  ],
+  "low_ctr": [
+   {
+    "path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "impr": 45407,
+    "clics": 127,
+    "pos": 8.0,
+    "ctr": 0.28
+   },
+   {
+    "path": "/wp-content/uploads/sites/5/2023/08/MSC-General-Certification-Requirements-V2.7.pdf",
+    "impr": 32767,
+    "clics": 32,
+    "pos": 8.27,
+    "ctr": 0.1
+   },
+   {
+    "path": "/programa-de-certificacion/rainforest-alliance/",
+    "impr": 27282,
+    "clics": 103,
+    "pos": 3.65,
+    "ctr": 0.38
+   },
+   {
+    "path": "/en/certification-program/koa-korea-organic-aquaculture/",
+    "impr": 26228,
+    "clics": 0,
+    "pos": 6.83,
+    "ctr": 0.0
+   },
+   {
+    "path": "/programa-de-certificacion/usda-nop-organic-regulation-for-usa/",
+    "impr": 23906,
+    "clics": 75,
+    "pos": 8.18,
+    "ctr": 0.31
+   },
+   {
+    "path": "/programa-de-certificacion/eti-ethical-trading-initiative/",
+    "impr": 20928,
+    "clics": 41,
+    "pos": 4.85,
+    "ctr": 0.2
+   }
+  ],
+  "top_pages": [
+   {
+    "path": "/",
+    "impr": 17055,
+    "clics": 2108,
+    "pos": 4.64,
+    "ctr": 12.36
+   },
+   {
+    "path": "/wp-content/uploads/sites/5/2023/08/Sedex-Supplier-Manual-SMETA-7.0.pdf",
+    "impr": 42639,
+    "clics": 1188,
+    "pos": 7.52,
+    "ctr": 2.79
+   },
+   {
+    "path": "/programa-de-certificacion/organic-certification/",
+    "impr": 20949,
+    "clics": 443,
+    "pos": 5.86,
+    "ctr": 2.11
+   },
+   {
+    "path": "/wp-content/uploads/sites/5/2025/01/ISO_14064-1_2018.pdf",
+    "impr": 4229,
+    "clics": 396,
+    "pos": 5.67,
+    "ctr": 9.36
+   },
+   {
+    "path": "/programa-de-certificacion/ras-responsible-alpaca-standard/",
+    "impr": 9998,
+    "clics": 219,
+    "pos": 5.2,
+    "ctr": 2.19
+   },
+   {
+    "path": "/wp-content/uploads/sites/5/2024/12/insumos-aprobados-cup-28042023.pdf",
+    "impr": 4784,
+    "clics": 205,
+    "pos": 7.86,
+    "ctr": 4.29
+   }
+  ],
+  "perdidas": [
+   {
+    "query": "koa certification",
+    "antes": 1151,
+    "despues": 128,
+    "page_path": "/en/certification-program/koa-korea-organic-aquaculture/"
+   },
+   {
+    "query": "haccp que es",
+    "antes": 797,
+    "despues": 213,
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/"
+   },
+   {
+    "query": "bap",
+    "antes": 699,
+    "despues": 127,
+    "page_path": "/programa-de-certificacion/bap-best-aquaculture-practice/"
+   },
+   {
+    "query": "que es haccp",
+    "antes": 629,
+    "despues": 157,
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/"
+   },
+   {
+    "query": "que es eti",
+    "antes": 563,
+    "despues": 135,
+    "page_path": "/programa-de-certificacion/eti-ethical-trading-initiative/"
+   },
+   {
+    "query": "usda organic",
+    "antes": 396,
+    "despues": 59,
+    "page_path": "/programa-de-certificacion/usda-nop-organic-regulation-for-usa/"
+   }
+  ],
+  "ganadas": [
+   {
+    "query": "usda",
+    "antes": 483,
+    "despues": 2120
+   },
+   {
+    "query": "sistema haccp",
+    "antes": 91,
+    "despues": 694
+   },
+   {
+    "query": "fairtrade",
+    "antes": 154,
+    "despues": 562
+   },
+   {
+    "query": "contr",
+    "antes": 60,
+    "despues": 523
+   },
+   {
+    "query": "ccb",
+    "antes": 0,
+    "despues": 475
+   },
+   {
+    "query": "vcs",
+    "antes": 0,
+    "despues": 313
+   }
+  ],
+  "demanda": [
+   {
+    "query": "koa certification",
+    "impr": 26177,
+    "clics": 0,
+    "pos": 6.8,
+    "page_path": "/en/certification-program/koa-korea-organic-aquaculture/",
+    "pos_page": 6.83,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "haccp",
+    "impr": 15416,
+    "clics": 31,
+    "pos": 8.06,
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "pos_page": 8.02,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "rainforest alliance",
+    "impr": 10896,
+    "clics": 32,
+    "pos": 3.43,
+    "page_path": "/programa-de-certificacion/rainforest-alliance/",
+    "pos_page": 3.4,
+    "tiene_pagina": true,
+    "norma": "Rainforest Alliance"
+   },
+   {
+    "query": "asc",
+    "impr": 8588,
+    "clics": 24,
+    "pos": 6.9,
+    "page_path": "/programa-de-certificacion/asc-aquaculture-stewardship-council/",
+    "pos_page": 7.78,
+    "tiene_pagina": true,
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "rain forest",
+    "impr": 6624,
+    "clics": 0,
+    "pos": 1.02,
+    "page_path": "/programa-de-certificacion/rainforest-alliance/",
+    "pos_page": 1.02,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "ras",
+    "impr": 6374,
+    "clics": 8,
+    "pos": 5.94,
+    "page_path": "/programa-de-certificacion/ras-responsible-alpaca-standard/",
+    "pos_page": 5.93,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "haccp que significa",
+    "impr": 6219,
+    "clics": 2,
+    "pos": 7.89,
+    "page_path": "/programa-de-certificacion/haccp-peligros-y-puntos-criticos-de-control/",
+    "pos_page": 7.89,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "eti",
+    "impr": 5692,
+    "clics": 5,
+    "pos": 4.73,
+    "page_path": "/programa-de-certificacion/eti-ethical-trading-initiative/",
+    "pos_page": 4.74,
+    "tiene_pagina": true,
+    "norma": null
+   }
+  ],
+  "movil": {
+   "pct": 25.9,
+   "ctr_m": 1.12,
+   "ctr_d": 1.44,
+   "pos_m": 6.99,
+   "pos_d": 8.22
+  },
+  "paginas_total": 600,
+  "paginas_con_clic": 376
+ },
+ "Portugal": {
+  "marca": "CU",
+  "paises": [
+   "prt"
+  ],
+  "tramos": [
+   "mar–may 26",
+   "jun–sep 26"
+  ],
+  "impr": 114794,
+  "clics": 1651,
+  "queries": 6389,
+  "pos": 17.3,
+  "ctr": 1.44,
+  "primera": "2026-03-03",
+  "pct_pais": 60,
+  "impr_pais_sin_marca": 39241,
+  "top_queries": [
+   {
+    "query": "rainforest alliance",
+    "impr": 3755,
+    "clics": 1,
+    "pos": 5.25,
+    "ctr": 0.03,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/rainforest-alliance/",
+    "page_path": "/programas-de-certificacao/rainforest-alliance/",
+    "norma": "Rainforest Alliance"
+   },
+   {
+    "query": "aquacultura",
+    "impr": 3141,
+    "clics": 2,
+    "pos": 6.34,
+    "ctr": 0.06,
+    "page": "https://portugal.controlunion.com/industry/aquacultura-e-pesca/",
+    "page_path": "/industry/aquacultura-e-pesca/",
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "ocs",
+    "impr": 1400,
+    "clics": 6,
+    "pos": 4.73,
+    "ctr": 0.43,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/ocs-blended-organic-content-standard/",
+    "page_path": "/programas-de-certificacao/ocs-blended-organic-content-standard/",
+    "norma": null
+   },
+   {
+    "query": "grs",
+    "impr": 1383,
+    "clics": 42,
+    "pos": 2.2,
+    "ctr": 3.04,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/grs-global-recycled-standard/",
+    "page_path": "/programas-de-certificacao/grs-global-recycled-standard/",
+    "norma": "GRS"
+   },
+   {
+    "query": "gots",
+    "impr": 1310,
+    "clics": 5,
+    "pos": 5.76,
+    "ctr": 0.38,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/gots-global-organic-textile-standard/",
+    "page_path": "/programas-de-certificacao/gots-global-organic-textile-standard/",
+    "norma": "GOTS"
+   },
+   {
+    "query": "iso 9001",
+    "impr": 1271,
+    "clics": 0,
+    "pos": 12.26,
+    "ctr": 0.0,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+    "page_path": "/programas-de-certificacao/iso-9001/",
+    "norma": "ISO 9001"
+   },
+   {
+    "query": "sbp",
+    "impr": 1053,
+    "clics": 9,
+    "pos": 4.36,
+    "ctr": 0.85,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/sbp-sustainable-biomass-program/",
+    "page_path": "/programas-de-certificacao/sbp-sustainable-biomass-program/",
+    "norma": "SBP"
+   },
+   {
+    "query": "green key",
+    "impr": 1019,
+    "clics": 2,
+    "pos": 6.68,
+    "ctr": 0.2,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/green-key/",
+    "page_path": "/programas-de-certificacao/green-key/",
+    "norma": null
+   },
+   {
+    "query": "ccs",
+    "impr": 967,
+    "clics": 4,
+    "pos": 7.64,
+    "ctr": 0.41,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/ccs-content-claim-standard/",
+    "page_path": "/programas-de-certificacao/ccs-content-claim-standard/",
+    "norma": null
+   },
+   {
+    "query": "smeta",
+    "impr": 885,
+    "clics": 3,
+    "pos": 5.83,
+    "ctr": 0.34,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/smeta/",
+    "page_path": "/programas-de-certificacao/smeta/",
+    "norma": "SMETA / Sedex"
+   }
+  ],
+  "quick_wins": [
+   {
+    "query": "iso 9001",
+    "impr": 1271,
+    "clics": 0,
+    "pos": 12.26,
+    "ctr": 0.0,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/iso-9001/",
+    "page_path": "/programas-de-certificacao/iso-9001/",
+    "norma": "ISO 9001"
+   },
+   {
+    "query": "ccs",
+    "impr": 967,
+    "clics": 4,
+    "pos": 7.64,
+    "ctr": 0.41,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/ccs-content-claim-standard/",
+    "page_path": "/programas-de-certificacao/ccs-content-claim-standard/",
+    "norma": null
+   },
+   {
+    "query": "iso 22000",
+    "impr": 760,
+    "clics": 2,
+    "pos": 8.85,
+    "ctr": 0.26,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/iso-22000-food-safety-management-system/",
+    "page_path": "/programas-de-certificacao/iso-22000-food-safety-management-system/",
+    "norma": "ISO 22000"
+   },
+   {
+    "query": "asc",
+    "impr": 527,
+    "clics": 0,
+    "pos": 9.14,
+    "ctr": 0.0,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/asc-aquaculture-stewardship-council/",
+    "page_path": "/programas-de-certificacao/asc-aquaculture-stewardship-council/",
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "pefc",
+    "impr": 525,
+    "clics": 2,
+    "pos": 9.01,
+    "ctr": 0.38,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/pefc/",
+    "page_path": "/programas-de-certificacao/pefc/",
+    "norma": "PEFC"
+   },
+   {
+    "query": "fsc",
+    "impr": 421,
+    "clics": 1,
+    "pos": 10.9,
+    "ctr": 0.24,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/fsc-forest-stewardship-council/",
+    "page_path": "/programas-de-certificacao/fsc-forest-stewardship-council/",
+    "norma": "FSC"
+   },
+   {
+    "query": "iscc",
+    "impr": 299,
+    "clics": 0,
+    "pos": 8.58,
+    "ctr": 0.0,
+    "page": "https://portugal.controlunion.com/en/certification-program/iscc-plus/",
+    "page_path": "/en/certification-program/iscc-plus/",
+    "norma": "ISCC"
+   },
+   {
+    "query": "sfa",
+    "impr": 244,
+    "clics": 0,
+    "pos": 7.5,
+    "ctr": 0.0,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/sfa-sustainable-fibre-alliance-sustainable-cashmere-standard/",
+    "page_path": "/programas-de-certificacao/sfa-sustainable-fibre-alliance-sustainable-cashmere-standard/",
+    "norma": null
+   },
+   {
+    "query": "plástico reciclado certificado",
+    "impr": 234,
+    "clics": 0,
+    "pos": 8.64,
+    "ctr": 0.0,
+    "page": "https://portugal.controlunion.com/programas-de-certificacao/recyclass-recycled-plastics-certification/",
+    "page_path": "/programas-de-certificacao/recyclass-recycled-plastics-certification/",
+    "norma": null
+   },
+   {
+    "query": "union",
+    "impr": 217,
+    "clics": 0,
+    "pos": 9.22,
+    "ctr": 0.0,
+    "page": "https://portugal.controlunion.com/",
+    "page_path": "/",
+    "norma": null
+   }
+  ],
+  "profundo": [],
+  "canibalizacion": [
+   {
+    "query": "ocs",
+    "impr": 1678,
+    "paginas": [
+     {
+      "path": "/programas-de-certificacao/ocs-blended-organic-content-standard/",
+      "impr": 900,
+      "pos": 5.74
+     },
+     {
+      "path": "/en/certification-program/ocs-blended-organic-content-standard/",
+      "impr": 527,
+      "pos": 6.26
+     }
+    ]
+   },
+   {
+    "query": "plástico reciclado certificado",
+    "impr": 368,
+    "paginas": [
+     {
+      "path": "/programas-de-certificacao/recyclass-recycled-plastics-certification/",
+      "impr": 229,
+      "pos": 8.23
+     },
+     {
+      "path": "/programas-de-certificacao/plastic-waste-reduction-program-plastic-project-validation-and-verification/",
+      "impr": 135,
+      "pos": 47.33
+     }
+    ]
+   },
+   {
+    "query": "certificação da madeira",
+    "impr": 366,
+    "paginas": [
+     {
+      "path": "/programas-de-certificacao/fsc-forest-stewardship-council/",
+      "impr": 196,
+      "pos": 32.99
+     },
+     {
+      "path": "/industry/florestal/",
+      "impr": 149,
+      "pos": 66.6
+     }
+    ]
+   },
+   {
+    "query": "cumcs",
+    "impr": 351,
+    "paginas": [
+     {
+      "path": "/en/certification-program/cumcs-control-union-medical-cannabis-standard/",
+      "impr": 248,
+      "pos": 4.77
+     },
+     {
+      "path": "/programas-de-certificacao/cumcs-control-union-medical-cannabis-standard/",
+      "impr": 103,
+      "pos": 1.81
+     }
+    ]
+   },
+   {
+    "query": "madeira fsc",
+    "impr": 341,
+    "paginas": [
+     {
+      "path": "/programas-de-certificacao/fsc-forest-stewardship-council/",
+      "impr": 197,
+      "pos": 30.52
+     },
+     {
+      "path": "/industry/florestal/",
+      "impr": 144,
+      "pos": 57.6
+     }
+    ]
+   },
+   {
+    "query": "iscc",
+    "impr": 309,
+    "paginas": [
+     {
+      "path": "/en/certification-program/iscc-plus/",
+      "impr": 125,
+      "pos": 11.12
+     },
+     {
+      "path": "/programas-de-certificacao/iscc-plus/",
+      "impr": 102,
+      "pos": 4.98
+     },
+     {
+      "path": "/programas-de-certificacao/iscc-certified-biomass-and-bioenergy/",
+      "impr": 74,
+      "pos": 8.45
+     }
+    ]
+   }
+  ],
+  "low_ctr": [
+   {
+    "path": "/industry/aquacultura-e-pesca/",
+    "impr": 4959,
+    "clics": 3,
+    "pos": 6.21,
+    "ctr": 0.06
+   },
+   {
+    "path": "/programas-de-certificacao/rainforest-alliance/",
+    "impr": 4829,
+    "clics": 10,
+    "pos": 6.29,
+    "ctr": 0.21
+   },
+   {
+    "path": "/programas-de-certificacao/verified-carbon-standard/",
+    "impr": 4101,
+    "clics": 18,
+    "pos": 8.74,
+    "ctr": 0.44
+   },
+   {
+    "path": "/programas-de-certificacao/green-key/",
+    "impr": 2722,
+    "clics": 6,
+    "pos": 6.51,
+    "ctr": 0.22
+   },
+   {
+    "path": "/en/certification-program/2bsvs/",
+    "impr": 1208,
+    "clics": 2,
+    "pos": 7.55,
+    "ctr": 0.17
+   }
+  ],
+  "top_pages": [
+   {
+    "path": "/",
+    "impr": 3117,
+    "clics": 573,
+    "pos": 5.13,
+    "ctr": 18.38
+   },
+   {
+    "path": "/programas-de-certificacao/grs-global-recycled-standard/",
+    "impr": 3009,
+    "clics": 70,
+    "pos": 4.1,
+    "ctr": 2.33
+   },
+   {
+    "path": "/en/",
+    "impr": 3311,
+    "clics": 62,
+    "pos": 11.13,
+    "ctr": 1.87
+   },
+   {
+    "path": "/programas-de-certificacao/regenagri/",
+    "impr": 735,
+    "clics": 55,
+    "pos": 3.65,
+    "ctr": 7.48
+   },
+   {
+    "path": "/programas-de-certificacao/gots-global-organic-textile-standard/",
+    "impr": 2645,
+    "clics": 50,
+    "pos": 5.42,
+    "ctr": 1.89
+   },
+   {
+    "path": "/contacto/",
+    "impr": 1806,
+    "clics": 48,
+    "pos": 6.43,
+    "ctr": 2.66
+   }
+  ],
+  "perdidas": [
+   {
+    "query": "iso 9001",
+    "antes": 1174,
+    "despues": 85,
+    "page_path": "/programas-de-certificacao/iso-9001/"
+   },
+   {
+    "query": "earthcheck",
+    "antes": 307,
+    "despues": 73,
+    "page_path": "/en/certification-program/earth-check/"
+   }
+  ],
+  "ganadas": [
+   {
+    "query": "iso 22000",
+    "antes": 3,
+    "despues": 680
+   }
+  ],
+  "demanda": [
+   {
+    "query": "aquacultura",
+    "impr": 4451,
+    "clics": 2,
+    "pos": 6.14,
+    "page_path": "/industry/aquacultura-e-pesca/",
+    "pos_page": 6.14,
+    "tiene_pagina": true,
+    "norma": "MSC / ASC / BAP"
+   },
+   {
+    "query": "green key",
+    "impr": 1424,
+    "clics": 2,
+    "pos": 7.06,
+    "page_path": "/programas-de-certificacao/green-key/",
+    "pos_page": 6.92,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "iso 9001",
+    "impr": 1303,
+    "clics": 0,
+    "pos": 12.88,
+    "page_path": "/programas-de-certificacao/iso-9001/",
+    "pos_page": 12.87,
+    "tiene_pagina": true,
+    "norma": "ISO 9001"
+   },
+   {
+    "query": "carbon neutral",
+    "impr": 1172,
+    "clics": 0,
+    "pos": 4.34,
+    "page_path": "/programas-de-certificacao/pas-2060-carbon-neutral/",
+    "pos_page": 4.32,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "vcs",
+    "impr": 1092,
+    "clics": 0,
+    "pos": 9.25,
+    "page_path": "/programas-de-certificacao/verified-carbon-standard/",
+    "pos_page": 9.25,
+    "tiene_pagina": false,
+    "norma": null
+   },
+   {
+    "query": "sbp",
+    "impr": 1066,
+    "clics": 9,
+    "pos": 4.72,
+    "page_path": "/programas-de-certificacao/sbp-sustainable-biomass-program/",
+    "pos_page": 4.52,
+    "tiene_pagina": true,
+    "norma": "SBP"
+   },
+   {
+    "query": "ccs",
+    "impr": 1007,
+    "clics": 4,
+    "pos": 8.67,
+    "page_path": "/programas-de-certificacao/ccs-content-claim-standard/",
+    "pos_page": 8.45,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "gas free certification",
+    "impr": 979,
+    "clics": 0,
+    "pos": 46.73,
+    "page_path": "/en/service/inspections-services/commodity-inspections/gas-free-certification/",
+    "pos_page": 46.73,
+    "tiene_pagina": true,
+    "norma": null
+   }
+  ],
+  "movil": {
+   "pct": 26.4,
+   "ctr_m": 1.0,
+   "ctr_d": 1.6,
+   "pos_m": 9.13,
+   "pos_d": 14.97
+  },
+  "paginas_total": 266,
+  "paginas_con_clic": 136
+ },
+ "Américas": {
+  "marca": "PS",
+  "paises": [
+   "arg"
+  ],
+  "tramos": [
+   "mar–may 26",
+   "jun–sep 26"
+  ],
+  "impr": 58359,
+  "clics": 805,
+  "queries": 2562,
+  "pos": 9.5,
+  "ctr": 1.38,
+  "primera": "2026-03-22",
+  "pct_pais": 9,
+  "impr_pais_sin_marca": 208,
+  "top_queries": [
+   {
+    "query": "peterso",
+    "impr": 19,
+    "clics": 0,
+    "pos": 10.47,
+    "ctr": 0.0,
+    "page": "https://americas.peterson-solutions.com/contact/",
+    "page_path": "/contact/",
+    "norma": null
+   },
+   {
+    "query": "peterdon",
+    "impr": 17,
+    "clics": 0,
+    "pos": 11.29,
+    "ctr": 0.0,
+    "page": "https://americas.peterson-solutions.com/contact/",
+    "page_path": "/contact/",
+    "norma": null
+   },
+   {
+    "query": "pererson",
+    "impr": 17,
+    "clics": 0,
+    "pos": 10.59,
+    "ctr": 0.0,
+    "page": "https://americas.peterson-solutions.com/",
+    "page_path": "/",
+    "norma": null
+   },
+   {
+    "query": "perteson",
+    "impr": 16,
+    "clics": 0,
+    "pos": 10.62,
+    "ctr": 0.0,
+    "page": "https://americas.peterson-solutions.com/contact/",
+    "page_path": "/contact/",
+    "norma": null
+   },
+   {
+    "query": "peteraon",
+    "impr": 14,
+    "clics": 0,
+    "pos": 11.29,
+    "ctr": 0.0,
+    "page": "https://americas.peterson-solutions.com/",
+    "page_path": "/",
+    "norma": null
+   },
+   {
+    "query": "perterson",
+    "impr": 14,
+    "clics": 0,
+    "pos": 10.71,
+    "ctr": 0.0,
+    "page": "https://americas.peterson-solutions.com/",
+    "page_path": "/",
+    "norma": null
+   },
+   {
+    "query": "petersen solutions",
+    "impr": 9,
+    "clics": 0,
+    "pos": 1.33,
+    "ctr": 0.0,
+    "page": "https://americas.peterson-solutions.com/en/",
+    "page_path": "/en/",
+    "norma": null
+   },
+   {
+    "query": "petersin",
+    "impr": 7,
+    "clics": 0,
+    "pos": 10.86,
+    "ctr": 0.0,
+    "page": "https://americas.peterson-solutions.com/contact/",
+    "page_path": "/contact/",
+    "norma": null
+   },
+   {
+    "query": "antonella mattia",
+    "impr": 6,
+    "clics": 2,
+    "pos": 1.67,
+    "ctr": 33.33,
+    "page": "https://americas.peterson-solutions.com/en/people-story/antonella-peterson-technologies-argentina/",
+    "page_path": "/en/people-story/antonella-peterson-technologies-argentina/",
+    "norma": null
+   },
+   {
+    "query": "peterso.",
+    "impr": 5,
+    "clics": 0,
+    "pos": 11.4,
+    "ctr": 0.0,
+    "page": "https://americas.peterson-solutions.com/contact/",
+    "page_path": "/contact/",
+    "norma": null
+   }
+  ],
+  "quick_wins": [],
+  "profundo": [],
+  "canibalizacion": [
+   {
+    "query": "peterson",
+    "impr": 4942,
+    "paginas": [
+     {
+      "path": "/",
+      "impr": 2733,
+      "pos": 7.96
+     },
+     {
+      "path": "/contact/",
+      "impr": 1642,
+      "pos": 10.35
+     }
+    ]
+   },
+   {
+    "query": "peterson solutions brasil",
+    "impr": 351,
+    "paginas": [
+     {
+      "path": "/pt-br/",
+      "impr": 84,
+      "pos": 1.08
+     },
+     {
+      "path": "/pt-br/vacancies/",
+      "impr": 72,
+      "pos": 1.97
+     },
+     {
+      "path": "/pt-br/home/sobre-peterson/",
+      "impr": 71,
+      "pos": 2.34
+     }
+    ]
+   }
+  ],
+  "low_ctr": [
+   {
+    "path": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+    "impr": 20511,
+    "clics": 46,
+    "pos": 8.4,
+    "ctr": 0.22
+   },
+   {
+    "path": "/en/",
+    "impr": 13242,
+    "clics": 52,
+    "pos": 6.82,
+    "ctr": 0.39
+   },
+   {
+    "path": "/en/people-stories/",
+    "impr": 1208,
+    "clics": 0,
+    "pos": 4.6,
+    "ctr": 0.0
+   }
+  ],
+  "top_pages": [
+   {
+    "path": "/pt-br/",
+    "impr": 4151,
+    "clics": 318,
+    "pos": 5.79,
+    "ctr": 7.66
+   },
+   {
+    "path": "/",
+    "impr": 5630,
+    "clics": 131,
+    "pos": 7.35,
+    "ctr": 2.33
+   },
+   {
+    "path": "/contact/",
+    "impr": 3668,
+    "clics": 55,
+    "pos": 10.22,
+    "ctr": 1.5
+   },
+   {
+    "path": "/en/",
+    "impr": 13242,
+    "clics": 52,
+    "pos": 6.82,
+    "ctr": 0.39
+   },
+   {
+    "path": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+    "impr": 20511,
+    "clics": 46,
+    "pos": 8.4,
+    "ctr": 0.22
+   },
+   {
+    "path": "/pt-br/vacancies/",
+    "impr": 654,
+    "clics": 32,
+    "pos": 4.87,
+    "ctr": 4.89
+   }
+  ],
+  "perdidas": [],
+  "ganadas": [],
+  "demanda": [
+   {
+    "query": "red iii",
+    "impr": 1611,
+    "clics": 4,
+    "pos": 11.2,
+    "page_path": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+    "pos_page": 10.71,
+    "tiene_pagina": true,
+    "norma": "RED II/III"
+   },
+   {
+    "query": "eu red iii",
+    "impr": 486,
+    "clics": 2,
+    "pos": 8.45,
+    "page_path": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+    "pos_page": 8.77,
+    "tiene_pagina": true,
+    "norma": "RED II/III"
+   },
+   {
+    "query": "red iii directive",
+    "impr": 280,
+    "clics": 1,
+    "pos": 11.16,
+    "page_path": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+    "pos_page": 10.92,
+    "tiene_pagina": true,
+    "norma": "RED II/III"
+   },
+   {
+    "query": "red iii eu",
+    "impr": 152,
+    "clics": 0,
+    "pos": 8.38,
+    "page_path": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+    "pos_page": 8.22,
+    "tiene_pagina": true,
+    "norma": "RED II/III"
+   },
+   {
+    "query": "renewable energy directive iii",
+    "impr": 146,
+    "clics": 0,
+    "pos": 13.64,
+    "page_path": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+    "pos_page": 13.18,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "renewable energy directive (red iii)",
+    "impr": 116,
+    "clics": 0,
+    "pos": 9.59,
+    "page_path": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+    "pos_page": 9.65,
+    "tiene_pagina": true,
+    "norma": "RED II/III"
+   },
+   {
+    "query": "rediii",
+    "impr": 108,
+    "clics": 0,
+    "pos": 10.07,
+    "page_path": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+    "pos_page": 10.38,
+    "tiene_pagina": false,
+    "norma": null
+   },
+   {
+    "query": "red iii europe",
+    "impr": 101,
+    "clics": 1,
+    "pos": 8.49,
+    "page_path": "/en/insight/red-iii-transforming-europes-renewable-energy-landscape/",
+    "pos_page": 8.7,
+    "tiene_pagina": true,
+    "norma": "RED II/III"
+   }
+  ],
+  "movil": {
+   "pct": 20.7,
+   "ctr_m": 1.64,
+   "ctr_d": 1.31,
+   "pos_m": 8.14,
+   "pos_d": 8.92
+  },
+  "paginas_total": 140,
+  "paginas_con_clic": 54
+ },
+ "Iberia": {
+  "marca": "PS",
+  "paises": [
+   "esp",
+   "prt"
+  ],
+  "tramos": [
+   "mar–may 26",
+   "jun–sep 26"
+  ],
+  "impr": 25834,
+  "clics": 706,
+  "queries": 1292,
+  "pos": 13.2,
+  "ctr": 2.73,
+  "primera": "2026-03-22",
+  "pct_pais": 42,
+  "impr_pais_sin_marca": 3507,
+  "top_queries": [
+   {
+    "query": "csrd",
+    "impr": 813,
+    "clics": 0,
+    "pos": 21.85,
+    "ctr": 0.0,
+    "page": "https://iberia.peterson-solutions.com/en/csrd-es/",
+    "page_path": "/en/csrd-es/",
+    "norma": "CSRD"
+   },
+   {
+    "query": "finanzas sostenibles",
+    "impr": 257,
+    "clics": 0,
+    "pos": 25.54,
+    "ctr": 0.0,
+    "page": "https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/",
+    "page_path": "/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/",
+    "norma": null
+   },
+   {
+    "query": "reportes de sostenibilidad",
+    "impr": 217,
+    "clics": 0,
+    "pos": 23.79,
+    "ctr": 0.0,
+    "page": "https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+    "page_path": "/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+    "norma": null
+   },
+   {
+    "query": "cumplimiento eudr mantenimiento",
+    "impr": 173,
+    "clics": 0,
+    "pos": 50.91,
+    "ctr": 0.0,
+    "page": "https://iberia.peterson-solutions.com/eudr/",
+    "page_path": "/eudr/",
+    "norma": "EUDR"
+   },
+   {
+    "query": "csrd que es",
+    "impr": 147,
+    "clics": 0,
+    "pos": 34.59,
+    "ctr": 0.0,
+    "page": "https://iberia.peterson-solutions.com/en/csrd-es/",
+    "page_path": "/en/csrd-es/",
+    "norma": "CSRD"
+   },
+   {
+    "query": "reporte de sostenibilidad",
+    "impr": 132,
+    "clics": 0,
+    "pos": 25.45,
+    "ctr": 0.0,
+    "page": "https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+    "page_path": "/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+    "norma": null
+   },
+   {
+    "query": "csdr",
+    "impr": 124,
+    "clics": 0,
+    "pos": 38.43,
+    "ctr": 0.0,
+    "page": "https://iberia.peterson-solutions.com/en/csrd-es/",
+    "page_path": "/en/csrd-es/",
+    "norma": null
+   },
+   {
+    "query": "csrd sostenibilidad",
+    "impr": 119,
+    "clics": 0,
+    "pos": 31.95,
+    "ctr": 0.0,
+    "page": "https://iberia.peterson-solutions.com/en/csrd-es/",
+    "page_path": "/en/csrd-es/",
+    "norma": "CSRD"
+   },
+   {
+    "query": "rendición de informes csrd",
+    "impr": 100,
+    "clics": 0,
+    "pos": 39.28,
+    "ctr": 0.0,
+    "page": "https://iberia.peterson-solutions.com/en/csrd-es/",
+    "page_path": "/en/csrd-es/",
+    "norma": "CSRD"
+   },
+   {
+    "query": "ecgt",
+    "impr": 100,
+    "clics": 1,
+    "pos": 2.85,
+    "ctr": 1.0,
+    "page": "https://iberia.peterson-solutions.com/service/estrategia-y-gestion-de-sostenibilidad/eu-green-consumer-directive-ecgt-compliance/",
+    "page_path": "/service/estrategia-y-gestion-de-sostenibilidad/eu-green-consumer-directive-ecgt-compliance/",
+    "norma": null
+   }
+  ],
+  "quick_wins": [],
+  "profundo": [
+   {
+    "query": "csrd",
+    "impr": 813,
+    "clics": 0,
+    "pos": 21.85,
+    "ctr": 0.0,
+    "page": "https://iberia.peterson-solutions.com/en/csrd-es/",
+    "page_path": "/en/csrd-es/",
+    "norma": "CSRD"
+   }
+  ],
+  "canibalizacion": [
+   {
+    "query": "peterson solutions",
+    "impr": 2451,
+    "paginas": [
+     {
+      "path": "/",
+      "impr": 722,
+      "pos": 1.19
+     },
+     {
+      "path": "/en/",
+      "impr": 491,
+      "pos": 1.7
+     }
+    ]
+   },
+   {
+    "query": "ecgt",
+    "impr": 239,
+    "paginas": [
+     {
+      "path": "/service/estrategia-y-gestion-de-sostenibilidad/eu-green-consumer-directive-ecgt-compliance/",
+      "impr": 189,
+      "pos": 3.32
+     },
+     {
+      "path": "/pt-pt/service/servicos-de-sustentabilidade/eu-green-consumer-directive-ecgt-compliance/",
+      "impr": 49,
+      "pos": 5.88
+     }
+    ]
+   }
+  ],
+  "low_ctr": [
+   {
+    "path": "/en/home/about-us/",
+    "impr": 4717,
+    "clics": 9,
+    "pos": 6.99,
+    "ctr": 0.19
+   },
+   {
+    "path": "/home/sobre-peterson/",
+    "impr": 1626,
+    "clics": 8,
+    "pos": 5.35,
+    "ctr": 0.49
+   }
+  ],
+  "top_pages": [
+   {
+    "path": "/",
+    "impr": 4205,
+    "clics": 402,
+    "pos": 5.13,
+    "ctr": 9.56
+   },
+   {
+    "path": "/en/",
+    "impr": 3180,
+    "clics": 56,
+    "pos": 6.37,
+    "ctr": 1.76
+   },
+   {
+    "path": "/contacto/",
+    "impr": 885,
+    "clics": 25,
+    "pos": 4.68,
+    "ctr": 2.82
+   },
+   {
+    "path": "/service/estrategia-y-gestion-de-sostenibilidad/eu-green-consumer-directive-ecgt-compliance/",
+    "impr": 914,
+    "clics": 21,
+    "pos": 5.6,
+    "ctr": 2.3
+   },
+   {
+    "path": "/eudr/",
+    "impr": 623,
+    "clics": 21,
+    "pos": 21.67,
+    "ctr": 3.37
+   },
+   {
+    "path": "/insight/eudr-ya-esta-publicada-la-clasificacion-de-riesgo-pais/",
+    "impr": 424,
+    "clics": 14,
+    "pos": 5.57,
+    "ctr": 3.3
+   }
+  ],
+  "perdidas": [],
+  "ganadas": [],
+  "demanda": [
+   {
+    "query": "csrd",
+    "impr": 1456,
+    "clics": 0,
+    "pos": 21.49,
+    "page_path": "/en/csrd-es/",
+    "pos_page": 21.49,
+    "tiene_pagina": true,
+    "norma": "CSRD"
+   },
+   {
+    "query": "finanzas sostenibles",
+    "impr": 269,
+    "clics": 0,
+    "pos": 25.41,
+    "page_path": "/service/estrategia-y-gestion-de-sostenibilidad/finanzas-sostenibles/",
+    "pos_page": 25.41,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "ecgt",
+    "impr": 239,
+    "clics": 2,
+    "pos": 3.87,
+    "page_path": "/service/estrategia-y-gestion-de-sostenibilidad/eu-green-consumer-directive-ecgt-compliance/",
+    "pos_page": 3.32,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "cbam services",
+    "impr": 238,
+    "clics": 0,
+    "pos": 28.56,
+    "page_path": "/en/cbam/",
+    "pos_page": 28.56,
+    "tiene_pagina": true,
+    "norma": "CBAM"
+   },
+   {
+    "query": "reportes de sostenibilidad",
+    "impr": 219,
+    "clics": 0,
+    "pos": 23.85,
+    "page_path": "/service/estrategia-y-gestion-de-sostenibilidad/estrategia-de-sostenibilidad-y-reporte/",
+    "pos_page": 23.85,
+    "tiene_pagina": true,
+    "norma": null
+   },
+   {
+    "query": "csrd sostenibilidad",
+    "impr": 183,
+    "clics": 0,
+    "pos": 31.19,
+    "page_path": "/en/csrd-es/",
+    "pos_page": 31.19,
+    "tiene_pagina": true,
+    "norma": "CSRD"
+   },
+   {
+    "query": "cumplimiento eudr mantenimiento",
+    "impr": 173,
+    "clics": 0,
+    "pos": 50.91,
+    "page_path": "/eudr/",
+    "pos_page": 53.67,
+    "tiene_pagina": true,
+    "norma": "EUDR"
+   },
+   {
+    "query": "eubr",
+    "impr": 160,
+    "clics": 0,
+    "pos": 13.46,
+    "page_path": "/en/insight/everything-you-need-to-know-about-the-new-eu-battery-regulation/",
+    "pos_page": 14.66,
+    "tiene_pagina": false,
+    "norma": null
+   }
+  ],
+  "movil": {
+   "pct": 25.0,
+   "ctr_m": 2.28,
+   "ctr_d": 2.9,
+   "pos_m": 9.59,
+   "pos_d": 10.95
+  },
+  "paginas_total": 144,
+  "paginas_con_clic": 54
+ }
+}
