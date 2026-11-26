@@ -6,7 +6,8 @@ descartar las que ya no tengan sentido. Ampliado el 10 nov 2026: que sea **autom
 cerrado, cargarlo al tablero y revisar **SEM y SEO** sin que nadie lo pida. Un mes nunca se muestra como cerrado con
 datos parciales (en oct 2026 el tablero mostró octubre con datos hasta el 18 porque nadie volvió a extraer).
 
-La corre una tarea programada el **día 4 de cada mes a las 9:00**: Google Ads consolida el mes en unas 48 horas y
+La corre una tarea programada el **día 4 de cada mes a las 9:00** (desde el 26 nov 2026, en la nube: ver
+`nube/TAREAS.md`): Google Ads consolida el mes en unas 48 horas y
 Search Console publica los datos finales con 2 o 3 días de atraso, así que el día 4 ya está el último día del mes en
 las tres fuentes. Si se corre a mano, seguir los mismos pasos.
 
@@ -15,7 +16,7 @@ impacto, sin tocar tarjetas) y el **día 5** «recomendaciones-mensuales-sem» h
 y actualización de las «propuesta» y «en proceso» con todo el histórico + el mes cerrado). Si el día 5 los datos de
 `M` no están cargados, esa tarea hace antes los pasos 1 y 2.
 
-Antes de empezar, leé `proyecto/CLAUDE.md` completo (marcas, accesos, reglas de los cruces y límites de los datos).
+Antes de empezar, leé `analisis/CLAUDE.md` completo (marcas, accesos, reglas de los cruces y límites de los datos).
 
 ---
 
@@ -28,7 +29,7 @@ Antes de empezar, leé `proyecto/CLAUDE.md` completo (marcas, accesos, reglas de
 
 ## 1. Actualizar los datos (solo lectura)
 
-Desde `proyecto/scripts/`:
+Desde `analisis/scripts/`:
 
 ```
 python ads_estructura.py                                                # catálogo actual: campañas, grupos, keywords, negativos, anuncios
@@ -55,11 +56,11 @@ uno parcial. **Control de mes completo** (si alguno falla, **no sigas**: dejá a
 
 Proyecto Supabase `cogdfbonpvvuzhurmvlq`, esquema `seo_sem`.
 
-**Si existe `proyecto/supabase-service.json`** (clave de servicio local, como `meta-ads.json`; nunca se lee en voz alta
+**Si existe `analisis/supabase-service.json`** (solo en la compu; en la nube no existe y se usa el conector. Clave de servicio local, como `meta-ads.json`; nunca se lee en voz alta
 ni se copia a otro lado), cargá directo por REST, sin pasar SQL por el conector:
 
 ```
-cd "../../Marcomms SEO-SEM"
+cd ../..                     # raíz del repo (scripts/publicar.py)
 python scripts/publicar.py --solo dia --desde-mes <M>
 python scripts/publicar.py --solo cambios
 python scripts/publicar.py --solo ga4 --desde-mes <M>
@@ -72,7 +73,7 @@ bloque de abajo: cruzan las dos cuentas de Ads por `ads_id` y el modo REST no lo
 **Si no existe**, por el conector:
 
 ```
-cd "../../Marcomms SEO-SEM"
+cd ../..                     # raíz del repo (scripts/publicar.py)
 python scripts/publicar.py --sql <carpeta>/campanas.sql     --solo campanas
 python scripts/publicar.py --sql <carpeta>/historico.sql    --solo historico --desde-mes <M>
 python scripts/publicar.py --sql <carpeta>/dia.sql          --solo dia       --desde-mes <M>
@@ -90,7 +91,7 @@ GA4, sesiones por sitio de M; para los cambios, cantidad de filas y md5 de `stri
 no cuadra, corregilo antes de seguir. El SQL de cambios puede pesar >100 KB: mandalo en tandas de ~15 KB.
 
 **Si la sesión no tiene el conector de Supabase** (pasó el 3 nov 2026): no te quedes esperando. Dejá los `.sql` en
-`proyecto/informe/carga_<R>/`, seguí con el análisis y escribí la revisión igual (paso 6, sin ejecutar), y en el
+`analisis/informe/carga_<R>/`, seguí con el análisis y escribí la revisión igual (paso 6, sin ejecutar), y en el
 resumen poné primero «Falta cargar: correr los .sql de informe/carga_<R>/ y revision_*_<R>.sql».
 
 ## 3. Leer el tablero actual
@@ -253,5 +254,7 @@ El mensaje final de la sesión es un resumen corto de eso: el detalle vive en el
 ## Límites
 
 - Google Ads, Search Console y GA4 son **solo lectura**: nunca se cambia nada en las cuentas.
-- No se modifica el código del tablero ni se hace commit en el repo en esta rutina.
+- No se modifica el código del tablero. En la compu no se hace commit en esta rutina. En la nube sí, porque la VM se
+  borra al terminar: se commitea solo lo generado dentro de `analisis/` (datos, informe, `docs/memoria/`) y se abre un
+  PR a `main`, como dice `nube/TAREAS.md`.
 - Nunca se pegan tokens, `client_secret.json`, `token*.json` ni `google-ads.yaml` en ningún lado.

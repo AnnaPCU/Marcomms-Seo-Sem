@@ -3,7 +3,7 @@
 meta_mcp_headers.py — encabezado de autorización para el servidor MCP oficial de Meta (https://mcp.facebook.com/ads).
 
 Lo ejecuta Claude Code al conectarse (headersHelper en .mcp.json): imprime {"Authorization": "Bearer <token>"} con el
-token de usuario del sistema guardado en proyecto/meta-ads.json. Así el token no queda copiado en la configuración y,
+token de usuario del sistema guardado en analisis/meta-ads.json. Así el token no queda copiado en la configuración y,
 si se regenera, alcanza con cambiarlo en meta-ads.json.
 """
 import json, os

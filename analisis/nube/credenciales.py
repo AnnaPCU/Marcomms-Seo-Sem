@@ -8,7 +8,10 @@ de entorno del entorno de nube «SEO-SEM» (cada una en base64, una línea). Lo 
   SEOSEM_TOKEN_GA4        → token_ga4.json          (GA4)
   SEOSEM_GOOGLE_ADS_YAML  → google-ads.yaml         (Google Ads: developer token + refresh token)
   SEOSEM_META_ADS         → meta-ads.json           (Meta Ads, opcional)
-  SEOSEM_SUPABASE_SERVICE → supabase-service.json   (carga por REST de publicar.py, opcional)
+  SEOSEM_SUPABASE_SERVICE → supabase-service.json   (no hace falta: en la nube se carga por el conector de Supabase)
+
+Meta también toma `META_ACCESS_TOKEN` (el token solo, en texto, sin base64) si está definida: tiene prioridad sobre el
+de meta-ads.json (scripts/meta_api.py). Sirve para renovar el token desde cualquier dispositivo, sin la compu.
 
 Nunca imprime valores: solo qué archivo armó y cuál falta. Los archivos quedan en la VM y están en .gitignore.
 En la compu no hace falta: los archivos ya existen (nube/preparar_secretos.py arma las variables desde ellos).
@@ -24,6 +27,7 @@ MAPA = {
     "SEOSEM_META_ADS": "meta-ads.json",
     "SEOSEM_SUPABASE_SERVICE": "supabase-service.json",
 }
+OPCIONALES = {"SEOSEM_SUPABASE_SERVICE"}
 
 if __name__ == "__main__":
     hechos, faltan = [], []
@@ -31,7 +35,8 @@ if __name__ == "__main__":
         valor = os.environ.get(var, "").strip().strip('"')
         destino = os.path.join(ROOT, archivo)
         if not valor:
-            faltan.append(var)
+            if var not in OPCIONALES:
+                faltan.append(var)
             continue
         with open(destino, "wb") as f:
             f.write(base64.b64decode(valor))

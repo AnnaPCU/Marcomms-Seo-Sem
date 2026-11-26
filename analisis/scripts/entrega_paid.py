@@ -34,7 +34,11 @@ from collections import defaultdict
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 sys.path.insert(0, HERE)
-REPO_DEF = os.path.normpath(os.path.join(ROOT, "..", "_repos", "paid-entrega"))
+# clon de MarComms-Reports: en la compu, el sparse de _repos/paid-entrega; en la nube, el que deja add_repo junto a este
+# repo (/home/user/marcomms-reports con permiso de push, /home/user/annapcu/marcomms-reports si es solo lectura)
+CLONES = [os.path.join(ROOT, "..", "_repos", "paid-entrega"), os.path.join(ROOT, "..", "..", "marcomms-reports"),
+          os.path.join(ROOT, "..", "..", "annapcu", "marcomms-reports")]
+REPO_DEF = os.path.normpath(next((c for c in CLONES if os.path.isdir(os.path.join(c, ".git"))), CLONES[0]))
 PREFIJOS_GOOGLE = ("CU España", "CU Portugal", "CU Canada", "PS Argentina", "CU United States", "CU Argentina",
                    "PCU - España", "PCU - Argentina")
 AHORA = dt.datetime.now()
@@ -174,7 +178,7 @@ def google(mes, carpeta):
     leeme = [f"# Google Ads · {mes}", "",
              f"- Cuenta: {cid} (Google Ads, solo lectura por API). Moneda: {', '.join(monedas) or '—'}, sin convertir.",
              f"- Rango: {a} a {b} (mes completo, ya cerrado).",
-             f"- Extraído: {AHORA:%Y-%m-%d %H:%M} (hora de Argentina) con `proyecto/scripts/entrega_paid.py` de SEO-SEM.",
+             f"- Extraído: {AHORA:%Y-%m-%d %H:%M} (hora de Argentina) con `analisis/scripts/entrega_paid.py` de SEO-SEM.",
              f"- {len(filas_c)} campañas Search con actividad · {len(filas_s)} filas semanales · {len(filas_t)} términos.",
              f"- Totales: {tot(filas_c)[0]} impr. · {tot(filas_c)[1]} clics · {tot(filas_c)[2]:.2f} {'/'.join(monedas)} · "
              f"{n2(sum(float(r['Conversions']) for r in filas_c))} conv.", ""]
@@ -298,7 +302,7 @@ def meta(mes, base, repo):
             leeme = [f"# Meta Ads · {marca} - {evento}", "",
                      f"- Cuenta: {info['name']} ({cuenta}). Moneda: {moneda}, sin convertir.",
                      f"- Rango: {desde} a {hasta} (primer y último día con gasto del vuelo).",
-                     f"- Extraído: {AHORA:%Y-%m-%d %H:%M} (hora de Argentina) por Marketing API con `proyecto/scripts/entrega_paid.py`.",
+                     f"- Extraído: {AHORA:%Y-%m-%d %H:%M} (hora de Argentina) por Marketing API con `analisis/scripts/entrega_paid.py`.",
                      "- Campañas del vuelo:"] + [f"  - {c['name']} ({c['objective']}, {c['desde']} a {c['hasta']})" for c in cs] + [
                      "- Destinos: deducidos de la URL o el CTA de cada creativo (typeform / hsform / whatsapp / phone / web);"
                      " revisarlos si un anuncio lleva a otro lado.",

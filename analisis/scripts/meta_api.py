@@ -2,7 +2,7 @@
 """
 meta_api.py — cliente mínimo de la Marketing API de Meta (Graph API), compartido por meta_export.py y meta_subir.py.
 
-Credenciales en proyecto/meta-ads.json (no se sube a ningún lado ni se pega en el chat):
+Credenciales en analisis/meta-ads.json (no se sube a ningún lado ni se pega en el chat):
   {
     "access_token": "<token de usuario del sistema, rol Empleado>",
     "version": "v26.0",

@@ -45,7 +45,8 @@ docs/             DECISIONES.md
 4. La contraseña del equipo no se escribe en el repo ni en la documentación. Ninguna clave secreta en el repo ni en Vercel: solo `VITE_SUPABASE_URL` y `VITE_SUPABASE_PUBLISHABLE_KEY`.
    La carga de datos se hace con SQL generado (`scripts/publicar.py --sql`), sin service role key.
 5. Antes de pushear: `npm run verificar` (typecheck + tests + build) tiene que pasar.
-6. Una sola rama `main`; cada push despliega a producción en Vercel.
+6. Una sola rama `main`; cada push despliega a producción en Vercel, salvo los que solo tocan `analisis/`
+   (`ignoreCommand` de `vercel.json`).
 7. Español rioplatense en la interfaz y en los comentarios. Sin emojis.
 
 ## Cómo se renueva cada mes
@@ -54,3 +55,6 @@ docs/             DECISIONES.md
 2. `python scripts/exportar_recomendaciones.py AAAA-MM` allá → `informe/recomendaciones.json`.
 3. Acá: `python scripts/publicar.py --sql supabase/seed/carga_AAAA-MM.sql` y correr ese SQL en Supabase.
    Las tarjetas nuevas entran como «propuesta»; las que ya existían conservan su estado.
+
+Desde el 26 nov 2026 esto lo hacen tareas programadas en la nube (entorno «SEO-SEM»), que abren un PR a `main` con lo
+que generan: ver `analisis/nube/TAREAS.md`.
