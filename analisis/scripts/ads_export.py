@@ -124,7 +124,7 @@ def main():
 
     if a.test:
         q = "SELECT customer.id, customer.descriptive_name, customer.currency_code, customer.time_zone FROM customer LIMIT 1"
-        filas = consultar(client, cid, q, lambda **k: log(reporte="test", **k))
+        filas = consultar(client, cid, q, lambda **k: None)  # la prueba no se anota en el log (es un archivo del repo)
         print("Acceso OK:" if filas else "Sin acceso.", filas[:1])
         return
 

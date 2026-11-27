@@ -27,7 +27,7 @@ Claude no puede crear cuentas, apps ni tokens, ni recibirlos por chat.
    - la página de Facebook (y la cuenta de Instagram) con las que se publican los anuncios.
 4. **Generar el token** de ese usuario del sistema para la app, con permisos `ads_read`, `ads_management`,
    `ads_mcp_management`, `business_management`, `pages_show_list`, `pages_read_engagement`.
-5. **Guardarlo uno mismo** en `proyecto/meta-ads.json` (no pegarlo en el chat ni subirlo a ningún lado):
+5. **Guardarlo uno mismo** en `analisis/meta-ads.json` (no pegarlo en el chat ni subirlo a ningún lado):
    ```json
    {"access_token": "EAAG...", "version": "v26.0", "cuentas": {"act_1234567890": "CU Argentina"}}
    ```

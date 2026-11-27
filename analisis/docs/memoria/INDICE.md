@@ -19,3 +19,4 @@ un acceso, una decisión), actualizá el archivo que corresponda acá y commitea
 - [Prueba Google Cloud](prueba-google-cloud.md) — el proyecto de las APIs GSC/GA4/Ads vence ~15 dic 2026; prueba y plan B
 - [Informes de landing con marca](informes-landing-con-marca.md) — siempre HTML lindo y dinámico, marca CU o PS según la landing: JSON + scripts/informe_landing.py
 - [Entrega Paid a MarComms-Reports](entrega-paid-marcomms-reports.md) — script entrega_paid.py, clon sparse, tarea día 3; oct entregado
+- [Sesiones en la nube](sesiones-nube.md) — entorno «SEO-SEM» probado el 26 nov 2026; tareas programadas en la nube con PR a main; qué sigue haciendo una persona
